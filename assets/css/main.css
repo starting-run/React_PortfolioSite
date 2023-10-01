@@ -33,6 +33,14 @@ body {
 	line-height: 1;
 }
 
+img {
+	max-width: 100%;
+}
+
+video {
+	max-width: 100%;
+}
+
 ol, ul {
 	list-style: none;
 }
