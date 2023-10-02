@@ -1,18 +1,4 @@
 (function($) {
-
-    $("a").click(function () {
-        var url = $(this).attr("href");
-        $("body div").animate({
-            "opacity": "0",
-            "top": "10px"
-        },500, function () {
-            document.location.href = url;
-        });
-        
-        return false;
-    });
-
-
 	var	$window = $(window),
 		$body = $('body'),
 		$main = $('#main');
