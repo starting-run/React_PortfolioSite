@@ -13,6 +13,10 @@
 			xsmall:   [ '361px',   '480px'  ],
 			xxsmall:  [ null,      '360px'  ]
 		});
+	// Channel Talk	
+		ChannelIO('boot', {
+			"pluginKey": "cc156681-cec3-4b57-84d9-cbc688001283" // fill your plugin key
+		});
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
