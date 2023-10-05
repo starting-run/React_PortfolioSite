@@ -2834,13 +2834,13 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
-			margin-left: 2em;
+			width: calc(25% - 3em);
+			margin-left: 3em;
 			margin-top: 3em;
 			padding: 0;
 		}
 
-			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3) {
+			.features li:nth-child(1), .features li:nth-child(2), .features li:nth-child(3), .features li:nth-child(4) {
 				margin-top: 0;
 			}
 
@@ -2848,14 +2848,14 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 580px) {
 
 			.features li {
-				width: calc(50% - 2em);
+				width: calc(50% - 3em);
 			}
 
-				.features li:nth-child(3) {
-					margin-top: 3em;
+				.features li:nth-child(2) {
+					margin-top: 2em;
 				}
 
 		}
