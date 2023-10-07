@@ -2638,7 +2638,7 @@ td:last-child {
 .stats-tabs li a {
     display     : block;
     font-family : var(--font-2);
-    font-size   : var(--text-xl);
+    font-size   : var(--text-md);
     font-weight : 600;
     line-height : var(--vspace-1_5);
     border      : none;
@@ -2650,12 +2650,14 @@ td:last-child {
 }
 
 .stats-tabs li a em {
-    display     : block;
+
     margin      : 0;
     font-family : var(--font-2);
-    font-size   : var(--text-lg);
+    font-size   : var(--text-md);
+    font-weight    : 600;
+    text-transform : uppercase;
     line-height : var(--vspace-0_5);
-    font-weight : 400;
+    letter-spacing : .2em;
     font-style  : normal;
     color       : var(--color-white);
 }
