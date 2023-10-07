@@ -3450,6 +3450,11 @@ img.u-pull-left {
     color : var(--color-2);
 }
 
+.my_style {
+    font-family : var(--font-1);
+
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * about
