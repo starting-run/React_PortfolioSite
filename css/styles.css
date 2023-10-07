@@ -2626,7 +2626,7 @@ td:last-child {
     display      : inline-block;
     margin       : 0 1.6rem var(--vspace-0_5) 0;
     padding      : 0 1.5rem 0 0;
-    border-right : 1px solid var(--color-border);
+    border-right : 1px solid var(--color-gray-15);
 }
 
 .stats-tabs li:last-child {
@@ -2638,26 +2638,26 @@ td:last-child {
 .stats-tabs li a {
     display     : block;
     font-family : var(--font-2);
-    font-size   : var(--text-lg);
+    font-size   : var(--text-xl);
     font-weight : 600;
     line-height : var(--vspace-1_5);
     border      : none;
-    color       : var(--color-text-dark);
+    color       : var(--color-white);
 }
 
 .stats-tabs li a:hover {
-    color : var(--color-2);
+    color : var(--color-1);
 }
 
 .stats-tabs li a em {
     display     : block;
     margin      : 0;
     font-family : var(--font-2);
-    font-size   : var(--text-sm);
+    font-size   : var(--text-lg);
     line-height : var(--vspace-0_5);
     font-weight : 400;
     font-style  : normal;
-    color       : var(--color-text-light);
+    color       : var(--color-white);
 }
 
 
