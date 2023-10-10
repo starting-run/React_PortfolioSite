@@ -2511,10 +2511,11 @@ td:last-child {
 .skill-bars li .progress span {
     display       : block;
     font-family   : var(--font-1);
-    color         : white;
+    font-weight   : bold;
+    color         : #323232;
     font-size     : 1rem;
     line-height   : 1;
-    background    : var(--color-black);
+    background    : var(--color-white);
     padding       : var(--vspace-0_25);
     border-radius : 4px;
     position      : absolute;
@@ -2530,8 +2531,13 @@ td:last-child {
     width            : 0;
     height           : 0;
     border           : 5px solid transparent;
-    border-top-color : var(--color-black, var(--color-black));
+    border-top-color : var(--color-white, var(--color-white));
     content          : "";
+}
+
+.skill-bars li .percent0 {
+    width : 100%;
+    background : var(--color-white);
 }
 
 .skill-bars li .percent5 {
