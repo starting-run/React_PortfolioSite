@@ -256,7 +256,7 @@
 
     /* photoswipe
     * ----------------------------------------------------- */
-    const ssPhotoswipe = function() {
+    /*const ssPhotoswipe = function() {
 
         const items = [];
         const pswp = document.querySelectorAll('.pswp')[0];
@@ -559,7 +559,7 @@
         ssOffCanvas();
         ssMasonry();
         ssSwiper();
-        ssPhotoswipe();
+        //ssPhotoswipe();
         ssMailChimpForm();
         ssAlertBoxes();
         ssBackToTop();
