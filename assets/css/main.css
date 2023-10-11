@@ -3874,7 +3874,7 @@ input, select, textarea {
     transition : all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
     position   : fixed;
     bottom     : 2.5rem;
-    right      : -45rem;
+    right      : 0rem;
 }
 
 .ss-go-top a {
