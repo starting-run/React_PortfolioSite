@@ -1,6 +1,21 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
-
+/* ------------------------------------------------------------------- 
+ * ## fonts 
+ * ------------------------------------------------------------------- */
+ @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Sans+KR&display=swap');
+ 
+ :root {
+	 --font-1 : "Gowun Dodum", sans-serif;
+	 --font-2 : "Inter", sans-serif;
+	 --font-3 : "Noto Sans KR", sans-serif;
+ 
+	 /* monospace
+	 */
+	 --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
+ }
+ 
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
@@ -107,11 +122,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ca4c52 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ca4c52 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ca4c52 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #ca4c52 15%, #5f4d93 85%);
+		background-color: #323232;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #323232 15%, #323232 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #323232 15%, #323232 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #323232 15%, #323232 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #323232 15%, #323232 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -173,6 +188,14 @@ input, select, textarea {
 			color: inherit;
 	}	
 
+	#content h5 {
+		font-family: var(--font-1);
+	}
+
+	#content h3 {
+		font-family: var(--font-3);
+		font-weight: bold;
+	}
 	a {
 		-moz-transition: color 0.2s ease, border-bottom 0.2s ease;
 		-webkit-transition: color 0.2s ease, border-bottom 0.2s ease;
@@ -2660,6 +2683,9 @@ input, select, textarea {
 		margin-bottom: 3em;
 	}
 
+		header h1 {
+			font-family : var(--font-3);
+		}
 		header.major h2 {
 			font-size: 2em;
 		}
