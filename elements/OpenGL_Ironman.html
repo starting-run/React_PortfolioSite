@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>usfree / Woohyun Cho</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+		<script>
+			function goBack() {
+			  window.history.back();
+			}
+		</script>
+	</head>
+	<body class="is-preload">
+		<!-- Top Button -->
+		<p id="toTop" href="#">
+			<!--<img src="images/top_btn.svg" style="width: 50px; height: 50px;">-->
+			<svg>
+				<image xlink:href="../images/top_btn.svg" height="50px" weight="50px"></image> 			
+			</svg>
+		</p>
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Header -->
+					<header id="header">
+						<h1>OpenGL_Ironman</h1>
+						<p>2021. 06. 12.</p>
+					</header>
+				<!-- Main -->
+					<div id="main">
+						<!-- Content -->
+							<section id="content" class="main">
+								<p><a href="#" onclick="goBack()" class="button small icon solid fa-arrow-left">Back</a> 
+									<a href="https://github.com/usfree/OpenGL_Ironman" target='_blank' class="button primary small icon brands fa-github">Github Repository</a></p>
+								<h3><b>CubeMap</b></h3>
+								<img src="../images/OpenGL/1.png" width="402pixel" height="252pixel"><br>
+								<h5>큐브맵을 제작하기 위해 기존에 있던 이미지에서 정육각형 모양대로 어색하지 않게 잘라내어 별도 파일로 삽입하였습니다.
+									<img src="../images/OpenGL/2.png" ><br>GL_CLAMP_TO_EDGE를 통해 경계에 인접한 색상을 통해 큐브맵이 자연스럽게 이어지도록 하였습니다.<br>
+									<img src="../images/OpenGL/3.png"><br>큐브맵 사용시 라이팅이 영향을 주지 않게 하기위해 GL_DECAL을 사용하지만 사용시 퐁 쉐이딩 상태가 제대로 보이지 않으므로 퐁 쉐이딩 상태에서는 GL_BLEND로 변환되게 하였습니다.<br>
+									<img src="../images/OpenGL/4.png"><br><br>
+								</h5>
+								<h3><b>WireFrame and Point</b></h3>
+								<img src="../images/OpenGL/5.png"><br><br>
+								<h3><b>Result</b></h3>
+								<video src="../images/OpenGL/ironman.mp4" controls controlsList="nodownload"></video><br><br>
+								<h3><b>Presentation</b></h3>
+								<p><iframe style="width:100%; height:700px" src="../images/OpenGL/OpenGL_Ironman.pdf"></iframe></p>
+							</section>
+					</div>
+				<!-- Footer -->
+				<footer id="footer">
+					<p class="copyright"> Copyright&copy; Woohyun Cho(usfree). All rights reserved.</p>
+				</footer>
+			</div>
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+	</body>
+</html>

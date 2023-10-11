@@ -256,7 +256,7 @@
 
     /* photoswipe
     * ----------------------------------------------------- */
-    /*const ssPhotoswipe = function() {
+    const ssPhotoswipe = function() {
 
         const items = [];
         const pswp = document.querySelectorAll('.pswp')[0];
