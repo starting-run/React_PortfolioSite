@@ -3892,7 +3892,7 @@ input, select, textarea {
 }
 
 .ss-go-top a:focus svg path {
-    fill : white;
+    fill : #323232;
 }
 
 
