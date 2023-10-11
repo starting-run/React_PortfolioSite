@@ -26,7 +26,7 @@
     const tl = anime.timeline( {
         easing: 'easeInOutCubic',
         duration: 800,
-        autoplay: false
+        autoplay: true //false가 기본값임.
     })
     .add({
         targets: '#loader',
