@@ -3863,53 +3863,7 @@ input, select, textarea {
 
 		}
 
-/* ------------------------------------------------------------------- 
- * ## go top
- * ------------------------------------------------------------------- */
- .ss-go-top {
-    z-index    : 2;
-    opacity    : 0;
-    visibility : hidden;
-    transform  : translate(0, 200%);
-    transition : all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-    position   : fixed;
-    bottom     : 2.5rem;
-    right      : 0rem;
-}
 
-.ss-go-top a {
-    display          : flex;
-    align-items      : center;
-    justify-content  : center;
-    text-decoration  : none;
-    border           : none;
-    height           : calc(1.875 * 1.95rem);
-    width            : calc(1.875 * 1.95rem);
-    border-radius    : 50%;
-    background-color : #FFFFFF;
-    transition       : all .3s;
-    position         : relative;
-}
-
-.ss-go-top a:focus svg path {
-    fill : #323232;
-}
-
-
-.ss-go-top svg {
-    height : calc(0.75 * 2.2rem);
-    width  : calc(0.75 * 2.2rem);
-}
-
-.ss-go-top svg path {
-    fill : #323232;
-}
-
-.ss-go-top.link-is-visible {
-    opacity    : 1;
-    visibility : visible;
-    transform  : translate(0, 0);
-}
 
 /* Wrapper */
 	#wrapper {
@@ -3959,3 +3913,51 @@ input, select, textarea {
 			  border-right: 1px solid #fff;
 			}
 		  }
+
+		  /* ------------------------------------------------------------------- 
+ * ## go top
+ * ------------------------------------------------------------------- */
+ .ss-go-top {
+    z-index    : 2;
+    opacity    : 0;
+    visibility : hidden;
+    transform  : translate(0, 200%);
+    transition : all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+    position   : fixed;
+    bottom     : 2.5rem;
+    right      : 4rem;
+}
+
+.ss-go-top a {
+    display          : flex;
+    align-items      : center;
+    justify-content  : center;
+    text-decoration  : none;
+    border           : none;
+    height           : calc(1.875 * 1.95rem);
+    width            : calc(1.875 * 1.95rem);
+    border-radius    : 50%;
+    background-color : #FFFFFF;
+    transition       : all .3s;
+    position         : relative;
+}
+
+.ss-go-top a:focus svg path {
+    fill : #323232;
+}
+
+
+.ss-go-top svg {
+    height : calc(0.75 * 2.2rem);
+    width  : calc(0.75 * 2.2rem);
+}
+
+.ss-go-top svg path {
+    fill : #323232;
+}
+
+.ss-go-top.link-is-visible {
+    opacity    : 1;
+    visibility : visible;
+    transform  : translate(0, 0);
+}
