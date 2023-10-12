@@ -14,12 +14,6 @@
         mailChimpURL : 'https://facebook.us1.list-manage.com/subscribe/post?u=1abf75f6981256963a47d197a&amp;id=37c6d8f4d6' 
 
     };
-    /*
-	// Channel Talk	
-    ChannelIO('boot', {
-        "pluginKey": "cc156681-cec3-4b57-84d9-cbc688001283" // fill your plugin key
-    });*/
-
 
     /* animations
     * -------------------------------------------------- */
