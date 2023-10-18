@@ -1852,10 +1852,6 @@ progress {
   border-color: var(--bs-table-border-color);
 }
 
-.c-first{
-  width:30%;
-}
-
 .table-secondary {
   --bs-table-color: #000;
   --bs-table-bg: #f9d2e6;
@@ -10947,6 +10943,11 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 1400px) {
+  
+  .c-first{
+    width:30%;
+  }
+
   .float-xxl-start {
     float: left !important;
   }
