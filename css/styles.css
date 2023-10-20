@@ -3721,7 +3721,7 @@ textarea.form-control-lg {
 }
 
 .nav-link {
-  margin-left: 30px;
+  margin-right: 30px;
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: 17px;
