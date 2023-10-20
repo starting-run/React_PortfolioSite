@@ -87,7 +87,9 @@
   --font-3 : "Noto Sans KR", sans-serif;
   --font-4 : "Orbit", sans-serif;
   --font-5 : 'Kanit', sans-serif;
-
+  --multiplier       : 0.5;
+  --space            : calc(3.2rem * var(--multiplier));
+  --vspace-0_75      : calc(0.75 * var(--space));
   /* monospace
   */
   --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
@@ -104,6 +106,56 @@
     scroll-behavior: smooth;
   }
 }
+
+/* ------------------------------------------------------------------- 
+ * ## go top
+ * ------------------------------------------------------------------- */
+ .ss-go-top {
+  z-index    : 2;
+  opacity    : 0;
+  visibility : hidden;
+  transform  : translate(0, 200%);
+  transition : all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  position   : fixed;
+  bottom     : 4.4rem;
+  right      : 4rem;
+}
+
+.ss-go-top a {
+  display          : flex;
+  align-items      : center;
+  justify-content  : center;
+  text-decoration  : none;
+  border           : none;
+  height           : calc(1.875 * var(--space));
+  width            : calc(1.875 * var(--space));
+  border-radius    : 50%;
+  background-color : #323232;
+  transition       : all .3s;
+  position         : relative;
+}
+
+.ss-go-top a:focus svg path,
+.ss-go-top a:hover svg path {
+  fill : white;
+}
+
+.ss-go-top svg {
+  height : var(--vspace-0_75);
+  width  : var(--vspace-0_75);
+}
+
+.ss-go-top svg path {
+  fill : white;
+}
+
+.ss-go-top.link-is-visible {
+  opacity    : 1;
+  visibility : visible;
+  transform  : translate(0, 0);
+}
+
+
 
 body {
   margin: 0;
