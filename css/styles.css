@@ -753,6 +753,12 @@ progress {
     max-width: 1320px;
   }
 }
+
+.proj_text {
+  font-weight: 0;
+  font-family: var(--font-1);
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
