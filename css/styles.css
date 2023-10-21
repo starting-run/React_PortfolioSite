@@ -7138,6 +7138,13 @@ textarea.form-control-lg {
   display: flex !important;
 }
 
+img {
+  max-width: 100%;
+}
+
+video {
+  max-width: 100%;
+}
 .d-inline-flex {
   display: inline-flex !important;
 }
