@@ -99,6 +99,8 @@
   --btn-outline-dark : #212529;
   --card-bg : #fff;
   --text-muted : #6C757D;
+  --text-gradient : -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  --lenear-gradient : linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
 
   [data-darkmode=on] {
     --background-base: #1e1f21;
@@ -112,8 +114,10 @@
     --card-bg : #414141;
     --text-muted : #d3d2d2;
     --bs-link-hover-color: #e21e80;
-    
-  
+    --text-gradient : -webkit-linear-gradient(315deg, #84fab0 0%, #8fd3f4 100%);
+    --lenear-gradient : linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+    --bs-white-rgb: 30, 31, 33;
+
     background-color: var(--background-base);
     color: var(--color-base);
   }
@@ -11780,11 +11784,11 @@ html {
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
-  background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+  background: var(--lenear-gradient);
 }
 
 .text-gradient {
-  background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+  background: var(--text-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
