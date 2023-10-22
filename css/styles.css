@@ -133,7 +133,9 @@ body[data-darkmode=on] {
   background-color: #1e1f21;
   color: #e8e8e8 !important;
 }
-
+body[data-darkmode=on] .darkmode > .inner{
+  background-color: rgba(255,255,255,0.25);
+}
 
 /* Darkmode Toggle */
 
