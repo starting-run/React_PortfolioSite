@@ -98,6 +98,7 @@
 
   --btn-outline-dark : #212529;
   --card-bg : #fff;
+  --text-muted : #6C757D;
 
   [data-darkmode=on] {
     --background-base: #1e1f21;
@@ -109,6 +110,7 @@
     --btn-outline-dark : #e7e6e6;
     --bs-light-rgb: 30, 31, 33;
     --card-bg : #414141;
+    --text-muted : #d3d2d2;
     
   
     background-color: var(--background-base);
@@ -8455,7 +8457,7 @@ video {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: var(--text-muted) !important;
   font-family: var(--font-1);
 }
 
