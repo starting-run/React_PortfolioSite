@@ -108,7 +108,8 @@
     --bs-black-rgb: #ffffff;
     --btn-outline-dark : #e7e6e6;
     --bs-light-rgb: 30, 31, 33;
-    --card-bg : #414141;
+    --card-bg : #252525;
+    --bs-link-hover-color: #e21e80;
   
     background-color: var(--background-base);
     color: var(--color-base);
@@ -499,7 +500,7 @@ th {
 }
 
 a{
-  color: #323232;
+  color: var(--bs-black);
   text-decoration-line: none;
 }
 
