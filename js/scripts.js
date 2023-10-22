@@ -35,4 +35,6 @@
         ssBackToTop();
 
     })();
+
+    document.oncontextmenu = function(){return false;}
 })(document.documentElement);
