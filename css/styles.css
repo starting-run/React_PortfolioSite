@@ -108,6 +108,69 @@
   }
 }
 
+/* --------------------------------
+-----------------------------------
+---------------DARK MODE ---------- */
+
+body[data-darkmode=on] {
+  background-color: #1e1f21;
+  color: #e8e8e8 !important;
+}
+
+.bg-white[data-darkmode=on] {
+  background-color: #1e1f21; 
+}
+
+/* Darkmode Toggle */
+
+.darkmode > .inner{
+  position: relative;
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 0.5em;
+  background-color: rgba(0,0,0,0.1);
+}
+.darkmode label {
+  cursor: pointer;
+  z-index: 2;
+}
+.darkmode label:first-of-type{
+  padding: 5px 5px 5px 10px;
+  border-radius: 50% 0 0 50%;
+}
+.darkmode label:last-of-type{
+  padding: 5px 10px 5px 5px;
+  border-radius: 0 50% 50% 0;
+}
+.darkmode i{
+  font-size: 1.5em;
+  color: #aaa;
+}
+
+.darkmode input[type=radio]{
+  display: none;
+}
+.darkmode input[type=radio]:checked + label > i {
+  color: #323232;
+  transition: all 0.35s ease-in-out;
+}
+
+.darkmode .darkmode-bg{
+  width: 33px;
+  height: 34px;
+  position: absolute;
+  left: 7px;
+  border-radius: 3px;
+  z-index: 1;
+  transition: all 0.35s ease-in-out;
+  background-color: #03a9f4;
+}
+#toggle-radio-dark:checked ~ .darkmode-bg{
+  border-radius: 3px;
+  top: 5px;
+  left: 40px;
+}
+
 /* ------------------------------------------------------------------- 
  * ## go top
  * ------------------------------------------------------------------- */
@@ -3835,6 +3898,10 @@ textarea.form-control-lg {
   display: block;
 }
 
+.navbar-upper {
+    text-transform: uppercase;
+}
+
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
@@ -3859,7 +3926,6 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  text-transform: uppercase;
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
