@@ -108,8 +108,8 @@
     --bs-black-rgb: #ffffff;
     --btn-outline-dark : #e7e6e6;
     --bs-light-rgb: 30, 31, 33;
-    --card-bg : #252525;
-    --bs-link-hover-color: #e21e80;
+    --card-bg : #414141;
+    
   
     background-color: var(--background-base);
     color: var(--color-base);
@@ -3153,9 +3153,9 @@ textarea.form-control-lg {
 }
 
 .btn-dark {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #212529;
-  --bs-btn-border-color: #212529;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bs-black);
+  --bs-btn-border-color: var(--bs-black);
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #424649;
   --bs-btn-hover-border-color: #373b3e;
