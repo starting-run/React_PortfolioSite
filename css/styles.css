@@ -97,6 +97,7 @@
   --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
 
   --btn-outline-dark : #212529;
+  --card-bg : #fff;
 
   [data-darkmode=on] {
     --background-base: #1e1f21;
@@ -107,6 +108,7 @@
     --bs-black-rgb: #ffffff;
     --btn-outline-dark : #e7e6e6;
     --bs-light-rgb: 30, 31, 33;
+    --card-bg : #515153;
   
     background-color: var(--background-base);
     color: var(--color-base);
@@ -4356,7 +4358,7 @@ textarea.form-control-lg {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: #fff;
+  --bs-card-bg: var(--card-bg);
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
