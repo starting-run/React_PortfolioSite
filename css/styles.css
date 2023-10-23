@@ -117,6 +117,14 @@
   }
 }
 
+/* projects에서 창 작으면 이미지 예시 none */
+@media (max-width: 768px) {
+  .img-fluid {
+    display: none;
+  }
+}
+
+
 /* --------------------------------
 -----------------------------------
 ---------------DARK MODE ---------- */
@@ -4229,6 +4237,7 @@ textarea.form-control-lg {
   .navbar-expand-xl .navbar-toggler {
     display: none;
   }
+
   .navbar-expand-xl .offcanvas {
     position: static;
     z-index: auto;
