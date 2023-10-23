@@ -53,13 +53,14 @@
         }
 
     })
-    
+
     (function ssInit() {
 
         ssBackToTop();
 
     })();
 
-
+    document.documentElement.classList.add("dark-mode");
+    document.body.classList.add("dark-mode");
     document.oncontextmenu = function(){return false;}
 })(document.documentElement);
