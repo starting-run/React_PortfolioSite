@@ -103,25 +103,7 @@
   --lenear-gradient : linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 
-  [data-darkmode=on] {
-    --background-base: #1e1f21;
-    --bs-black: #fff;
-    --bs-white: #000;
-    --bs-black-hover: #8d8d8d;
-    --bs-white-rgb: #1e1f21;
-    --bs-black-rgb: #ffffff;
-    --btn-outline-dark : #e7e6e6;
-    --bs-light-rgb: 30, 31, 33;
-    --card-bg : #414141;
-    --text-muted : #d3d2d2;
-    --bs-link-hover-color: #e21e80;
-    --text-gradient : -webkit-linear-gradient(315deg, #84fab0 0%, #8fd3f4 100%);
-    --lenear-gradient : linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
-    --bs-white-rgb: 30, 31, 33;
-    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28280, 280, 280, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    background-color: var(--background-base);
-    color: var(--color-base);
-  }
+
 }
 
 *,
@@ -143,6 +125,23 @@
 body[data-darkmode=on] {
   background-color: #1e1f21;
   color: #e8e8e8 !important;
+  --background-base: #1e1f21;
+  --bs-black: #fff;
+  --bs-white: #000;
+  --bs-black-hover: #8d8d8d;
+  --bs-white-rgb: #1e1f21;
+  --bs-black-rgb: #ffffff;
+  --btn-outline-dark : #e7e6e6;
+  --bs-light-rgb: 30, 31, 33;
+  --card-bg : #414141;
+  --text-muted : #d3d2d2;
+  --bs-link-hover-color: #e21e80;
+  --text-gradient : -webkit-linear-gradient(315deg, #84fab0 0%, #8fd3f4 100%);
+  --lenear-gradient : linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);
+  --bs-white-rgb: 30, 31, 33;
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28280, 280, 280, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-color: var(--background-base);
+  color: var(--color-base);
 }
 body[data-darkmode=on] .darkmode > .inner{
   background-color: rgba(255,255,255,0.25);
