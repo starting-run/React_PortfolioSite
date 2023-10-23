@@ -118,7 +118,7 @@
 }
 
 /* projects에서 창 작으면 이미지 예시 none */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .img-fluid {
     display: none;
   }
