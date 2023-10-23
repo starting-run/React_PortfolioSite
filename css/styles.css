@@ -141,33 +141,38 @@ body[data-darkmode=on] {
   background-color: var(--background-base);
 }
 body[data-darkmode=on] .darkmode > .inner{
-  background-color: rgba(255,255,255,0.25);
+  background-color: #1e1f21;
+  background: #f03d3d;
+  box-shadow: 0 0 16px 3px rgba(255 255 255 / 15%);
 }
 
 /* Darkmode Toggle */
 
 .darkmode > .inner{
+  width: 80px;
+  height: 40px;
   position: relative;
   display: inline-flex;
   padding: 5px;
-  border-radius: 0.5em;
-  background-color: rgba(0,0,0,0.1);
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 16px 3px rgba(0 0 0 / 15%);
 }
 .darkmode label {
   cursor: pointer;
-  z-index: 2;
 }
 .darkmode label:first-of-type{
   padding: 5px 5px 5px 10px;
-  border-radius: 50% 0 0 50%;
+  border-radius: 50%;
 }
 .darkmode label:last-of-type{
   padding: 5px 10px 5px 5px;
-  border-radius: 0 50% 50% 0;
+  border-radius: 50%;
 }
 .darkmode i{
-  font-size: 1.5em;
-  color: #aaa;
+  font-size: 1.0em;
+  color:var(--bs-black);
+  margin-left: 5px;
 }
 
 .darkmode input[type=radio]{
@@ -182,16 +187,19 @@ body[data-darkmode=on] .darkmode > .inner{
   width: 33px;
   height: 34px;
   position: absolute;
-  left: 7px;
-  border-radius: 3px;
+  left: 5px;
+  top: 3px;
+  border-radius: 50%;
   z-index: 1;
   transition: all 0.35s ease-in-out;
-  background-color: #03a9f4;
+  background-color: #f03d3d;
 }
 #toggle-radio-dark:checked ~ .darkmode-bg{
-  border-radius: 3px;
-  top: 5px;
-  left: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 3px;
+  left: 43px;
+  color:#fff;
 }
 
 /* ------------------------------------------------------------------- 
