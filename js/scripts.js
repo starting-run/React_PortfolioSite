@@ -30,12 +30,6 @@
 
     }; // end ssBackToTop
 
-    (function ssInit() {
-
-        ssBackToTop();
-
-    })();
-
     document.addEventListener('DOMContentLoaded', function(){
         //다크모드 토글
         if(document.querySelector('.darkmode')){
@@ -59,5 +53,13 @@
         }
 
     })
+    
+    (function ssInit() {
+
+        ssBackToTop();
+
+    })();
+
+
     document.oncontextmenu = function(){return false;}
 })(document.documentElement);
