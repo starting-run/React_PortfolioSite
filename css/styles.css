@@ -192,11 +192,11 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 .darkmode .darkmode-bg{
-  width: 33px;
-  height: 34px;
+  width: 31px;
+  height: 31px;
   position: absolute;
-  left: 5px;
-  top: 2px;
+  left: 6px;
+  top: 4px;
   border-radius: 50%;
   z-index: 1;
   transition: all 0.35s ease-in-out;
@@ -205,8 +205,8 @@ body[data-darkmode=on] .darkmode > .inner{
 #toggle-radio-dark:checked ~ .darkmode-bg{
   border-radius: 50%;
   background-color: #fff;
-  top: 2px;
-  left: 43px;
+  top: 4px;
+  left: 44px;
   color:#fff;
 }
 
