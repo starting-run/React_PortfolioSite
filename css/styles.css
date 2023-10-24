@@ -150,7 +150,7 @@ body[data-darkmode=on] {
 }
 body[data-darkmode=on] .darkmode > .inner{
   background-color: #1e1f21;
-  background: #f03d3d;
+  background: #1e1f21;
   box-shadow: 0 0 16px 3px rgba(255 255 255 / 15%);
 }
 
