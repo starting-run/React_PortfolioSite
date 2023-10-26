@@ -129,8 +129,8 @@
 -----------------------------------
 ---------------DARK MODE ---------- */
 body[data-darkmode=on] {
-  background-color: #1e1f21;
   color: #e8e8e8 !important;
+  --bs-body-bg: #1e1f21;
   --background-base: #1e1f21;
   --bs-black: #fff;
   --bs-white: #000;
@@ -271,7 +271,29 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  animation: fadein 2000ms ease-out;
+  -moz-animation: fadein 2000ms ease-out; /* Firefox */
+  -webkit-animation: fadein 2000ms ease-out; /* Safari and  Chrome */
+  -o-animation: fadein 2000ms ease-out; /* Opera */
 }
+
+@keyframes fadein {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {opacity:0;}
+  to {opacity:1;}
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {opacity:0;}
+  to {opacity:1;}
+}
+@-o-keyframes fadein { /* Opera */
+  from {opacity:0;}
+  to {opacity: 1;}
+}
+
 
 .mymind {
   font-family: var(--font-1);
