@@ -123,6 +123,9 @@
   .img-fluid {
     display: none;
   }
+  .profile {
+    display: none;
+  }
 }
 
 .code {
