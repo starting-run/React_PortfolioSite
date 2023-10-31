@@ -232,8 +232,8 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 .darkmode .darkmode-bg{
-  width: 31px;
-  height: 31px;
+  width: 30px;
+  height: 30px;
   position: absolute;
   left: 6px;
   top: 4px;
