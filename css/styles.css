@@ -50,6 +50,7 @@
   --bs-primary-rgb: 30, 48, 243;
   --bs-secondary-rgb: 226, 30, 128;
   --bs-third-rgb: 113, 31, 202;
+  --bs-four-rgb: 0, 130, 153;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -130,6 +131,37 @@
   border-radius: 10px;
   width: 100%;
   white-space: pre;
+}
+
+.mymind {
+  font-family: var(--font-1);
+}
+
+.proj {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6rem;
+  z-index: 1;
+}
+
+/* Award */
+
+.award1 {
+  display: none; 
+}
+
+.award2 {
+  display: none; 
+}
+
+.award01:hover ~ .award1 {
+  display: block;
+}
+
+.award02:hover ~ .award2 {
+  display: block;
 }
 
 
@@ -266,24 +298,7 @@ body[data-darkmode=on] .darkmode > .inner{
   transform  : translate(0, 0);
 }
 
-
-
-body {
-  margin: 0;
-  font-family: var(--bs-body-font-family);
-  font-size: var(--bs-body-font-size);
-  font-weight: var(--bs-body-font-weight);
-  line-height: var(--bs-body-line-height);
-  color: var(--bs-body-color);
-  text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  animation: fadein 2000ms ease-out;
-  -moz-animation: fadein 2000ms ease-out; /* Firefox */
-  -webkit-animation: fadein 2000ms ease-out; /* Safari and  Chrome */
-  -o-animation: fadein 2000ms ease-out; /* Opera */
-}
+/* Fade In - Out */
 
 @keyframes fadein {
   from {opacity:0;}
@@ -302,18 +317,21 @@ body {
   to {opacity: 1;}
 }
 
-
-.mymind {
-  font-family: var(--font-1);
-}
-
-.proj {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 6rem;
-  z-index: 1;
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  animation: fadein 2000ms ease-out;
+  -moz-animation: fadein 2000ms ease-out; /* Firefox */
+  -webkit-animation: fadein 2000ms ease-out; /* Safari and  Chrome */
+  -o-animation: fadein 2000ms ease-out; /* Opera */
 }
 
 hr {
@@ -8458,6 +8476,12 @@ video {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-third-rgb), var(--bs-text-opacity)) !important;
 }
+
+.text-four {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-four-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-success {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
