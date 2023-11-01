@@ -4086,12 +4086,13 @@ textarea.form-control-lg {
 .navbar-toggler {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
-  line-height: 1;
   color: var(--bs-navbar-color);
   background-color: transparent;
+  line-height: 0px;
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
+  border:none;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -4103,8 +4104,8 @@ textarea.form-control-lg {
 }
 .navbar-toggler:focus {
   text-decoration: none;
-  outline: 0;
-  box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);
+  /*outline: 0;*/
+  /*box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width);*/
 }
 
 .navbar-toggler-icon {
@@ -4116,6 +4117,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  line-height: 0px;
 }
 
 .navbar-nav-scroll {
