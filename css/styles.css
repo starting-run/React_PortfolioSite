@@ -8538,6 +8538,11 @@ video {
   letter-spacing :2px;
 }
 
+.font-letter-space-lg {
+  letter-spacing :5px;
+}
+
+
 .lh-1 {
   line-height: 1 !important;
 }
