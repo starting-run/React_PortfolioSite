@@ -104,6 +104,9 @@
   --lenear-gradient : linear-gradient(135deg, #c71d6f 0%, #d09693 100%);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-line-cl : #c71d6f;
+  --bs-top-btn : #F8F9FA;
+  --bs-top-btn-path : #000;
+
 }
 
 *,
@@ -191,6 +194,8 @@ body[data-darkmode=on] {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28280, 280, 280, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   background-color: var(--background-base);
   --bs-line-cl : #39d9c8;
+  --bs-top-btn : #2D2E2E;
+  --bs-top-btn-path : #fff;
 }
 body[data-darkmode=on] .darkmode > .inner{
   background-color: #1e1f21;
@@ -277,14 +282,14 @@ body[data-darkmode=on] .darkmode > .inner{
   height           : calc(1.875 * var(--space) * 1.2);
   width            : calc(1.875 * var(--space) * 1.2);
   border-radius    : 50%;
-  background-color : #323232;
+  background-color : var(--bs-top-btn);
   transition       : all .3s;
   position         : relative;
 }
 
 .ss-go-top a:focus svg path,
 .ss-go-top a:hover svg path {
-  fill : white;
+  fill : var(--bs-top-btn-path);
 }
 
 .ss-go-top svg {
@@ -293,7 +298,7 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 .ss-go-top svg path {
-  fill : white;
+  fill : var(--bs-top-btn-path);
 }
 
 .ss-go-top.link-is-visible {
