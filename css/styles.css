@@ -47,6 +47,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-normal-rgb: 45, 142, 255;
   --bs-primary-rgb: 30, 48, 243;
   --bs-secondary-rgb: 226, 30, 128;
   --bs-third-rgb: 113, 31, 202;
@@ -8615,6 +8616,12 @@ video {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
+
+.text-normal {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-normal-rgb), var(--bs-text-opacity)) !important;
+}
+
 
 .text-secondary {
   --bs-text-opacity: 1;
