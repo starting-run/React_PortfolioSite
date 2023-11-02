@@ -7335,6 +7335,10 @@ li:hover > .nav-link::after {
   display: flex !important;
 }
 
+.place-center {
+  place-items: center;
+}
+
 img {
   max-width: 100%;
 }
