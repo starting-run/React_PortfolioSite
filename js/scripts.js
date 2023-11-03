@@ -59,6 +59,7 @@
         }
 
     })
+    /*
     jQuery(function($) {
         $("body").css("display", "none");
         $("body").fadeIn(2000);
@@ -71,5 +72,5 @@
         window.location = linkLocation;
         }
         });
-    document.oncontextmenu = function(){return false;}
+    document.oncontextmenu = function(){return false;}*/
 })(document.documentElement);
