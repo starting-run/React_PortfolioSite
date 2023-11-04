@@ -153,6 +153,13 @@
   z-index: 1;
 }
 
+.goodimg {
+  position: fixed;
+  z-index: 5;
+  right: 10px;
+  top: 70px;
+}
+
 /* Award */
 
 .award1 {
