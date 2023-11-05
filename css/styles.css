@@ -57,6 +57,7 @@
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
+  --bs-award-hover-rgb: 200, 200, 200;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -204,6 +205,7 @@ body[data-darkmode=on] {
   --bs-line-cl : #2D8EFF;
   --bs-top-btn : #2D2E2E;
   --bs-top-btn-path : #fff;
+  --bs-award-hover-rgb: 100, 100, 100;
 }
 body[data-darkmode=on] .darkmode > .inner{
   background-color: #1e1f21;
@@ -8778,6 +8780,16 @@ video {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
+
+.bg-award {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-award:hover {
+  background-color: rgba(var(--bs-award-hover-rgb), var(--bs-bg-opacity)) !important;
+}
+
 
 .bg-dark {
   --bs-bg-opacity: 1;
