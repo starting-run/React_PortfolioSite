@@ -3,13 +3,21 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 85 85" style="enable-background:new 0 0 85 85;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#323232;}
-	.st1{fill:#EAEAEA;}
+	.st0{fill:#182046;}
+	.st1{fill:#E35B35;}
+	.st2{fill:#FFFFFF;}
 </style>
 <g>
-	<g>
-		<polygon class="st0" points="42.5,42.5 42.4,75.9 71.4,59.3 71.5,25.9 		"/>
-		<polygon class="st1" points="42.6,9.1 13.6,25.7 13.5,59.1 42.4,75.9 42.5,42.5 71.5,25.9 		"/>
-	</g>
+	<path class="st0" d="M72.4,28.9c0,6.2-5.1,11.3-11.3,11.3H24c-6.2,0-11.3-5.1-11.3-11.3v-2.8c0-6.2,5.1-11.3,11.3-11.3H61
+		c6.2,0,11.3,5.1,11.3,11.3V28.9z"/>
 </g>
+<g>
+	<path class="st0" d="M72.4,58.8c0,6.2-5.1,11.3-11.3,11.3H24c-6.2,0-11.3-5.1-11.3-11.3v-2.8c0-6.2,5.1-11.3,11.3-11.3H61
+		c6.2,0,11.3,5.1,11.3,11.3V58.8z"/>
+</g>
+<rect x="46.7" y="18.6" class="st1" width="17.9" height="17.9"/>
+<polygon class="st1" points="31.2,48.5 40.2,66.4 22.2,66.4 "/>
+<circle class="st2" cx="55.7" cy="57.5" r="9"/>
+<polygon class="st2" points="38.8,32.6 33.7,27.5 38.8,22.4 36.3,19.9 31.2,25 26.1,19.9 23.6,22.4 28.7,27.5 23.6,32.6 26.1,35.1 
+	31.2,30 36.3,35.1 "/>
 </svg>
