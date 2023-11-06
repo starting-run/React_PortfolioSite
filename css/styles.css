@@ -4168,6 +4168,11 @@ textarea.form-control-lg {
   color: var(--bs-navbar-brand-hover-color);
 }
 
+.navbar-brand img {
+
+  filter: drop-shadow(1px 1px 10px #d6d6d6);
+}
+
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
