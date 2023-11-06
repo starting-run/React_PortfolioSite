@@ -224,6 +224,7 @@ body[data-darkmode=on] .darkmode > .inner{
   border-radius: 30px;
   background-color: #fff;
   box-shadow: 0 0 16px 3px rgba(0 0 0 / 15%);
+  margin-left: 30px;
 }
 .darkmode label {
   cursor: pointer;
@@ -467,6 +468,7 @@ address {
 ol,
 ul {
   padding-left: 2rem;
+  text-align: right;
 }
 
 ol,
@@ -4013,6 +4015,8 @@ textarea.form-control-lg {
   color: var(--bs-nav-link-color);
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  text-align: right;
+  float: right;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -4184,7 +4188,9 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  float: right;
 }
+
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
   color: var(--bs-navbar-active-color);
@@ -4254,15 +4260,17 @@ textarea.form-control-lg {
 
 
 /*---------밑줄넣기 부분----------*/
-ul { list-style:none; cursor:pointer }
+ul { list-style:none; cursor:pointer;}
 li { 
-  width:30%;
-  float:left; 
-  margin-right:30px;
+  /*width:30%;*/
+  float:right; 
+  margin-left:30px;
   transition:all .3s ease 
 }
 li:hover { color:#39d9c8; transition:all .3s ease }
-li > .nav-link { position:relative }
+li > .nav-link { 
+  position:relative;
+}
 
 
 li > .nav-link::after {
