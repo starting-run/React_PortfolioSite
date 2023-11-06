@@ -4169,8 +4169,7 @@ textarea.form-control-lg {
 }
 
 .navbar-brand img {
-
-  filter: drop-shadow(1px 1px 10px #d6d6d6);
+  filter: drop-shadow(1px 1px 10px rgba(255,255,255,0.2));
 }
 
 .navbar-nav {
