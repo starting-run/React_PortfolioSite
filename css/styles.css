@@ -3519,7 +3519,7 @@ textarea.form-control-lg {
 .btn-outline-boj-round {
   --bs-btn-color: #0078C3;
   --bs-btn-border-color: #0078C3;
-  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #0078C3;
   --bs-btn-hover-border-color: #0078C3;
   --bs-btn-focus-shadow-rgb: 33, 37, 41;
@@ -3533,7 +3533,7 @@ textarea.form-control-lg {
 .btn-outline-codeforces-round {
   --bs-btn-color: #B72026;
   --bs-btn-border-color: #B72026;
-  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #B72026;
   --bs-btn-hover-border-color: #B72026;
   --bs-btn-focus-shadow-rgb: 33, 37, 41;
