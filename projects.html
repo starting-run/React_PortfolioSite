@@ -24,13 +24,10 @@
         <meta property="og:description" content="MORE AND MORE CREATIVELY !" />
     </head>
     <div class="universe d-grid">
-        <div class="px-4 row align-items-center justify-content-between flex-column flex-sm-row">
+        <div class="px-4 row align-items-center justify-content-between flex-sm-row">
             <div class="font-5 font-letter-space-lg col-auto my-auto ">usfree UNiVERSE</div>
             <div class="col-auto uni-items">
-                <a class="items" href="https://github.com/usfree"><i class="fa-brands fa-github"></i></a>　
-                <a class="items" href="https://velog.io/@usfree"><i class="fa-brands fa-vimeo"></i></a>　
-                <a class="items" href="https://solved.ac/profile/tlrmsjtm77"><i class="fa-solid fa-code"></i></a>　
-                <a class="items" href="https://codeforces.com/profile/tlrmsjtm77"><i class="fa-solid fa-chart-simple"></i></a>
+                <div id="modalOpenButton" class="font-5 font-letter-space fs-6">MORE <i class="fa-solid fa-circle-chevron-right"></i></div>
             </div>
         </div>
     </div>
@@ -59,6 +56,12 @@
                             </div>
                             <!-- toggle end -->
                         </ul>
+                    </div>
+                </div>
+                <div id="modalContainer" class="hidden">
+                    <div id="modalContent">
+                    <div id="modalCloseButton"><i class="fa-solid fa-xmark fs-4"></i></div>
+                      <iframe src="modal.html" width="470px" height="230px"></iframe>
                     </div>
                 </div>
             </nav>
