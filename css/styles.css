@@ -108,7 +108,7 @@
   --bs-line-cl : #c71d6f;
   --bs-top-btn : #F8F9FA;
   --bs-top-btn-path : #000;
-
+  --bs-drop-shadow : drop-shadow(1px 1px 10px rgba(0,0,0,0.3));
 }
 
 *,
@@ -188,7 +188,7 @@
   background-color: rgba(252, 133, 116, 0.85);
   color: #fff;
   backdrop-filter: blur(10px);
-  box-shadow: 0px 1px 20px 5px var(--bs-body-color);
+  filter: var(--bs-drop-shadow);
 }
 
 .universe .items {
@@ -268,6 +268,7 @@ body[data-darkmode=on] {
   --bs-top-btn : #2D2E2E;
   --bs-top-btn-path : #fff;
   --bs-award-hover-rgb: 100, 100, 100;
+  --bs-drop-shadow : drop-shadow(1px 1px 10px rgba(255,255,255,0.3));
 }
 body[data-darkmode=on] .darkmode > .inner{
   background-color: #1e1f21;
@@ -4289,7 +4290,7 @@ textarea.form-control-lg {
 }
 
 .navbar-brand img {
-  filter: drop-shadow(1px 1px 10px rgba(255,255,255,0.2));
+  filter: var(--bs-drop-shadow);
 }
 
 .navbar-nav {
