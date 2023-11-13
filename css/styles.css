@@ -4288,11 +4288,11 @@ textarea.form-control-lg {
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
 }
-
+/* brand-shadow
 .navbar-brand img {
   filter: var(--bs-drop-shadow);
 }
-
+*/
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
