@@ -102,8 +102,8 @@
   --btn-outline-dark : #212529;
   --card-bg : #fff;
   --text-muted : #6C757D;
-  --text-gradient : -webkit-linear-gradient(315deg, #c71d6f 0%, #d09693 100%);
-  --lenear-gradient : linear-gradient(135deg, #c71d6f 0%, #d09693 100%);
+  --text-gradient : -webkit-linear-gradient(315deg, #fa709a 0%, #fee140 100%);
+  --lenear-gradient : linear-gradient(135deg, #fa709a 0%, #fee140 100%);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-line-cl : #c71d6f;
   --bs-top-btn : #F8F9FA;
