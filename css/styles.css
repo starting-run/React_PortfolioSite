@@ -95,15 +95,14 @@
   --multiplier       : 0.5;
   --space            : calc(3.2rem * var(--multiplier));
   --vspace-0_75      : calc(0.75 * var(--space));
-  /* monospace
-  */
+  /* monospace*/
   --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
 
   --btn-outline-dark : #212529;
   --card-bg : #fff;
   --text-muted : #6C757D;
-  --text-gradient : -webkit-linear-gradient(315deg, #fa709a 0%, #fee140 100%);
-  --lenear-gradient : linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  --text-gradient : -webkit-linear-gradient(315deg, #fa709a 0%, #fccb90 100%);
+  --lenear-gradient : linear-gradient(135deg, #fa709a 0%, #fccb90 100%);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-line-cl : #c71d6f;
   --bs-top-btn : #F8F9FA;
@@ -200,7 +199,6 @@
 }
 
 /* modal */
-
 #modalOpenButton {
   cursor: pointer;
   right: 5%;
@@ -259,8 +257,6 @@ body[data-darkmode=on] {
   --card-bg : #414141;
   --text-muted : #d3d2d2;
   --bs-link-hover-color: #e21e80;
-  --text-gradient : -webkit-linear-gradient(315deg, #e0c3fc 0%, #8ec5fc 100%);
-  --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
   --bs-white-rgb: 30, 31, 33;
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28280, 280, 280, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   background-color: var(--background-base);
@@ -269,6 +265,10 @@ body[data-darkmode=on] {
   --bs-top-btn-path : #fff;
   --bs-award-hover-rgb: 100, 100, 100;
   --bs-drop-shadow : drop-shadow(1px 1px 10px rgba(255,255,255,0.3));
+    /*
+  --text-gradient : -webkit-linear-gradient(315deg, #e0c3fc 0%, #8ec5fc 100%);
+  --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  */
 }
 body[data-darkmode=on] .darkmode > .inner{
   background-color: #1e1f21;
