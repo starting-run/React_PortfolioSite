@@ -959,6 +959,13 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+
+  transition-duration: 0.3s;
+}
+
+.img-fluid:hover {
+  transform: scale(1.2, 1.2);
+  transition-duration: 0.5s;
 }
 
 .img-thumbnail {
@@ -4293,11 +4300,18 @@ textarea.form-control-lg {
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
 }
-/* brand-shadow
+
+
 .navbar-brand img {
-  filter: var(--bs-drop-shadow);
+  transition-duration: 0.3s;
 }
-*/
+
+.navbar-brand img:hover {
+  /*filter: var(--bs-drop-shadow);*/
+  transform: scale(1.2, 1.2); 
+  transition-duration: 0.5s;
+}
+
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
