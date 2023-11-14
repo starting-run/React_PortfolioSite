@@ -161,7 +161,6 @@
 }
 
 /* Award */
-
 .award1 {
   display: none; 
 }
@@ -178,6 +177,9 @@
   display: block;
 }
 
+/****************
+universe 공통 영역
+*****************/
 .universe {
   position: fixed;
   top: 0;
@@ -239,6 +241,9 @@
 #modalContainer.hidden {
   display: none;
 }
+/****************
+universe 공통 영역 끝
+*****************/
 
 /* --------------------------------
 -----------------------------------
