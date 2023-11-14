@@ -77,13 +77,20 @@
     const modalOpenButton = document.getElementById('modalOpenButton');
     const modalCloseButton = document.getElementById('modalCloseButton');
     const modal = document.getElementById('modalContainer');
+    const modalcontent = document.getElementById('modalContent');
 
     modalOpenButton.addEventListener('click', () => {
     modal.classList.remove('hidden');
+    modalcontent.classList.remove('hidden');
+    modalOpenButton.classList.add('hidden');
+    modalCloseButton.classList.remove('hidden');
     });
 
     modalCloseButton.addEventListener('click', () => {
     modal.classList.add('hidden');
+    modalcontent.classList.add('hidden');
+    modalOpenButton.classList.remove('hidden');
+    modalCloseButton.classList.add('hidden');
     });
 
 })(document.documentElement);
