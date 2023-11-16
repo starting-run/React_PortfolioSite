@@ -27,22 +27,6 @@
   --font-6 : 'Sunflower', sans-serif;
 }
 
-html {
-  background-color: initial;
-  background-image: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-position: initial;
-}
-
-body {
-  background-color: initial;
-  background-image: initial;
-  background-repeat: initial;
-  background-attachment: initial;
-  background-position: initial;
-}
-
 .font-1 {
   font-family: var(--font-1);
 }
