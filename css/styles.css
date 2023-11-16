@@ -286,7 +286,6 @@ body[data-darkmode=on] {
   --bs-top-btn : #2D2E2E;
   --bs-top-btn-path : #fff;
   --bs-award-hover-rgb: 100, 100, 100;
-  --bs-drop-shadow : drop-shadow(1px 1px 10px rgba(255,255,255,0.3));
     /*
   --text-gradient : -webkit-linear-gradient(315deg, #e0c3fc 0%, #8ec5fc 100%);
   --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
