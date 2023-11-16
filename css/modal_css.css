@@ -28,8 +28,7 @@
 }
 
 body {
-  background-color: transparent;
-  background: transparent;
+  background:none;
 }
 
 .font-1 {
