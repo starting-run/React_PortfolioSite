@@ -110,6 +110,27 @@
   --bs-top-btn-path : #000;
   --bs-drop-shadow : drop-shadow(1px 1px 10px rgba(0,0,0,0.3));
   --bs-drop-shadow-off : drop-shadow(1px 1px 10px rgba(0,0,0,0.3));
+
+  --vspace-0_125     : calc(0.125 * var(--space));
+  --vspace-0_25      : calc(0.25 * var(--space));
+  --vspace-0_375     : calc(0.375 * var(--space));
+  --vspace-0_5       : calc(0.5 * var(--space));
+  --vspace-0_625     : calc(0.625 * var(--space));
+  --vspace-0_75      : calc(0.75 * var(--space));
+  --vspace-0_875     : calc(0.875 * var(--space));
+  --vspace-1         : calc(var(--space));
+  --vspace-1_25      : calc(1.25 * var(--space));
+  --vspace-1_5       : calc(1.5 * var(--space));
+  --vspace-1_75      : calc(1.75 * var(--space));
+  --vspace-2         : calc(2 * var(--space));
+  --vspace-2_5       : calc(2.5 * var(--space));
+  --vspace-3         : calc(3 * var(--space));
+  --vspace-3_5       : calc(3.5 * var(--space));
+  --vspace-4         : calc(4 * var(--space));
+  --vspace-4_5       : calc(4.5 * var(--space));
+  --vspace-5         : calc(5 * var(--space));
+  --vspace-5_5       : calc(5.5 * var(--space));
+  --vspace-6         : calc(6 * var(--space));
 }
 
 /* --------------------------------
@@ -226,6 +247,36 @@ body[data-darkmode=on] .darkmode > .inner{
   }
 }
 
+.s-intro__content {
+  z-index         : 1;
+  height          : 100%;
+  align-items     : center;
+  justify-content : center;
+  color           : white;
+  padding-top     : 10vh;
+  padding-bottom  : 12rem;
+  text-align      : center;
+  position        : relative;
+}
+
+.column {
+  display : block;
+  flex    : 1 1 0%;
+  padding : 0 var(--gutter);
+}
+
+.lg-12 {
+  flex  : none;
+  width : 100%;
+}
+
+.s-services {
+  padding-top      : var(--vspace-6);
+  padding-bottom   : var(--vspace-5);
+  position         : relative;
+}
+
+
 .code {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
@@ -250,6 +301,7 @@ body[data-darkmode=on] .darkmode > .inner{
   width: 100%;
   height: 40px;
   opacity:unset;
+  z-index: 100;
   color: var(--bs-black);
 }
 
