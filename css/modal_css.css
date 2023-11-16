@@ -28,7 +28,7 @@
 }
 
 body {
-  background-color: rgba(252, 133, 116, 0.85);
+  background-color: rgb(252, 133, 116);
   backdrop-filter: blur(10px);
 }
 
