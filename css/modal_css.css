@@ -108,7 +108,7 @@
   --bs-line-cl : #c71d6f;
   --bs-top-btn : #F8F9FA;
   --bs-top-btn-path : #000;
-  background-color: transparent;
+  --bs-background : transparent;
 }
 
 *,
@@ -116,6 +116,19 @@
 *::after {
   box-sizing: border-box;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: transparent;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: transparent;
+  }
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -2462,6 +2475,7 @@ textarea.form-control-lg {
     transition: none;
   }
 }
+
 .form-select:focus {
   border-color: #8f98f9;
   outline: 0;
