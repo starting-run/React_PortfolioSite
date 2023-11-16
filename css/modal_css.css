@@ -108,7 +108,7 @@
   --bs-line-cl : #c71d6f;
   --bs-top-btn : #F8F9FA;
   --bs-top-btn-path : #000;
-
+  background-color: transparent;
 }
 
 *,
