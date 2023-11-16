@@ -27,6 +27,11 @@
   --font-6 : 'Sunflower', sans-serif;
 }
 
+body {
+  background-color: transparent;
+  background: transparent;
+}
+
 .font-1 {
   font-family: var(--font-1);
 }
