@@ -28,7 +28,7 @@
 }
 
 body {
-  background-color: rgba(242,231,100, 0);
+  background-color: rgba(242,231,100, 0.001);
 }
 
 .font-1 {
