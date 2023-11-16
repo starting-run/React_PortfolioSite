@@ -8917,6 +8917,11 @@ video {
   font-family: var(--font-1);
 }
 
+.text-muteds {
+  --bs-text-opacity: 1;
+  color: var(--text-muted) !important;
+}
+
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
