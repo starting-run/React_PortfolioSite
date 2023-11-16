@@ -27,6 +27,31 @@
   --font-6 : 'Sunflower', sans-serif;
 }
 
+html {
+  @media (prefers-color-scheme: light) {
+    &:not([data-mode]),
+    &[data-mode='light'] {
+      @include light-scheme;
+    }
+
+    &[data-mode='dark'] {
+      @include dark-scheme;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    &:not([data-mode]),
+    &[data-mode='light'] {
+      @include dark-scheme;
+    }
+
+    &[data-mode='light'] {
+      @include light-scheme;
+    }
+  }
+
+}
+
 body {
 }
 
