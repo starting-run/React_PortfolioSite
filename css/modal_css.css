@@ -28,7 +28,8 @@
 }
 
 body {
-  background:none;
+  background-color: rgba(252, 133, 116, 0.85);
+  backdrop-filter: blur(10px);
 }
 
 .font-1 {
