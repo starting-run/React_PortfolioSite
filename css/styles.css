@@ -317,10 +317,6 @@ body[data-darkmode=on] .darkmode > .inner{
   object-fit: cover;  
 }
 
-.mymind {
-  font-family: var(--font-1);
-}
-
 .proj {
   position: fixed;
   left: 0;
