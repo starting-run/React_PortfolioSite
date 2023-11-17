@@ -254,7 +254,7 @@ body[data-darkmode=on] .darkmode > .inner{
   justify-content : center;
   color           : white;
   /*padding-top     : 10vh;*/
-  padding-bottom  : 15rem;
+  padding-bottom  : 20rem;
   text-align      : center;
   position        : relative;
 }
