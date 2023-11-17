@@ -297,11 +297,11 @@ body[data-darkmode=on] .darkmode > .inner{
 
 .scr-down {
   position: absolute;
-  bottom: 10px;
+  bottom: 1px;
   width: 100%;
   height: 40px;
   opacity:unset;
-  z-index: 100;
+  z-index: 2;
   color: var(--bs-black);
 }
 
