@@ -291,6 +291,7 @@ body[data-darkmode=on] .darkmode > .inner{
   overflow         : hidden;
   position         : relative;
 }
+
 .bg-video {
   position: absolute;
   top: 0;
