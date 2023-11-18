@@ -133,10 +133,35 @@
   --vspace-6         : calc(6 * var(--space));
 }
 
-/* --------------------------------
------------------------------------
----------------DARK MODE ---------- */
-body[data-darkmode=on]{
+
+
+@media (prefers-color-scheme: light) {
+  body {
+    color: #000 !important;
+    --bs-body-bg: #fff;
+    --background-base: #fff;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-black-hover: #a8a8a8;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --btn-outline-dark : #212529;
+    --bs-light-rgb: 248, 249, 250;
+    --card-bg : #fff;
+    --text-muted : #6C757D;
+    --bs-link-hover-color: #1826c2;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-color: var(--background-base);
+    --bs-line-cl : #c71d6f;
+    --bs-top-btn : #F8F9FA;
+    --bs-top-btn-path : #000;
+    --bs-award-hover-rgb: 200, 200, 200;
+    transition: all 1s;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body{
   color: #e8e8e8 !important;
   --bs-body-bg: #1e1f21;
   --background-base: #1e1f21;
@@ -161,6 +186,8 @@ body[data-darkmode=on]{
   --text-gradient : -webkit-linear-gradient(315deg, #e0c3fc 0%, #8ec5fc 100%);
   --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
   */
+  transition: all 1s;
+  }
 }
 
 body[data-darkmode=on] .darkmode > .inner{

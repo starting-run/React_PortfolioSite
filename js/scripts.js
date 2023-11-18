@@ -35,15 +35,15 @@
         ssBackToTop();
 
     })();
-
+/*
     document.addEventListener('DOMContentLoaded', function(){
 
         function checkDarkMode() {
-            return window.matchMedia('(prefers-color-scheme: dark)').matches;
+            return window.matchMedia('(prefers-color-scheme: light)').matches;
         }
         //다크모드 토글
         if(document.querySelector('.darkmode')){
-            if (checkDarkMode()) {
+            if(localStorage.getItem("darkmode") == 'on'){
                 //다크모드 켜기
                 document.body.dataset.darkmode='on';
                 document.querySelector('#toggle-radio-dark').checked = true;
@@ -63,7 +63,7 @@
             localStorage.removeItem("darkmode");
         }
 
-    })
+    })*/
     /*
     jQuery(function($) {
         $("body").css("display", "none");
