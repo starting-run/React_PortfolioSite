@@ -135,7 +135,7 @@
 
 
 
-@media (prefers-color-scheme: light) {
+
   body {
     color: #000 !important;
     --bs-body-bg: #fff;
@@ -158,10 +158,10 @@
     --bs-award-hover-rgb: 200, 200, 200;
     transition: all 1s;
   }
-}
 
-@media (prefers-color-scheme: dark) {
-  body{
+
+
+  body[data-darkmode=on]{
   color: #e8e8e8 !important;
   --bs-body-bg: #1e1f21;
   --background-base: #1e1f21;
@@ -188,7 +188,7 @@
   */
   transition: all 1s;
   }
-}
+
 
 body[data-darkmode=on] .darkmode > .inner{
   background-color: #1e1f21;

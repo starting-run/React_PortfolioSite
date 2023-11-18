@@ -34,142 +34,83 @@
         </div>
     </div>-->
     <body class="d-flex flex-column h-100 bg-white" oncontextmenu="return false" ondragstart="return false" onkeydown="return false">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-upper navbar-expand-lg navbar-light bg-white py-4">
-                <div class="container px-4">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary"><img src="images/logo_sq.png" alt="Homepage" style="width: 55px;"></span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small font-letter-space">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                            <li class="nav-item"><a class="nav-link" href="https://usfree.site/blog">Blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="https://github.com/usfree" target='_blank'>github</a></li>
-                            <!-- 다크모드 toggle
-                            <div class="wrap">
-                                <div class="darkmode">
-                                    <div class="inner">
-                                        <input type="radio" name="toggle" id="toggle-radio-light" checked><label for="toggle-radio-light" class="tolight"><i class="fas fa-sun tolight"></i></label>
-                                        <input type="radio" name="toggle" id="toggle-radio-dark"><label for="toggle-radio-dark" class="todark"><i class="fas fa-moon todark"></i></label>
-                                        <div class="darkmode-bg"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- toggle end -->
-                        </ul>
-                    </div>
+        <!-- Projects Section-->
+        <section class=""><!--py2-->
+            <div class="container px-4 my-2">
+                <div class="mb-0"><span class=""><a href="index.html">usfree</a> ❯ <span class="text-normal">projects</span></span></div>
+                <div class="mb-5">
+                    <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">PROJECTS</span></h1>
                 </div>
-                <!--<div id="modalContainer" class="hidden">
-                    <div id="modalContent" class="hidden">
-                        <iframe scrolling="no" src="https://usfree.site/modal.html" width="100%" height="100%"></iframe>
-                    </div>
-                </div>-->
-            </nav>
-            <!-- Projects Section-->
-            <section class=""><!--py2-->
-                <div class="container px-4 my-2">
-                    <div class="mb-0"><span class=""><a href="index.html">usfree</a> ❯ <span class="text-normal">projects</span></span></div>
-                    <div class="mb-5">
-                        <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">PROJECTS</span></h1>
-                    </div>
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-11 col-xl-9 col-xxl-8">
-                            <!-- Project Card 4
-                            <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Utility Hanaro(2023)</h2>
-                                            <h4 class="fw-bolder-down">MFC (C++)</h4>
-                                            <p class="mymind">preparing...</p>
-                                            <a class="btn btn-primary-round-outline btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#">prepare　<i class="fa-solid fa-chevron-right"></i></a>
-                                        </div>
-                                        <img class="img-fluid" src="images/pacman.jpg" alt="Processing_Pacman" style="width: 300px; height: 400px;"/>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-11 col-xl-9 col-xxl-8">
+                        <!-- Project Card 4
+                        <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Utility Hanaro(2023)</h2>
+                                        <h4 class="fw-bolder-down">MFC (C++)</h4>
+                                        <p class="mymind">preparing...</p>
+                                        <a class="btn btn-primary-round-outline btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#">prepare　<i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
-                                </div>
-                            </div> -->
-                            <!-- Project Card 3-->
-                            <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Pacman Game</h2>
-                                            <h4 class="fw-bolder-down">Processing</h4>
-                                            <p class="font-1">Processing으로 Pacman 게임을 간단하게 일부 재현하였습니다. 충돌판정 함수와 객체를 이용합니다.</p>
-                                            <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="elements/Processing_Pacman.html">detail　<i class="fa-solid fa-chevron-right"></i></a>
-                                        </div>
-                                        <img class="img-fluid" src="images/pacman.jpg" alt="Processing_Pacman" style="width: 300px; height: 400px;"/>
-                                    </div>
-                                </div>
-                            </div>  
-                            <!-- Project Card 2-->
-                            <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Ironman</h2>
-                                            <h4 class="fw-bolder-down">OpenGL</h4>
-                                            <p class="font-1">OpenGL로 제작된 아이언맨 모형입니다. 큐브맵&middot;플랫 쉐이딩&middot;퐁 쉐이딩&middot;와이어 프레임&middot;점 프레임 등이 사용되었습니다.</p>
-                                            <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="elements/OpenGL_Ironman.html">detail　<i class="fa-solid fa-chevron-right"></i></a>
-                                        </div>
-                                        <img class="img-fluid" src="images/ironman.jpg" alt="OpenGL_Ironman" style="width: 300px; height: 400px;"/>
-                                    </div>
+                                    <img class="img-fluid" src="images/pacman.jpg" alt="Processing_Pacman" style="width: 300px; height: 400px;"/>
                                 </div>
                             </div>
-                            <!-- Project Card 1-->
-                            <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Snake Game</h2>
-                                            <h4 class="fw-bolder-down">Unity</h4>
-                                            <p class="font-1">Snake 캐릭터를 이용해 코인을 먹고 많은 점수를 기록하는 게임입니다. Unity 플랫폼을 사용하여 제작되었고, 선형보간 알고리즘&middot;Prefab구조&middot;List구조 등이 사용되었습니다.</p>
-                                            <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="elements/Unity_Snake.html">detail　<i class="fa-solid fa-chevron-right"></i></a>
-                                        </div>
-                                        <img class="img-fluid" src="images/snake.jpg" alt="Unity_Snake" style="width: 300px; height: 400px;"/>
+                        </div> -->
+                        <!-- Project Card 3-->
+                        <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Pacman Game</h2>
+                                        <h4 class="fw-bolder-down">Processing</h4>
+                                        <p class="font-1">Processing으로 Pacman 게임을 간단하게 일부 재현하였습니다. 충돌판정 함수와 객체를 이용합니다.</p>
+                                        <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="elements/Processing_Pacman.html">detail　<i class="fa-solid fa-chevron-right"></i></a>
                                     </div>
+                                    <img class="img-fluid" src="images/pacman.jpg" alt="Processing_Pacman" style="width: 300px; height: 400px;"/>
+                                </div>
+                            </div>
+                        </div>  
+                        <!-- Project Card 2-->
+                        <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Ironman</h2>
+                                        <h4 class="fw-bolder-down">OpenGL</h4>
+                                        <p class="font-1">OpenGL로 제작된 아이언맨 모형입니다. 큐브맵&middot;플랫 쉐이딩&middot;퐁 쉐이딩&middot;와이어 프레임&middot;점 프레임 등이 사용되었습니다.</p>
+                                        <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="elements/OpenGL_Ironman.html">detail　<i class="fa-solid fa-chevron-right"></i></a>
+                                    </div>
+                                    <img class="img-fluid" src="images/ironman.jpg" alt="OpenGL_Ironman" style="width: 300px; height: 400px;"/>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Project Card 1-->
+                        <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
+                            <div class="card-body p-0">
+                                <div class="d-flex align-items-center">
+                                    <div class="p-5">
+                                        <h2 class="fw-bolder">Snake Game</h2>
+                                        <h4 class="fw-bolder-down">Unity</h4>
+                                        <p class="font-1">Snake 캐릭터를 이용해 코인을 먹고 많은 점수를 기록하는 게임입니다. Unity 플랫폼을 사용하여 제작되었고, 선형보간 알고리즘&middot;Prefab구조&middot;List구조 등이 사용되었습니다.</p>
+                                        <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="elements/Unity_Snake.html">detail　<i class="fa-solid fa-chevron-right"></i></a>
+                                    </div>
+                                    <img class="img-fluid" src="images/snake.jpg" alt="Unity_Snake" style="width: 300px; height: 400px;"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- Call to action section
-            <section class="py-5 bg-gradient-primary-to-secondary text-white">
-                <div class="container px-5 my-5">
-                    <div class="text-center">
-                        <h2 class="display-4 fw-bolder mb-4">관심 가져주셔서 감사합니다 !</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
-                    </div>
-                </div>
-            </section>-->
-        </main>
-        <!-- Footer-->
-        <footer class="bg-light py-4 mt-auto">
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
-                </a>
-            </div> <!-- end ss-go-top -->
-            <div class="container-bt px-5 text-dark">
-                <div class="col-auto"><div class="small m-0"><b>조우현</b>
-                    　<a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." class="">ploris576@kangnam.ac.kr</a></div></div>
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0"><a href="elements/link.html">Copyright</a> &copy; Woohyun Cho(usfree) All rights reserved.</div></div>
-                    <div class="col-auto">
-                        <a class="" href="https://github.com/usfree"><i class="fa-brands fa-github"></i></a>　
-                        <a class="" href="https://usfree.site/blog"><i class="fa-brands fa-blogger"></i></a>　
-                        <a class="" href="https://solved.ac/profile/tlrmsjtm77"><i class="fa-solid fa-code"></i></a>　
-                        <a class="" href="https://codeforces.com/profile/tlrmsjtm77"><i class="fa-solid fa-chart-simple"></i></a>
-                    </div>
+            </div>
+        </section>
+        <!-- Call to action section
+        <section class="py-5 bg-gradient-primary-to-secondary text-white">
+            <div class="container px-5 my-5">
+                <div class="text-center">
+                    <h2 class="display-4 fw-bolder mb-4">관심 가져주셔서 감사합니다 !</h2>
+                    <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
                 </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        </section>-->
     </body>
 </html>
