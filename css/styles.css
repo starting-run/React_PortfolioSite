@@ -270,6 +270,7 @@ body[data-darkmode=on] .darkmode > .inner{
 
 .navbar:hover {
   backdrop-filter: blur(20px);
+  transition: all 1s;
 }
 
 .s-intro__content {
@@ -4382,6 +4383,7 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+  transition: all 1s;
 }
 .navbar > .container,
 .navbar > .container-fluid,
