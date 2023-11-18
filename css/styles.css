@@ -268,7 +268,7 @@ body[data-darkmode=on] .darkmode > .inner{
 */
 
 .navbar:hover {
-  -webkit-backdrop-filter: blur(20px); /* For Safari */
+  /*-webkit-backdrop-filter: blur(20px);  For Safari 깜빡임 문제.. */
   backdrop-filter: blur(20px);
   transition: all 1s;
 }
