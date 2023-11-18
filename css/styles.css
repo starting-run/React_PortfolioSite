@@ -168,8 +168,8 @@
   --bs-black: #fff;
   --bs-white: #000;
   --bs-black-hover: #8d8d8d;
-  --bs-white-rgb: #1e1f21;
-  --bs-black-rgb: #ffffff;
+  --bs-white-rgb: 29, 30, 32;
+  --bs-black-rgb: 255, 255, 255;
   --btn-outline-dark : #e7e6e6;
   --bs-light-rgb: 45, 46, 46;
   --card-bg : #414141;
@@ -296,6 +296,7 @@ body[data-darkmode=on] .darkmode > .inner{
 
 .navbar:hover {
   /*-webkit-backdrop-filter: blur(20px);  For Safari 깜빡임 문제.. */
+  background-color: rgba(var(--bs-black-rgb), 0.1);
   backdrop-filter: blur(20px);
   transition: all 1s;
 }
