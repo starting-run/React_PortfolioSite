@@ -37,13 +37,18 @@
     })();
 
     document.addEventListener('DOMContentLoaded', function(){
+
+        function checkDarkMode() {
+            return window.matchMedia('(prefers-color-scheme: dark)').matches;
+        }
         //다크모드 토글
         if(document.querySelector('.darkmode')){
-            if(localStorage.getItem("darkmode") == 'on'){
+            if (checkDarkMode()) {
                 //다크모드 켜기
                 document.body.dataset.darkmode='on';
                 document.querySelector('#toggle-radio-dark').checked = true;
             }
+            
             //다크모드 이벤트 핸들러
             document.querySelector('.darkmode').addEventListener("click", e=>{
                 if(e.target.classList.contains('todark')){
