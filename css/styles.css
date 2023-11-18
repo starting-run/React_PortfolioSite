@@ -136,8 +136,7 @@
 /* --------------------------------
 -----------------------------------
 ---------------DARK MODE ---------- */
-@media (prefers-color-scheme: dark) {
-body{
+body[data-darkmode=on]{
   color: #e8e8e8 !important;
   --bs-body-bg: #1e1f21;
   --background-base: #1e1f21;
@@ -163,7 +162,7 @@ body{
   --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
   */
 }
-}
+
 body[data-darkmode=on] .darkmode > .inner{
   background-color: #1e1f21;
   background: #1e1f21;
