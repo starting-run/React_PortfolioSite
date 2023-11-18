@@ -274,6 +274,14 @@ body[data-darkmode=on] .darkmode > .inner{
     display: none;
   }
 }
+@media (min-width: 992px) {
+  .navbar:hover {
+    /*-webkit-backdrop-filter: blur(20px);  For Safari 깜빡임 문제.. */
+    background-color: rgba(var(--bs-black-rgb), 0.1);
+    backdrop-filter: blur(20px);
+    transition: all 1s;
+  }
+}
 
 /* Fade-In / Fade-Out 
 @keyframes fadein {
@@ -293,13 +301,6 @@ body[data-darkmode=on] .darkmode > .inner{
   to {opacity: 1;}
 }
 */
-
-.navbar:hover {
-  /*-webkit-backdrop-filter: blur(20px);  For Safari 깜빡임 문제.. */
-  background-color: rgba(var(--bs-black-rgb), 0.1);
-  backdrop-filter: blur(20px);
-  transition: all 1s;
-}
 
 .s-intro__content {
   z-index         : 1;
