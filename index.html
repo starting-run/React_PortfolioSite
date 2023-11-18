@@ -6,7 +6,6 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <meta name="theme-color" content="#FC8574">
-        <title>usfree / Woohyun Cho</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="images/favicon.svg" />
         <!-- Custom Google font-->
@@ -22,20 +21,31 @@
         $(function() {
             $("#main").load("main.html");
             $("#mains").click(function() {
-                $('.collapse').removeClass('show')
+                $('.navbar-toggler').addClass('collapsed');
+                $('.navbar-toggler').attr('aria-expanded', 'false');
+                $('.collapse').removeClass('show');
                 $("#main").load("main.html");
             });
             $("#profiles").click(function() {
+                $('.navbar-toggler').addClass('collapsed');
+                $('.navbar-toggler').attr('aria-expanded', 'false');
                 $('.collapse').removeClass('show')
                 $("#main").load("profile.html");
             });
             $("#projects").click(function() {
+                $('.navbar-toggler').addClass('collapsed');
+                $('.navbar-toggler').attr('aria-expanded', 'false');
                 $('.collapse').removeClass('show')
                 $("#main").load("projects.html");
             });
-            $("#link").click(function() {
+            $("#links").click(function() {
+                $('.navbar-toggler').addClass('collapsed');
+                $('.navbar-toggler').attr('aria-expanded', 'false');
                 $('.collapse').removeClass('show')
                 $("#main").load("elements/link.html");
+            });
+            $("#pacman").click(function() {
+                $("#main").load("elements/Processing_Pacman.html");
             });
         });
 
@@ -59,6 +69,11 @@
         </div>
     </div>-->
     <body class="d-flex flex-column h-100" oncontextmenu="return false" ondragstart="return false" onkeydown="return false">
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+              <source src="images/video/usfree_creative.mp4" type="video/mp4" />
+            </video>
+        </div>
         <div class="loading"></div>
         <main class="flex-shrink-0">
             <!-- Navigation-->
@@ -108,7 +123,7 @@
                 <div class="col-auto"><div class="small m-0"><b>조우현</b>
                     　<a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." class="">ploris576@kangnam.ac.kr</a></div></div>
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0"><a href="#" id="link">Copyright</a> &copy; Woohyun Cho(usfree) All rights reserved.</div></div>
+                    <div class="col-auto"><div class="small m-0"><a id="links" href="#">Copyright</a> &copy; Woohyun Cho(usfree) All rights reserved.</div></div>
                     <div class="col-auto">
                         <a class="" href="https://github.com/usfree"><i class="fa-brands fa-github"></i></a>　
                         <a class="" href="https://usfree.site/blog"><i class="fa-brands fa-blogger"></i></a>　
