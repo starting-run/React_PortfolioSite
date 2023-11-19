@@ -19,6 +19,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script>
         $(function() {
+            var WinW = $(window).width();
+
             if (sessionStorage.getItem("locations") == null) {
                 sessionStorage.setItem("locations", "main.html");
             }
@@ -27,24 +29,32 @@
 			    $('#load').hide();
 		    });
             $("#mains").click(function() {
-                if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
-                    $(".navbar-toggler").trigger("click");
+                if (WinW < 992) {
+                    if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
+                        $(".navbar-toggler").trigger("click");
+                    }
                 }
                 $("#main").load("main.html");
                 sessionStorage.setItem("locations", "main.html");
             });
             $("#profiles").click(function() {
-                $(".navbar-toggler").trigger("click");
+                if (WinW < 992) {
+                    $(".navbar-toggler").trigger("click");
+                }
                 $("#main").load("profile.html");
                 sessionStorage.setItem("locations", "profile.html");
             });
             $("#projects").click(function() {
-                $(".navbar-toggler").trigger("click");
+                if (WinW < 992) {
+                    $(".navbar-toggler").trigger("click");
+                }
                 $("#main").load("projects.html");
                 sessionStorage.setItem("locations", "projects.html");
             });
             $("#links").click(function() {
-                $(".navbar-toggler").trigger("click");
+                if (WinW < 992) {
+                    $(".navbar-toggler").trigger("click");
+                }
                 $("#main").load("elements/link.html");
                 sessionStorage.setItem("locations", "elements/link.html");
             });
