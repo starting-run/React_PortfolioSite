@@ -4,10 +4,16 @@
         <script>
             $(function() {
                 $("#back").click(function() {
+                    if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
+                        $(".navbar-toggler").trigger("click");
+                    }
                     $("#projectmain").load("projects.html");
                     sessionStorage.setItem("locations", "projects.html");
                 });
                 $("#back2").click(function() {
+                    if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
+                        $(".navbar-toggler").trigger("click");
+                    }
                     $("#projectmain").load("projects.html");
                     sessionStorage.setItem("locations", "projects.html");
                 });

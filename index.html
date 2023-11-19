@@ -53,7 +53,9 @@
             });
             $("#links").click(function() {
                 if (WinW < 992) {
-                    $(".navbar-toggler").trigger("click");
+                    if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
+                        $(".navbar-toggler").trigger("click");
+                    }
                 }
                 $("#main").load("elements/link.html");
                 sessionStorage.setItem("locations", "elements/link.html");
