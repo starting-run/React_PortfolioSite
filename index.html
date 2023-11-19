@@ -27,31 +27,26 @@
 			    $('#load').hide();
 		    });
             $("#mains").click(function() {
-                $('.navbar-toggler').addClass('collapsed');
-                $('.navbar-toggler').attr('aria-expanded', 'false');
-                $('.collapse').removeClass('show');
+                if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
+                    $(".navbar-toggler").trigger("click");
+                }
                 $("#main").load("main.html");
                 sessionStorage.setItem("locations", "main.html");
             });
             $("#profiles").click(function() {
-                $('.navbar-toggler').addClass('collapsed');
-                $('.navbar-toggler').attr('aria-expanded', 'false');
-                $('.collapse').removeClass('show')
+                $(".navbar-toggler").trigger("click");
                 $("#main").load("profile.html");
                 sessionStorage.setItem("locations", "profile.html");
             });
             $("#projects").click(function() {
-                $('.navbar-toggler').addClass('collapsed');
-                $('.navbar-toggler').attr('aria-expanded', 'false');
-                $('.collapse').removeClass('show')
+                $(".navbar-toggler").trigger("click");
                 $("#main").load("projects.html");
                 sessionStorage.setItem("locations", "projects.html");
             });
             $("#links").click(function() {
-                $('.navbar-toggler').addClass('collapsed');
-                $('.navbar-toggler').attr('aria-expanded', 'false');
-                $('.collapse').removeClass('show')
+                $(".navbar-toggler").trigger("click");
                 $("#main").load("elements/link.html");
+                sessionStorage.setItem("locations", "elements/link.html");
             });
         });
         </script>
