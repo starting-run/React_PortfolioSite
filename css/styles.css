@@ -335,8 +335,8 @@ body[data-darkmode=on] .darkmode > .inner{
   background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 10px;
-  width: 100%;
-  white-space: pre;
+  width: auto;
+  white-space: pre-wrap;
 }
 .s-intro {
   background-color : var(--color-preloader-bg);
