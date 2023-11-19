@@ -323,12 +323,18 @@ body[data-darkmode=on] .darkmode > .inner{
     display: none;
   }
 }
+/* 모바일X PC크기에서만 작동하는 영역*/
 @media (min-width: 992px) {
   .navbar:hover {
     /*-webkit-backdrop-filter: blur(20px);  For Safari 깜빡임 문제.. */
     background-color: rgba(var(--bs-black-rgb), 0.1);
     backdrop-filter: blur(20px);
     transition: all 1s;
+  }
+  .navbar-brand img:hover {
+    /*filter: var(--bs-drop-shadow);*/
+    transform: scale(1.2, 1.2); 
+    transition-duration: 0.5s;
   }
 }
 
@@ -4509,12 +4515,6 @@ textarea.form-control-lg {
 
 .navbar-brand img {
   transition-duration: 0.3s;
-}
-
-.navbar-brand img:hover {
-  /*filter: var(--bs-drop-shadow);*/
-  transform: scale(1.2, 1.2); 
-  transition-duration: 0.5s;
 }
 
 .navbar-nav {
