@@ -1,6 +1,17 @@
 
 <head>
     <title>usfree - profile</title>
+    <script>
+        $(function() {
+            $("#links").click(function() {
+                $('.navbar-toggler').addClass('collapsed');
+                $('.navbar-toggler').attr('aria-expanded', 'false');
+                $('.collapse').removeClass('show')
+                $("#main").load("elements/link.html");
+                sessionStorage.setItem("locations", "elements/link.html");
+            });
+        });
+    </script>
 </head>
 <!-- Header-->
 <div class="container px-4 my-2">

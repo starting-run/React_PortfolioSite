@@ -9,6 +9,13 @@
                 $("#projectmain").load("projects.html");
                 sessionStorage.setItem("locations", "projects.html");
             });
+            $("#links").click(function() {
+                $('.navbar-toggler').addClass('collapsed');
+                $('.navbar-toggler').attr('aria-expanded', 'false');
+                $('.collapse').removeClass('show')
+                $("#main").load("elements/link.html");
+                sessionStorage.setItem("locations", "elements/link.html");
+            });
         });
     </script>
 </head>
