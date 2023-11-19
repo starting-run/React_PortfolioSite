@@ -19,24 +19,31 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script>
         $(function() {
-            $("#main").load("main.html");
+            if (sessionStorage.getItem("locations") == null) {
+                sessionStorage.setItem("locations", "main.html");
+            }
+            $("#main").load(sessionStorage.getItem("locations"));
+
             $("#mains").click(function() {
                 $('.navbar-toggler').addClass('collapsed');
                 $('.navbar-toggler').attr('aria-expanded', 'false');
                 $('.collapse').removeClass('show');
                 $("#main").load("main.html");
+                sessionStorage.setItem("locations", "main.html");
             });
             $("#profiles").click(function() {
                 $('.navbar-toggler').addClass('collapsed');
                 $('.navbar-toggler').attr('aria-expanded', 'false');
                 $('.collapse').removeClass('show')
                 $("#main").load("profile.html");
+                sessionStorage.setItem("locations", "profile.html");
             });
             $("#projects").click(function() {
                 $('.navbar-toggler').addClass('collapsed');
                 $('.navbar-toggler').attr('aria-expanded', 'false');
                 $('.collapse').removeClass('show')
                 $("#main").load("projects.html");
+                sessionStorage.setItem("locations", "projects.html");
             });
             $("#links").click(function() {
                 $('.navbar-toggler').addClass('collapsed');
@@ -74,11 +81,10 @@
             <!-- Navigation-->
                 <nav class="navbar navbar-upper navbar-expand-lg navbar-light py-4">
                 <div class="container px-4">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary"><img src="images/logo_sq.png" alt="Homepage" style="width: 55px;"></span></a>
+                    <a class="navbar-brand" id="mains" href="#"><span class="fw-bolder text-primary"><img src="images/logo_sq.png" alt="Homepage" style="width: 55px;"></span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small font-letter-space">
-                            <li class="nav-item"><a class="nav-link" id="mains" href="#">Home</a></li>
                             <li class="nav-item"><a class="nav-link" id="profiles" href="#">Profile</a></li>
                             <li class="nav-item"><a class="nav-link" id="projects" href="#">Projects</a></li>
                             <li class="nav-item"><a class="nav-link" href="https://usfree.site/blog">Blog</a></li>

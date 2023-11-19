@@ -5,9 +5,11 @@
             $(function() {
                 $("#back").click(function() {
                     $("#projectmain").load("projects.html");
+                    sessionStorage.setItem("locations", "projects.html");
                 });
                 $("#back2").click(function() {
                     $("#projectmain").load("projects.html");
+                    sessionStorage.setItem("locations", "projects.html");
                 });
             });
         </script>

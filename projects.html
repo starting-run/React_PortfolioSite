@@ -6,12 +6,15 @@
             $(function() {
                 $("#pacman").click(function() {
                     $("#projectmain").load("elements/Processing_Pacman.html");
+                    sessionStorage.setItem("locations", "elements/Processing_Pacman.html");
                 });
                 $("#ironman").click(function() {
                     $("#projectmain").load("elements/OpenGL_Ironman.html");
+                    sessionStorage.setItem("locations", "elements/OpenGL_Ironman.html");
                 });
                 $("#snake").click(function() {
                     $("#projectmain").load("elements/Unity_Snake.html");
+                    sessionStorage.setItem("locations", "elements/Unity_Snake.html");
                 });
             });
         </script>

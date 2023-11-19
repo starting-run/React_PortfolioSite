@@ -7,12 +7,14 @@
                 $('.navbar-toggler').attr('aria-expanded', 'false');
                 $('.collapse').removeClass('show')
                 $("#main").load("profile.html");
+                sessionStorage.setItem("locations", "profile.html");
             });
             $("#projects2").click(function() {
                 $('.navbar-toggler').addClass('collapsed');
                 $('.navbar-toggler').attr('aria-expanded', 'false');
                 $('.collapse').removeClass('show')
                 $("#main").load("projects.html");
+                sessionStorage.setItem("locations", "projects.html");
             });
         });
         </script>
