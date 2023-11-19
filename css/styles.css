@@ -325,6 +325,24 @@ body[data-darkmode=on] .darkmode > .inner{
   width : 100%;
 }
 
+.load {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 0.8;
+  background: white;
+  z-index: 99;
+  text-align: center;
+}
+
+.load > img {
+  margin: 50vh;
+  z-index: 100;
+}
+
 .s-services {
   padding-top      : var(--vspace-6);
   padding-bottom   : var(--vspace-5);

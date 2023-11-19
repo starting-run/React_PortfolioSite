@@ -19,6 +19,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script>
         $(function() {
+            $(document).ready(function() {
+			$('#load').hide();
+		    });
+
+
             if (sessionStorage.getItem("locations") == null) {
                 sessionStorage.setItem("locations", "main.html");
             }
@@ -71,6 +76,9 @@
         </div>
     </div>-->
     <body class="d-flex flex-column h-100" oncontextmenu="return false" ondragstart="return false" onkeydown="return false">
+        <div class= "load" id="load">
+            <img src="images/loading.gif" alt="loading">
+        </div>
         <div class="bg-video">
             <video class="bg-video__content" autoplay muted loop>
               <source src="images/video/usfree_creative.mp4" type="video/mp4" />
