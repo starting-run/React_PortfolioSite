@@ -339,7 +339,7 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 .load > img {
-  margin: 50vh;
+  margin-top: 50vh;
   z-index: 100;
 }
 
