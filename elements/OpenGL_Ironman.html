@@ -1,64 +1,80 @@
-<!DOCTYPE html>
-<html lang="ko">
-    <head>
-        <script>
-            $(function() {
-                $("#back").click(function() {
-                    $("#projectmain").load("projects.html");
-                    sessionStorage.setItem("locations", "projects.html");
-                });
-                $("#back2").click(function() {
-                    $("#projectmain").load("projects.html");
-                    sessionStorage.setItem("locations", "projects.html");
-                });
+<head>
+    <script>
+        $(function() {
+            $("#back").click(function() {
+                $("#projectmain").load("projects.html");
+                sessionStorage.setItem("locations", "projects.html");
             });
-        </script>
-    </head>
-    <body class="d-flex flex-column h-100 bg-white" oncontextmenu="return false" ondragstart="return false" onkeydown="return false">
-        <div id="projectmain">
-            <!-- Projects Section-->
-            <section class="mb-5">
-                <div class="container px-4 my-2">
-                    <div class="mb-0"><span class="">usfree ❯ projects ❯ <span class="text-normal">detail</span></span></div>
-                    <div class="mb-2">
-                        <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">IRONMAN</span></h1>
-                        <div class="mb-0"><span class="fw-bolder">OpenGL　</span>2021. 06.</div>
-                    </div>
-                    <div class="mb-5">
-                        <a href="#" id="back" class="btn btn-outline-dark-round btn-lg px-3 py-2 me-sm-3 fs-6 fw-bolder mt-3"><i class="fa-solid fa-chevron-left"></i>　Back</a>
-                        <a href="https://github.com/usfree/OpenGL_Ironman" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mt-3"><i class="fa-brands fa-github"></i> Repository</a>
-                    </div>
-                    <div class="row gx-5 justify-content-center">
-                        <div class="">
-                            <!-- Project Card 1-->
-                            <div class="card overflow-scroll shadow rounded-2 border-0">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5 proj_text">
-                                            <h3><b>CubeMap</b></h3>
-                                            <img src="images/OpenGL/1.png" width="402pixel" height="252pixel"><br>
-                                            <h5>큐브맵을 제작하기 위해 기존에 있던 이미지에서 정육각형 모양대로 어색하지 않게 잘라내어 별도 파일로 삽입하였습니다.<br><br>
-                                                <img src="images/OpenGL/2.png" ><br>GL_CLAMP_TO_EDGE를 통해 경계에 인접한 색상을 통해 큐브맵이 자연스럽게 이어지도록 하였습니다.<br><br>
-                                                <img src="images/OpenGL/3.png"><br>큐브맵 사용시 라이팅이 영향을 주지 않게 하기위해 GL_DECAL을 사용하지만 사용시 퐁 쉐이딩 상태가 제대로 보이지 않으므로 퐁 쉐이딩 상태에서는 GL_BLEND로 변환되게 하였습니다.<br>
-                                                <img src="images/OpenGL/4.png"><br><br>
-                                            </h5>
-                                            <h3><b>WireFrame and Point</b></h3>
-                                            <img src="images/OpenGL/5.png"><br><br>
-                                            <h3><b>Result</b></h3>
-                                            <video src="images/OpenGL/ironman.mp4" controls controlsList="nodownload"></video><br><br>
-                                            <h3><b>Presentation</b></h3>
-                                            <p><iframe style="width:100%; height:700px" src="images/OpenGL/OpenGL_Ironman.pdf"></iframe></p>
-                                        </div>
-                                    </div>
+            $("#back2").click(function() {
+                $("#projectmain").load("projects.html");
+                sessionStorage.setItem("locations", "projects.html");
+            });
+        });
+    </script>
+</head>
+<div id="projectmain">
+    <!-- Projects Section-->
+    <section class="mb-5">
+        <div class="container px-4 my-2">
+            <div class="mb-0"><span class="">usfree ❯ projects ❯ <span class="text-normal">detail</span></span></div>
+            <div class="mb-2">
+                <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">IRONMAN</span></h1>
+                <div class="mb-0"><span class="fw-bolder">OpenGL　</span>2021. 06.</div>
+            </div>
+            <div class="mb-5">
+                <a href="#" id="back" class="btn btn-outline-dark-round btn-lg px-3 py-2 me-sm-3 fs-6 fw-bolder mt-3"><i class="fa-solid fa-chevron-left"></i>　Back</a>
+                <a href="https://github.com/usfree/OpenGL_Ironman" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mt-3"><i class="fa-brands fa-github"></i> Repository</a>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="">
+                    <!-- Project Card 1-->
+                    <div class="card overflow-scroll shadow rounded-2 border-0">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5 proj_text">
+                                    <h3><b>CubeMap</b></h3>
+                                    <img src="images/OpenGL/1.png" width="402pixel" height="252pixel"><br>
+                                    <h5>큐브맵을 제작하기 위해 기존에 있던 이미지에서 정육각형 모양대로 어색하지 않게 잘라내어 별도 파일로 삽입하였습니다.<br><br>
+                                        <img src="images/OpenGL/2.png" ><br>GL_CLAMP_TO_EDGE를 통해 경계에 인접한 색상을 통해 큐브맵이 자연스럽게 이어지도록 하였습니다.<br><br>
+                                        <img src="images/OpenGL/3.png"><br>큐브맵 사용시 라이팅이 영향을 주지 않게 하기위해 GL_DECAL을 사용하지만 사용시 퐁 쉐이딩 상태가 제대로 보이지 않으므로 퐁 쉐이딩 상태에서는 GL_BLEND로 변환되게 하였습니다.<br>
+                                        <img src="images/OpenGL/4.png"><br><br>
+                                    </h5>
+                                    <h3><b>WireFrame and Point</b></h3>
+                                    <img src="images/OpenGL/5.png"><br><br>
+                                    <h3><b>Result</b></h3>
+                                    <video src="images/OpenGL/ironman.mp4" controls controlsList="nodownload"></video><br><br>
+                                    <h3><b>Presentation</b></h3>
+                                    <p><iframe style="width:100%; height:700px" src="images/OpenGL/OpenGL_Ironman.pdf"></iframe></p>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
-                    </div>
+                    </div> 
                 </div>
-            </section>
-            <div class="d-flex align-items-center justify-content-center">
-                <a href="#" id="back2" class="btn btn-outline-dark-round btn-lg px-3 py-2 me-sm-3 fs-6 fw-bolder mt-3 mb-5"><i class="fa-solid fa-chevron-left"></i>　Back</a>
             </div>
         </div>
-    </body>
-</html>
+    </section>
+    <div class="d-flex align-items-center justify-content-center">
+        <a href="#" id="back2" class="btn btn-outline-dark-round btn-lg px-3 py-2 me-sm-3 fs-6 fw-bolder mt-3 mb-5"><i class="fa-solid fa-chevron-left"></i>　Back</a>
+    </div>
+    <!-- Footer-->
+<footer class="bg-light py-4 mt-auto">
+    <div class="ss-go-top">
+        <a class="smoothscroll" title="Back to Top" href="#top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
+        </a>
+    </div> <!-- end ss-go-top -->
+    <div class="container-bt px-5 text-dark">
+        <div class="col-auto"><div class="small m-0"><b>조우현</b>
+            　<a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." class="">ploris576@kangnam.ac.kr</a></div></div>
+        <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+            <div class="col-auto"><div class="small m-0"><a id="links" href="#">Copyright</a> &copy; Woohyun Cho(usfree) All rights reserved.</div></div>
+            <div class="col-auto">
+                <a class="" href="https://github.com/usfree"><i class="fa-brands fa-github"></i></a>　
+                <a class="" href="https://usfree.site/blog"><i class="fa-brands fa-blogger"></i></a>　
+                <a class="" href="https://solved.ac/profile/tlrmsjtm77"><i class="fa-solid fa-code"></i></a>　
+                <a class="" href="https://codeforces.com/profile/tlrmsjtm77"><i class="fa-solid fa-chart-simple"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
