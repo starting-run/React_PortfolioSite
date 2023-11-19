@@ -133,21 +133,9 @@
   --vspace-6         : calc(6 * var(--space));
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    --background-base: #1e1f21;
-    background-color: var(--background-base);
-  }
-}
+
 
 @media (prefers-color-scheme: light) {
-  body{
-    --background-base: #fff;
-    background-color: var(--background-base);
-  }
-}
-
-
   body {
     color: #000 !important;
     --bs-body-bg: #fff;
@@ -170,10 +158,37 @@
     --bs-award-hover-rgb: 200, 200, 200;
     transition: all 1s;
   }
-
-
-
   body[data-darkmode=on]{
+    color: #e8e8e8 !important;
+    --bs-body-bg: #1e1f21;
+    --background-base: #1e1f21;
+    --bs-black: #fff;
+    --bs-white: #000;
+    --bs-black-hover: #8d8d8d;
+    --bs-white-rgb: 29, 30, 32;
+    --bs-black-rgb: 255, 255, 255;
+    --btn-outline-dark : #e7e6e6;
+    --bs-light-rgb: 45, 46, 46;
+    --card-bg : #414141;
+    --text-muted : #d3d2d2;
+    --bs-link-hover-color: #e21e80;
+    --bs-white-rgb: 30, 31, 33;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28280, 280, 280, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-color: var(--background-base);
+    --bs-line-cl : #2D8EFF;
+    --bs-top-btn : #2D2E2E;
+    --bs-top-btn-path : #fff;
+    --bs-award-hover-rgb: 100, 100, 100;
+      /*
+    --text-gradient : -webkit-linear-gradient(315deg, #e0c3fc 0%, #8ec5fc 100%);
+    --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+    */
+    transition: all 1s;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+  body{
   color: #e8e8e8 !important;
   --bs-body-bg: #1e1f21;
   --background-base: #1e1f21;
@@ -200,7 +215,29 @@
   */
   transition: all 1s;
   }
-
+  body[data-darkmode=off] {
+    color: #000 !important;
+    --bs-body-bg: #fff;
+    --background-base: #fff;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-black-hover: #a8a8a8;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --btn-outline-dark : #212529;
+    --bs-light-rgb: 248, 249, 250;
+    --card-bg : #fff;
+    --text-muted : #6C757D;
+    --bs-link-hover-color: #1826c2;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-color: var(--background-base);
+    --bs-line-cl : #c71d6f;
+    --bs-top-btn : #F8F9FA;
+    --bs-top-btn-path : #000;
+    --bs-award-hover-rgb: 200, 200, 200;
+    transition: all 1s;
+  }
+}
 
 body[data-darkmode=on] .darkmode > .inner{
   background-color: #1e1f21;
@@ -286,14 +323,6 @@ body[data-darkmode=on] .darkmode > .inner{
     display: none;
   }
 }
-@media (min-width: 992px) {
-  .navbar:hover {
-    /*-webkit-backdrop-filter: blur(20px);  For Safari 깜빡임 문제.. */
-    background-color: rgba(var(--bs-black-rgb), 0.1);
-    backdrop-filter: blur(20px);
-    transition: all 1s;
-  }
-}
 
 /* Fade-In / Fade-Out 
 @keyframes fadein {
@@ -313,6 +342,13 @@ body[data-darkmode=on] .darkmode > .inner{
   to {opacity: 1;}
 }
 */
+
+.navbar:hover {
+  /*-webkit-backdrop-filter: blur(20px);  For Safari 깜빡임 문제.. */
+  background-color: rgba(var(--bs-black-rgb), 0.1);
+  backdrop-filter: blur(20px);
+  transition: all 1s;
+}
 
 .s-intro__content {
   z-index         : 1;
@@ -337,24 +373,6 @@ body[data-darkmode=on] .darkmode > .inner{
   width : 100%;
 }
 
-.load {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  position: fixed;
-  display: block;
-  opacity: 0.8;
-  background: white;
-  z-index: 99;
-  text-align: center;
-}
-
-.load > img {
-  margin-top: 50vh;
-  z-index: 100;
-}
-
 .s-services {
   padding-top      : var(--vspace-6);
   padding-bottom   : var(--vspace-5);
@@ -365,8 +383,8 @@ body[data-darkmode=on] .darkmode > .inner{
   background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
   border-radius: 10px;
-  width: auto;
-  white-space: pre-wrap;
+  width: 100%;
+  white-space: pre;
 }
 .s-intro {
   background-color : var(--color-preloader-bg);
@@ -381,7 +399,7 @@ body[data-darkmode=on] .darkmode > .inner{
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   z-index: -1;
   opacity: 0.15;
