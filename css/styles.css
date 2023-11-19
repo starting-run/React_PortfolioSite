@@ -403,7 +403,7 @@ body[data-darkmode=on] .darkmode > .inner{
   padding: 10px;
   border-radius: 10px;
   width: 100%;
-  white-space: pre;
+  white-space: pre-wrap;
 }
 .s-intro {
   background-color : var(--color-preloader-bg);
