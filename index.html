@@ -19,16 +19,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script>
         $(function() {
-            $(document).ready(function() {
-			$('#load').hide();
-		    });
-
-
             if (sessionStorage.getItem("locations") == null) {
                 sessionStorage.setItem("locations", "main.html");
             }
             $("#main").load(sessionStorage.getItem("locations"));
-
+            $("#main").ready(function() {
+			    $('#load').hide();
+		    });
             $("#mains").click(function() {
                 $('.navbar-toggler').addClass('collapsed');
                 $('.navbar-toggler').attr('aria-expanded', 'false');
