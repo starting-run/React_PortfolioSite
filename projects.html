@@ -1,101 +1,96 @@
-<!DOCTYPE html>
-<html lang="ko">
-    <head>
-        <title>usfree - projects</title>
-        <script>
-            $(function() {
-                $("#pacman").click(function() {
-                    gotosaveloc("elements/Processing_Pacman.html");
-                });
-                $("#ironman").click(function() {
-                    gotosaveloc("elements/OpenGL_Ironman.html");
-                });
-                $("#snake").click(function() {
-                    gotosaveloc("elements/Unity_Snake.html");
-                });
+<head>
+    <title>usfree - projects</title>
+    <script>
+        $(function() {
+            $("#pacman").click(function() {
+                gotosaveloc("elements/Processing_Pacman.html");
             });
-        </script>
-    </head>
-    <body class="d-flex flex-column h-100 bg-white" oncontextmenu="return false" ondragstart="return false" onkeydown="return false">
-        <div id="projectmain">
-            <!-- Projects Section-->
-            <section class=""><!--py2-->
-                <div class="container px-4 my-2">
-                    <div class="mb-0"><span class="">usfree ❯ <span class="text-normal">projects</span></span></div>
-                    <div class="mb-5">
-                        <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">PROJECTS</span></h1>
-                    </div>
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-11 col-xl-9 col-xxl-8">
-                            <!-- Project Card 4
-                            <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Utility Hanaro(2023)</h2>
-                                            <h4 class="fw-bolder-down">MFC (C++)</h4>
-                                            <p class="mymind">preparing...</p>
-                                            <a class="btn btn-primary-round-outline btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#">prepare　<i class="fa-solid fa-chevron-right"></i></a>
-                                        </div>
-                                        <img class="img-fluid" src="images/pacman.jpg" alt="Processing_Pacman" style="width: 300px; height: 400px;"/>
-                                    </div>
+            $("#ironman").click(function() {
+                gotosaveloc("elements/OpenGL_Ironman.html");
+            });
+            $("#snake").click(function() {
+                gotosaveloc("elements/Unity_Snake.html");
+            });
+        });
+    </script>
+</head>
+<div id="projectmain">
+    <!-- Projects Section-->
+    <section class=""><!--py2-->
+        <div class="container px-4 my-2">
+            <div class="mb-0"><span class="">usfree ❯ <span class="text-normal">projects</span></span></div>
+            <div class="mb-5">
+                <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">PROJECTS</span></h1>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-11 col-xl-9 col-xxl-8">
+                    <!-- Project Card 4
+                    <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">Utility Hanaro(2023)</h2>
+                                    <h4 class="fw-bolder-down">MFC (C++)</h4>
+                                    <p class="mymind">preparing...</p>
+                                    <a class="btn btn-primary-round-outline btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="#">prepare　<i class="fa-solid fa-chevron-right"></i></a>
                                 </div>
-                            </div> -->
-                            <!-- Project Card 3-->
-                            <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Pacman Game</h2>
-                                            <h4 class="fw-bolder-down">Processing</h4>
-                                            <p class="font-1">Processing으로 Pacman 게임을 간단하게 일부 재현하였습니다. 충돌판정 함수와 객체를 이용합니다.</p>
-                                            <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="#" id="pacman">detail　<i class="fa-solid fa-chevron-right"></i></a>
-                                        </div>
-                                        <img class="img-fluid" src="images/pacman.jpg" alt="Processing_Pacman" style="width: 300px; height: 400px;"/>
-                                    </div>
-                                </div>
-                            </div>  
-                            <!-- Project Card 2-->
-                            <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Ironman</h2>
-                                            <h4 class="fw-bolder-down">OpenGL</h4>
-                                            <p class="font-1">OpenGL로 제작된 아이언맨 모형입니다. 큐브맵&middot;플랫 쉐이딩&middot;퐁 쉐이딩&middot;와이어 프레임&middot;점 프레임 등이 사용되었습니다.</p>
-                                            <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="#" id="ironman">detail　<i class="fa-solid fa-chevron-right"></i></a>
-                                        </div>
-                                        <img class="img-fluid" src="images/ironman.jpg" alt="OpenGL_Ironman" style="width: 300px; height: 400px;"/>
-                                    </div>
-                                </div>
+                                <img class="img-fluid" src="images/pacman.jpg" alt="Processing_Pacman" style="width: 300px; height: 400px;"/>
                             </div>
-                            <!-- Project Card 1-->
-                            <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Snake Game</h2>
-                                            <h4 class="fw-bolder-down">Unity</h4>
-                                            <p class="font-1">Snake 캐릭터를 이용해 코인을 먹고 많은 점수를 기록하는 게임입니다. Unity 플랫폼을 사용하여 제작되었고, 선형보간 알고리즘&middot;Prefab구조&middot;List구조 등이 사용되었습니다.</p>
-                                            <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="#" id="snake">detail　<i class="fa-solid fa-chevron-right"></i></a>
-                                        </div>
-                                        <img class="img-fluid" src="images/snake.jpg" alt="Unity_Snake" style="width: 300px; height: 400px;"/>
-                                    </div>
+                        </div>
+                    </div> -->
+                    <!-- Project Card 3-->
+                    <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">Pacman Game</h2>
+                                    <h4 class="fw-bolder-down">Processing</h4>
+                                    <p class="font-1">Processing으로 Pacman 게임을 간단하게 일부 재현하였습니다. 충돌판정 함수와 객체를 이용합니다.</p>
+                                    <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="#" id="pacman">detail　<i class="fa-solid fa-chevron-right"></i></a>
                                 </div>
+                                <img class="img-fluid" src="images/pacman.jpg" alt="Processing_Pacman" style="width: 300px; height: 400px;"/>
+                            </div>
+                        </div>
+                    </div>  
+                    <!-- Project Card 2-->
+                    <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">Ironman</h2>
+                                    <h4 class="fw-bolder-down">OpenGL</h4>
+                                    <p class="font-1">OpenGL로 제작된 아이언맨 모형입니다. 큐브맵&middot;플랫 쉐이딩&middot;퐁 쉐이딩&middot;와이어 프레임&middot;점 프레임 등이 사용되었습니다.</p>
+                                    <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="#" id="ironman">detail　<i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                                <img class="img-fluid" src="images/ironman.jpg" alt="OpenGL_Ironman" style="width: 300px; height: 400px;"/>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project Card 1-->
+                    <div class="card overflow-hidden shadow rounded-2 border-0 mb-5">
+                        <div class="card-body p-0">
+                            <div class="d-flex align-items-center">
+                                <div class="p-5">
+                                    <h2 class="fw-bolder">Snake Game</h2>
+                                    <h4 class="fw-bolder-down">Unity</h4>
+                                    <p class="font-1">Snake 캐릭터를 이용해 코인을 먹고 많은 점수를 기록하는 게임입니다. Unity 플랫폼을 사용하여 제작되었고, 선형보간 알고리즘&middot;Prefab구조&middot;List구조 등이 사용되었습니다.</p>
+                                    <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="#" id="snake">detail　<i class="fa-solid fa-chevron-right"></i></a>
+                                </div>
+                                <img class="img-fluid" src="images/snake.jpg" alt="Unity_Snake" style="width: 300px; height: 400px;"/>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- Call to action section
-            <section class="py-5 bg-gradient-primary-to-secondary text-white">
-                <div class="container px-5 my-5">
-                    <div class="text-center">
-                        <h2 class="display-4 fw-bolder mb-4">관심 가져주셔서 감사합니다 !</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
-                    </div>
-                </div>
-            </section>-->
+            </div>
         </div>
-    </body>
-</html>
+    </section>
+    <!-- Call to action section
+    <section class="py-5 bg-gradient-primary-to-secondary text-white">
+        <div class="container px-5 my-5">
+            <div class="text-center">
+                <h2 class="display-4 fw-bolder mb-4">관심 가져주셔서 감사합니다 !</h2>
+                <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+            </div>
+        </div>
+    </section>-->
+</div>
