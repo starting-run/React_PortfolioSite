@@ -28,6 +28,12 @@
                 $(".navbar-toggler").trigger("click");
             }
         }
+
+        function gotosaveloc(gotolo) {
+            $("#main").load(gotolo, acorClose());
+            sessionStorage.setItem("locations", gotolo);
+        }
+
         $(function() {
             if (sessionStorage.getItem("locations") == null) {
                 sessionStorage.setItem("locations", "main.html");
@@ -35,20 +41,16 @@
             $("#main").load(sessionStorage.getItem("locations"));
             
             $("#mains").click(function() {
-                $("#main").load("main.html", acorClose());
-                sessionStorage.setItem("locations", "main.html");
+                gotosaveloc("main.html");
             });
             $("#profiles").click(function() {
-                $("#main").load("profile.html", acorClose());
-                sessionStorage.setItem("locations", "profile.html");
+                gotosaveloc("profile.html");
             });
             $("#projects").click(function() {
-                $("#main").load("projects.html", acorClose());
-                sessionStorage.setItem("locations", "projects.html");
+                gotosaveloc("projects.html");
             });
             $("#links").click(function() {
-                $("#main").load("elements/link.html", acorClose());
-                sessionStorage.setItem("locations", "elements/link.html");
+                gotosaveloc("elements/link.html");
             });
         });
         </script>

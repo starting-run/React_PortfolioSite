@@ -4,12 +4,10 @@
         <script>
             $(function() {
                 $("#back").click(function() {
-                    $("#projectmain").load("projects.html", acorClose());
-                    sessionStorage.setItem("locations", "projects.html");
+                    gotosaveloc("projects.html");
                 });
                 $("#back2").click(function() {
-                    $("#projectmain").load("projects.html", acorClose());
-                    sessionStorage.setItem("locations", "projects.html");
+                    gotosaveloc("projects.html");
                 });
             });
         </script>
