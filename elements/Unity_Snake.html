@@ -4,17 +4,11 @@
         <script>
             $(function() {
                 $("#back").click(function() {
-                    if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
-                        $(".navbar-toggler").trigger("click");
-                    }
-                    $("#projectmain").load("projects.html");
+                    $("#projectmain").load("projects.html", acorClose());
                     sessionStorage.setItem("locations", "projects.html");
                 });
                 $("#back2").click(function() {
-                    if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
-                        $(".navbar-toggler").trigger("click");
-                    }
-                    $("#projectmain").load("projects.html");
+                    $("#projectmain").load("projects.html", acorClose());
                     sessionStorage.setItem("locations", "projects.html");
                 });
             });

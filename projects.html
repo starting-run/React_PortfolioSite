@@ -5,24 +5,15 @@
         <script>
             $(function() {
                 $("#pacman").click(function() {
-                    if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
-                        $(".navbar-toggler").trigger("click");
-                    }
-                    $("#projectmain").load("elements/Processing_Pacman.html");
+                    $("#projectmain").load("elements/Processing_Pacman.html", acorClose());
                     sessionStorage.setItem("locations", "elements/Processing_Pacman.html");
                 });
                 $("#ironman").click(function() {
-                    if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
-                        $(".navbar-toggler").trigger("click");
-                    }
-                    $("#projectmain").load("elements/OpenGL_Ironman.html");
+                    $("#projectmain").load("elements/OpenGL_Ironman.html", acorClose());
                     sessionStorage.setItem("locations", "elements/OpenGL_Ironman.html");
                 });
                 $("#snake").click(function() {
-                    if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
-                        $(".navbar-toggler").trigger("click");
-                    }
-                    $("#projectmain").load("elements/Unity_Snake.html");
+                    $("#projectmain").load("elements/Unity_Snake.html", acorClose());
                     sessionStorage.setItem("locations", "elements/Unity_Snake.html");
                 });
             });

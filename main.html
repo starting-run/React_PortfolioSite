@@ -3,17 +3,11 @@
     <script>
         $(function() {
             $("#profiles2").click(function() {
-                $('.navbar-toggler').addClass('collapsed');
-                $('.navbar-toggler').attr('aria-expanded', 'false');
-                $('.collapse').removeClass('show')
-                $("#main").load("profile.html");
+                $("#main").load("profile.html", acorClose());
                 sessionStorage.setItem("locations", "profile.html");
             });
             $("#projects2").click(function() {
-                $('.navbar-toggler').addClass('collapsed');
-                $('.navbar-toggler').attr('aria-expanded', 'false');
-                $('.collapse').removeClass('show')
-                $("#main").load("projects.html");
+                $("#main").load("projects.html", acorClose());
                 sessionStorage.setItem("locations", "projects.html");
             });
         });
