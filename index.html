@@ -18,17 +18,14 @@
         <script src="js/748053c430.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script>
-        var WinW = $(window).width();
         /* 로딩화면
         $("#main").ready(function() {
 			    $('#load').hide();
 		    });*/
 
         var acorClose = function() {
-            if (WinW < 992) {
-                if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
-                    $(".navbar-toggler").trigger("click");
-                }
+            if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
+                $(".navbar-toggler").trigger("click");
             }
         }
         $(function() {
