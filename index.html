@@ -39,18 +39,25 @@
                 sessionStorage.setItem("locations", "main.html");
             }
             $("#main").load(sessionStorage.getItem("locations"));
+            if (sessionStorage.getItem("locations") != 'main.html') {
+                $('.navbar').addClass('bg-white');
+            }
             
             $("#mains").click(function() {
                 gotosaveloc("main.html");
+                $('.navbar').removeClass('bg-white');
             });
             $("#profiles").click(function() {
                 gotosaveloc("profile.html");
+                $('.navbar').addClass('bg-white');
             });
             $("#projects").click(function() {
                 gotosaveloc("projects.html");
+                $('.navbar').addClass('bg-white');
             });
             $("#links").click(function() {
                 gotosaveloc("elements/link.html");
+                $('.navbar').addClass('bg-white');
             });
         });
         </script>

@@ -3,12 +3,12 @@
     <script>
         $(function() {
             $("#profiles2").click(function() {
-                $("#main").load("profile.html", acorClose());
-                sessionStorage.setItem("locations", "profile.html");
+                gotosaveloc("profile.html");
+                $('.navbar').addClass('bg-white');
             });
             $("#projects2").click(function() {
-                $("#main").load("projects.html", acorClose());
-                sessionStorage.setItem("locations", "projects.html");
+                gotosaveloc("projects.html");
+                $('.navbar').addClass('bg-white');
             });
         });
         </script>
