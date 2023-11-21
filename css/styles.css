@@ -425,7 +425,7 @@ body[data-darkmode=on] .darkmode > .inner{
   position: fixed; /* 스크롤시 고정은 absolute */
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%; /* absolute시 100vh */
   width: 100%;
   z-index: -1;
   opacity: 0.2; /* 원본값 0.15 */
