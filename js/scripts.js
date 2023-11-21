@@ -49,6 +49,10 @@
                 document.body.dataset.darkmode='on';
                 document.querySelector('#toggle-radio-dark').checked = true;
             }
+            else {
+                document.body.dataset.darkmode='off';
+                document.querySelector('#toggle-radio-dark').checked = false;                
+            }
             
             //다크모드 이벤트 핸들러
             document.querySelector('.darkmode').addEventListener("click", e=>{
