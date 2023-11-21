@@ -422,7 +422,7 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 .bg-video {
-  position: absolute;
+  position: fixed; /* 스크롤시 고정은 absolute */
   top: 0;
   left: 0;
   height: 100vh;
