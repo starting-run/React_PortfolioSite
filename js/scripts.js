@@ -37,6 +37,7 @@
 
     })();
 
+
     document.addEventListener('DOMContentLoaded', function(){
 
         function checkDarkMode() {

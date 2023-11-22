@@ -355,7 +355,7 @@ body[data-darkmode=on] .darkmode > .inner{
   position: fixed;
   display: block;
   opacity: 0.8;
-  background: white;
+  background: var(--bs-white);
   z-index: 99;
   text-align: center;
 }
