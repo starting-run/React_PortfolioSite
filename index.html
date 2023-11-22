@@ -12,8 +12,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
         <script src="js/scripts.js"></script>
         <script src="js/748053c430.js"></script>
         <script src="js/jquery-3.7.1.min.js"></script>
@@ -29,35 +27,44 @@
             }
         }
 
+        /* 버튼 클릭으로 load 페이지 변경 */
         function gotosaveloc(gotolo) {
             $("#main").load(gotolo, acorClose());
             sessionStorage.setItem("locations", gotolo);
+            if (gotolo == 'main.html') {
+                $('.navbar').removeClass('bg-white');
+            }
+            else {
+                $('.navbar').addClass('bg-white');
+            }
         }
+        /* ---------------------------- */
 
         $(function() {
             if (sessionStorage.getItem("locations") == null) {
                 sessionStorage.setItem("locations", "main.html");
             }
+            /* 새로고침 or 사이트 이동 시 load */
             $("#main").load(sessionStorage.getItem("locations"));
-            if (sessionStorage.getItem("locations") != 'main.html') {
+            if (sessionStorage.getItem("locations") == 'main.html') {
+                $('.navbar').removeClass('bg-white');
+            }
+            else {
                 $('.navbar').addClass('bg-white');
             }
-            
+            /* ----------------------------- */
+
             $("#mains").click(function() {
                 gotosaveloc("main.html");
-                $('.navbar').removeClass('bg-white');
             });
             $("#profiles").click(function() {
                 gotosaveloc("profile.html");
-                $('.navbar').addClass('bg-white');
             });
             $("#project").click(function() {
                 gotosaveloc("project.html");
-                $('.navbar').addClass('bg-white');
             });
             $("#links").click(function() {
                 gotosaveloc("elements/link.html");
-                $('.navbar').addClass('bg-white');
             });
         });
         </script>
@@ -68,8 +75,8 @@
         <meta property="og:url" content="usfree.site" />
         <meta property="og:image" content="https://usfree.site/images/OGmetaN.png" /> 
         <meta property="og:description" content="창의적인 꿈을 그립니다. usfree, 조우현" />
-    </head><!--
-    <div class="universe d-grid">
+    </head>
+    <!--<div class="universe d-grid">
         <div class="px-4 row align-items-center justify-content-between flex-sm-row">
             <div class="font-5 font-letter-space-lg col-auto my-auto ">usfree UNiVERSE</div>
             <div class="col-auto uni-items">
@@ -121,7 +128,9 @@
                     </div>
                 </div>-->
             </nav>
-            <div id="main"></div>
+            <div id="main">
+                <!-- load될 영역 -->
+            </div>
         </main>
         
         <!-- Footer-->
