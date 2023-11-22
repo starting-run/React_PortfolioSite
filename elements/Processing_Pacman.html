@@ -33,7 +33,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="p-5 proj_text">
                                     <h3><b>Map Create</b></h3>
-    <div class="code">void CreateMap() {
+    <div class="code mb-2">void CreateMap() {
     cols = width / gridSize;
     rows = height / gridSize;
     map = new int[cols][rows];
@@ -59,14 +59,14 @@
     </div>
                                         <h5>맵을 생성하는 함수입니다. 랜덤한 확률로 벽을 생성하며, 랜덤으로 생성한 벽 요소를 2차원 배열에 저장합니다.</h5><br>
                                         <h3><b>Collision Detection</b></h3>
-    <div class="code">//매개변수 좌표가 맵 안에 있고 벽이 아니라면 true 반환
+    <div class="code mb-2">//매개변수 좌표가 맵 안에 있고 벽이 아니라면 true 반환
     boolean isCellEmpty(int x, int y) {
     return (x >= 0 && x < cols && y >= 0 && y < rows && map[x][y] == 1);
     }</div>                                        
                                         <h5>객체가 벽에 충돌하는지 판정하는 함수입니다. 객체의 매 이동 순간마다 매개변수로 현재 위치를 전달하여 CreateMap으로 생성된 2차원 배열에서 벽인지 판단합니다.</h5><br>   
                                         <h3><b>Object</b></h3>
                                         <h5>4개의 객체 요소를 포함합니다.</h5>
-    <div class="code">/* User Character Object */
+    <div class="code mb-2">/* User Character Object */
     class Pacman {
     int x, y;
 
@@ -91,7 +91,7 @@
     }
     </div>
                                         <h5>사용자가 컨트롤하는 객체입니다. 사용자가 입력한 키보드 방향에 따라 다른 방향의 이미지를 불러옵니다. </h5><br>
-    <div class="code">/* Ghost Character Object */
+    <div class="code mb-2">/* Ghost Character Object */
     class Ghost {
     int x, y;
     int speed = 2; //고스트 이동속도(낮을수록 빠름)
@@ -136,7 +136,7 @@
     }    
     </div>
                                         <h5>Ghost 객체입니다. 게임 내에서 랜덤한 방향을 정해 해당 방향으로 벽을 만날 때 까지 진행한 후, 벽을 만나면 새롭게 진행할 방향을 설정합니다.</h5><br>
-    <div class="code">/* Item Object */
+    <div class="code mb-2">/* Item Object */
     class Item {
     int x, y;
     int upsize;
