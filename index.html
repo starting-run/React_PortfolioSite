@@ -22,8 +22,6 @@
             }
         }
 
-         /* 로딩화면*/
-
         /* 버튼 클릭으로 load 페이지 변경 */
         function gotosaveloc(gotolo) {
             $("#main").load(gotolo, acorClose());
@@ -42,10 +40,13 @@
                 sessionStorage.setItem("locations", "main.html");
             }
             /* 새로고침 or 사이트 이동 시 load */
+            $("#main").load(sessionStorage.getItem("locations"));
+
+            /* 배경영상 로딩 */
             $(".bg-video").ready(function() {
-                $("#main").load(sessionStorage.getItem("locations"));
                 $('#load').hide();
             });
+
             if (sessionStorage.getItem("locations") == 'main.html') {
                 $('.navbar').removeClass('bg-white');
             } else {
