@@ -23,10 +23,6 @@
         }
 
          /* 로딩화면*/
-        $("document").ready(function() {
-            $("#main").load(sessionStorage.getItem("locations"));
-            $('#load').hide();
-        });
 
         /* 버튼 클릭으로 load 페이지 변경 */
         function gotosaveloc(gotolo) {
@@ -46,7 +42,10 @@
                 sessionStorage.setItem("locations", "main.html");
             }
             /* 새로고침 or 사이트 이동 시 load */
-            
+            $(".bg-video").ready(function() {
+                $("#main").load(sessionStorage.getItem("locations"));
+                $('#load').hide();
+            });
             if (sessionStorage.getItem("locations") == 'main.html') {
                 $('.navbar').removeClass('bg-white');
             } else {
