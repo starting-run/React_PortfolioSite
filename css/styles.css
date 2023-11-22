@@ -347,6 +347,24 @@ body[data-darkmode=on] .darkmode > .inner{
   }
 }
 
+.load {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 0.8;
+  background: var(--bs-white);
+  z-index: 99;
+  text-align: center;
+}
+
+.load > img {
+  margin-top: 40vh;
+  z-index: 100;
+}
+
 /* Fade-In / Fade-Out 
 @keyframes fadein {
   from {opacity:0;}

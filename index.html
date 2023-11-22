@@ -21,7 +21,13 @@
                 $(".navbar-toggler").trigger("click");
             }
         }
-        
+
+         /* 로딩화면*/
+        $("document").ready(function() {
+            $("#main").load(sessionStorage.getItem("locations"));
+            $('#load').hide();
+        });
+
         /* 버튼 클릭으로 load 페이지 변경 */
         function gotosaveloc(gotolo) {
             $("#main").load(gotolo, acorClose());
@@ -40,11 +46,10 @@
                 sessionStorage.setItem("locations", "main.html");
             }
             /* 새로고침 or 사이트 이동 시 load */
-            $("#main").load(sessionStorage.getItem("locations"));
+            
             if (sessionStorage.getItem("locations") == 'main.html') {
                 $('.navbar').removeClass('bg-white');
-            }
-            else {
+            } else {
                 $('.navbar').addClass('bg-white');
             }
             /* ----------------------------- */
@@ -81,6 +86,9 @@
         </div>
     </div>-->
     <body class="d-flex flex-column vh-100" oncontextmenu="return false" ondragstart="return false" onkeydown="return false">
+        <div class= "load" id="load">
+            <img src="images/loading.svg" alt="loading">
+        </div>
         <div class="bg-video">
             <video class="bg-video__content" autoplay muted loop>
               <source src="images/video/usfree_creative.mp4" type="video/mp4" />
