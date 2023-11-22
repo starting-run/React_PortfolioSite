@@ -21,11 +21,7 @@
                 $(".navbar-toggler").trigger("click");
             }
         }
-
-         /* 로딩화면*/
-        $("#main").ready(function() {
-                $('#load').hide();
-            });
+        
         /* 버튼 클릭으로 load 페이지 변경 */
         function gotosaveloc(gotolo) {
             $("#main").load(gotolo, acorClose());
