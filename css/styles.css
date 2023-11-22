@@ -358,7 +358,6 @@ body[data-darkmode=on] .darkmode > .inner{
   background: var(--bs-white);
   z-index: 99;
   text-align: center;
-  transition: all 1s;
 }
 
 .load > img {
