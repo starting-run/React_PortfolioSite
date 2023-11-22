@@ -43,7 +43,7 @@
             $("#main").load(sessionStorage.getItem("locations"));
 
             /* 배경영상 로딩 */
-            $("#main").ready(function() {
+            $(window).on("load", function() {
                 $('#load').hide();
             });
 
