@@ -40,7 +40,7 @@
                 sessionStorage.setItem("locations", "main.html");
             }
             /* 새로고침 or 사이트 이동 시 load */
-            $("#main").load(sessionStorage.getItem("locations"));
+            $("#main").load(sessionStorage.getItem("locations"), $('#load').hide());
             if (sessionStorage.getItem("locations") == 'main.html') {
                 $('.navbar').removeClass('bg-white');
             }
