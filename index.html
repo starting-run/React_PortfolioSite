@@ -48,8 +48,16 @@
 
         $(function() {
             /* 새로고침 or 초기로딩 */
-            gotosaveloc("main.html");
-
+            window.onload = function(){
+                var hash = location.hash;
+                var rehash = hash.replace('#','');
+                if (hash == "") { 
+                    gotosaveloc("main.html");
+                }
+                else {
+                gotosaveloc(rehash);
+                }
+            }
             /* 뒤로가기*/
             $(window).on('popstate', function (event) {
                 const data = event.originalEvent.state;
