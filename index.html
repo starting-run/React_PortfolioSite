@@ -43,9 +43,8 @@
                 $('.navbar').addClass('bg-white');
             }
             acorClose();
-            $('html, body').animate({scrollTop: '0'}, 300);          
+            $('html, body').animate({scrollTop: '0'}, 300);
         }
-        /* ---------------------------- */
 
         $(function() {
             /* 새로고침 or 초기로딩 */
@@ -60,11 +59,6 @@
                     type: "get",
                     success: (result) => {
                         $("#main").html(result);
-                        //alert(JSON.stringify(data));
-                        //검색 처리 위해서
-                        //$("#type").val(data.type||"t");
-                        //$("#keyword").val(data.keyword);
-
                     }
                 })
                 if (data.data == 'main.html') {
