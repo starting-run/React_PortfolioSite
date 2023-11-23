@@ -24,36 +24,66 @@
 
         /* 버튼 클릭으로 load 페이지 변경 */
         function gotosaveloc(gotolo) {
-            $("#main").load(gotolo, acorClose());
-            sessionStorage.setItem("locations", gotolo);
-            if (gotolo == 'main.html') {
-                $('.navbar').removeClass('bg-white');
-            }
-            else {
-                $('.navbar').addClass('bg-white');
-            }
-        }
-        /* ---------------------------- */
-
-        $(function() {
-            if (sessionStorage.getItem("locations") == null) {
-                sessionStorage.setItem("locations", "main.html");
-            }
-            /* 새로고침 or 사이트 이동 시 load */
-            $("#main").load(sessionStorage.getItem("locations"));
-
-            /* 배경영상 로딩 */
-            $(window).on("load", function() {
-                $('#load').hide();
+            $.ajax({
+                    url: gotolo,
+                    data: {page: 1},
+                    type: "get",
+                    success: (result) => {
+                        $("#main").html(result);
+                    }
             });
-
-            if (sessionStorage.getItem("locations") == 'main.html') {
+            history.pushState({
+                data: gotolo,
+                page: 1
+            }, null, "index.html#" + gotolo);
+            
+            if (gotolo == 'main.html') {
                 $('.navbar').removeClass('bg-white');
             } else {
                 $('.navbar').addClass('bg-white');
             }
-            /* ----------------------------- */
+            acorClose();
+            $('html, body').animate({scrollTop: '0'}, 300);          
+        }
+        /* ---------------------------- */
 
+        $(function() {
+            /* 새로고침 or 초기 로딩 load */
+            
+
+            //로딩 끝나면 메인html을 gotoloc으로 불러오기 or 메인을 index에 미리 넣어두기 
+            //방법2: 로딩 끝나면 변수 하나에 main.html을 넣고 gotoloc으로 불러오기 등            
+            
+
+            /* 뒤로가기*/
+            $(window).on('popstate', function (event) {
+                const data = event.originalEvent.state;
+                $.ajax({
+                    url: data.data,
+                    data: {page:data.page, type: data.type, keyword: data.keyword},
+                    type: "get",
+                    success: (result) => {
+                        $("#main").html(result);
+                        //alert(JSON.stringify(data));
+                        //검색 처리 위해서
+                        //$("#type").val(data.type||"t");
+                        //$("#keyword").val(data.keyword);
+
+                    }
+                })
+                if (data.data == 'main.html') {
+                $('.navbar').removeClass('bg-white');
+                } else {
+                    $('.navbar').addClass('bg-white');
+                }
+            });
+
+            gotosaveloc("main.html");
+
+            /* 로딩 progress bar */
+            $(window).on("load", function() {
+                $('#load').hide();
+            });
             $("#mains").click(function() {
                 gotosaveloc("main.html");
             });
@@ -99,12 +129,12 @@
             <!-- Navigation-->
                 <nav class="navbar navbar-upper navbar-expand-lg navbar-light py-4">
                 <div class="container px-4">
-                    <a class="navbar-brand" id="mains" href="#"><span class="fw-bolder text-primary"><img src="images/logo_sq.png" alt="Homepage" style="width: 55px;"></span></a>
+                    <a class="navbar-brand" id="mains"><span class="fw-bolder text-primary"><img src="images/logo_sq.png" alt="Homepage" style="width: 55px;"></span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small font-letter-space">
-                            <li class="nav-item"><a class="nav-link" id="profiles" href="#">Profile</a></li>
-                            <li class="nav-item"><a class="nav-link" id="project" href="#">Project</a></li>
+                            <li class="nav-item"><a class="nav-link" id="profiles">Profile</a></li>
+                            <li class="nav-item"><a class="nav-link" id="project">Project</a></li>
                             <li class="nav-item"><a class="nav-link" href="https://usfree.site/blog">Blog</a></li>
                             <li class="nav-item"><a class="nav-link" href="https://github.com/usfree" target='_blank'>Github</a></li>
                             <!-- 다크모드 toggle -->
