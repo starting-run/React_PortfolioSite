@@ -4470,6 +4470,14 @@ textarea.form-control-lg {
     text-transform: uppercase;
 }
 
+.navbar-fixed-attr {
+  position: fixed;
+  top: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0;
+}
+
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
