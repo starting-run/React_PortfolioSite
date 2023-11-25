@@ -27,11 +27,6 @@
   --font-6 : 'Sunflower', sans-serif;
 }
 
-body {
-  background-color: rgb(252, 133, 116);
-  backdrop-filter: blur(10px);
-}
-
 .font-1 {
   font-family: var(--font-1);
 }
