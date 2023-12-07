@@ -19,6 +19,7 @@
         var acorClose = function() {
             if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
                 $(".navbar-toggler").trigger("click");
+                $("input:checkbox[id='hbg']").prop("checked", false);
             }
         }
 
@@ -118,7 +119,8 @@
     </div>-->
     <body class="d-flex flex-column vh-100" oncontextmenu="return false" ondragstart="return false" onkeydown="return false">
         <div class= "load" id="load">
-            <img src="images/loading.svg" alt="loading">
+            <div class="loader"></div>
+        <!-- 구형 로더<img src="images/loading.svg" alt="loading">-->
         </div>
         <div class="bg-video">
             <video class="bg-video__content" autoplay muted loop>
@@ -131,7 +133,15 @@
                 <nav class="navbar navbar-upper navbar-expand-lg navbar-light py-4">
                 <div class="container px-4">
                     <a class="navbar-brand" id="mains"><span class="fw-bolder text-primary"><img src="images/logo_sq.png" alt="Homepage" style="width: 55px;"></span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <label class="hamburger">
+                        <input type="checkbox" id="hbg">
+                        <svg viewBox="0 0 32 32">
+                          <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                          <path class="line" d="M7 16 27 16"></path>
+                        </svg>
+                      </label></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small font-letter-space">
                             <li class="nav-item"><a class="nav-link" id="profiles">Profile</a></li>
