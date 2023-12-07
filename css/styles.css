@@ -4711,7 +4711,7 @@ textarea.form-control-lg {
 
 .line {
   fill: none;
-  stroke: white;
+  stroke: var(--bs-black);
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 3;
