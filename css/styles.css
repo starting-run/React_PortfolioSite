@@ -347,7 +347,7 @@ body[data-darkmode=on] .darkmode > .inner{
     transition-duration: 0.5s;
   }
 }
-svg {
+.loadings {
   width: 4.25em;
   transform-origin: center;
   animation: rotate4 2s linear infinite;
