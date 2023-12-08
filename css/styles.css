@@ -515,8 +515,8 @@ body[data-darkmode=on] .darkmode > .inner{
   height: 100vh; /* absolute시 100vh */
   width: 100%;
   z-index: -1;
-  opacity: 0.2; /* 원본값 0.15 */
-  /* filter:blur(5px); 배경 블러 */
+  opacity: 0.15; /* 원본값 0.15 */
+  /* filter:blur(2px); 배경 블러 */
 }
 
 .scr-down {
