@@ -336,9 +336,9 @@ body[data-darkmode=on] .darkmode > .inner{
 /* 모바일X PC크기에서만 작동하는 영역*/
 @media (min-width: 992px) {
   .navbar:hover {
-    -webkit-backdrop-filter: blur(50px);  /*For Safari */
+    -webkit-backdrop-filter: blur(30px);  /*For Safari */
     background-color: rgba(var(--bs-black-rgb), 0.05);
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(30px);
     transition: all 1s;
   }
   .navbar-brand img:hover {
@@ -4782,7 +4782,7 @@ ul { list-style:none; cursor:pointer;}
 li { 
   /*width:30%;*/
   float:right; 
-  margin-left:30px;
+  margin-left:45px;
   transition:all .3s ease 
 }
 li:hover { color:#39d9c8; transition:all .3s ease }
@@ -9089,7 +9089,7 @@ video {
 }
 
 .fs-fr {
-  font-size: 1.1rem !important;
+  font-size: 1.16rem !important;
 }
 .fst-italic {
   font-style: italic !important;
