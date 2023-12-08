@@ -336,9 +336,9 @@ body[data-darkmode=on] .darkmode > .inner{
 /* 모바일X PC크기에서만 작동하는 영역*/
 @media (min-width: 992px) {
   .navbar:hover {
-    -webkit-backdrop-filter: blur(15px);  /*For Safari */
+    -webkit-backdrop-filter: blur(50px);  /*For Safari */
     background-color: rgba(var(--bs-black-rgb), 0.05);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(50px);
     transition: all 1s;
   }
   .navbar-brand img:hover {
