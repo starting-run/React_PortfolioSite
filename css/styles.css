@@ -47,7 +47,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-normal-rgb: 45, 142, 255;
+  --bs-normal-rgb: 252, 133, 116;
   --bs-primary-rgb: 30, 48, 243;
   --bs-secondary-rgb: 226, 30, 128;
   --bs-third-rgb: 113, 31, 202;
@@ -159,7 +159,7 @@
     --bs-top-btn : #F8F9FA;
     --bs-top-btn-path : #000;
     --bs-award-hover-rgb: 200, 200, 200;
-    --bs-normal-rgb: 199, 29, 111;
+    --bs-normal-rgb: 252, 133, 116;
     transition: all 1s;
   }
   body[data-darkmode=on]{
@@ -184,7 +184,7 @@
     --bs-top-btn : #2D2E2E;
     --bs-top-btn-path : #fff;
     --bs-award-hover-rgb: 100, 100, 100;
-    --bs-normal-rgb: 45, 142, 255;
+    --bs-normal-rgb: 252, 133, 116;
       /*
     --text-gradient : -webkit-linear-gradient(315deg, #e0c3fc 0%, #8ec5fc 100%);
     --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
@@ -216,7 +216,7 @@
   --bs-top-btn : #2D2E2E;
   --bs-top-btn-path : #fff;
   --bs-award-hover-rgb: 100, 100, 100;
-  --bs-normal-rgb: 45, 142, 255;
+  --bs-normal-rgb: 252, 133, 116;
     /*
   --text-gradient : -webkit-linear-gradient(315deg, #e0c3fc 0%, #8ec5fc 100%);
   --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
@@ -244,7 +244,7 @@
     --bs-top-btn : #F8F9FA;
     --bs-top-btn-path : #000;
     --bs-award-hover-rgb: 200, 200, 200;
-    --bs-normal-rgb: 199, 29, 111;
+    --bs-normal-rgb: 252, 133, 116;
     transition: all 1s;
   }
 }
