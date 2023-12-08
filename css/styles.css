@@ -4477,7 +4477,6 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-  font-size: 17px;
   font-weight: var(--bs-nav-link-font-weight);
   font-family: var(--font-6);
   color: var(--bs-nav-link-color);
@@ -9089,6 +9088,9 @@ video {
   font-size: 0.85rem !important;
 }
 
+.fs-fr {
+  font-size: 1.1rem !important;
+}
 .fst-italic {
   font-style: italic !important;
 }
