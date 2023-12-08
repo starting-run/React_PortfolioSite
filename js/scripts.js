@@ -37,7 +37,7 @@
 
     })();
 
-
+    /* 다크모드
     document.addEventListener('DOMContentLoaded', function(){
 
         function checkDarkMode() {
@@ -65,7 +65,7 @@
             localStorage.removeItem("darkmode");
         }
 
-    })
+    })*/
     /*
     jQuery(function($) {
         $("body").css("display", "none");
