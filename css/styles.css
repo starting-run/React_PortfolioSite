@@ -255,6 +255,10 @@ body[data-darkmode=on] .darkmode > .inner{
   box-shadow: 0 0 16px 3px rgba(255 255 255 / 15%);
 }
 
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
 /* Darkmode Toggle */
 
 .darkmode > .inner{
@@ -326,9 +330,6 @@ body[data-darkmode=on] .darkmode > .inner{
 
 /* projects에서 창 작으면 이미지 예시 none */
 @media (max-width: 765px) {
-  .img-fluid {
-    display: none;
-  }
   .profile {
     display: none;
   }
@@ -845,6 +846,10 @@ small, .small {
   color: var(--bs-black);
 }
 
+.small-nodarkmode {
+  font-size: 0.875em;
+}
+
 mark, .mark {
   padding: 0.1875em;
   background-color: var(--bs-highlight-bg);
@@ -1233,8 +1238,9 @@ progress {
 }
 
 .img-fluid:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.05, 1.05);
   transition-duration: 0.5s;
+  cursor: pointer;
 }
 
 .img-thumbnail {
@@ -5148,6 +5154,28 @@ li:hover > .nav-link::after {
   border-top: 0;
 }
 
+.card-cover {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: var(--bs-card-bg);
+}
+
+.card-image {
+  position: absolute;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  filter: opacity(15%);
+  -webkit-backdrop-filter: opacity(15%);  /*For Safari */
+}
+
+.card-overtext {
+  z-index: 2;
+}
+
 .card-body {
   flex: 1 1 auto;
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
@@ -7639,7 +7667,7 @@ li:hover > .nav-link::after {
 
 .text-bg-dark {
   color: #fff !important;
-  background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
+  background-color: RGBA(var(--bs-card-bg), var(--bs-bg-opacity, 1)) !important;
 }
 
 .link-primary {
