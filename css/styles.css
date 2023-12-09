@@ -5167,11 +5167,11 @@ li:hover > .nav-link::after {
 .card-image {
   position: absolute;
   z-index: 0;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  width: 100%;
+  height: 100%;
   filter: opacity(15%);
   -webkit-backdrop-filter: opacity(15%);  /*For Safari */
+  object-fit: cover;
 }
 
 .card-overtext {
