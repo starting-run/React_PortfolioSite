@@ -5170,7 +5170,7 @@ li:hover > .nav-link::after {
   width: 100%;
   height: 100%;
   filter: opacity(15%);
-  -webkit-backdrop-filter: opacity(15%);  /*For Safari */
+  -webkit-filter: opacity(15%);  /*For Safari */
   object-fit: cover;
 }
 
