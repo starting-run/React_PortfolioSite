@@ -5259,8 +5259,8 @@ li:hover > .nav-link::after {
   z-index: 0;
   width: 100%;
   height: 100%;
-  filter: opacity(10%);
-  -webkit-filter: opacity(10%);  /*For Safari */
+  filter: opacity(15%);
+  -webkit-filter: opacity(15%);  /*For Safari */
   object-fit: cover;
 }
 
@@ -7759,7 +7759,7 @@ li:hover > .nav-link::after {
 
 .text-bg-dark {
   color: #fff !important;
-  background-color: RGB(var(--bs-card-bg)) !important;
+  background-color: var(--bs-card-bg) !important;
 }
 
 .link-primary {
