@@ -9448,10 +9448,12 @@ video {
 .bg-award {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  transition: all 1s;
 }
 
 .bg-award:hover {
   background-color: rgba(var(--bs-award-hover-rgb), var(--bs-bg-opacity)) !important;
+  transition: all 1s;
 }
 
 
