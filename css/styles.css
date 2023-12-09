@@ -280,7 +280,7 @@ body[data-darkmode=on] .darkmode > .inner{
   top: 0;
   margin-left: -150%;
   margin-top: -70%;
-  background: linear-gradient(744deg,#af40ff,#5b42f3 60%,#00ddeb);
+  background: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
 }
 
 .icon {
