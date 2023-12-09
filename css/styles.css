@@ -5259,8 +5259,8 @@ li:hover > .nav-link::after {
   z-index: 0;
   width: 100%;
   height: 100%;
-  filter: opacity(15%);
-  -webkit-filter: opacity(15%);  /*For Safari */
+  filter: opacity(10%);
+  -webkit-filter: opacity(10%);  /*For Safari */
   object-fit: cover;
 }
 
@@ -7759,7 +7759,7 @@ li:hover > .nav-link::after {
 
 .text-bg-dark {
   color: #fff !important;
-  background-color: RGBA(var(--bs-card-bg), var(--bs-bg-opacity, 1)) !important;
+  background-color: RGB(var(--bs-card-bg)) !important;
 }
 
 .link-primary {
@@ -8123,7 +8123,8 @@ video {
 }
 
 .shadow-lg {
-  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45) !important;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.8) !important;
+  -webkit-box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.8);
 }
 
 .shadow-none {
