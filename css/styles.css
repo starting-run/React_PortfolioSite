@@ -12754,8 +12754,8 @@ html {
   left: 60%;
   top: -10%;
   z-index: 0;
-  filter: opacity(40%);
-  -webkit-filter: opacity(40%);
+  filter: opacity(15%);
+  -webkit-filter: opacity(15%);
 }
 
 .zindex2 {
