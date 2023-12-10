@@ -1323,10 +1323,14 @@ progress {
   transition-duration: 0.3s;
 }
 
-.img-fluid:hover {
+.cards .img-fluid:hover {
   transform: scale(1.05, 1.05);
   transition-duration: 0.5s;
   cursor: pointer;
+}
+
+.cards:hover > .img-fluid:not(:hover) {
+  filter: blur(10px);
 }
 
 .img-thumbnail {
