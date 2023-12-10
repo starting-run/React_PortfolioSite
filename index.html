@@ -40,8 +40,16 @@
             
             if (gotolo == 'main.html') {
                 $('.navbar').removeClass('bg-white');
+                $('#changecontainer').addClass('container');
+                $('#changecontainer').removeClass('container-full');
+            } else if (gotolo == 'profile_new.html') {
+                $('.navbar').removeClass('bg-white');
+                $('#changecontainer').removeClass('container');
+                $('#changecontainer').addClass('container-full');
             } else {
                 $('.navbar').addClass('bg-white');
+                $('#changecontainer').addClass('container');
+                $('#changecontainer').removeClass('container-full');
             }
             acorClose();
             $('html, body').animate({scrollTop: '0'}, 300);
@@ -73,20 +81,31 @@
                         $("#main").html(result);
                     }
                 })
-                if (data.data == 'main.html') {
+                if (gotolo == 'main.html') {
                 $('.navbar').removeClass('bg-white');
-                } else {
-                    $('.navbar').addClass('bg-white');
-                }
+                $('#changecontainer').addClass('container');
+                $('#changecontainer').removeClass('container-full');
+            } else if (gotolo == 'profile_new.html') {
+                $('.navbar').removeClass('bg-white');
+                $('#changecontainer').removeClass('container');
+                $('#changecontainer').addClass('container-full');
+            } else {
+                $('.navbar').addClass('bg-white');
+                $('#changecontainer').addClass('container');
+                $('#changecontainer').removeClass('container-full');
+            }
                 acorClose();
             });
-
+            
             /* 로딩 progress bar */
             $(window).on("load", function() {
                 $('#load').fadeOut('slow');
             });
             $("#mains").click(function() {
                 gotosaveloc("main.html");
+            });
+            $("#profile_new").click(function() {
+                gotosaveloc("profile_new.html");
             });
             $("#profiles").click(function() {
                 gotosaveloc("profile.html");
@@ -135,7 +154,7 @@
         <main class="flex-shrink-0">
             <!-- Navigation-->
                 <nav class="navbar navbar-upper navbar-expand-lg navbar-light py-4">
-                <div class="container px-4">
+                <div id='changecontainer' class="container px-4">
                     <a class="navbar-brand" id="mains"><span class="fw-bolder text-primary"><img src="images/logo_sq.png" alt="Homepage" style="width: 55px;"></span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -148,6 +167,7 @@
                       </label></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-letter-space fs-fr">
+                            <li class="nav-item navmargin"><a class="nav-link" id="profile_new" style="color: red;">test</a></li>
                             <li class="nav-item navmargin"><a class="nav-link" id="profiles">Profile</a></li>
                             <li class="nav-item navmargin"><a class="nav-link" id="project">Project</a></li>
                             <li class="nav-item navmargin"><a class="nav-link" href="https://usfree.site/blog">Blog</a></li>

@@ -1359,6 +1359,7 @@ progress {
 .container,
 .container-fluid,
 .container-xxl,
+.container-full,
 .container-xl,
 .container-lg,
 .container-md,
@@ -1388,10 +1389,18 @@ progress {
     max-width: 576px;
     transition: all 1s;
   }
+  .container-full{
+    max-width: 100vw;
+    transition: all 1s;
+  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container, .container-bt {
     max-width: 768px;
+    transition: all 1s;
+  }
+  .container-full{
+    max-width: 100vw;
     transition: all 1s;
   }
 }
@@ -1400,16 +1409,28 @@ progress {
     max-width: 992px;
     transition: all 1s;
   }
+  .container-full{
+    max-width: 100vw;
+    transition: all 1s;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
     max-width: 1200px;
     transition: all 1s;
   }
+  .container-full{
+    max-width: 100vw;
+    transition: all 1s;
+  }
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
     max-width: 1400px;
+    transition: all 1s;
+  }
+  .container-full{
+    max-width: 100vw;
     transition: all 1s;
   }
 }
@@ -4694,6 +4715,7 @@ textarea.form-control-lg {
   transition: all 1s;
 }
 .navbar > .container,
+.navbar > .container-full,
 .navbar > .container-fluid,
 .navbar > .container-sm,
 .navbar > .container-md,
