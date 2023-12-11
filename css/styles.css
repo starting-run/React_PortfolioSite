@@ -1406,7 +1406,7 @@ progress {
 }
 
 body::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 body::-webkit-scrollbar-thumb {
   background-color: #ec8c69;
