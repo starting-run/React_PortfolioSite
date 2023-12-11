@@ -590,10 +590,10 @@ body[data-darkmode=on] .darkmode > .inner{
   position: absolute;
   width: 50%;
   left: 60%;
-  top: -10%;
+  bottom: -10%;
   z-index: 0;
-  filter: opacity(50%);
-  -webkit-filter: opacity(50%);
+  filter: opacity(5%);
+  -webkit-filter: opacity(5%);
 }
 
 .scr-down {
@@ -4710,7 +4710,7 @@ textarea.form-control-lg {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: rgba(var(--bs-white-rgb), 0.5);
+  background: rgba(var(--bs-white-rgb), 0.7);
 }
 
 .navbar {
