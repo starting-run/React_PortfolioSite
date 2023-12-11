@@ -648,6 +648,10 @@ body[data-darkmode=on] .darkmode > .inner{
   display: block;
 }
 
+.hidden {
+  display: none;
+}
+
 /****************
 universe 공통 영역
 *****************/
