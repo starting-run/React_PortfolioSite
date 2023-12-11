@@ -25,19 +25,20 @@
 
         /* 버튼 클릭으로 load 페이지 변경 */
         function gotosaveloc(gotolo) {
-            $.ajax({
-                    url: gotolo,
-                    data: {page: 1},
-                    type: "get",
-                    success: (result) => {
-                        $("#main").html(result);
-                    }
-            });
-            history.pushState({
-                data: gotolo,
-                page: 1
-            }, null, "index.html#" + gotolo);
-            
+            $('#main').hide().fadeOut('fast', function() {
+                $.ajax({
+                        url: gotolo,
+                        data: {page: 1},
+                        type: "get",
+                        success: (result) => {
+                            $("#main").html(result).fadeIn();
+                        }
+                });
+                history.pushState({
+                    data: gotolo,
+                    page: 1
+                }, null, "index.html#" + gotolo);
+            })
             if (gotolo == 'main.html') { 
                 $('.navbar').removeClass('bg-white');
                 $('#changecontainer').addClass('container'); 
@@ -91,7 +92,7 @@
                     data: {page:data.page, type: data.type, keyword: data.keyword},
                     type: "get",
                     success: (result) => {
-                        $("#main").html(result);
+                        $("#main").html(result).fadeIn();
                     }
                 })
                 if (data.data == 'main.html') {

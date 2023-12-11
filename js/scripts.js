@@ -37,7 +37,7 @@
 
     })();
 
-    /* 다크모드
+    /* 다크모드 */
     document.addEventListener('DOMContentLoaded', function(){
 
         function checkDarkMode() {
@@ -65,7 +65,7 @@
             localStorage.removeItem("darkmode");
         }
 
-    })*/
+    })
     /*
     jQuery(function($) {
         $("body").css("display", "none");
@@ -81,7 +81,7 @@
         });
     document.oncontextmenu = function(){return false;}*/
     
-/* 모달팝업 */
+/* 모달팝업 
     const modalOpenButton = document.getElementById('modalOpenButton');
     const modalCloseButton = document.getElementById('modalCloseButton');
     const modal = document.getElementById('modalContainer');
@@ -100,7 +100,7 @@
     modalOpenButton.classList.remove('hidden');
     modalCloseButton.classList.add('hidden');
     });
-
+*/
 })(document.documentElement);
 
 
