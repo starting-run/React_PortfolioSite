@@ -259,6 +259,9 @@ body[data-darkmode=on] .darkmode > .inner{
 .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
 .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
 
+
+
+
 .e-card {
   margin: 100px auto;
   background: transparent;
@@ -479,7 +482,7 @@ body[data-darkmode=on] .darkmode > .inner{
  .loader {
   position: absolute;
   top: calc(50% - 1.25em);
-  left: calc(50% - 1.25em);
+  left: calc(50% - 2em);
  }
 
 
@@ -495,12 +498,6 @@ body[data-darkmode=on] .darkmode > .inner{
   z-index: 99;
   text-align: center;
 }
-/* 구형 로더
-.load > img {
-  margin-top: 40vh;
-  z-index: 100;
-}
-*/
 
 /* Fade-In / Fade-Out 
 @keyframes fadein {
@@ -959,6 +956,11 @@ strong {
 small, .small {
   font-size: 0.875em;
   color: var(--bs-black);
+}
+
+.smaller {
+  font-size: 0.7em;
+  color: rgba(var(--bs-black-rgb), 0.5);
 }
 
 .small-nodarkmode {
@@ -1453,7 +1455,7 @@ body::-webkit-scrollbar-track {
     transition: all 1s;
   }
   .container-full{
-    max-width: 90vw;
+    max-width: 95vw;
     transition: all 1s;
   }
 }
@@ -4704,9 +4706,11 @@ textarea.form-control-lg {
 .navbar-fixed-attr {
   position: fixed;
   top: 0;
-  /* width: 100% */
+  width: 100%;
   left: 0;
   right: 0;
+  z-index: 1000;
+  background: rgba(var(--bs-white-rgb), 0.5);
 }
 
 .navbar {
@@ -4737,6 +4741,8 @@ textarea.form-control-lg {
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
   transition: all 1s;
 }
+
+
 .navbar > .container,
 .navbar > .container-full,
 .navbar > .container-fluid,
@@ -7907,9 +7913,10 @@ li:hover > .nav-link::after {
 
 .fixed-bottom {
   position: fixed;
+  width: 100vw;
   right: 0;
-  bottom: 0;
-  left: 0;
+  bottom: 20px;
+  left: 10px;
   z-index: 1030;
 }
 
@@ -9105,6 +9112,10 @@ video {
 
 .pt-5 {
   padding-top: 3rem !important;
+}
+
+.pt-7 {
+  padding-top: 10rem !important;
 }
 
 .pe-0 {
