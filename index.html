@@ -66,10 +66,14 @@
               그 외 다른 화면에서는 navbar 배경O, container, footer 
               항상 뒤로가기 영역이랑 싱크 확인*/
             acorClose();
-            $('html, body').animate({scrollTop: '0'}, 300);
+            $('html, body').animate({scrollTop: '0'}, 100);
         }
 
         $(function() {
+            $('.ss-go-top').on("click", function() {
+                $('html, body').animate({scrollTop: '0'}, 100);
+            })
+
             /* 새로고침 or 초기로딩 */
             window.onload = function(){
                 var hash = location.hash;
@@ -226,7 +230,7 @@
         <!-- Footer-->
         <footer id="normalfooter" class="bg-light py-4 mt-auto">
             <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#">
+                <a class="smoothscroll" title="Back to Top">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
                 </a>
             </div> <!-- end ss-go-top -->
@@ -247,7 +251,7 @@
         <!-- Footer-->
         <footer id="fullfooter" class="py-4 mt-auto hidden">
             <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#">
+                <a class="smoothscroll" title="Back to Top" href="">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
                 </a>
             </div> <!-- end ss-go-top -->

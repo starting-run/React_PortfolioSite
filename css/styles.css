@@ -790,6 +790,7 @@ universe 공통 영역 끝
   background-color : var(--bs-top-btn);
   transition       : all .3s;
   position         : relative;
+  cursor: pointer;
 }
 
 .ss-go-top a:focus svg path,
