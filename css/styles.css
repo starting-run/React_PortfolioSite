@@ -12739,7 +12739,7 @@ video {
 }
 @media (min-width: 1200px) {
   .fs-0 {
-    font-size: 5rem !important;
+    font-size: calc(5rem + 1vw) !important;
   }
   .fs-1 {
     font-size: 2.5rem !important;
