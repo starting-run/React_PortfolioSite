@@ -9309,6 +9309,11 @@ video {
   font-weight: 200 !important;
 }
 
+.fw-light2 {
+  font-weight: 300 !important;
+}
+
+
 .fw-lighter {
   font-weight: lighter !important;
 }
