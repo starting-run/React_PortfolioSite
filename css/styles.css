@@ -792,7 +792,7 @@ universe 공통 영역 끝
  * ## go top
  * ------------------------------------------------------------------- */
  .ss-go-top {
-  z-index    : 2;
+  z-index    : 4;
   opacity    : 0;
   visibility : hidden;
   transform  : translate(0, 200%);
