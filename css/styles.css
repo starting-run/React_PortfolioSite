@@ -431,7 +431,7 @@ body[data-darkmode=on] .darkmode > .inner{
     display: none;
   }
   .profiles-center {
-    padding-top: 20rem;
+    padding-top: 5rem;
     height: 100vh;
   }
 }
@@ -1498,7 +1498,7 @@ body::-webkit-scrollbar-track {
 }
 
 .profiles-center {
-  height: 100vh;
+  height: calc(100vh - 10rem);
 }
 
 .row {
