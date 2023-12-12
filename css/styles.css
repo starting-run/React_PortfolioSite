@@ -440,6 +440,18 @@ body[data-darkmode=on] .darkmode > .inner{
     transition-duration: 0.5s;
   }
 }
+/*
+.cursor {
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 10px; 
+  height: 10px; 
+  border-radius: 50%; 
+  background-color: rgba(var(--bs-black-rgb), 0.7);
+  transform: translate(-50%, -50%); 
+}*/
+
 .loadings {
   width: 4.25em;
   transform-origin: center;
@@ -12787,6 +12799,7 @@ video {
 body,
 html {
   height: 100%;
+  /* overflow: hidden; 20231212*/
 }
 
 .bg-gradient-primary-to-secondary {

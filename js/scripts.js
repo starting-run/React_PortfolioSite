@@ -37,6 +37,14 @@
 
     })();
 
+    const circle = document.querySelector(".cursor");
+    document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용해 움
+        const mouseX = e.clientX;
+        const mouseY = e.clientY;
+        circle.style.left = mouseX + 'px';
+        circle.style.top = mouseY + 'px';
+    });
+
     /* 다크모드 */
     document.addEventListener('DOMContentLoaded', function(){
 
