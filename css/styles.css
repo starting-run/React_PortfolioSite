@@ -593,7 +593,7 @@ body[data-darkmode=on] .darkmode > .inner{
   left: 0;
   height: 40vh; /* absolute시 100vh */
   width: 100%;
-  z-index: -1;
+  z-index: -2;
   opacity: 0.15; /* 원본값 0.15 */
   /* filter:blur(2px); 배경 블러 */
 }
@@ -604,16 +604,12 @@ body[data-darkmode=on] .darkmode > .inner{
   left: 0;
   height: 100vh; /* absolute시 100vh */
   width: 100%;
-  z-index: -1;
-  transition: all 1s;
   /* filter:blur(2px); 배경 블러 */
+  --bs-bg-opacity: 0.9;
+  z-index: -1;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-change-white {
-  --bs-bg-opacity: 0.9;
-  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
-  transition: all 1s;
-}
 
 .bg-img img{
   position: absolute;
@@ -4779,6 +4775,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
   transition: all 1s;
+  z-index: 1;
 }
 
 
