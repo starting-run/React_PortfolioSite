@@ -1520,6 +1520,7 @@ body::-webkit-scrollbar-track {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
+  transition: all 0.5s;
 }
 
 .col {
