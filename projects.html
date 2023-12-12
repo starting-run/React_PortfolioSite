@@ -16,89 +16,66 @@
 </head>
 <!-- 추후 UE 프로젝트 추가시, 이 페이지 앞에 프로젝트 전용 인트로 추가 
 스크롤 마지막 도달 이벤트 감지시 이 페이지로 이동 -->
-
-<div class="bg-change bg-white bg-img">
-    <img src="images/favicon_new.svg" class="">
-</div>
-<body>
-    <div class="container-xxl px-4 pt-7">
-        <div class="mb-0">
-            <div class="mb-0"><span class="">usfree ❯ <span class="text-normal">project</span></span></div>
-            <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">PROJECT</span></h1>
-        </div>
+<section>
+    <div class="bg-change bg-white bg-img">
+        <img src="images/favicon_new.svg" class="">
     </div>
-
-    <div class="container-xxl px-4 mt-0">
-        <div class="row gx-5 justify-content-center">
-            <div class="mb-5">
-            <div class="e-card playing p-0 my-5">
-                <div class="image"></div>
-                <div class="wave"></div>
-                <div class="wave"></div>
-                <div class="wave"></div>
-                    <div class="infotop">
-            
-                <!--<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">-->
-                <path fill="currentColor" d="M19.4133 4.89862L14.5863 2.17544C12.9911 1.27485 11.0089 1.27485 9.41368 2.17544L4.58674
-                4.89862C2.99153 5.7992 2 7.47596 2 9.2763V14.7235C2 16.5238 2.99153 18.2014 4.58674 19.1012L9.41368
-                21.8252C10.2079 22.2734 11.105 22.5 12.0046 22.5C12.6952 22.5 13.3874 22.3657 14.0349 22.0954C14.2204
-                22.018 14.4059 21.9273 14.5872 21.8252L19.4141 19.1012C19.9765 18.7831 20.4655 18.3728 20.8651
-                17.8825C21.597 16.9894 22 15.8671 22 14.7243V9.27713C22 7.47678 21.0085 5.7992 19.4133 4.89862ZM4.10784
-                14.7235V9.2763C4.10784 8.20928 4.6955 7.21559 5.64066 6.68166L10.4676 3.95848C10.9398 3.69152 11.4701
-                3.55804 11.9996 3.55804C12.5291 3.55804 13.0594 3.69152 13.5324 3.95848L18.3593 6.68166C19.3045 7.21476
-                19.8922 8.20928 19.8922 9.2763V9.75997C19.1426 9.60836 18.377 9.53091 17.6022 9.53091C14.7929 9.53091
-                12.1041 10.5501 10.0309 12.3999C8.36735 13.8847 7.21142 15.8012 6.68783 17.9081L5.63981 17.3165C4.69466
-                16.7834 4.10699 15.7897 4.10699 14.7235H4.10784ZM10.4676 20.0413L8.60933 18.9924C8.94996 17.0479 9.94402
-                15.2665 11.4515 13.921C13.1353 12.4181 15.3198 11.5908 17.6022 11.5908C18.3804 11.5908 19.1477 11.6864
-                19.8922 11.8742V14.7235C19.8922 15.2278 19.7589 15.7254 19.5119 16.1662C18.7615 15.3596 17.6806 14.8528
-                16.4783 14.8528C14.2136 14.8528 12.3781 16.6466 12.3781 18.8598C12.3781 19.3937 12.4861 19.9021 12.68
-                20.3676C11.9347 20.5316 11.1396 20.4203 10.4684 20.0413H10.4676Z"></path></svg><br>      
-                <div class="font-3 text-black">관심 가져주셔서 감사합니다 !<br>더 많은 프로젝트를 위해 준비하고 있습니다.</div>
-            <br>
-            <div class="name text-black px-4">아래에서 해당 카드를 누르시면 프로젝트에 관한 자세한 내용을 보실 수 있습니다.</div>
-                </div>
+    <body>
+        <div class="container-xxl px-4 pt-7">
+            <div class="mb-0">
+                <div class="mb-0"><span class="">usfree ❯ <span class="text-normal">project</span></span></div>
+                <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">PROJECT</span></h1>
             </div>
-                <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 cards">
+        </div>
 
-                <div class="img-fluid">
-                <a id="pacman">
-                <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-bg-dark shadow text-black border-0">
-                    <img class="card-image" src ="images/pacman.jpg">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-3 card-overtext">
-                        <h3 class="pt-5 mt-5 mb-4 display-4 lh-1 fw-bold">Pacman</h3>
-                        <h6 class="pt-5 mb-4 lh-2 font-3">Processing으로 Pacman 게임을 간단하게 일부 재현하였습니다. 충돌판정 함수와 객체를 이용합니다.</h6>
-                        <ul class="d-flex list-unstyled mt-auto">
-                        <li class="d-flex align-items-center me-3">
-                            <i class="fa-solid fa-layer-group"></i>
-                            <small>　Processing</small>
-                        </li>
-                        <li class="d-flex align-items-center">
-                            <i class="fa-solid fa-calendar-days"></i>
-                            <small>　2023. 10.</small>
-                        </li>
-                        </ul>
-                    </div>
+        <div class="container-xxl px-4 mt-0 mb-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="mb-5">
+                <div class="e-card playing p-0 my-5">
+                    <div class="image"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                        <div class="infotop">
+                
+                    <!--<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="icon">-->
+                    <path fill="currentColor" d="M19.4133 4.89862L14.5863 2.17544C12.9911 1.27485 11.0089 1.27485 9.41368 2.17544L4.58674
+                    4.89862C2.99153 5.7992 2 7.47596 2 9.2763V14.7235C2 16.5238 2.99153 18.2014 4.58674 19.1012L9.41368
+                    21.8252C10.2079 22.2734 11.105 22.5 12.0046 22.5C12.6952 22.5 13.3874 22.3657 14.0349 22.0954C14.2204
+                    22.018 14.4059 21.9273 14.5872 21.8252L19.4141 19.1012C19.9765 18.7831 20.4655 18.3728 20.8651
+                    17.8825C21.597 16.9894 22 15.8671 22 14.7243V9.27713C22 7.47678 21.0085 5.7992 19.4133 4.89862ZM4.10784
+                    14.7235V9.2763C4.10784 8.20928 4.6955 7.21559 5.64066 6.68166L10.4676 3.95848C10.9398 3.69152 11.4701
+                    3.55804 11.9996 3.55804C12.5291 3.55804 13.0594 3.69152 13.5324 3.95848L18.3593 6.68166C19.3045 7.21476
+                    19.8922 8.20928 19.8922 9.2763V9.75997C19.1426 9.60836 18.377 9.53091 17.6022 9.53091C14.7929 9.53091
+                    12.1041 10.5501 10.0309 12.3999C8.36735 13.8847 7.21142 15.8012 6.68783 17.9081L5.63981 17.3165C4.69466
+                    16.7834 4.10699 15.7897 4.10699 14.7235H4.10784ZM10.4676 20.0413L8.60933 18.9924C8.94996 17.0479 9.94402
+                    15.2665 11.4515 13.921C13.1353 12.4181 15.3198 11.5908 17.6022 11.5908C18.3804 11.5908 19.1477 11.6864
+                    19.8922 11.8742V14.7235C19.8922 15.2278 19.7589 15.7254 19.5119 16.1662C18.7615 15.3596 17.6806 14.8528
+                    16.4783 14.8528C14.2136 14.8528 12.3781 16.6466 12.3781 18.8598C12.3781 19.3937 12.4861 19.9021 12.68
+                    20.3676C11.9347 20.5316 11.1396 20.4203 10.4684 20.0413H10.4676Z"></path></svg><br>      
+                    <div class="font-3 text-black">관심 가져주셔서 감사합니다 !<br>더 많은 프로젝트를 위해 준비하고 있습니다.</div>
+                <br>
+                <div class="name text-black px-4">아래에서 해당 카드를 누르시면 프로젝트에 관한 자세한 내용을 보실 수 있습니다.</div>
                     </div>
                 </div>
-                </a>
-                </div>
-                <div class="img-fluid">
-                <a id="ironman">
+                    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 cards">
+
+                    <div class="img-fluid">
+                    <a id="pacman">
                     <div class="col">
                         <div class="card card-cover h-100 overflow-hidden text-bg-dark shadow text-black border-0">
-                        <img class="card-image" src ="images/ironman.jpg">
+                        <img class="card-image" src ="images/pacman.jpg">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-3 card-overtext">
-                            <h3 class="pt-5 mt-5 mb-4 display-4 lh-1 fw-bold">Ironman</h3>
-                            <h6 class="pt-5 mb-4 lh-2 font-3">OpenGL로 제작된 아이언맨 모형입니다. 큐브맵&middot;플랫 쉐이딩&middot;퐁 쉐이딩&middot;와이어 프레임&middot;점 프레임 등이 사용되었습니다.</h6>
+                            <h3 class="pt-5 mt-5 mb-4 display-4 lh-1 fw-bold">Pacman</h3>
+                            <h6 class="pt-5 mb-4 lh-2 font-3">Processing으로 Pacman 게임을 간단하게 일부 재현하였습니다. 충돌판정 함수와 객체를 이용합니다.</h6>
                             <ul class="d-flex list-unstyled mt-auto">
                             <li class="d-flex align-items-center me-3">
                                 <i class="fa-solid fa-layer-group"></i>
-                                <small>　OpenGL</small>
+                                <small>　Processing</small>
                             </li>
                             <li class="d-flex align-items-center">
                                 <i class="fa-solid fa-calendar-days"></i>
-                                <small>　2021. 06.</small>
+                                <small>　2023. 10.</small>
                             </li>
                             </ul>
                         </div>
@@ -107,30 +84,54 @@
                     </a>
                     </div>
                     <div class="img-fluid">
-                    <a id="snake">
-                    <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-bg-dark shadow text-black border-0">
-                        <img class="card-image" src ="images/snake.jpg">
-                        <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-3 card-overtext">
-                            <h3 class="pt-5 mt-5 mb-4 display-4 lh-1 fw-bold">Snake</h3>
-                            <h6 class="pt-5 mb-4 lh-2 font-3">Snake를 이용해 코인을 먹고 높은 점수를 기록하는 게임입니다. Unity 플랫폼을 사용하여 제작되었고, 선형보간 알고리즘&middot;Prefab구조&middot;List구조 등이 사용되었습니다.</h6>
-                            <ul class="d-flex list-unstyled mt-auto">
-                            <li class="d-flex align-items-center me-3">
-                                <i class="fa-solid fa-layer-group"></i>
-                                <small>　Unity</small>
-                            </li>
-                            <li class="d-flex align-items-center">
-                                <i class="fa-solid fa-calendar-days"></i>
-                                <small>　2020. 06.</small>
-                            </li>
-                            </ul>
+                    <a id="ironman">
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark shadow text-black border-0">
+                            <img class="card-image" src ="images/ironman.jpg">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-3 card-overtext">
+                                <h3 class="pt-5 mt-5 mb-4 display-4 lh-1 fw-bold">Ironman</h3>
+                                <h6 class="pt-5 mb-4 lh-2 font-3">OpenGL로 제작된 아이언맨 모형입니다. 큐브맵&middot;플랫 쉐이딩&middot;퐁 쉐이딩&middot;와이어 프레임&middot;점 프레임 등이 사용되었습니다.</h6>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="fa-solid fa-layer-group"></i>
+                                    <small>　OpenGL</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <small>　2021. 06.</small>
+                                </li>
+                                </ul>
+                            </div>
+                            </div>
                         </div>
+                        </a>
                         </div>
-                    </div>
-                    </a>
+                        <div class="img-fluid">
+                        <a id="snake">
+                        <div class="col">
+                            <div class="card card-cover h-100 overflow-hidden text-bg-dark shadow text-black border-0">
+                            <img class="card-image" src ="images/snake.jpg">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-3 card-overtext">
+                                <h3 class="pt-5 mt-5 mb-4 display-4 lh-1 fw-bold">Snake</h3>
+                                <h6 class="pt-5 mb-4 lh-2 font-3">Snake를 이용해 코인을 먹고 높은 점수를 기록하는 게임입니다. Unity 플랫폼을 사용하여 제작되었고, 선형보간 알고리즘&middot;Prefab구조&middot;List구조 등이 사용되었습니다.</h6>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="fa-solid fa-layer-group"></i>
+                                    <small>　Unity</small>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <small>　2020. 06.</small>
+                                </li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>
+</section>
