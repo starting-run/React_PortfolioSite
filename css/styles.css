@@ -247,12 +247,6 @@
   }
 }
 
-body[data-darkmode=on] .darkmode > .inner{
-  background-color: #1e1f21;
-  background: #1e1f21;
-  box-shadow: 0 0 16px 3px rgba(255 255 255 / 15%);
-}
-
 .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
 .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
 .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
@@ -364,11 +358,19 @@ body[data-darkmode=on] .darkmode > .inner{
   position: relative;
   display: inline-flex;
   padding: 5px;
+  padding-top: 0px;
   border-radius: 30px;
   background-color: #fff;
   box-shadow: 0 0 16px 3px rgba(0 0 0 / 15%);
   margin-left: 30px;
 }
+
+body[data-darkmode=on] .darkmode > .inner{
+  background-color: #1e1f21;
+  background: #1e1f21;
+  box-shadow: 0 0 16px 3px rgba(255 255 255 / 15%);
+}
+
 .darkmode label {
   cursor: pointer;
 }
@@ -381,9 +383,14 @@ body[data-darkmode=on] .darkmode > .inner{
   border-radius: 50%;
 }
 .darkmode i{
-  font-size: 1.0em;
+  font-size: 0.9em;
   color:var(--bs-black);
-  margin-left: 5px;
+  margin-left: 4px;
+}
+
+.tolight {
+  filter: opacity(0);
+  -webkit-filter: opacity(0);
 }
 
 .darkmode input[type=radio]{
@@ -395,20 +402,20 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 .darkmode .darkmode-bg{
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
   position: absolute;
   left: 6px;
-  top: 4px;
+  top: 5px;
   border-radius: 50%;
   z-index: 1;
   transition: all 0.35s ease-in-out;
-  background-color: #f03d3d;
+  background-color: #FC8574;
 }
 #toggle-radio-dark:checked ~ .darkmode-bg{
   border-radius: 50%;
   background-color: #fff;
-  top: 4px;
+  top: 5px;
   left: 44px;
   color:#fff;
 }
