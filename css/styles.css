@@ -12,7 +12,7 @@
  */
 
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;900&family=Gowun+Dodum&family=Kanit&family=Noto+Sans+KR&family=Orbit&family=Sunflower:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;900&family=Gowun+Dodum&family=Kanit&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Orbit&family=Sunflower:wght@300;500&display=swap');
 
 :root {
   --bs-blue: #1e30f3;
@@ -257,8 +257,14 @@ body[data-darkmode=on] .darkmode > .inner{
 .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
 .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
 
+.left-box{
+  border-color: #0078C3;
+  border-left: 5px solid #FC8574;
+}
 
-
+.fw-opacity {
+  color: rgba(var(--bs-black-rgb), 0.5);
+}
 
 .e-card {
   margin: 100px auto;
@@ -423,6 +429,10 @@ body[data-darkmode=on] .darkmode > .inner{
 @media (max-width: 765px) {
   .profile {
     display: none;
+  }
+  .profiles-center {
+    padding-top: 20rem;
+    height: 100vh;
   }
 }
 /* 모바일X PC크기에서만 작동하는 영역*/
@@ -599,6 +609,12 @@ body[data-darkmode=on] .darkmode > .inner{
   /* filter:blur(2px); 배경 블러 */
 }
 
+.bg-change-white {
+  --bs-bg-opacity: 0.9;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+  transition: all 1s;
+}
+
 .bg-img img{
   position: absolute;
   width: 50%;
@@ -610,12 +626,11 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 .scr-down {
-  position: absolute;
-  bottom: 1px;
-  width: 100%;
-  height: 40px;
-  opacity:unset;
-  z-index: 2;
+  position: fixed;
+  width: 100vw;
+  bottom: 30px;
+  right: 10px;
+  z-index: 1030;
   color: var(--bs-black);
 }
 
@@ -1480,6 +1495,10 @@ body::-webkit-scrollbar-track {
 .proj_text {
   font-weight: 0;
   font-family: var(--font-1);
+}
+
+.profiles-center {
+  height: 100vh;
 }
 
 .row {
@@ -4727,6 +4746,9 @@ textarea.form-control-lg {
   left: 0;
   right: 0;
   z-index: 1000;
+}
+
+.scroll-navbar-background {
   background: rgba(var(--bs-white-rgb), 0.7);
 }
 
