@@ -829,6 +829,7 @@ body {
   -moz-animation: fadein 2000ms ease-out; /* Firefox */
   -webkit-animation: fadein 2000ms ease-out; /* Safari and  Chrome */
   -o-animation: fadein 2000ms ease-out; /* Opera */
+  overflow-y: scroll; /* 스크롤바 때문에 ajax 로딩 후 화면이 왼쪽으로 밀리면서 깜빡이는 현상 방지 */
 }
 
 hr {
@@ -1409,6 +1410,7 @@ progress {
 
 body::-webkit-scrollbar {
   width: 5px;
+  position: fixed;
 }
 body::-webkit-scrollbar-thumb {
   background-color: #ec8c69;
