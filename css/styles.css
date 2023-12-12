@@ -519,14 +519,23 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 */
 
+.s-intro {
+  background-color : var(--color-preloader-bg);
+  width            : 100%;
+
+  min-height       : calc(25.5 * var(--space));
+  overflow         : hidden;
+
+}
+
 .s-intro__content {
   z-index         : 1;
-  height          : 100%;
+  height          : 80vh;
   align-items     : center;
   justify-content : center;
   color           : white;
   /*padding-top     : 10vh;*/
-  padding-bottom  : 20rem;
+  padding-bottom  : 5rem;
   text-align      : center;
   position        : relative;
   animation: fadeIncard 0.5s ease-in-out; /* card 올라오는 애니메이션 */
@@ -556,20 +565,13 @@ body[data-darkmode=on] .darkmode > .inner{
   width: 100%;
   white-space: pre-wrap;
 }
-.s-intro {
-  background-color : var(--color-preloader-bg);
-  width            : 100%;
-  height           : 100vh;
-  min-height       : calc(25.5 * var(--space));
-  overflow         : hidden;
-  position         : relative;
-}
+
 
 .bg-video {
   position: fixed; /* 스크롤시 고정은 absolute */
   top: 0;
   left: 0;
-  height: 100vh; /* absolute시 100vh */
+  height: 40vh; /* absolute시 100vh */
   width: 100%;
   z-index: -1;
   opacity: 0.15; /* 원본값 0.15 */
@@ -608,7 +610,7 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 .bg-video__content {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   object-fit: cover;  
 }
@@ -814,6 +816,8 @@ universe 공통 영역 끝
   transform  : translate(0, 0);
 }
 
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -829,7 +833,6 @@ body {
   -moz-animation: fadein 2000ms ease-out; /* Firefox */
   -webkit-animation: fadein 2000ms ease-out; /* Safari and  Chrome */
   -o-animation: fadein 2000ms ease-out; /* Opera */
-  overflow-y: scroll; /* 스크롤바 때문에 ajax 로딩 후 화면이 왼쪽으로 밀리면서 깜빡이는 현상 방지 */
 }
 
 hr {
@@ -8130,6 +8133,10 @@ li:hover > .nav-link::after {
 
 .overflow-scroll {
   overflow: scroll !important;
+}
+
+.overflow-scroll-y {
+  overflow-y: scroll; /* 스크롤바 때문에 ajax 로딩 후 화면이 왼쪽으로 밀리면서 깜빡이는 현상 방지 */
 }
 
 .d-inline {
