@@ -4963,7 +4963,7 @@ li {
   float:right; 
   transition:all .3s ease 
 }
-li:hover { color:#39d9c8; transition:all .3s ease }
+li:hover { color:#FC8574; transition:all .3s ease }
 li > .nav-link { 
   position:relative;
 }
