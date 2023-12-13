@@ -54,11 +54,9 @@
             }
             if (gotolo == 'projects.html'){
                 $('#add-fixed').addClass('scroll-navbar-background');
-                $('body').addClass('overflow-scroll-y'); 
             } else {
                 $('#add-fixed').removeClass('scroll-navbar-background');
                 $('#add-fixed').removeClass('navbar-fixed-attr');
-                $('body').removeClass('overflow-scroll-y');
             }
             /*메인화면에서는 navbar배경X, container, footer
               프로젝트에서는 navbar fixed 속성, container-full, footer-full
@@ -104,21 +102,18 @@
                 $('#changecontainer').addClass('container-full'); 
                 $('#add-fixed').removeClass('navbar-fixed-attr');
                 $('#topbtn').addClass('hidden'); 
-                $('body').removeClass('overflow-scroll-y'); 
             } else {
                 $('.navbar').removeClass('bg-white');
                 $('#changecontainer').removeClass('container');
                 $('#changecontainer').addClass('container-full');
                 $('#add-fixed').addClass('navbar-fixed-attr');
                 $('#topbtn').removeClass('hidden');
-                $('body').addClass('overflow-scroll-y'); 
             }
             if (data.data == 'projects.html'){
                 $('#add-fixed').addClass('scroll-navbar-background');
-                $('body').addClass('overflow-scroll-y'); 
             } else {
                 $('#add-fixed').removeClass('scroll-navbar-background');
-                $('body').removeClass('overflow-scroll-y'); 
+                /*$('body').removeClass('overflow-scroll-y'); */
                 $('#add-fixed').removeClass('navbar-fixed-attr');
             }
             /* 항상 load 영역이랑 싱크 확인 */
