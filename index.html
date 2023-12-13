@@ -58,6 +58,9 @@
                 $('#add-fixed').removeClass('scroll-navbar-background');
                 $('#add-fixed').removeClass('navbar-fixed-attr');
             }
+            if (gotolo == 'profiles.html') {
+                $('#add-fixed').addClass('navbar-fixed-attr');
+            }
             /*메인화면에서는 navbar배경X, container, footer
               프로젝트에서는 navbar fixed 속성, container-full, footer-full
               그 외 다른 화면에서는 navbar 배경O, container, footer 
@@ -97,25 +100,27 @@
                     }
                 }) 
                 if (data.data == 'main.html') {
-                $('.navbar').removeClass('bg-white');
-                $('#changecontainer').removeClass('container'); 
-                $('#changecontainer').addClass('container-full'); 
-                $('#add-fixed').removeClass('navbar-fixed-attr');
-                $('#topbtn').addClass('hidden'); 
-            } else {
-                $('.navbar').removeClass('bg-white');
-                $('#changecontainer').removeClass('container');
-                $('#changecontainer').addClass('container-full');
-                $('#add-fixed').addClass('navbar-fixed-attr');
-                $('#topbtn').removeClass('hidden');
-            }
-            if (data.data == 'projects.html'){
-                $('#add-fixed').addClass('scroll-navbar-background');
-            } else {
-                $('#add-fixed').removeClass('scroll-navbar-background');
-                /*$('body').removeClass('overflow-scroll-y'); */
-                $('#add-fixed').removeClass('navbar-fixed-attr');
-            }
+                    $('.navbar').removeClass('bg-white');
+                    $('#changecontainer').removeClass('container'); 
+                    $('#changecontainer').addClass('container-full'); 
+                    $('#add-fixed').removeClass('navbar-fixed-attr');
+                    $('#topbtn').addClass('hidden'); 
+                } else {
+                    $('.navbar').removeClass('bg-white');
+                    $('#changecontainer').removeClass('container');
+                    $('#changecontainer').addClass('container-full');
+                    $('#add-fixed').addClass('navbar-fixed-attr');
+                    $('#topbtn').removeClass('hidden');
+                }
+                if (data.data == 'projects.html'){
+                    $('#add-fixed').addClass('scroll-navbar-background');
+                } else {
+                    $('#add-fixed').removeClass('scroll-navbar-background');
+                    $('#add-fixed').removeClass('navbar-fixed-attr');
+                }
+                if (data.data == 'profiles.html') {
+                    $('#add-fixed').addClass('navbar-fixed-attr');
+                }
             /* 항상 load 영역이랑 싱크 확인 */
                 acorClose();
             });
