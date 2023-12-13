@@ -4058,6 +4058,16 @@ textarea.form-control-lg {
   border-radius: 100px;
 }
 
+.btn-outline-dark-round i {
+  transition: transform .3s ease-in-out;
+}
+
+
+.btn-outline-dark-round:hover i {
+  transform: translateX(-5px);
+}
+
+
 .btn-outline-dark-round-main {
   --bs-btn-color: var(--btn-outline-dark);
   --bs-btn-border-color: var(--btn-outline-dark);
