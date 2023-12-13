@@ -12840,9 +12840,10 @@ video {
 body,
 html {
   height: 100%;
-  overflow-y: overlay;
+  /*overflow-y: auto;*/
   /* overflow: hidden; 20231212*/
 }
+
 
 .bg-gradient-primary-to-secondary {
   background: #1e30f3;
