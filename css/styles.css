@@ -277,6 +277,13 @@
   cursor: pointer;
 }
 
+.show-page {
+  color: rgba(var(--bs-black-rgb), 0.5);
+  position: fixed;
+  bottom: 3vh;
+  right: 5vw;
+  cursor: pointer;
+}
 
 .e-card {
   margin: 100px auto;
