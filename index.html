@@ -44,12 +44,13 @@
                 $('#changecontainer').removeClass('container'); 
                 $('#changecontainer').addClass('container-full'); 
                 $('#add-fixed').removeClass('navbar-fixed-attr');
-                $('#topbtn').addClass('hidden');  
+                $('#topbtn').addClass('hidden'); 
             } else {
                 $('.navbar').removeClass('bg-white');
                 $('#changecontainer').removeClass('container');
                 $('#changecontainer').addClass('container-full');
                 $('#add-fixed').addClass('navbar-fixed-attr');
+                $('#topbtn').removeClass('hidden'); 
             }
             if (gotolo == 'projects.html'){
                 $('#add-fixed').addClass('scroll-navbar-background');
@@ -109,6 +110,7 @@
                 $('#changecontainer').removeClass('container');
                 $('#changecontainer').addClass('container-full');
                 $('#add-fixed').addClass('navbar-fixed-attr');
+                $('#topbtn').removeClass('hidden');
                 $('body').addClass('overflow-scroll-y'); 
             }
             if (data.data == 'projects.html'){
