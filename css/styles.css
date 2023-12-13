@@ -654,6 +654,10 @@ body[data-darkmode=on] .darkmode > .inner{
   transition: all 1s;
 }
 
+.bg-scale {
+  transform: scale(1.1);
+  transition: all 1s;
+}
 
 .bg-img img{
   position: absolute;
