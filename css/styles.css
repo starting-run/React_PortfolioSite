@@ -644,6 +644,7 @@ body[data-darkmode=on] .darkmode > .inner{
   z-index: -2;
   opacity: 0.05;
   object-fit: cover;
+  transition: all 1s;
 }
 
 
