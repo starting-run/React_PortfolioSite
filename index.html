@@ -56,10 +56,13 @@
                 $('#add-fixed').addClass('scroll-navbar-background');
             } else {
                 $('#add-fixed').removeClass('scroll-navbar-background');
-                $('#add-fixed').removeClass('navbar-fixed-attr');
             }
-            if (gotolo == 'profiles.html') {
-                $('#add-fixed').addClass('navbar-fixed-attr');
+
+            if (gotolo == 'profiles_pg2.html'){
+                $('.bg-video').addClass('hidden');
+            }
+            else {
+                $('.bg-video').removeClass('hidden');
             }
             /*메인화면에서는 navbar배경X, container, footer
               프로젝트에서는 navbar fixed 속성, container-full, footer-full
@@ -116,10 +119,12 @@
                     $('#add-fixed').addClass('scroll-navbar-background');
                 } else {
                     $('#add-fixed').removeClass('scroll-navbar-background');
-                    $('#add-fixed').removeClass('navbar-fixed-attr');
                 }
-                if (data.data == 'profiles.html') {
-                    $('#add-fixed').addClass('navbar-fixed-attr');
+                if (data.data == 'profiles_pg2.html'){
+                $('.bg-video').addClass('hidden');
+                }
+                else {
+                    $('.bg-video').removeClass('hidden');
                 }
             /* 항상 load 영역이랑 싱크 확인 */
                 acorClose();
