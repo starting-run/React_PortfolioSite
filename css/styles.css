@@ -861,6 +861,7 @@ body {
   -moz-animation: fadein 2000ms ease-out; /* Firefox */
   -webkit-animation: fadein 2000ms ease-out; /* Safari and  Chrome */
   -o-animation: fadein 2000ms ease-out; /* Opera */
+
 }
 
 hr {
@@ -1439,15 +1440,19 @@ progress {
   margin-left: auto;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 5px;
-  position: fixed;
+  height: 5px;
 }
-body::-webkit-scrollbar-thumb {
-  background-color: #ec8c69;
+
+::-webkit-scrollbar-thumb {
+  outline: none;
+  background-color: #FC8574;
 }
-body::-webkit-scrollbar-track {
-  background-color: var(--bs-scroll-white);
+
+::-webkit-scrollbar-track {
+  box-shadow: none;
+  background-color: transparent;
 }
 
 .container-bt {
@@ -12835,6 +12840,7 @@ video {
 body,
 html {
   height: 100%;
+  overflow-y: overlay;
   /* overflow: hidden; 20231212*/
 }
 
