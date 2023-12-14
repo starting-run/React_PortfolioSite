@@ -16,137 +16,118 @@
         <script src="js/748053c430.js"></script>
         <script src="js/jquery-3.7.1.min.js"></script>
         <script>
-        var acorClose = function() {
-            if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
-                $(".navbar-toggler").trigger("click");
-                $("input:checkbox[id='hbg']").prop("checked", false);
+            var acorClose = function() {
+                if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
+                    $(".navbar-toggler").trigger("click");
+                    $("input:checkbox[id='hbg']").prop("checked", false);
+                }
             }
-        }
 
-        /* 버튼 클릭으로 load 페이지 변경 */
-        function gotosaveloc(gotolo) {
-            $('#main').hide().fadeOut('fast', function() {
-                $.ajax({
-                        url: gotolo,
-                        data: {page: 1},
+            /* 버튼 클릭으로 load 페이지 변경 */
+            function gotosaveloc(gotolo) {
+                $('#main').hide().fadeOut('fast', function() {
+                    $.ajax({
+                            url: gotolo,
+                            data: {page: 1},
+                            type: "get",
+                            success: (result) => {
+                                $("#main").html(result).fadeIn();
+                            }
+                    });
+                    history.pushState({
+                        data: gotolo,
+                        page: 1
+                    }, null, "index.html#" + gotolo);
+                })
+                if (gotolo == 'main.html') {  
+                    $('#changecontainer').removeClass('container'); 
+                    $('#changecontainer').addClass('container-full'); 
+                    $('#add-fixed').removeClass('navbar-fixed-attr');
+                    $('#add-fixed').removeClass('scroll-navbar-background');
+                } else {
+                    $('#changecontainer').removeClass('container');
+                    $('#changecontainer').addClass('container-full');
+                    $('#add-fixed').addClass('navbar-fixed-attr');
+                    $('#add-fixed').addClass('scroll-navbar-background');
+                }
+                if (gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html'){
+                    $('.bg-video').addClass('hidden');
+                } else {
+                    $('.bg-video').removeClass('hidden');
+                }
+                /*메인화면에서는 navbar배경X, container, footer
+                프로젝트에서는 navbar fixed 속성, container-full, footer-full
+                그 외 다른 화면에서는 navbar 배경O, container, footer 
+                항상 뒤로가기 영역이랑 싱크 확인*/
+                acorClose();
+                $('html, body').animate({scrollTop: '0'}, 100);
+            }
+
+            $(function() {
+                $('.ss-go-top').on("click", function() {
+                    $('html, body').animate({scrollTop: '0'}, 100);
+                })
+
+                /* 새로고침 or 초기로딩 */
+                window.onload = function(){
+                    var hash = location.hash;
+                    var rehash = hash.replace('#','');
+                    if (hash == "") { 
+                        gotosaveloc("main.html");
+                    } else if (hash == "#intro") {
+                        gotosaveloc("main.html");
+                    } else {
+                        gotosaveloc(rehash);
+                    }
+                }
+                /* 뒤로가기*/
+                $(window).on('popstate', function (event) {
+                    const data = event.originalEvent.state;
+                    $.ajax({
+                        url: data.data,
+                        data: {page:data.page, type: data.type, keyword: data.keyword},
                         type: "get",
                         success: (result) => {
                             $("#main").html(result).fadeIn();
                         }
-                });
-                history.pushState({
-                    data: gotolo,
-                    page: 1
-                }, null, "index.html#" + gotolo);
-            })
-            if (gotolo == 'main.html') {  
-                $('.navbar').removeClass('bg-white');
-                $('#changecontainer').removeClass('container'); 
-                $('#changecontainer').addClass('container-full'); 
-                $('#add-fixed').removeClass('navbar-fixed-attr');
-                $('#topbtn').addClass('hidden'); 
-            } else {
-                $('.navbar').removeClass('bg-white');
-                $('#changecontainer').removeClass('container');
-                $('#changecontainer').addClass('container-full');
-                $('#add-fixed').addClass('navbar-fixed-attr');
-                $('#topbtn').removeClass('hidden'); 
-            }
-            if (gotolo == 'projects.html'){
-                $('#add-fixed').addClass('scroll-navbar-background');
-            } else {
-                $('#add-fixed').removeClass('scroll-navbar-background');
-            }
-
-            if (gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html'){
-                $('.bg-video').addClass('hidden');
-            }
-            else {
-                $('.bg-video').removeClass('hidden');
-            }
-            /*메인화면에서는 navbar배경X, container, footer
-              프로젝트에서는 navbar fixed 속성, container-full, footer-full
-              그 외 다른 화면에서는 navbar 배경O, container, footer 
-              항상 뒤로가기 영역이랑 싱크 확인*/
-            acorClose();
-            $('html, body').animate({scrollTop: '0'}, 100);
-        }
-
-        $(function() {
-            $('.ss-go-top').on("click", function() {
-                $('html, body').animate({scrollTop: '0'}, 100);
-            })
-
-            /* 새로고침 or 초기로딩 */
-            window.onload = function(){
-                var hash = location.hash;
-                var rehash = hash.replace('#','');
-                if (hash == "") { 
-                    gotosaveloc("main.html");
-                }
-                else if (hash == "#intro") {
-                    gotosaveloc("main.html");
-                }
-                else {
-                    gotosaveloc(rehash);
-                }
-            }
-            /* 뒤로가기*/
-            $(window).on('popstate', function (event) {
-                const data = event.originalEvent.state;
-                $.ajax({
-                    url: data.data,
-                    data: {page:data.page, type: data.type, keyword: data.keyword},
-                    type: "get",
-                    success: (result) => {
-                        $("#main").html(result).fadeIn();
+                    }) 
+                    if (data.data == 'main.html') {
+                        $('#changecontainer').removeClass('container'); 
+                        $('#changecontainer').addClass('container-full'); 
+                        $('#add-fixed').removeClass('navbar-fixed-attr');
+                        $('#add-fixed').removeClass('scroll-navbar-background');
+                    } else {
+                        $('#changecontainer').removeClass('container');
+                        $('#changecontainer').addClass('container-full');
+                        $('#add-fixed').addClass('navbar-fixed-attr');
+                        $('#add-fixed').addClass('scroll-navbar-background');
                     }
-                }) 
-                if (data.data == 'main.html') {
-                    $('.navbar').removeClass('bg-white');
-                    $('#changecontainer').removeClass('container'); 
-                    $('#changecontainer').addClass('container-full'); 
-                    $('#add-fixed').removeClass('navbar-fixed-attr');
-                    $('#topbtn').addClass('hidden'); 
-                } else {
-                    $('.navbar').removeClass('bg-white');
-                    $('#changecontainer').removeClass('container');
-                    $('#changecontainer').addClass('container-full');
-                    $('#add-fixed').addClass('navbar-fixed-attr');
-                    $('#topbtn').removeClass('hidden');
-                }
-                if (data.data == 'projects.html'){
-                    $('#add-fixed').addClass('scroll-navbar-background');
-                } else {
-                    $('#add-fixed').removeClass('scroll-navbar-background');
-                }
-                if (data.data == 'profiles_pg2.html' || data.data =='profiles_pg3.html'){
-                    $('.bg-video').addClass('hidden');
-                }
-                else {
-                    $('.bg-video').removeClass('hidden');
-                }
-            /* 항상 load 영역이랑 싱크 확인 */
-                acorClose();
+                    if (data.data == 'profiles_pg2.html' || data.data =='profiles_pg3.html'){
+                        $('.bg-video').addClass('hidden');
+                    } else {
+                        $('.bg-video').removeClass('hidden');
+                    }
+                /* 항상 load 영역이랑 싱크 확인 */
+                    acorClose();
+                });
+                
+                /* 로딩 progress bar */
+                $(window).on("load", function() {
+                    $('#load').fadeOut('slow');
+                });
+                $("#mains").click(function() {
+                    gotosaveloc("main.html");
+                });
+                $("#projects").click(function() {
+                    gotosaveloc("projects.html");
+                });
+                $("#profiles").click(function() {
+                    gotosaveloc("profiles.html");
+                });
+                $("#links").click(function() {
+                    gotosaveloc("elements/link.html");
+                });
             });
-            
-            /* 로딩 progress bar */
-            $(window).on("load", function() {
-                $('#load').fadeOut('slow');
-            });
-            $("#mains").click(function() {
-                gotosaveloc("main.html");
-            });
-            $("#projects").click(function() {
-                gotosaveloc("projects.html");
-            });
-            $("#profiles").click(function() {
-                gotosaveloc("profiles.html");
-            });
-            $("#links").click(function() {
-                gotosaveloc("elements/link.html");
-            });
-        });
         </script>
         <link href="css/styles.css" rel="stylesheet"/>
         <!-- OG TAG -->
@@ -239,7 +220,7 @@
                 <div class="col-auto"><div class="small m-0"><b></b>조우현</b>
                     　<a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." class="">ploris576@kangnam.ac.kr</a></div></div>
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0"><a id="links">Copyright</a> &copy; Woohyun Cho(usfree) All rights reserved.</div></div>
+                    <div class="col-auto"><div class="small m-0">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</div></div>
                     <div class="col-auto">
                         <a class="" href="https://github.com/usfree"><i class="fa-brands fa-github"></i></a>　
                         <a class="" href="https://usfree.site/blog"><i class="fa-brands fa-blogger"></i></a>　
@@ -251,7 +232,7 @@
         </footer>
         <footer id="fullfooter" class="">
             <div class="container-full text-dark mb-3 fixed-bottom">
-                <div class="col-auto"><div class="smaller m-0">&copy; 2023 Woohyun Cho<br>All rights reserved.</div>
+                <div class="col-auto"><div class="smaller m-0">&copy; 2023 Woohyun Cho<br><a id="links">All rights reserved.</a></div>
             </div>
         </footer>
         <!-- Bootstrap core JS-->
