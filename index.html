@@ -58,7 +58,7 @@
                 $('#add-fixed').removeClass('scroll-navbar-background');
             }
 
-            if (gotolo == 'profiles_pg2.html'){
+            if (gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html'){
                 $('.bg-video').addClass('hidden');
             }
             else {
@@ -120,8 +120,8 @@
                 } else {
                     $('#add-fixed').removeClass('scroll-navbar-background');
                 }
-                if (data.data == 'profiles_pg2.html'){
-                $('.bg-video').addClass('hidden');
+                if (data.data == 'profiles_pg2.html' || data.data =='profiles_pg3.html'){
+                    $('.bg-video').addClass('hidden');
                 }
                 else {
                     $('.bg-video').removeClass('hidden');
