@@ -55,6 +55,9 @@
                 } else {
                     $('.bg-video').removeClass('hidden');
                 }
+                if (gotolo =='profiles.html' || gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html' || gotolo =='profiles_pg4.html' || gotolo =='profiles_pg5.html') {
+                    $('#add-fixed').removeClass('scroll-navbar-background');
+                }
                 /*메인화면에서는 navbar배경X, container, footer
                 프로젝트에서는 navbar fixed 속성, container-full, footer-full
                 그 외 다른 화면에서는 navbar 배경O, container, footer 
@@ -106,6 +109,9 @@
                         $('.bg-video').addClass('hidden');
                     } else {
                         $('.bg-video').removeClass('hidden');
+                    }
+                    if (data.data == 'profiles.html' || data.data =='profiles_pg2.html' || data.data =='profiles_pg3.html' || data.data =='profiles_pg4.html' || data.data =='profiles_pg5.html'){
+                        $('#add-fixed').removeClass('scroll-navbar-background');
                     }
                 /* 항상 load 영역이랑 싱크 확인 */
                     acorClose();
