@@ -281,6 +281,15 @@
   cursor: pointer;
 }
 
+.show-pages {
+  color: rgba(var(--bs-black-rgb), 0.5);
+  position: fixed;
+  bottom: 3vh;
+  right: 5vw;
+  cursor: pointer;
+  z-index: 1031;
+}
+
 .show-page {
   color: rgba(var(--bs-black-rgb), 0.5);
   position: fixed;
@@ -481,12 +490,37 @@ body[data-darkmode=on] .darkmode > .inner{
     box-shadow: 0px 15px 10px rgba(0,0,0,0.1);
     transition: all 1s;
   }
-  .navbar-brand img:hover {
-    /*filter: var(--bs-drop-shadow);*/
+
+  /*.navbar-brand img:hover {
     transform: scale(1.2, 1.2); 
     transition-duration: 0.5s;
+  }*/
+  /* Flashing */
+  .navbar-brand figure:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+  }
+  @-webkit-keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
+
+
+
 /*
 .cursor {
   position: absolute;
@@ -4886,6 +4920,9 @@ textarea.form-control-lg {
 .navbar-brand img {
   transition-duration: 0.3s;
   cursor: pointer;
+  align-items: center;
+  width: 50%;
+  top:50px;
 }
 
 .navbar-nav {
@@ -5011,11 +5048,12 @@ textarea.form-control-lg {
 
 
 /*---------밑줄넣기 부분----------*/
-ul { list-style:none; cursor:pointer;}
+ul { list-style:none; cursor:pointer; margin-top: 15px;}
 li { 
   /*width:30%;*/
   float:right; 
-  transition:all .3s ease 
+  transition:all .3s ease;
+  
 }
 li:hover { color:#FC8574; transition:all .3s ease }
 li > .nav-link { 
