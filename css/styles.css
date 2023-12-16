@@ -4895,7 +4895,7 @@ textarea.form-control-lg {
 
 .logoimg {
   content: var(--bs-logo-img);
-  width: 110px;
+  width: 100px;
 }
 
 .navbar > .container,
