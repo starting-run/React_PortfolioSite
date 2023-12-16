@@ -1583,7 +1583,7 @@ progress {
     transition: all 1s;
   }
   .container-full{
-    max-width: 95vw;
+    max-width: 98vw;
     transition: all 1s;
   }
 }
@@ -4742,7 +4742,7 @@ textarea.form-control-lg {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   text-align: right;
   float: right;
-  margin-bottom: 10px;
+  align-items: center;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -4872,9 +4872,9 @@ textarea.form-control-lg {
   --bs-navbar-brand-color: #323232;
   --bs-navbar-brand-hover-color: rgba(117, 117, 117, 0.9);
   --bs-navbar-nav-link-padding-x: 0.5rem;
-  --bs-navbar-toggler-padding-y: 0.25rem;
+  --bs-navbar-toggler-padding-y: ;
   --bs-navbar-toggler-padding-x: ;
-  --bs-navbar-toggler-font-size: 1.25rem;
+  --bs-navbar-toggler-font-size: 2.0rem;
   --bs-navbar-toggler-border-color: var(--bs-black-hover);
   --bs-navbar-toggler-border-radius: 0.375rem;
   --bs-navbar-toggler-focus-width: 0.25rem;
@@ -4992,8 +4992,8 @@ textarea.form-control-lg {
 
 .navbar-toggler-icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.0em;
+  height: 1.0em;
   vertical-align: middle;
   /*background-image: var(--bs-navbar-toggler-icon-bg);*/
   background-repeat: no-repeat;
@@ -5012,7 +5012,7 @@ textarea.form-control-lg {
 
 .hamburger svg {
   /* The size of the SVG defines the overall size */
-  height: 2em;
+  height: 1.0em;
   /* Define the transition for transforming the SVG */
   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -5048,7 +5048,7 @@ textarea.form-control-lg {
 
 
 /*---------밑줄넣기 부분----------*/
-ul { list-style:none; cursor:pointer; margin-top: 15px;}
+ul { list-style:none; cursor:pointer;}
 li { 
   /*width:30%;*/
   float:right; 
