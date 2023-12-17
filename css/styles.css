@@ -492,9 +492,14 @@ body[data-darkmode=on] .darkmode > .inner{
     background-color: rgba(var(--bs-black-rgb), 0.05);
     backdrop-filter: blur(30px);
     box-shadow: 0px 15px 10px rgba(0,0,0,0.1);
-    transition: all 1s;
+    transition: all 0.5s;
   }
-
+/*
+  .fs-fr:hover {
+    font-size: 1.22rem !important;
+    transition: all 0.2s;
+  }
+*/
   /*.navbar-brand img:hover {
     transform: scale(1.2, 1.2); 
     transition-duration: 0.5s;
@@ -9426,7 +9431,9 @@ video {
 
 .fs-fr {
   font-size: 1.15rem !important;
+  transition: all 0.2s;
 }
+
 .fst-italic {
   font-style: italic !important;
 }
