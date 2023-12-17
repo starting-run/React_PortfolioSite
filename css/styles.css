@@ -1590,6 +1590,11 @@ progress {
     max-width: 98vw;
     transition: all 1s;
   }
+  .navbar-py {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  
 }
 
 .proj_text {
