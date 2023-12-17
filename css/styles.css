@@ -4895,7 +4895,6 @@ textarea.form-control-lg {
 
 .logoimg {
   content: var(--bs-logo-img);
-  width: 100px;
 }
 
 .navbar > .container,
@@ -4919,6 +4918,7 @@ textarea.form-control-lg {
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
+  width: 200px;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
