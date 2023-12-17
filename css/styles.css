@@ -4752,6 +4752,7 @@ textarea.form-control-lg {
   text-align: right;
   float: right;
   align-items: center;
+  top:5px;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -4866,7 +4867,6 @@ textarea.form-control-lg {
 
 .scroll-navbar-background {
   background: rgba(var(--bs-white-rgb), 0.7);
-  transition: all 1s;
 }
 
 .navbar {
