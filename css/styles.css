@@ -476,7 +476,7 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 /* projects에서 창 작으면 이미지 예시 none */
-@media (max-width: 765px) {
+@media (max-width: 991px) {
   .profile {
     display: none;
   }
@@ -484,7 +484,58 @@ body[data-darkmode=on] .darkmode > .inner{
     padding-top: 5rem;
     height: 100vh;
   }
+  li > .nav-link::after {
+    margin-top: 3px !important;
+  }
+  li:hover > .nav-link::after {
+    margin-top: 3px !important;
+  }
 }
+
+
+
+/*---------밑줄넣기 부분----------*/
+ul { list-style:none; cursor:pointer;}
+li { 
+  /*width:30%;*/
+  float:right; 
+  transition:all .3s ease;
+  
+}
+li:hover { color:#FC8574; transition:all .3s ease }
+li > .nav-link { 
+  position:relative;
+}
+
+.navmargin {
+  margin-left:45px;
+}
+
+li > .nav-link::after {
+  content: '';
+  width: 0%;
+  left: 50%;
+  height: 1px;
+  display: block;
+  position: absolute;
+  margin-top: 27.5px;
+  border-bottom: 3px solid var(--bs-line-cl);
+  transition:all .3s ease;
+}
+li:hover > .nav-link::after {
+  content: '';
+  width: 100%;
+  left: 0px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  margin-top: 27.5px;
+  border-bottom: 3px solid var(--bs-line-cl);
+  transition:all .3s ease;
+}
+/* ------------------------- */
+
+
 /* 모바일X PC크기에서만 작동하는 영역*/
 @media (min-width: 992px) {
   .navbar:hover {
@@ -1581,7 +1632,7 @@ progress {
   }
   .navbar-py {
     padding-top: 1.5rem !important;
-    padding-bottom: 2rem !important;
+    padding-bottom: 1.7rem !important;
   }
 }
 @media (min-width: 1200px) {
@@ -1591,7 +1642,7 @@ progress {
   }
   .navbar-py {
     padding-top: 1.5rem !important;
-    padding-bottom: 2rem !important;
+    padding-bottom: 1.7rem !important;
   }
 }
 @media (min-width: 1400px) {
@@ -1605,7 +1656,7 @@ progress {
   }
   .navbar-py {
     padding-top: 1.5rem !important;
-    padding-bottom: 2rem !important;
+    padding-bottom: 1.7rem !important;
   }
   
 }
@@ -5074,47 +5125,6 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
-
-/*---------밑줄넣기 부분----------*/
-ul { list-style:none; cursor:pointer;}
-li { 
-  /*width:30%;*/
-  float:right; 
-  transition:all .3s ease;
-  
-}
-li:hover { color:#FC8574; transition:all .3s ease }
-li > .nav-link { 
-  position:relative;
-}
-
-.navmargin {
-  margin-left:45px;
-}
-
-li > .nav-link::after {
-  content: '';
-  width: 0%;
-  left: 50%;
-  height: 1px;
-  display: block;
-  position: absolute;
-  margin-top: 3px;
-  border-bottom: 3px solid var(--bs-line-cl);
-  transition:all .3s ease;
-}
-li:hover > .nav-link::after {
-  content: '';
-  width: 100%;
-  left: 0px;
-  height: 1px;
-  display: block;
-  position: absolute;
-  margin-top: 3px;
-  border-bottom: 3px solid var(--bs-line-cl);
-  transition:all .3s ease;
-}
-/* ------------------------- */
 
 @media (min-width: 576px) {
   .navbar-expand-sm {
