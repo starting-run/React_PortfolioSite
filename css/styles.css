@@ -8112,7 +8112,7 @@ textarea.form-control-lg {
   position: fixed;
   width: 100vw;
   right: 0;
-  bottom: 10px;
+  bottom: 5px;
   left: 10px;
   z-index: 1030;
 }
