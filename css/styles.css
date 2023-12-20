@@ -519,6 +519,24 @@ body[data-darkmode=on] .darkmode > .inner{
     transition: all 1s;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
   }
+  .InputContainer {
+    display: none !important;
+  }
+  .mobile-moabogi {
+    display: block !important;
+  }
+  .prj-sub {
+    display: none !important;
+  }
+}
+
+.prj-sub:hover {
+  color: #FC8574;
+  cursor: pointer;
+}
+
+.mobile-moabogi {
+  display: none;
 }
 
 .kor-hidden{
@@ -1571,6 +1589,7 @@ progress {
   content: "— ";
 }
 
+
 .InputContainer {
   height: 40px;
   display: flex;
@@ -1590,7 +1609,7 @@ progress {
   outline: none;
   font-size: 0.9em;
   background-color: var(--bs-dark);
-  caret-color: rgb(255, 81, 0);
+  caret-color: #FC8574;
   color: var(--bs-black);
 }
 
@@ -1624,6 +1643,10 @@ progress {
 
 .searchIcon path {
   fill: var(--bs-black);
+}
+
+.searchIcon:hover path {
+  fill: #FC8574;
 }
 
 .micIcon path {
@@ -9630,6 +9653,10 @@ video {
 
 .fw-bolder-down {
   color: #909090;
+}
+
+.font-letter-space-sm {
+  letter-spacing :1px;
 }
 
 .font-letter-space {
