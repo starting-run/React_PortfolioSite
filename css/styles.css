@@ -1552,9 +1552,19 @@ progress {
   transition-duration: 0.3s;
 }
 
+.card-image {
+  transition-duration: 0.3s;
+}
+
 .cards .img-fluid:hover {
-  transform: scale(1.05, 1.05);
+  .card-image {
+    transform: scale(1.15, 1.15);
+    transition-duration: 0.5s;
+  }
+  .card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important;
   transition-duration: 0.5s;
+  }
   cursor: pointer;
 }
 /*
@@ -5481,6 +5491,7 @@ textarea.form-control-lg {
   border-radius: var(--bs-card-border-radius);
   animation: fadeIncard 0.5s ease-in-out; /* card 올라오는 애니메이션 */
   overflow: hidden;
+  transition-duration: 0.3s;
 }
 .card > hr {
   margin-right: 0;
