@@ -521,7 +521,9 @@ body[data-darkmode=on] .darkmode > .inner{
   }
 }
 
-
+.kor-hidden{
+  display: none;
+}
 
 /*---------밑줄넣기 부분----------*/
 ul { list-style:none; cursor:pointer;}
@@ -1578,11 +1580,11 @@ progress {
   border-bottom: 1px solid var(--bs-black);
   overflow: hidden;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 13px;
 }
 
 .input {
-  width: 170px;
+  width: 200px;
   height: 100%;
   border: none;
   outline: none;
