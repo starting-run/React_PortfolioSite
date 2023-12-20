@@ -143,6 +143,7 @@
     --background-base: #fff;
     --bs-black: #000;
     --bs-white: #fff;
+    --bs-dark: #fff;
     --bs-scroll-white: #fff;
     --bs-black-hover: #a8a8a8;
     --bs-white-rgb: 255, 255, 255;
@@ -168,6 +169,7 @@
     --background-base: #1e1f21;
     --bs-black: #fff;
     --bs-white: #000;
+    --bs-dark: #1e1f21;
     --bs-scroll-white: #1e1f21;
     --bs-black-hover: #8d8d8d;
     --bs-white-rgb: 29, 30, 32;
@@ -201,6 +203,7 @@
   --background-base: #1e1f21;
   --bs-black: #fff;
   --bs-white: #000;
+  --bs-dark: #1e1f21;
   --bs-scroll-white: #1e1f21;
   --bs-black-hover: #8d8d8d;
   --bs-white-rgb: 29, 30, 32;
@@ -231,6 +234,7 @@
     --background-base: #fff;
     --bs-black: #000;
     --bs-white: #fff;
+    --bs-dark: #fff;
     --bs-scroll-white: #fff;
     --bs-black-hover: #a8a8a8;
     --bs-white-rgb: 255, 255, 255;
@@ -469,13 +473,19 @@ body[data-darkmode=on] .darkmode > .inner{
   box-sizing: border-box;
 }
 
+.scroll-navbar-background {
+  background: rgba(var(--bs-white-rgb), 0.7);
+  transition: all 1s;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
   }
 }
 
-/* projects에서 창 작으면 이미지 예시 none */
+/* 모바일전용 */
 @media (max-width: 991px) {
   .profile {
     display: none;
@@ -489,6 +499,11 @@ body[data-darkmode=on] .darkmode > .inner{
   }
   li:hover > .nav-link::after {
     margin-top: 3px !important;
+  }
+  .scroll-navbar-background {
+    background: var(--bs-dark);
+    transition: all 1s;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
   }
 }
 
@@ -4935,11 +4950,6 @@ textarea.form-control-lg {
   left: 0;
   right: 0;
   z-index: 1000;
-}
-
-.scroll-navbar-background {
-  background: rgba(var(--bs-white-rgb), 0.7);
-  transition: all 1s;
 }
 
 .navbar {
