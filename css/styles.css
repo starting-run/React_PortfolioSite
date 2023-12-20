@@ -1545,6 +1545,70 @@ progress {
   content: "— ";
 }
 
+.InputContainer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bs-dark);
+  border-bottom: 1px solid var(--bs-black);
+  overflow: hidden;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.input {
+  width: 170px;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+  background-color: var(--bs-dark);
+  caret-color: rgb(255, 81, 0);
+  color: var(--bs-black);
+}
+
+.labelforsearch {
+  cursor: text;
+  padding: 0px 12px;
+}
+
+.searchIcon {
+  width: 13px;
+}
+
+.border {
+  height: 40%;
+  width: 1.3px;
+  background-color: rgb(223, 223, 223);
+}
+
+.micIcon {
+  width: 12px;
+}
+
+.micButton {
+  padding: 0px 15px 0px 12px;
+  border: none;
+  background-color: transparent;
+  height: 40px;
+  cursor: pointer;
+  transition-duration: .3s;
+}
+
+.searchIcon path {
+  fill: var(--bs-black);
+}
+
+.micIcon path {
+  fill: rgb(255, 81, 0);
+}
+
+.micButton:hover {
+  background-color: rgb(255, 230, 230);
+  transition-duration: .3s;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -5467,7 +5531,7 @@ textarea.form-control-lg {
   --bs-card-title-spacer-y: 0.5rem;
   --bs-card-border-width: 1px;
   --bs-card-border-color: var(--bs-border-color-translucent);
-  --bs-card-border-radius: 5px;
+  --bs-card-border-radius: 0px;
   --bs-card-box-shadow: ;
   --bs-card-inner-border-radius: calc(0.375rem - 1px);
   --bs-card-cap-padding-y: 0.5rem;
@@ -5522,6 +5586,21 @@ textarea.form-control-lg {
   background-position: center center;
   background-size: cover;
   background-color: var(--bs-card-bg);
+}
+
+.card-border-1 {
+  border: none;
+  border-top: 2px solid #0078C3;
+}
+
+.card-border-2 {
+  border: none;
+  border-top: 2px solid #FC8574;
+}
+
+.card-border-3 {
+  border: none;
+  border-top: 2px solid #101214;
 }
 
 .card-image {
