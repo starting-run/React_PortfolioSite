@@ -101,7 +101,6 @@
   --font-mono : Consolas, "Andale Mono", Courier, "Courier New", monospace;
 
   --btn-outline-dark : #212529;
-  --card-bg : #fff;
   --text-muted : #6C757D;
   --text-gradient : -webkit-linear-gradient(315deg, #fa709a 0%, #fccb90 100%);
   --lenear-gradient : linear-gradient(135deg, #fa709a 0%, #fccb90 100%);
@@ -176,7 +175,7 @@
     --bs-black-rgb: 255, 255, 255;
     --btn-outline-dark : #e7e6e6;
     --bs-light-rgb: 45, 46, 46;
-    --card-bg : #414141;
+    --card-bg : #212529;
     --text-muted : #d3d2d2;
     --bs-white-rgb: 30, 31, 33;
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28280, 280, 280, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -210,7 +209,7 @@
   --bs-black-rgb: 255, 255, 255;
   --btn-outline-dark : #e7e6e6;
   --bs-light-rgb: 45, 46, 46;
-  --card-bg : #414141;
+  --card-bg : #212529;
   --text-muted : #d3d2d2;
   --btn-like-color : #FC8574;
   --bs-white-rgb: 30, 31, 33;
@@ -315,7 +314,7 @@
   height: 500px;
   border-radius: 5px;
   overflow: hidden;
-  animation: fadeIncard 0.5s ease-in-out; /* card 올라오는 애니메이션 */
+  /* animation: fadeIncard 0.5s ease-in-out; card 올라오는 애니메이션 */
   background-color: var(--bs-dark);
 }
 
@@ -780,11 +779,12 @@ li:hover > .nav-link::after {
 
 .bg-video-prj {
   position: absolute; /* 스크롤시 고정은 absolute */
-  top: 0;
-  left: 0;
-  height: 40vh; /* absolute시 100vh */
-  width: 100%;
   opacity: 0.15; /* 원본값 0.15 */
+  align-items: center;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  background-size : cover;
   /* filter:blur(2px); 배경 블러 */
 }
 
@@ -1198,6 +1198,11 @@ strong {
 small, .small {
   font-size: 0.875em;
   color: var(--bs-black);
+}
+
+.small2 {
+  font-size: 0.75em;
+  color: rgba(var(--bs-black-rgb), 1);
 }
 
 .smaller {
@@ -1781,13 +1786,6 @@ progress {
     max-width: 1200px;
     transition: all 1s;
   }
-  .navbar-py {
-    padding-top: 1.5rem !important;
-    padding-bottom: 1.7rem !important;
-  }
-  .fixed-bottom {
-    bottom: 20px !important;
-  }
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
@@ -1797,13 +1795,6 @@ progress {
   .container-full{
     max-width: 98vw;
     transition: all 1s;
-  }
-  .navbar-py {
-    padding-top: 1.5rem !important;
-    padding-bottom: 1.7rem !important;
-  }
-  .fixed-bottom {
-    bottom: 20px !important;
   }
 }
 
@@ -5634,7 +5625,12 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: var(--bs-card-bg);
+  background: var(--bs-card-bg);
+}
+
+.card-cover:hover {
+  background: var(--lenear-gradient);
+  transition: all 0.3s;
 }
 
 .card-border-1 {
