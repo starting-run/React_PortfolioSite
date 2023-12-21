@@ -43,20 +43,15 @@
                     $('#changecontainer').removeClass('container'); 
                     $('#changecontainer').addClass('container-full'); 
                     $('#add-fixed').removeClass('navbar-fixed-attr');
-                    $('#add-fixed').removeClass('scroll-navbar-background');
                 } else {
                     $('#changecontainer').removeClass('container');
                     $('#changecontainer').addClass('container-full');
                     $('#add-fixed').addClass('navbar-fixed-attr');
-                    $('#add-fixed').addClass('scroll-navbar-background');
                 }
                 if (gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html' || gotolo =='projects.html'){
                     $('.bg-video').addClass('hidden');
                 } else {
                     $('.bg-video').removeClass('hidden');
-                }
-                if (gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html' || gotolo =='profiles_pg4.html' || gotolo =='profiles_pg5.html') {
-                    $('#add-fixed').removeClass('scroll-navbar-background');
                 }
                 if (gotolo == 'main.html' || gotolo == 'profiles.html' || gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html' || gotolo =='profiles_pg4.html' || gotolo =='profiles_pg5.html'){
                     $('#fullfooter').removeClass('hidden');
@@ -105,20 +100,15 @@
                         $('#changecontainer').removeClass('container'); 
                         $('#changecontainer').addClass('container-full'); 
                         $('#add-fixed').removeClass('navbar-fixed-attr');
-                        $('#add-fixed').removeClass('scroll-navbar-background');
                     } else {
                         $('#changecontainer').removeClass('container');
                         $('#changecontainer').addClass('container-full');
                         $('#add-fixed').addClass('navbar-fixed-attr');
-                        $('#add-fixed').addClass('scroll-navbar-background');
                     }
                     if (data.data == 'profiles_pg2.html' || data.data =='profiles_pg3.html' || data.data =='projects.html'){
                         $('.bg-video').addClass('hidden');
                     } else {
                         $('.bg-video').removeClass('hidden');
-                    }
-                    if (data.data =='profiles_pg2.html' || data.data =='profiles_pg3.html' || data.data =='profiles_pg4.html' || data.data =='profiles_pg5.html'){
-                        $('#add-fixed').removeClass('scroll-navbar-background');
                     }
                     if (data.data == 'main.html' || data.data == 'profiles.html' || data.data == 'profiles_pg2.html' || data.data =='profiles_pg3.html' || data.data =='profiles_pg4.html' || data.data =='profiles_pg5.html'){
                         $('#fullfooter').removeClass('hidden');
@@ -149,6 +139,15 @@
                 });
                 $("#credit").click(function() {
                     gotosaveloc("credit.html");
+                });
+                /*스크롤시 navbar배경 */
+                $(document).scroll(function() {
+                    var scroll = $(document).scrollTop();
+                    if (scroll >= 50) {
+                        $('#add-fixed').addClass('scroll-navbar-background');
+                    } else {
+                        $('#add-fixed').removeClass('scroll-navbar-background');
+                    }
                 });
             });
         </script>
