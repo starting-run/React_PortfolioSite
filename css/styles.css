@@ -410,6 +410,10 @@
   }
 }
 
+.credit {
+  cursor: pointer;
+}
+
 /* Darkmode Toggle */
 
 .darkmode > .inner{
