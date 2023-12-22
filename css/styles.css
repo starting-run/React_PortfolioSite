@@ -511,12 +511,12 @@ body[data-darkmode=on] .darkmode > .inner{
     padding-top: 5rem;
     height: 100vh;
   }
-  li > .nav-link::after {
+  /*li > .nav-link::after {
     margin-top: 3px !important;
   }
   li:hover > .nav-link::after {
     margin-top: 3px !important;
-  }
+  }*/
   .scroll-navbar-background {
     background: var(--bs-dark);
     transition: all 1s;
@@ -554,7 +554,7 @@ li {
   transition:all .3s ease;
   
 }
-li:hover { color:#FC8574; transition:all .3s ease }
+li:hover { color:var(--bs-white); transition:all .3s ease }
 li > .nav-link { 
   position:relative;
 }
@@ -566,12 +566,12 @@ li > .nav-link {
 li > .nav-link::after {
   content: '';
   width: 0%;
-  left: 50%;
+  left: 0%; /*50%이면 중앙에서 시작*/
   height: 1px;
   display: block;
   position: absolute;
-  margin-top: 27.5px;
-  border-bottom: 3px solid var(--bs-line-cl);
+  margin-top: 3px;
+  border-bottom: 2px solid var(--bs-line-cl);
   transition:all .3s ease;
 }
 li:hover > .nav-link::after {
@@ -581,8 +581,8 @@ li:hover > .nav-link::after {
   height: 1px;
   display: block;
   position: absolute;
-  margin-top: 27.5px;
-  border-bottom: 3px solid var(--bs-line-cl);
+  margin-top: 3px;
+  border-bottom: 2px solid var(--bs-line-cl);
   transition:all .3s ease;
 }
 /* ------------------------- */
@@ -1242,6 +1242,7 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
+  transition: all 0.5s;
 }
 a:hover {
   color: var(--bs-link-hover-color);
