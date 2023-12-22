@@ -4040,6 +4040,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: var(--btn-like-color);
   --bs-btn-disabled-border-color: var(--btn-like-color);
   border-radius: 100px;
+  transition: all 0.5s;
 }
 
 .btn-primary-round i {
@@ -4205,6 +4206,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: #212529;
   --bs-btn-disabled-border-color: #212529;
   border-radius: 100px;
+  transition: all 0.5s;
 }
 
 .btn-outline-primary {
@@ -4359,6 +4361,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: var(--btn-outline-dark);
   --bs-gradient: none;
   border-radius: 100px;
+  transition: all 0.5s;
 }
 
 .btn-outline-dark-round i {
@@ -4387,6 +4390,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: var(--btn-outline-dark);
   --bs-gradient: none;
   border-radius: 100px;
+  transition: all 0.5s;
 }
 
 .btn-outline-dark-round-main i {
