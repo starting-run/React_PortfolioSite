@@ -56,9 +56,16 @@
                 if (gotolo == 'profiles.html' || gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html' || gotolo =='profiles_pg4.html' || gotolo =='profiles_pg5.html'){
                     $('#fullfooter').removeClass('hidden');
                     $('#normalfooter').addClass('hidden');
+                    $('#profiles').addClass('nav-link-active');
                 } else {
                     $('#fullfooter').addClass('hidden');
                     $('#normalfooter').removeClass('hidden');
+                    $('#profiles').removeClass('nav-link-active');
+                }
+                if (gotolo == 'projects.html') {
+                    $('#projects').addClass('nav-link-active');
+                } else {
+                    $('#projects').removeClass('nav-link-active');
                 }
                 /*메인화면에서는 navbar배경X, container, footer
                 프로젝트에서는 navbar fixed 속성, container-full, footer-full
@@ -113,9 +120,16 @@
                     if (data.data == 'profiles.html' || data.data == 'profiles_pg2.html' || data.data =='profiles_pg3.html' || data.data =='profiles_pg4.html' || data.data =='profiles_pg5.html'){
                         $('#fullfooter').removeClass('hidden');
                         $('#normalfooter').addClass('hidden');
+                        $('#profiles').addClass('nav-link-active');
                     } else {
                         $('#fullfooter').addClass('hidden');
                         $('#normalfooter').removeClass('hidden');
+                        $('#profiles').removeClass('nav-link-active');
+                    }
+                    if (data.data == 'projects.html') {
+                        $('#projects').addClass('nav-link-active');
+                    } else {
+                        $('#projects').removeClass('nav-link-active');
                     }
                 /* 항상 load 영역이랑 싱크 확인 */
                     acorClose();
