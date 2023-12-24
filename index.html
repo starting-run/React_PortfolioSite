@@ -42,7 +42,7 @@
                 if (gotolo == 'main.html') {  
                     $('#changecontainer').removeClass('container'); 
                     $('#changecontainer').addClass('container-full'); 
-                    $('#add-fixed').removeClass('navbar-fixed-attr');
+                    $('#add-fixed').addClass('navbar-fixed-attr');
                 } else {
                     $('#changecontainer').removeClass('container');
                     $('#changecontainer').addClass('container-full');
@@ -53,7 +53,7 @@
                 } else {
                     $('.bg-video').removeClass('hidden');
                 }
-                if (gotolo == 'main.html' || gotolo == 'profiles.html' || gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html' || gotolo =='profiles_pg4.html' || gotolo =='profiles_pg5.html'){
+                if (gotolo == 'profiles.html' || gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html' || gotolo =='profiles_pg4.html' || gotolo =='profiles_pg5.html'){
                     $('#fullfooter').removeClass('hidden');
                     $('#normalfooter').addClass('hidden');
                 } else {
@@ -110,7 +110,7 @@
                     } else {
                         $('.bg-video').removeClass('hidden');
                     }
-                    if (data.data == 'main.html' || data.data == 'profiles.html' || data.data == 'profiles_pg2.html' || data.data =='profiles_pg3.html' || data.data =='profiles_pg4.html' || data.data =='profiles_pg5.html'){
+                    if (data.data == 'profiles.html' || data.data == 'profiles_pg2.html' || data.data =='profiles_pg3.html' || data.data =='profiles_pg4.html' || data.data =='profiles_pg5.html'){
                         $('#fullfooter').removeClass('hidden');
                         $('#normalfooter').addClass('hidden');
                     } else {
@@ -172,7 +172,7 @@
             </div>
         </div>
     </div>-->
-    <body class="d-flex flex-column vh-100 overflow-scroll-y" oncontextmenu="return false" ondragstart="return false">
+    <body class="d-flex flex-column vh-100 overflow-scroll-y">
         <div class= "load" id="load">
             <div class="loader">
                 <svg viewBox="25 25 50 50" class="loadings">
