@@ -599,11 +599,6 @@ li:hover > .nav-link::after {
   transition:all .3s ease;
 }
 
-.nav-link-active {
-  height: 41px;
-  border-bottom: 2px solid var(--bs-line-cl);
-}
-
 /* ------------------------- */
 
 
