@@ -5765,6 +5765,7 @@ textarea.form-control-lg {
 
 .card-blur {
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   background-color: rgba(var(--bs-white-rgb), 0.3);
 }
 
