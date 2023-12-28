@@ -17,13 +17,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <ScrollToTop />
+      <ScrollToTop /> 
       <Routes>
         <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/Profile" element={<Profile/>}/>
-        <Route exact path="/project" element={<Project/>}/>
-        <Route exact path="/project/pacman" element={<Pacman/>}/>
-        <Route exact path="/project/ironman" element={<Ironman/>}/>
+        <Route path="/Profile" element={<Profile/>}/>
+        <Route path="/project" element={<Project/>}/>
+        <Route path="/project/pacman" element={<Pacman/>}/>
+        <Route path="/project/ironman" element={<Ironman/>}/>
       </Routes>
       <App />
 
