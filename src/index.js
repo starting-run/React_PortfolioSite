@@ -16,9 +16,9 @@ import Ironman from "./component/Project/Ironman";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <ScrollToTop /> 
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route exact path="/" element={<Home/>}/>
         <Route path="/Profile" element={<Profile/>}/>
         <Route path="/project" element={<Project/>}/>
