@@ -148,6 +148,7 @@ class Pacman extends Component {
                             <a href="https://github.com/usfree/Processing_Pacman" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
                         </div>
                         <div class="row gx-5 justify-content-center">
+                            <div class="">
                                 <div class="card shadow rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
@@ -178,6 +179,7 @@ class Pacman extends Component {
                                         </div>
                                     </div>
                                 </div> 
+                            </div> 
                             </div>
                         </div>
                     <div class="d-flex align-items-center justify-content-center pb-5">

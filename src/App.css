@@ -149,6 +149,7 @@
     --bs-black-rgb: 0, 0, 0;
     --btn-outline-dark : #212529;
     --bs-light-rgb: 248, 249, 250;
+    --bs-profile-card-rgb: 33, 37, 41;
     --card-bg : #fff;
     --text-muted : #6C757D;
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -173,6 +174,7 @@
     --bs-black-hover: #8d8d8d;
     --bs-white-rgb: 29, 30, 32;
     --bs-black-rgb: 255, 255, 255;
+    --bs-profile-card-rgb: 255, 255, 255;
     --btn-outline-dark : #e7e6e6;
     --bs-light-rgb: 45, 46, 46;
     --card-bg : #212529;
@@ -207,6 +209,7 @@
   --bs-black-hover: #8d8d8d;
   --bs-white-rgb: 29, 30, 32;
   --bs-black-rgb: 255, 255, 255;
+  --bs-profile-card-rgb: 255, 255, 255;
   --btn-outline-dark : #e7e6e6;
   --bs-light-rgb: 45, 46, 46;
   --card-bg : #212529;
@@ -238,6 +241,7 @@
     --bs-black-hover: #a8a8a8;
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 0, 0, 0;
+    --bs-profile-card-rgb: 33, 37, 41;
     --btn-outline-dark : #212529;
     --bs-light-rgb: 248, 249, 250;
     --card-bg : #fff;
@@ -565,6 +569,58 @@ body[data-darkmode=on] .darkmode > .inner{
 .kor-hidden{
   display: none;
 }
+
+
+.character-top {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.dfdf {
+  top : -100px;
+}
+
+.text-infopage {
+  color:var(--bs-black);
+}
+
+.text-main {
+  color:#FC8574;
+}
+
+.bg-wh {
+  background-color: rgba(var(--bs-white-rgb), 0.8);
+}
+
+.bg-info-back img {
+  position: absolute; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  justify-items: center;
+  z-index: -1;
+}
+
+.card-blur-info {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background-color: rgba(var(--bs-profile-card-rgb), 0.05);
+  overflow: visible;
+}
+
+.refl {
+  bottom: 1px;
+}
+
+.contentbtn {
+  cursor: pointer;
+}
+
+.activebtn {
+  border-bottom: 2px solid #af4545;
+}
+
 
 /*---------밑줄넣기 부분----------*/
 ul { list-style:none; cursor:pointer;}
