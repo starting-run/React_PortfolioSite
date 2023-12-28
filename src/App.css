@@ -618,7 +618,8 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 #statbtn .active {
-  border-bottom: 2px solid #af4545;
+  border-bottom: 2px solid #FC8574;
+  color:#FC8574;
 }
 
 
@@ -638,6 +639,7 @@ ul { list-style:none; cursor:pointer;}
 li {
   top:5px;
 }
+
 .navmargin {
   margin-left:45px;
 }
@@ -677,6 +679,9 @@ li {
   transition:all .3s ease;
 }
 
+.nav-link.active > li {
+  color:#FC8574;
+}
 
 /* ------------------------- */
 
