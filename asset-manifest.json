@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82b6a306.css",
+    "main.js": "/static/js/main.08ae3061.js",
+    "static/js/787.1de3eb55.chunk.js": "/static/js/787.1de3eb55.chunk.js",
+    "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
+    "static/media/usfree_creative.mp4": "/static/media/usfree_creative.2ceebca339545d6729c3.mp4",
+    "static/media/Processing_Pacman.mp4": "/static/media/Processing_Pacman.25f0225e0651c7f66e78.mp4",
+    "static/media/OpenGL_Ironman.pdf": "/static/media/OpenGL_Ironman.54c28fdf5dac7d4a96f2.pdf",
+    "static/media/2.png": "/static/media/2.c300fe697846300602eb.png",
+    "static/media/edu.jpg": "/static/media/edu.c0b960165419587bae12.jpg",
+    "static/media/maple.png": "/static/media/maple.2988818306a19f7fe07c.png",
+    "static/media/Processing_Pacman.pdf": "/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf",
+    "static/media/snap.jpg": "/static/media/snap.5c5d4d750c1c548089c7.jpg",
+    "static/media/ironman.jpg": "/static/media/ironman.08cb6233309f50b15857.jpg",
+    "static/media/snake.jpg": "/static/media/snake.5ffa00d200d7db29354b.jpg",
+    "static/media/pacman.jpg": "/static/media/pacman.33e0ce6845eef5d51ae3.jpg",
+    "static/media/footerimg.png": "/static/media/footerimg.ab83ee45a66418c9f283.png",
+    "index.html": "/index.html",
+    "main.82b6a306.css.map": "/static/css/main.82b6a306.css.map",
+    "main.08ae3061.js.map": "/static/js/main.08ae3061.js.map",
+    "787.1de3eb55.chunk.js.map": "/static/js/787.1de3eb55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82b6a306.css",
+    "static/js/main.08ae3061.js"
+  ]
+}
