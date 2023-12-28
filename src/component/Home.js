@@ -9,6 +9,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 class Home extends Component {
     render() {
       return (
+
         <div id="main">
         <div class="wraps">
             <div class="section">
@@ -104,6 +105,7 @@ class Home extends Component {
             </div>
         </div>
     </div>
+
       );
     }
   }

@@ -568,22 +568,25 @@ body[data-darkmode=on] .darkmode > .inner{
 
 /*---------밑줄넣기 부분----------*/
 ul { list-style:none; cursor:pointer;}
-li { 
+.nav-link { 
   /*width:30%;*/
   float:right; 
   transition:all .3s ease;
   
 }
-li:hover { color:var(--bs-white); transition:all .3s ease }
-li > .nav-link { 
+.nav-link:hover { color:var(--bs-white); transition:all .3s ease }
+.nav-link > li { 
   position:relative;
 }
 
+li {
+  top:5px;
+}
 .navmargin {
   margin-left:45px;
 }
 
-li > .nav-link::after {
+.nav-link > li::after {
   content: '';
   width: 0%;
   left: 0%; /*50%이면 중앙에서 시작*/
@@ -594,7 +597,7 @@ li > .nav-link::after {
   border-bottom: 2px solid var(--bs-line-cl);
   transition:all .3s ease;
 }
-li:hover > .nav-link::after {
+.nav-link:hover > li::after {
   content: '';
   width: 100%;
   left: 0px;
@@ -605,6 +608,19 @@ li:hover > .nav-link::after {
   border-bottom: 2px solid var(--bs-line-cl);
   transition:all .3s ease;
 }
+
+.nav-link.active > li::after  {
+  content: '';
+  width: 100%;
+  left: 0px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  margin-top: 3px;
+  border-bottom: 2px solid var(--bs-line-cl);
+  transition:all .3s ease;
+}
+
 
 /* ------------------------- */
 

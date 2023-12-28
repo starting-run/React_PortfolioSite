@@ -11,6 +11,12 @@ import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faBlogger } from "@fortawesome/free-brands-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
+
 
 
 function App() {
@@ -46,10 +52,10 @@ function App() {
               </label></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-letter-space fs-fr">
-                    <li class="nav-item navmargin"><NavLink exact to="/profile" className="nav-link">Profile</NavLink></li>
-                    <li class="nav-item navmargin"><NavLink exact to="/project" className="nav-link">Project</NavLink></li>
-                    <li class="nav-item navmargin"><a class="nav-link" href="https://usfree.site/blog">Blog</a></li>
-                    <li class="nav-item navmargin"><a class="nav-link" href="https://github.com/usfree" target='_blank'>Github</a></li>
+                  <NavLink exact to="/profile" className="nav-link"><li class="nav-item navmargin">Profile</li></NavLink>
+                  <NavLink exact to="/project" className="nav-link"><li class="nav-item navmargin">Project</li></NavLink>
+                  <a class="nav-link" href="https://usfree.site/blog"><li class="nav-item navmargin">Blog</li></a>
+                  <a class="nav-link" href="https://github.com/usfree" target='_blank'><li class="nav-item navmargin">Github</li></a>
                 </ul>
             </div>
         </div>
@@ -66,10 +72,10 @@ function App() {
       <div id="normalfooter" class="bg-dark py-4 mt-auto">
             <div class="container-full px-4 text-only-white font-3">
                 <div class="text-end">
-                    <a class="text-only-white" href="https://github.com/usfree"><i class="fa-brands fa-github"></i></a>　
-                    <a class="text-only-white" href="https://usfree.site/blog"><i class="fa-brands fa-blogger"></i></a>　
-                    <a class="text-only-white" href="https://solved.ac/profile/tlrmsjtm77"><i class="fa-solid fa-code"></i></a>　
-                    <a class="text-only-white" href="https://codeforces.com/profile/tlrmsjtm77"><i class="fa-solid fa-chart-simple"></i></a>
+                    <a class="text-only-white" href="https://github.com/usfree"><FontAwesomeIcon icon={faGithub} /></a>　
+                    <a class="text-only-white" href="https://usfree.site/blog"><FontAwesomeIcon icon={faBlogger} /></a>　
+                    <a class="text-only-white" href="https://solved.ac/profile/tlrmsjtm77"><FontAwesomeIcon icon={faCode} /></a>　
+                    <a class="text-only-white" href="https://codeforces.com/profile/tlrmsjtm77"><FontAwesomeIcon icon={faChartSimple} /></a>
                 </div>
                 <hr></hr>
                 <div class="d-flex">
