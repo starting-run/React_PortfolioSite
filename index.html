@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta name="theme-color" content="#FC8574">
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="images/favicon_new.svg" />
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <script src="js/scripts.js"></script>
+        <script src="js/748053c430.js"></script>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script>
+            var acorClose = function() {
+                if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
+                    $(".navbar-toggler").trigger("click");
+                    $("input:checkbox[id='hbg']").prop("checked", false);
+                }
+            }
+
+            /* 버튼 클릭으로 load 페이지 변경 */
+            function gotosaveloc(gotolo) {
+                $('#main').hide().fadeOut('fast', function() {
+                    $.ajax({
+                            url: gotolo,
+                            data: {page: 1},
+                            type: "get",
+                            success: (result) => {
+                                $("#main").html(result).fadeIn();
+                            }
+                    });
+                    history.pushState({
+                        data: gotolo,
+                        page: 1
+                    }, null, "index.html#" + gotolo);
+                })
+                if (gotolo == 'main.html') {  
+                    $('#changecontainer').removeClass('container'); 
+                    $('#changecontainer').addClass('container-full'); 
+                    $('#add-fixed').addClass('navbar-fixed-attr');
+                } else {
+                    $('#changecontainer').removeClass('container');
+                    $('#changecontainer').addClass('container-full');
+                    $('#add-fixed').addClass('navbar-fixed-attr');
+                }
+                if (gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html' || gotolo =='projects.html'){
+                    $('.bg-video').addClass('hidden');
+                } else {
+                    $('.bg-video').removeClass('hidden');
+                }
+                if (gotolo == 'profiles.html' || gotolo == 'profiles_pg2.html' || gotolo =='profiles_pg3.html' || gotolo =='profiles_pg4.html' || gotolo =='profiles_pg5.html'){
+                    $('#fullfooter').removeClass('hidden');
+                    $('#normalfooter').addClass('hidden');
+                } else {
+                    $('#fullfooter').addClass('hidden');
+                    $('#normalfooter').removeClass('hidden');
+                }
+                /*메인화면에서는 navbar배경X, container, footer
+                프로젝트에서는 navbar fixed 속성, container-full, footer-full
+                그 외 다른 화면에서는 navbar 배경O, container, footer 
+                항상 뒤로가기 영역이랑 싱크 확인*/
+                acorClose();
+                $('html, body').animate({scrollTop: '0'}, 100);
+            }
+
+            $(function() {
+                $('.ss-go-top').on("click", function() {
+                    $('html, body').animate({scrollTop: '0'}, 100);
+                })
+
+                /* 새로고침 or 초기로딩 */
+                window.onload = function(){
+                    var hash = location.hash;
+                    var rehash = hash.replace('#','');
+                    if (hash == "") { 
+                        gotosaveloc("main.html");
+                    } else if (hash == "#intro") {
+                        gotosaveloc("main.html");
+                    } else {
+                        gotosaveloc(rehash);
+                    }
+                }
+                /* 뒤로가기*/
+                $(window).on('popstate', function (event) {
+                    const data = event.originalEvent.state;
+                    $.ajax({
+                        url: data.data,
+                        data: {page:data.page, type: data.type, keyword: data.keyword},
+                        type: "get",
+                        success: (result) => {
+                            $("#main").html(result).fadeIn();
+                        }
+                    }) 
+                    if (data.data == 'main.html') {
+                        $('#changecontainer').removeClass('container'); 
+                        $('#changecontainer').addClass('container-full'); 
+                        $('#add-fixed').removeClass('navbar-fixed-attr');
+                    } else {
+                        $('#changecontainer').removeClass('container');
+                        $('#changecontainer').addClass('container-full');
+                        $('#add-fixed').addClass('navbar-fixed-attr');
+                    }
+                    if (data.data == 'profiles_pg2.html' || data.data =='profiles_pg3.html' || data.data =='projects.html'){
+                        $('.bg-video').addClass('hidden');
+                    } else {
+                        $('.bg-video').removeClass('hidden');
+                    }
+                    if (data.data == 'profiles.html' || data.data == 'profiles_pg2.html' || data.data =='profiles_pg3.html' || data.data =='profiles_pg4.html' || data.data =='profiles_pg5.html'){
+                        $('#fullfooter').removeClass('hidden');
+                        $('#normalfooter').addClass('hidden');
+                    } else {
+                        $('#fullfooter').addClass('hidden');
+                        $('#normalfooter').removeClass('hidden');
+                    }
+                /* 항상 load 영역이랑 싱크 확인 */
+                    acorClose();
+                });
+                
+                /* 로딩 progress bar */
+                $(window).on("load", function() {
+                    $('#load').fadeOut('slow');
+                });
+                $("#mains").click(function() {
+                    gotosaveloc("main.html");
+                });
+                $("#profiles").click(function() {
+                    gotosaveloc("profiles.html");
+                });
+                $("#projects").click(function() {
+                    gotosaveloc("projects.html");
+                });
+                $("#links").click(function() {
+                    gotosaveloc("elements/link.html");
+                });
+                $("#links2").click(function() {
+                    gotosaveloc("elements/link.html");
+                });
+                $("#credit").click(function() {
+                    gotosaveloc("credit.html");
+                });
+                /*스크롤시 navbar배경 */
+                $(document).scroll(function() {
+                    var scroll = $(document).scrollTop();
+                    if (scroll >= 50) {
+                        $('#add-fixed').addClass('scroll-navbar-background');
+                    } else {
+                        $('#add-fixed').removeClass('scroll-navbar-background');
+                    }
+                });
+            });
+        </script>
+        <link href="css/styles.css" rel="stylesheet"/>
+        <!-- OG TAG -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="USFREE | Woohyun Cho" /> 
+        <meta property="og:url" content="usfree.site" />
+        <meta property="og:image" content="https://usfree.site/images/OGmetaN.png" /> 
+        <meta property="og:description" content="창의적인 꿈을 그립니다. USFREE, 조우현" />
+    </head>
+    <!-- 프로모션바
+        <div class="universe d-grid">
+        <div class="px-4 row align-items-center justify-content-between flex-sm-row">
+            <div class="font-5 font-letter-space-lg col-auto my-auto ">usfree UNiVERSE</div>
+            <div class="col-auto uni-items">
+                <div id="modalOpenButton" class="font-5 font-letter-space fs-6">MORE <i class="fa-solid fa-chevron-down"></i></div>
+                <div id="modalCloseButton" class="font-5 font-letter-space fs-6 hidden">CLOSE <i class="fa-solid fa-chevron-up"></i></div>
+            </div>
+        </div>
+    </div>-->
+    <body class="d-flex flex-column vh-100 overflow-scroll-y" oncontextmenu="return false" ondragstart="return false">
+        <div class= "load" id="load">
+            <div class="loader">
+                <svg viewBox="25 25 50 50" class="loadings">
+                    <circle r="20" cy="50" cx="50"></circle>
+                </svg>
+            </div>
+        </div>
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+              <source src="images/video/usfree_creative.mp4" type="video/mp4" />
+            </video>
+        </div>
+        <div class="loading"></div>
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <div id="add-fixed" class="">
+                <nav id="navbarcontrol" class="navbar navbar-upper navbar-expand-lg navbar-light navbar-py"> <!-- navbar-expand-lg  속성으로 인해 햄버거 메뉴 동작-->
+                <div id='changecontainer' class="container px-4 ">
+                    <a class="navbar-brand" id="mains"><img class="logoimg"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <label class="hamburger">
+                        <input type="checkbox" id="hbg">
+                        <svg viewBox="0 0 32 32">
+                          <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                          <path class="line" d="M7 16 27 16"></path>
+                        </svg>
+                      </label></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-letter-space fs-fr">
+                            <li class="nav-item navmargin hidden"><a class="nav-link" id="project" style="color: red;">Project구버전</a></li>
+                            <li class="nav-item navmargin"><a class="nav-link" id="profiles">Profile</a></li>
+                            <li class="nav-item navmargin"><a class="nav-link" id="projects">Project</a></li>
+                            <li class="nav-item navmargin"><a class="nav-link" href="https://usfree.site/blog">Blog</a></li>
+                            <li class="nav-item navmargin"><a class="nav-link" href="https://github.com/usfree" target='_blank'>Github</a></li>
+                            <!-- 다크모드 toggle 
+                            <div class="wrap">
+                                <div class="darkmode">
+                                    <div class="inner">
+                                        <input type="radio" name="toggle" id="toggle-radio-light" checked><label for="toggle-radio-light" class="tolight"><i class="fas fa-sun tolight"></i></label>
+                                        <input type="radio" name="toggle" id="toggle-radio-dark"><label for="toggle-radio-dark" class="todark"><i class="fas fa-moon todark"></i></label>
+                                        <div class="darkmode-bg"></div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- toggle end -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+            <div id="main">
+                <!-- load될 영역 -->
+            </div>
+            <!--Modal 창
+            <div id="modalContainer" class="hidden">
+                <div id="modalContent" class="hidden">
+                    <iframe scrolling="no" src="modal.html" width="100%" height="100%"></iframe>
+                </div>
+            </div>-->
+        </main>
+        <div id="topbtn" class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1)"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
+            </a>
+        </div> <!-- end ss-go-top -->
+        <!-- Footer-->
+        <footer id="normalfooter" class="bg-dark py-4 mt-auto">
+            <div class="container-full px-4 text-only-white font-3">
+                <div class="text-end">
+                    <a class="text-only-white" href="https://github.com/usfree"><i class="fa-brands fa-github"></i></a>　
+                    <a class="text-only-white" href="https://usfree.site/blog"><i class="fa-brands fa-blogger"></i></a>　
+                    <a class="text-only-white" href="https://solved.ac/profile/tlrmsjtm77"><i class="fa-solid fa-code"></i></a>　
+                    <a class="text-only-white" href="https://codeforces.com/profile/tlrmsjtm77"><i class="fa-solid fa-chart-simple"></i></a>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <div class="mb-3 small"><a class="credit text-only-white" id="credit">크레딧</a></div>
+                    <div class="mb-3 smaller text-only-white">　|　</div>
+                    <div class="mb-3 small"><a class="credit text-only-white" id="links">링크</a></div>
+                    <div class="mb-3 smaller text-only-white">　|　</div>
+                    <div class="mb-3 small"><a class="credit text-only-white" href="https://usfree.site/labs">실험실</a></div>
+                </div>
+                <div class="col-auto"><div class="smaller m-0 text-only-white"><b>USFREE</b> 조우현</b>
+                    <br>Email: <a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." class="text-only-white">ploris576@kangnam.ac.kr</a></div></div>
+            
+                    <div class="smaller m-0 text-only-white mb-3">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</div>
+                    <div class=""><a href="https://usfree.site"><img src="images/footerimg.png" style="width: 90px;"></a></div>
+                </div>
+            </div>
+        </footer>
+        <footer id="fullfooter" class="">
+            <div class="container-full text-dark mb-3 fixed-bottom">
+                <div class="col-auto"><div class="smaller m-0">&copy; 2023 Woohyun Cho<br><a id="links2">All rights reserved.</a></div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
