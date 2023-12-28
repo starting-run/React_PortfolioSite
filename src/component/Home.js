@@ -47,7 +47,7 @@ class Home extends Component {
                                                 <div class="fs-6 mb-1 font-3"><b>조우현</b></div>
                                                 <div class="fw-light2 mb-1 fs-6 font-3">게임 클라이언트 프로그래머</div>
                                                 <div class="fw-light2 fs-6 mb-3 font-3"><a href="https://sae.kangnam.ac.kr/">강남대학교 ICT공학부</a> 재학(2019 - )</div>
-                                                <div class="mb-3" style={{color:"pink"}}>현재 리액트 이식 중이므로 동작이 원활하지 않을 수 있습니다. 12. 28.</div>
+                                                <div class="mb-3" style={{color:"pink"}}>리액트 이식으로 인해 동작이 원활하지 않을 수 있습니다. 12. 28. ~</div>
                                             </div>
                                         </div>
                                     </div>

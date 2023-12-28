@@ -66,7 +66,7 @@ class Snake extends Component {
                         </div>
                     </div>
                     <div class="d-flex align-items-center justify-content-center pb-5">
-                    <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3 mb-5"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
+                        <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3 mb-5"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
                     </div>
                 </div>
             </div>

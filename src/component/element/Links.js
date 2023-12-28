@@ -1,4 +1,7 @@
+import { faBlogger, faGithub, faGoogleDrive, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChalkboardUser, faChartSimple, faCode, faGraduationCap, faInbox, faNoteSticky, faServer } from '@fortawesome/free-solid-svg-icons';
 
 class Links extends Component {
     render() {
@@ -21,9 +24,9 @@ class Links extends Component {
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0 c-fisrt">
                                         <div class="bg-light p-4 rounded-2">
                                             <div class="small text-muted mb-3">Drive</div>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://drive.google.com/drive/my-drive"><i class="fa-brands fa-google-drive"></i> Google Drive</a>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://usfree.direct.quickconnect.to:7236/"><i class="fa-solid fa-server"></i> NAS</a>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://notion.so"><i class="fa-solid fa-note-sticky"></i> Notion</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://drive.google.com/drive/my-drive"><FontAwesomeIcon icon={faGoogleDrive} /> Google Drive</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://usfree.direct.quickconnect.to:7236/"><FontAwesomeIcon icon={faServer} /> NAS</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://notion.so"><FontAwesomeIcon icon={faNoteSticky}/> Notion</a>
                                         </div>
                                     </div>
                                 </div>
@@ -31,9 +34,9 @@ class Links extends Component {
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0 c-fisrt">
                                         <div class="bg-light p-4 rounded-2">
                                             <div class="small text-muted mb-3">SNS</div>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://www.instagram.com/w99hyun/"><i class="fa-brands fa-instagram"></i> Instagram</a>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://github.com/usfree"><i class="fa-brands fa-github"></i> Github</a>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://usfree.site/blog"><i class="fa-brands fa-blogger"></i> Blog</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://www.instagram.com/w99hyun/"><FontAwesomeIcon icon={faInstagram}/> Instagram</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://github.com/usfree"><FontAwesomeIcon icon={faGithub}/> Github</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://usfree.site/blog"><FontAwesomeIcon icon={faBlogger}/> Blog</a>
                                         </div>
                                     </div>
                                 </div>
@@ -41,9 +44,9 @@ class Links extends Component {
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0 c-fisrt">
                                         <div class="bg-light p-4 rounded-2">
                                             <div class=" small text-muted mb-3">P/S</div>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://solved.ac/profile/tlrmsjtm77"><i class="fa-solid fa-code"></i> solved.ac</a>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://www.acmicpc.net/user/tlrmsjtm77"><i class="fa-solid fa-code"></i> BOJ</a>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://codeforces.com/profile/tlrmsjtm77"><i class="fa-solid fa-chart-simple"></i> Codeforces</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://solved.ac/profile/tlrmsjtm77"><FontAwesomeIcon icon={faCode}/> solved.ac</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://www.acmicpc.net/user/tlrmsjtm77"><FontAwesomeIcon icon={faCode}/> BOJ</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://codeforces.com/profile/tlrmsjtm77"><FontAwesomeIcon icon={faChartSimple}/> Codeforces</a>
                                         </div>
                                     </div>
                                 </div>
@@ -51,9 +54,9 @@ class Links extends Component {
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0 c-fisrt">
                                         <div class="bg-light p-4 rounded-2">
                                             <div class="small text-muted mb-3">Edu.</div>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://ecampus.kangnam.ac.kr/"><i class="fa-solid fa-chalkboard-user"></i> e-campus</a>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://web.kangnam.ac.kr/"><i class="fa-solid fa-graduation-cap"></i> 강남대학교</a>
-                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://sae.kangnam.ac.kr/"><i class="fa-solid fa-graduation-cap"></i> ICT융합공학부</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://ecampus.kangnam.ac.kr/"><FontAwesomeIcon icon={faChalkboardUser}/> e-campus</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://web.kangnam.ac.kr/"><FontAwesomeIcon icon={faGraduationCap}/> 강남대학교</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://sae.kangnam.ac.kr/"><FontAwesomeIcon icon={faGraduationCap}/> ICT융합공학부</a>
                                         </div>
                                     </div>
                                 </div>
