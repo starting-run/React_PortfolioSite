@@ -160,7 +160,7 @@
     --bs-award-hover-rgb: 200, 200, 200;
     --bs-normal-rgb: 252, 133, 116;
     transition: all 1s;
-    --bs-logo-img: url("../images/logo_text_dark.png");
+    --bs-logo-img: url("images/logo_text_dark.png");
   }
   body[data-darkmode=on]{
     color: #e8e8e8 !important;
@@ -191,7 +191,7 @@
     --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
     */
     transition: all 1s;
-    --bs-logo-img: url("../images/logo_text.png");
+    --bs-logo-img: url("images/logo_text.png");
     }
 }
 
@@ -225,7 +225,7 @@
   --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
   */
   transition: all 1s;
-  --bs-logo-img: url("../images/logo_text.png");
+  --bs-logo-img: url("images/logo_text.png");
   }
   body[data-darkmode=off] {
     color: #000 !important;
@@ -251,7 +251,7 @@
     --bs-award-hover-rgb: 200, 200, 200;
     --bs-normal-rgb: 252, 133, 116;
     transition: all 1s;
-    --bs-logo-img: url("../images/logo_text_dark.png");
+    --bs-logo-img: url("images/logo_text_dark.png");
   }
 }
 
