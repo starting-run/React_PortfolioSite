@@ -617,7 +617,7 @@ body[data-darkmode=on] .darkmode > .inner{
   cursor: pointer;
 }
 
-.activebtn {
+#statbtn .active {
   border-bottom: 2px solid #af4545;
 }
 

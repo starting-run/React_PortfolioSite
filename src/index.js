@@ -23,7 +23,7 @@ root.render(
       <ScrollToTop /> 
       <Routes>
         <Route exact path="/" element={<Home/>}/>
-        <Route path="/Profile" element={<Profile/>}/>
+        <Route path="/profile/*" element={<Profile/>}/>
         <Route path="/project" element={<Project/>}/>
         <Route path="/project/pacman" element={<Pacman/>}/>
         <Route path="/project/ironman" element={<Ironman/>}/>

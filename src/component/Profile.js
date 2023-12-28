@@ -3,6 +3,12 @@ import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCakeCandles, faChartSimple, faEnvelopeOpenText, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import profileimg from '../images/logo_sq.png'
+import Intro from '../component/Profile/Intro';
+import Edu from './Profile/Edu';
+import Exp from './Profile/Exp';
+import Cert from './Profile/Cert';
+import Tech from './Profile/Tech';
+
 
 class Profile extends Component {
     render() {
@@ -74,54 +80,37 @@ class Profile extends Component {
                                 <div class="d-flex align-items-center">
                                     <div class="p-2 proj_text w-100">
                                         <div class="select_btn mb-5">
-                                            <div class="row row-cols-5 row-cols-lg-5 justify-content-center font-3 smaller">
-                                                <a class="contentbtn activebtn" id="statbtn">
+                                            <div class="row row-cols-5 row-cols-lg-5 justify-content-center font-3"  id="statbtn">
+                                                <NavLink to="/profile" className="contentbtn" end>
                                                 <div class="col text-center">
                                                     <div class="mb-2">Intro</div>
-                                                </div></a>
-                                                <a class="contentbtn" id="itembtn">
+                                                </div></NavLink>
+                                                <NavLink to="edu" className="contentbtn" id="itembtn">
                                                 <div class="col text-center">
                                                     <div class="">Education</div>
-                                                </div></a>
-                                                <a class="contentbtn" id="itembtn">
+                                                </div></NavLink>
+                                                <NavLink to="exp" className="contentbtn" id="itembtn">
                                                 <div class="col text-center">
                                                     <div class="">Experience</div>
-                                                </div></a>
-                                                <a class="contentbtn" id="itembtn">
+                                                </div></NavLink>
+                                                <NavLink to="cert"  class="contentbtn" id="itembtn">
                                                 <div class="col text-center">
                                                     <div class="">Certificate</div>
-                                                </div></a>
-                                                <a class="contentbtn" id="itembtn">
+                                                </div></NavLink>
+                                                <NavLink to="tech"  class="contentbtn" id="itembtn">
                                                 <div class="col text-center">
                                                     <div class="">TechStack</div>
-                                                </div></a>
+                                                </div></NavLink>
                                             </div>
-                                        </div>
-                                        <div class="item_  py-5 hidden">
-                                            아이템 정보 추가 예정
                                         </div>
                                         <div class="stat_  py-5">
-                                            <div class="row row-cols-1 row-cols-lg-2 justify-content-center font-3">
-                                                <div class="col-xl-3 mb-2">
-                                                    <div class="card h-100 card-border-1">
-                                                        <div class="d-flex flex-column h-100 py-4 card-overtext ">
-                                                            <span class="font-3 fs-6 text-main mb-2"></span>
-                                                            <div class="fs-3 fw-bolder text-infopage mb-5"><span class="stat_value42"></span></div>
-                                                            <span class="font-3 fs-6 text-main mb-2"></span>
-                                                            <div class="fs-6 fw-bolder text-infopage"><span class="stat_value0"></span> ~ <span class="stat_value1"></span></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col mb-2">
-                                                    <div class="card h-100 text-bg-dark text-black card-border-1">
-                                                        <div class="d-flex flex-column h-100 py-4 card-overtext">
-                                                            <span class="font-3 fs-6 text-main mb-2">준비중</span>
-                                                              
-                                                             
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <Routes>
+                                            <Route path="" element={<Intro/>}/>
+                                            <Route path="edu" element={<Edu/>}/>
+                                            <Route path="exp" element={<Exp/>}/>
+                                            <Route path="cert" element={<Cert/>}/>
+                                            <Route path="tech" element={<Tech/>}/>
+                                        </Routes>
                                         </div>
                                     </div>
                                 </div>
