@@ -5,6 +5,7 @@ import main_project_btn from "../images/projects/2.png";
 import main_labs_btn from "../images/maple.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { HashLink } from 'react-router-hash-link';
 
 class Home extends Component {
     render() {
@@ -16,7 +17,7 @@ class Home extends Component {
                     <div class="w-100">
                         <div class="scr-down font-7 fw-light2">
                             <div class="main__action text-center">
-                                <a class="main__scroll" href="#intro">
+                            <HashLink smooth to="#intro" class="main__scroll">
                                 <div class="main__scroll-box">
                                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 0h24v24H0z" fill="none"></path>
@@ -25,7 +26,7 @@ class Home extends Component {
                                     </svg>
                                 </div>
                                 <span class="main__scroll-text">SCROLL DOWN</span>
-                                </a>
+                                </HashLink>
                             </div>
                             
                         </div>

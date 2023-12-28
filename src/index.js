@@ -12,6 +12,9 @@ import Project from './component/Project';
 import Profile from './component/Profile';
 import Pacman from "./component/Project/Pacman";
 import Ironman from "./component/Project/Ironman";
+import Credit from './component/element/Credit';
+import Links from './component/element/Links';
+import Snake from './component/Project/Snake';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +27,9 @@ root.render(
         <Route path="/project" element={<Project/>}/>
         <Route path="/project/pacman" element={<Pacman/>}/>
         <Route path="/project/ironman" element={<Ironman/>}/>
+        <Route path="/project/snake" element={<Snake/>}/>
+        <Route path="/credit" element={<Credit/>}/>
+        <Route path="/links" element={<Links/>}/>
       </Routes>
       <App />
     </HashRouter>

@@ -13,7 +13,7 @@ import { faBlogger } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
 
-
+let city, country;
 
 function App() {
   $(document).scroll(function() {
@@ -24,6 +24,13 @@ function App() {
         $('#add-fixed').removeClass('scroll-navbar-background');
     }
 });
+
+function acorClose() {
+  if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
+      $(".navbar-toggler").trigger("click");
+      $("input:checkbox[id='hbg']").prop("checked", false);
+  }
+}
   return (
     <div className="App">
 
@@ -36,7 +43,7 @@ function App() {
     <div id="add-fixed" class="navbar-fixed-attr">
       <nav id="navbarcontrol" class="navbar navbar-upper navbar-expand-lg navbar-light navbar-py">
         <div id='changecontainer' class="container-full px-4 ">
-            <NavLink exact to="/" className="navbar-brand" id="mains"><img class="logoimg"></img></NavLink>
+            <NavLink exact to="/" className="navbar-brand" id="mains" onClick={acorClose}><img class="logoimg"></img></NavLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <label class="hamburger">
@@ -48,10 +55,10 @@ function App() {
               </label></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-letter-space fs-fr">
-                  <NavLink exact to="/profile" className="nav-link"><li class="nav-item navmargin">Profile</li></NavLink>
-                  <NavLink exact to="/project" className="nav-link"><li class="nav-item navmargin">Project</li></NavLink>
-                  <a class="nav-link" href="https://usfree.site/blog"><li class="nav-item navmargin">Blog</li></a>
-                  <a class="nav-link" href="https://github.com/usfree" target='_blank'><li class="nav-item navmargin">Github</li></a>
+                  <NavLink exact to="/profile" className="nav-link" onClick={acorClose}><li class="nav-item navmargin">Profile</li></NavLink>
+                  <NavLink exact to="/project" className="nav-link" onClick={acorClose}><li class="nav-item navmargin">Project</li></NavLink>
+                  <a class="nav-link" href="https://usfree.site/blog" onClick={acorClose}><li class="nav-item navmargin">Blog</li></a>
+                  <a class="nav-link" href="https://github.com/usfree" target='_blank' onClick={acorClose}><li class="nav-item navmargin">Github</li></a>
                 </ul>
             </div>
         </div>
@@ -69,9 +76,9 @@ function App() {
                 </div>
                 <hr></hr>
                 <div class="d-flex">
-                    <div class="mb-3 small"><a class="credit text-only-white" id="credit">크레딧</a></div>
+                    <div class="mb-3 small"><Link to="/credit" className="credit text-only-white">크레딧</Link></div>
                     <div class="mb-3 smaller text-only-white">　|　</div>
-                    <div class="mb-3 small"><a class="credit text-only-white" id="links">링크</a></div>
+                    <div class="mb-3 small"><Link to="/links" className="credit text-only-white">링크</Link></div>
                     <div class="mb-3 smaller text-only-white">　|　</div>
                     <div class="mb-3 small"><a class="credit text-only-white" href="https://usfree.site/labs">실험실</a></div>
                 </div>

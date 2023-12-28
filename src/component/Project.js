@@ -6,10 +6,10 @@ import project3 from '../images/pacman.jpg';
 import project4 from '../images/maple.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faLayerGroup } from "@fortawesome/free-solid-svg-icons";
+import { faCalendar } from "@fortawesome/free-solid-svg-icons";
+
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
-
-
 
 class Project extends Component {
     render() {
@@ -62,12 +62,12 @@ class Project extends Component {
                                               <h3 class="mb-2 display-7 lh-1 fw-bold country">Maplestory Search<div class="kor-hidden">메이플</div></h3>
                                               <ul class="d-flex list-unstyled mt-auto small2">
                                               <li class="d-flex align-items-center me-3 city">
-                                                  <i class="fa-solid fa-layer-group"></i>
+                                              <FontAwesomeIcon icon={faLayerGroup} />
                                                   <div class="">　HTML / Nexon API</div>
                                                   <div class="kor-hidden">웹</div>
                                               </li>
                                               <li class="d-flex align-items-center">
-                                                  <i class="fa-solid fa-calendar-days"></i>
+                                              <FontAwesomeIcon icon={faCalendar} />
                                                   <div class="">　2023. 12.</div>
                                               </li>
                                               </ul>
@@ -85,12 +85,12 @@ class Project extends Component {
                                               <h3 class="mb-2 display-7 lh-1 fw-bold country">Pacman<div class="kor-hidden">팩맨</div></h3>
                                               <ul class="d-flex list-unstyled mt-auto small2">
                                               <li class="d-flex align-items-center me-3 city">
-                                                  <i class="fa-solid fa-layer-group"></i>
+                                              <FontAwesomeIcon icon={faLayerGroup} />
                                                   <div class="">　Processing</div>
                                                   <div class="kor-hidden">프로세싱</div>
                                               </li>
                                               <li class="d-flex align-items-center">
-                                                  <i class="fa-solid fa-calendar-days"></i>
+                                              <FontAwesomeIcon icon={faCalendar} />
                                                   <div class="">　2023. 10.</div>
                                               </li>
                                               </ul>
@@ -108,12 +108,12 @@ class Project extends Component {
                                               <h3 class="mb-2 display-7 lh-1 fw-bold country">Ironman<div class="kor-hidden">아이언맨</div></h3>
                                               <ul class="d-flex list-unstyled mt-auto small2">
                                               <li class="d-flex align-items-center me-3 city">
-                                                  <i class="fa-solid fa-layer-group"></i>
+                                              <FontAwesomeIcon icon={faLayerGroup} />
                                                   <div class="">　OpenGL</div>
                                                   <div class="kor-hidden">오픈지엘</div>
                                               </li>
                                               <li class="d-flex align-items-center">
-                                                  <i class="fa-solid fa-calendar-days"></i>
+                                              <FontAwesomeIcon icon={faCalendar} />
                                                   <div class="">　2021. 06.</div>
                                               </li>
                                               </ul>
@@ -123,7 +123,7 @@ class Project extends Component {
                               </NavLink>
                           </div>
                           <div class="img-fluid">
-                              <a id="snake">
+                            <NavLink to="snake" id="ironman">
                                   <div class="col">
                                       <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black card-border-2">
                                           <img class="card-image" src ={project1}></img>
@@ -131,19 +131,19 @@ class Project extends Component {
                                               <h3 class="mb-2 display-7 lh-1 fw-bold country">Snake<div class="kor-hidden">스네이크</div></h3>
                                               <ul class="d-flex list-unstyled mt-auto small2">
                                               <li class="d-flex align-items-center me-3 city">
-                                                  <i class="fa-solid fa-layer-group"></i>
+                                                <FontAwesomeIcon icon={faLayerGroup} />
                                                   <div class="">　Unity</div>
                                                   <div class="kor-hidden">유니티</div>
                                               </li>
                                               <li class="d-flex align-items-center">
-                                                  <i class="fa-solid fa-calendar-days"></i>
+                                                <FontAwesomeIcon icon={faCalendar} />
                                                   <div class="">　2020. 06.</div>
                                               </li>
                                               </ul>
                                           </div>
                                       </div>
                                   </div>
-                              </a>
+                              </NavLink>
                           </div>
                       </div>
                   </div>
