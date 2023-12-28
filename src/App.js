@@ -1,10 +1,6 @@
 import footerimg from './images/footerimg.png';
 import video from './images/video/usfree_creative.mp4';
-import Home from './component/Home';
-import Project from './component/Project';
-import Profile from './component/Profile';
-import Pacman from "./component/Project/Pacman";
-import Ironman from "./component/Project/Ironman";
+
 
 import './App.css';
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
@@ -61,13 +57,7 @@ function App() {
         </div>
       </nav>
     </div>
-      <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route exact path="/Profile" element={<Profile/>}/>
-        <Route exact path="/project" element={<Project/>}/>
-        <Route exact path="/project/pacman" element={<Pacman/>}/>
-        <Route exact path="/project/ironman" element={<Ironman/>}/>
-      </Routes>
+
 
       <div id="normalfooter" class="bg-dark py-4 mt-auto">
             <div class="container-full px-4 text-only-white font-3">
