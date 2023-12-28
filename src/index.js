@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
+import {BrowserRouter, Route, Routes, Link, NavLink, HashRouter} from 'react-router-dom';
 import ScrollToTop from "./component/ScrollToTop";
 
 import Home from './component/Home';
@@ -16,7 +16,7 @@ import Ironman from "./component/Project/Ironman";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="https://usfree.site">
+    <HashRouter>
       <ScrollToTop /> 
       <Routes>
         <Route exact path="/" element={<Home/>}/>
@@ -26,8 +26,7 @@ root.render(
         <Route path="/project/ironman" element={<Ironman/>}/>
       </Routes>
       <App />
-
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
