@@ -23,7 +23,7 @@ class Tech extends Component {
                               </div>
                               <div class="col-auto mb-2">
                                   <div class="fs-3 fw-bolder fw-opacity"><FontAwesomeIcon icon={faReact}/> React</div>
-                                  <div class="fw-light2 fs-7 mb-2 highlight">DOM의 구조를 알고 컴포넌트를 활용하여 프론트 웹페이지를 제작할 수 있습니다.</div>
+                                  <div class="fw-light2 fs-7 mb-2 highlight">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다.</div>
                               </div>
                               <div class="col-auto mb-2">
                                   <div class="fs-3 fw-bolder fw-opacity"><FontAwesomeIcon icon={faGamepad}/> UnrealEngine</div>

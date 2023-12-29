@@ -36,7 +36,7 @@ class Credit extends Component {
 
                                             <br/><br/><br/>
                                             [2023. 12. 28 ~ 29.]
-                                            <br/>- react를 사용하여 DOM구조로 웹페이지 이식
+                                            <br/>- react를 사용하여 SPA구조로 웹페이지 이식
                                         </div>
                                     </div>
                                 </div>
