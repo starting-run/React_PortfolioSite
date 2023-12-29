@@ -20,7 +20,7 @@ class Home extends Component {
                     <div class="w-100">
                         <div class="scr-down font-7 fw-light2">
                             <div class="main__action text-center">
-                            <HashLink smooth to="#intro" class="main__scroll">
+                            <HashLink smooth to="#intro" className="main__scroll">
                                 <div class="main__scroll-box">
                                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0 0h24v24H0z" fill="none"></path>
