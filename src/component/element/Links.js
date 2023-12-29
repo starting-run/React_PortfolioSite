@@ -14,14 +14,12 @@ class Links extends Component {
             <div class="container px-4 my-2 mt-10">
                 <div class="mb-5">
                     <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">LINK</span></h1>
-                    <div class=""><span class="fw-bolder">　</span></div>
+                    <div class=""><span class="fw-lighter">유용하게 사용되는 링크 모음</span></div>
                 </div>
             </div>
             <div class="bg-white">
                 <div class="container px-4 mt-5">
                     <div class="py-5  px-md-5">
-                        <div class="mb-5">
-                        </div>
                         <div class="card shadow border-0 rounded-2 mb-5">
                             <div class="card-body p-5">
                                 <div class="row align-items-center gx-5 mb-3">
