@@ -17,11 +17,15 @@ import img8 from '../../images/Unity/8.png';
 import img9 from '../../images/Unity/9.png';
 import video1 from '../../images/Unity/Unity_Snake.mp4'
 import pdf1 from '../../images/Unity/Unity_Snake.pdf';
+import { Helmet } from 'react-helmet';
 
 class Snake extends Component {
     render() {
       return (
         <div>
+            <Helmet>
+                <title>스네이크 - 프로젝트 - USFREE</title>
+            </Helmet>
             <div id="projectmain">
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">

@@ -2,11 +2,15 @@ import { faBlogger, faGithub, faGoogleDrive, faInstagram } from '@fortawesome/fr
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChalkboardUser, faChartSimple, faCode, faGraduationCap, faInbox, faNoteSticky, faServer } from '@fortawesome/free-solid-svg-icons';
+import { Helmet } from 'react-helmet';
 
 class Links extends Component {
     render() {
       return (
         <div>
+            <Helmet>
+                <title>링크 - USFREE</title>
+            </Helmet>
             <div class="container px-4 my-2 mt-10">
                 <div class="mb-5">
                     <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">LINK</span></h1>

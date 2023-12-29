@@ -8,12 +8,16 @@ import Edu from './Profile/Edu';
 import Exp from './Profile/Exp';
 import Cert from './Profile/Cert';
 import Tech from './Profile/Tech';
+import { Helmet } from 'react-helmet';
 
 
 class Profile extends Component {
     render() {
       return (
         <div>
+        <Helmet>
+            <title>프로필 - USFREE</title>
+        </Helmet>
         <div id="main">
             <div id="main bg-dark">
                 <div class="character-top bg-wh h-auto">

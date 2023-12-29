@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 class Credit extends Component {
     render() {
       return (
         <div>
+            <Helmet>
+                <title>크레딧 - USFREE</title>
+            </Helmet>
             <div class="bg-white">
                 <div class="container px-4">
                     <div class="row gx-5 justify-content-center">

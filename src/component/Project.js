@@ -10,6 +10,7 @@ import { faArrowUpRightFromSquare, faLayerGroup } from "@fortawesome/free-solid-
 import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 let city, country;
 
@@ -34,6 +35,9 @@ class Project extends Component {
     render() {
       return (
         <div>
+        <Helmet>
+            <title>프로젝트 - USFREE</title>
+        </Helmet>
         <section class="project-2">
       <div class="e-card playing p-0 mb-5">
           <img class="bg-video-prj" src={Promotionsection}></img>

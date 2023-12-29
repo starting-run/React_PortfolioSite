@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 let code1 = `void CreateMap() {
     cols = width / gridSize;
@@ -134,6 +135,9 @@ class Pacman extends Component {
     render() {
       return (
         <div>
+            <Helmet>
+                <title>팩맨 - 프로젝트 - USFREE</title>
+            </Helmet>
             <div id="projectmain">
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">

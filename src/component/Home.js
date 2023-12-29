@@ -6,12 +6,15 @@ import main_labs_btn from "../images/maple.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from 'react-router-hash-link';
+import { Helmet } from 'react-helmet';
 
 class Home extends Component {
     render() {
       return (
-
         <div id="main">
+        <Helmet>
+            <title>USFREE | Woohyun Cho</title>
+        </Helmet>
         <div class="wraps">
             <div class="section">
                     <div class="w-100">

@@ -11,11 +11,15 @@ import img2 from '../../images/OpenGL/2.png';
 import img3 from '../../images/OpenGL/3.png';
 import img4 from '../../images/OpenGL/4.png';
 import img5 from '../../images/OpenGL/5.png';
+import { Helmet } from 'react-helmet';
 
 class Ironman extends Component {
     render() {
       return (
         <div>
+            <Helmet>
+                <title>아이언맨 - 프로젝트 - USFREE</title>
+            </Helmet>
             <div id="projectmain">
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">
