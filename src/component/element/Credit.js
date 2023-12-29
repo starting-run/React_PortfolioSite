@@ -18,7 +18,7 @@ class Credit extends Component {
                                         <div class="p-5 proj_text w-100">
                                             <div class="font-3 fs-4 mb-5">USFREE 웹사이트 개발 내역</div>
                                             [2023. 10. ~ 2023. 12.]
-                                            <br/>- ajax load를 활용하여 화면 깜빡이지 않게 페이지 이동 구현
+                                            <br/>- ajax load를 활용하여 비동기 웹페이지 구현
                                             <br/>- ajax load로 인해 뒤로가기 / 새로고침이 native로 동작하지 않으므로, hash값을 사용하여 처리
                                             <br/>- 메인화면에서 로딩 후 navbar size 자연스럽게 늘어나게 표현
                                             <br/>- 모바일 / 태블릿 / PC에 따라 다른 navbar UI 적용
@@ -35,8 +35,8 @@ class Credit extends Component {
                                             <br/>- 스크롤시 navbar 영역 불투명화
 
                                             <br/><br/><br/>
-                                            [2023. 12. 28.]
-                                            <br/>- react로 이식
+                                            [2023. 12. 28 ~ 29.]
+                                            <br/>- react를 사용하여 DOM구조로 웹페이지 이식
                                         </div>
                                     </div>
                                 </div>
