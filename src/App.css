@@ -1344,6 +1344,8 @@ small, .small {
   color: rgba(var(--bs-black-rgb), 0.5);
 }
 
+
+
 .small-nodarkmode {
   font-size: 0.875em;
 }

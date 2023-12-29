@@ -20,10 +20,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HashRouter>
-      <ScrollToTop /> 
+      <ScrollToTop />
       <Routes>
-        <Route exact path="/" element={<Home/>}/>
         <Route path="/profile/*" element={<Profile/>}/>
+        <Route exact path="/" element={<Home/>}/>
         <Route path="/project" element={<Project/>}/>
         <Route path="/project/pacman" element={<Pacman/>}/>
         <Route path="/project/ironman" element={<Ironman/>}/>
