@@ -11,7 +11,7 @@ class Credit extends Component {
               <div class="container px-4 my-2 mt-10">
                   <div class="mb-5">
                       <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">CREDIT</span></h1>
-                      <div class=""><span class="fw-lighter">USFREE 웹사이트 개발 내역</span></div>
+                      <div class=""><span class="fw-light2 font-3">USFREE 웹사이트 개발 내역</span></div>
                   </div>
               </div>
               <div class="bg-white">
