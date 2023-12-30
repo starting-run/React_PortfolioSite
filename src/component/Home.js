@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import main_profile_btn from "../images/profile/edu.jpg";
 import main_project_btn from "../images/projects/2.png";
 import main_labs_btn from "../images/maple.png";
+import main_blog_btn from "../images/main/card1.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from 'react-router-hash-link';
@@ -90,11 +91,11 @@ class Home extends Component {
                                     </div>
                                     <div class="col">
                                         <div class="card card-cover-main h-100 overflow-hidden border-0">
-                                            <img class="card-image" src={main_labs_btn}></img>
+                                            <img class="card-image" src={main_blog_btn}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
-                                                <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">실험실</span>
-                                                <span class="mb-5 fs-7 lh-1 fw-bold font-3">Labs</span>
-                                                <a href="https://usfree.site/labs">
+                                                <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">블로그</span>
+                                                <span class="mb-5 fs-7 lh-1 fw-bold font-3">Blog</span>
+                                                <a href="https://velog.io/@usfree">
                                                     <span class="fs-7 lh-1 fw-bold font-3 pt-3 main-btn">바로가기 <FontAwesomeIcon icon={faChevronRight} /></span>
                                                 </a>
                                             </div>

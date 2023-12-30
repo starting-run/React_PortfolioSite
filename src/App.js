@@ -57,7 +57,7 @@ function acorClose() {
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-letter-space fs-fr">
                   <NavLink exact to="/profile" className="nav-link" onClick={acorClose}><li class="nav-item navmargin">Profile</li></NavLink>
                   <NavLink exact to="/project" className="nav-link" onClick={acorClose}><li class="nav-item navmargin">Project</li></NavLink>
-                  <a class="nav-link" href="https://usfree.site/blog" onClick={acorClose}><li class="nav-item navmargin">Blog</li></a>
+                  <a class="nav-link" href="https://velog.io/@usfree" onClick={acorClose}><li class="nav-item navmargin">Blog</li></a>
                   <a class="nav-link" href="https://github.com/usfree" target='_blank' onClick={acorClose}><li class="nav-item navmargin">Github</li></a>
                 </ul>
             </div>
@@ -70,7 +70,7 @@ function acorClose() {
             <div class="container-full px-4 text-only-white font-3">
                 <div class="text-end">
                     <a class="text-only-white" href="https://github.com/usfree"><FontAwesomeIcon icon={faGithub} /></a>　
-                    <a class="text-only-white" href="https://usfree.site/blog"><FontAwesomeIcon icon={faBlogger} /></a>　
+                    <a class="text-only-white" href="https://velog.io/@usfree"><FontAwesomeIcon icon={faBlogger} /></a>　
                     <a class="text-only-white" href="https://solved.ac/profile/tlrmsjtm77"><FontAwesomeIcon icon={faCode} /></a>　
                     <a class="text-only-white" href="https://codeforces.com/profile/tlrmsjtm77"><FontAwesomeIcon icon={faChartSimple} /></a>
                 </div>
