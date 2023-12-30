@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5b41f47c.css",
-    "main.js": "/static/js/main.a80790a1.js",
+    "main.js": "/static/js/main.de5efc30.js",
     "static/js/787.1de3eb55.chunk.js": "/static/js/787.1de3eb55.chunk.js",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/usfree_creative.mp4": "/static/media/usfree_creative.2ceebca339545d6729c3.mp4",
@@ -22,6 +22,7 @@
     "static/media/9.png": "/static/media/9.c1d168d33381825ccc1c.png",
     "static/media/5.png": "/static/media/5.930dc7e179722c12bcea.png",
     "static/media/3.png": "/static/media/3.2386420f76d9f312e579.png",
+    "static/media/card1.jpeg": "/static/media/card1.65c683ae17b1eea44215.jpeg",
     "static/media/pacman.jpg": "/static/media/pacman.33e0ce6845eef5d51ae3.jpg",
     "static/media/6.png": "/static/media/6.aaddd106aeb4dc1bcb6c.png",
     "static/media/footerimg.png": "/static/media/footerimg.ab83ee45a66418c9f283.png",
@@ -29,11 +30,11 @@
     "static/media/logo_sq.png": "/static/media/logo_sq.9e98aabc5fbcd40c68a3.png",
     "index.html": "/index.html",
     "main.5b41f47c.css.map": "/static/css/main.5b41f47c.css.map",
-    "main.a80790a1.js.map": "/static/js/main.a80790a1.js.map",
+    "main.de5efc30.js.map": "/static/js/main.de5efc30.js.map",
     "787.1de3eb55.chunk.js.map": "/static/js/787.1de3eb55.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b41f47c.css",
-    "static/js/main.a80790a1.js"
+    "static/js/main.de5efc30.js"
   ]
 }
