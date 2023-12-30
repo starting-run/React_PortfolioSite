@@ -13,8 +13,6 @@ import { faBlogger } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
 
-let city, country;
-
 function App() {
   $(document).scroll(function() {
     var scroll = $(document).scrollTop();
@@ -31,18 +29,8 @@ function acorClose() {
       $("input:checkbox[id='hbg']").prop("checked", false);
   }
 }
-window.onload = function() {
-  $('#load').fadeOut('slow');
-}
   return (
     <div className="App">
-        <div class= "load" id="load">
-            <div class="loader">
-                <svg viewBox="25 25 50 50" class="loadings">
-                    <circle r="20" cy="50" cx="50"></circle>
-                </svg>
-            </div>
-        </div>
   <div>
     <div class="bg-video">
       <video class="bg-video__content" autoPlay muted loop>
