@@ -16,20 +16,9 @@ import Credit from './component/element/Credit';
 import Links from './component/element/Links';
 import Snake from './component/Project/Snake';
 
-import $ from 'jquery';
-window.onload = function() {
-  $('#load').fadeOut('slow');
-}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-        <div class= "load" id="load">
-            <div class="loader">
-                <svg viewBox="25 25 50 50" class="loadings">
-                    <circle r="20" cy="50" cx="50"></circle>
-                </svg>
-            </div>
-        </div>
     <HashRouter>
       <ScrollToTop />
       <Routes>
