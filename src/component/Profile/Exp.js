@@ -17,7 +17,7 @@ class Exp extends Component {
                                   <div class="fw-light2 fs-7">Inovation Academy</div>
                                   <div class="fw-light2 fs-7 mb-3 highlight">2023. 07. 17. - 08. 11.</div>
                                   <div class="fw-light2 fs-7">
-                                      <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="https://usfree.site/blog/posts/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0/" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
+                                      <a class="btn btn-primary-round px-4 py-2 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
                                   </div>
                               </div>
                           </div>
