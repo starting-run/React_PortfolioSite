@@ -15,11 +15,13 @@ import Ironman from "./component/Project/Ironman";
 import Credit from './component/element/Credit';
 import Links from './component/element/Links';
 import Snake from './component/Project/Snake';
+import ToTopButton from './component/ToTopButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HashRouter>
+      <ToTopButton />
       <ScrollToTop />
       <Routes>
         <Route path="/profile/*" element={<Profile/>}/>

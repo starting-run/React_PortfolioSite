@@ -23,6 +23,11 @@ function App() {
     }
 });
 
+const MoveToTop = () => {
+  // top:0 >> 맨위로  behavior:smooth >> 부드럽게 이동할수 있게 설정하는 속성
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
 function acorClose() {
   if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
       $(".navbar-toggler").trigger("click");
@@ -62,7 +67,11 @@ function acorClose() {
       </nav>
     </div>
 
-
+    <div id="topbtn" class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" onClick={MoveToTop}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style={{fill: "rgba(0, 0, 0, 1)"}}><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
+            </a>
+        </div>
       <div id="normalfooter" class="bg-dark py-4 mt-auto">
             <div class="container-full px-4 text-only-white font-3">
                 <div class="text-end">
