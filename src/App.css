@@ -5807,6 +5807,8 @@ textarea.form-control-lg {
   background-position: center center;
   background-size: cover;
   background-color: var(--bs-card-bg);
+  color: var(--bs-black);
+  transition: all 0.3s;
 }
 
 .card-cover-main:hover {
