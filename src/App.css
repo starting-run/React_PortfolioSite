@@ -517,6 +517,7 @@ body[data-darkmode=on] .darkmode > .inner{
 .scroll-navbar-background {
   background: rgba(var(--bs-white-rgb), 0.9);
   transition: all 1s;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
 }
 
 
@@ -689,10 +690,10 @@ li {
 /* 모바일X PC크기에서만 작동하는 영역*/
 @media (min-width: 992px) {
   .navbar:hover {
-    -webkit-backdrop-filter: blur(30px);  /*For Safari */
+    -webkit-backdrop-filter: blur(20px);  /*For Safari */
     background-color: rgba(var(--bs-black-rgb), 0.05);
-    backdrop-filter: blur(30px);
-    box-shadow: 0px 15px 10px rgba(0,0,0,0.1);
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
     transition: all 0.5s;
   }
 /*
