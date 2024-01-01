@@ -59,7 +59,7 @@ function acorClose() {
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-letter-space fs-fr">
                   <NavLink exact to="/profile" className="nav-link" onClick={acorClose}><li class="nav-item navmargin">Profile</li></NavLink>
                   <NavLink exact to="/project" className="nav-link" onClick={acorClose}><li class="nav-item navmargin">Project</li></NavLink>
-                  <a class="nav-link" href="https://velog.io/@usfree" onClick={acorClose}><li class="nav-item navmargin">Blog</li></a>
+                  <a class="nav-link" href="https://velog.io/@usfree" target='_blank' onClick={acorClose}><li class="nav-item navmargin">Blog</li></a>
                   <a class="nav-link" href="https://github.com/usfree" target='_blank' onClick={acorClose}><li class="nav-item navmargin">Github</li></a>
                 </ul>
             </div>

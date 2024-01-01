@@ -6,7 +6,7 @@ import main_labs_btn from "../images/maple.png";
 import main_blog_btn from "../images/main/card1.jpeg";
 import main_github_btn from "../images/main/gitback.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from 'react-router-hash-link';
 import { Helmet } from 'react-helmet';
 
@@ -66,54 +66,62 @@ class Home extends Component {
                         <div class="row justify-content-center">
                             <div class="mb-5">
                                 <div class="row row-cols-2 row-cols-xxl-4 g-4 cards">
-                                    <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden border-0">
-                                            <img class="card-image" src={main_profile_btn}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
-                                                <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">프로필</span>
-                                                <span class="mb-5 fs-7 lh-1 fw-bold font-3">Profile</span>
-                                                <NavLink to="/profile" id="profiles2">
-                                                    <span class="fs-7 lh-1 fw-bold font-3 pt-3 main-btn">바로가기 <FontAwesomeIcon icon={faChevronRight} /></span>
-                                                </NavLink>
+                                    <NavLink to="/profile" id="profiles2">
+                                        <div class="img-fluid">
+                                            <div class="col">
+                                                <div class="card card-cover-main h-100 overflow-hidden border-0">
+                                                    <img class="card-image" src={main_profile_btn}></img>
+                                                    <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
+                                                        <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">프로필</span>
+                                                        <span class="mb-5 fs-7 lh-1 fw-bold font-3">Profile</span>
+                                                        <span class="fs-7 lh-1 fw-bold font-3 pt-3 main-btn">바로가기 <FontAwesomeIcon icon={faChevronRight} /></span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden border-0">
-                                            <img class="card-image" src={main_project_btn}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
-                                                <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3">프로젝트</span>
-                                                <span class="mb-5 fs-7 lh-1 fw-bold font-3">Project</span>
-                                                <NavLink to="/project" id="project2">
-                                                    <span class="fs-7 lh-1 fw-bold font-3 pt-3 main-btn">바로가기 <FontAwesomeIcon icon={faChevronRight} /></span>
-                                                </NavLink>
+                                    </NavLink>
+                                    <NavLink to="/project" id="project2">
+                                        <div class="img-fluid">
+                                            <div class="col">
+                                                <div class="card card-cover-main h-100 overflow-hidden border-0">
+                                                    <img class="card-image" src={main_project_btn}></img>
+                                                    <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
+                                                        <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3">프로젝트</span>
+                                                        <span class="mb-5 fs-7 lh-1 fw-bold font-3">Project</span>
+                                                        <span class="fs-7 lh-1 fw-bold font-3 pt-3 main-btn">바로가기 <FontAwesomeIcon icon={faChevronRight} /></span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden border-0">
-                                            <img class="card-image" src={main_blog_btn}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
-                                                <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">블로그</span>
-                                                <span class="mb-5 fs-7 lh-1 fw-bold font-3">Blog</span>
-                                                <a href="https://velog.io/@usfree">
-                                                    <span class="fs-7 lh-1 fw-bold font-3 pt-3 main-btn">바로가기 <FontAwesomeIcon icon={faChevronRight} /></span>
-                                                </a>
+                                    </NavLink>
+                                    <a href="https://velog.io/@usfree" target='_blank'>
+                                        <div class="img-fluid">
+                                            <div class="col">
+                                                <div class="card card-cover-main h-100 overflow-hidden border-0">
+                                                    <img class="card-image" src={main_blog_btn}></img>
+                                                    <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
+                                                        <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">블로그</span>
+                                                        <span class="mb-5 fs-7 lh-1 fw-bold font-3">Blog</span>
+                                                        <span class="fs-7 lh-1 fw-bold font-3 pt-3 main-btn">바로가기 <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden border-0">
-                                            <img class="card-image" src={main_github_btn}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
-                                                <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">깃허브</span>
-                                                <span class="mb-5 fs-7 lh-1 fw-bold font-3">Github</span>
-                                                <a href="https://github.com/usfree">
-                                                    <span class="fs-7 lh-1 fw-bold font-3 pt-3 main-btn">바로가기 <FontAwesomeIcon icon={faChevronRight} /></span>
-                                                </a>
+                                    </a>
+                                    <a href="https://github.com/usfree" target='_blank'>
+                                        <div class="img-fluid">
+                                            <div class="col">
+                                                <div class="card card-cover-main h-100 overflow-hidden border-0">
+                                                    <img class="card-image" src={main_github_btn}></img>
+                                                    <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
+                                                        <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">깃허브</span>
+                                                        <span class="mb-5 fs-7 lh-1 fw-bold font-3">Github</span>
+                                                        <span class="fs-7 lh-1 fw-bold font-3 pt-3 main-btn">바로가기 <FontAwesomeIcon icon={faArrowUpRightFromSquare} /></span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
