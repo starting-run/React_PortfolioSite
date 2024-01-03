@@ -55,7 +55,7 @@ class Project extends Component {
           <div class="container-xxl px-4 mt-0 mb-5">
               
               <div class="row align-items-center justify-content-between mt-3 mb-4">
-                  <div class="col-auto fs-3 fw-bold font-3">프로젝트　
+                  <div class="col-auto fs-3 fw-bold font-3 text-black">프로젝트　
                       <a href="https://github.com/usfree?tab=stars" target='_blank'>
                           <span class="prj-sub fs-6 fw-light font-4"><FontAwesomeIcon icon={faGithub} /> 깃허브에서 모아보기 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                           </span>

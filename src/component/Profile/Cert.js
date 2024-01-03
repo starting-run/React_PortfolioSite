@@ -10,7 +10,7 @@ class Cert extends Component {
                 <div class="container-xxl px-5">
                     <div class="col-auto font-3">
                         <div class="d-flex flex-column pb-3 card-overtext">
-                        <div class="mb-5">보유중인 자격증 목록입니다.</div>
+                        <div class="mb-5 text-black">보유중인 자격증 목록입니다.</div>
                           <div class="row row-cols-lg-2 mb-2">
                               <div class="col-auto mb-2">
                                   <div class="fs-3 fw-bolder fw-opacity">웹디자인기능사</div>

@@ -24,7 +24,7 @@ class Ironman extends Component {
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">
                         <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">IRONMAN</span></h1>
-                        <div class=""><span class="fw-bolder">OpenGL　2021. 06.</span></div>
+                        <div class="text-black"><span class="fw-bolder">OpenGL　2021. 06.</span></div>
                     </div>
                 </div>
                 <div class="bg-white">
@@ -38,7 +38,7 @@ class Ironman extends Component {
                                 <div class="card shadow rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
-                                            <div class="p-5 proj_text w-100">
+                                            <div class="p-5 proj_text w-100 text-black">
                                                 <h3><b>CubeMap</b></h3>
                                                 <img class="mb-2" src={img1} width="402pixel" height="252pixel"></img><br/>
                                                 <p class="mb-4">큐브맵을 제작하기 위해 기존에 있던 이미지에서 정육각형 모양대로 어색하지 않게 잘라내어 별도 파일로 삽입하였습니다.</p>

@@ -11,14 +11,14 @@ class Credit extends Component {
               <div class="container px-4 my-2 mt-10">
                   <div class="mb-5">
                       <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">CREDIT</span></h1>
-                      <div class=""><span class="fw-light2 font-3">USFREE 웹사이트 개발 내역</span></div>
+                      <div class=""><span class="fw-light2 font-3 text-black">USFREE 웹사이트 개발 내역</span></div>
                   </div>
               </div>
               <div class="bg-white">
                   <div class="container px-4 mt-5">
                       <div class="py-5  px-md-5">
                           <div class="card shadow border-0 rounded-2 mb-5">
-                              <div class="card-body p-5">
+                              <div class="card-body p-5 text-black">
                                 [2023. 10. ~ 2023. 12.]
                                 <br/>- ajax load를 활용하여 비동기 웹페이지 구현
                                 <br/>- ajax load로 인해 뒤로가기 / 새로고침이 native로 동작하지 않으므로, hash값을 사용하여 처리

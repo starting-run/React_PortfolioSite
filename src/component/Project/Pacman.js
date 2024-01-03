@@ -142,7 +142,7 @@ class Pacman extends Component {
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">
                         <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">PACMAN</span></h1>
-                        <div class=""><span class="fw-bolder">Processing　</span>2023. 10.</div>
+                        <div class="text-black"><span class="fw-bolder">Processing　</span>2023. 10.</div>
                     </div>
                 </div>
                 <div class="bg-white">
@@ -156,7 +156,7 @@ class Pacman extends Component {
                                 <div class="card shadow rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
-                                            <div class="p-5 proj_text  w-100">
+                                            <div class="p-5 proj_text  w-100 text-black">
                                                 <h3><b>Map Create</b></h3>
                                                 <div class="code mb-2">{code1}</div>
                                                 <p class="mb-5">Item 객체입니다. Item은 매 판당 1번만 생성되며, 아이템을 획득하면 오른쪽 아래에 박제됩니다.

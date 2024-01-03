@@ -48,7 +48,7 @@ class Home extends Component {
                                         </div>
                                         <div class="row row-half justify-content-center font-3">
     
-                                            <div class="card h-100 overflow-hidden border-0 rounded-2 pt-2 card-blur">
+                                            <div class="card h-100 overflow-hidden border-0 rounded-2 pt-2 card-blur text-black">
                                                 <div class="fs-6 mb-1 font-3"><b>조우현</b></div>
                                                 <div class="fw-light2 mb-1 fs-6 font-3">게임 클라이언트 프로그래머</div>
                                                 <div class="fw-light2 fs-6 mb-3 font-3"><a href="https://sae.kangnam.ac.kr/">강남대학교 ICT공학부</a> 재학(2019 - )</div>

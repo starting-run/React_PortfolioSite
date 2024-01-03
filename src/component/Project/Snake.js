@@ -30,7 +30,7 @@ class Snake extends Component {
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">
                         <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">SNAKE</span></h1>
-                        <div class=""><span class="fw-bolder">Unity　</span>2020. 06.</div>
+                        <div class="text-black"><span class="fw-bolder">Unity　</span>2020. 06.</div>
                     </div>
                 </div>
                 <div class="bg-white">
@@ -44,7 +44,7 @@ class Snake extends Component {
                                 <div class="card shadow rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
-                                            <div class="p-5 proj_text w-100">
+                                            <div class="p-5 proj_text w-100 text-black">
                                                 <h3><b>Normal Map</b></h3>
                                                 <img class="mb-2" src={img1}/><br/>
                                                 <p class="mb-5">맵 제작에서 Normal Map을 이용하여 입체감 구현</p>

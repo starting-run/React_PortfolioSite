@@ -10,9 +10,9 @@ class Exp extends Component {
                 <div class="container-xxl px-5">
                     <div class="col-auto font-3">
                         <div class="d-flex flex-column pb-3 card-overtext">
-                        <div class="mb-5">실력향상과, 배움의 폭 향상 &middot; 개발자 네트워킹 등을 위해 여러가지 경험을 하고 있습니다.<br/>좋은 기회를 얻기 위해 다분히 노력중입니다.</div>
+                        <div class="mb-5 text-black">실력향상과, 배움의 폭 향상 &middot; 개발자 네트워킹 등을 위해 여러가지 경험을 하고 있습니다.<br/>좋은 기회를 얻기 위해 다분히 노력중입니다.</div>
                           <div class="row row-cols-lg-2 mb-5">
-                              <div class="col">
+                              <div class="col text-black">
                                   <div class="fs-3 fw-bolder fw-opacity">42Seoul LaPiscine</div>
                                   <div class="fw-light2 fs-7">Inovation Academy</div>
                                   <div class="fw-light2 fs-7 mb-3 highlight">2023. 07. 17. - 08. 11.</div>

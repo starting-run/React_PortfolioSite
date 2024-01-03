@@ -11,7 +11,7 @@ class Tech extends Component {
                 <div class="container-xxl px-5">
                     <div class="col-auto font-3">
                         <div class="d-flex flex-column pb-3 card-overtext">
-                        <div class="mb-5">보유중인 기술스택 목록입니다.<br/>이 외에도 다양한 기술을 습득하고자 노력하고 있습니다.</div>
+                        <div class="mb-5 text-black">보유중인 기술스택 목록입니다.<br/>이 외에도 다양한 기술을 습득하고자 노력하고 있습니다.</div>
                           <div class="row row-cols-lg-2 mb-2">
                               <div class="col-auto mb-2">
                                   <div class="fs-3 fw-bolder fw-opacity"><FontAwesomeIcon icon={faCode}/> C / C++</div>
