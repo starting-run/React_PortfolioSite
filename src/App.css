@@ -1741,12 +1741,11 @@ progress {
   background-color: var(--bs-dark);
   border-bottom: 1px solid var(--bs-black);
   overflow: hidden;
-  cursor: pointer;
   margin-right: 13px;
 }
 
 .input {
-  width: 200px;
+  width: 230px;
   height: 100%;
   border: none;
   outline: none;
@@ -1757,11 +1756,11 @@ progress {
 }
 
 .labelforsearch {
-  cursor: text;
-  padding: 0px 12px;
+  padding: 0px 0px;
 }
 
 .searchIcon {
+  cursor: pointer;
   width: 13px;
 }
 
@@ -1790,15 +1789,6 @@ progress {
 
 .searchIcon:hover path {
   fill: #FC8574;
-}
-
-.micIcon path {
-  fill: rgb(255, 81, 0);
-}
-
-.micButton:hover {
-  background-color: rgb(255, 230, 230);
-  transition-duration: .3s;
 }
 
 .img-fluid {
