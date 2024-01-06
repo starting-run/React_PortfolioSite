@@ -578,6 +578,10 @@ body[data-darkmode=on] .darkmode > .inner{
   position: relative;
 }
 
+.character_image {
+  width: 100px;
+}
+
 .dfdf {
   top : -100px;
 }

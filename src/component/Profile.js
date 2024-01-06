@@ -24,51 +24,50 @@ class Profile extends Component {
                     <div id="class_back" class="bg-info-back"></div>
                 <div class="container-xxl pt-7">
                     <div class="row justify-content-center font-3 pb-5">
-                        <div class="col-auto">
-                            <div class="character_image"><img src={profileimg} style={{width:"130px"}}/></div>
-                        </div>
-                        <div class="col-auto pt-2 mb-5 px-5">
-                            <div class="mt-2 mb-2"><div class="btn btn-primary-round-outline pt-0"><span class="fs-7 font-3">USFREE</span></div></div>
-                            <div class="mb-0"><span class="fs-2 font-3 fw-bolder">조우현</span></div>
-                            <div class="font-3 fs-7 fw-bold">Woohyun Cho</div>
-                            <div class="">
-        
+                        <div class="row row-cols-2 justify-content-center font-3 mb-5">
+                            <div class="col-auto px-5">
+                                <div class="character_image"><img src={profileimg}/></div>
+                            </div>
+                            <div class="col-auto px-5">
+                                <div class="mt-2"><div class="btn btn-primary-round-outline pt-0"><span class="fs-7 font-3">USFREE</span></div></div>
+                                <div class="mb-0"><span class="fs-2 font-3 fw-bolder">조우현</span></div>
+                                <div class="font-3 fs-7 fw-bold">Woohyun Cho</div>
                             </div>
                         </div>
-                        <div class="row row-cols-1 row-cols-lg-5  justify-content-center font-3 mb-5">
+                        <div class="row row-cols-2 row-cols-lg-5  justify-content-center font-3 mb-5">
                             <div class="col p-2">
-                                <div class="border-0 rounded-2 card-blur-info m-2">
-                                    <div class="p-4">
+                                <div class="border-0 rounded-2 card-blur-info">
+                                    <div class="p-3">
                                         <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faCakeCandles}/></span>
                                         <div class="mt-3 fs-3 fw-bolder no_enter text-infopage"><span class="union_level"></span></div>
-                                        <div class="fs-6 fw-light2 text-infopage">1999. 07. 23.</div>
+                                        <div class="fs-7 fw-light2 text-infopage">1999. 07. 23.</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col p-2">
-                                <div class="border-0 rounded-2 card-blur-info m-2">
-                                    <div class="p-4">
+                                <div class="border-0 rounded-2 card-blur-info">
+                                    <div class="p-3">
                                         <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faEnvelopeOpenText}/></span>
                                         <div class="mt-3 fs-3 fw-bolder text-infopage"><span class="dojang_best_floor"></span></div>
-                                        <div class="fs-6 fw-light2 text-infopage"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">ploris576@kangnam.ac.kr</a></div>
+                                        <div class="fs-7 fw-light2 text-infopage"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">ploris576@kangnam.ac.kr</a></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col p-2">
-                                <div class="border-0 rounded-2 card-blur-info m-2">
-                                    <div class="p-4">
+                                <div class="border-0 rounded-2 card-blur-info">
+                                    <div class="p-3">
                                         <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faLocationDot}/></span>
                                         <div class="mt-3 fs-3 fw-bolder text-infopage"><span class="theseed_floor"></span></div>
-                                        <div class="fs-6 fw-light2 text-infopage">Mapo-gu, Seoul</div>
+                                        <div class="fs-7 fw-light2 text-infopage">Mapo-gu, Seoul</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col p-2">
-                                <div class="border-0 rounded-2 card-blur-info m-2">
-                                    <div class="p-4">
+                                <div class="border-0 rounded-2 card-blur-info">
+                                    <div class="p-3">
                                         <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faChartSimple}/></span>
                                         <div class="mt-3 fs-3 fw-bolder text-infopage"><span class="trophy_score"></span></div>
-                                        <div class="fs-6 fw-light2 text-infopage"><a href="https://solved.ac/profile/tlrmsjtm77">BOJ / tlrmsjtm77</a></div>
+                                        <div class="fs-7 fw-light2 text-infopage"><a href="https://solved.ac/profile/tlrmsjtm77">BOJ / tlrmsjtm77</a></div>
                                     </div>
                                 </div>
                             </div>
