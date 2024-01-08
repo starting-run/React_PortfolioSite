@@ -36,9 +36,14 @@ class Credit extends Component {
                                 <br/>- 기기 설정 외 사용자 설정에 따른 다크모드 토글 구현 (현재 비활성화)
                                 <br/>- 스크롤시 navbar 영역 불투명화
 
-                                <br/><br/><br/>
+                                <br/><br/>
                                 [2023. 12. 28 ~ 29.]
-                                <br/>- react를 사용하여 SPA구조로 웹페이지 이식
+                                <br/>- react를 사용하여 SPA방식 웹페이지 이식
+                                <br/><br/><br/>
+                                <span class="mb-5 display-6 lh-1 fw-bolder">Future</span>
+                                <br/>
+                                <br/>- SSR 방식 웹사이트 구현
+                                <br/>- github page가 아닌 별도 서버를 통해 DB 연동을 통한 native 개발 게시판 구현
                               </div>
                           </div>
                       </div>
