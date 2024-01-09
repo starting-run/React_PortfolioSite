@@ -4,7 +4,7 @@ class Intro extends Component {
     render() {
       return (
         <div>
-            <div class="d-flex flex-column pb-3 card-overtext font-3 px-5">
+            <div class="d-flex flex-column pb-3 card-overtext font-3 px-3">
                 <div class="fw-bolder">
                     <div class="text-black fs-3">More&nbsp;And&nbsp;More <b>CREATIVELY</b></div>
                     <div class="text-black fs-5 mb-5 ">게임클라이언트 프로그래머 <b>조우현</b>입니다.</div>

@@ -7,7 +7,7 @@ class Cert extends Component {
       return (
         <div>
             <div class="d-flex">
-                <div class="container-xxl px-5">
+                <div class="container-xxl px-3">
                     <div class="col-auto font-3">
                         <div class="d-flex flex-column pb-3 card-overtext">
                         <div class="mb-5 text-black">보유중인 자격증 목록입니다.</div>

@@ -7,7 +7,7 @@ class Edu extends Component {
       return (
         <div>
             <div class="d-flex">
-                <div class="container-xxl px-5">
+                <div class="container-xxl px-3">
                     <div class="col-auto font-3">
                         <div class="d-flex flex-column pb-3 card-overtext">
                             <div class="mb-5 text-black">저의 학력사항은 아래와 같습니다.<br/>현재는 강남대학교 ICT공학부를 재학중입니다.</div>

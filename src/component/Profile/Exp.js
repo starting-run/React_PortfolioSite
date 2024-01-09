@@ -7,7 +7,7 @@ class Exp extends Component {
       return (
         <div>
             <div class="d-flex">
-                <div class="container-xxl px-5">
+                <div class="container-xxl px-3">
                     <div class="col-auto font-3">
                         <div class="d-flex flex-column pb-3 card-overtext">
                         <div class="mb-5 text-black">실력향상과, 배움의 폭 향상 &middot; 개발자 네트워킹 등을 위해 여러가지 경험을 하고 있습니다.<br/>좋은 기회를 얻기 위해 다분히 노력중입니다.</div>

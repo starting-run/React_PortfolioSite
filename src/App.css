@@ -623,7 +623,7 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 #statbtn .active {
-  border-bottom: 2px solid #FC8574;
+  border-bottom: 1px solid #FC8574;
   color:#FC8574;
 }
 
