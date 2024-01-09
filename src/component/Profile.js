@@ -80,23 +80,23 @@ class Profile extends Component {
                                     <div class="p-2 proj_text w-100">
                                         <div class="select_btn mb-5">
                                             <div class="row row-cols-3 row-cols-lg-5 justify-content-center font-3"  id="statbtn">
-                                                <NavLink to="/profile" className="contentbtn mb-2" end>
+                                                <NavLink to="/profile" className="contentbtn mb-3" end>
                                                 <div class="col text-center">
                                                     <div class="mb-2">Intro</div>
                                                 </div></NavLink>
-                                                <NavLink to="edu" className="contentbtn mb-2" id="itembtn">
+                                                <NavLink to="edu" className="contentbtn mb-3" id="itembtn">
                                                 <div class="col text-center">
                                                     <div class="mb-2">Education</div>
                                                 </div></NavLink>
-                                                <NavLink to="exp" className="contentbtn mb-2" id="itembtn">
+                                                <NavLink to="exp" className="contentbtn mb-3" id="itembtn">
                                                 <div class="col text-center">
                                                     <div class="mb-2">Experience</div>
                                                 </div></NavLink>
-                                                <NavLink to="cert"  className="contentbtn mb-2" id="itembtn">
+                                                <NavLink to="cert"  className="contentbtn mb-3" id="itembtn">
                                                 <div class="col text-center">
                                                     <div class="mb-2">Certificate</div>
                                                 </div></NavLink>
-                                                <NavLink to="tech"  className="contentbtn mb-2" id="itembtn">
+                                                <NavLink to="tech"  className="contentbtn mb-3" id="itembtn">
                                                 <div class="col text-center">
                                                     <div class="mb-2">TechStack</div>
                                                 </div></NavLink>
