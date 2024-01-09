@@ -72,7 +72,7 @@ class Profile extends Component {
 
                 </div>
             </div> 
-                <div class="bg-dark">
+                <div class="bg-wh">
                     <div class="container-xxl pt-5">
                         <div class="card shadow rounded-2 border-0 bg-white dfdf">
                             <div class="card-body">
