@@ -18,7 +18,7 @@ class Links extends Component {
                 </div>
             </div>
             <div class="bg-white">
-                <div class="container px-4 mt-5">
+                <div class="container px-4 mt-5 font-3">
                     <div class="py-5  px-md-5">
                         <div class="card shadow border-0 rounded-2 mb-5">
                             <div class="card-body p-5">

@@ -18,8 +18,8 @@ class Credit extends Component {
                   <div class="container px-4 mt-5">
                       <div class="py-5  px-md-5">
                           <div class="card shadow border-0 rounded-2 mb-5">
-                              <div class="card-body p-5 text-black">
-                                <span class="fw-bolder text-red code w-100">본 사이트 메인화면에 포함된 동영상 저작권은 PlayStation (BlueTwelve Studio - Stray 게임)에 있습니다.</span>
+                              <div class="card-body p-5 text-black font-3">
+                                <span class="fw-bolder code w-100">본 사이트 메인화면에 포함된 동영상 저작권은 PlayStation (BlueTwelve Studio - Stray 게임)에 있습니다.</span>
                                 <br/><br/><br/>
                                 [2023. 10. ~ 2023. 12.]
                                 <br/>- ajax load를 활용하여 비동기 웹페이지 구현
@@ -42,9 +42,8 @@ class Credit extends Component {
                                 [2023. 12. 28 ~ 29.]
                                 <br/>- react를 사용하여 SPA방식 웹페이지 이식
                                 <br/><br/><br/>
-                                <span class="mb-5 display-6 lh-1 fw-bolder">Future</span>
-                                <br/>
-                                <br/>- SSR 방식 웹사이트 구현
+                                <h3 class="fw-bolder">Future</h3>
+                                - SSR 방식 웹사이트 구현
                                 <br/>- github page가 아닌 별도 서버를 통해 DB 연동을 통한 native 개발 게시판 구현
                                 <br/>- 스크롤 인터랙션 영역 제작
                               </div>
