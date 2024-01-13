@@ -870,6 +870,7 @@ li {
   border-radius: 10px;
   width: 100%;
   white-space: pre-wrap;
+  font-weight: lighter;
 }
 
 
@@ -1932,7 +1933,7 @@ progress {
 }
 
 .proj_text {
-  font-weight: 0;
+  font-weight: light;
   font-family: var(--font-3);
 }
 
