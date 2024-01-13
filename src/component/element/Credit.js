@@ -46,6 +46,7 @@ class Credit extends Component {
                                 <br/>
                                 <br/>- SSR 방식 웹사이트 구현
                                 <br/>- github page가 아닌 별도 서버를 통해 DB 연동을 통한 native 개발 게시판 구현
+                                <br/>- 스크롤 인터랙션 영역 제작
                               </div>
                           </div>
                       </div>
