@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Promotionsection from '../images/projects/snap.jpg';
+import Promotionsection from '../images/projects/snap.webp';
 import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
