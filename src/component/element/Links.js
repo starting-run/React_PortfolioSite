@@ -1,4 +1,4 @@
-import { faBlogger, faGithub, faGoogleDrive, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faBlogger, faGithub, faGoogleDrive, faInstagram, faPagelines } from '@fortawesome/free-brands-svg-icons';
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChalkboardUser, faChartSimple, faCode, faGraduationCap, faInbox, faNoteSticky, faServer } from '@fortawesome/free-solid-svg-icons';
@@ -59,6 +59,7 @@ class Links extends Component {
                                             <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://ecampus.kangnam.ac.kr/"><FontAwesomeIcon icon={faChalkboardUser}/> e-campus</a>
                                             <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://web.kangnam.ac.kr/"><FontAwesomeIcon icon={faGraduationCap}/> 강남대학교</a>
                                             <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://sae.kangnam.ac.kr/"><FontAwesomeIcon icon={faGraduationCap}/> ICT융합공학부</a>
+                                            <a class="btn btn-outline-dark btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mb-2" href="https://www.inflearn.com/"><FontAwesomeIcon icon={faPagelines}/> 인프런</a>
                                         </div>
                                     </div>
                                 </div>
