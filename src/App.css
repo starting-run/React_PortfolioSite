@@ -4497,6 +4497,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: var(--btn-outline-dark);
   --bs-gradient: none;
+  transition: all 0.5s;
 }
 
 .btn-outline-dark-round {
