@@ -870,7 +870,8 @@ li {
   border-radius: 10px;
   width: 100%;
   white-space: pre-wrap;
-  font-weight: lighter;
+  font-weight: light;
+  color: var(--bs-black);
 }
 
 
