@@ -76,7 +76,7 @@ class Project extends Component {
               <div class="row gx-5 justify-content-center">
                   <div class="mb-5">
                       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
-                          <div class="img-fluid">
+                          {/*<div class="img-fluid">
                               <a id="maple" href="https://usfree.site/labs">
                                   <div class="col">
                                       <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black card-border-1">
@@ -98,7 +98,7 @@ class Project extends Component {
                                       </div>
                                   </div>
                               </a>
-                          </div>
+                          </div>*/}
                           <div class="img-fluid">
                               <NavLink to="pacman" id="pacman">
                                   <div class="col">
