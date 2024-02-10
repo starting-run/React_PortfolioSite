@@ -87,6 +87,8 @@ function acorClose() {
                     <div class="mb-3 small"><Link to="/links" className="credit text-only-white">링크</Link></div>
                     <div class="mb-3 smaller text-only-white">　|　</div>
                     <div class="mb-3 small"><a class="credit text-only-white" href="https://usfree.site/labs">실험실</a></div>
+                    <div class="mb-3 smaller text-only-white">　|　</div>
+                    <div class="mb-3 small"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fusfree.site&count_bg=%23FC8574&title_bg=%23212529&icon=&icon_color=%23E7E7E7&title=visit&edge_flat=true"/></div>
                 </div>
                 <div class="col-auto">
                     <div class="smaller m-0 text-only-white"><b>USFREE</b> 조우현

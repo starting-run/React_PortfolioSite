@@ -5126,7 +5126,8 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: var(--bs-nav-link-hover-color);
+  color: #FC8574;
+  transition: all 0.5s;
 }
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
