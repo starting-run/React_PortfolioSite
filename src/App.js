@@ -34,6 +34,11 @@ function acorClose() {
       $("input:checkbox[id='hbg']").prop("checked", false);
   }
 }
+
+function text_ready() {
+  alert('준비중입니다 !');
+}
+
   return (
     <div className="App">
   <div>
@@ -61,6 +66,7 @@ function acorClose() {
                   <NavLink exact to="/project" className="nav-link" onClick={acorClose}><li class="nav-item">Project</li></NavLink>
                   <a class="nav-link" href="https://velog.io/@usfree" target='_blank' onClick={acorClose}><li class="nav-item">Blog</li></a>
                   <a class="nav-link" href="https://github.com/usfree" target='_blank' onClick={acorClose}><li class="nav-item">Github</li></a>
+                  <li class="nav-item po-li"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>
                 </ul>
             </div>
         </div>
