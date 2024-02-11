@@ -616,6 +616,12 @@ body[data-darkmode=on] .darkmode > .inner{
   -webkit-backdrop-filter: blur(20px);
   background-color: rgba(var(--bs-profile-card-rgb), 0.05);
   overflow: visible;
+  transition: all 0.5s;
+}
+
+.card-blur-info:hover {
+  background-color: rgba(var(--bs-profile-card-rgb), 0.2);
+  transition: all 0.5s;
 }
 
 .refl {
@@ -815,7 +821,7 @@ li {
     var(--c2);
   background-size: 300% 8px,8px 300%;
   background-repeat: no-repeat;
-  animation: l1 1s infinite linear;
+  animation: l1 1.5s infinite linear;
 }
 
 .menu-loader:after {
