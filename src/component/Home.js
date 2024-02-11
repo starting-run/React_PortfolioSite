@@ -65,7 +65,7 @@ class Home extends Component {
                     <div class="container-xxl px-4 mt-4 pt-5">
                         <div class="row justify-content-center">
                             <div class="mb-5">
-                                <div class="row row-cols-2 row-cols-xxl-4 g-4 cards">
+                                <div class="row row-cols-2 row-cols-xl-4 g-4 cards">
                                     <NavLink to="/profile" id="profiles2">
                                         <div class="img-fluid">
                                             <div class="col">

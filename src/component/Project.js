@@ -31,6 +31,12 @@ function filter() {
     }
   }
 
+
+  function text_ready() {
+    alert('준비중입니다 !');
+  }
+  
+
 class Project extends Component {
     render() {
       return (
@@ -99,10 +105,33 @@ class Project extends Component {
                                   </div>
                               </a>
                           </div>*/}
+                          <div class="img-fluid" onClick={text_ready}>
+                              {/*<NavLink to="1vs1go" id="1vs1go">*/}
+                                  <div class="col">
+                                      <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black card-border-1">
+                                          {/*<img class="card-image"src = {project3}></img>*/}
+                                          <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
+                                              <h3 class="mb-2 display-7 lh-1 fw-bold country">1vs1 Go?<div class="kor-hidden">1ㄷ1</div></h3>
+                                              <ul class="d-flex list-unstyled mt-auto small2">
+                                              <li class="d-flex align-items-center me-3 city">
+                                              <FontAwesomeIcon icon={faLayerGroup} />
+                                                  <div class="">　UnrealEngine</div>
+                                                  <div class="kor-hidden">언리얼엔진</div>
+                                              </li>
+                                              <li class="d-flex align-items-center">
+                                              <FontAwesomeIcon icon={faCalendar} />
+                                                  <div class="">　2024. 02. ~ Developing</div>
+                                              </li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              {/*</NavLink>*/}
+                          </div>
                           <div class="img-fluid">
                               <NavLink to="pacman" id="pacman">
                                   <div class="col">
-                                      <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black card-border-1">
+                                      <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black card-border-2">
                                           <img class="card-image" src ={project3}></img>
                                           <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
                                               <h3 class="mb-2 display-7 lh-1 fw-bold country">Pacman<div class="kor-hidden">팩맨</div></h3>

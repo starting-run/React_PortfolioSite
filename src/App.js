@@ -36,7 +36,7 @@ function acorClose() {
 }
 
 function text_ready() {
-  alert('준비중입니다 !');
+  alert('sidebar 준비중입니다 !');
 }
 
   return (
