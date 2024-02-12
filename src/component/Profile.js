@@ -59,8 +59,9 @@ class Profile extends Component {
                             <div class="col p-2">
                                 <div class="border-0 rounded-2 card-blur-info">
                                     <div class="p-3">
-                                        <span class="font-3 fs-6 text-main mb-5 no_enter"><FontAwesomeIcon icon={faEnvelopeOpenText}/>　<span class="fs-7 fw-light2 text-infopage"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">ploris576@kangnam.ac.kr</a></span></span>
-                                        
+                                        <span class="font-3 fs-6 text-main mb-5 no_enter"><FontAwesomeIcon icon={faEnvelopeOpenText}/>　
+                                        <span class="fs-7 fw-light2 text-infopage only-pc-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">ploris576@kangnam.ac.kr</a></span></span>
+                                        <span class="fs-7 fw-bold text-infopage only-mobile-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">Mail</a></span>
                                     </div>
                                 </div>
                         </div></div></Fade>
@@ -68,7 +69,7 @@ class Profile extends Component {
                             <div class="col p-2">
                                 <div class="border-0 rounded-2 card-blur-info">
                                     <div class="p-3">
-                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faChartSimple}/>　<span class="fs-7 fw-light2 text-infopage"><a href="https://solved.ac/profile/tlrmsjtm77">BOJ / tlrmsjtm77</a></span></span>
+                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faChartSimple}/>　<span class="fs-7 fw-light2 text-infopage"><a href="https://solved.ac/profile/tlrmsjtm77">tlrmsjtm77</a></span></span>
                                         
                                     </div>
                                 </div>
