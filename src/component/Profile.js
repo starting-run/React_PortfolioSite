@@ -10,6 +10,7 @@ import Cert from './Profile/Cert';
 import Tech from './Profile/Tech';
 import { Helmet } from 'react-helmet';
 import { faHtml5, faReact } from '@fortawesome/free-brands-svg-icons';
+import { Fade } from 'react-reveal';
 
 
 class Profile extends Component {
@@ -36,6 +37,7 @@ class Profile extends Component {
                             </div>
                         </div>
                         <div class="row row-cols-2 row-cols-lg-5  justify-content-center font-3 mb-5">
+                        <Fade bottom delay={0}><div>
                             <div class="col p-2">
                                 <div class="border-0 rounded-2 card-blur-info">
                                     <div class="p-3">
@@ -43,7 +45,8 @@ class Profile extends Component {
                                         
                                     </div>
                                 </div>
-                            </div>
+                        </div></div></Fade>
+                        <Fade bottom delay={30}><div>
                             <div class="col p-2">
                                 <div class="border-0 rounded-2 card-blur-info">
                                     <div class="p-3">
@@ -51,7 +54,8 @@ class Profile extends Component {
                                         
                                     </div>
                                 </div>
-                            </div>
+                        </div></div></Fade>
+                        <Fade bottom delay={60}><div>
                             <div class="col p-2">
                                 <div class="border-0 rounded-2 card-blur-info">
                                     <div class="p-3">
@@ -59,7 +63,8 @@ class Profile extends Component {
                                         
                                     </div>
                                 </div>
-                            </div>
+                        </div></div></Fade>
+                        <Fade bottom delay={90}><div>
                             <div class="col p-2">
                                 <div class="border-0 rounded-2 card-blur-info">
                                     <div class="p-3">
@@ -67,7 +72,7 @@ class Profile extends Component {
                                         
                                     </div>
                                 </div>
-                            </div>
+                        </div></div></Fade>
                         </div>
                     </div>
 
@@ -77,6 +82,7 @@ class Profile extends Component {
                 <div class="container-xxl px-4">
                         <div class="row justify-content-center">
                             <div class="mb-5">
+                            <Fade bottom delay={0}><div>
                                 <div class="row row-cols-sm-2 row-cols-xxl-2 g-4 cards mb-4">
                                     <div class="col-xxl-3">
                                         <div class="card h-100 bg-main-color overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
@@ -123,8 +129,9 @@ class Profile extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div></div></Fade>
                                 <div class="row row-cols-1 row-cols-xxl-2 g-4 cards">
+                                <Fade bottom delay={100}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">Education</div>
@@ -147,7 +154,8 @@ class Profile extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div></div></Fade>
+                                <Fade bottom delay={150}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">Experience</div>
@@ -163,7 +171,8 @@ class Profile extends Component {
                                             
                                             </div>
                                         </div>
-                                    </div>
+                                    </div></div></Fade>
+                                    <Fade bottom delay={200}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">Certificate</div>
@@ -190,7 +199,8 @@ class Profile extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div></div></Fade>
+                                    <Fade bottom delay={250}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">Skills</div>
@@ -218,7 +228,7 @@ class Profile extends Component {
                                             
                                             </div>
                                         </div>
-                                    </div>
+                                    </div></div></Fade>
                                 </div>
                             </div>
                         </div>

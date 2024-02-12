@@ -565,6 +565,7 @@ body[data-darkmode=on] .darkmode > .inner{
 .prj-sub:hover {
   color: #FC8574;
   cursor: pointer;
+  transition: all 0.5s;
 }
 
 .mobile-moabogi {
@@ -609,19 +610,6 @@ body[data-darkmode=on] .darkmode > .inner{
   object-fit: cover;
   justify-items: center;
   z-index: -1;
-}
-
-.card-blur-info {
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  background-color: rgba(var(--bs-profile-card-rgb), 0.05);
-  overflow: visible;
-  transition: all 0.5s;
-}
-
-.card-blur-info:hover {
-  background-color: rgba(var(--bs-profile-card-rgb), 0.2);
-  transition: all 0.5s;
 }
 
 .refl {
@@ -911,6 +899,10 @@ li {
   padding-bottom  : 5rem;
   text-align      : center;
   position        : relative;
+  animation: fadeIncard 0.5s ease-in-out; /* card 올라오는 애니메이션 */
+}
+
+.up-animation {
   animation: fadeIncard 0.5s ease-in-out; /* card 올라오는 애니메이션 */
 }
 
@@ -5826,7 +5818,7 @@ textarea.form-control-lg {
   background-clip: border-box;
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
-  animation: fadeIncard 0.5s ease-in-out; /* card 올라오는 애니메이션 */
+  /*animation: fadeIncard 0.5s ease-in-out; /* card 올라오는 애니메이션 */
   overflow: hidden;
   transition-duration: 0.3s;
 }
@@ -5938,8 +5930,28 @@ textarea.form-control-lg {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   background-color: rgba(var(--bs-white-rgb), 0.3);
+  transition: all 0.5s;
 }
 
+.card-blur:hover {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(var(--bs-white-rgb), 0.8);
+  transition: all 0.5s;
+}
+
+.card-blur-info {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background-color: rgba(var(--bs-profile-card-rgb), 0.05);
+  overflow: visible;
+  transition: all 0.5s;
+}
+
+.card-blur-info:hover {
+  background-color: rgba(var(--bs-profile-card-rgb), 0.2);
+  transition: all 0.5s;
+}
 
 .card-overtext {
   z-index: 2;

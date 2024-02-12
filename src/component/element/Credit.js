@@ -16,7 +16,7 @@ class Credit extends Component {
               </div>
               <div class="bg-white">
                   <div class="container px-4 mt-5">
-                      <div class="py-5  px-md-5">
+                      <div class="py-5  px-md-5 up-animation">
                           <div class="card shadow border-0 rounded-2 mb-5">
                               <div class="card-body p-5 text-black font-3">
                                 <span class="fw-bolder code w-100">본 사이트 메인화면에 포함된 동영상 저작권은 PlayStation (BlueTwelve Studio - Stray 게임)에 있습니다.</span>

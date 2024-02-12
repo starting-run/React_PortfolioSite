@@ -40,7 +40,7 @@ class Snake extends Component {
                             <a href="https://github.com/usfree/Unity_Snake" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
                         </div>
                         <div class="row gx-5 justify-content-center">
-                            <div class="">
+                            <div class="up-animation">
                                 <div class="card shadow rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">

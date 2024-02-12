@@ -11,6 +11,7 @@ import { faCalendar } from "@fortawesome/free-solid-svg-icons";
 
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { Fade } from 'react-reveal';
 
 let city, country;
 
@@ -105,13 +106,14 @@ class Project extends Component {
                                   </div>
                               </a>
                           </div>*/}
+                        <Fade bottom delay={0}>
                           <div class="img-fluid" onClick={text_ready}>
                               {/*<NavLink to="1vs1go" id="1vs1go">*/}
                                   <div class="col">
                                       <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black card-border-1">
                                           {/*<img class="card-image"src = {project3}></img>*/}
                                           <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
-                                              <h3 class="mb-2 display-7 lh-1 fw-bold country">1vs1 Go?<div class="kor-hidden">1ㄷ1</div></h3>
+                                              <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">1vs1 Go?<div class="kor-hidden">1ㄷ1</div></h3>
                                               <ul class="d-flex list-unstyled mt-auto small2">
                                               <li class="d-flex align-items-center me-3 city">
                                               <FontAwesomeIcon icon={faLayerGroup} />
@@ -127,14 +129,15 @@ class Project extends Component {
                                       </div>
                                   </div>
                               {/*</NavLink>*/}
-                          </div>
+                          </div></Fade>
+                          <Fade bottom delay={50}>
                           <div class="img-fluid">
                               <NavLink to="pacman" id="pacman">
                                   <div class="col">
                                       <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black card-border-2">
                                           <img class="card-image" src ={project3}></img>
                                           <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
-                                              <h3 class="mb-2 display-7 lh-1 fw-bold country">Pacman<div class="kor-hidden">팩맨</div></h3>
+                                              <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Pacman<div class="kor-hidden">팩맨</div></h3>
                                               <ul class="d-flex list-unstyled mt-auto small2">
                                               <li class="d-flex align-items-center me-3 city">
                                               <FontAwesomeIcon icon={faLayerGroup} />
@@ -150,14 +153,15 @@ class Project extends Component {
                                       </div>
                                   </div>
                               </NavLink>
-                          </div>
+                          </div></Fade>
+                          <Fade bottom delay={100}>
                           <div class="img-fluid">
                               <NavLink to="ironman" id="ironman">
                                   <div class="col">
                                       <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black card-border-2">
                                           <img class="card-image" src ={project2}></img>
                                           <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
-                                              <h3 class="mb-2 display-7 lh-1 fw-bold country">Ironman<div class="kor-hidden">아이언맨</div></h3>
+                                              <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Ironman<div class="kor-hidden">아이언맨</div></h3>
                                               <ul class="d-flex list-unstyled mt-auto small2">
                                               <li class="d-flex align-items-center me-3 city">
                                               <FontAwesomeIcon icon={faLayerGroup} />
@@ -173,14 +177,15 @@ class Project extends Component {
                                       </div>
                                   </div>
                               </NavLink>
-                          </div>
+                          </div></Fade>
+                          <Fade bottom delay={150}>
                           <div class="img-fluid">
                             <NavLink to="snake" id="ironman">
                                   <div class="col">
                                       <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black card-border-2">
                                           <img class="card-image" src ={project1}></img>
                                           <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
-                                              <h3 class="mb-2 display-7 lh-1 fw-bold country">Snake<div class="kor-hidden">스네이크</div></h3>
+                                              <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Snake<div class="kor-hidden">스네이크</div></h3>
                                               <ul class="d-flex list-unstyled mt-auto small2">
                                               <li class="d-flex align-items-center me-3 city">
                                                 <FontAwesomeIcon icon={faLayerGroup} />
@@ -196,7 +201,7 @@ class Project extends Component {
                                       </div>
                                   </div>
                               </NavLink>
-                          </div>
+                          </div></Fade>
                       </div>
                   </div>
               </div>

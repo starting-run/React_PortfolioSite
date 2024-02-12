@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from 'react-router-hash-link';
 import { Helmet } from 'react-helmet';
+import { Fade } from 'react-reveal';
 
 class Home extends Component {
     render() {
@@ -30,7 +31,7 @@ class Home extends Component {
                                         </path>
                                     </svg>
                                 </div>
-                                <span class="main__scroll-text">SCROLL DOWN</span>
+                                <span class="main__scroll-text font-3 fs-7 font-letter-space-sm">SCROLL DOWN</span>
                                 </HashLink>
                             </div>
                             
@@ -66,6 +67,7 @@ class Home extends Component {
                         <div class="row justify-content-center">
                             <div class="mb-5">
                                 <div class="row row-cols-2 row-cols-xl-4 g-4 cards">
+                                <Fade bottom delay={0}>
                                     <NavLink to="/profile" id="profiles2">
                                         <div class="img-fluid">
                                             <div class="col">
@@ -79,7 +81,8 @@ class Home extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </NavLink>
+                                    </NavLink></Fade>
+                                <Fade bottom delay={30}>
                                     <NavLink to="/project" id="project2">
                                         <div class="img-fluid">
                                             <div class="col">
@@ -93,7 +96,8 @@ class Home extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </NavLink>
+                                    </NavLink></Fade>
+                                <Fade bottom delay={60}>
                                     <a href="https://velog.io/@usfree" target='_blank'>
                                         <div class="img-fluid">
                                             <div class="col">
@@ -107,7 +111,8 @@ class Home extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </a></Fade>
+                                <Fade bottom delay={90}>
                                     <a href="https://github.com/usfree" target='_blank'>
                                         <div class="img-fluid">
                                             <div class="col">
@@ -121,7 +126,7 @@ class Home extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </a>
+                                    </a></Fade>
                                 </div>
                             </div>
                         </div>
