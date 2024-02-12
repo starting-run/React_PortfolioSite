@@ -5903,6 +5903,10 @@ textarea.form-control-lg {
   transition: all 0.3s;
 }
 
+.card-border-0 {
+  border: none;
+}
+
 
 .card-border-1 {
   border: none;
