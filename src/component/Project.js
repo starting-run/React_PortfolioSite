@@ -116,12 +116,12 @@ class Project extends Component {
                                               <span class="fs-3 mb-2 display-7 lh-1 fw-bold country font-3">1vs1 Go?<div class="kor-hidden">1ㄷ1</div></span>
                                               <ul class="d-flex list-unstyled mt-auto small2">
                                               <li class="d-flex align-items-center me-3 city">
-                                              <FontAwesomeIcon icon={faLayerGroup} />
+                                              <FontAwesomeIcon icon={faLayerGroup}/>
                                                   <span class="">　UnrealEngine</span>
                                                   <span class="kor-hidden">언리얼엔진</span>
                                               </li>
                                               <li class="d-flex align-items-center">
-                                              <FontAwesomeIcon icon={faCalendar} />
+                                              <FontAwesomeIcon icon={faCalendar}/>
                                                   <div class="">　2024. 02. ~ Developing</div>
                                               </li>
                                               </ul>
