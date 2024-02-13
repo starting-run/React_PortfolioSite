@@ -188,12 +188,12 @@ class Project extends Component {
                                               <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Snake<div class="kor-hidden">스네이크</div></h3>
                                               <ul class="d-flex list-unstyled mt-auto small2">
                                               <li class="d-flex align-items-center me-3 city">
-                                                <FontAwesomeIcon icon={faLayerGroup} />
+                                                <FontAwesomeIcon icon={faLayerGroup}/>
                                                   <div class="">　Unity</div>
                                                   <div class="kor-hidden">유니티</div>
                                               </li>
                                               <li class="d-flex align-items-center">
-                                                <FontAwesomeIcon icon={faCalendar} />
+                                                <FontAwesomeIcon icon={faCalendar}/>
                                                   <div class="">　2020. 06.</div>
                                               </li>
                                               </ul>
