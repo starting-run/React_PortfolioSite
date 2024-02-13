@@ -110,7 +110,7 @@ class Project extends Component {
                           <div class="img-fluid" onClick={text_ready}>
                               {/*<NavLink to="1vs1go" id="1vs1go">*/}
                                   <div class="col">
-                                    <div class="card card-cover h-100 overflow-hidden text-bg-info text-black rounded-3 card-border-0">
+                                    <div class="card card-cover h-100 overflow-hidden text-bg-prj text-black rounded-3 card-border-0">
                                           {/*<img class="card-image"src = {project3}></img>*/}
                                           <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
                                               <span class="fs-3 mb-2 display-7 lh-1 fw-bold country font-3">1vs1 Go?<div class="kor-hidden">1ㄷ1</div></span>
@@ -134,7 +134,7 @@ class Project extends Component {
                           <div class="img-fluid">
                               <NavLink to="pacman" id="pacman">
                                   <div class="col">
-                                      <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black rounded-3 card-border-0">
+                                      <div class="card card-cover h-100 overflow-hidden text-bg-prj text-black rounded-3 card-border-0">
                                           <img class="card-image" src ={project3}></img>
                                           <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
                                               <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Pacman<div class="kor-hidden">팩맨</div></h3>
@@ -158,7 +158,7 @@ class Project extends Component {
                           <div class="img-fluid">
                               <NavLink to="ironman" id="ironman">
                                   <div class="col">
-                                      <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black rounded-3 card-border-0">
+                                      <div class="card card-cover h-100 overflow-hidden text-bg-prj text-black rounded-3 card-border-0">
                                           <img class="card-image" src ={project2}></img>
                                           <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
                                               <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Ironman<div class="kor-hidden">아이언맨</div></h3>
@@ -182,7 +182,7 @@ class Project extends Component {
                           <div class="img-fluid">
                             <NavLink to="snake" id="ironman">
                                   <div class="col">
-                                      <div class="card card-cover h-100 overflow-hidden text-bg-dark text-black rounded-3 card-border-0">
+                                      <div class="card card-cover h-100 overflow-hidden text-bg-prj text-black rounded-3 card-border-0">
                                           <img class="card-image" src ={project1}></img>
                                           <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
                                               <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Snake<div class="kor-hidden">스네이크</div></h3>
