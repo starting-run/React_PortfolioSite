@@ -71,7 +71,7 @@ class Home extends Component {
                                     <NavLink to="/profile" id="profiles2">
                                         <div class="img-fluid">
                                             <div class="col">
-                                                <div class="card card-cover-main h-100 overflow-hidden border-0">
+                                                <div class="card card-cover-main h-100 overflow-hidden border-0 shadow-sm">
                                                     <img class="card-image" src={main_profile_btn}></img>
                                                     <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
                                                         <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">프로필</span>
@@ -86,7 +86,7 @@ class Home extends Component {
                                     <NavLink to="/project" id="project2">
                                         <div class="img-fluid">
                                             <div class="col">
-                                                <div class="card card-cover-main h-100 overflow-hidden border-0">
+                                                <div class="card card-cover-main h-100 overflow-hidden border-0 shadow-sm">
                                                     <img class="card-image" src={main_project_btn}></img>
                                                     <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
                                                         <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3">프로젝트</span>
@@ -101,7 +101,7 @@ class Home extends Component {
                                     <a href="https://velog.io/@usfree" target='_blank'>
                                         <div class="img-fluid">
                                             <div class="col">
-                                                <div class="card card-cover-main h-100 overflow-hidden border-0">
+                                                <div class="card card-cover-main h-100 overflow-hidden border-0 shadow-sm">
                                                     <img class="card-image" src={main_blog_btn}></img>
                                                     <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
                                                         <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">블로그</span>
@@ -116,7 +116,7 @@ class Home extends Component {
                                     <a href="https://github.com/usfree" target='_blank'>
                                         <div class="img-fluid">
                                             <div class="col">
-                                                <div class="card card-cover-main h-100 overflow-hidden border-0">
+                                                <div class="card card-cover-main h-100 overflow-hidden border-0 shadow-sm">
                                                     <img class="card-image" src={main_github_btn}></img>
                                                     <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
                                                         <span class="mb-2 fs-2 lh-1 fw-bold pt-7 font-3 no_enter">깃허브</span>
