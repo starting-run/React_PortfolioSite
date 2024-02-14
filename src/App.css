@@ -947,7 +947,7 @@ li {
   height: 40vh; /* absolute시 100vh */
   width: 100%;
   z-index: -3;
-  opacity: 0.3; /* 원본값 0.15 */
+  opacity: 0.15; /* 원본값 0.15 */
   /* filter:blur(2px); 배경 블러 */
 }
 
