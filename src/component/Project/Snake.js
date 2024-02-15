@@ -3,7 +3,7 @@ import video from '../../images/OpenGL/ironman.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faClipboardList, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import {browserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 
 import img1 from '../../images/Unity/1.png';
@@ -60,6 +60,16 @@ class Snake extends Component {
                                                     <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>
                                                     <div class="font-3 fw-light fs-6">하단 참고</div>
+                                                </div>
+                                                <h3><b><FontAwesomeIcon icon={faClipboardList} /> Summary</b></h3>
+                                                <div class="mb-4">가장 폭넓게 사용되는 Unity 엔진으로 제작된 Snake 게임입니다.</div>
+                                                <h3><b><FontAwesomeIcon icon={faLightbulb} /> Reason</b></h3>
+                                                <div class="mb-4">Unity 엔진은 가상현실, 게임 분야의 개발자라면 UnrealEngine과 더불어 가장 많이 사용되기 때문에 다뤄보는 경험자체가 중요하고 필요하다고 생각했습니다.</div>
+                                                
+                                                <h3><b><FontAwesomeIcon icon={faGear} /> Setup</b></h3>
+                                                <div class="card card-cover-nonhover p-3 rounded-3 border-0 mb-5">
+                                                    # Unity Engine<br/>
+                                                    GameProject.sln
                                                 </div>
                                                 <h3><b>Normal Map</b></h3>
                                                 <img class="mb-2" src={img1}/><br/>

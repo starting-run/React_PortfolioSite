@@ -3,7 +3,7 @@ import video from '../../images/OpenGL/ironman.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faClipboardList, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 
 import img1 from '../../images/OpenGL/1.png';
@@ -54,6 +54,16 @@ class Ironman extends Component {
                                                     <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>
                                                     <div class="font-3 fw-light fs-6">하단 참고</div>
+                                                </div>
+                                                <h3><b><FontAwesomeIcon icon={faClipboardList} /> Summary</b></h3>
+                                                <div class="mb-4">표준 그래픽 API로 사용되는 OpenGL로 제작한 아이언맨의 3D 모델링입니다. OpenGL이 지원하는 그래픽 관련 기능을 사용하여 그래픽API에 대한 폭 넓은 이해를 목표로 제작하였습니다.</div>
+                                                <h3><b><FontAwesomeIcon icon={faLightbulb} /> Reason</b></h3>
+                                                <div class="mb-4">OpenGL을 다뤄보고 싶었고, 그래픽 관련한 API가 어떻게 동작하는지 배우는 것이 목표입니다.</div>
+                                                
+                                                <h3><b><FontAwesomeIcon icon={faGear} /> Setup</b></h3>
+                                                <div class="card card-cover-nonhover p-3 rounded-3 border-0 mb-5">
+                                                    # VisualStudio Solution<br/>
+                                                    OpenGL.sln
                                                 </div>
                                                 <h3><b>CubeMap</b></h3>
                                                 <img class="mb-2" src={img1} width="402pixel" height="252pixel"></img><br/>

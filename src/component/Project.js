@@ -3,7 +3,7 @@ import Promotionsection from '../images/projects/snap.webp';
 import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
-import project4 from '../images/maple.png';
+import project4 from '../images/OGmetaN.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare, faLayerGroup } from "@fortawesome/free-solid-svg-icons";
@@ -54,7 +54,7 @@ class Project extends Component {
                
           <div class="font-3 text-black">관심 가져주셔서 감사합니다 !<br></br>더 많은 프로젝트를 위해 준비하고 있습니다.</div>
       <br></br>
-      <div class="name text-black px-4">아래에서 해당 카드를 누르시면 프로젝트에 관한 자세한 내용을 보실 수 있습니다.</div>
+      <div class="name text-black px-4">아래에서 해당 카드를 누르시면 프로젝트에 관한 자세한 내용을 보실 수 있습니다.<br/>각 프로젝트의 상단에서 깃허브 리포지토리로 바로 이동할 수 있는 버튼을 제공합니다.</div>
           </div>
       </div>
       <div class="bg-change bg-white bg-img">
@@ -112,7 +112,7 @@ class Project extends Component {
                             <Fade bottom delay={0}>
                                 <div class="col">
                                     <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
-                                        {/*<img class="card-image"src = {project4}></img>*/}
+                                        {/*<img class="card-image"src = {project5}></img>*/}
                                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
                                             <span class="fs-3 mb-2 display-7 lh-1 fw-bold country font-3">SlowDown<div class="kor-hidden">슬로우다운</div></span>
                                             <ul class="d-flex list-unstyled mt-auto small2">
@@ -133,8 +133,33 @@ class Project extends Component {
                               {/*</NavLink>*/}
                           </div>
                           <div class="img-fluid">
-                              <NavLink to="pacman" id="pacman">
+                              <NavLink to="website" id="website">
                                 <Fade bottom delay={50}>
+                                    <div class="col">
+                                        <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
+                                            <img class="card-image" src ={project4}></img>
+                                            <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
+                                                <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Porfolio Website<div class="kor-hidden">포트폴리오 사이트</div></h3>
+                                                <ul class="d-flex list-unstyled mt-auto small2">
+                                                <li class="d-flex align-items-center me-3 city">
+                                                <FontAwesomeIcon icon={faLayerGroup} />
+                                                    <div class="">　React</div>
+                                                    <div class="kor-hidden">리액트</div>
+                                                </li>
+                                                <li class="d-flex align-items-center">
+                                                <FontAwesomeIcon icon={faCalendar} />
+                                                    <div class="">　2023. 10. - 2024. 02.</div>
+                                                </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Fade>
+                              </NavLink>
+                          </div>
+                          <div class="img-fluid">
+                              <NavLink to="pacman" id="pacman">
+                                <Fade bottom delay={100}>
                                     <div class="col">
                                         <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
                                             <img class="card-image" src ={project3}></img>
@@ -159,7 +184,7 @@ class Project extends Component {
                           </div>
                           <div class="img-fluid">
                               <NavLink to="ironman" id="ironman">
-                                <Fade bottom delay={100}>
+                                <Fade bottom delay={150}>
                                     <div class="col">
                                         <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
                                             <img class="card-image" src ={project2}></img>
@@ -184,7 +209,7 @@ class Project extends Component {
                           </div>
                           <div class="img-fluid">
                             <NavLink to="snake" id="ironman">
-                                <Fade bottom delay={150}>
+                                <Fade bottom delay={200}>
                                     <div class="col">
                                         <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
                                             <img class="card-image" src ={project1}></img>

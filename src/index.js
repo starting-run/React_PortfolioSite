@@ -17,6 +17,7 @@ import Links from './component/element/Links';
 import Snake from './component/Project/Snake';
 import ToTopButton from './component/ToTopButton';
 import Slowdown from './component/Project/Slowdown';
+import Website from './component/Project/Website';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,10 +29,11 @@ root.render(
         <Route path="/profile/*" element={<Profile/>}/>
         <Route exact path="/" element={<Home/>}/>
         <Route path="/project" element={<Project/>}/>
+        <Route path="/project/slowdown" element={<Slowdown/>}/>
+        <Route path="/project/website" element={<Website/>}/>
         <Route path="/project/pacman" element={<Pacman/>}/>
         <Route path="/project/ironman" element={<Ironman/>}/>
         <Route path="/project/snake" element={<Snake/>}/>
-        <Route path="/project/slowdown" element={<Slowdown/>}/>
         <Route path="/credit" element={<Credit/>}/>
         <Route path="/links" element={<Links/>}/>
       </Routes>
