@@ -86,7 +86,7 @@ class Profile extends Component {
                             <Fade bottom delay={0}><div>
                                 <div class="row row-cols-sm-2 row-cols-xxl-2 g-4 cards mb-4">
                                     <div class="col-xxl-3">
-                                        <div class="card h-100 bg-main-color overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
+                                        <div class="card h-100 bg-main-color overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="font-3  p-2">
                                                 <div class="text-black fs-3 mb-5">More<br/>And<br/>More<br/><b>CREATIVELY</b></div>
                                                 <div class="text-black fs-5 ">게임클라이언트 프로그래머<br/><b>조우현</b>입니다.</div>
@@ -96,7 +96,7 @@ class Profile extends Component {
                                     <div class="col-xxl-9">
                                         <div class="row row-cols-1">
                                             <div class="col mb-4">
-                                                <div class="card h-100 overflow-hidden border-0 card-hover-up-main rounded-3 p-4 shadow-sm">
+                                                <div class="card h-100 overflow-hidden border-0 card-hover-up-main rounded-3 p-4 shadow-md">
                                                     <div class="d-flex flex-column pb-3 card-overtext font-3 p-2">
                                                         <div class="text-black">찾아주셔서 감사합니다.
                                                             <br/>모든 일에는 창의력과 상상력 &middot; 디테일이 중요하다고 생각합니다.
@@ -107,7 +107,7 @@ class Profile extends Component {
                                                 </div>
                                             </div>
                                             <div class="col">
-                                                <div class="card h-100 overflow-hidden border-0 card-hover-up-main rounded-3 p-4 shadow-sm">
+                                                <div class="card h-100 overflow-hidden border-0 card-hover-up-main rounded-3 p-4 shadow-md">
                                                     <div class="row row-cols-lg-2 p-2">
                                                         <div class="col-auto">
                                                             <div class="fs-4 fw-opacity mb-1">
@@ -134,7 +134,7 @@ class Profile extends Component {
                                 <div class="row row-cols-1 row-cols-xxl-2 g-4 cards">
                                 <Fade bottom delay={100}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">학력 <span class="fs-5">Education</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto text-black">
@@ -159,7 +159,7 @@ class Profile extends Component {
                                     </div></div></Fade>
                                 <Fade bottom delay={150}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">경험 <span class="fs-5">Experience</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2">
@@ -176,7 +176,7 @@ class Profile extends Component {
                                     </div></div></Fade>
                                     <Fade bottom delay={200}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">자격/증명 <span class="fs-5">Certificate</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2">
@@ -204,7 +204,7 @@ class Profile extends Component {
                                     </div></div></Fade>
                                     <Fade bottom delay={250}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">기술 <span class="fs-5">Skills</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2">
@@ -233,7 +233,7 @@ class Profile extends Component {
                                     </div></div></Fade>
                                     <Fade bottom delay={300}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">병역 <span class="fs-5">Military Service</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2">
