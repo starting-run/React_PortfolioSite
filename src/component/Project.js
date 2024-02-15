@@ -108,13 +108,13 @@ class Project extends Component {
                               </a>
                           </div>*/}
                           <div class="img-fluid" onClick={text_ready}>
-                              {/*<NavLink to="1vs1go" id="1vs1go">*/}
+                              {/*<NavLink to="slowdown" id="slowdown">*/}
                             <Fade bottom delay={0}>
                                 <div class="col">
                                     <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
-                                        {/*<img class="card-image"src = {project3}></img>*/}
+                                        {/*<img class="card-image"src = {project4}></img>*/}
                                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
-                                            <span class="fs-3 mb-2 display-7 lh-1 fw-bold country font-3">1vs1 Go?<div class="kor-hidden">1ㄷ1</div></span>
+                                            <span class="fs-3 mb-2 display-7 lh-1 fw-bold country font-3">SlowDown<div class="kor-hidden">슬로우다운</div></span>
                                             <ul class="d-flex list-unstyled mt-auto small2">
                                             <li class="d-flex align-items-center me-3 city">
                                             <FontAwesomeIcon icon={faLayerGroup}/>
