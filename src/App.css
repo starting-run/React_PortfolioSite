@@ -5878,11 +5878,11 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background: var(--bs-card-bg);
+  background-color: var(--prj-card-bg);
 }
 
 .card-cover:hover {
-  background: var(--lenear-gradient);
+  background-color: #fc8574;
   transition: all 0.3s;
 }
 
