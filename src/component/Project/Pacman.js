@@ -157,6 +157,20 @@ class Pacman extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-5 proj_text  w-100 text-black fw-light">
+                                                <div class="mb-5 w-100 card card-cover p-3 rounded-3">
+                                                    <div class="font-3 fw-bold fs-5">&middot; 프로젝트명</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">Pacman Game</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 프로젝트 기간</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">2023. 09. - 10.</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 주요 기능</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">Pacman 게임을 모티브로 제작된 미니게임. 유령 객체를 피해 사용자 객체를 움직여 많은 점수를 기록하는 것이 목표인 게임.</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 사용 기술</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">Processing , Java</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 인원 구성</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 세부 사항</div>
+                                                    <div class="font-3 fw-light fs-6">하단 참고</div>
+                                                </div>
                                                 <h3><b>Map Create</b></h3>
                                                 <div class="code mb-2">{code1}</div>
                                                 <p class="mb-5">Item 객체입니다. Item은 매 판당 1번만 생성되며, 아이템을 획득하면 오른쪽 아래에 박제됩니다.

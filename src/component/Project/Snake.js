@@ -45,6 +45,20 @@ class Snake extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-5 proj_text w-100 text-black fw-light">
+                                                <div class="mb-5 w-100 card card-cover p-3 rounded-3">
+                                                    <div class="font-3 fw-bold fs-5">&middot; 프로젝트명</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">Snake Game</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 프로젝트 기간</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">2020. 05. - 06.</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 주요 기능</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">Unity 게임엔진으로 제작된 Snake 게임. 사용자가 객체를 조작하여 코인을 모으면서 자신의 몸이나 벽에 부딪히지 않고, 최대한 많은 점수를 기록하는 게임.</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 사용 기술</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">Unity, C#</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 인원 구성</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 세부 사항</div>
+                                                    <div class="font-3 fw-light fs-6">하단 참고</div>
+                                                </div>
                                                 <h3><b>Normal Map</b></h3>
                                                 <img class="mb-2" src={img1}/><br/>
                                                 <p class="mb-5">맵 제작에서 Normal Map을 이용하여 입체감 구현</p>
@@ -55,7 +69,7 @@ class Snake extends Component {
                                                     <img class="mb-2" src={img5}/><p>코인에 충돌시 coinCnt가 1씩 증가하고 꼬리가 1추가됨과 동시에, 코인이 필드 내 랜덤 위치에 재생성됩니다.<br/>벽 또는 자신의 꼬리에 충돌시 사망하고 GAMEOVER UI가 Open됩니다.</p>
                                                 <br/>
                                                 <h3><b>Animation</b></h3>
-                                                <img class="mb-2" src={img6}/><img src={img7}/><br/><h6>Rotation.y 값을 0 ~ 360도 지정하여 코인이 360도 돌아가는 효과 구현. (Samples Frame 30)</h6><br/>
+                                                <img class="mb-2" src={img6}/><img src={img7}/><br/><p>Rotation.y 값을 0 ~ 360도 지정하여 코인이 360도 돌아가는 효과 구현. (Samples Frame 30)</p><br/>
                                                 <h3><b>UI</b></h3>
                                                 <img class="mb-2" src={img8}/><br/><img src={img9}/><br/><br/>
                                                 <h3><b>Result</b></h3>

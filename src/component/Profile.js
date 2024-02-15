@@ -135,19 +135,20 @@ class Profile extends Component {
                                 <Fade bottom delay={100}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">Education</div>
+                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">학력 <span class="fs-5">Education</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto text-black">
-                                                    <div class="fs-4 fw-bolder"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>Kangnam University</a></div>
-                                                    <div class="fw-light2 fs-7">Yongin, Gyeonggi-do</div>
+                                                    <div class="fs-4 fw-bolder"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>강남대학교</a></div>
+                                                    <div class="fw-light2 fs-7">경기도 용인시</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2019. 03. - </div>
                                                     <div class="fw-light2 fs-7">
                                                         소프트웨어전공 / 가상현실 복수전공{/*<br/>major: Software / double major: VirtualReality*/}
                                                     </div>
+                                                    <div class="fw-light2 fs-7">전공평점: 4.08 / 전체평점: 3.8</div>
                                                 </div>
                                                 <div class="col-auto text-black">
-                                                    <div class="fs-4 fw-bolder"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>Hanseong Highschool</a></div>
-                                                    <div class="fw-light2 fs-7">Seodaemun-gu, Seoul</div>
+                                                    <div class="fs-4 fw-bolder"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>한성고등학교</a></div>
+                                                    <div class="fw-light2 fs-7">서울시 서대문구</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2015. 03. - 2018. 02.</div>
                                                     <div class="fw-light2 fs-7">
                                                         이과계열
@@ -159,11 +160,11 @@ class Profile extends Component {
                                 <Fade bottom delay={150}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">Experience</div>
+                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">경험 <span class="fs-5">Experience</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity">42Seoul LaPiscine</div>
-                                                    <div class="fw-light2 text-black fs-7">Inovation Academy</div>
+                                                    <div class="fw-light2 text-black fs-7">이노베이션아카데미</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2023. 07. 17. - 08. 11.</div>
                                                     <div class="fw-light2 fs-7">
                                                         <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
@@ -176,7 +177,7 @@ class Profile extends Component {
                                     <Fade bottom delay={200}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">Certificate</div>
+                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">자격/증명 <span class="fs-5">Certificate</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity">웹디자인기능사</div>
@@ -204,11 +205,11 @@ class Profile extends Component {
                                     <Fade bottom delay={250}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">Skills</div>
+                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">기술 <span class="fs-5">Skills</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faCode}/> C / C++</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">C와 C++을 사용하여 알고리즘을 해결하고 목표한 클래스를 구현할 수 있습니다.</div>
+                                                    <div class="fw-light2 fs-8 mb-2 highlight">C와 C++을 사용하여 알고리즘을 해결하고 목표한 클래스를 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다. </div>
                                                 </div>
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faHtml5}/> HTML</div>
@@ -220,13 +221,26 @@ class Profile extends Component {
                                                 </div>
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faGamepad}/> UnrealEngine</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">C++을 사용하여 언리얼엔진을 사용할 수 있고, 목표한 컨텐츠를 제작하기 위해 학습중입니다.</div>
+                                                    <div class="fw-light2 fs-8 mb-2 highlight">C++을 사용하여 언리얼엔진을 활용할 수 있고, 목표한 컨텐츠를 제작하기 위해 학습중입니다.</div>
                                                 </div>
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faMicrochip}/> Processing</div>
                                                     <div class="fw-light2 fs-8 mb-2 highlight">프로세싱의 다양한 라이브러리를 사용할 수 있고, 이를 통해 인터랙티브 컨텐츠를 제작할 수 있습니다.</div>
                                                 </div>
                                             
+                                            </div>
+                                        </div>
+                                    </div></div></Fade>
+                                    <Fade bottom delay={300}><div>
+                                    <div class="col">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-sm">
+                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">병역 <span class="fs-5">Military Service</span></div>
+                                            <div class="row row-cols-lg-2 p-2">
+                                                <div class="col-auto mb-2">
+                                                    <div class="fs-5 fw-bolder fw-opacity">병장 만기전역</div> 
+                                                    <div class="fw-light2 text-black fs-7">육군 10방공단 505방공대대</div>
+                                                    <div class="fw-light2 fs-8 mb-2 highlight">2021. 09. - 2023. 03.</div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div></div></Fade>

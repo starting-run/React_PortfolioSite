@@ -39,6 +39,20 @@ class Ironman extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-5 proj_text w-100 text-black fw-light">
+                                                <div class="mb-5 w-100 card card-cover p-3 rounded-3">
+                                                    <div class="font-3 fw-bold fs-5">&middot; 프로젝트명</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">3D Ironman</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 프로젝트 기간</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">2021. 05. - 06.</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 주요 기능</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">OpenGL로 제작된 3D 입체 아이언맨 모형. OpenGL이 지원하는 기능들을 사용할 수 있음.</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 사용 기술</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">OpenGL, C, C++</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 인원 구성</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
+                                                    <div class="font-3 fw-bold fs-5">&middot; 세부 사항</div>
+                                                    <div class="font-3 fw-light fs-6">하단 참고</div>
+                                                </div>
                                                 <h3><b>CubeMap</b></h3>
                                                 <img class="mb-2" src={img1} width="402pixel" height="252pixel"></img><br/>
                                                 <p class="mb-4">큐브맵을 제작하기 위해 기존에 있던 이미지에서 정육각형 모양대로 어색하지 않게 잘라내어 별도 파일로 삽입하였습니다.</p>
