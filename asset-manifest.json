@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9cb6233a.css",
-    "main.js": "/static/js/main.4ddd3074.js",
+    "main.js": "/static/js/main.958c2b12.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
@@ -26,6 +26,7 @@
     "static/media/card1.jpeg": "/static/media/card1.65c683ae17b1eea44215.jpeg",
     "static/media/pacman.jpg": "/static/media/pacman.33e0ce6845eef5d51ae3.jpg",
     "static/media/6.png": "/static/media/6.aaddd106aeb4dc1bcb6c.png",
+    "static/media/OGmetaN.png": "/static/media/OGmetaN.5b286d00fe5ad30ab613.png",
     "static/media/footerimg.png": "/static/media/footerimg.ab83ee45a66418c9f283.png",
     "static/media/7.gif": "/static/media/7.27828eeeee0cffed1196.gif",
     "static/media/logo_sq.png": "/static/media/logo_sq.9e98aabc5fbcd40c68a3.png",
@@ -33,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.9cb6233a.css",
-    "static/js/main.4ddd3074.js"
+    "static/js/main.958c2b12.js"
   ]
 }
