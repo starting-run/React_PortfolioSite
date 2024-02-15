@@ -39,18 +39,20 @@ class Ironman extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-5 proj_text w-100 text-black fw-light">
-                                                <div class="mb-5 w-100 card card-cover p-3 rounded-3">
-                                                    <div class="font-3 fw-bold fs-5">&middot; 프로젝트명</div>
+                                                <div class="mb-5 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">3D Ironman</div>
-                                                    <div class="font-3 fw-bold fs-5">&middot; 프로젝트 기간</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트 기간</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">2021. 05. - 06.</div>
-                                                    <div class="font-3 fw-bold fs-5">&middot; 주요 기능</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">주요 기능</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">OpenGL로 제작된 3D 입체 아이언맨 모형. OpenGL이 지원하는 기능들을 사용할 수 있음.</div>
-                                                    <div class="font-3 fw-bold fs-5">&middot; 사용 기술</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">구현 기능</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">&middot; 큐브맵 구현을 위해 이미지 재단 후 인접한 경계 색상을 자연스럽게 설정<br/>&middot; 각 쉐이딩 상태에 따라 모습을 제대로 보일 수 있도록 매크로 처리<br/>&middot; 와이어프레임 모드와 점 모드로 모드 변경 가능</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">사용 기술</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">OpenGL, C, C++</div>
-                                                    <div class="font-3 fw-bold fs-5">&middot; 인원 구성</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">인원 구성</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
-                                                    <div class="font-3 fw-bold fs-5">&middot; 세부 사항</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>
                                                     <div class="font-3 fw-light fs-6">하단 참고</div>
                                                 </div>
                                                 <h3><b>CubeMap</b></h3>

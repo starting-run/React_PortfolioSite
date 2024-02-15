@@ -19,18 +19,18 @@ import video1 from '../../images/Unity/Unity_Snake.mp4'
 import pdf1 from '../../images/Unity/Unity_Snake.pdf';
 import { Helmet } from 'react-helmet';
 
-class Snake extends Component {
+class Slowdown extends Component {
     render() {
       return (
         <div>
             <Helmet>
-                <title>스네이크 - 프로젝트 - USFREE</title>
+                <title>슬로운다운 - 프로젝트 - USFREE</title>
             </Helmet>
             <div id="projectmain">
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">
-                        <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">SNAKE</span></h1>
-                        <div class="text-black"><span class="fw-bolder">Unity　</span>2020. 06.</div>
+                        <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">SLOW DOWN</span></h1>
+                        <div class="text-black"><span class="fw-bolder">UnrealEngine　</span>2024. 02.</div>
                     </div>
                 </div>
                 <div class="bg-white">
@@ -47,15 +47,13 @@ class Snake extends Component {
                                             <div class="p-5 proj_text w-100 text-black fw-light">
                                                 <div class="mb-5 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">Snake Game</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">SlowDown Game</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트 기간</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">2020. 05. - 06.</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">2024. 02. -</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">주요 기능</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">Unity 게임엔진으로 제작된 Snake 게임. 사용자가 객체를 조작하여 코인을 모으면서 자신의 몸이나 벽에 부딪히지 않고, 최대한 많은 점수를 기록하는 게임.</div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">구현 기능</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">&middot; Normal Map을 사용하여 맵 텍스처의 입체감 구현<br/>&middot; 선형보간 알고리즘을 사용해 꼬리의 움직임 구현<br/>&middot; 벽에 충돌하거나 머리 객체가 자신의 꼬리 객체에 닿을 경우 사망처리 되며, 게임오버 UI 표출<br/>&middot; 랜덤으로 생성되는 코인 객체가 자연스럽게 360도 돌아갈 수 있도록 애니메이션 추가</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">언리얼</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">사용 기술</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">Unity, C#</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">UnrealEngine, C++, BluePrint</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">인원 구성</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>
@@ -95,4 +93,4 @@ class Snake extends Component {
     }
   }
 
-  export default Snake;
+  export default Slowdown;

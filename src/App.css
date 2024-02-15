@@ -291,6 +291,11 @@
   color: #FC8574;
 }
 
+.highlight-gradient {
+  background: linear-gradient(to top, #fc8574 30%, transparent 30%);
+  width: fit-content;
+}
+
 .left-box{
   border-color: #0078C3;
   border-left: 5px solid #FC8574;
@@ -5874,6 +5879,14 @@ textarea.form-control-lg {
 }
 
 .card-cover {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: var(--prj-card-bg);
+}
+
+.card-cover-nonhover {
   z-index: 5;
   background-repeat: no-repeat;
   background-position: center center;
