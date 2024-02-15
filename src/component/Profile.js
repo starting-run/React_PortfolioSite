@@ -221,7 +221,7 @@ class Profile extends Component {
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">기술 <span class="fs-5">Skills</span></div>
-                                            <div class="font-3 fw-bold fs-5 highlight-gradient px-2 text-black">언어 Languages</div>
+                                            <div class="font-3 fw-bold fs-5 highlight-gradient px-2 text-black">언어 <span class="fs-6">Language</span></div>
                                             <div class="row row-cols-lg-2 p-2 mb-3">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faCode}/> C / C++</div>
@@ -232,7 +232,7 @@ class Profile extends Component {
                                                     <div class="fw-light2 fs-8 mb-2 highlight">HTML을 사용할 수 있고, CSS와 JavaScript를 통해 웹페이지를 구현할 수 있습니다.</div>
                                                 </div>
                                             </div>
-                                            <div class="font-3 fw-bold fs-5 highlight-gradient px-2 text-black">도구 Tools</div>
+                                            <div class="font-3 fw-bold fs-5 highlight-gradient px-2 text-black">도구 <span class="fs-6">Tools</span></div>
                                             <div class="row row-cols-lg-3 p-2">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faGamepad}/> UnrealEngine</div>
