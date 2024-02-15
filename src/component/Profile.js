@@ -137,7 +137,7 @@ class Profile extends Component {
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">학력 <span class="fs-5">Education</span></div>
                                             <div class="row row-cols-lg-2 p-2">
-                                                <div class="col-auto text-black">
+                                                <div class="col-auto text-black mb-3">
                                                     <div class="fs-4 fw-bolder"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>강남대학교</a></div>
                                                     <div class="fw-light2 fs-7">경기도 용인시</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2019. 03. - </div>
@@ -205,41 +205,46 @@ class Profile extends Component {
                                     <Fade bottom delay={250}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">기술 <span class="fs-5">Skills</span></div>
-                                            <div class="row row-cols-lg-2 p-2">
-                                                <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faCode}/> C / C++</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">C와 C++을 사용하여 알고리즘을 해결하고 목표한 클래스를 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다. </div>
-                                                </div>
-                                                <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faHtml5}/> HTML</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">HTML을 사용할 수 있고, CSS와 JS를 통해 페이지를 구현할 수 있습니다.</div>
-                                                </div>
-                                                <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faReact}/> React</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다.</div>
-                                                </div>
-                                                <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faGamepad}/> UnrealEngine</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">C++을 사용하여 언리얼엔진을 활용할 수 있고, 목표한 컨텐츠를 제작하기 위해 학습중입니다.</div>
-                                                </div>
-                                                <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faMicrochip}/> Processing</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">프로세싱의 다양한 라이브러리를 사용할 수 있고, 이를 통해 인터랙티브 컨텐츠를 제작할 수 있습니다.</div>
-                                                </div>
-                                            
-                                            </div>
-                                        </div>
-                                    </div></div></Fade>
-                                    <Fade bottom delay={300}><div>
-                                    <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">병역 <span class="fs-5">Military Service</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity">병장 만기전역</div> 
                                                     <div class="fw-light2 text-black fs-7">육군 10방공단 505방공대대</div>
                                                     <div class="fw-light2 fs-8 mb-2 highlight">2021. 09. - 2023. 03.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></div></Fade>
+                                </div>
+                                <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 cards mb-4 pt-4">
+                                <Fade bottom delay={300}><div>
+                                    <div class="col">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
+                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">기술 <span class="fs-5">Skills</span></div>
+                                            <div class="font-3 fw-bold fs-5 highlight-gradient px-2 text-black">언어 Languages</div>
+                                            <div class="row row-cols-lg-2 p-2 mb-3">
+                                                <div class="col-auto mb-2">
+                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faCode}/> C / C++</div>
+                                                    <div class="fw-light2 fs-8 mb-2 highlight">C와 C++을 사용하여 알고리즘을 해결하고 목표한 클래스를 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다. </div>
+                                                </div>
+                                                <div class="col-auto mb-2">
+                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faHtml5}/> HTML5 / CSS3 / JavaScript</div>
+                                                    <div class="fw-light2 fs-8 mb-2 highlight">HTML을 사용할 수 있고, CSS와 JavaScript를 통해 웹페이지를 구현할 수 있습니다.</div>
+                                                </div>
+                                            </div>
+                                            <div class="font-3 fw-bold fs-5 highlight-gradient px-2 text-black">도구 Tools</div>
+                                            <div class="row row-cols-lg-3 p-2">
+                                                <div class="col-auto mb-2">
+                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faGamepad}/> UnrealEngine</div>
+                                                    <div class="fw-light2 fs-8 mb-2 highlight">C++을 사용하여 언리얼엔진을 활용할 수 있고, 목표한 컨텐츠를 제작하기 위해 학습중입니다.</div>
+                                                </div>
+                                                <div class="col-auto mb-2">
+                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faReact}/> React</div>
+                                                    <div class="fw-light2 fs-8 mb-2 highlight">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다.</div>
+                                                </div>
+                                                <div class="col-auto mb-2">
+                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faMicrochip}/> Processing</div>
+                                                    <div class="fw-light2 fs-8 mb-2 highlight">프로세싱의 다양한 라이브러리를 사용할 수 있고, 이를 통해 인터랙티브 컨텐츠를 제작할 수 있습니다.</div>
                                                 </div>
                                             </div>
                                         </div>
