@@ -50,7 +50,7 @@ class Profile extends Component {
                             <div class="col p-2">
                                 <div class="border-0 rounded-2 card-blur-info">
                                     <div class="p-3">
-                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faLocationDot}/>　<span class="fs-7 fw-light2 text-infopage">Mapo-gu, Seoul</span></span>
+                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faLocationDot}/>　<span class="fs-7 fw-light2 text-infopage">서울시 마포구</span></span>
                                         
                                     </div>
                                 </div>
