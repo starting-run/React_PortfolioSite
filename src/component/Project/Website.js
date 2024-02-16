@@ -29,7 +29,7 @@ class Website extends Component {
             <div id="projectmain">
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">
-                        <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">Portfolio Website</span></h1>
+                        <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">PORTFOLIO WEBSITE</span></h1>
                         <div class="text-black"><span class="fw-bolder">React　</span>2023. 10 - 2024. 02.</div>
                     </div>
                 </div>
