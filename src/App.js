@@ -67,8 +67,7 @@ function text_ready() {
                   <a class="nav-link" href="https://velog.io/@usfree" target='_blank' onClick={acorClose}><li class="nav-item">Blog</li></a>
                   <a class="nav-link" href="https://github.com/usfree" target='_blank' onClick={acorClose}><li class="nav-item">Github</li></a>
                   {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
-                  <span class="only-mobile-view hamburger-copy text-black pt-7">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
-                  
+
                 </ul>
                 
             </div>

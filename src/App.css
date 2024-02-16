@@ -568,7 +568,7 @@ body[data-darkmode=on] .darkmode > .inner{
   }
   .only-pc-view {
     display: none;
-  }/*
+  }
   .navbar-collapse {
     align-items: center;
     background-color: var(--bs-dark);
@@ -604,7 +604,7 @@ body[data-darkmode=on] .darkmode > .inner{
     font-size: 7px;
     z-index: 1;
     right: 10vw;
-  }*/
+  }
 }
 
 .prj-sub:hover {
