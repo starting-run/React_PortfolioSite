@@ -3,7 +3,7 @@ import video from '../../images/Pacman/Processing_Pacman.mp4'
 import pdf from '../../images/Pacman/Processing_Pacman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft, faClipboardList, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faClipboardList, faFileArrowDown, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
@@ -205,6 +205,7 @@ class Pacman extends Component {
                                                 <video src={video} controls controlsList="nodownload" style={{width: '400px', height: '500px;'}}></video><br/><br/>
                                                 <h3><b>Presentation</b></h3>
                                                 <p><iframe style={{width:'100%', height:'700px'}} src={pdf}></iframe></p>
+                                                <span>브라우저에서 PDF viwer를 지원하지 않을 경우 <a href="http://usfree.site/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf"><div class="btn btn-primary"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>
                                     </div>

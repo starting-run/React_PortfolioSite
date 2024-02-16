@@ -3,7 +3,7 @@ import video from '../../images/OpenGL/ironman.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft, faClipboardList, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faClipboardList, faFileArrowDown, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import {browserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 
 import img1 from '../../images/Unity/1.png';
@@ -88,6 +88,7 @@ class Snake extends Component {
                                                 <video class="mb-5" src={video1} controls controlsList="nodownload"></video><br/><br/>
                                                 <h3><b>Presentation</b></h3>
                                                 <p><iframe style={{width:"100%", height:"700px"}} src={pdf1}></iframe></p>
+                                                <span>브라우저에서 PDF viwer를 지원하지 않을 경우 <a href="https://usfree.site/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf"><div class="btn btn-primary"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>
                                     </div>

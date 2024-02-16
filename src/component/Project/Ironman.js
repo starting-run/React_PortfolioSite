@@ -3,7 +3,7 @@ import video from '../../images/OpenGL/ironman.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft, faClipboardList, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faClipboardList, faFileArrowDown, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 
 import img1 from '../../images/OpenGL/1.png';
@@ -78,6 +78,7 @@ class Ironman extends Component {
                                                 <video class="mb-5" src={video} controls controlsList="nodownload"></video>
                                                 <h3><b>Presentation</b></h3>
                                                 <p><iframe style={{width:"100%", height:"700px"}} src={pdf}></iframe></p>
+                                                <span>브라우저에서 PDF viwer를 지원하지 않을 경우 <a href="https://usfree.site/static/media/OpenGL_Ironman.54c28fdf5dac7d4a96f2.pdf"><div class="btn btn-primary"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>
                                     </div>
