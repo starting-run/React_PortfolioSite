@@ -582,15 +582,27 @@ body[data-darkmode=on] .darkmode > .inner{
   .navbar-toggler {
     z-index: 1;
   }
-  .nav-item {
+  .nav-link {
     position: relative;
     align-items: center;
     right: 10vw;
-    top: 20vh;
     font-size: 40px;
+    margin-top: 10px;
   }
+  .navbar-nav {
+    position: relative;
+    top: 20vh;
+  }
+
   .navbar-brand {
     z-index: 1;
+  }
+  .hamburger-copy {
+    position: relative;
+    font-size: 7px;
+    z-index: 1;
+    left: 53vw;
+    top: 70vh;
   }
 }
 
