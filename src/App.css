@@ -568,6 +568,30 @@ body[data-darkmode=on] .darkmode > .inner{
   .only-pc-view {
     display: none;
   }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background-color: var(--bs-dark);
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    position: fixed;
+  }
+  .navbar-toggler {
+    z-index: 1;
+  }
+  .nav-item {
+    position: relative;
+    align-items: center;
+    right: 10vw;
+    top: 20vh;
+    font-size: 40px;
+  }
+  .navbar-brand {
+    z-index: 1;
+  }
 }
 
 .prj-sub:hover {
