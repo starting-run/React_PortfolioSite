@@ -51,7 +51,7 @@ function text_ready() {
       <nav id="navbarcontrol" class="navbar navbar-upper navbar-expand-lg navbar-light navbar-py">
         <div id='changecontainer' class="container-full px-4 ">
             <NavLink exact to="/" className="navbar-brand" id="mains" onClick={acorClose}><img class="logoimg"></img></NavLink>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <label class="hamburger">
                 <input type="checkbox" id="hbg"></input>
