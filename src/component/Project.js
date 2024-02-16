@@ -139,7 +139,7 @@ class Project extends Component {
                                         <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
                                             <img class="card-image" src ={project4}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
-                                                <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Porfolio Website<div class="kor-hidden">포트폴리오 사이트</div></h3>
+                                                <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Portfolio Website<div class="kor-hidden">포트폴리오 사이트</div></h3>
                                                 <ul class="d-flex list-unstyled mt-auto small2">
                                                 <li class="d-flex align-items-center me-3 city">
                                                 <FontAwesomeIcon icon={faLayerGroup} />
