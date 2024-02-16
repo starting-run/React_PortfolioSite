@@ -53,7 +53,7 @@ class Home extends Component {
                                                 <div class="fs-6 mb-1 font-3"><b>조우현</b></div>
                                                 {/*<div class="fw-light2 mb-1 fs-6 font-3">게임 클라이언트 프로그래머</div>*/}
                                                 <div class="fw-light2 fs-6 mb-3 font-3"><a href="https://sae.kangnam.ac.kr/">강남대학교 ICT공학부</a> 재학(2019 - )</div>
-                                                <div class="fw-light2 fs-6 mb-3 font-3 highlight">포트폴리오 목적으로 제작된 사이트입니다.<br/>사용자 지정테마에 따라 라이트/다크모드로 동작합니다.</div>
+                                                <div class="fw-light2 fs-6 mb-3 font-3 highlight">포트폴리오의 목적으로 제작되었습니다.<br/>사용자 지정테마에 따라 라이트/다크모드로 동작합니다.</div>
                                             </div>
                                         </div>
                                     </div>
