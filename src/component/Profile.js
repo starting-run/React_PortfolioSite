@@ -89,7 +89,7 @@ class Profile extends Component {
                                         <div class="card h-100 bg-main-color overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="font-3  p-2">
                                                 <div class="text-black fs-3 mb-5">More<br/>And<br/>More<br/><b>CREATIVELY</b></div>
-                                                <div class="text-black fs-5 ">게임클라이언트 프로그래머<br/><b>조우현</b>입니다.</div>
+                                                <div class="text-black fs-5 ">창의적인 개발자<br/><b>조우현</b>입니다.</div>
                                             </div>
                                         </div>
                                     </div>
