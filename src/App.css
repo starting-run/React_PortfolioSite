@@ -593,7 +593,7 @@ body[data-darkmode=on] .darkmode > .inner{
     font-family: var(--font-9) !important;
   }
 
-  .navbar-nav {
+  .navbar-nav a {
     position: relative;
     top: 20vh;
   }
@@ -606,7 +606,7 @@ body[data-darkmode=on] .darkmode > .inner{
     font-size: 7px;
     z-index: 1;
     right: 10vw;
-    top: 100px;
+    top: 30vh;
   }
 }
 
