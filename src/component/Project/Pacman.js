@@ -156,7 +156,7 @@ class Pacman extends Component {
                                 <div class="card shadow rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
-                                            <div class="p-5 proj_text w-100 text-black fw-light">
+                                            <div class="p-3 proj_text w-100 text-black fw-light">
                                                 <div class="mb-5 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">Pacman Game</div>

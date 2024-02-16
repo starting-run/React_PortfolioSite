@@ -45,7 +45,7 @@ class Website extends Component {
                                 <div class="card shadow rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
-                                            <div class="p-5 proj_text w-100 text-black fw-light">
+                                            <div class="p-3 proj_text w-100 text-black fw-light">
                                                 <div class="mb-5 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">Portfolio Website</div>
@@ -65,7 +65,7 @@ class Website extends Component {
                                                 <h3><b><FontAwesomeIcon icon={faClipboardList} /> Summary</b></h3>
                                                 <div class="mb-4">포트폴리오 게시를 목적으로 제작한 웹사이트입니다. 현재는 순수 React를 이용하여 <b>SPA(Single Page Application)</b>방식을 사용하고 있지만, 이는 <b>SEO(검색 엔진 최적화)</b>에서 문제를 보입니다. 이러한 문제점으로 인해 차후에는 Next.js의 <b>SSR(Server Side Rendering)</b>방식을 사용하여 업그레이드를 염두해두고 있습니다.<br/>또한, 깃허브 Pages 엔진에서 탈피하여 DB를 연동하여 자체 개발 블로그를 구축할 계획도 갖고 있습니다.</div>
                                                 <h3><b><FontAwesomeIcon icon={faLightbulb} /> Reason</b></h3>
-                                                <div class="mb-4">개발자로서 포트폴리오를 게시하기 위한 사이트의 개발 필요성을 느꼈습니다. 처음에는 React가 아닌 순수 HTML을 통해 ajax로 비동기 웹페이지를 구현했지만<span class="highlight">(Github Repository의 main브런치 → DefaultHTML을 통해 확인할 수 있습니다.)</span>, 한계점을 느끼고 완벽한 비동기 웹페이지를 구현하기 위해 알아보던 중 React에 매력을 느끼게 되었고, 이를 학습하여 제작하게 되었습니다. React를 처음으로 사용하며 잘 몰랐던 프론트웹페이지 제작에 대해 알게되는 계기가 되었고, 현재는 깃허브 Pages엔진을 사용하여 배포하고 있지만, 추후 SSR 방식으로 웹페이지를 전환하게 된다면 자체 서버를 통해 배포하는 것도 염두해 둘 것 같습니다.</div>
+                                                <div class="mb-4">개발자로서 포트폴리오를 게시하기 위한 사이트의 개발 필요성을 느꼈습니다. 처음에는 React가 아닌 순수 HTML을 통해 ajax로 비동기 웹페이지를 구현했지만<span class="highlight">(Github Repository의 main브런치 → DefaultHTML을 통해 확인할 수 있습니다.)</span>, 한계점을 느끼고 완벽한 비동기 웹페이지를 구현하기 위해 알아보던 중 React에 매력을 느끼게 되었고, 이를 학습하여 제작하게 되었습니다. React를 처음으로 사용하며 잘 몰랐던 프론트웹페이지 제작에 대해 알게되는 계기가 되었고, 현재는 깃허브 Pages엔진을 사용하여 배포하고 있지만, 추후 SSR 방식으로 웹페이지를 전환하게 된다면 자체 서버를 통해 배포하는 것도 고려중입니다.</div>
                                                 
                                                 <h3><b><FontAwesomeIcon icon={faGear} /> Setup</b></h3>
                                                 <div class="card card-cover-nonhover p-3 rounded-3 border-0">
