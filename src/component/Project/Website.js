@@ -21,7 +21,7 @@ function Website() {
             <Helmet>
                 <title>포트폴리오 웹사이트 - 프로젝트 - USFREE</title>
             </Helmet>
-            <Toaster position='top-center'/>
+            <Toaster position='bottom-center'/>
             <div id="projectmain">
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">

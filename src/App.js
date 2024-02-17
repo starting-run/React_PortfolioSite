@@ -57,7 +57,7 @@ useEffect(() => {
   return (
     <div className="App">
   <div>
-  <Toaster position='top-center'/>
+  <Toaster position='bottom-center'/>
     <div class="bg-video">
       <video class="bg-video__content" autoPlay muted loop>
         <source src={video} type="video/mp4" />
