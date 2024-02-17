@@ -12,6 +12,9 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faBlogger } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
+import toast, { Toaster } from 'react-hot-toast';
+import { useEffect } from 'react';
+
 
 function App() {
   $(document).scroll(function() {
@@ -39,9 +42,22 @@ function text_ready() {
   alert('sidebar 준비중입니다 !');
 }
 
+const notify = () => toast('사용자 기기 설정에 따라 라이트/다크모드로 동작합니다.',
+{
+  duration: 3000,
+  icon: '👏'
+}
+);
+
+useEffect(() => {
+    notify();
+  }, []);
+
+
   return (
     <div className="App">
   <div>
+  <Toaster position='top-center'/>
     <div class="bg-video">
       <video class="bg-video__content" autoPlay muted loop>
         <source src={video} type="video/mp4" />
