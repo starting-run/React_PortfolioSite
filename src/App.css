@@ -605,6 +605,9 @@ body[data-darkmode=on] .darkmode > .inner{
     z-index: 1;
     right: 10vw;
   }
+  .size-repack {
+    height: 100vh;
+  }
 }
 
 .prj-sub:hover {
