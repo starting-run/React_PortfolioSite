@@ -5958,6 +5958,10 @@ textarea.form-control-lg {
   transition: all 0.3s;
 }
 
+.card-cover-danger {
+  background-color: #dc3545;
+}
+
 .card-border-0 {
   border: none;
 }

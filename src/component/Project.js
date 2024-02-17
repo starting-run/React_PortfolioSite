@@ -4,6 +4,7 @@ import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
 import project4 from '../images/OGmetaN.png';
+import project5 from '../images/slowdown.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare, faLayerGroup } from "@fortawesome/free-solid-svg-icons";
@@ -32,7 +33,6 @@ function filter() {
         }
     }
   }
-
 
   function text_ready() {
     alert('준비중입니다 !');
@@ -107,12 +107,12 @@ class Project extends Component {
                                   </div>
                               </a>
                           </div>*/}
-                          <div class="img-fluid" onClick={text_ready}>
-                              {/*<NavLink to="slowdown" id="slowdown">*/}
+                          <div class="img-fluid"> {/* onClick={text_ready}*/}
+                              <NavLink to="slowdown" id="slowdown">
                             <Fade bottom delay={0}>
                                 <div class="col">
                                     <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
-                                        {/*<img class="card-image"src = {project5}></img>*/}
+                                        <img class="card-image"src = {project5}></img>
                                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
                                             <span class="fs-3 mb-2 display-7 lh-1 fw-bold country font-3">SlowDown<div class="kor-hidden">슬로우다운</div></span>
                                             <ul class="d-flex list-unstyled mt-auto small2">
@@ -130,7 +130,7 @@ class Project extends Component {
                                     </div>
                                 </div>
                             </Fade>
-                              {/*</NavLink>*/}
+                              </NavLink>
                           </div>
                           <div class="img-fluid">
                               <NavLink to="website" id="website">

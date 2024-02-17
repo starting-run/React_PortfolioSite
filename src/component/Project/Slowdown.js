@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import video from '../../images/OpenGL/ironman.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faClipboardList, faGear, faLightbulb, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import {browserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 
 import img1 from '../../images/Unity/1.png';
@@ -18,19 +18,28 @@ import img9 from '../../images/Unity/9.png';
 import video1 from '../../images/Unity/Unity_Snake.mp4'
 import pdf1 from '../../images/Unity/Unity_Snake.pdf';
 import { Helmet } from 'react-helmet';
+import toast, { Toaster } from 'react-hot-toast';
 
-class Slowdown extends Component {
-    render() {
+
+
+function Slowdown() {
+    const notify = () => toast.error('제작 진행중인 프로젝트입니다 !', {duration: 4000});
+
+    useEffect(() => {
+        notify();
+      }, []);
+
       return (
         <div>
             <Helmet>
-                <title>슬로운다운 - 프로젝트 - USFREE</title>
+                <title>슬로우 다운 - 프로젝트 - USFREE</title>
             </Helmet>
+            <Toaster position='top-center'/>
             <div id="projectmain">
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">
                         <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">SLOW DOWN</span></h1>
-                        <div class="text-black"><span class="fw-bolder">UnrealEngine　</span>2024. 02.</div>
+                        <div class="text-black"><span class="fw-bolder">UnrealEngine　</span>2024. 02. - Developing </div>
                     </div>
                 </div>
                 <div class="bg-white">
@@ -45,13 +54,18 @@ class Slowdown extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-3 proj_text w-100 text-black fw-light">
+                                                <div class="mb-3 w-100 card card-cover-danger p-3 rounded-3 border-0">
+                                                    <span class="text-only-white"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 ! 예상 완료 기간은 5월입니다.</span>
+                                                </div>
                                                 <div class="mb-5 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">SlowDown Game</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트 기간</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">2024. 02. -</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">주요 기능</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">언리얼</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">여러 개의 층으로 구성된 공간에서 각 층의 클리어 조건을 달성하여 최하층에 도달하는 게임</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">구현 기능</div>
+                                                    <div class="font-3 fw-light fs-6 mb-3">&middot; </div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">사용 기술</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">UnrealEngine, C++, BluePrint</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">인원 구성</div>
@@ -59,23 +73,16 @@ class Slowdown extends Component {
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>
                                                     <div class="font-3 fw-light fs-6">하단 참고</div>
                                                 </div>
-                                                <h3><b>Normal Map</b></h3>
-                                                <img class="mb-2" src={img1}/><br/>
-                                                <p class="mb-5">맵 제작에서 Normal Map을 이용하여 입체감 구현</p>
-                                                <h3><b>Implement</b></h3>
-                                                    <img class="mb-2" src={img2}/><p>머리의 움직임 GetAxis("Horizontal") A, D, ←, →<br/>꼬리의 움직임은 선형 보간 알고리즘을 사용 Vector3.Lerp()</p>
-                                                    <img class="mb-2" src={img3}/><br/>
-                                                    <img class="mb-2" src={img4}/><p>꼬리 추가에 Prefab과 List구조가 사용되었고, 머리와의 충돌을 방지하기 위해 첫번째 꼬리의 tag를 제거하였습니다.<br/>또한 세 마디 단위로 색이 변경됩니다.</p>
-                                                    <img class="mb-2" src={img5}/><p>코인에 충돌시 coinCnt가 1씩 증가하고 꼬리가 1추가됨과 동시에, 코인이 필드 내 랜덤 위치에 재생성됩니다.<br/>벽 또는 자신의 꼬리에 충돌시 사망하고 GAMEOVER UI가 Open됩니다.</p>
-                                                <br/>
-                                                <h3><b>Animation</b></h3>
-                                                <img class="mb-2" src={img6}/><img src={img7}/><br/><p>Rotation.y 값을 0 ~ 360도 지정하여 코인이 360도 돌아가는 효과 구현. (Samples Frame 30)</p><br/>
-                                                <h3><b>UI</b></h3>
-                                                <img class="mb-2" src={img8}/><br/><img src={img9}/><br/><br/>
-                                                <h3><b>Result</b></h3>
-                                                <video class="mb-5" src={video1} controls controlsList="nodownload"></video><br/><br/>
-                                                <h3><b>Presentation</b></h3>
-                                                <p><iframe style={{width:"100%", height:"700px"}} src={pdf1}></iframe></p>
+                                                <h3><b><FontAwesomeIcon icon={faClipboardList} /> Summary</b></h3>
+                                                <div class="mb-4">-</div>
+                                                <h3><b><FontAwesomeIcon icon={faLightbulb} /> Reason</b></h3>
+                                                <div class="mb-4">-</div>
+                                                
+                                                <h3><b><FontAwesomeIcon icon={faGear} /> Setup</b></h3>
+                                                <div class="card card-cover-nonhover p-3 rounded-3 border-0 mb-5">
+                                                    # UnrealEngine<br/>
+                                                    
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -91,6 +98,6 @@ class Slowdown extends Component {
         </div>
       );
     }
-  }
+
 
   export default Slowdown;

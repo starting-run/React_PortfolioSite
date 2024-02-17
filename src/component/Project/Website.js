@@ -1,31 +1,27 @@
-import React, { Component } from 'react';
-import video from '../../images/OpenGL/ironman.mp4'
-import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
+import React, { Component, useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare, faChevronLeft, faClipboardList, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
-import {browserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
-import img1 from '../../images/Unity/1.png';
-import img2 from '../../images/Unity/2.png';
-import img3 from '../../images/Unity/3.png';
-import img4 from '../../images/Unity/4.png';
-import img5 from '../../images/Unity/5.png';
-import img6 from '../../images/Unity/6.png';
-import img7 from '../../images/Unity/7.gif';
-import img8 from '../../images/Unity/8.png';
-import img9 from '../../images/Unity/9.png';
-import video1 from '../../images/Unity/Unity_Snake.mp4'
-import pdf1 from '../../images/Unity/Unity_Snake.pdf';
+
 import { Helmet } from 'react-helmet';
+import toast, { Toaster } from 'react-hot-toast';
 
-class Website extends Component {
-    render() {
+
+function Website() {
+    const notify = () => toast.success('현재 접속중인 웹사이트입니다 !', {duration: 4000});
+
+    useEffect(() => {
+        notify();
+      }, []);
+
       return (
         <div>
             <Helmet>
                 <title>포트폴리오 웹사이트 - 프로젝트 - USFREE</title>
             </Helmet>
+            <Toaster position='top-center'/>
             <div id="projectmain">
                 <div class="container px-4 my-2 mt-10">
                     <div class="mb-5">
@@ -89,6 +85,5 @@ class Website extends Component {
         </div>
       );
     }
-  }
 
   export default Website;

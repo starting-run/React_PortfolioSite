@@ -21,7 +21,6 @@ import Website from './component/Project/Website';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <HashRouter>
       <ToTopButton />
       <ScrollToTop />
@@ -39,7 +38,6 @@ root.render(
       </Routes>
       <App />
     </HashRouter>
-  </React.StrictMode>
 );
 
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import main_profile_btn from "../images/profile/edu.jpg";
 import main_project_btn from "../images/projects/2.png";
@@ -11,8 +11,7 @@ import { HashLink } from 'react-router-hash-link';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
 
-class Home extends Component {
-    render() {
+function Home() {
       return (
         <div id="main">
         <Helmet>
@@ -139,6 +138,6 @@ class Home extends Component {
 
       );
     }
-  }
+
 
   export default Home;
