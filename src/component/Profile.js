@@ -25,39 +25,39 @@ class Profile extends Component {
                                 <div class="character_image"><img src={profileimg}/></div>
                             </div>
                             <div class="col-auto px-5">
-                                <div class="mt-2"><div class="btn btn-primary-round-outline pt-0"><span class="fs-7 font-3">USFREE</span></div></div>
+                                <div class="mt-2"><div class="btn btn-primary-round-outline py-0 pb-1"><span class="fs-7 font-3">USFREE</span></div></div>
                                 <div class="mb-0"><span class="fs-2 font-3 fw-bolder text-black">조우현</span></div>
-                                <div class="font-3 fs-7 fw-bold text-black">Woohyun Cho</div>
+                                <div class="font-3 fs-7 fw-light2 text-black">Woohyun Cho</div>
                             </div>
                         </div>
-                        <div class="row row-cols-2 row-cols-lg-5  justify-content-center font-3 mb-5">
-                        <Fade bottom delay={0}><div>
-                            <div class="col p-2">
-                                <div class="border-0 rounded-2 card-blur-info">
-                                    <div class="p-3">
-                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faBlogger} />　<span class="fs-7 fw-light2 text-infopage"><a href="https://velog.io/@usfree">Blog</a></span></span>
-                                        
+                        <div class="row row-cols-2 row-cols-lg-5  justify-content-center font-2 mb-5">
+                            <Fade bottom delay={0}><div>
+                                <div class="col p-2">
+                                    <div class="border-0 rounded-1 card-blur-info">
+                                        <div class="p-3">
+                                            <span class="fs-6 text-main mb-5"><FontAwesomeIcon icon={faBlogger} />　<span class="fs-7 fw-light2 text-infopage"><a href="https://velog.io/@usfree">Blog</a></span></span>
+                                            
+                                        </div>
                                     </div>
-                                </div>
-                        </div></div></Fade>
-                        <Fade bottom delay={30}><div>
-                            <div class="col p-2">
-                                <div class="border-0 rounded-2 card-blur-info">
-                                    <div class="p-3">
-                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faGithub}/>　<span class="fs-7 fw-light2 text-infopage"><a href="https://github.com/usfree">Github</a></span></span>
+                            </div></div></Fade>
+                            <Fade bottom delay={30}><div>
+                                <div class="col p-2">
+                                    <div class="border-0 rounded-1 card-blur-info">
+                                        <div class="p-3">
+                                            <span class="fs-6 text-main mb-5"><FontAwesomeIcon icon={faGithub}/>　<span class="fs-7 fw-light2 text-infopage"><a href="https://github.com/usfree">Github</a></span></span>
+                                        </div>
                                     </div>
-                                </div>
-                        </div></div></Fade>
-                        <Fade bottom delay={60}><div>
-                            <div class="col p-2">
-                                <div class="border-0 rounded-2 card-blur-info">
-                                    <div class="p-3">
-                                        <span class="font-3 fs-6 text-main mb-5 no_enter"><FontAwesomeIcon icon={faEnvelopeOpenText}/>　
-                                        <span class="fs-7 fw-light2 text-infopage only-pc-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">ploris576@kangnam.ac.kr</a></span></span>
-                                        <span class="fs-7 fw-light2 text-infopage only-mobile-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">Mail</a></span>
+                            </div></div></Fade>
+                            <Fade bottom delay={60}><div>
+                                <div class="col p-2">
+                                    <div class="border-0 rounded-1 card-blur-info">
+                                        <div class="p-3">
+                                            <span class="fs-6 text-main mb-5 no_enter"><FontAwesomeIcon icon={faEnvelopeOpenText}/>　
+                                            <span class="fs-7 fw-light2 text-infopage only-pc-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">ploris576@kangnam.ac.kr</a></span></span>
+                                            <span class="fs-7 fw-light2 text-infopage only-mobile-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">Mail</a></span>
+                                        </div>
                                     </div>
-                                </div>
-                        </div></div></Fade>
+                            </div></div></Fade>
                         </div>
                     </div>
 
@@ -70,10 +70,10 @@ class Profile extends Component {
                             <Fade bottom delay={0}><div>
                                 <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 cards mb-4">
                                     <div class="col">
-                                        <div class="card h-100 bg-main-color overflow-hidden border-0 card-hover-up rounded-3 p-3 shadow-md">
+                                        <div class="card h-100 bg-main-color overflow-hidden border-0 card-hover-up p-3 ">
                                             <div class="font-3 text-center">
                                                 <div class="text-black fs-3 mb-1">More And More <b>CREATIVELY</b></div>
-                                                <div class="text-black fs-5 ">창의적인 개발자 <b>조우현</b>입니다.</div>
+                                                <div class="text-black fs-5 font-3">창의적인 개발자 <b>조우현</b>입니다.</div>
                                             </div>
                                         </div>
                                     </div>
@@ -82,19 +82,19 @@ class Profile extends Component {
                                 <div class="row row-cols-1 row-cols-xxl-2 g-4 cards">
                                 <Fade bottom delay={100}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">학력 <span class="fs-5">Education</span></div>
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
+                                            <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">EDUCATION</div>
                                             <div class="row row-cols-lg-2 p-2">
-                                                <div class="col-auto text-black mb-3">
-                                                    <div class="fs-4 fw-bolder"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>Kangnam University</a></div>
+                                                <div class="col-auto text-black mb-3 font-2">
+                                                    <div class="fs-5 fw-light2"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>Kangnam University</a></div>
                                                     <div class="fw-light2 fs-7">Yongin-si, Gyeonggi-do</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2019. 03. - </div>
                                                     <div class="fw-light2 fs-7">
                                                         major: Software /<br/>double major: VirtualReality
                                                     </div>
                                                 </div>
-                                                <div class="col-auto text-black">
-                                                    <div class="fs-4 fw-bolder"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>Hanseong Highschool</a></div>
+                                                <div class="col-auto text-black font-2">
+                                                    <div class="fs-5 fw-light2"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>Hanseong Highschool</a></div>
                                                     <div class="fw-light2 fs-7">Seodaemun-gu, Seoul</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2015. 03. - 2018. 02.</div>
                                                 </div>
@@ -103,11 +103,11 @@ class Profile extends Component {
                                     </div></div></Fade>
                                 <Fade bottom delay={150}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">경험 <span class="fs-5">Experience</span></div>
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
+                                            <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">EXPERIENCE</div>
                                             <div class="row row-cols-lg-2 p-2">
-                                                <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity">42Seoul LaPiscine</div>
+                                                <div class="col-auto mb-2 font-2">
+                                                    <div class="fs-5 fw-light2 fw-opacity">42Seoul LaPiscine</div>
                                                     <div class="fw-light2 text-black fs-7">Innovation Academy</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2023. 07. 17. - 08. 11.</div>
                                                     <div class="fw-light2 fs-7">
@@ -120,27 +120,27 @@ class Profile extends Component {
                                     </div></div></Fade>
                                     <Fade bottom delay={200}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">자격/증명 <span class="fs-5">Certificates</span></div>
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
+                                            <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">CERTIFICATE</div>
                                             <div class="row row-cols-lg-2 p-2">
-                                                <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity">웹디자인기능사</div>
+                                                <div class="col-auto mb-2 font-2">
+                                                    <div class="fs-5 fw-light2 fw-opacity">웹디자인기능사</div>
                                                     <div class="fw-light2 fs-7 mb-2 highlight">2022. 09. 08.</div>
                                                 </div>
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity">컴퓨터그래픽스운용기능사</div>
+                                                    <div class="fs-5 fw-light2 fw-opacity">컴퓨터그래픽스운용기능사</div>
                                                     <div class="fw-light2 fs-7 mb-2 highlight">2021. 05. 07.</div>
                                                 </div>
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity">워드프로세서</div>
+                                                    <div class="fs-5 fw-light2 fw-opacity">워드프로세서</div>
                                                     <div class="fw-light2 fs-7 mb-2 highlight">2019. 09. 13.</div>
                                                 </div>
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity">GTQi(Illustrator)</div>
+                                                    <div class="fs-5 fw-light2 fw-opacity">GTQi(Illustrator)</div>
                                                     <div class="fw-light2 fs-7 mb-2 highlight">2014. 03. 14.</div>
                                                 </div>
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity">GTQ(Photoshop)</div>
+                                                    <div class="fs-5 fw-light2 fw-opacity">GTQ(Photoshop)</div>
                                                     <div class="fw-light2 fs-7 mb-2 highlight">2013. 12. 13.</div>
                                                 </div>
                                             </div>
@@ -148,11 +148,11 @@ class Profile extends Component {
                                     </div></div></Fade>
                                     <Fade bottom delay={250}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">병역 <span class="fs-5">Military Service</span></div>
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
+                                            <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">MILITARY SERVICE</div>
                                             <div class="row row-cols-lg-2 p-2">
-                                                <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity">병장 만기전역</div> 
+                                                <div class="col-auto mb-2 font-2">
+                                                    <div class="fs-5 fw-light2 fw-opacity">병장 만기전역</div> 
                                                     <div class="fw-light2 text-black fs-7">육군 10방공단 505방공대대</div>
                                                     <div class="fw-light2 fs-8 mb-2 highlight">2021. 09. - 2023. 03.</div>
                                                 </div>
@@ -163,31 +163,31 @@ class Profile extends Component {
                                 <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 cards mb-4 pt-4">
                                 <Fade bottom delay={300}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">기술 <span class="fs-5">Skills</span></div>
-                                            <div class="font-3 fw-bold fs-5 highlight-gradient text-black">Language<span class="fs-6"></span></div>
-                                            <div class="row row-cols-lg-2 p-2 mb-3">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
+                                            <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">SKILL</div>
+                                            <div class="font-3 fw-light2 fs-5 highlight-gradient text-black">Language<span class="fs-6"></span></div>
+                                            <div class="row row-cols-lg-2 p-2 mb-3 font-2">
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faCode}/> C / C++</div>
+                                                    <div class="fs-5 fw-light2 fw-opacity"><FontAwesomeIcon icon={faCode}/> C / C++</div>
                                                     <div class="fw-light2 fs-8 mb-2 highlight">C와 C++을 사용하여 알고리즘을 해결하고 목표한 클래스를 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다. </div>
                                                 </div>
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faHtml5}/> HTML5 / CSS3 / JavaScript</div>
+                                                    <div class="fs-5 fw-light2 fw-opacity"><FontAwesomeIcon icon={faHtml5}/> HTML5 / CSS3 / JavaScript</div>
                                                     <div class="fw-light2 fs-8 mb-2 highlight">HTML을 사용할 수 있고, CSS와 JavaScript를 통해 웹페이지를 구현할 수 있습니다.</div>
                                                 </div>
                                             </div>
-                                            <div class="font-3 fw-bold fs-5 highlight-gradient text-black">Tools<span class="fs-6"></span></div>
-                                            <div class="row row-cols-lg-3 p-2">
+                                            <div class="font-3 fw-light2 fs-5 highlight-gradient text-black">Tools<span class="fs-6"></span></div>
+                                            <div class="row row-cols-lg-3 p-2 font-2">
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faGamepad}/> UnrealEngine</div>
+                                                    <div class="fs-5 fw-light2 fw-opacity"><FontAwesomeIcon icon={faGamepad}/> UnrealEngine</div>
                                                     <div class="fw-light2 fs-8 mb-2 highlight">C++을 사용하여 언리얼엔진을 활용할 수 있고, 목표한 컨텐츠를 제작하기 위해 학습중입니다.</div>
                                                 </div>
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faReact}/> React</div>
+                                                    <div class="fs-5 fw-light2 fw-opacity"><FontAwesomeIcon icon={faReact}/> React</div>
                                                     <div class="fw-light2 fs-8 mb-2 highlight">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다.</div>
                                                 </div>
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faMicrochip}/> Processing</div>
+                                                    <div class="fs-5 fw-light2 fw-opacity"><FontAwesomeIcon icon={faMicrochip}/> Processing</div>
                                                     <div class="fw-light2 fs-8 mb-2 highlight">프로세싱의 다양한 라이브러리를 사용할 수 있고, 이를 통해 인터랙티브 컨텐츠를 제작할 수 있습니다.</div>
                                                 </div>
                                             </div>

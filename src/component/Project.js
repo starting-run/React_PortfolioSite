@@ -3,7 +3,7 @@ import Promotionsection from '../images/projects/snap.webp';
 import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
-import project4 from '../images/OGmetaN.png';
+import project4 from '../images/portfolio.png';
 import project5 from '../images/slowdown.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -107,20 +107,18 @@ function Project() {
                               {/*<NavLink to="slowdown" id="slowdown">*/}
                             <Fade bottom delay={0}>
                                 <div class="col">
-                                    <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
-                                        {/*<img class="card-image"src = {project5}></img>*/}
-                                        <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mb-5 mt-3">
-                                            <span class="fs-3 mb-2 display-7 lh-1 fw-bold country font-3">SlowDown<div class="kor-hidden">슬로우다운</div></span>
-                                            <ul class="d-flex list-unstyled mt-auto small2">
-                                            <li class="d-flex align-items-center me-3 city">
-                                            <FontAwesomeIcon icon={faLayerGroup}/>
-                                                <span class="">　UnrealEngine</span>
-                                                <span class="kor-hidden">언리얼엔진</span>
-                                            </li>
-                                            <li class="d-flex align-items-center">
-                                            <FontAwesomeIcon icon={faCalendar}/>
-                                                <div class="">　2024. 02. ~ Developing</div>
-                                            </li>
+                                    <div class="card card-cover h-100 overflow-hidden text-black card-border-0 shadow-sm">
+                                        {/*<img class="card-image" src = {project5}></img>*/}
+                                        <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                            <span class="fs-3 mb-2 lh-1 fw-light2 country font-6">SlowDown<div class="kor-hidden">슬로우다운</div></span>
+                                            <ul class="list-unstyled mt-auto small2">
+                                                <li class="d-flex align-items-center me-3 city mb-4">
+                                                    <span class="">UnrealEngine</span>
+                                                    <span class="kor-hidden">언리얼엔진</span>
+                                                </li>
+                                                <li class="d-flex align-items-center">
+                                                    <span class="">2024. 02. - Developing</span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -132,20 +130,18 @@ function Project() {
                               <NavLink to="website" id="website">
                                 <Fade bottom delay={50}>
                                     <div class="col">
-                                        <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
+                                        <div class="card card-cover h-100 overflow-hidden text-black  card-border-0 shadow-sm">
                                             <img class="card-image" src ={project4}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
-                                                <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Portfolio Website<div class="kor-hidden">포트폴리오 사이트</div></h3>
-                                                <ul class="d-flex list-unstyled mt-auto small2">
-                                                <li class="d-flex align-items-center me-3 city">
-                                                <FontAwesomeIcon icon={faLayerGroup} />
-                                                    <div class="">　React</div>
-                                                    <div class="kor-hidden">리액트</div>
-                                                </li>
-                                                <li class="d-flex align-items-center">
-                                                <FontAwesomeIcon icon={faCalendar} />
-                                                    <div class="">　2023. 10. - 2024. 02.</div>
-                                                </li>
+                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span class="fs-3 mb-2 lh-1 fw-light2 country font-6">Portfolio Website<div class="kor-hidden">포트폴리오</div></span>
+                                                <ul class="list-unstyled mt-auto small2">
+                                                    <li class="d-flex align-items-center me-3 city mb-4">
+                                                        <span class="">React</span>
+                                                        <span class="kor-hidden">리액트</span>
+                                                    </li>
+                                                    <li class="d-flex align-items-center">
+                                                        <span class="">2023. 10. - 2024. 02.</span>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -157,20 +153,18 @@ function Project() {
                               <NavLink to="pacman" id="pacman">
                                 <Fade bottom delay={100}>
                                     <div class="col">
-                                        <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
+                                        <div class="card card-cover h-100 overflow-hidden text-black  card-border-0 shadow-sm">
                                             <img class="card-image" src ={project3}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
-                                                <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Pacman<div class="kor-hidden">팩맨</div></h3>
-                                                <ul class="d-flex list-unstyled mt-auto small2">
-                                                <li class="d-flex align-items-center me-3 city">
-                                                <FontAwesomeIcon icon={faLayerGroup} />
-                                                    <div class="">　Processing</div>
-                                                    <div class="kor-hidden">프로세싱</div>
-                                                </li>
-                                                <li class="d-flex align-items-center">
-                                                <FontAwesomeIcon icon={faCalendar} />
-                                                    <div class="">　2023. 10.</div>
-                                                </li>
+                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span class="fs-3 mb-2 lh-1 fw-light2 country font-6">Pacman<div class="kor-hidden">팩맨</div></span>
+                                                <ul class="list-unstyled mt-auto small2">
+                                                    <li class="d-flex align-items-center me-3 city mb-4">
+                                                        <span class="">Processing</span>
+                                                        <span class="kor-hidden">프로세싱</span>
+                                                    </li>
+                                                    <li class="d-flex align-items-center">
+                                                        <span class="">2023. 10.</span>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -182,20 +176,18 @@ function Project() {
                               <NavLink to="ironman" id="ironman">
                                 <Fade bottom delay={150}>
                                     <div class="col">
-                                        <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
+                                        <div class="card card-cover h-100 overflow-hidden text-black  card-border-0 shadow-sm">
                                             <img class="card-image" src ={project2}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
-                                                <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Ironman<div class="kor-hidden">아이언맨</div></h3>
-                                                <ul class="d-flex list-unstyled mt-auto small2">
-                                                <li class="d-flex align-items-center me-3 city">
-                                                <FontAwesomeIcon icon={faLayerGroup} />
-                                                    <div class="">　OpenGL</div>
-                                                    <div class="kor-hidden">오픈지엘</div>
-                                                </li>
-                                                <li class="d-flex align-items-center">
-                                                <FontAwesomeIcon icon={faCalendar} />
-                                                    <div class="">　2021. 06.</div>
-                                                </li>
+                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span class="fs-3 mb-2 lh-1 fw-light2 country font-6">Ironman<div class="kor-hidden">아이언맨</div></span>
+                                                <ul class="list-unstyled mt-auto small2">
+                                                    <li class="d-flex align-items-center me-3 city mb-4">
+                                                        <span class="">OpenGL</span>
+                                                        <span class="kor-hidden">오픈지엘</span>
+                                                    </li>
+                                                    <li class="d-flex align-items-center">
+                                                        <span class="">2021. 06.</span>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -207,20 +199,18 @@ function Project() {
                             <NavLink to="snake" id="ironman">
                                 <Fade bottom delay={200}>
                                     <div class="col">
-                                        <div class="card card-cover h-100 overflow-hidden text-black rounded-3 card-border-0 shadow-md">
+                                        <div class="card card-cover h-100 overflow-hidden text-black  card-border-0 shadow-sm">
                                             <img class="card-image" src ={project1}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 text-shadow-3 card-overtext mb-5 mt-3">
-                                                <h3 class="mb-2 display-7 lh-1 fw-bold country font-3">Snake<div class="kor-hidden">스네이크</div></h3>
-                                                <ul class="d-flex list-unstyled mt-auto small2">
-                                                <li class="d-flex align-items-center me-3 city">
-                                                    <FontAwesomeIcon icon={faLayerGroup}/>
-                                                    <div class="">　Unity</div>
-                                                    <div class="kor-hidden">유니티</div>
-                                                </li>
-                                                <li class="d-flex align-items-center">
-                                                    <FontAwesomeIcon icon={faCalendar}/>
-                                                    <div class="">　2020. 06.</div>
-                                                </li>
+                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span class="fs-3 mb-2 lh-1 fw-light2 country font-6">Snake<div class="kor-hidden">스네이크</div></span>
+                                                <ul class="list-unstyled mt-auto small2">
+                                                    <li class="d-flex align-items-center me-3 city mb-4">
+                                                        <span class="">Unity</span>
+                                                        <span class="kor-hidden">유니티</span>
+                                                    </li>
+                                                    <li class="d-flex align-items-center">
+                                                        <span class="">2020. 06.</span>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>

@@ -39,7 +39,7 @@ class Ironman extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-3 proj_text w-100 text-black fw-light">
-                                                <div class="mb-5 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
+                                                <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">3D Ironman</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트 기간</div>
@@ -55,12 +55,11 @@ class Ironman extends Component {
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>
                                                     <div class="font-3 fw-light fs-6">하단 참고</div>
                                                 </div>
-                                                <h3><b><FontAwesomeIcon icon={faClipboardList} /> Summary</b></h3>
+                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faClipboardList} /> SUMMARY</div>
                                                 <div class="mb-4">표준 그래픽 API로 사용되는 OpenGL로 제작한 아이언맨의 3D 모델링입니다. OpenGL이 지원하는 그래픽 관련 기능을 사용하여 그래픽API에 대한 폭 넓은 이해를 목표로 제작하였습니다.</div>
-                                                <h3><b><FontAwesomeIcon icon={faLightbulb} /> Reason</b></h3>
+                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faLightbulb} /> REASON</div>
                                                 <div class="mb-4">OpenGL을 다뤄보고 싶었고, 그래픽 관련한 API가 어떻게 동작하는지 배우는 것이 목표입니다.</div>
-                                                
-                                                <h3><b><FontAwesomeIcon icon={faGear} /> Setup</b></h3>
+                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faGear} /> SETUP</div>
                                                 <div class="card card-cover-nonhover p-3 rounded-3 border-0 mb-5">
                                                     # VisualStudio Solution<br/>
                                                     OpenGL.sln

@@ -585,7 +585,7 @@ body[data-darkmode=on] .darkmode > .inner{
     position: relative;
     align-items: center;
     right: 10vw;
-    font-size: 35px;
+    font-size: 33px;
     margin-top: 10px;
     border: none !important;
     font-family: var(--font-9) !important;
@@ -5875,11 +5875,13 @@ textarea.form-control-lg {
 
 .card-hover-up {
   top: 0px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   transition: all 1s;
 }
 
 .card-hover-up:hover {
   top: -10px;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2) !important;
   transition: all 1s;
 }
 

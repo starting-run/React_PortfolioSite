@@ -56,7 +56,7 @@ function Slowdown() {
                                                 <div class="mb-3 w-100 card card-cover-danger p-3 rounded-3 border-0">
                                                     <span class="text-only-white"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
                                                 </div>
-                                                <div class="mb-5 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
+                                                <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">SlowDown Game</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트 기간</div>
@@ -72,12 +72,11 @@ function Slowdown() {
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>
                                                     <div class="font-3 fw-light fs-6">하단 참고</div>
                                                 </div>
-                                                <h3><b><FontAwesomeIcon icon={faClipboardList} /> Summary</b></h3>
+                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faClipboardList} /> SUMMARY</div>
                                                 <div class="mb-4">-</div>
-                                                <h3><b><FontAwesomeIcon icon={faLightbulb} /> Reason</b></h3>
+                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faLightbulb} /> REASON</div>
                                                 <div class="mb-4">-</div>
-                                                
-                                                <h3><b><FontAwesomeIcon icon={faGear} /> Setup</b></h3>
+                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faGear} /> SETUP</div>
                                                 <div class="card card-cover-nonhover p-3 rounded-3 border-0 mb-5">
                                                     # UnrealEngine<br/>
                                                     

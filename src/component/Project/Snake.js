@@ -45,7 +45,7 @@ class Snake extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-3 proj_text w-100 text-black fw-light">
-                                                <div class="mb-5 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
+                                                <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">Snake Game</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트 기간</div>
@@ -61,12 +61,11 @@ class Snake extends Component {
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>
                                                     <div class="font-3 fw-light fs-6">하단 참고</div>
                                                 </div>
-                                                <h3><b><FontAwesomeIcon icon={faClipboardList} /> Summary</b></h3>
+                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faClipboardList} /> SUMMARY</div>
                                                 <div class="mb-4">가장 폭넓게 사용되는 Unity 엔진으로 제작된 Snake 게임입니다.</div>
-                                                <h3><b><FontAwesomeIcon icon={faLightbulb} /> Reason</b></h3>
+                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faLightbulb} /> REASON</div>
                                                 <div class="mb-4">Unity 엔진은 가상현실, 게임 분야의 개발자라면 UnrealEngine과 더불어 가장 많이 사용되기 때문에 다뤄보는 경험자체가 중요하고 필요하다고 생각했습니다.</div>
-                                                
-                                                <h3><b><FontAwesomeIcon icon={faGear} /> Setup</b></h3>
+                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faGear} /> SETUP</div>
                                                 <div class="card card-cover-nonhover p-3 rounded-3 border-0 mb-5">
                                                     # Unity Engine<br/>
                                                     GameProject.sln
