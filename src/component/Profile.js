@@ -5,6 +5,7 @@ import profileimg from '../images/logo_sq.png'
 import { Helmet } from 'react-helmet';
 import { faBlogger, faGithub, faHtml5, faReact } from '@fortawesome/free-brands-svg-icons';
 import { Fade } from 'react-reveal';
+import { alignPropType } from 'react-bootstrap/esm/types';
 
 
 class Profile extends Component {
@@ -18,49 +19,44 @@ class Profile extends Component {
             <div id="main bg-dark">
                 <div class="character-top bg-wh h-auto">
                     <div id="class_back" class="bg-info-back"></div>
-                <div class="container-xxl pt-7">
+                <div class="container-xxl pt-6-5">
                     <div class="row justify-content-center font-3 pb-2">
-                        <div class="row row-cols-2 justify-content-center font-3 mb-5">
-                            <div class="col-auto px-5">
-                                <div class="character_image"><img src={profileimg}/></div>
+                        <div class="row row-cols-1 row-cols-xl-2 justify-content-center font-3 mb-3 ">
+                            <div class="col col-xl-3">
+                                <div class="row row-cols-2 row-cols-xl-2 pt-5">
+                                    <div className='col'>
+                                        <div class="character_image"><img src={profileimg}/></div>
+                                    </div>
+                                    <div className='col'>
+                                        <div class="btn btn-primary-round-outline py-0 pb-1"><span class="fs-7 font-3">USFREE</span></div>
+                                        <div class="mb-0"><span class="fs-2 font-3 fw-bolder text-black">조우현</span></div>
+                                        <div class="font-3 fs-7 fw-light2 text-black">Woohyun Cho</div>
+                                        <div class="row row-cols-2 row-cols-lg-5  justify-content-center font-2 mb-5"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-auto px-5">
-                                <div class="mt-2"><div class="btn btn-primary-round-outline py-0 pb-1"><span class="fs-7 font-3">USFREE</span></div></div>
-                                <div class="mb-0"><span class="fs-2 font-3 fw-bolder text-black">조우현</span></div>
-                                <div class="font-3 fs-7 fw-light2 text-black">Woohyun Cho</div>
-                            </div>
-                        </div>
-                        <div class="row row-cols-2 row-cols-lg-5  justify-content-center font-2 mb-5">
-                            <Fade bottom delay={0}><div>
-                                <div class="col p-2">
-                                    <div class="border-0 rounded-1 card-blur-info">
+                            <div class="col col-xl-3">
+                                    <div class="border-0 rounded-1 card-blur-info m-2">
                                         <div class="p-3">
                                             <span class="fs-6 text-main mb-5"><FontAwesomeIcon icon={faBlogger} />　<span class="fs-7 fw-light2 text-infopage"><a href="https://velog.io/@usfree">Blog</a></span></span>
-                                            
                                         </div>
                                     </div>
-                            </div></div></Fade>
-                            <Fade bottom delay={30}><div>
-                                <div class="col p-2">
-                                    <div class="border-0 rounded-1 card-blur-info">
+                                
+                                    <div class="border-0 rounded-1 card-blur-info m-2">
                                         <div class="p-3">
                                             <span class="fs-6 text-main mb-5"><FontAwesomeIcon icon={faGithub}/>　<span class="fs-7 fw-light2 text-infopage"><a href="https://github.com/usfree">Github</a></span></span>
                                         </div>
                                     </div>
-                            </div></div></Fade>
-                            <Fade bottom delay={60}><div>
-                                <div class="col p-2">
-                                    <div class="border-0 rounded-1 card-blur-info">
+                                    <div class="border-0 rounded-1 card-blur-info m-2">
                                         <div class="p-3">
                                             <span class="fs-6 text-main mb-5 no_enter"><FontAwesomeIcon icon={faEnvelopeOpenText}/>　
                                             <span class="fs-7 fw-light2 text-infopage only-pc-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">ploris576@kangnam.ac.kr</a></span></span>
                                             <span class="fs-7 fw-light2 text-infopage only-mobile-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">Mail</a></span>
                                         </div>
                                     </div>
-                            </div></div></Fade>
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </div> 
                 <div class="bg-wh">
@@ -72,8 +68,8 @@ class Profile extends Component {
                                     <div class="col">
                                         <div class="card h-100 bg-main-color overflow-hidden border-0 card-hover-up p-3 ">
                                             <div class="font-3 text-center">
-                                                <div class="text-black fs-3 mb-1">More And More <b>CREATIVELY</b></div>
-                                                <div class="text-black fs-5 font-3">창의적인 개발자 <b>조우현</b>입니다.</div>
+                                                <div class="text-black fs-4 mb-1">More And More <b>CREATIVELY</b></div>
+                                                <div class="text-black fs-6 font-3">창의적인 개발자 <b>조우현</b>입니다.</div>
                                             </div>
                                         </div>
                                     </div>

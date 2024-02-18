@@ -48,9 +48,9 @@ function Project() {
   
               <div class="infotop">
                
-          <div class="font-3 text-black">관심 가져주셔서 감사합니다 !<br></br>더 많은 프로젝트를 위해 준비하고 있습니다.</div>
-      <br></br>
-      <div class="name text-black px-4">아래에서 해당 카드를 누르시면 프로젝트에 관한 자세한 내용을 보실 수 있습니다.<br/>각 프로젝트의 상단에서 깃허브 리포지토리로 바로 이동할 수 있는 버튼을 제공합니다.</div>
+          <div class="font-3 text-black mb-3 px-5 mt-3">아래에서 해당 카드를 누르시면 프로젝트에 관한 자세한 내용을 보실 수 있습니다.</div>
+
+      <div class="name text-black px-5">각 프로젝트 상단의 버튼을 통해 Github Repository로 바로 이동하실 수 있습니다.</div>
           </div>
       </div>
       <div class="bg-change bg-white bg-img">
