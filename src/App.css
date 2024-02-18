@@ -569,45 +569,7 @@ body[data-darkmode=on] .darkmode > .inner{
   .only-pc-view {
     display: none;
   }
-  .navbar-collapse {
-    align-items: center;
-    background-color: var(--bs-dark);
-    width: 100vw;
-    height: 100vh;
-    top:0;
-    left:0;
-    position: fixed;
-  }
-  .navbar-toggler {
-    z-index: 1;
-  }
-  .nav-link {
-    position: relative;
-    align-items: center;
-    right: 10vw;
-    font-size: 33px;
-    margin-top: 10px;
-    border: none !important;
-    font-family: var(--font-9) !important;
-  }
 
-  .navbar-nav {
-    position: relative;
-    top: 20vh;
-  }
-
-  .navbar-brand {
-    z-index: 1;
-  }
-  .hamburger-copy {
-    position: relative;
-    font-size: 7px;
-    z-index: 1;
-    right: 10vw;
-  }
-  .size-repack {
-    height: 100vh;
-  }
 }
 
 .prj-sub:hover {
@@ -675,7 +637,50 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 
-/* ------------------------- */
+/* 햄버거 메뉴 전체화면으로 만드는 부분 
+일반적인 PC버전 네비바 복귀시 모바일 전용 CSS 영역으로 넣으면됨 */
+
+.navbar-collapse {
+  align-items: center;
+  background-color: var(--bs-dark);
+  width: 100%;
+  height: 100vh;
+  top:0;
+  right:0;
+  position: fixed;
+}
+.navbar-toggler {
+  z-index: 1;
+}
+.nav-link {
+  position: relative;
+  align-items: center;
+  right: 5vw;
+  font-size: 33px;
+  margin-top: 10px;
+  border: none !important;
+  font-family: var(--font-9) !important;
+}
+
+.navbar-nav {
+  position: relative;
+  top: 20vh;
+}
+
+.navbar-brand {
+  z-index: 1;
+}
+.hamburger-copy {
+  position: relative;
+  font-size: 7px;
+  z-index: 1;
+  right: 5vw;
+}
+.size-repack {
+  height: 100vh;
+}
+
+/* 여기까지 햄버거 메뉴 */
 
 
 /* 모바일X PC크기에서만 작동하는 영역*/
@@ -723,11 +728,15 @@ body[data-darkmode=on] .darkmode > .inner{
     }
   }
 
-    /*---------밑줄넣기 부분----------*/
+  .navbar-collapse {
+    width: 500px;
+  }
+
+    /*---------밑줄넣기 부분---------- 
+      전체화면 햄버거 메뉴때문에 비활성화
   ul { list-style:none; cursor:pointer;}
 
   .nav-link { 
-    /*width:30%;*/
     float:right; 
     transition:all .3s ease;
     margin-left:45px;
@@ -749,7 +758,7 @@ body[data-darkmode=on] .darkmode > .inner{
   .nav-link > li::after {
     content: '';
     width: 0%;
-    left: 0%; /*50%이면 중앙에서 시작*/
+    left: 0%; //50%이면 중앙에서 시작
     height: 1px;
     display: block;
     position: absolute;
@@ -780,8 +789,9 @@ body[data-darkmode=on] .darkmode > .inner{
     border-bottom: 2px solid var(--bs-line-cl);
     transition:all .3s ease;
   }
-
+  */
 }
+
 
 .nav-link.active > li {
   color:#FC8574;

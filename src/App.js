@@ -64,7 +64,7 @@ useEffect(() => {
       </video>
     </div>
     <div id="add-fixed" class="navbar-fixed-attr">
-      <nav id="navbarcontrol" class="navbar navbar-upper navbar-expand-lg navbar-light navbar-py">
+      <nav id="navbarcontrol" class="navbar navbar-upper navbar-light navbar-py"> {/*navbar-expand-lg 노말PC버전*/}
         <div id='changecontainer' class="container-full px-4 ">
             <NavLink exact to="/" className="navbar-brand" id="mains" onClick={acorClose}><img class="logoimg"></img></NavLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -83,8 +83,8 @@ useEffect(() => {
                   <a class="nav-link" href="https://velog.io/@usfree" target='_blank' onClick={acorClose}><li class="nav-item">Blog</li></a>
                   <a class="nav-link" href="https://github.com/usfree" target='_blank' onClick={acorClose}><li class="nav-item">Github</li></a>
                   {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
-                  <span class="only-mobile-view hamburger-copy text-black pt-7">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
-                  <span class="only-mobile-view size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
+                  <span class="hamburger-copy text-black pt-7">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
+                  <span class="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
                 </ul>
             </div>
         </div>
