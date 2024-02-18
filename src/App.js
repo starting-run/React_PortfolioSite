@@ -44,7 +44,7 @@ function text_ready() {
 
 const notify = () => toast('사용자 기기 설정에 따라 라이트/다크모드로 동작합니다.',
 {
-  duration: 4000,
+  duration: 5000,
   icon: '👏'
 }
 );
@@ -57,7 +57,7 @@ useEffect(() => {
   return (
     <div className="App">
   <div>
-  <Toaster position='bottom-center'/>
+  <Toaster position='bottom-right'/>
     <div class="bg-video">
       <video class="bg-video__content" autoPlay muted loop>
         <source src={video} type="video/mp4" />
