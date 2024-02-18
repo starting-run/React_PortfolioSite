@@ -10,7 +10,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 
 function Website() {
-    const notify = () => toast.success('현재 접속중인 웹사이트입니다 !', {duration: 4000});
+    const notify = () => toast.success('현재 접속중인 웹사이트입니다.', {duration: 4000});
 
     useEffect(() => {
         notify();

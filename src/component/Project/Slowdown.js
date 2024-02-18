@@ -24,7 +24,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 function Slowdown() {
     const notify = () => toast.error('제작 진행중인 프로젝트입니다 !', {duration: 4000});
-
+    const notify2 = () => toast.error('제작 진행중인 프로젝트입니다. 깃허브 리포지토리를 아직 제공하지 않습니다.', {duration: 4000});
     useEffect(() => {
         notify();
       }, []);
@@ -46,7 +46,7 @@ function Slowdown() {
                     <div class="container px-4 my-2 mt-5">
                         <div class="mb-5">
                         <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
-                            <a href="https://github.com/usfree/Unity_Snake" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
+                            <a onClick={notify2} target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
                         </div>
                         <div class="row gx-5 justify-content-center">
                             <div class="up-animation">

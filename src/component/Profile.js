@@ -122,7 +122,7 @@ class Profile extends Component {
                                                                 Design
                                                             </div>
                                                             <div class="fw-light2 fs-7 text-black">
-                                                                아무리 좋은 게임성을 지녀도, UI/UX 등 디자인적인 부분을 무시할 수는 없습니다. 항상 보기 좋은 디자인을 위해 고민하고 연습하고 있습니다.
+                                                                좋은 플랫폼과 소스를 갖추어도 UI/UX 등 디자인적인 부분을 무시할 수는 없습니다. 항상 보기 좋은 디자인을 위해 고민하고 연습하고 있습니다.
                                                             </div>
                                                         </div>
                                                     </div>
