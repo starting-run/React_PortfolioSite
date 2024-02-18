@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare, faCakeCandles, faChartSimple, faCode, faEnvelopeOpenText, faGamepad, faLocationDot, faMicrochip } from '@fortawesome/free-solid-svg-icons';
 import profileimg from '../images/logo_sq.png'
-import Intro from '../component/Profile/Intro';
-import Edu from './Profile/Edu';
-import Exp from './Profile/Exp';
-import Cert from './Profile/Cert';
-import Tech from './Profile/Tech';
 import { Helmet } from 'react-helmet';
 import { faBlogger, faGithub, faHtml5, faReact } from '@fortawesome/free-brands-svg-icons';
 import { Fade } from 'react-reveal';

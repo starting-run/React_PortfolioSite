@@ -2,7 +2,6 @@ import React, { Component, useEffect } from 'react';
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import main_profile_btn from "../images/profile/edu.jpg";
 import main_project_btn from "../images/projects/2.png";
-import main_labs_btn from "../images/maple.png";
 import main_blog_btn from "../images/main/card1.jpeg";
 import main_github_btn from "../images/main/gitback.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

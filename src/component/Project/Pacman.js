@@ -4,7 +4,7 @@ import pdf from '../../images/Pacman/Processing_Pacman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faChevronLeft, faClipboardList, faFileArrowDown, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
-import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
 let code1 = `void CreateMap() {
