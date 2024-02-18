@@ -585,7 +585,7 @@ body[data-darkmode=on] .darkmode > .inner{
     position: relative;
     align-items: center;
     right: 10vw;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 10px;
     border: none !important;
     font-family: var(--font-9) !important;
