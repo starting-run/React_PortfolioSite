@@ -9954,7 +9954,7 @@ video {
 }
 
 .fs-0 {
-  font-size: calc(1.375rem + 5vw) !important;
+  font-size: calc(1.375rem + 4vw) !important;
 }
 
 
@@ -13486,7 +13486,7 @@ video {
 }
 @media (min-width: 1200px) {
   .fs-0 {
-    font-size: calc(5rem + 0.5vw) !important;
+    font-size: calc(4.3rem + 0.5vw) !important;
   }
   .fs-1 {
     font-size: 2.5rem !important;

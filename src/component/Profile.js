@@ -9,7 +9,7 @@ import Exp from './Profile/Exp';
 import Cert from './Profile/Cert';
 import Tech from './Profile/Tech';
 import { Helmet } from 'react-helmet';
-import { faHtml5, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faBlogger, faGithub, faHtml5, faReact } from '@fortawesome/free-brands-svg-icons';
 import { Fade } from 'react-reveal';
 
 
@@ -41,7 +41,7 @@ class Profile extends Component {
                             <div class="col p-2">
                                 <div class="border-0 rounded-2 card-blur-info">
                                     <div class="p-3">
-                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faCakeCandles}/>　<span class="fs-7 fw-light2 text-infopage">1999. 07. 23.</span></span>
+                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faBlogger} />　<span class="fs-7 fw-light2 text-infopage"><a href="https://velog.io/@usfree">Blog</a></span></span>
                                         
                                     </div>
                                 </div>
@@ -50,8 +50,7 @@ class Profile extends Component {
                             <div class="col p-2">
                                 <div class="border-0 rounded-2 card-blur-info">
                                     <div class="p-3">
-                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faLocationDot}/>　<span class="fs-7 fw-light2 text-infopage">서울시 마포구</span></span>
-                                        
+                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faGithub}/>　<span class="fs-7 fw-light2 text-infopage"><a href="https://github.com/usfree">Github</a></span></span>
                                     </div>
                                 </div>
                         </div></div></Fade>
@@ -61,16 +60,7 @@ class Profile extends Component {
                                     <div class="p-3">
                                         <span class="font-3 fs-6 text-main mb-5 no_enter"><FontAwesomeIcon icon={faEnvelopeOpenText}/>　
                                         <span class="fs-7 fw-light2 text-infopage only-pc-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">ploris576@kangnam.ac.kr</a></span></span>
-                                        <span class="fs-7 fw-bold text-infopage only-mobile-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">Mail</a></span>
-                                    </div>
-                                </div>
-                        </div></div></Fade>
-                        <Fade bottom delay={90}><div>
-                            <div class="col p-2">
-                                <div class="border-0 rounded-2 card-blur-info">
-                                    <div class="p-3">
-                                        <span class="font-3 fs-6 text-main mb-5"><FontAwesomeIcon icon={faChartSimple}/>　<span class="fs-7 fw-light2 text-infopage"><a href="https://solved.ac/profile/tlrmsjtm77">tlrmsjtm77</a></span></span>
-                                        
+                                        <span class="fs-7 fw-light2 text-infopage only-mobile-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">Mail</a></span>
                                     </div>
                                 </div>
                         </div></div></Fade>
@@ -84,52 +74,16 @@ class Profile extends Component {
                         <div class="row justify-content-center">
                             <div class="mb-5">
                             <Fade bottom delay={0}><div>
-                                <div class="row row-cols-sm-2 row-cols-xxl-2 g-4 cards mb-4">
-                                    <div class="col-xxl-3">
-                                        <div class="card h-100 bg-main-color overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
-                                            <div class="font-3  p-2">
-                                                <div class="text-black fs-3 mb-5">More<br/>And<br/>More<br/><b>CREATIVELY</b></div>
-                                                <div class="text-black fs-5 ">창의적인 개발자<br/><b>조우현</b>입니다.</div>
+                                <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 cards mb-4">
+                                    <div class="col">
+                                        <div class="card h-100 bg-main-color overflow-hidden border-0 card-hover-up rounded-3 p-3 shadow-md">
+                                            <div class="font-3 text-center">
+                                                <div class="text-black fs-3 mb-1">More And More <b>CREATIVELY</b></div>
+                                                <div class="text-black fs-5 ">창의적인 개발자 <b>조우현</b>입니다.</div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-xxl-9">
-                                        <div class="row row-cols-1">
-                                            <div class="col mb-4">
-                                                <div class="card h-100 overflow-hidden border-0 card-hover-up-main rounded-3 p-4 shadow-md">
-                                                    <div class="d-flex flex-column pb-3 card-overtext font-3 p-2">
-                                                        <div class="text-black">찾아주셔서 감사합니다.
-                                                            <br/>모든 일에는 창의력과 상상력 &middot; 디테일이 중요하다고 생각합니다.
-                                                            <br/>창의력은 혁신을 그리고, 상상력은 사람을 만들고 조각합니다.
-                                                            <br/>창의적이고 상상력을 더한 모든 것에 디테일을 불어넣는 개발자가 되고자 노력하겠습니다.
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="card h-100 overflow-hidden border-0 card-hover-up-main rounded-3 p-4 shadow-md">
-                                                    <div class="row row-cols-lg-2 p-2">
-                                                        <div class="col-auto">
-                                                            <div class="fs-4 fw-opacity mb-1">
-                                                                Develop
-                                                            </div>
-                                                            <div class="fw-light2 fs-7 text-black">
-                                                                C계열 언어를 주로 사용하고 있습니다. 현재는 C++을 활용한 UnrealEngine을 위주로 학습하고 있으며, 프로젝트를 통해 실전 경험을 향상시키고 있습니다.
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-auto">
-                                                            <div class="fs-4 fw-opacity mb-1">
-                                                                Design
-                                                            </div>
-                                                            <div class="fw-light2 fs-7 text-black">
-                                                                좋은 플랫폼과 소스를 갖추어도 UI/UX 등 디자인적인 부분을 무시할 수는 없습니다. 항상 보기 좋은 디자인을 위해 고민하고 연습하고 있습니다.
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div></div></Fade>
                                 <div class="row row-cols-1 row-cols-xxl-2 g-4 cards">
                                 <Fade bottom delay={100}><div>
@@ -138,21 +92,17 @@ class Profile extends Component {
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">학력 <span class="fs-5">Education</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto text-black mb-3">
-                                                    <div class="fs-4 fw-bolder"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>강남대학교</a></div>
-                                                    <div class="fw-light2 fs-7">경기도 용인시</div>
+                                                    <div class="fs-4 fw-bolder"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>Kangnam University</a></div>
+                                                    <div class="fw-light2 fs-7">Yongin-si, Gyeonggi-do</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2019. 03. - </div>
                                                     <div class="fw-light2 fs-7">
-                                                        소프트웨어전공 / 가상현실 복수전공{/*<br/>major: Software / double major: VirtualReality*/}
+                                                        major: Software /<br/>double major: VirtualReality
                                                     </div>
-                                                    <div class="fw-light2 fs-7">전공평점: 4.08 / 전체평점: 3.8</div>
                                                 </div>
                                                 <div class="col-auto text-black">
-                                                    <div class="fs-4 fw-bolder"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>한성고등학교</a></div>
-                                                    <div class="fw-light2 fs-7">서울시 서대문구</div>
+                                                    <div class="fs-4 fw-bolder"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>Hanseong Highschool</a></div>
+                                                    <div class="fw-light2 fs-7">Seodaemun-gu, Seoul</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2015. 03. - 2018. 02.</div>
-                                                    <div class="fw-light2 fs-7">
-                                                        이과계열
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -164,7 +114,7 @@ class Profile extends Component {
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity">42Seoul LaPiscine</div>
-                                                    <div class="fw-light2 text-black fs-7">이노베이션아카데미</div>
+                                                    <div class="fw-light2 text-black fs-7">Innovation Academy</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2023. 07. 17. - 08. 11.</div>
                                                     <div class="fw-light2 fs-7">
                                                         <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
@@ -177,7 +127,7 @@ class Profile extends Component {
                                     <Fade bottom delay={200}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
-                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">자격/증명 <span class="fs-5">Certificate</span></div>
+                                            <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">자격/증명 <span class="fs-5">Certificates</span></div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity">웹디자인기능사</div>
@@ -221,7 +171,7 @@ class Profile extends Component {
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up rounded-3 p-4 shadow-md">
                                             <div class="mb-4 text-black font-3 fs-2 fw-bolder p-2">기술 <span class="fs-5">Skills</span></div>
-                                            <div class="font-3 fw-bold fs-5 highlight-gradient px-2 text-black">언어 <span class="fs-6">Language</span></div>
+                                            <div class="font-3 fw-bold fs-5 highlight-gradient text-black">Language<span class="fs-6"></span></div>
                                             <div class="row row-cols-lg-2 p-2 mb-3">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faCode}/> C / C++</div>
@@ -232,7 +182,7 @@ class Profile extends Component {
                                                     <div class="fw-light2 fs-8 mb-2 highlight">HTML을 사용할 수 있고, CSS와 JavaScript를 통해 웹페이지를 구현할 수 있습니다.</div>
                                                 </div>
                                             </div>
-                                            <div class="font-3 fw-bold fs-5 highlight-gradient px-2 text-black">도구 <span class="fs-6">Tools</span></div>
+                                            <div class="font-3 fw-bold fs-5 highlight-gradient text-black">Tools<span class="fs-6"></span></div>
                                             <div class="row row-cols-lg-3 p-2">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-5 fw-bolder fw-opacity"><FontAwesomeIcon icon={faGamepad}/> UnrealEngine</div>

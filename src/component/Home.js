@@ -30,7 +30,7 @@ function Home() {
                                         </path>
                                     </svg>
                                 </div>
-                                <span class="main__scroll-text font-3 fs-7 font-letter-space-sm">SCROLL DOWN</span>
+                                <span class="main__scroll-text font-7 fs-7 font-letter-space-sm">SCROLL DOWN</span>
                                 </HashLink>
                             </div>
                             
@@ -49,10 +49,11 @@ function Home() {
                                         <div class="row row-half justify-content-center font-3">
     
                                             <div class="card h-100 overflow-hidden border-0 rounded-2 pt-2 card-blur text-black">
-                                                <div class="fs-6 mb-1 font-3"><b>조우현</b></div>
+                                                <div class="fs-5 mb-1 font-3"><b>Woohyun Cho</b></div>
                                                 {/*<div class="fw-light2 mb-1 fs-6 font-3">게임 클라이언트 프로그래머</div>*/}
-                                                <div class="fw-light2 fs-6 mb-3 font-3"><a href="https://sae.kangnam.ac.kr/">강남대학교 ICT공학부</a> 재학(2019 - )</div>
-                                                <div class="fw-light3 fs-6 mb-3 font-3 highlight">- 조우현의 포트폴리오 웹사이트 -</div>
+                                                <div class="fw-light3 fs-6 mb-3 font-3 highlight">Developer Portfolio</div>
+                                                <div class="fw-light2 fs-6 mb-3 font-3"><a href="https://sae.kangnam.ac.kr/">Kangnam University</a> Undegraduate</div>
+
                                             </div>
                                         </div>
                                     </div>

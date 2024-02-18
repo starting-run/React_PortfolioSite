@@ -55,7 +55,7 @@ function Slowdown() {
                                         <div class="d-flex align-items-center">
                                             <div class="p-3 proj_text w-100 text-black fw-light">
                                                 <div class="mb-3 w-100 card card-cover-danger p-3 rounded-3 border-0">
-                                                    <span class="text-only-white"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 ! 예상 완료 기간은 5월입니다.</span>
+                                                    <span class="text-only-white"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
                                                 </div>
                                                 <div class="mb-5 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>

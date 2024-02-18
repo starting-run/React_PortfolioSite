@@ -44,7 +44,7 @@ function text_ready() {
 
 const notify = () => toast('사용자 기기 설정에 따라 라이트/다크모드로 동작합니다.',
 {
-  duration: 3000,
+  duration: 4000,
   icon: '👏'
 }
 );
@@ -115,9 +115,7 @@ useEffect(() => {
                     <div class="mb-3 small"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fusfree.site&count_bg=%23FC8574&title_bg=%23212529&icon=&icon_color=%23E7E7E7&title=visit&edge_flat=true"/></div>*/}
                 </div>
                 <div class="col-auto">
-                    <div class="smaller m-0 text-only-white"><b>USFREE</b> 조우현
-                      <br></br>Email: <a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." class="text-only-white">ploris576@kangnam.ac.kr</a></div>
-            
+                    <div class="smaller m-0 text-only-white"><b>USFREE</b> 조우현</div>
                     <div class="smaller m-0 text-only-white mb-3">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</div>
                     <div class=""><a href="https://usfree.site"><img src={footerimg} style={{width: "90px"}}></img></a></div>
                 </div>
