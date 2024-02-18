@@ -52,7 +52,7 @@ function Home() {
                                                 <div class="fs-5 mb-1 font-3"><b>Woohyun Cho</b></div>
                                                 {/*<div class="fw-light2 mb-1 fs-6 font-3">게임 클라이언트 프로그래머</div>*/}
                                                 <div class="fw-light3 fs-6 mb-3 font-3 highlight">Developer Portfolio</div>
-                                                <div class="fw-light2 fs-6 mb-3 font-3"><a href="https://sae.kangnam.ac.kr/">Kangnam University</a> Undegraduate</div>
+                                                <div class="fw-light2 fs-6 mb-3 font-3"><a href="https://sae.kangnam.ac.kr/">Kangnam University</a> Undergraduate</div>
 
                                             </div>
                                         </div>
