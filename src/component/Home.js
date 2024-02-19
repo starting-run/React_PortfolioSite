@@ -29,7 +29,7 @@ function Home() {
                                         </path>
                                     </svg>
                                 </div>
-                                <span class="main__scroll-text font-7 fs-7 font-letter-space-sm">SCROLL DOWN</span>
+                                <span class="main__scroll-text font-4 fs-8 font-letter-space">SCROLL DOWN</span>
                                 </HashLink>
                             </div>
                             
