@@ -42,7 +42,7 @@ class Profile extends Component {
                 <div class="container-xxl px-4 pt-6">
                         <div class="row justify-content-center">
                             <div class="mb-5">
-                                <div class="mb-2 fs-1 font-5 fw-bolder font-letter-space-sm">Profile</div>
+                                <div class="mb-2 fs-1 font-5 fw-bolder font-letter-space-sm text-black">Profile</div>
                             <Fade bottom delay={0}><div>
                                 <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 cards mb-4">
                                     <div class="col">
@@ -70,7 +70,7 @@ class Profile extends Component {
                                                     <div class="fs-5 fw-normal"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>Kangnam University</a></div>
                                                     <div class="fw-light2 fs-7">Yongin-si, Gyeonggi-do</div>
                                                     <div class="fw-light2 fs-7 mb-3 highlight">2019. 03. - </div>
-                                                    <div class="fw-light2 fs-7">
+                                                    <div class="fw-light2 fs-7 mb-3">
                                                         major: Software /<br/>double major: VirtualReality
                                                     </div>
                                                 </div>
@@ -146,7 +146,7 @@ class Profile extends Component {
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 rounded-1">
                                             <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SKILL</div>
-                                            <div class="row row-cols-lg-2 p-2 mb-3 font-3">
+                                            <div class="row row-cols-lg-2 p-2 font-3">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C</div><span> </span>
                                                     <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C++</div>
