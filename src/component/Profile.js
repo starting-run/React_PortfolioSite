@@ -34,26 +34,6 @@ class Profile extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col col-xl-3">
-                                    <div class="border-0 rounded-1 card-blur-info m-2">
-                                        <div class="p-3">
-                                            <span class="fs-6 text-main mb-5"><FontAwesomeIcon icon={faBlogger} />　<span class="fs-7 fw-light2 text-infopage"><a href="https://velog.io/@usfree">Blog</a></span></span>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="border-0 rounded-1 card-blur-info m-2">
-                                        <div class="p-3">
-                                            <span class="fs-6 text-main mb-5"><FontAwesomeIcon icon={faGithub}/>　<span class="fs-7 fw-light2 text-infopage"><a href="https://github.com/usfree">Github</a></span></span>
-                                        </div>
-                                    </div>
-                                    <div class="border-0 rounded-1 card-blur-info m-2">
-                                        <div class="p-3">
-                                            <span class="fs-6 text-main mb-5 no_enter"><FontAwesomeIcon icon={faEnvelopeOpenText}/>　
-                                            <span class="fs-7 fw-light2 text-infopage only-pc-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">ploris576@kangnam.ac.kr</a></span></span>
-                                            <span class="fs-7 fw-light2 text-infopage only-mobile-view"><a href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다.">Mail</a></span>
-                                        </div>
-                                    </div>
-                            </div>
                         </div>
                     </div>
                 </div>

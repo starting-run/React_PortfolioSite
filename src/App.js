@@ -8,9 +8,9 @@ import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faVimeo } from "@fortawesome/free-brands-svg-icons";
 import { faBlogger } from "@fortawesome/free-brands-svg-icons";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
 import toast, { Toaster } from 'react-hot-toast';
 import { useEffect } from 'react';
@@ -74,6 +74,11 @@ useEffect(() => {
                   <a class="nav-link" href="https://github.com/usfree" target='_blank'><li class="nav-item">Github</li></a>
                   {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
                   <span class="hamburger-copy text-black pt-7">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
+                  <ul class="">                    
+                    <li class="float-end"><a class="hamburger-copy fs-4" href="https://github.com/usfree"><FontAwesomeIcon icon={faGithub} /></a></li>
+                    <li class="float-end"><a class="hamburger-copy fs-4" href="https://velog.io/@usfree"><FontAwesomeIcon icon={faVimeo} /></a>　</li>
+                    <li class="float-end"><a class="hamburger-copy fs-4" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다."><FontAwesomeIcon icon={faEnvelope} /></a>　</li>
+                  </ul>
                   <span class="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
                 </ul>
             </div>
@@ -89,10 +94,9 @@ useEffect(() => {
       <div id="normalfooter" class="bg-dark py-4 mt-auto">
             <div class="container-full px-4 text-only-white font-3">
                 <div class="text-end">
-                    <a class="text-only-white" href="https://github.com/usfree"><FontAwesomeIcon icon={faGithub} /></a>　
-                    <a class="text-only-white" href="https://velog.io/@usfree"><FontAwesomeIcon icon={faBlogger} /></a>　
-                    <a class="text-only-white" href="https://solved.ac/profile/tlrmsjtm77"><FontAwesomeIcon icon={faCode} /></a>　
-                    <a class="text-only-white" href="https://codeforces.com/profile/tlrmsjtm77"><FontAwesomeIcon icon={faChartSimple} /></a>
+                  <a class="text-only-white" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다."><FontAwesomeIcon icon={faEnvelope} /></a>　
+                  <a class="text-only-white" href="https://velog.io/@usfree"><FontAwesomeIcon icon={faVimeo} /></a>　
+                  <a class="text-only-white" href="https://github.com/usfree"><FontAwesomeIcon icon={faGithub} /></a>
                 </div>
                 <hr></hr>
                 {/*<div class="d-flex">
