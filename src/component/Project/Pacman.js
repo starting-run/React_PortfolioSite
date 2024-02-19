@@ -139,7 +139,7 @@ class Pacman extends Component {
             <div id="projectmain">
                 <div class="bg-white">
                     <div class="container">
-                        <div class="pt-6 px-3">
+                        <div class="pt-6-5 px-3">
                             <span class="display-4 fw-bolder font-5 text-black">PACMAN GAME</span>
                             <div class="mb-5">
                                 <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
