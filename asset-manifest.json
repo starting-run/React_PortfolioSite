@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.99e977cb.css",
-    "main.js": "/static/js/main.48b440a1.js",
+    "main.css": "/static/css/main.c5e9fa7d.css",
+    "main.js": "/static/js/main.52fb7add.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
@@ -13,6 +13,7 @@
     "static/media/snap.webp": "/static/media/snap.f4940bcfcba62375bf55.webp",
     "static/media/1.png": "/static/media/1.a04d4bf800f1daf45e0c.png",
     "static/media/2.png": "/static/media/2.1d47d671f051d05e6ca8.png",
+    "static/media/website.png": "/static/media/website.a4606fe79f35b66e79e8.png",
     "static/media/edu.jpg": "/static/media/edu.c0b960165419587bae12.jpg",
     "static/media/Processing_Pacman.pdf": "/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf",
     "static/media/8.png": "/static/media/8.0051ee1cb9b230982052.png",
@@ -33,7 +34,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.99e977cb.css",
-    "static/js/main.48b440a1.js"
+    "static/css/main.c5e9fa7d.css",
+    "static/js/main.52fb7add.js"
   ]
 }
