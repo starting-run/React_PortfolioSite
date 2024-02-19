@@ -31,28 +31,17 @@ const MoveToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-function acorClose() {
-  if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
-      $(".navbar-toggler").trigger("click");
-      $("input:checkbox[id='hbg']").prop("checked", false);
-  }
-}
-
-function text_ready() {
-  alert('sidebar 준비중입니다 !');
-}
 
 const notify = () => toast('사용자 기기 설정에 따라 라이트/다크모드로 동작합니다.',
-{
-  duration: 5000,
-  icon: '👏'
-}
+  {
+    duration: 5000,
+    icon: '👏'
+  }
 );
 
 useEffect(() => {
     notify();
   }, []);
-
 
   return (
     <div className="App">
@@ -66,7 +55,7 @@ useEffect(() => {
     <div id="add-fixed" class="navbar-fixed-attr">
       <nav id="navbarcontrol" class="navbar navbar-upper navbar-light navbar-py"> {/*navbar-expand-lg 노말PC버전*/}
         <div id='changecontainer' class="container-full px-4 ">
-            <NavLink exact to="/" className="navbar-brand" id="mains" onClick={acorClose}><img class="logoimg"></img></NavLink>
+            <NavLink exact to="/" className="navbar-brand" id="mains"><img class="logoimg"></img></NavLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <label class="hamburger">
@@ -78,10 +67,10 @@ useEffect(() => {
               </label></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-letter-space fs-fr">
-                  <NavLink exact to="/profile" className="nav-link" onClick={acorClose}><li class="nav-item">Profile</li></NavLink>
-                  <NavLink exact to="/project" className="nav-link" onClick={acorClose}><li class="nav-item">Project</li></NavLink>
-                  <a class="nav-link" href="https://velog.io/@usfree" target='_blank' onClick={acorClose}><li class="nav-item">Blog</li></a>
-                  <a class="nav-link" href="https://github.com/usfree" target='_blank' onClick={acorClose}><li class="nav-item">Github</li></a>
+                  <NavLink exact to="/profile" className="nav-link"><li class="nav-item">Profile</li></NavLink>
+                  <NavLink exact to="/project" className="nav-link"><li class="nav-item">Project</li></NavLink>
+                  <a class="nav-link" href="https://velog.io/@usfree" target='_blank'><li class="nav-item">Blog</li></a>
+                  <a class="nav-link" href="https://github.com/usfree" target='_blank'><li class="nav-item">Github</li></a>
                   {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
                   <span class="hamburger-copy text-black pt-7">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
                   <span class="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
