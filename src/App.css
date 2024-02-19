@@ -648,6 +648,7 @@ body[data-darkmode=on] .darkmode > .inner{
   top:0;
   right:0;
   position: fixed;
+  transition: all 0.5s;
 }
 .navbar-toggler {
   z-index: 1;
@@ -730,6 +731,7 @@ body[data-darkmode=on] .darkmode > .inner{
 
   .navbar-collapse {
     width: 500px;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2) !important;
   }
 
     /*---------밑줄넣기 부분---------- 
