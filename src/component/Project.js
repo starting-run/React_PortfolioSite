@@ -103,10 +103,10 @@ function Project() {
                               {/*<NavLink to="slowdown" id="slowdown">*/}
                             <Fade bottom delay={0}>
                                 <div class="col">
-                                    <div class="card card-cover h-100 overflow-hidden text-black card-border-0 shadow-sm rounded-1">
+                                    <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 shadow-sm rounded-1">
                                         {/*<img class="card-image" src = {project5}></img>*/}
                                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                            <span class="fs-3 mb-2 lh-1 fw-normal country font-10 text-black">SlowDown<div class="kor-hidden">슬로우다운</div></span>
+                                            <span class="country mb-2 fs-2 lh-1 fw-bold font-3">SlowDown<div class="kor-hidden">슬로우다운</div></span>
                                             <ul class="list-unstyled mt-auto small2">
                                                 <li class="d-flex align-items-center me-3 mb-4">
                                                     <span class="">2024. 02. - Developing</span>
@@ -128,10 +128,10 @@ function Project() {
                               <NavLink to="website" id="website">
                                 <Fade bottom delay={50}>
                                     <div class="col">
-                                        <div class="card card-cover h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-1">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-1">
                                             <img class="card-image" src ={project4}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="fs-3 mb-2 lh-1 fw-normal country font-10">Portfolio Website<div class="kor-hidden">포트폴리오</div></span>
+                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-3">Portfolio Website<div class="kor-hidden">포트폴리오</div></span>
                                                 <ul class="list-unstyled mt-auto small2">
                                                     <li class="d-flex align-items-center me-3 mb-4">
                                                         <span class="">2023. 10. - 2024. 02.</span>
@@ -154,10 +154,10 @@ function Project() {
                               <NavLink to="pacman" id="pacman">
                                 <Fade bottom delay={100}>
                                     <div class="col">
-                                        <div class="card card-cover h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-1">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-1">
                                             <img class="card-image" src ={project3}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="fs-3 mb-2 lh-1 fw-normal country font-10">Pacman<div class="kor-hidden">팩맨</div></span>
+                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-3">Pacman<div class="kor-hidden">팩맨</div></span>
                                                 <ul class="list-unstyled mt-auto small2">
                                                     <li class="d-flex align-items-center me-3 mb-4">
                                                         <span class="">2023. 10.</span>
@@ -178,10 +178,10 @@ function Project() {
                               <NavLink to="ironman" id="ironman">
                                 <Fade bottom delay={150}>
                                     <div class="col">
-                                        <div class="card card-cover h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-1">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-1">
                                             <img class="card-image" src ={project2}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="fs-3 mb-2 lh-1 fw-normal country font-10">Ironman<div class="kor-hidden">아이언맨</div></span>
+                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-3">Ironman<div class="kor-hidden">아이언맨</div></span>
                                                 <ul class="list-unstyled mt-auto small2">
                                                     <li class="d-flex align-items-center me-3 mb-4">
                                                         <span class="">2021. 06.</span>
@@ -203,10 +203,10 @@ function Project() {
                             <NavLink to="snake" id="ironman">
                                 <Fade bottom delay={200}>
                                     <div class="col">
-                                        <div class="card card-cover h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-1">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-1">
                                             <img class="card-image" src ={project1}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="fs-3 mb-2 lh-1 fw-normal country font-10">Snake<div class="kor-hidden">스네이크</div></span>
+                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-3">Snake<div class="kor-hidden">스네이크</div></span>
                                                 <ul class="list-unstyled mt-auto small2">
                                                     <li class="d-flex align-items-center me-3 mb-4">
                                                         <span class="">2020. 06.</span>

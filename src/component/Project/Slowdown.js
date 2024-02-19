@@ -35,24 +35,23 @@ function Slowdown() {
                 <title>SlowDown - Project - USFREE</title>
             </Helmet>
             <div id="projectmain">
-                <div class="container px-4 my-2 mt-10">
-                    <div class="mb-5">
-                        <h1 class="display-3 fw-bolder mb-0"><span class="text-gradient d-inline">SLOW DOWN</span></h1>
-                        <div class="text-black"><span class="fw-bolder">UnrealEngine　</span>2024. 02. - Developing </div>
-                    </div>
-                </div>
                 <div class="bg-white">
-                    <div class="container px-4 my-2 mt-5">
-                        <div class="mb-5">
-                        <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
-                            <a onClick={notify2} target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-sm-3 fs-6 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
+                    <div class="container ">
+                        <div class="pt-6 px-3">
+                            <span class="display-4 fw-bolder font-5 text-black">SLOW DOWN</span>
+                            <div class="mb-5">
+                                <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
+                                <a href="https://github.com/usfree/" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-sm-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
+                            </div>
                         </div>
+                    </div>
+                    <div class="container my-2 mt-3">
                         <div class="row gx-5 justify-content-center">
                             <div class="up-animation">
                                 <div class="card shadow rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
-                                            <div class="p-3 proj_text w-100 text-black fw-light">
+                                            <div class="p-2 proj_text w-100 text-black fw-light">
                                                 <div class="mb-3 w-100 card card-cover-danger p-3 rounded-3 border-0">
                                                     <span class="text-only-white"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
                                                 </div>

@@ -20,8 +20,8 @@ function Website() {
             <Helmet><title>Portfolio Website - Project - USFREE</title></Helmet>
             <div id="projectmain">
                 <div class="bg-white">
-                    <div class="container px-4">
-                        <div class="pt-7 px-4">
+                    <div class="container ">
+                        <div class="pt-6 px-3">
                             <span class="display-4 fw-bolder font-5 text-black">PORTFOLIO WEBSITE</span>
                             <div class="mb-5">
                                 <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
@@ -30,13 +30,13 @@ function Website() {
                             </div>
                         </div>
                     </div>
-                    <div class="container px-4 my-2 mt-3">
+                    <div class="container my-2 mt-3">
                         <div class="row gx-5 justify-content-center">
                             <div class="up-animation">
                                 <div class=" rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
-                                            <div class="p-3 proj_text w-100 text-black fw-light">
+                                            <div class="p-2 proj_text w-100 text-black fw-light">
                                                 <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
                                                     <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span class="font-3 fw-light fs-6 mb-2 text-black">2023. 10. - 2024. 02.</span></div>
                                                     <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span class="font-3 fw-light fs-6 mb-2 text-black">React, HTML, CSS, JavaScript, Bootstrap Library</span></div>
