@@ -161,30 +161,31 @@ class Profile extends Component {
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
                                             <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">SKILL</div>
-                                            <div class="font-3 fw-light2 fs-5 highlight-gradient text-black">Language<span class="fs-6"></span></div>
                                             <div class="row row-cols-lg-2 p-2 mb-3 font-2">
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-light2 fw-opacity"><FontAwesomeIcon icon={faCode}/> C / C++</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">C와 C++을 사용하여 알고리즘을 해결하고 목표한 클래스를 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다. </div>
+                                                    <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C</div><span> </span>
+                                                    <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C++</div>
+                                                    <div class="fw-light2 fs-8 mb-2 text-black">C와 C++을 사용하여 알고리즘을 작성하고 목표한 기능을 클래스를 사용하여 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다.</div>
                                                 </div>
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-light2 fw-opacity"><FontAwesomeIcon icon={faHtml5}/> HTML5 / CSS3 / JavaScript</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">HTML을 사용할 수 있고, CSS와 JavaScript를 통해 웹페이지를 구현할 수 있습니다.</div>
+                                                    <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#HTML5</div><span> </span>
+                                                    <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#CSS3</div><span> </span>
+                                                    <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#JavaScript</div>
+                                                    <div class="fw-light2 fs-8 mb-2 text-black">HTML, CSS와 JavaScript를 통해 주어진 기능을 수행하는 웹페이지를 구현할 수 있습니다.</div>
                                                 </div>
                                             </div>
-                                            <div class="font-3 fw-light2 fs-5 highlight-gradient text-black">Tools<span class="fs-6"></span></div>
                                             <div class="row row-cols-lg-3 p-2 font-2">
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-light2 fw-opacity"><FontAwesomeIcon icon={faGamepad}/> UnrealEngine</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">C++을 사용하여 언리얼엔진을 활용할 수 있고, 목표한 컨텐츠를 제작하기 위해 학습중입니다.</div>
+                                                    <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#UnrealEngine</div>
+                                                    <div class="fw-light2 fs-8 mb-2 text-black">C++을 사용하여 언리얼엔진을 활용할 수 있고, 목표한 컨텐츠를 제작하기 위해 학습중입니다.</div>
                                                 </div>
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-light2 fw-opacity"><FontAwesomeIcon icon={faReact}/> React</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다.</div>
+                                                    <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#React</div>
+                                                    <div class="fw-light2 fs-8 mb-2 text-black">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다.</div>
                                                 </div>
                                                 <div class="col-auto mb-2">
-                                                    <div class="fs-5 fw-light2 fw-opacity"><FontAwesomeIcon icon={faMicrochip}/> Processing</div>
-                                                    <div class="fw-light2 fs-8 mb-2 highlight">프로세싱의 다양한 라이브러리를 사용할 수 있고, 이를 통해 인터랙티브 컨텐츠를 제작할 수 있습니다.</div>
+                                                    <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#Processing</div>
+                                                    <div class="fw-light2 fs-8 mb-2 text-black">프로세싱의 다양한 라이브러리를 사용할 수 있고, 이를 통해 인터랙티브 컨텐츠를 제작할 수 있습니다.</div>
                                                 </div>
                                             </div>
                                         </div>

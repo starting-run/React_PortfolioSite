@@ -48,8 +48,12 @@ class Ironman extends Component {
                                                     <div class="font-3 fw-light fs-6 mb-3">OpenGL로 제작된 3D 입체 아이언맨 모형. OpenGL이 지원하는 기능들을 사용할 수 있음.</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">구현 기능</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">&middot; 큐브맵 구현을 위해 이미지 재단 후 인접한 경계 색상을 자연스럽게 설정<br/>&middot; 각 쉐이딩 상태에 따라 모습을 제대로 보일 수 있도록 매크로 처리<br/>&middot; 와이어프레임 모드와 점 모드로 모드 변경 가능</div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">사용 기술</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">OpenGL, C, C++</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient mb-2">사용 기술</div>
+                                                    <div class="">
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#OpenGL</div><span> </span>
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C</div><span> </span>
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C++</div><span> </span>
+                                                    </div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">인원 구성</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>

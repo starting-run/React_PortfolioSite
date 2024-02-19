@@ -50,8 +50,14 @@ function Website() {
                                                     <div class="font-3 fw-light fs-6 mb-3">React를 사용하여 SPA형식으로 제작된 포트폴리오 게시용 사이트.</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">구현 기능</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">&middot; React SPA 형식으로 제작되어 비동기 방식으로 작동<br/>&middot; 사용자 기기 설정에 따라 다크모드/라이트모드로 동작<br/>&middot; 모바일/태블릿/PC에 따라 실시간 반응형으로 동작<br/>&middot; 프로젝트 섹션 검색기능<br/>&middot; 보기 좋은 디자인을 최우선으로 하여 UI/UX를 수려하게 제작</div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">사용 기술</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">React, HTML, CSS, JavaScript, Bootstrap Library</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient mb-2">사용 기술</div>
+                                                        <div class="">
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#React</div><span> </span>
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#HTML</div><span> </span>
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#CSS</div><span> </span>
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#JavaScript</div><span> </span>
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#Bootstrap Library</div><span> </span>
+                                                        </div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">인원 구성</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>

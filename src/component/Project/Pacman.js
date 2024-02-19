@@ -166,8 +166,11 @@ class Pacman extends Component {
                                                     <div class="font-3 fw-light fs-6 mb-3">Pacman 게임을 모티브로 제작된 미니게임. 유령 객체를 피해 사용자 객체를 움직여 많은 점수를 기록하는 것이 목표인 게임.</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">구현 기능</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">&middot; 매 게임 생성시마다 랜덤으로 새로운 맵 지형 생성<br/>&middot; 매 게임 당 1번만 획득할 수 있는 유니크 아이템을 획득했을 때 우측 하단에 박제하는 기능<br/>&middot; 자동으로 움직이는 유령 객체가 벽 충돌을 인식하여 다른 방향으로 계속 나아가는 기능<br/>&middot; 사용자 객체가 유령 객체에 충돌하였을 때 게임오버 UI를 표출하는 기능</div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">사용 기술</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">Processing(+Library), Java</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient mb-2">사용 기술</div>
+                                                        <div class="">
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#Processing</div><span> </span>
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#Java</div><span> </span>
+                                                        </div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">인원 구성</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>

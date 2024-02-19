@@ -54,8 +54,11 @@ class Snake extends Component {
                                                     <div class="font-3 fw-light fs-6 mb-3">Unity 게임엔진으로 제작된 Snake 게임. 사용자가 객체를 조작하여 코인을 모으면서 자신의 몸이나 벽에 부딪히지 않고, 최대한 많은 점수를 기록하는 게임.</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">구현 기능</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">&middot; Normal Map을 사용하여 맵 텍스처의 입체감 구현<br/>&middot; 선형보간 알고리즘을 사용해 꼬리의 움직임 구현<br/>&middot; 벽에 충돌하거나 머리 객체가 자신의 꼬리 객체에 닿을 경우 사망처리 되며, 게임오버 UI 표출<br/>&middot; 랜덤으로 생성되는 코인 객체가 자연스럽게 360도 돌아갈 수 있도록 애니메이션 추가</div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">사용 기술</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">Unity, C#</div>
+                                                    <div class="font-3 fw-bold fs-5 highlight-gradient mb-2">사용 기술</div>
+                                                    <div class="">
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#Unity</div><span> </span>
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C#</div><span> </span>
+                                                    </div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">인원 구성</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>
