@@ -53,7 +53,7 @@ useEffect(() => {
       </video>
     </div>
     <div id="add-fixed" class="navbar-fixed-attr">
-      <nav id="navbarcontrol" class="navbar navbar-upper navbar-light navbar-py"> {/*navbar-expand-lg 노말PC버전*/}
+      <nav id="navbarcontrol" class="navbar navbar-light navbar-py"> {/*navbar-expand-lg 노말PC버전*/}
         <div id='changecontainer' class="container-full px-4 ">
             <NavLink exact to="/" className="navbar-brand" id="mains"><img class="logoimg"></img></NavLink>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

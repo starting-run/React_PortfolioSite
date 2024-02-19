@@ -14,6 +14,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;900&family=Gowun+Dodum&family=Kanit&family=Nanum+Gothic+Coding&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Orbit&family=Sunflower:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
@@ -95,6 +96,7 @@
   --font-7 : 'Gothic A1', sans-serif;
   --font-8 : 'Nanum Gothic Coding', monospace;
   --font-9 : "Gasoek One", sans-serif;
+  --font-10 : "Poppins", sans-serif;
   --multiplier       : 0.5;
   --space            : calc(3.2rem * var(--multiplier));
   --vspace-0_75      : calc(0.75 * var(--space));
@@ -303,7 +305,7 @@
 }
 
 .fw-opacity {
-  color: rgba(var(--bs-black-rgb), 0.5);
+  color: rgba(var(--bs-black-rgb), 0.7);
 }
 
 .arrow-left {
@@ -654,12 +656,12 @@ body[data-darkmode=on] .darkmode > .inner{
   position: relative;
   align-items: center;
   right: 50px;
-  font-size: 33px;
+  font-size: 35px;
   margin-top: 10px;
   border: none !important;
   font-weight: 700 !important;
   font-family: var(--font-5) !important;
-  letter-spacing :3px !important;
+  letter-spacing :1px !important;
 }
 
 .navbar-nav {
@@ -1264,6 +1266,13 @@ universe 공통 영역 끝
   font-family: var(--font-8);
 }
 
+.font-9 {
+  font-family: var(--font-9);
+}
+
+.font-10 {
+  font-family: var(--font-10);
+}
 
 /* ------------------------------------------------------------------- 
  * ## go top
@@ -10061,6 +10070,10 @@ video {
   color: #909090;
 }
 
+.font-letter-space-no {
+  letter-spacing :0px;
+}
+
 .font-letter-space-sm {
   letter-spacing :1px;
 }
@@ -10209,6 +10222,10 @@ video {
 
 .text-only-white {
   color: #fff;
+}
+
+.text-only-black {
+  color: #323232;
 }
 
 .text-body {
