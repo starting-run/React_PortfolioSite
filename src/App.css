@@ -792,6 +792,9 @@ body[data-darkmode=on] .darkmode > .inner{
     transition:all .3s ease;
   }
   */
+  .hamburger svg {
+    height: 1.3em !important;
+  }  
 }
 
 
@@ -5511,7 +5514,7 @@ textarea.form-control-lg {
 
 .hamburger svg {
   /* The size of the SVG defines the overall size */
-  height: 1.0em;
+  height: 1.1em;
   /* Define the transition for transforming the SVG */
   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
