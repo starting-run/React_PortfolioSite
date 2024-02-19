@@ -29,7 +29,7 @@ function Home() {
                                         </path>
                                     </svg>
                                 </div>
-                                <span class="main__scroll-text font-2 fs-8 font-letter-space">SCROLL DOWN</span>
+                                <span class="main__scroll-text font-2 fs-9 font-letter-space">SCROLL DOWN</span>
                                 </HashLink>
                             </div>
                             
@@ -48,9 +48,9 @@ function Home() {
                                         <div class="row row-half justify-content-center font-3">
     
                                             <div class="h-100 overflow-hidden border-0 rounded-1 pt-2 text-black">
-                                                <div class="fs-5 font-2 fw-light2"><b>Woohyun Cho</b></div>
+                                                <div class="fs-5 font-2 fw-light2 font-letter-space"><b>Woohyun Cho</b></div>
                                                 {/*<div class="fw-light2 mb-1 fs-6 font-3">게임 클라이언트 프로그래머</div>*/}
-                                                <div class="fw-light2 fs-6 mb-3 font-2 highlight">Developer Portfolio</div>
+                                                <div class="fw-light2 fs-6 mb-3 font-2 highlight font-letter-space-lg">Developer Portfolio</div>
 
                                             </div>
                                         </div>

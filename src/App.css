@@ -569,7 +569,9 @@ body[data-darkmode=on] .darkmode > .inner{
   .only-pc-view {
     display: none;
   }
-
+  .navbar-brand {
+    width: 150px !important;
+  }
 }
 
 .prj-sub:hover {
@@ -792,7 +794,7 @@ body[data-darkmode=on] .darkmode > .inner{
   }
   */
   .hamburger svg {
-    height: 1.3em !important;
+    height: 1.2em !important;
   }  
 }
 
@@ -5528,7 +5530,7 @@ textarea.form-control-lg {
 
 .hamburger svg {
   /* The size of the SVG defines the overall size */
-  height: 1.1em;
+  height: 0.8em;
   /* Define the transition for transforming the SVG */
   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -9937,6 +9939,10 @@ video {
   padding-bottom: 3rem !important;
 }
 
+.pb-7 {
+  padding-bottom: 7rem !important;
+}
+
 .ps-0 {
   padding-left: 0 !important;
 }
@@ -10025,6 +10031,11 @@ video {
 .fs-8 {
   font-size: 0.75rem !important;
 }
+
+.fs-9 {
+  font-size: 0.6rem !important;
+}
+
 
 .fs-fr {
   font-size: 1.15rem !important;

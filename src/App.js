@@ -73,12 +73,12 @@ useEffect(() => {
                   <a class="nav-link" href="https://velog.io/@usfree" target='_blank'><li class="nav-item">Blog</li></a>
                   <a class="nav-link" href="https://github.com/usfree" target='_blank'><li class="nav-item">Github</li></a>
                   {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
-                  <span class="hamburger-copy text-black pt-7">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
-                  <ul class="">                    
+                  <ul class="pt-7">                    
                     <li class="float-end"><a class="hamburger-copy fs-4" href="https://github.com/usfree"><FontAwesomeIcon icon={faGithub} /></a></li>
                     <li class="float-end"><a class="hamburger-copy fs-4" href="https://velog.io/@usfree"><FontAwesomeIcon icon={faVimeo} /></a>　</li>
                     <li class="float-end"><a class="hamburger-copy fs-4" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다."><FontAwesomeIcon icon={faEnvelope} /></a>　</li>
                   </ul>
+                  <span class="hamburger-copy text-black pt-2">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
                   <span class="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
                 </ul>
             </div>
