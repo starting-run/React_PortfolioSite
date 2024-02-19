@@ -32,7 +32,7 @@ function Slowdown() {
       return (
         <div>
             <Helmet>
-                <title>슬로우 다운 - 프로젝트 - USFREE</title>
+                <title>SlowDown - Project - USFREE</title>
             </Helmet>
             <div id="projectmain">
                 <div class="container px-4 my-2 mt-10">
@@ -89,7 +89,7 @@ function Slowdown() {
                         </div>
                     </div>
                     <div class="d-flex align-items-center justify-content-center pb-5">
-                        <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3 mb-5"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
+                        <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-7 fw-bolder mt-3 mb-5"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
                     </div>
                 </div>
             </div>

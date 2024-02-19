@@ -147,7 +147,7 @@
     --bs-scroll-white: #fff;
     --bs-black-hover: #a8a8a8;
     --bs-white-rgb: 255, 255, 255;
-    --bs-black-rgb: 0, 0, 0;
+    --bs-black-rgb: 50, 50, 50;
     --btn-outline-dark : #212529;
     --bs-light-rgb: 248, 249, 250;
     --bs-profile-card-rgb: 33, 37, 41;
@@ -179,8 +179,8 @@
     --bs-profile-card-rgb: 255, 255, 255;
     --btn-outline-dark : #e7e6e6;
     --bs-light-rgb: 45, 46, 46;
-    --card-bg : #212529;
-    --prj-card-bg : #323232;
+    --card-bg : #323232;
+    --prj-card-bg : #212529;
     --text-muted : #d3d2d2;
     --bs-white-rgb: 30, 31, 33;
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28280, 280, 280, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -215,8 +215,8 @@
   --bs-profile-card-rgb: 255, 255, 255;
   --btn-outline-dark : #e7e6e6;
   --bs-light-rgb: 45, 46, 46;
-  --card-bg : #212529;
-  --prj-card-bg : #323232;
+  --card-bg : #323232;
+  --prj-card-bg : #212529;
   --text-muted : #d3d2d2;
   --btn-like-color : #FC8574;
   --bs-white-rgb: 30, 31, 33;
@@ -244,7 +244,7 @@
     --bs-scroll-white: #fff;
     --bs-black-hover: #a8a8a8;
     --bs-white-rgb: 255, 255, 255;
-    --bs-black-rgb: 0, 0, 0;
+    --bs-black-rgb: 50, 50, 50;
     --bs-profile-card-rgb: 33, 37, 41;
     --btn-outline-dark : #212529;
     --bs-light-rgb: 248, 249, 250;
@@ -387,7 +387,6 @@
   left: 0;
   right: 0;
   color: rgb(255, 255, 255);
-
 }
 
 .name {
@@ -395,7 +394,6 @@
   font-weight: 100;
   position: relative;
   top: 0.1em;
-  text-transform: lowercase;
 }
 
 .wave:nth-child(2) {
@@ -656,7 +654,7 @@ body[data-darkmode=on] .darkmode > .inner{
 .nav-link {
   position: relative;
   align-items: center;
-  right: 5vw;
+  right: 50px;
   font-size: 33px;
   margin-top: 10px;
   border: none !important;
@@ -675,7 +673,7 @@ body[data-darkmode=on] .darkmode > .inner{
   position: relative;
   font-size: 7px;
   z-index: 1;
-  right: 5vw;
+  right: 50px;
 }
 .size-repack {
   height: 100vh;
@@ -688,10 +686,8 @@ body[data-darkmode=on] .darkmode > .inner{
 @media (min-width: 992px) {
   .navbar:hover {
     -webkit-backdrop-filter: blur(20px);  /*For Safari */
-    background-color: rgba(var(--bs-black-rgb), 0.05);
     backdrop-filter: blur(20px);
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
-    transition: all 0.5s;
+    transition: all 0.3s;
   }
   .only-mobile-view{
     display: none;
@@ -2003,6 +1999,10 @@ progress {
 ::-webkit-scrollbar-track {
   box-shadow: none;
   background-color: transparent;
+}
+
+::selection {
+  background-color: #616161;
 }
 
 .container-bt {
@@ -5383,12 +5383,18 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: space-between;
   padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
-  transition: all 1s;
+  transition: all 0.3s;
   z-index: 1;
 }
 
 .logoimg {
   content: var(--bs-logo-img);
+  transition: all 0.3s;
+}
+
+.logoimg:hover {
+  content: url(images/logo_text_hover.png);
+  transition: all 0.3s;
 }
 
 .navbar > .container,
@@ -5891,25 +5897,25 @@ textarea.form-control-lg {
 
 .card-hover-up {
   top: 0px;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-  transition: all 1s;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s;
 }
 
 .card-hover-up:hover {
-  top: -10px;
-  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2) !important;
-  transition: all 1s;
+  top: -5px;
+  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.8) !important;
+  transition: all 0.3s;
 }
 
 .card-hover-up-main {
   top: 0px;
-  transition: all 1s;
+  transition: all 0.3s;
 }
 
 .card-hover-up-main:hover {
-  top: -10px;
+  top: -5px;
   background-color: #fc8574;
-  transition: all 1s;
+  transition: all 0.3s;
 }
 
 .card > hr {
@@ -10319,7 +10325,7 @@ video {
 .bg-white {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
-  transition: all 1s;
+  transition: all 0.3s;
 }
 
 .bg-body {

@@ -5,18 +5,17 @@ import profileimg from '../images/logo_sq.png'
 import { Helmet } from 'react-helmet';
 import { faBlogger, faGithub, faHtml5, faReact } from '@fortawesome/free-brands-svg-icons';
 import { Fade } from 'react-reveal';
-import { alignPropType } from 'react-bootstrap/esm/types';
-
 
 class Profile extends Component {
     render() {
       return (
         <div>
         <Helmet>
-            <title>프로필 - USFREE</title>
+            <title>Profile - USFREE</title>
         </Helmet>
         <div id="main">
             <div id="main bg-dark">
+            <div class="bg-change bg-white bg-img"></div>
                 <div class="character-top bg-wh h-auto">
                     <div id="class_back" class="bg-info-back"></div>
                 <div class="container-xxl pt-6-5">
@@ -79,7 +78,7 @@ class Profile extends Component {
                                 <Fade bottom delay={100}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
-                                            <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">EDUCATION</div>
+                                            <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EDUCATION</div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto text-black mb-3 font-2">
                                                     <div class="fs-5 fw-light2"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>Kangnam University</a></div>
@@ -100,7 +99,7 @@ class Profile extends Component {
                                 <Fade bottom delay={150}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
-                                            <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">EXPERIENCE</div>
+                                            <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EXPERIENCE</div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2 font-2">
                                                     <div class="fs-5 fw-light2 fw-opacity">42Seoul LaPiscine</div>
@@ -117,7 +116,7 @@ class Profile extends Component {
                                     <Fade bottom delay={200}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
-                                            <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">CERTIFICATE</div>
+                                            <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">CERTIFICATE</div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2 font-2">
                                                     <div class="fs-5 fw-light2 fw-opacity">웹디자인기능사</div>
@@ -145,7 +144,7 @@ class Profile extends Component {
                                     <Fade bottom delay={250}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
-                                            <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">MILITARY SERVICE</div>
+                                            <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">MILITARY SERVICE</div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2 font-2">
                                                     <div class="fs-5 fw-light2 fw-opacity">병장 만기전역</div> 
@@ -160,7 +159,7 @@ class Profile extends Component {
                                 <Fade bottom delay={300}><div>
                                     <div class="col">
                                         <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 ">
-                                            <div class="mb-4 text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg">SKILL</div>
+                                            <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SKILL</div>
                                             <div class="row row-cols-lg-2 p-2 mb-3 font-2">
                                                 <div class="col-auto mb-2">
                                                     <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C</div><span> </span>

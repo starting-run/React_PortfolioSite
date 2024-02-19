@@ -40,24 +40,19 @@ function Project() {
       return (
         <div>
         <Helmet>
-            <title>프로젝트 - USFREE</title>
+            <title>Project - USFREE</title>
         </Helmet>
         <section class="project-2">
-      <div class="e-card playing p-0 mb-5">
-          <img class="bg-video-prj" src={Promotionsection}></img>
-  
-              <div class="infotop">
-               
-          <div class="font-3 text-black mb-3 px-5 mt-3">아래에서 해당 카드를 누르시면 프로젝트에 관한 자세한 내용을 보실 수 있습니다.</div>
-
-      <div class="name text-black px-5">각 프로젝트 상단의 버튼을 통해 Github Repository로 바로 이동하실 수 있습니다.</div>
-          </div>
+      <div class="e-card p-0 mb-5">
+        <img class="bg-video-prj" src={Promotionsection}></img>
+        <div class="infotop">
+            <div class="font-3 text-black mb-3 px-5 mt-3">아래에서 해당 카드를 누르시면 프로젝트에 관한 자세한 내용을 보실 수 있습니다.</div>
+            <div class="name text-black px-5">각 프로젝트 상단의 버튼을 통해 Github Repository로 바로 이동하실 수 있습니다.</div>
+        </div>
       </div>
-      <div class="bg-change bg-white bg-img">
-      </div>
+      <div class="bg-change bg-white bg-img"></div>
       <body>
           <div class="container-xxl px-4 mt-0 mb-5">
-              
               <div class="row align-items-center justify-content-between mt-3 mb-4">
                   <div class="col-auto fs-3 fw-bold font-3 text-black">프로젝트　
                       <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
@@ -110,7 +105,7 @@ function Project() {
                                     <div class="card card-cover h-100 overflow-hidden text-black card-border-0 shadow-sm">
                                         {/*<img class="card-image" src = {project5}></img>*/}
                                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                            <span class="fs-3 mb-2 lh-1 fw-light2 country font-6">SlowDown<div class="kor-hidden">슬로우다운</div></span>
+                                            <span class="fs-3 mb-2 lh-1 fw-light2 country font-6 text-black">SlowDown<div class="kor-hidden">슬로우다운</div></span>
                                             <ul class="list-unstyled mt-auto small2">
                                                 <li class="d-flex align-items-center me-3 city mb-4">
                                                     <span class="">UnrealEngine</span>

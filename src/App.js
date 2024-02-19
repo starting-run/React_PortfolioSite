@@ -95,17 +95,18 @@ useEffect(() => {
                     <a class="text-only-white" href="https://codeforces.com/profile/tlrmsjtm77"><FontAwesomeIcon icon={faChartSimple} /></a>
                 </div>
                 <hr></hr>
-                <div class="d-flex">
+                {/*<div class="d-flex">
                     <div class="mb-3 small"><Link to="/credit" className="credit text-only-white">크레딧</Link></div>
                     <div class="mb-3 smaller text-only-white">　|　</div>
                     <div class="mb-3 small"><Link to="/links" className="credit text-only-white">링크</Link></div>
                     <div class="mb-3 smaller text-only-white">　|　</div>
                     <div class="mb-3 small"><a class="credit text-only-white" href="https://usfree.site/labs">실험실</a></div>
                     {/*<div class="mb-3 smaller text-only-white">　|　</div>
-                    <div class="mb-3 small"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fusfree.site&count_bg=%23FC8574&title_bg=%23212529&icon=&icon_color=%23E7E7E7&title=visit&edge_flat=true"/></div>*/}
-                </div>
+                    <div class="mb-3 small"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fusfree.site&count_bg=%23FC8574&title_bg=%23212529&icon=&icon_color=%23E7E7E7&title=visit&edge_flat=true"/></div>
+                </div>*/}
                 <div class="col-auto">
-                    <div class="smaller m-0 text-only-white"><b>USFREE</b> 조우현</div>
+                    {/*<div class="smaller m-0 text-only-white"><b>USFREE</b> 조우현</div>*/}
+                    <div class="smaller m-0 text-only-white mb-1">본 사이트는 개인 포트폴리오용으로 제작되었습니다.</div>
                     <div class="smaller m-0 text-only-white mb-3">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</div>
                     <div class=""><a href="https://usfree.site"><img src={footerimg} style={{width: "90px"}}></img></a></div>
                 </div>

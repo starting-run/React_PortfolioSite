@@ -47,11 +47,10 @@ function Home() {
                                         </div>
                                         <div class="row row-half justify-content-center font-3">
     
-                                            <div class="card h-100 overflow-hidden border-0 rounded-1 pt-2 card-blur text-black">
-                                                <div class="fs-5 font-3 fw-light2"><b>Woohyun Cho</b></div>
+                                            <div class="h-100 overflow-hidden border-0 rounded-1 pt-2 text-black">
+                                                <div class="fs-5 font-2 fw-light2"><b>Woohyun Cho</b></div>
                                                 {/*<div class="fw-light2 mb-1 fs-6 font-3">게임 클라이언트 프로그래머</div>*/}
-                                                <div class="fw-light2 fs-6 mb-3 font-3 highlight">Developer Portfolio</div>
-                                                <div class="fw-light2 fs-6 mb-3 font-3"><a href="https://www.kangnam.ac.kr/" target='_blank'>Kangnam University</a> Undergraduate</div>
+                                                <div class="fw-light2 fs-6 mb-3 font-2 highlight">Developer Portfolio</div>
 
                                             </div>
                                         </div>
