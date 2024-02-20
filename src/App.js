@@ -47,6 +47,10 @@ useEffect(() => {
     <div className="App">
   <div>
   <Toaster position='bottom-right'/>
+  <div class="bg-video">
+    <div class="bg-change"></div>
+    <div class="intro-background"></div>
+  </div>
     <div id="add-fixed" class="navbar-fixed-attr">
       <nav id="navbarcontrol" class="navbar navbar-light navbar-py navbar-upper"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
         <div id='changecontainer' class="container-full px-4 ">

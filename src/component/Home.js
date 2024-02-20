@@ -20,8 +20,6 @@ function Home() {
         </Helmet>
         <div class="wraps">
             <div class="section">
-                <div class="bg-change"></div>
-                <div class="intro-background">
                     <div class="w-100">
                         <div class="scr-down font-7 fw-light2">
                             <div class="main__action text-center">
@@ -60,16 +58,16 @@ function Home() {
                 </div>
             </div>
             <div class="section" id="intro">
-                <div class="bg-white"></div>
+                <div class="bg-white">
                     <div class="s-intro">
-                        <div class="s-intro__content row text-black pt-5"> 
+                        <div class="s-intro__content row text-black"> 
                             <div class="column">
                                 <div class="container-sm px-4">
                                     <div class="row justify-content-center p-4">
                                         <div class="mb-5 px-4">
                                             <Fade bottom delay={500}>
                                                 <div>
-                                                    <div class="fs-0-5 font-10 fw-light2 font-letter-space-sm text-black mb-5 pt-6">MORE AND MORE <span class="fw-bold">CREATIVELY</span></div>
+                                                    <div class="fs-0-5 font-10 fw-light2 font-letter-space-sm text-black mb-5 pt-7">MORE AND MORE <span class="fw-bold">CREATIVELY</span></div>
                                                 </div>
                                             </Fade>
                                             <Fade bottom delay={1000}>
@@ -87,26 +85,26 @@ function Home() {
                                                 </div>
                                             </Fade>
                                             <div>
-                                                <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 mb-4">
+                                                <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 mb-5">
                                                     <div class="col">
                                                     <Fade bottom delay={1500}>
                                                         <span>
-                                                            <Link to='/profile' className="btn btn-outline-dark-round btn-lg px-5 py-3 me-3 fs-5 fw-bolder mt-3">Profile</Link>
+                                                            <Link to='/profile' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-6 fw-bolder mt-3">Profile</Link>
                                                         </span>
                                                     </Fade>
                                                     <Fade bottom delay={1800}>
                                                         <span>
-                                                            <Link to='/project' className="btn btn-outline-dark-round btn-lg px-5 py-3 me-sm-3 fs-5 fw-bolder mt-3">Project</Link>
+                                                            <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3">Project</Link>
                                                         </span> 
                                                     </Fade>
                                                     <Fade bottom delay={2100}>
                                                         <span>
-                                                            <a href="https://velog.io/@usfree" target="_blank" className="btn btn-outline-dark-round-main btn-lg px-5 py-3 me-3 fs-5 fw-bolder mt-3">Blog</a>
+                                                            <a href="https://velog.io/@usfree" target="_blank" className="btn btn-outline-dark-round-main btn-lg px-4 py-2 me-3 fs-6 fw-bolder mt-3">Blog</a>
                                                         </span> 
                                                     </Fade>
                                                     <Fade bottom delay={2400}>
                                                         <span>
-                                                            <a href="https://github.com/usfree" target="_blank" className="btn btn-outline-dark-round-main btn-lg px-5 py-3 me-sm-3 fs-5 fw-bolder mt-3">Github</a>
+                                                            <a href="https://github.com/usfree" target="_blank" className="btn btn-outline-dark-round-main btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3">Github</a>
                                                         </span> 
                                                     </Fade>
                                                     </div>
@@ -119,8 +117,8 @@ function Home() {
                         </div>
                     </div>
                     
-                
-            </div>
+                    </div>
+           
         </div>
     </div>
 
