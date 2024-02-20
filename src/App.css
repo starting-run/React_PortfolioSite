@@ -1000,25 +1000,6 @@ body[data-darkmode=on] .darkmode > .inner{
   color: var(--bs-black);
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-.intro-background {
-  height: 100vh;
-  background: linear-gradient(-45deg, #000000, rgb(150, 61, 61), rgb(170, 95, 57),rgb(160, 127, 114));
-  background-size: 400% 400%;
-  animation: gradient 14s ease-in-out infinite;
-  z-index: -2;
-}
 
 
 .rainbow-text:hover {
@@ -10437,6 +10418,29 @@ video {
   width: 70%;
   top: 0;
   left: 0;
+}
+
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.intro-background {
+  height: 100vh;
+  object-fit: cover;
+  background: linear-gradient(-45deg, #000000, rgb(150, 61, 61), rgb(170, 95, 57),rgb(160, 127, 114));
+  background-size: 400% 400%;
+  animation: gradient 14s ease-in-out infinite;
+  z-index: -2;
 }
 
 .bg-video {

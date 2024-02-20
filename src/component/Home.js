@@ -20,7 +20,11 @@ function Home() {
         </Helmet>
         <div class="wraps">
             <div class="section">
-                    <div class="w-100">
+            <div class="bg-video">
+                <div class="bg-change"></div>
+                <div class="intro-background"></div>
+            </div>
+                    <div class="h-100">
                         <div class="scr-down font-7 fw-light2">
                             <div class="main__action text-center">
                                 <HashLink smooth to="#intro" className="main__scroll">
