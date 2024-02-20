@@ -50,9 +50,9 @@ function Project() {
           <div class="container-xxl px-4 pt-6 mb-5">
             <div class="only-pc-view pt-7"></div>
               <div class="row align-items-center justify-content-between">
-                  <div class="col-auto fs-0-5 font-10 fw-bolder font-letter-space-sm text-black text-uppercase">Project　
+                  <div class="col-auto fs-0-5 font-10 fw-bolder font-letter-space-sm text-black">PROJECT　
                       <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
-                          <span class="prj-sub fs-6 fw-light font-4 font-letter-space-no"><FontAwesomeIcon icon={faGithub} /> Collect from Github <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                          <span class="prj-sub fs-6 fw-light font-4 font-letter-space"><FontAwesomeIcon icon={faGithub} /> Collect from Github <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                           </span>
                       </a>
                   </div>
