@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d533e0b.css",
-    "main.js": "/static/js/main.44004af8.js",
+    "main.css": "/static/css/main.258621f3.css",
+    "main.js": "/static/js/main.37fde675.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
@@ -11,6 +11,7 @@
     "static/media/slowdown.jpg": "/static/media/slowdown.a9f2bbc5ca475a39a492.jpg",
     "static/media/OpenGL_Ironman.pdf": "/static/media/OpenGL_Ironman.54c28fdf5dac7d4a96f2.pdf",
     "static/media/snap.webp": "/static/media/snap.f4940bcfcba62375bf55.webp",
+    "static/media/intro.jpg": "/static/media/intro.9c37d7dbf7c2a7e9dc6d.jpg",
     "static/media/1.png": "/static/media/1.a04d4bf800f1daf45e0c.png",
     "static/media/2.png": "/static/media/2.1d47d671f051d05e6ca8.png",
     "static/media/website.png": "/static/media/website.a4606fe79f35b66e79e8.png",
@@ -34,7 +35,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.2d533e0b.css",
-    "static/js/main.44004af8.js"
+    "static/css/main.258621f3.css",
+    "static/js/main.37fde675.js"
   ]
 }
