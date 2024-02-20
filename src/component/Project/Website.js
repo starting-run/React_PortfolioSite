@@ -22,11 +22,11 @@ function Website() {
                 <div class="bg-white">
                     <div class="container ">
                         <div class="pt-6 px-3">
-                            <span class="display-4 fw-bolder font-5 text-black">PORTFOLIO WEBSITE</span>
+                            <span class="display-4 fw-bolder font-10 text-black">PORTFOLIO WEBSITE</span>
                             <div class="mb-5">
-                                <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
-                                <a href="https://github.com/usfree/usfree.github.io" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-sm-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
-                                <a href="https://usfree.site" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-sm-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Go To Service</a>
+                                <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
+                                <a href="https://github.com/usfree/usfree.github.io" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
+                                <a href="https://usfree.site" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Go To Service</a>
                             </div>
                         </div>
                     </div>

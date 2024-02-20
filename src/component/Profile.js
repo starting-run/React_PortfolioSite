@@ -42,24 +42,7 @@ class Profile extends Component {
                 <div class="container-xxl px-4 pt-6">
                         <div class="row justify-content-center">
                             <div class="mb-5">
-                                <div class="mb-2 fs-1 font-5 fw-bolder font-letter-space-sm text-black">Profile</div>
-                            <Fade bottom delay={0}><div>
-                                <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 cards mb-4">
-                                    <div class="col">
-                                        <div class="card h-100 bg-main-color overflow-hidden border-0 card-hover-up p-3 rounded-1">
-                                            <div class="mb-2 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">INTRODUCE</div>
-                                            <div class="font-3 text-center text-only-black">
-                                                <div class="fs-4 mb-1">More And More <b>CREATIVELY</b></div>
-                                                <div class="fs-6 font-3 mb-5">창의적인 개발자 <b>조우현</b>입니다.</div>
-                                                <div class="mb-3">안녕하세요. 언리얼 개발자를 꿈꾸고 있는 조우현입니다. 
-                                                <br/>모든 일에 필요한 창의력은 혁신을 그리고, 상상력은 사람을 만들고 조각한다고 생각합니다.
-                                                <br/>창의력과 상상력을 통해 꾸준히 성장하는 개발자가 되도록 노력하겠습니다.
-                                                <br/>진행하는 프로젝트에 대해서는 포트폴리오 웹사이트에 꾸준히 업데이트하여 게시중입니다.</div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div></div></Fade>
+                                <div class="mb-2 fs-0-5 font-10 fw-bold font-letter-space-sm text-black text-uppercase">Profile</div>
                                 <div class="row row-cols-1 row-cols-xxl-2 g-4 cards">
                                 <Fade bottom delay={100}><div>
                                     <div class="col">
