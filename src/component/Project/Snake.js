@@ -56,7 +56,7 @@ class Snake extends Component {
                                                     </span>
                                                 </div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
-                                                <div class="mb-4 px-2">가장 폭넓게 사용되는 Unity 엔진으로 제작된 Snake 게임입니다. 선형보간 알고리즘, 애니메이션 기능 등 Unity 엔진에서 사용할 수 있는 기본적인 간단하고 기본적인 기능들을 사용하여 구현한 게임입니다.</div>
+                                                <div class="mb-4 px-2">가장 폭넓게 사용되는 Unity 엔진으로 제작된 Snake 게임입니다. 선형보간 알고리즘, 애니메이션 기능 등 Unity 엔진에서 사용할 수 있는 기본적인 기능들을 사용하여 구현한 게임입니다.</div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                 <div class="mb-4 px-2">Unity 엔진은 가상현실, 게임 분야의 개발자라면 UnrealEngine과 더불어 가장 많이 사용되기 때문에 다뤄보는 경험자체가 중요하고 필요하다고 생각했습니다.</div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
