@@ -1017,7 +1017,7 @@ body[data-darkmode=on] .darkmode > .inner{
   background: linear-gradient(-45deg, #000000, rgb(150, 61, 61), rgb(170, 95, 57),rgb(160, 127, 114));
   background-size: 400% 400%;
   animation: gradient 14s ease-in-out infinite;
-  z-index: -999;
+  z-index: -2;
 }
 
 

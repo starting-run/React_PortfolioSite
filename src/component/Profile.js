@@ -15,7 +15,7 @@ class Profile extends Component {
         </Helmet>
         <div id="main">
             <div id="main bg-dark">
-            <div class="bg-change bg-white bg-img"></div>
+            <div class="bg-white bg-img"></div>
                 {/*<div class="character-top bg-wh h-auto">
                     <div id="class_back" class="bg-info-back"></div>
                 <div class="container-xxl pt-6-5">

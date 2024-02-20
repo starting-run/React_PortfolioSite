@@ -45,7 +45,7 @@ function Project() {
         </Helmet>
         <section class="project-2">
 
-      <div class="bg-change bg-white bg-img"></div>
+      <div class="bg-white bg-img"></div>
       <body>
           <div class="container-xxl px-4 pt-6 mb-5">
             <div class="only-pc-view pt-7"></div>
