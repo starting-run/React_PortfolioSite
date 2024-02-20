@@ -65,16 +65,16 @@ function Home() {
                         <div class="s-intro__content row text-black"> 
                             <div class="column">
                                 <div class="container-sm px-4">
-                                    <div class="row justify-content-center p-4">
-                                        <div class="mb-5 px-4">
+                                    <div class="row justify-content-center">
+                                        <div class="mb-5">
                                             <Fade bottom delay={500}>
                                                 <div>
-                                                    <div class="fs-0-5 font-10 fw-light2 font-letter-space-sm text-black mb-5 pt-7">MORE AND MORE <span class="fw-bold">CREATIVELY</span></div>
+                                                    <div class="fs-0-5 font-10 fw-light2 font-letter-space-sm text-black mb-5 pt-5">MORE AND MORE <span class="fw-bold">CREATIVELY</span></div>
                                                 </div>
                                             </Fade>
                                             <Fade bottom delay={1000}>
                                                 <div>
-                                                    <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 mb-5">
+                                                    <div class="row row-cols-1 g-4 mb-5">
                                                         <div class="col">
                                                             <div class="mb-3 lh-lg font-letter-space-sm font-3 fw-normal text-black fs-6">
                                                                     안녕하세요, 언리얼 개발자를 꿈꾸고 있는 조우현입니다. 
