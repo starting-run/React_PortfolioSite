@@ -10436,7 +10436,7 @@ video {
 
 .intro-background {
   height: 100vh;
-  background: linear-gradient(-45deg, #000000, rgb(150, 61, 61), rgb(170, 95, 57),rgb(160, 127, 114));
+  background: linear-gradient(-45deg, var(--bs-white), rgb(150, 61, 61), rgb(170, 95, 57),rgb(160, 127, 114));
   background-size: 400% 400%;
   animation: gradient 14s ease-in-out infinite;
   z-index: -2;
@@ -10449,7 +10449,7 @@ video {
   height: 40vh; /* absolute시 100vh */
   width: 100%;
   z-index: -3;
-  opacity: 0.5; /* 원본값 0.15 */
+  opacity: 0.7; /* 원본값 0.15 */
   /* filter:blur(2px); 배경 블러 */
 }
 
