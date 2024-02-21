@@ -21,7 +21,7 @@ import Nav from './component/Nav';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
-      <ToTopButton />
+      <App />
       <ScrollToTop />
       <Routes>
         <Route path="/profile/*" element={<Profile/>}/>
@@ -33,7 +33,6 @@ root.render(
         <Route path="/project/ironman" element={<Ironman/>}/>
         <Route path="/project/snake" element={<Snake/>}/>
       </Routes>
-      <App />
       <Nav />
     </HashRouter>
 );

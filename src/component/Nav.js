@@ -11,7 +11,8 @@ import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
 import toast, { Toaster } from 'react-hot-toast';
 import { useEffect } from 'react';
 import footerimg from '../images/footerimg.png';
-
+import ScrollIndicator from "./ScrollIndicator";
+import ToTopButton from './ToTopButton';
 
 
 function Nav() {
@@ -44,7 +45,9 @@ useEffect(() => {
       return (
         <header>
   <div>
+  <ToTopButton />
   <Toaster position='bottom-right'/>
+  <ScrollIndicator color="orange" />
     <div id="add-fixed" class="navbar-fixed-attr">
       <nav id="navbarcontrol" class="navbar navbar-light navbar-py navbar-upper"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
         <div id='changecontainer' class="container-full px-4 ">

@@ -2034,18 +2034,7 @@ progress {
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  outline: none;
-  background-color: #FC8574;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: none;
-  background-color: transparent;
+  display: none;
 }
 
 ::selection {
