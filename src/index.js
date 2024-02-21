@@ -17,10 +17,11 @@ import ToTopButton from './component/ToTopButton';
 import Slowdown from './component/Project/Slowdown';
 import Website from './component/Project/Website';
 import Nav from './component/Nav';
-
+import ScrollIndicator from "./component/ScrollIndicator";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
+      <ScrollIndicator/>
       <App />
       <ScrollToTop />
       <Routes>
