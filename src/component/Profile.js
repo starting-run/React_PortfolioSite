@@ -16,33 +16,11 @@ class Profile extends Component {
         <div id="main">
             <div id="main bg-dark">
             <div class="bg-white bg-img"></div>
-                {/*<div class="character-top bg-wh h-auto">
-                    <div id="class_back" class="bg-info-back"></div>
-                <div class="container-xxl pt-6-5">
-                    <div class="row justify-content-center font-3 pb-2">
-                        <div class="row row-cols-1 row-cols-xl-2 justify-content-center font-3 mb-3 ">
-                            <div class="col col-xl-3">
-                                <div class="row row-cols-2 row-cols-xl-2 pt-5">
-                                    <div className='col'>
-                                        <div class="character_image"><img src={profileimg}/></div>
-                                    </div>
-                                    <div className='col'>
-                                        <div class="btn btn-primary-round-outline py-0 pb-1"><span class="fs-7 font-3">USFREE</span></div>
-                                        <div class="mb-0"><span class="fs-2 font-3 fw-bolder text-black">조우현</span></div>
-                                        <div class="font-3 fs-7 fw-light2 text-black">Woohyun Cho</div>
-                                        <div class="row row-cols-2 row-cols-lg-5  justify-content-center font-2 mb-5"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>*/} 
                 <div class="bg-wh">
                 <div class="container-xxl px-4 pt-6">
                         <div class="row justify-content-center">
                             <div class="mb-5">
-                                <div class="mb-2 fs-0-5 font-10 fw-bold font-letter-space-sm text-black text-uppercase">Profile</div>
+                                <div class="mb-5 fs-0-5 font-10 fw-bold font-letter-space-sm text-black text-uppercase">Profile</div>
                                 <div class="row row-cols-1 row-cols-xxl-2 g-4 cards">
                                 <Fade bottom delay={100}><div>
                                     <div class="col">

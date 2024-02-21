@@ -22,7 +22,7 @@ class Ironman extends Component {
                 <div class="bg-white">
                     <div class="container">
                         <div class="pt-6 px-3">
-                            <span class="display-4 fw-bolder font-10 text-black">IRONMAN 3D MODEL</span>
+                            <span class="fs-0-5 fw-bolder font-10 text-black">IRONMAN 3D MODEL</span>
                             <div class="mb-5">
                                 <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
                                 <a href="https://github.com/usfree/OpenGL_Ironman" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>

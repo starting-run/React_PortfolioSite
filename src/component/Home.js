@@ -1,57 +1,45 @@
 import React, { Component, useEffect } from 'react';
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
-import main_profile_btn from "../images/profile/edu.jpg";
-import main_project_btn from "../images/projects/2.png";
-import main_blog_btn from "../images/main/card1.jpeg";
-import main_github_btn from "../images/main/gitback.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { HashLink } from 'react-router-hash-link';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
 
-import intro1 from '../images/intro.jpg';
 
 function Home() {
       return (
         <div id="main">
-        <Helmet>
-            <title>USFREE | Woohyun Cho</title>
-        </Helmet>
-        <div class="wraps">
-            <div class="section">
+        <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
+        <div class="section">
             <div class="bg-video">
                 <div class="intro-background"></div>
             </div>
-                    <div class="w-100">
-                        <div class="scr-down font-7 fw-light2">
-                            <div class="main__action text-center">
-                                <HashLink smooth to="#intro" className="main__scroll">
-                                    <div class="main__scroll-box">
-                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0 0h24v24H0z" fill="none"></path>
-                                            <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
-                                        </svg>
-                                    </div>
-                                    <span class="main__scroll-text font-2 fs-9 font-letter-space">SCROLL DOWN</span>
-                                </HashLink>
+            <div class="w-100">
+                <div class="scr-down font-7 fw-light2">
+                    <div class="main__action text-center">
+                        <HashLink smooth to="#intro" className="main__scroll">
+                            <div class="main__scroll-box">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
+                                </svg>
                             </div>
-                        </div>
+                            <span class="main__scroll-text font-2 fs-9 font-letter-space">SCROLL DOWN</span>
+                        </HashLink>
                     </div>
-                    <div class="s-intro overflow-hidden">
-                        <div class="s-intro__content row text-black pt-5"> 
-                            <div class="column">
-                                <div class="row row-cols-lg-1 justify-content-center font-3">
-                                    <div class="col">
-                                        <div class="text-black fs-0 lh-sm font-10 mb-5">
-                                            <div class="font-letter-space fw-bold"><span class="rainbow-text">UNREAL DEV.</span></div>
-                                        </div>
-                                        <div class="row row-half justify-content-center font-3">
-                                            <div class="h-100 overflow-hidden border-0 rounded-1 pt-2 text-black fs-6">
-                                                <div class="font-2 fw-light2 font-letter-space text-uppercase"><b>Woohyun Cho</b></div>
-                                                <div class="fw-bolder font-2 highlight font-letter-space text-uppercase">Developer Portfolio</div>
-                                            </div>
-                                        </div>
+                </div>
+            </div>
+            <div class="s-intro overflow-hidden">
+                <div class="s-intro__content row text-black pt-5"> 
+                    <div class="column">
+                        <div class="row row-cols-lg-1 justify-content-center font-3">
+                            <div class="col">
+                                <div class="text-black fs-0 lh-sm font-10 mb-5">
+                                    <div class="font-letter-space fw-bold"><span class="rainbow-text">UNREAL DEV.</span></div>
+                                </div>
+                                <div class="row row-half justify-content-center font-3">
+                                    <div class="h-100 overflow-hidden border-0 rounded-1 pt-2 text-black fs-6">
+                                        <div class="font-2 fw-light2 font-letter-space text-uppercase"><b>Woohyun Cho</b></div>
+                                        <div class="fw-bolder font-2 highlight font-letter-space text-uppercase">Developer Portfolio</div>
                                     </div>
                                 </div>
                             </div>
@@ -59,6 +47,7 @@ function Home() {
                     </div>
                 </div>
             </div>
+        </div>
             <div class="section" id="intro">
                 <div class="bg-white">
                     <div class="s-intro">

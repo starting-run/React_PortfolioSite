@@ -1375,7 +1375,6 @@ body {
   -moz-animation: fadein 2000ms ease-out; /* Firefox */
   -webkit-animation: fadein 2000ms ease-out; /* Safari and  Chrome */
   -o-animation: fadein 2000ms ease-out; /* Opera */
-
 }
 
 hr {
