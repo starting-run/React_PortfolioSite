@@ -1,31 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.4c6e5d70.css",
-    "main.js": "/static/js/main.dd95f606.js",
+    "main.js": "/static/js/main.3d8c001d.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
-    "static/media/usfree_creative.mp4": "/static/media/usfree_creative.5090576ae4f30214570f.mp4",
     "static/media/Processing_Pacman.mp4": "/static/media/Processing_Pacman.25f0225e0651c7f66e78.mp4",
     "static/media/Unity_Snake.pdf": "/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf",
     "static/media/slowdown.jpg": "/static/media/slowdown.a9f2bbc5ca475a39a492.jpg",
     "static/media/OpenGL_Ironman.pdf": "/static/media/OpenGL_Ironman.54c28fdf5dac7d4a96f2.pdf",
-    "static/media/snap.webp": "/static/media/snap.f4940bcfcba62375bf55.webp",
-    "static/media/intro.jpg": "/static/media/intro.9c37d7dbf7c2a7e9dc6d.jpg",
     "static/media/1.png": "/static/media/1.a04d4bf800f1daf45e0c.png",
-    "static/media/2.png": "/static/media/2.1d47d671f051d05e6ca8.png",
     "static/media/website.png": "/static/media/website.a4606fe79f35b66e79e8.png",
-    "static/media/edu.jpg": "/static/media/edu.c0b960165419587bae12.jpg",
     "static/media/Processing_Pacman.pdf": "/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf",
     "static/media/8.png": "/static/media/8.0051ee1cb9b230982052.png",
     "static/media/ironman.jpg": "/static/media/ironman.08cb6233309f50b15857.jpg",
     "static/media/4.png": "/static/media/4.25927d7c165c4dde7e56.png",
-    "static/media/gitback.jpg": "/static/media/gitback.7b2d6ef50bbcd504ce5b.jpg",
     "static/media/snake.jpg": "/static/media/snake.5ffa00d200d7db29354b.jpg",
     "static/media/9.png": "/static/media/9.c1d168d33381825ccc1c.png",
     "static/media/5.png": "/static/media/5.930dc7e179722c12bcea.png",
+    "static/media/2.png": "/static/media/2.1d47d671f051d05e6ca8.png",
     "static/media/3.png": "/static/media/3.2386420f76d9f312e579.png",
-    "static/media/card1.jpeg": "/static/media/card1.65c683ae17b1eea44215.jpeg",
     "static/media/pacman.jpg": "/static/media/pacman.33e0ce6845eef5d51ae3.jpg",
     "static/media/6.png": "/static/media/6.aaddd106aeb4dc1bcb6c.png",
     "static/media/portfolio.png": "/static/media/portfolio.bfd852a679fd466f194c.png",
@@ -36,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.4c6e5d70.css",
-    "static/js/main.dd95f606.js"
+    "static/js/main.3d8c001d.js"
   ]
 }
