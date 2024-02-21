@@ -1,11 +1,31 @@
-import React, { Component, useEffect } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
 
-
 function Home() {
+    const [text, setText] = useState('UNREAL DEV.');
+    const [index, setIndex] = useState(0);
+    const [fadeIn, setFadeIn] = useState(true);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setFadeIn(false);
+        setTimeout(() => {
+          setIndex(prevIndex => (prevIndex + 1) % words.length);
+          setFadeIn(true); 
+        }, 1000);
+      }, 3000);
+  
+      return () => clearInterval(interval);
+    }, []);
+  
+    const words = ['UNREAL DEV.', 'GAME DEV.', 'VR DEV.'];
+  
+    useEffect(() => {
+      setText(words[index]);
+    }, [index]);
       return (
         <div id="main">
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
@@ -34,7 +54,7 @@ function Home() {
                         <div class="row row-cols-lg-1 justify-content-center font-3">
                             <div class="col">
                                 <div class="text-black fs-0 lh-sm font-10 mb-5">
-                                    <div class="font-letter-space fw-bold"><span class="rainbow-text">UNREAL DEV.</span></div>
+                                    <div class="font-letter-space fw-bold"><span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span></div>
                                 </div>
                                 <div class="row row-half justify-content-center font-3">
                                     <div class="h-100 overflow-hidden border-0 rounded-1 pt-2 text-black fs-6">
