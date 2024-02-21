@@ -5,9 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faVimeo } from "@fortawesome/free-brands-svg-icons";
-import { faBlogger } from "@fortawesome/free-brands-svg-icons";
-import { faCode, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import toast, { Toaster } from 'react-hot-toast';
 import { useEffect } from 'react';
 import footerimg from '../images/footerimg.png';

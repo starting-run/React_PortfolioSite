@@ -10397,6 +10397,7 @@ video {
   transition: all 0.3s;
 }
 
+
 .bg-white-half {
   position: absolute;
   --bs-bg-opacity: 1;
@@ -10480,14 +10481,15 @@ video {
   transition: all 1s;
 }
 
+
 .bg-img img{
   position: absolute;
   width: 50%;
   left: 60%;
   bottom: -10%;
   z-index: 0;
-  filter: opacity(5%);
-  -webkit-filter: opacity(5%);
+  filter: opacity(30%);
+  -webkit-filter: opacity(30%);
 }
 
 

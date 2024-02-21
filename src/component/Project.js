@@ -3,16 +3,13 @@ import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
 import project4 from '../images/portfolio.png';
-import project5 from '../images/slowdown.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare, faLayerGroup } from "@fortawesome/free-solid-svg-icons";
-
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
 import toast, { Toaster } from 'react-hot-toast';
-
 
 let city, country;
 
@@ -43,13 +40,14 @@ function Project() {
         </Helmet>
         <section class="project-2 h-100">
 
-      <div class="bg-white bg-img"></div>
+      <div class="bg-white ">
+      </div>
       <body>
           <div class="container-xxl px-4 pt-6 mb-5">
               <div class="row align-items-center justify-content-between">
                   <div class="col-auto fs-0-5 font-10 fw-bolder font-letter-space-sm text-black mb-5 px-3">PROJECT　
                       <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
-                          <span class="prj-sub fs-6 fw-light font-4 font-letter-space"><FontAwesomeIcon icon={faGithub} /> Collect from Github <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                          <span class="prj-sub fs-6 fw-light font-4 font-letter-space-sm"><FontAwesomeIcon icon={faGithub} /> Collect on Github <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                           </span>
                       </a>
                   </div>

@@ -13,7 +13,6 @@ import Profile from './component/Profile';
 import Pacman from "./component/Project/Pacman";
 import Ironman from "./component/Project/Ironman";
 import Snake from './component/Project/Snake';
-import ToTopButton from './component/ToTopButton';
 import Slowdown from './component/Project/Slowdown';
 import Website from './component/Project/Website';
 import Nav from './component/Nav';

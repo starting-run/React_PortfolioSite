@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare, faCakeCandles, faChartSimple, faCode, faEnvelopeOpenText, faGamepad, faLocationDot, faMicrochip } from '@fortawesome/free-solid-svg-icons';
-import profileimg from '../images/logo_sq.png'
 import { Helmet } from 'react-helmet';
-import { faBlogger, faGithub, faHtml5, faReact } from '@fortawesome/free-brands-svg-icons';
 import { Fade } from 'react-reveal';
 
 class Profile extends Component {
