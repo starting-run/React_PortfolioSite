@@ -3,6 +3,7 @@ import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
 import project4 from '../images/portfolio.png';
+import project5 from '../images/loading.svg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare, faLayerGroup } from "@fortawesome/free-solid-svg-icons";
@@ -71,7 +72,7 @@ function Project() {
                             <Fade bottom delay={0}>
                                 <div class="col">
                                     <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 shadow-sm rounded-1">
-                                        {/*<img class="card-image" src = {project5}></img>*/}
+                                        <img class="card-image" src = {project5}></img>
                                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                             <span class="country mb-2 fs-2 lh-1 fw-bold font-3">SlowDown<div class="kor-hidden">슬로우다운</div></span>
                                             <ul class="list-unstyled mt-auto small2">

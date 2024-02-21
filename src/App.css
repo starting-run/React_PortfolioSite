@@ -10386,7 +10386,6 @@ video {
   transition: all 1s;
 }
 
-
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
