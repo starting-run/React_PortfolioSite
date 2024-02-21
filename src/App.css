@@ -1000,7 +1000,18 @@ body[data-darkmode=on] .darkmode > .inner{
   color: var(--bs-black);
 }
 
+.fade-in-out {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
 
+.fade-in-out.fade-out {
+  opacity: 0;
+}
+
+.fade-in-out.fade-in {
+  opacity: 1;
+}
 
 .rainbow-text:hover {
   /* Create a conic gradient. */
@@ -1902,18 +1913,6 @@ progress {
 }
 .blockquote-footer::before {
   content: "— ";
-}
-.fade-in-out {
-  opacity: 1;
-  transition: opacity 1s ease-in-out;
-}
-
-.fade-in-out.fade-out {
-  opacity: 0;
-}
-
-.fade-in-out.fade-in {
-  opacity: 1;
 }
 
 .InputContainer {
