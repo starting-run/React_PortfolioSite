@@ -11,7 +11,6 @@ class Profile extends Component {
         <Helmet>
             <title>Profile - USFREE</title>
         </Helmet>
-        <div id="main">
             <div id="main bg-dark">
             <div class="bg-white bg-img"></div>
                 <div class="bg-wh">
@@ -184,7 +183,6 @@ class Profile extends Component {
                         </div>
                     </div>
                 </div>*/}
-            </div>
         </div>
     </div>
       );

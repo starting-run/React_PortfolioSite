@@ -21,7 +21,7 @@ function Home() {
       return () => clearInterval(interval);
     }, []);
   
-    const words = ['GAME DEV.', 'VR DEV.', 'UNREAL DEV.'];
+    const words = ['UNREAL DEV.', 'GAME DEV.', 'VR DEV.'];
   
     useEffect(() => {
       setText(words[index]);
