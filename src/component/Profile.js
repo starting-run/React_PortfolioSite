@@ -11,7 +11,7 @@ class Profile extends Component {
         <Helmet>
             <title>Profile - USFREE</title>
         </Helmet>
-            <div id="main bg-dark">
+            <div id="main bg-dark h-100">
                 <div class="bg-white-gray">
                 <div class="container-xxl px-4 pt-6">
                         <div class="row justify-content-center">
