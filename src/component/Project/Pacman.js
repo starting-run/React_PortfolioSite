@@ -198,7 +198,7 @@ class Pacman extends Component {
                                                 <video src={video} controls controlsList="nodownload" style={{width: '400px', height: '500px;'}}></video><br/><br/>
                                                 <div class="font-5 fs-2 fw-bold"><b>Presentation</b></div>
                                                 <p><iframe style={{width:'100%', height:'700px'}} src={pdf}></iframe></p>
-                                                <span>브라우저에서 PDF viewer를 지원하지 않을 경우 <a href="http://usfree.site/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf"><div class="btn btn-primary"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
+                                                <span>브라우저에서 PDF viewer를 지원하지 않을 경우 <a href="http://usfree.site/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf"><div class="btn btn-primary-round-outline px-4 fs-7"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>
                                     </div>
