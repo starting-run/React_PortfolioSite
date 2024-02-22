@@ -25,7 +25,7 @@ class Snake extends Component {
         <div>
             <Helmet><title>Snake - Project - USFREE</title></Helmet>
             <div id="projectmain">
-                <div class="bg-white">
+                <div class="bg-white-gray">
                 <div class="container">
                     <div class="pt-6 px-3">
                         <span class="fs-0-5 fw-bolder font-10 text-black">SNAKE GAME</span>

@@ -43,8 +43,8 @@ function Project() {
 
       <div class="bg-white ">
       </div>
-      <body>
-          <div class="container-xxl px-4 pt-6 mb-5">
+      <body class="bg-white-gray">
+          <div class="container-xxl px-4 pt-6">
               <div class="row align-items-center justify-content-between">
                   <div class="col-auto fs-0-5 font-10 fw-bolder font-letter-space-sm text-black mb-5 px-3">PROJECT　
                       <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
@@ -71,7 +71,7 @@ function Project() {
                               {/*<NavLink to="slowdown" id="slowdown">*/}
                             <Fade bottom delay={0}> 
                                 <div class="col">
-                                    <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 shadow-sm rounded-4">
+                                    <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0  rounded-4">
                                         <img class="card-image" src = {project5}></img>
                                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                             <span class="country mb-2 fs-2 lh-1 fw-bold font-3">SlowDown<div class="kor-hidden">슬로우다운</div></span>
@@ -96,7 +96,7 @@ function Project() {
                               <NavLink to="website" id="website">
                                 <Fade bottom delay={50}>
                                     <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-4">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4">
                                             <img class="card-image" src ={project4}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-3">Portfolio Website<div class="kor-hidden">포트폴리오</div></span>
@@ -122,7 +122,7 @@ function Project() {
                               <NavLink to="pacman" id="pacman">
                                 <Fade bottom delay={100}>
                                     <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-4">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4">
                                             <img class="card-image" src ={project3}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-3">Pacman<div class="kor-hidden">팩맨</div></span>
@@ -146,7 +146,7 @@ function Project() {
                               <NavLink to="ironman" id="ironman">
                                 <Fade bottom delay={150}>
                                     <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-4">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4">
                                             <img class="card-image" src ={project2}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-3">Ironman<div class="kor-hidden">아이언맨</div></span>
@@ -171,7 +171,7 @@ function Project() {
                             <NavLink to="snake" id="ironman">
                                 <Fade bottom delay={200}>
                                     <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 shadow-sm rounded-4">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4">
                                             <img class="card-image" src ={project1}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-3">Snake<div class="kor-hidden">스네이크</div></span>
@@ -194,8 +194,6 @@ function Project() {
                       </div>
                   </div>
               </div>
-              <div class="only-pc-view pb-7"></div>
-              <div class="only-pc-view pb-7"></div>
           </div>
       </body>    
   </section>

@@ -69,7 +69,7 @@ function Home() {
             </div>
         </div>
         <div class="section" id="intro">
-            <div class="bg-white">
+            <div class="bg-white-gray">
                 <div class="s-intro">
                     <div class="s-intro__content row text-black"> 
                         <div class="column">

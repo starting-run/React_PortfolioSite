@@ -149,6 +149,7 @@
     --bs-scroll-white: #fff;
     --bs-black-hover: #a8a8a8;
     --bs-white-rgb: 255, 255, 255;
+    --bs-white-gray-rgb: 242, 244, 247;
     --bs-black-rgb: 50, 50, 50;
     --btn-outline-dark : #212529;
     --bs-light-rgb: 248, 249, 250;
@@ -177,6 +178,7 @@
     --bs-scroll-white: #1e1f21;
     --bs-black-hover: #8d8d8d;
     --bs-white-rgb: 29, 30, 32;
+    --bs-white-gray-rgb: 29, 30, 32;
     --bs-black-rgb: 255, 255, 255;
     --bs-profile-card-rgb: 255, 255, 255;
     --btn-outline-dark : #e7e6e6;
@@ -213,6 +215,7 @@
   --bs-scroll-white: #1e1f21;
   --bs-black-hover: #8d8d8d;
   --bs-white-rgb: 29, 30, 32;
+  --bs-white-gray-rgb: 29, 30, 32;
   --bs-black-rgb: 255, 255, 255;
   --bs-profile-card-rgb: 255, 255, 255;
   --btn-outline-dark : #e7e6e6;
@@ -246,6 +249,7 @@
     --bs-scroll-white: #fff;
     --bs-black-hover: #a8a8a8;
     --bs-white-rgb: 255, 255, 255;
+    --bs-white-gray-rgb: 242, 244, 247;
     --bs-black-rgb: 50, 50, 50;
     --bs-profile-card-rgb: 33, 37, 41;
     --btn-outline-dark : #212529;
@@ -1920,7 +1924,7 @@ progress {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--bs-dark);
+  background-color: var(--bs-white-gray-rgb);
   border-bottom: 1px solid var(--bs-black);
   overflow: hidden;
   margin-right: 13px;
@@ -1932,7 +1936,7 @@ progress {
   border: none;
   outline: none;
   font-size: 0.9em;
-  background-color: var(--bs-dark);
+  background-color: var(--bs-white-gray-rgb);
   caret-color: #FC8574;
   color: var(--bs-black);
 }
@@ -5957,13 +5961,12 @@ textarea.form-control-lg {
 
 .card-hover-up {
   top: 0px;
-  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2) !important;
   transition: all 0.3s;
 }
 
 .card-hover-up:hover {
   top: -5px;
-  box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.8) !important;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2) !important;
   transition: all 0.3s;
 }
 
@@ -10407,6 +10410,11 @@ video {
   transition: all 0.3s;
 }
 
+.bg-white-gray {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-white-gray-rgb), var(--bs-bg-opacity)) !important;
+  transition: all 0.3s;
+}
 
 .bg-white-half {
   position: absolute;

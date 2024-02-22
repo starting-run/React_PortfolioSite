@@ -12,8 +12,7 @@ class Profile extends Component {
             <title>Profile - USFREE</title>
         </Helmet>
             <div id="main bg-dark">
-            <div class="bg-white bg-img"></div>
-                <div class="bg-wh">
+                <div class="bg-white-gray">
                 <div class="container-xxl px-4 pt-6">
                         <div class="row justify-content-center">
                             <div class="mb-5">
