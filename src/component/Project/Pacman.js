@@ -154,7 +154,7 @@ class Pacman extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-2 proj_text w-100 text-black fw-light">
-                                                <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
+                                                <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-4 border-0">
                                                     <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span class="font-3 fw-light fs-6 mb-2 text-black">2023. 09. - 10.</span></div>
                                                     <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span class="font-3 fw-light fs-6 mb-2 text-black">Processing, Java</span></div>
                                                     <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span class="font-3 fw-light fs-6 mb-2 text-black">Pacman 게임을 모티브로 제작된 미니게임. 유령 객체를 피해 사용자 객체를 움직여 많은 점수를 기록하는 것이 목표인 게임입니다.</span></div>
@@ -171,7 +171,7 @@ class Pacman extends Component {
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                 <div class="mb-4 px-2">인터랙티브 프로그래밍을 위해 사용되는 Tool인 만큼, 가장 인터랙티브한 프로그래밍은 게임이라고 생각했습니다. 상호작용이 가장 많고 상호작용을 통해 게임을 활성화시킬 수 있기 때문입니다.</div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div class="code p-3 rounded-3 border-0 mb-5">
+                                                <div class="code p-3 rounded-4 border-0 mb-5">
                                                     # 저작권 침해 소지로 인해 빌드 파일을 업로드하지 않았습니다.<br/>
                                                     <a href="https://github.com/processing/processing4/releases/download/processing-1293-4.3/processing-4.3-windows-x64.zip"><b>Processing.exe 설치 <span class="highlight">[다운로드]</span></b></a> → Pacman_Game.pde → 실행
                                                 </div>

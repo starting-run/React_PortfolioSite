@@ -52,10 +52,10 @@ function Slowdown() {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-2 proj_text w-100 text-black fw-light">
-                                                <div class="mb-3 w-100 card card-cover-danger p-3 rounded-3 border-0">
+                                                <div class="mb-3 w-100 card card-cover-danger p-3 rounded-4 border-0">
                                                     <span class="text-only-white"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
                                                 </div>
-                                                <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-3 border-0">
+                                                <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-4 border-0">
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>
                                                     <div class="font-3 fw-light fs-6 mb-3">SlowDown Game</div>
                                                     <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트 기간</div>
@@ -76,7 +76,7 @@ function Slowdown() {
                                                 <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faLightbulb} /> REASON</div>
                                                 <div class="mb-4">-</div>
                                                 <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faGear} /> SETUP</div>
-                                                <div class="card card-cover-nonhover p-3 rounded-3 border-0 mb-5">
+                                                <div class="card card-cover-nonhover p-3 rounded-4 border-0 mb-5">
                                                     # UnrealEngine<br/>
                                                     
                                                 </div>

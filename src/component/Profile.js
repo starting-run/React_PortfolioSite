@@ -21,7 +21,7 @@ class Profile extends Component {
                                 <div class="row row-cols-1 row-cols-xxl-2 g-4 cards">
                                 <Fade bottom delay={100}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4  rounded-1">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4  rounded-4">
                                             <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EDUCATION</div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto text-black mb-1 font-3">
@@ -42,7 +42,7 @@ class Profile extends Component {
                                     </div></div></Fade>
                                 <Fade bottom delay={150}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4  rounded-1">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4  rounded-4">
                                             <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EXPERIENCE</div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2 font-3">
@@ -59,7 +59,7 @@ class Profile extends Component {
                                     </div></div></Fade>
                                     <Fade bottom delay={200}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4  rounded-1">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4  rounded-4">
                                             <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">CERTIFICATE</div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2 font-3">
@@ -87,7 +87,7 @@ class Profile extends Component {
                                     </div></div></Fade>
                                     <Fade bottom delay={250}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 rounded-1">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 rounded-4">
                                             <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">MILITARY SERVICE</div>
                                             <div class="row row-cols-lg-2 p-2">
                                                 <div class="col-auto mb-2 font-3">
@@ -102,7 +102,7 @@ class Profile extends Component {
                                 <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 cards mb-4 pt-4">
                                 <Fade bottom delay={300}><div>
                                     <div class="col">
-                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 rounded-1">
+                                        <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 rounded-4">
                                             <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SKILL</div>
                                             <div class="row row-cols-lg-2 p-2 font-3">
                                                 <div class="col-auto mb-2">
