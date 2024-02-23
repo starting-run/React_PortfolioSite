@@ -27,7 +27,7 @@ function Home() {
       setText(words[index]);
     }, [index]);
     return (
-    <div id="main">
+    <div>
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
         <div class="section">
             <div class="bg-video">
@@ -69,7 +69,7 @@ function Home() {
             </div>
         </div>
         <div class="section" id="intro">
-            <div class="bg-white-gray">
+            <div class="bg-white-gray h-100">
                 <div class="s-intro">
                     <div class="s-intro__content row text-black"> 
                         <div class="column">

@@ -138,16 +138,14 @@ class Pacman extends Component {
             <Helmet><title>Pacman - Project - USFREE</title></Helmet>
             <div id="projectmain">
                 <div class="bg-white-gray">
-                    <div class="container">
-                        <div class="pt-6 px-3">
-                            <span class="fs-0-5 fw-bolder font-10 text-black">PACMAN GAME</span>
-                            <div class="mb-5">
-                                <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
-                                <a href="https://github.com/usfree/Processing_Pacman" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
-                            </div>
+                    <div class="container-xxl pt-6 px-4">
+                        <span class="fs-0-5 fw-bold font-10 text-black font-letter-space-sm">PACMAN GAME</span>
+                        <div class="mb-5">
+                            <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
+                            <a href="https://github.com/usfree/Processing_Pacman" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
                         </div>
                     </div>
-                    <div class="container my-2 mt-3 px-4">
+                    <div class="container-xxl my-2 mt-3 px-4">
                         <div class="row gx-5 justify-content-center">
                             <div class="up-animation">
                                 <div class="rounded-2 border-0">
