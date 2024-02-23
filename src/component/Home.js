@@ -70,8 +70,8 @@ function Home() {
         </div>
         <div class="section" id="intro">
             <div class="bg-white-gray h-100">
-                <div class="s-intro__content row text-black"> 
-                    <div class="container px-4">
+                <div class="s-intro__content row text-black w-100"> 
+                    <div class="container">
                         <div class="justify-content-center">
                             <div class="mb-5">
                                 <Fade bottom delay={500}>
@@ -80,7 +80,7 @@ function Home() {
                                     </div>
                                 </Fade>
                                 <Fade bottom delay={1000}>
-                                    <div class="mb-3 lh-lg font-letter-space-sm font-3 fw-normal text-black fs-6">
+                                    <div class="mb-3 lh-lg font-letter-space-sm font-3 fw-normal text-black fs-6 px-4">
                                             안녕하세요, 언리얼/게임/VR/AR 개발자를 꿈꾸고 있는 조우현입니다. 
                                         <br/>모든 일에 필요한 창의력은 혁신을 그리고, 상상력은 사람을 만들고 조각한다고 생각합니다.
                                         <br/><span class="highlight">창의력과 상상력</span>을 통해 꾸준히 성장하는 개발자가 되도록 노력하겠습니다.
