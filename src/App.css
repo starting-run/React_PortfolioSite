@@ -1984,6 +1984,10 @@ progress {
   transition-duration: 0.3s;
 }
 
+.no_click {
+  cursor: not-allowed !important;
+}
+
 .card-image{
   mix-blend-mode: luminosity;
   transition-duration: 0.3s;
@@ -2084,8 +2088,8 @@ progress {
     transition: all 1s;
   }
   .navbar-py {
-    padding-top: 1.5rem !important;
-    padding-bottom: 1.7rem !important;
+    padding-top: 1.2rem !important;
+    padding-bottom: 1.4rem !important;
   }
   .fixed-bottom {
     bottom: 20px !important;

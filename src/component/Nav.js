@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 import footerimg from '../images/footerimg.png';
 
 import ToTopButton from './ToTopButton';
-
+import ScrollIndicator from "./ScrollIndicator";
 
 function Nav() {
   $(document).scroll(function() {
@@ -77,6 +77,8 @@ useEffect(() => {
             </div>
         </div>
       </nav>
+        <ScrollIndicator/>
+      
     </div>
 
     <div id="topbtn" class="ss-go-top">
