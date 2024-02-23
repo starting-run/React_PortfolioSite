@@ -3,9 +3,10 @@ import video from '../../images/Pacman/Processing_Pacman.mp4'
 import pdf from '../../images/Pacman/Processing_Pacman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft, faClipboardList, faFileArrowDown, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faChevronRight, faClipboardList, faFileArrowDown, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { NavLink } from 'react-router-dom';
 
 let code1 = `void CreateMap() {
     cols = width / gridSize;
@@ -138,7 +139,10 @@ class Pacman extends Component {
             <Helmet><title>Pacman - Project - USFREE</title></Helmet>
             <div id="projectmain">
                 <div class="bg-white-gray">
-                    <div class="container-xxl pt-6 px-4">
+                <div class="container-full px-4 pt-6">
+                    <span class="font-10 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/pacman">Pacman</NavLink></span>
+                </div>
+                    <div class="container-xxl px-4">
                         <span class="fs-0-5 fw-bold font-10 text-black font-letter-space-sm">PACMAN GAME</span>
                         <div class="mb-5">
                             <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>

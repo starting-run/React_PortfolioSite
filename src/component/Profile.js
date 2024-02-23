@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare, faCakeCandles, faChartSimple, faCode, faEnvelopeOpenText, faGamepad, faLocationDot, faMicrochip } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUpRightFromSquare, faCakeCandles, faChartSimple, faChevronRight, faCode, faEnvelopeOpenText, faGamepad, faLocationDot, faMicrochip } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
+import { NavLink } from 'react-router-dom';
 
 class Profile extends Component {
     render() {
@@ -10,7 +11,10 @@ class Profile extends Component {
         <div>
             <Helmet><title>Profile - USFREE</title></Helmet>
             <section class="bg-white-gray h-100">
-                <div class="container-xxl px-4 pt-6">
+                <div class="container-full px-4 pt-6">
+                    <span class="font-10 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></span>
+                </div>
+                <div class="container-xxl px-4">
                     <div class="row justify-content-center">
                         <div class="mb-5">
                             <div class="mb-5 fs-0-5 font-10 fw-bold font-letter-space-sm text-black text-uppercase">Profile</div>

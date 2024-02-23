@@ -1,12 +1,13 @@
 import React, { Component, useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUpRightFromSquare, faChevronLeft, faClipboardList, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faChevronLeft, faChevronRight, faClipboardList, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import toast, { Toaster } from 'react-hot-toast';
 
 import img1 from '../../images/projects/portfolio_website/website.png';
+import { NavLink } from 'react-router-dom';
 
 function Website() {
     const notify = () => toast.success('현재 접속중인 웹사이트입니다.', {duration: 4000});
@@ -20,7 +21,10 @@ function Website() {
             <Helmet><title>Portfolio Website - Project - USFREE</title></Helmet>
             <div id="projectmain">
                 <div class="bg-white-gray">
-                    <div class="container-xxl pt-6 px-4">
+                <div class="container-full px-4 pt-6">
+                    <span class="font-10 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/website">Portfolio Website</NavLink></span>
+                </div>
+                    <div class="container-xxl px-4">
                         <span class="fs-0-5 fw-bold font-10 text-black font-letter-space-sm">PORTFOLIO WEBSITE</span>
                         <div class="mb-5">
                             <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>

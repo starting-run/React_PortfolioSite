@@ -3,7 +3,7 @@ import video from '../../images/OpenGL/ironman.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft, faClipboardList, faGear, faLightbulb, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faChevronRight, faClipboardList, faGear, faLightbulb, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import {browserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 
 import img1 from '../../images/Unity/1.png';
@@ -36,7 +36,10 @@ function Slowdown() {
             </Helmet>
             <div id="projectmain">
                 <div class="bg-white-gray">
-                    <div class="container-xxl pt-6 px-4">
+                <div class="container-full px-4 pt-6">
+                    <span class="font-10 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/slowdown">SlowDown</NavLink></span>
+                </div>
+                    <div class="container-xxl px-4">
                         <span class="fs-0-5 fw-bold font-10 text-black font-letter-space-sm">SLOW DOWN</span>
                         <div class="mb-5">
                             <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>

@@ -6,7 +6,7 @@ import project4 from '../images/portfolio.png';
 import project5 from '../images/loading.svg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUpRightFromSquare, faLayerGroup } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faChevronRight, faLayerGroup } from "@fortawesome/free-solid-svg-icons";
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
@@ -38,7 +38,10 @@ function Project() {
         <div>
             <Helmet><title>Project - USFREE</title></Helmet>
             <section class="h-100 bg-white-gray">
-            <div class="container-xxl px-4 pt-6">
+            <div class="container-full px-4 pt-6">
+                <span class="font-10 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></span>
+            </div>
+            <div class="container-xxl px-4">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto fs-0-5 font-10 fw-bolder font-letter-space-sm text-black mb-5">PROJECT　
                         <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
