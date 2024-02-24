@@ -60,7 +60,7 @@ return (
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-letter-space fs-fr">
                   <NavLink exact to="/profile" className="nav-link"><li class="nav-item">Profile</li></NavLink>
                   <NavLink exact to="/project" className="nav-link"><li class="nav-item">Project</li></NavLink>
-                  <a class="nav-link fs-6" href="https://github.com/usfree" target='_blank'><li class="nav-item">Github</li></a>
+                  <a class="nav-link fs-6 pt-5" href="https://github.com/usfree" target='_blank'><li class="nav-item">Github</li></a>
                   <a class="nav-link fs-6" href="https://velog.io/@usfree" target='_blank'><li class="nav-item">Blog</li></a>
                   <a class="nav-link fs-6" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank'><li class="nav-item">Mail</li></a>
                   {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
@@ -71,7 +71,7 @@ return (
                     <li class="float-end"><a class="hamburger-copy fs-3" href="https://github.com/usfree" target='_blank'><FontAwesomeIcon icon={faGithub} /></a>　</li>
                   </ul>*/}
 
-                  <div class="hamburger-copy pt-7 mb-2">
+                  <div class="hamburger-copy pt-6 mb-2">
                     <DarkModeToggle/>
                   </div>
                   <span class="hamburger-copy text-black pt-2">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
