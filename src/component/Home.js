@@ -3,6 +3,7 @@ import {BrowserRouter, Link, NavLink} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
+import toast, { Toaster } from 'react-hot-toast';
 
 function Home() {
     const [text, setText] = useState('UNREAL DEV.');
@@ -24,8 +25,22 @@ function Home() {
     const words = ['UNREAL DEV.', 'GAME DEV.', 'VR DEV.'];
   
     useEffect(() => {
-      setText(words[index]);
-    }, [index]);
+        setText(words[index]);
+      }, [index]);
+    
+      
+    const notify = () => toast('사용자 기기 설정에 따라 라이트/다크모드로 동작하고, 토글도 제공합니다!',
+        {
+            duration: 4000,
+            icon: '👏'
+        }
+    );
+
+
+    useEffect(() => {
+        notify();
+      }, []);
+
     return (
     <div>
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>

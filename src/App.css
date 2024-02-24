@@ -484,15 +484,14 @@ body[data-darkmode=on] .darkmode > .inner{
   padding: 5px 10px 5px 5px;
   border-radius: 50%;
 }
-.darkmode i{
-  font-size: 0.9em;
+.darkmode-icon{
+  font-size: 1.1rem;
   color:var(--bs-black);
-  margin-left: 4px;
+  margin-top: 1px;
 }
 
-.tolight {
-  filter: opacity(0);
-  -webkit-filter: opacity(0);
+.todark {
+  margin-left: 5px;
 }
 
 .darkmode input[type=radio]{

@@ -16,11 +16,12 @@ import Snake from './component/Project/Snake';
 import Slowdown from './component/Project/Slowdown';
 import Website from './component/Project/Website';
 import Nav from './component/Nav';
+import toast, { Toaster } from 'react-hot-toast';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
-      
+      <Toaster position='bottom-right'/>
       <App />
       <ScrollToTop />
       <Routes>

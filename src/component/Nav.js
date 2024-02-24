@@ -6,12 +6,11 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faVimeo } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import toast, { Toaster } from 'react-hot-toast';
-import { useEffect } from 'react';
 import footerimg from '../images/footerimg.png';
 
 import ToTopButton from './ToTopButton';
 import ScrollIndicator from "./ScrollIndicator";
+import DarkModeToggle from './DarkModeToggle';
 
 function Nav() {
   $(document).scroll(function() {
@@ -28,23 +27,10 @@ const MoveToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-
-const notify = () => toast('사용자 기기 설정에 따라 라이트/다크모드로 동작합니다.',
-  {
-    duration: 5000,
-    icon: '👏'
-  }
-);
-
-useEffect(() => {
-    notify();
-  }, []);
-
-      return (
-        <header>
+return (
+  <header>
   <div>
   <ToTopButton />
-  <Toaster position='bottom-right'/>
     <div id="add-fixed" class="navbar-fixed-attr">
       <nav id="navbarcontrol" class="navbar navbar-light navbar-py navbar-upper"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
         <div id='changecontainer' class="container-full px-4 ">
@@ -66,7 +52,10 @@ useEffect(() => {
                   <a class="nav-link" href="https://velog.io/@usfree" target='_blank'><li class="nav-item">Blog</li></a>
                   <a class="nav-link" href="https://github.com/usfree" target='_blank'><li class="nav-item">Github</li></a>
                   {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
-                  <ul class="pt-7">                    
+                  <div class="hamburger-copy pt-7">
+                    <DarkModeToggle/>
+                  </div>
+                  <ul class="pt-3">                    
                     <li class="float-end"><a class="hamburger-copy fs-4" href="https://github.com/usfree"><FontAwesomeIcon icon={faGithub} /></a></li>
                     <li class="float-end"><a class="hamburger-copy fs-4" href="https://velog.io/@usfree"><FontAwesomeIcon icon={faVimeo} /></a>　</li>
                     <li class="float-end"><a class="hamburger-copy fs-4" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다."><FontAwesomeIcon icon={faEnvelope} /></a>　</li>
