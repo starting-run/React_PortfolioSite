@@ -174,7 +174,7 @@ class Pacman extends Component {
                                                 <div class="mb-4 px-2">인터랙티브 프로그래밍을 위해 사용되는 Tool인 만큼, 가장 인터랙티브한 프로그래밍은 게임이라고 생각했습니다. 상호작용이 가장 많고 상호작용을 통해 게임을 활성화시킬 수 있기 때문입니다.</div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                 <div class="code p-3 rounded-4 border-0 mb-5">
-                                                    # 저작권 침해 소지로 인해 빌드 파일을 업로드하지 않았습니다.<br/>
+                                                    # 저작권 침해 소지로 인해 빌드 파일은 업로드하지 않습니다.<br/>
                                                     <a href="https://github.com/processing/processing4/releases/download/processing-1293-4.3/processing-4.3-windows-x64.zip"><b>Processing.exe 설치 <span class="highlight">[다운로드]</span></b></a> → Pacman_Game.pde → 실행
                                                 </div>
                                                 <hr/>

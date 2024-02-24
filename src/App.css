@@ -155,7 +155,7 @@
     --bs-light-rgb: 248, 249, 250;
     --bs-profile-card-rgb: 33, 37, 41;
     --card-bg : #fff;
-    --prj-card-bg : #eeeded;
+    --prj-card-bg : #fff;
     --text-muted : #6C757D;
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     background-color: var(--background-base);
@@ -255,7 +255,7 @@
     --btn-outline-dark : #212529;
     --bs-light-rgb: 248, 249, 250;
     --card-bg : #fff;
-    --prj-card-bg : #eeeded;
+    --prj-card-bg : #fff;
     --text-muted : #6C757D;
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     background-color: var(--background-base);

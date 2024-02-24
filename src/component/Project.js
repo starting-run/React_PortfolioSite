@@ -6,30 +6,41 @@ import project4 from '../images/portfolio.png';
 import project5 from '../images/loading.svg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUpRightFromSquare, faChevronRight, faLayerGroup } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faChevronRight, faLayerGroup, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
 import toast, { Toaster } from 'react-hot-toast';
+import $ from 'jquery';
 
 let city, country;
 
 function filter() {
     let search = document.getElementById("search").value.toLowerCase();
     let listInner = document.getElementsByClassName("img-fluid");
+    var empty = 0;
     if (window.event.keyCode == 13) {
         for (let i = 0; i < listInner.length; i++) {
-        city = listInner[i].getElementsByClassName("city");
-        country = listInner[i].getElementsByClassName("country");
-        if (city[0].innerHTML.toLowerCase().indexOf(search) != -1 ||
-            country[0].innerHTML.toLowerCase().indexOf(search) != -1
-        ) {
-            listInner[i].style.display = ""
-        } else {
-            listInner[i].style.display = "none"
-        }
+            city = listInner[i].getElementsByClassName("city");
+            country = listInner[i].getElementsByClassName("country");
+            if (city[0].innerHTML.toLowerCase().indexOf(search) != -1 ||
+                country[0].innerHTML.toLowerCase().indexOf(search) != -1
+            ) {
+                listInner[i].style.display = ""
+                empty++;
+            } else {
+                listInner[i].style.display = "none"
+            }
+
+            if (empty == 0) {
+                $('#search_empty').removeClass('kor-hidden');
+            }
+            else {
+                $("#search_empty").addClass('kor-hidden');
+            }
         }
     }
+    
   }  
 
 function Project() {
@@ -37,7 +48,7 @@ function Project() {
       return (
         <div>
             <Helmet><title>Project - USFREE</title></Helmet>
-            <section class="h-100 bg-white-gray">
+            <section class="bg-white-gray">
             <div class="container-full px-4 pt-6">
                 <span class="font-10 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></span>
             </div>
@@ -61,8 +72,14 @@ function Project() {
                         </a>
                     </div> 
                 </div>
+                <div class="vh-100 kor-hidden" id="search_empty">
+                    <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-4 border-0">
+                        <div class="fs-0-5 text-center mb-5 pt-5 text-black"><FontAwesomeIcon icon={faMagnifyingGlass}/></div>
+                        <div class="text-black font-3 fs-5 text-center mb-5"><span class="highlight">검색 결과가 없습니다!</span> 다시 검색해주세요.<br/>검색은 한글과 영어를 모두 지원합니다.<br/><br/>ex) UnrealEngine → 언리얼, 언리얼엔진</div>
+                    </div>
+                </div>
                 <div class="row gx-5 justify-content-center">
-                    <div class="mb-5">
+                    <div class="mb-5 pb-5">
                         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
                             <div class="img-fluid no_click" onClick={notify}> 
                                 {/*<NavLink to="slowdown" id="slowdown">*/}
