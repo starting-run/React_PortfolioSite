@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap.bundle';
@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faVimeo } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import footerimg from '../images/footerimg.png';
-
+import toast, { Toaster } from 'react-hot-toast';
 import ToTopButton from './ToTopButton';
 import ScrollIndicator from "./ScrollIndicator";
 import DarkModeToggle from './DarkModeToggle';
@@ -26,6 +26,17 @@ const MoveToTop = () => {
   // top:0 >> 맨위로  behavior:smooth >> 부드럽게 이동할수 있게 설정하는 속성
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+const notify = () => toast('사용자 기기 설정에 따라 라이트/다크모드로 동작하고, 토글도 제공합니다!',
+  {
+      duration: 4000,
+      icon: '👏'
+  }
+);
+
+useEffect(() => {
+  notify();
+}, []);
 
 return (
   <header>
