@@ -75,7 +75,7 @@ function Project() {
                 <div class="vh-100 kor-hidden" id="search_empty">
                     <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-4 border-0">
                         <div class="fs-0-5 text-center mb-5 pt-5 text-black"><FontAwesomeIcon icon={faMagnifyingGlass}/></div>
-                        <div class="text-black font-3 fs-5 text-center mb-5"><span class="highlight">검색 결과가 없습니다!</span> 다시 검색해주세요.<br/>검색은 한글과 영어를 모두 지원합니다.<br/><br/>ex) UnrealEngine → 언리얼, 언리얼엔진</div>
+                        <div class="text-black font-3 fs-5 text-center mb-5"><span class="highlight">검색 결과가 없습니다!</span> 다시 검색해주세요.<br/><br/>검색은 한글과 영어를 모두 지원합니다.<br/>ex) UnrealEngine → 언리얼, 언리얼엔진</div>
                     </div>
                 </div>
                 <div class="row gx-5 justify-content-center">
