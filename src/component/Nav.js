@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faVimeo } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpRightFromSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import footerimg from '../images/footerimg.png';
 import toast, { Toaster } from 'react-hot-toast';
 import ToTopButton from './ToTopButton';
@@ -60,9 +60,9 @@ return (
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-letter-space fs-fr">
                   <NavLink exact to="/profile" className="nav-link"><li class="nav-item">Profile</li></NavLink>
                   <NavLink exact to="/project" className="nav-link"><li class="nav-item">Project</li></NavLink>
-                  <a class="nav-link fs-6 pt-3" href="https://github.com/usfree" target='_blank'><li class="nav-item">Github</li></a>
-                  <a class="nav-link fs-6" href="https://velog.io/@usfree" target='_blank'><li class="nav-item">Blog</li></a>
-                  <a class="nav-link fs-6" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank'><li class="nav-item">Mail</li></a>
+                  <a class="nav-link fs-6 pt-3" href="https://github.com/usfree" target='_blank'><li class="nav-item">Github <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
+                  <a class="nav-link fs-6" href="https://velog.io/@usfree" target='_blank'><li class="nav-item">Blog <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
+                  <a class="nav-link fs-6" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank'><li class="nav-item">Mail <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
                   {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
 
                   {/*<ul class="pt-3">                 
