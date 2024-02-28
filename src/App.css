@@ -666,7 +666,7 @@ body[data-darkmode=on] .darkmode > .inner{
   border: none !important;
   font-weight: 600 !important;
   font-family: var(--font-10) !important;
-  letter-spacing :1px !important;
+  letter-spacing : 2px !important;
 }
 
 .navbar-nav {

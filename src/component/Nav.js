@@ -57,7 +57,7 @@ return (
                 </svg>
               </label></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 font-letter-space fs-fr">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-fr">
                   <NavLink exact to="/profile" className="nav-link"><li class="nav-item">Profile</li></NavLink>
                   <NavLink exact to="/project" className="nav-link"><li class="nav-item">Project</li></NavLink>
                   <a class="nav-link fs-6 pt-3" href="https://github.com/usfree" target='_blank'><li class="nav-item">Github <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
@@ -74,7 +74,7 @@ return (
                   <div class="hamburger-copy pt-6 mb-2">
                     <DarkModeToggle/>
                   </div>
-                  <span class="hamburger-copy text-black pt-2">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
+                  <span class="hamburger-copy text-black pt-2 font-letter-space">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
                   <span class="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
                 </ul>
             </div>
