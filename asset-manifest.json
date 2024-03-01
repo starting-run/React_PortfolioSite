@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.99528780.css",
+    "main.css": "/static/css/main.a3dfb189.css",
     "main.js": "/static/js/main.30190c2f.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
@@ -28,7 +28,7 @@
     "static/media/loading.svg": "/static/media/loading.89551ebba0c2a4f197c8a4cb6ad2288b.svg"
   },
   "entrypoints": [
-    "static/css/main.99528780.css",
+    "static/css/main.a3dfb189.css",
     "static/js/main.30190c2f.js"
   ]
 }
