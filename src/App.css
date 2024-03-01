@@ -10421,6 +10421,7 @@ video {
 
 .bg-white-gray {
   --bs-bg-opacity: 1;
+  min-height: 100vh;
   background-color: rgba(var(--bs-white-gray-rgb), var(--bs-bg-opacity)) !important;
   transition: all 0.3s;
 }
