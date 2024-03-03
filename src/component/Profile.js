@@ -46,6 +46,14 @@ class Profile extends Component {
                                         <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EXPERIENCE</div>
                                         <div class="row row-cols-lg-2 p-2">
                                             <div class="col-auto mb-2 font-3">
+                                                <div class="fs-5 fw-normal fw-opacity">일학습병행 첨단산업아카데미</div>
+                                                <div class="fw-light2 text-black fs-7">강남대학교, 고용노동부, 한국산업인력공단</div>
+                                                <div class="fw-light2 fs-7 mb-3 highlight">2024. 03. 04. - </div>
+                                                {/*<div class="fw-light2 fs-7">
+                                                    <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
+                                                </div>*/}   
+                                            </div>
+                                            <div class="col-auto mb-2 font-3">
                                                 <div class="fs-5 fw-normal fw-opacity">42Seoul LaPiscine</div>
                                                 <div class="fw-light2 text-black fs-7">Innovation Academy</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2023. 07. 17. - 08. 11.</div>
@@ -53,7 +61,6 @@ class Profile extends Component {
                                                     <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
                                                 </div>
                                             </div>
-                                        
                                         </div>
                                     </div>
                                 </div></div></Fade>
