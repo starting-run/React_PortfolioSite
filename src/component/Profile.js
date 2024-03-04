@@ -46,7 +46,7 @@ class Profile extends Component {
                                         <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EXPERIENCE</div>
                                         <div class="row row-cols-lg-2 p-2">
                                             <div class="col-auto mb-2 font-3">
-                                                <div class="fs-5 fw-normal fw-opacity">일학습병행 첨단산업아카데미</div>
+                                                <div class="fs-5 fw-normal fw-opacity">IPP 첨단산업아카데미</div>
                                                 <div class="fw-light2 text-black fs-7">강남대학교, 고용노동부, 한국산업인력공단</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2024. 03. 04. - </div>
                                                 {/*<div class="fw-light2 fs-7">
