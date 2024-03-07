@@ -11,12 +11,10 @@ class Profile extends Component {
         <div>
             <Helmet><title>Profile - USFREE</title></Helmet>
             <section class="bg-white-gray h-100">
-                <div class="container-full px-4 pt-6">
-                    <span class="font-10 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></span>
-                </div>
-                <div class="container-xxl px-4">
+                <div class="container-xxl px-4 pt-6">
                     <div class="row justify-content-center">
                         <div class="mb-5">
+                        <div class="font-10 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>
                             <div class="mb-5 fs-0-5 font-10 fw-bold font-letter-space-sm text-black text-uppercase">Profile</div>
                             <div class="row row-cols-1 row-cols-xxl-2 g-4 cards">
                             <Fade bottom delay={100}><div>

@@ -18,13 +18,11 @@ class Ironman extends Component {
     render() {
       return (
         <div>
-            <Helmet><title>Ironman - Project - USFREE</title></Helmet>
+            <Helmet><title>Ironman - USFREE</title></Helmet>
             <div id="projectmain">
                 <div class="bg-white-gray">
-                <div class="container-full px-4 pt-6">
-                    <span class="font-10 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/ironman">Ironman</NavLink></span>
-                </div>
-                    <div class="container-xxl px-4">
+                    <div class="container-xxl px-4 pt-6">
+                        <div class="font-10 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/ironman">Detail</NavLink></div>
                         <span class="fs-0-5 fw-bold font-10 text-black font-letter-space-sm">IRONMAN 3D MODEL</span>
                         <div class="mb-5">
                             <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>

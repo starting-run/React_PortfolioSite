@@ -49,14 +49,12 @@ function Project() {
         <div>
             <Helmet><title>Project - USFREE</title></Helmet>
             <section class="bg-white-gray">
-            <div class="container-full px-4 pt-6">
-                <span class="font-10 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></span>
-            </div>
-            <div class="container-xxl px-4">
+            <div class="container-xxl px-4 pt-6">
+            <div class="font-10 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>
                 <div class="row align-items-center justify-content-between">
-                    <div class="col-auto fs-0-5 font-10 fw-bolder font-letter-space-sm text-black mb-5">PROJECT　
+                    <div class="col-auto fs-0-5 font-10 fw-bolder font-letter-space-sm text-black mb-5">PROJECT
                         <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
-                            <span class="prj-sub fs-6 fw-light font-4 font-letter-space-sm"><FontAwesomeIcon icon={faGithub} /> Collect on Github <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                            <span class="prj-sub fs-6 fw-light font-4 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> Collect on Github <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                             </span>
                         </a>
                     </div>
