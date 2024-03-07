@@ -94,9 +94,9 @@ function Project() {
                                                         <span class="">2024. 02. - Developing</span>
                                                     </li>
                                                     <li class="d-flex align-items-center mt-5 city pt-7 pb-4">
-                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#UnrealEngine</div>　
-                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C++</div>　
-                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#Blueprint</div>　
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">UnrealEngine</div>　
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C++</div>　
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">Blueprint</div>　
                                                         <span class="kor-hidden">언리얼엔진, 씨쁠쁠, 블루프린트</span>
                                                     </li>
                                                 </ul>
@@ -119,10 +119,10 @@ function Project() {
                                                             <span class="">2023. 10. - 2024. 02.</span>
                                                         </li>
                                                         <li class="d-flex align-items-center mt-5 city pt-7 pb-4">
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#React</div>　
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#HTML</div>　
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#CSS</div>　
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#JavaScript</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">React</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">HTML</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">CSS</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">JavaScript</div>　
                                                             <span class="kor-hidden">리액트, 에이치티엠엘, 씨에스에스, 자바스크립트</span>
                                                         </li>
                                                     </ul>
@@ -145,8 +145,8 @@ function Project() {
                                                             <span class="">2023. 10.</span>
                                                         </li>
                                                         <li class="d-flex align-items-center mt-5 city pt-7 pb-4">
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#Processing</div>　
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#Java</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">Processing</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">Java</div>　
                                                             <span class="kor-hidden">프로세싱, 자바</span>
                                                         </li>
                                                     </ul>
@@ -169,9 +169,9 @@ function Project() {
                                                             <span class="">2021. 06.</span>
                                                         </li>
                                                         <li class="d-flex align-items-center mt-5 city pt-7 pb-4">
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#OpenGL</div>　
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C</div>　
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C++</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">OpenGL</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C++</div>　
                                                             <span class="kor-hidden">오픈지엘, 씨, 씨쁠쁠</span>
                                                         </li>
                                                     </ul>
@@ -194,8 +194,8 @@ function Project() {
                                                             <span class="">2020. 06.</span>
                                                         </li>
                                                         <li class="d-flex align-items-center mt-5 city pt-7 pb-4">
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#Unity</div>　
-                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">#C#</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">Unity</div>　
+                                                            <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C#</div>　
                                                             <span class="kor-hidden">유니티, 씨샵, 씨샾</span>
                                                         </li>
                                                     </ul>
