@@ -44,7 +44,7 @@ function filter() {
   }  
 
 function Project() {
-    const notify = () => toast.error('제작 진행중인 프로젝트입니다. 5월까지 제작 예정입니다.', {duration: 4000});
+    const notify = () => toast.error('캡스톤으로 제작 진행중인 프로젝트입니다.', {duration: 4000});
       return (
         <div>
             <Helmet><title>Project - USFREE</title></Helmet>
