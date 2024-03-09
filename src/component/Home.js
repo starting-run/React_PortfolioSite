@@ -53,18 +53,14 @@ function Home() {
             <div class="s-intro overflow-hidden">
                 <div class="s-intro__content row text-black pt-5"> 
                     <div class="column">
-                        <div class="row row-cols-lg-1 justify-content-center font-3">
-                            <div class="col">
-                                <div class="text-black fs-0 lh-sm font-10 mb-5">
-                                    <div class="font-letter-space fw-bold"><span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span></div>
-                                </div>
-                                <div class="row row-half justify-content-center font-3">
-                                    <div class="h-100 overflow-hidden border-0 rounded-1 pt-2 text-black fs-6">
-                                        <div class="font-2 fw-light2 font-letter-space text-uppercase"><b>Woohyun Cho</b></div>
-                                        <div class="fw-bolder font-2 highlight font-letter-space text-uppercase">Developer Portfolio</div>
-                                    </div>
-                                </div>
+                        <div class="fs-0 lh-sm font-10 mb-5">
+                            <div class="font-letter-space fw-bold">
+                                <span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>
                             </div>
+                        </div>
+                        <div class="h-100 overflow-hidden pt-2 fs-6 font-2 font-letter-space text-uppercase">
+                            <div class="fw-light2"><b>Woohyun Cho</b></div>
+                            <div class="fw-bolder highlight">Developer Portfolio</div>
                         </div>
                     </div>
                 </div>
