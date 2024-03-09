@@ -52,7 +52,7 @@ function Home() {
             </div>
             <div class="s-intro overflow-hidden">
                 <div class="s-intro__content row text-black pt-5"> 
-                    <div class="column">
+                    <div class="">
                         <div class="fs-0 lh-sm font-10 mb-5">
                             <div class="font-letter-space fw-bold">
                                 <span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>
@@ -71,7 +71,7 @@ function Home() {
                 <div class="container-xxl vh-100">
                     <div class="s-intro overflow-hidden">
                         <div class="s-intro__content row text-black pt-5"> 
-                            <div class="column">
+                            <div class="">
                                 <Fade bottom delay={300}>
                                     <div>
                                         <div class="fs-0-5 font-10 fw-light2 font-letter-space-sm text-black mb-5 pt-5">MORE AND MORE <span class="fw-bold">CREATIVELY</span></div>

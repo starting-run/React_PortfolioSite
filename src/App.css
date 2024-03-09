@@ -972,11 +972,6 @@ body[data-darkmode=on] .darkmode > .inner{
   animation: fadeIncard 0.5s ease-in-out; /* card 올라오는 애니메이션 */
 }
 
-.column {
-  display : block;
-  flex    : 1 1 0%;
-  padding : 0 var(--gutter);
-}
 
 .lg-12 {
   flex  : none;
