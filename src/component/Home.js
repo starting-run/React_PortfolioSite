@@ -72,12 +72,12 @@ function Home() {
                     <div class="s-intro overflow-hidden">
                         <div class="s-intro__content row text-black pt-5"> 
                             <div class="column">
-                                <Fade bottom delay={500}>
+                                <Fade bottom delay={300}>
                                     <div>
                                         <div class="fs-0-5 font-10 fw-light2 font-letter-space-sm text-black mb-5 pt-5">MORE AND MORE <span class="fw-bold">CREATIVELY</span></div>
                                     </div>
                                 </Fade>
-                                <Fade bottom delay={1000}>
+                                <Fade bottom delay={800}>
                                     <div>
                                         <div class="row row-cols-1 g-4 mb-5">
                                             <div class="col">
@@ -94,22 +94,22 @@ function Home() {
                                 <div>
                                     <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 mb-5">
                                         <div class="col">
-                                        <Fade bottom delay={1500}>
+                                        <Fade bottom delay={1200}>
                                             <span>
                                                 <Link to='/profile' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-6 fw-bolder mt-3">Profile</Link>
                                             </span>
                                         </Fade>
-                                        <Fade bottom delay={1800}>
+                                        <Fade bottom delay={1500}>
                                             <span>
                                                 <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3">Project</Link>
                                             </span> 
                                         </Fade><br class="only-mobile-view"/>
-                                        <Fade bottom delay={2100}>
+                                        <Fade bottom delay={1800}>
                                             <span>
                                                 <a href="https://velog.io/@usfree" target="_blank" className="btn btn-outline-dark-round-main btn-lg px-4 py-2 me-3 fs-6 fw-bolder mt-3">Blog</a>
                                             </span> 
                                         </Fade>
-                                        <Fade bottom delay={2400}>
+                                        <Fade bottom delay={2100}>
                                             <span>
                                                 <a href="https://github.com/usfree" target="_blank" className="btn btn-outline-dark-round-main btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3">Github</a>
                                             </span> 
