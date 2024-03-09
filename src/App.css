@@ -10460,6 +10460,7 @@ video {
   height: 100%;
   z-index: -3;
   opacity: 0.7; /* 원본값 0.15 */
+  overflow: hidden;
   /* filter:blur(2px); 배경 블러 */
 }
 
