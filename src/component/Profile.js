@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 class Profile extends Component {
     render() {
       return (
-        <div class="overflow-hidden">
+        <div>
             <Helmet><title>Profile - USFREE</title></Helmet>
             <section class="bg-white-gray h-100">
                 <div class="container-xxl px-4 pt-6">

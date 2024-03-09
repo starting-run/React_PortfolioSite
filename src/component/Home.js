@@ -29,7 +29,7 @@ function Home() {
     
     
     return (
-    <div>
+    <div class="overflow-hidden">
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
         <div class="h-100">
             <div class="bg-video">
