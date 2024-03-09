@@ -31,11 +31,11 @@ function Home() {
     return (
     <div>
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
-        <div class="section">
+        <div class="section vh-100">
             <div class="bg-video">
                 <div class="intro-background"></div>
             </div>
-            <div class="w-100">
+            <div class="w-100 ">
                 <div class="scr-down font-7 fw-light2">
                     <div class="main__action text-center">
                         <HashLink smooth to="#intro" className="main__scroll">
