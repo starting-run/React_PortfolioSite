@@ -31,7 +31,7 @@ function Home() {
     return (
     <div>
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
-        <div class="vh-100">
+        <div class="h-100">
             <div class="bg-video">
                 <div class="intro-background"></div>
             </div>
@@ -50,7 +50,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div class="s-intro overflow-hidden">
+            <div class="s-intro overflow-hidden vh-100">
                 <div class="s-intro__content row text-black pt-5"> 
                     <div class="">
                         <div class="fs-0 lh-sm font-10 mb-5">
