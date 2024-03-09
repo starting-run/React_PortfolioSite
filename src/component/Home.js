@@ -31,7 +31,7 @@ function Home() {
     return (
     <div>
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
-        <div class="section vh-100">
+        <div class="vh-100">
             <div class="bg-video">
                 <div class="intro-background"></div>
             </div>

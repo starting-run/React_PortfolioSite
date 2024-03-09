@@ -10443,7 +10443,8 @@ video {
 }
 
 .intro-background {
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: linear-gradient(-45deg, var(--bs-white), rgb(150, 61, 61), rgb(170, 95, 57),rgb(160, 127, 114));
   background-size: 400% 400%;
   animation: gradient 14s ease-in-out infinite;
@@ -10452,10 +10453,11 @@ video {
 }
 
 .bg-video {
-  position: fixed; /* 스크롤시 고정은 absolute */
+  position: absolute; /* 스크롤시 고정은 absolute */
   top: 0;
   left: 0;
   width: 100%;
+  height: 100%;
   z-index: -3;
   opacity: 0.7; /* 원본값 0.15 */
   /* filter:blur(2px); 배경 블러 */
