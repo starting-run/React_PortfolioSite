@@ -23,7 +23,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 
 function Slowdown() {
-    const notify = () => toast.error('제작 진행중인 프로젝트입니다 !', {duration: 4000});
+    const notify = () => toast.error('캡스톤으로 제작 진행중입니다.', {duration: 4000});
     const notify2 = () => toast.error('제작 진행중인 프로젝트입니다. 깃허브 리포지토리를 아직 제공하지 않습니다.', {duration: 4000});
     useEffect(() => {
         notify();
@@ -41,43 +41,37 @@ function Slowdown() {
                         <span class="fs-0-5 fw-bold font-10 text-black font-letter-space-sm">SLOW DOWN</span>
                         <div class="mb-5">
                             <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
-                            <a href="https://github.com/usfree/" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
+                            <a onClick={notify2} target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
                         </div>
                     </div>
                     <div class="container-xxl my-2 mt-3 px-4">
                         <div class="row gx-5 justify-content-center">
                             <div class="up-animation">
-                                <div class="card shadow rounded-2 border-0">
+                                <div class="rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
-                                            <div class="p-2 proj_text w-100 text-black fw-light">
+                                            <div class="proj_text w-100 text-black fw-light">
                                                 <div class="mb-3 w-100 card card-cover-danger p-3 rounded-4 border-0">
                                                     <span class="text-only-white"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
                                                 </div>
                                                 <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-4 border-0">
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트명</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">SlowDown Game</div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">프로젝트 기간</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">2024. 02. -</div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">주요 기능</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">여러 개의 층으로 구성된 공간에서 각 층의 클리어 조건을 달성하여 최하층에 도달하는 게임</div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">구현 기능</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">&middot; </div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">사용 기술</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">UnrealEngine, C++, BluePrint</div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">인원 구성</div>
-                                                    <div class="font-3 fw-light fs-6 mb-3">1인 개발</div>
-                                                    <div class="font-3 fw-bold fs-5 highlight-gradient">세부 사항</div>
-                                                    <div class="font-3 fw-light fs-6">하단 참고</div>
+                                                    <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span class="font-3 fw-light fs-6 mb-2 text-black">2024. 02. -</span></div>
+                                                    <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span class="font-3 fw-light fs-6 mb-2 text-black">UnrealEngine, C++, BluePrint</span></div>
+                                                    <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span class="font-3 fw-light fs-6 mb-2 text-black">여러 개의 층으로 구성된 공간에서 각 층의 클리어 조건을 달성하여 최하층에 도달하는 게임입니다.</span></div>
+                                                    <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span class="font-3 fw-light fs-6 mb-2 text-black">1인 개발</span></div>
+                                                    <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
+                                                    <span class="font-3 fw-light fs-6 mb-2 text-black px-2">
+                                                        &middot;
+                                                    </span>
                                                 </div>
-                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faClipboardList} /> SUMMARY</div>
-                                                <div class="mb-4">-</div>
-                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faLightbulb} /> REASON</div>
-                                                <div class="mb-4">-</div>
-                                                <div class="text-black font-4 fs-6 fw-light2 p-2 font-letter-space-lg"><FontAwesomeIcon icon={faGear} /> SETUP</div>
-                                                <div class="card card-cover-nonhover p-3 rounded-4 border-0 mb-5">
-                                                    # UnrealEngine<br/>
-                                                    
+                                                <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
+                                                <div class="mb-4 px-2">졸업 작품을 제작하기 위한 캡스톤디자인을 통해 제작 중인 프로젝트입니다. Unreal Engine을 사용하고 있으며, 천천히 완성도 있는 게임을 만들어 스팀에 출시하기 위해 노력하고 있습니다.</div>
+                                                <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
+                                                <div class="mb-4 px-2"></div>
+                                                <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
+                                                <div class="code p-3 rounded-4 border-0 mb-5">
+                                                    # Unreal Engine<br/>
+
                                                 </div>
                                             </div>
                                         </div>
