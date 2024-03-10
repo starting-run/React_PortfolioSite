@@ -950,7 +950,7 @@ body[data-darkmode=on] .darkmode > .inner{
 .s-intro {
   width            : 100%;
   height: 100vh;
-  min-height       : calc(25.5 * var(--space));
+  overflow         : hidden;
 }
 
 .s-intro__content {
