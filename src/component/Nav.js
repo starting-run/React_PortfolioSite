@@ -34,8 +34,12 @@ const notify = () => toast('기기 설정에 따라 라이트/다크모드로 �
   }
 );
 
-function totop() {
+function mainlogo() {
   window.scrollTo(0, 0);
+  if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
+    $(".navbar-toggler").trigger("click");
+    $("input:checkbox[id='hbg']").prop("checked", false);
+  }
 }
 
 useEffect(() => {
@@ -49,7 +53,7 @@ return (
       <div id="add-fixed" class="navbar-fixed-attr">
         <nav id="navbarcontrol" class="navbar navbar-light navbar-py navbar-upper"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
           <div id='changecontainer' class="container-full px-4 ">
-              <NavLink exact to="/" className="navbar-brand" id="mains" onClick={totop}><img class="logoimg"></img></NavLink>
+              <NavLink exact to="/" className="navbar-brand" id="mains" onClick={mainlogo}><img class="logoimg"></img></NavLink>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <label class="hamburger">
