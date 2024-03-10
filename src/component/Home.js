@@ -29,13 +29,13 @@ function Home() {
     
     
     return (
-    <div class="overflow-hidden">
+    <div>
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
-        <div class="h-100">
+        <div class="section">
             <div class="bg-video">
                 <div class="intro-background"></div>
             </div>
-            <div class="w-100 ">
+            <div class="w-100">
                 <div class="scr-down font-7 fw-light2">
                     <div class="main__action text-center">
                         <HashLink smooth to="#intro" className="main__scroll">
@@ -50,17 +50,19 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div class="s-intro overflow-hidden vh-100">
+            <div class="s-intro overflow-hidden">
                 <div class="s-intro__content row text-black pt-5"> 
-                    <div class="">
-                        <div class="fs-0 lh-sm font-10 mb-5">
+                    <div class="justify-content-center font-3">
+                        <div class="text-black fs-0 lh-sm font-10 mb-5">
                             <div class="font-letter-space fw-bold">
                                 <span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>
                             </div>
                         </div>
-                        <div class="h-100 overflow-hidden pt-2 fs-6 font-2 font-letter-space text-uppercase">
-                            <div class="fw-light2"><b>Woohyun Cho</b></div>
-                            <div class="fw-bolder highlight">Developer Portfolio</div>
+                        <div class="justify-content-center">
+                            <div class="h-100 font-2 overflow-hidden pt-2 text-black fs-6 font-letter-space text-uppercase">
+                                <div class="fw-light2">Woohyun Cho</div>
+                                <div class="fw-bolder highlight">Developer Portfolio</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -71,13 +73,10 @@ function Home() {
                 <div class="container-xxl vh-100">
                     <div class="s-intro overflow-hidden">
                         <div class="s-intro__content row text-black pt-5"> 
-                            <div class="">
-                                <Fade bottom delay={300}>
+                            <div class="column">
                                     <div>
                                         <div class="fs-0-5 font-10 fw-light2 font-letter-space-sm text-black mb-5 pt-5">MORE AND MORE <span class="fw-bold">CREATIVELY</span></div>
                                     </div>
-                                </Fade>
-                                <Fade bottom delay={800}>
                                     <div>
                                         <div class="row row-cols-1 g-4 mb-5">
                                             <div class="col">
@@ -90,30 +89,22 @@ function Home() {
                                             </div>
                                         </div>
                                     </div>
-                                </Fade>
                                 <div>
                                     <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 mb-5">
                                         <div class="col">
-                                        <Fade bottom delay={1200}>
                                             <span>
                                                 <Link to='/profile' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-6 fw-bolder mt-3">Profile</Link>
                                             </span>
-                                        </Fade>
-                                        <Fade bottom delay={1500}>
                                             <span>
                                                 <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3">Project</Link>
                                             </span> 
-                                        </Fade><br class="only-mobile-view"/>
-                                        <Fade bottom delay={1800}>
+                                        <br class="only-mobile-view"/>
                                             <span>
                                                 <a href="https://velog.io/@usfree" target="_blank" className="btn btn-outline-dark-round-main btn-lg px-4 py-2 me-3 fs-6 fw-bolder mt-3">Blog</a>
                                             </span> 
-                                        </Fade>
-                                        <Fade bottom delay={2100}>
                                             <span>
                                                 <a href="https://github.com/usfree" target="_blank" className="btn btn-outline-dark-round-main btn-lg px-4 py-2 me-sm-3 fs-6 fw-bolder mt-3">Github</a>
                                             </span> 
-                                        </Fade>
                                         </div>
                                     </div>
                                 </div>

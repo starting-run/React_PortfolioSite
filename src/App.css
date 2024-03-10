@@ -950,14 +950,15 @@ body[data-darkmode=on] .darkmode > .inner{
 .s-intro {
   background-color : var(--color-preloader-bg);
   width            : 100%;
-  height           : 100%;
+  height: 100vh;
+  min-height       : calc(25.5 * var(--space));
   overflow         : hidden;
 
 }
 
 .s-intro__content {
   z-index         : 1;
-  height          : 100%;
+  height          : 100vh;
   align-items     : center;
   justify-content : center;
   color           : white;
@@ -972,6 +973,11 @@ body[data-darkmode=on] .darkmode > .inner{
   animation: fadeIncard 0.5s ease-in-out; /* card 올라오는 애니메이션 */
 }
 
+.column {
+  display : block;
+  flex    : 1 1 0%;
+  padding : 0 var(--gutter);
+}
 
 .lg-12 {
   flex  : none;
@@ -1142,7 +1148,7 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 .bg-video__content {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   object-fit: cover;  
 }
@@ -10049,7 +10055,7 @@ video {
 }
 
 .fs-0 {
-  font-size: calc(1.375rem + 6vw) !important;
+  font-size: calc(1.375rem + 5vw) !important;
 }
 
 .fs-0-5 {
@@ -10443,24 +10449,20 @@ video {
 }
 
 .intro-background {
-  width: 100%;
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(-45deg, var(--bs-white), rgb(150, 61, 61), rgb(170, 95, 57),rgb(160, 127, 114));
   background-size: 400% 400%;
   animation: gradient 14s ease-in-out infinite;
   z-index: -2;
-  overflow: hidden;
 }
 
 .bg-video {
-  position: absolute; /* 스크롤시 고정은 absolute */
+  position: fixed; /* 스크롤시 고정은 absolute */
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   z-index: -3;
   opacity: 0.7; /* 원본값 0.15 */
-  overflow: hidden;
   /* filter:blur(2px); 배경 블러 */
 }
 
