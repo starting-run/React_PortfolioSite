@@ -165,7 +165,7 @@
     --bs-top-btn-path : #000;
     --bs-award-hover-rgb: 200, 200, 200;
     --bs-normal-rgb: 252, 133, 116;
-    transition: all 1s;
+    transition: all 0.3s;
     --bs-logo-img: url("images/logo_text_dark.png");
   }
   body[data-darkmode=on]{
@@ -199,7 +199,7 @@
     --text-gradient : -webkit-linear-gradient(315deg, #e0c3fc 0%, #8ec5fc 100%);
     --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
     */
-    transition: all 1s;
+    transition: all 0.3s;
     --bs-logo-img: url("images/logo_text.png");
     }
 }
@@ -236,7 +236,7 @@
   --text-gradient : -webkit-linear-gradient(315deg, #e0c3fc 0%, #8ec5fc 100%);
   --lenear-gradient : linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
   */
-  transition: all 1s;
+  transition: all 0.3s;
   --bs-logo-img: url("images/logo_text.png");
   }
   body[data-darkmode=off] {
@@ -265,7 +265,7 @@
     --bs-top-btn-path : #000;
     --bs-award-hover-rgb: 200, 200, 200;
     --bs-normal-rgb: 252, 133, 116;
-    transition: all 1s;
+    transition: all 0.3s;
     --bs-logo-img: url("images/logo_text_dark.png");
   }
 }
@@ -651,7 +651,7 @@ body[data-darkmode=on] .darkmode > .inner{
   top:0;
   right:0;
   position: fixed;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 .navbar-toggler {
   z-index: 1;
@@ -1549,7 +1549,7 @@ sup {
 a {
   color: var(--bs-link-color);
   text-decoration: underline;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -2066,19 +2066,19 @@ progress {
 @media (min-width: 576px) {
   .container-sm, .container, .container-bt, .container-full {
     max-width: 576px;
-    transition: all 1s;
+    transition: all 0.3s;
   }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container, .container-bt, .container-full {
     max-width: 768px;
-    transition: all 1s;
+    transition: all 0.3s;
   }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container, .container-bt, .container-full {
     max-width: 992px;
-    transition: all 1s;
+    transition: all 0.3s;
   }
   .navbar-py {
     padding-top: 1.2rem !important;
@@ -2091,17 +2091,17 @@ progress {
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt, .container-full {
     max-width: 1200px;
-    transition: all 1s;
+    transition: all 0.3s;
   }
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
     max-width: 1400px;
-    transition: all 1s;
+    transition: all 0.3s;
   }
   .container-full{
     max-width: 98vw;
-    transition: all 1s;
+    transition: all 0.3s;
   }
   
 }
@@ -2131,7 +2131,7 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .row-half > * {
