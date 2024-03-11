@@ -67,8 +67,8 @@ class Profile extends Component {
                                 <div class="col">
                                     <div class="card h-100 overflow-hidden border-0 card-hover-up p-4  rounded-4">
                                         <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">CERTIFICATE</div>
-                                        <div class="row row-cols-lg-2 p-2">
-                                            <div class="col-auto mb-2 font-3">
+                                        <div class="row row-cols-lg-2 p-2 font-3">
+                                            <div class="col-auto mb-2">
                                                 <div class="fs-5 fw-normal fw-opacity">웹디자인기능사</div>
                                                 <div class="fw-light2 fs-7 mb-2 highlight">2022. 09. 08.</div>
                                             </div>
