@@ -532,7 +532,6 @@ body[data-darkmode=on] .darkmode > .inner{
   transition: all 0.3s;
 }
 
-
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -647,7 +646,7 @@ body[data-darkmode=on] .darkmode > .inner{
   align-items: center;
   background-color: var(--bs-dark);
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   top:0;
   right:0;
   position: fixed;
@@ -694,6 +693,17 @@ body[data-darkmode=on] .darkmode > .inner{
   .only-mobile-view{
     display: none;
   }
+  
+  .show-navbar {
+    transform: translateY(0%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .hide-navbar {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
 /*
   .fs-fr:hover {
     font-size: 1.22rem !important;

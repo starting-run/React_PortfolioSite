@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route, Routes, Link, NavLink, HashRouter} from 'react-router-dom';
+import {BrowserRouter, Route, Routes, HashRouter} from 'react-router-dom';
 import ScrollToTop from "./component/ScrollToTop";
 
 import Home from './component/Home';
@@ -16,7 +16,8 @@ import Snake from './component/Project/Snake';
 import Slowdown from './component/Project/Slowdown';
 import Website from './component/Project/Website';
 import Nav from './component/Nav';
-import toast, { Toaster } from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
+import ScrollIndicator from './component/ScrollIndicator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,6 +35,7 @@ root.render(
         <Route path="/project/ironman" element={<Ironman/>}/>
         <Route path="/project/snake" element={<Snake/>}/>
       </Routes>
+      <ScrollIndicator/>
       <Nav />
     </HashRouter>
 );

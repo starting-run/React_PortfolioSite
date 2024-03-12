@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap.bundle';
@@ -9,10 +9,25 @@ import { faArrowUpRightFromSquare, faEnvelope } from "@fortawesome/free-solid-sv
 import footerimg from '../images/footerimg.png';
 import toast, { Toaster } from 'react-hot-toast';
 import ToTopButton from './ToTopButton';
-import ScrollIndicator from "./ScrollIndicator";
 import DarkModeToggle from './DarkModeToggle';
 
 function Nav() {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [isScrollingUp, setIsScrollingUp] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setIsScrollingUp(prevScrollPos > currentScrollPos);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos]);
+
   $(document).scroll(function() {
     var scroll = $(document).scrollTop();
     if (scroll >= 50) {
@@ -50,7 +65,7 @@ return (
   <header>
     <div>
       <ToTopButton />
-      <div id="add-fixed" class="navbar-fixed-attr">
+      <div id="add-fixed" className={`navbar-fixed-attr ${isScrollingUp ? 'show-navbar' : 'hide-navbar'}`}>
         <nav id="navbarcontrol" class="navbar navbar-light navbar-py navbar-upper"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
           <div id='changecontainer' class="container-full px-4 ">
               <NavLink exact to="/" className="navbar-brand" id="mains" onClick={mainlogo}><img class="logoimg"></img></NavLink>
@@ -89,7 +104,7 @@ return (
               </div>
           </div>
         </nav>
-        <ScrollIndicator/>
+
         
       </div>
 
