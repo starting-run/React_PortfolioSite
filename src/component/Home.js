@@ -21,7 +21,7 @@ function Home() {
       return () => clearInterval(interval);
     }, []);
   
-    const words = ['UNREAL DEV.', 'GAME DEV.', 'VR DEV.'];
+    const words = ['UNREAL DEV.', 'UNITY DEV.', 'GAME DEV.', 'VR DEV.'];
   
     useEffect(() => {
         setText(words[index]);
@@ -84,7 +84,7 @@ function Home() {
                                         <div class="row row-cols-1 g-4 mb-5">
                                             <div class="col">
                                                 <div class="mb-3 lh-lg font-letter-space-sm font-3 fw-normal text-black fs-6">
-                                                        안녕하세요, 언리얼/게임/VR/AR 개발자를 꿈꾸고 있는 조우현입니다. 
+                                                        안녕하세요, 게임/가상현실 개발자를 지망하고 있는 조우현입니다. 
                                                     <br/>모든 일에 필요한 창의력은 혁신을 그리고, 상상력은 사람을 만들고 조각한다고 생각합니다.
                                                     <br/><span class="highlight">창의력과 상상력</span>을 통해 꾸준히 성장하는 개발자가 되도록 노력하겠습니다.
                                                     <br/><br/>진행하는 프로젝트에 대해서는 포트폴리오 웹사이트에 꾸준히 업데이트하여 게시중입니다.
