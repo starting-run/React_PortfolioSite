@@ -79,7 +79,7 @@ function Project() {
                 <div class="row gx-5 justify-content-center">
                     <div class="mb-5 pb-5">
                         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
-                            <div class="img-fluid"> 
+                            {/*<div class="img-fluid"> 
                                 <NavLink to="utopai" id="utopai">
                                 <Fade bottom delay={0}> 
                                     <div class="col">
@@ -103,7 +103,7 @@ function Project() {
                                     </div>
                                 </Fade>
                                 </NavLink>
-                            </div>
+                            </div>*/}
                             <div class="img-fluid">
                                 <NavLink to="website" id="website">
                                     <Fade bottom delay={50}>
