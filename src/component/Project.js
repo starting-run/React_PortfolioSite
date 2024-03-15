@@ -3,7 +3,7 @@ import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
 import project4 from '../images/portfolio.png';
-import project5 from '../images/loading.svg';
+import project5 from '../images/building.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare, faChevronRight, faLayerGroup, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -80,13 +80,13 @@ function Project() {
                     <div class="mb-5 pb-5">
                         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
                             <div class="img-fluid"> 
-                                <NavLink to="slowdown" id="slowdown">
+                                <NavLink to="utopai" id="utopai">
                                 <Fade bottom delay={0}> 
                                     <div class="col">
                                         <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0  rounded-4">
-                                            {/*<img class="card-image" src = {project5}></img>*/}
+                                            <img class="card-image" src = {project5}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-3">SlowDown<div class="kor-hidden">슬로우다운</div></span>
+                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-3">Utop-AI<div class="kor-hidden">유토파이</div></span>
                                                 <ul class="list-unstyled mt-auto small2">
                                                     <li class="d-flex align-items-center me-3 mb-4">
                                                         <span class="">2024. 02. - Developing</span>

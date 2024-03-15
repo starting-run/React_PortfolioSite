@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {BrowserRouter, Route, Routes, HashRouter} from 'react-router-dom';
+import {Route, Routes, HashRouter} from 'react-router-dom'; 
 import ScrollToTop from "./component/ScrollToTop";
 
 import Home from './component/Home';
@@ -13,7 +13,7 @@ import Profile from './component/Profile';
 import Pacman from "./component/Project/Pacman";
 import Ironman from "./component/Project/Ironman";
 import Snake from './component/Project/Snake';
-import Slowdown from './component/Project/Slowdown';
+import Utopai from './component/Project/Utopai';
 import Website from './component/Project/Website';
 import Nav from './component/Nav';
 import { Toaster } from 'react-hot-toast';
@@ -22,6 +22,7 @@ import ScrollIndicator from './component/ScrollIndicator';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
+      {/*BrowserRouter*/}
       <Toaster position='bottom-right'/>
       <App />
       <ScrollToTop />
@@ -29,7 +30,7 @@ root.render(
         <Route path="/profile/*" element={<Profile/>}/>
         <Route exact path="/" element={<Home/>}/>
         <Route path="/project" element={<Project/>}/>
-        <Route path="/project/slowdown" element={<Slowdown/>}/>
+        <Route path="/project/utopai" element={<Utopai/>}/>
         <Route path="/project/website" element={<Website/>}/>
         <Route path="/project/pacman" element={<Pacman/>}/>
         <Route path="/project/ironman" element={<Ironman/>}/>
