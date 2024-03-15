@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3ee59ba2.css",
-    "main.js": "/static/js/main.b2f20566.js",
+    "main.js": "/static/js/main.f5730f5c.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
@@ -9,6 +9,7 @@
     "static/media/Unity_Snake.pdf": "/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf",
     "static/media/OpenGL_Ironman.pdf": "/static/media/OpenGL_Ironman.54c28fdf5dac7d4a96f2.pdf",
     "static/media/1.png": "/static/media/1.a04d4bf800f1daf45e0c.png",
+    "static/media/building.png": "/static/media/building.9617d80306f85b9373e0.png",
     "static/media/website.png": "/static/media/website.a4606fe79f35b66e79e8.png",
     "static/media/Processing_Pacman.pdf": "/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf",
     "static/media/portfolio.png": "/static/media/portfolio.5b674675998c74f8d4a8.png",
@@ -24,11 +25,10 @@
     "static/media/6.png": "/static/media/6.aaddd106aeb4dc1bcb6c.png",
     "static/media/footerimg.png": "/static/media/footerimg.ab83ee45a66418c9f283.png",
     "static/media/7.gif": "/static/media/7.27828eeeee0cffed1196.gif",
-    "index.html": "/index.html",
-    "static/media/loading.svg": "/static/media/loading.89551ebba0c2a4f197c8a4cb6ad2288b.svg"
+    "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.3ee59ba2.css",
-    "static/js/main.b2f20566.js"
+    "static/js/main.f5730f5c.js"
   ]
 }
