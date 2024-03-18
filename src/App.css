@@ -1350,6 +1350,11 @@ universe 공통 영역 끝
   cursor: pointer;
 }
 
+.ss-go-top a:hover {
+  background-color : #FC8574;
+  transition       : all .3s;
+}
+
 .ss-go-top a:focus svg path,
 .ss-go-top a:hover svg path {
   fill : var(--bs-top-btn-path);
@@ -5593,7 +5598,7 @@ textarea.form-control-lg {
   /* The size of the SVG defines the overall size */
   height: 1em;
   /* Define the transition for transforming the SVG */
-  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .line {
@@ -5603,8 +5608,8 @@ textarea.form-control-lg {
   stroke-linejoin: round;*/
   stroke-width: 2;
   /* Define the transition for transforming the Stroke */
-  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
-              stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: stroke-dasharray 400ms cubic-bezier(0.4, 0, 0.2, 1),
+              stroke-dashoffset 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .line-top-bottom {

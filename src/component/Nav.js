@@ -68,7 +68,7 @@ return (
       <div id="add-fixed" className={`navbar-fixed-attr ${isScrollingUp ? 'show-navbar' : 'hide-navbar'}`}>
         <nav id="navbarcontrol" class="navbar navbar-light navbar-py navbar-upper"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
           <div id='changecontainer' class="container-full px-4 ">
-              <NavLink exact to="/" className="navbar-brand" id="mains" onClick={mainlogo}><img class="logoimg"></img></NavLink>
+              <NavLink exact to="/" className="navbar-brand" id="mains" onClick={mainlogo} title="Home"><img class="logoimg"></img></NavLink>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <label class="hamburger">
@@ -82,11 +82,11 @@ return (
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-fr">
-                  <NavLink exact to="/profile" className="nav-link"><li class="nav-item">Profile</li></NavLink>
-                  <NavLink exact to="/project" className="nav-link"><li class="nav-item">Project</li></NavLink>
-                  <a class="nav-link fs-6 pt-3" href="https://github.com/usfree" target='_blank'><li class="nav-item">Github <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
-                  <a class="nav-link fs-6" href="https://velog.io/@usfree" target='_blank'><li class="nav-item">Blog <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
-                  <a class="nav-link fs-6" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank'><li class="nav-item">Mail <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
+                  <NavLink exact to="/profile" className="nav-link" title="Profile"><li class="nav-item">Profile</li></NavLink>
+                  <NavLink exact to="/project" className="nav-link" title="Project"><li class="nav-item">Project</li></NavLink>
+                  <a class="nav-link fs-6 pt-3" href="https://github.com/usfree" target='_blank' title="Github"><li class="nav-item">Github <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
+                  <a class="nav-link fs-6" href="https://velog.io/@usfree" target='_blank' title="Blog"><li class="nav-item">Blog <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
+                  <a class="nav-link fs-6" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank' title="Mail"><li class="nav-item">Mail <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
                   {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
 
                   {/*<ul class="pt-3">                 
@@ -116,9 +116,9 @@ return (
       <div id="normalfooter" class="bg-dark py-4 mt-auto">
         <div class="container-full px-4 text-only-white font-3">
             <div class="text-end">
-              <a class="text-only-white" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다."><FontAwesomeIcon icon={faEnvelope} /></a>　
-              <a class="text-only-white" href="https://velog.io/@usfree"><FontAwesomeIcon icon={faVimeo} /></a>　
-              <a class="text-only-white" href="https://github.com/usfree"><FontAwesomeIcon icon={faGithub} /></a>
+              <a class="text-only-white" href="https://github.com/usfree" title="Github"><FontAwesomeIcon icon={faGithub} /></a>　
+              <a class="text-only-white" href="https://velog.io/@usfree" title="Blog"><FontAwesomeIcon icon={faVimeo} /></a>　
+              <a class="text-only-white" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." title="Mail"><FontAwesomeIcon icon={faEnvelope} /></a>
             </div>
             <hr/>
             {/*<div class="d-flex">
