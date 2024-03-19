@@ -47,7 +47,7 @@ class Profile extends Component {
                                                 <div class="fs-5 fw-normal fw-opacity">IPP 첨단산업아카데미</div>
                                                 <div class="fw-light2 text-black fs-7">강남대학교 &middot; 고용노동부 &middot; 한국산업인력공단</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2024. 03. 04. - </div>
-                                                <div class="fw-light2 fs-7 mb-3">SW개발_L5</div>
+                                                <div class="fw-light2 fs-7 mb-3">(주)모션테크놀로지 / SW개발_L5</div>
                                                 {/*<div class="fw-light2 fs-7">
                                                     <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
                                                 </div>*/}   
