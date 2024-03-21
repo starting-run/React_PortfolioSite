@@ -94,13 +94,26 @@ class Profile extends Component {
                                 <Fade bottom delay={250}><div>
                                 <div class="col">
                                     <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 rounded-4">
-                                        <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">MILITARY SERVICE</div>
+                                        <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">RATING</div>
                                         <div class="row row-cols-lg-2 p-2">
                                             <div class="col-auto mb-2 font-3">
-                                                <div class="fs-5 fw-normal fw-opacity">병장 만기전역</div> 
-                                                <div class="fw-light2 text-black fs-7">육군 10방공단 505방공대대</div>
-                                                <div class="fw-light2 fs-8 mb-2 highlight">2021. 09. - 2023. 03.</div>
+                                                <div class="fs-5 fw-normal fw-opacity">Baekjoon Online Judge</div>
+                                                <div class="fw-light2 fs-8 mb-2 highlight">tlrmsjtm77</div>
+                                                <div class="fw-light2 fs-7 mb-2">
+                                                    <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>Go site　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
+                                                </div>
                                             </div>
+                                            <div class="col-auto mb-2 font-3">
+                                                <div class="fs-5 fw-normal fw-opacity">Codeforces</div>
+                                                <div class="fw-light2 fs-8 mb-2 highlight">tlrmsjtm77</div>
+                                                <div class="fw-light2 fs-7 mb-2">
+                                                    <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>Go site　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
+                                                </div>
+                                            </div>
+                                            {/*<div class="col-auto mb-2 font-3">
+                                                <div class="fs-5 fw-normal fw-opacity">Programmers</div>
+                                                <div class="fw-light2 fs-6 mb-2 highlight">score<br/>0000</div>
+                                            </div>*/}
                                         </div>
                                     </div>
                                 </div></div></Fade>
