@@ -4,6 +4,7 @@ import { faArrowUpRightFromSquare, faCakeCandles, faChartSimple, faChevronRight,
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
 import { NavLink } from 'react-router-dom';
+import GitHubCalendar from 'react-github-calendar';
 
 class Profile extends Component {
     render() {
@@ -16,13 +17,14 @@ class Profile extends Component {
                         <div class="mb-5">
                         <div class="font-10 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>
                             <div class="mb-5 fs-0-5 font-10 fw-bold font-letter-space-sm text-black text-uppercase">Profile</div>
-                            <div class="row row-cols-1 row-cols-xxl-2 g-4 cards">
+                            <div class="row row-cols-1 row-cols-xxl-1 g-4">
                             <Fade bottom delay={100}><div>
                                 <div class="col">
-                                    <div class="card h-100 overflow-hidden border-0 card-hover-up p-4  rounded-4">
-                                        <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EDUCATION</div>
-                                        <div class="row row-cols-lg-2 p-2">
-                                            <div class="col-auto text-black mb-1 font-3">
+                                    <div class="h-100 overflow-hidden py-2 px-4">
+                                        <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EDUCATION</div>
+                                        <hr class="text-black"/>
+                                        <div class="row row-cols-lg-2 p-2 card-hover-up rounded-4">
+                                            <div class="col-auto text-black mb-2 font-3">
                                                 <div class="fs-5 fw-normal"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>Kangnam University</a></div>
                                                 <div class="fw-light2 fs-7">Yongin-si, Gyeonggi-do</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2019. 03. - </div>
@@ -30,7 +32,7 @@ class Profile extends Component {
                                                     major: Software /<br/>double major: VirtualReality
                                                 </div>
                                             </div>
-                                            <div class="col-auto text-black font-3">
+                                            <div class="col-auto text-black mb-2 font-3">
                                                 <div class="fs-5 fw-normal"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>Hanseong Highschool</a></div>
                                                 <div class="fw-light2 fs-7">Seodaemun-gu, Seoul</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2015. 03. - 2018. 02.</div>
@@ -40,14 +42,15 @@ class Profile extends Component {
                                 </div></div></Fade>
                             <Fade bottom delay={150}><div>
                                 <div class="col">
-                                    <div class="card h-100 overflow-hidden border-0 card-hover-up p-4  rounded-4">
-                                        <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EXPERIENCE</div>
-                                        <div class="row row-cols-lg-2 p-2">
+                                    <div class="h-100 overflow-hidden py-2 px-4">
+                                        <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EXPERIENCE</div>
+                                        <hr class="text-black"/>
+                                        <div class="row row-cols-lg-2 p-2 card-hover-up rounded-4">
                                             <div class="col-auto mb-2 font-3">
                                                 <div class="fs-5 fw-normal fw-opacity">IPP 첨단산업아카데미</div>
                                                 <div class="fw-light2 text-black fs-7">강남대학교 &middot; 고용노동부 &middot; 한국산업인력공단</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2024. 03. 04. - </div>
-                                                <div class="fw-light2 fs-7 mb-3">(주)모션테크놀로지 / SW개발_L5</div>
+                                                <div class="fw-light2 fs-7 mb-3 text-black"><a href="https://www.motioncapture.co.kr/" target='_blank'>(주)모션테크놀로지</a> / SW개발_L5</div>
                                                 {/*<div class="fw-light2 fs-7">
                                                     <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
                                                 </div>*/}   
@@ -65,9 +68,10 @@ class Profile extends Component {
                                 </div></div></Fade>
                                 <Fade bottom delay={200}><div>
                                 <div class="col">
-                                    <div class="card h-100 overflow-hidden border-0 card-hover-up p-4  rounded-4">
-                                        <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">CERTIFICATE</div>
-                                        <div class="row row-cols-lg-2 p-2 font-3">
+                                    <div class="h-100 overflow-hidden py-2 px-4">
+                                        <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">CERTIFICATE</div>
+                                        <hr class="text-black"/>
+                                        <div class="row row-cols-lg-2 p-2 font-3 card-hover-up rounded-4">
                                             <div class="col-auto mb-2">
                                                 <div class="fs-5 fw-normal fw-opacity">웹디자인기능사</div>
                                                 <div class="fw-light2 fs-7 mb-2 highlight">2022. 09. 08.</div>
@@ -93,9 +97,10 @@ class Profile extends Component {
                                 </div></div></Fade>
                                 <Fade bottom delay={250}><div>
                                 <div class="col">
-                                    <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 rounded-4">
-                                        <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">RATING</div>
-                                        <div class="row row-cols-lg-2 p-2">
+                                    <div class="h-100 overflow-hidden py-2 px-4">
+                                        <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">RATING</div>
+                                        <hr class="text-black"/>
+                                        <div class="row row-cols-lg-2 p-2 card-hover-up rounded-4">
                                             <div class="col-auto mb-2 font-3">
                                                 <div class="fs-5 fw-normal fw-opacity">Baekjoon Online Judge</div>
                                                 <div class="fw-light2 fs-8 mb-2 highlight">tlrmsjtm77</div>
@@ -121,9 +126,10 @@ class Profile extends Component {
                             <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 cards mb-4 pt-4">
                             <Fade bottom delay={300}><div>
                                 <div class="col">
-                                    <div class="card h-100 overflow-hidden border-0 card-hover-up p-4 rounded-4">
-                                        <div class="mb-4 text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SKILL</div>
-                                        <div class="row row-cols-lg-3 p-2 font-3">
+                                    <div class="h-100 overflow-hidden py-2 px-4">
+                                        <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SKILL</div>
+                                        <hr class="text-black"/>
+                                        <div class="row row-cols-lg-3 p-2 font-3 card-hover-up rounded-4">
                                             <div class="col-auto mb-2">
                                                 <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C</div><span> </span>
                                                 <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C++</div>
@@ -131,7 +137,7 @@ class Profile extends Component {
                                             </div>
                                             <div class="col-auto mb-2">
                                                 <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C#</div><span> </span>
-                                                <div class="fw-light2 fs-8 mb-2 text-black">C#을 사용하여 Unity를 다룰 수 있고, 학습중입니다.</div>
+                                                <div class="fw-light2 fs-8 mb-2 text-black">C# 문법을 파악하고, 제네릭 등을 활용하여 코드를 작성할 수 있습니다. </div>
                                             </div>
                                             <div class="col-auto mb-2">
                                                 <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">UnrealEngine</div>
@@ -139,7 +145,7 @@ class Profile extends Component {
                                             </div>
                                             <div class="col-auto mb-2">
                                                 <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">Unity</div>
-                                                <div class="fw-light2 fs-8 mb-2 text-black">C#을 사용하여 Unity를 다룰 수 있고, 학습중입니다.</div>
+                                                <div class="fw-light2 fs-8 mb-2 text-black">C#을 사용하여 Unity를 다룰 수 있습니다.</div>
                                             </div>
                                             <div class="col-auto mb-2">
                                                 <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">HTML5</div><span> </span>
