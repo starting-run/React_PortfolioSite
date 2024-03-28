@@ -805,6 +805,9 @@ body[data-darkmode=on] .darkmode > .inner{
   }  
 }
 
+.rot-45deg {
+  transform: rotate(45deg);
+}
 
 .nav-link.active > li {
   color:#FC8574;
@@ -2115,7 +2118,7 @@ progress {
     transition: all 0.3s;
   }
   .container-full{
-    max-width: 98vw;
+    max-width: 95vw;
     transition: all 0.3s;
   }
   
@@ -10427,6 +10430,11 @@ video {
   transition: all 0.3s;
 }
 
+.bg-only-white-gray {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-white-gray-rgb), var(--bs-bg-opacity)) !important;
+  transition: all 0.3s;
+}
 .bg-white-half {
   position: absolute;
   --bs-bg-opacity: 1;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare, faCakeCandles, faChartSimple, faChevronRight, faCode, faEnvelopeOpenText, faGamepad, faLocationDot, faMicrochip } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faArrowUpRightFromSquare, faCakeCandles, faChartSimple, faChevronRight, faCode, faEnvelopeOpenText, faGamepad, faLocationDot, faMicrochip } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
 import { NavLink } from 'react-router-dom';
@@ -60,7 +60,7 @@ class Profile extends Component {
                                                 <div class="fw-light2 text-black fs-7">Innovation Academy</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2023. 07. 17. - 08. 11.</div>
                                                 <div class="fw-light2 fs-7">
-                                                    <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
+                                                    <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -105,14 +105,14 @@ class Profile extends Component {
                                                 <div class="fs-5 fw-normal fw-opacity">Baekjoon Online Judge</div>
                                                 <div class="fw-light2 fs-8 mb-2 highlight">tlrmsjtm77</div>
                                                 <div class="fw-light2 fs-7 mb-2">
-                                                    <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>Go site　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
+                                                    <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>Go site <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                 </div>
                                             </div>
                                             <div class="col-auto mb-2 font-3 p-4">
                                                 <div class="fs-5 fw-normal fw-opacity">Codeforces</div>
                                                 <div class="fw-light2 fs-8 mb-2 highlight">tlrmsjtm77</div>
                                                 <div class="fw-light2 fs-7 mb-2">
-                                                    <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>Go site　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
+                                                    <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>Go site <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                 </div>
                                             </div>
                                             {/*<div class="col-auto mb-2 font-3">

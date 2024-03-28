@@ -5,7 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faVimeo } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUpRightFromSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faArrowUpRightFromSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import footerimg from '../images/footerimg.png';
 import toast, { Toaster } from 'react-hot-toast';
 import ToTopButton from './ToTopButton';
@@ -72,6 +72,7 @@ return (
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <label class="hamburger">
+                  
                 {/*<span class="text-black font-4 fs-6 fw-light2 font-letter-space-lg only-pc-view">MENU</span>*/}
                   <input type="checkbox" id="hbg"></input>
                   <svg viewBox="0 0 32 32">
@@ -84,9 +85,9 @@ return (
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-fr">
                   <NavLink exact to="/profile" className="nav-link" title="Profile"><li class="nav-item">Profile</li></NavLink>
                   <NavLink exact to="/project" className="nav-link" title="Project"><li class="nav-item">Project</li></NavLink>
-                  <a class="nav-link fs-6 pt-3" href="https://github.com/usfree" target='_blank' title="Github"><li class="nav-item">Github <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
-                  <a class="nav-link fs-6" href="https://velog.io/@usfree" target='_blank' title="Blog"><li class="nav-item">Blog <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
-                  <a class="nav-link fs-6" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank' title="Mail"><li class="nav-item">Mail <FontAwesomeIcon icon={faArrowUpRightFromSquare}/></li></a>
+                  <a class="nav-link fs-6 pt-3" href="https://github.com/usfree" target='_blank' title="Github"><li class="nav-item">Github <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
+                  <a class="nav-link fs-6" href="https://velog.io/@usfree" target='_blank' title="Blog"><li class="nav-item">Blog <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
+                  <a class="nav-link fs-6" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank' title="Mail"><li class="nav-item">Mail <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
                   {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
 
                   {/*<ul class="pt-3">                 
@@ -113,28 +114,17 @@ return (
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style={{fill: "rgba(0, 0, 0, 1)"}}><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
         </a>
       </div>
-      <div id="normalfooter" class="bg-dark py-4 mt-auto">
-        <div class="container-full px-4 text-only-white font-3">
+      <div id="normalfooter" class="bg-only-white-gray py-4 mt-auto">
+        <div class="container-full px-4 text-black font-3">
             <div class="text-end">
-              <a class="text-only-white" href="https://github.com/usfree" title="Github"><FontAwesomeIcon icon={faGithub} /></a>　
-              <a class="text-only-white" href="https://velog.io/@usfree" title="Blog"><FontAwesomeIcon icon={faVimeo} /></a>　
-              <a class="text-only-white" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." title="Mail"><FontAwesomeIcon icon={faEnvelope} /></a>
+              <a class="text-black" href="https://github.com/usfree" title="Github"><FontAwesomeIcon icon={faGithub} /></a>　
+              <a class="text-black" href="https://velog.io/@usfree" title="Blog"><FontAwesomeIcon icon={faVimeo} /></a>　
+              <a class="text-black" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." title="Mail"><FontAwesomeIcon icon={faEnvelope} /></a>
             </div>
-            <hr/>
-            {/*<div class="d-flex">
-              <div class="mb-3 small"><Link to="/credit" className="credit text-only-white">크레딧</Link></div>
-              <div class="mb-3 smaller text-only-white">　|　</div>
-              <div class="mb-3 small"><Link to="/links" className="credit text-only-white">링크</Link></div>
-              <div class="mb-3 smaller text-only-white">　|　</div>
-              <div class="mb-3 small"><a class="credit text-only-white" href="https://usfree.site/labs">실험실</a></div>
-              {/*<div class="mb-3 smaller text-only-white">　|　</div>
-              <div class="mb-3 small"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fusfree.site&count_bg=%23FC8574&title_bg=%23212529&icon=&icon_color=%23E7E7E7&title=visit&edge_flat=true"/></div>
-            </div>*/}
+            <hr class="text-black"/>
             <div class="col-auto">
-              {/*<div class="smaller m-0 text-only-white"><b>USFREE</b> 조우현</div>*/}
-              <div class="smaller m-0 text-only-white mb-1">본 사이트는 개인 포트폴리오용으로 제작되었습니다.</div>
-              <div class="smaller m-0 text-only-white mb-3">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</div>
-              <div class=""><a href="https://usfree.site"><img src={footerimg} style={{width: "90px"}}></img></a></div>
+              <div class="smaller m-0 text-black mb-1">본 사이트는 개인 포트폴리오용으로 제작되었습니다.</div>
+              <div class="smaller m-0 text-black mb-3">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</div>
             </div>
         </div>
       </div>

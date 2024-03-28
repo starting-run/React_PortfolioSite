@@ -6,7 +6,7 @@ import project4 from '../images/portfolio.png';
 import project5 from '../images/building.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUpRightFromSquare, faChevronRight, faLayerGroup, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faArrowUpRightFromSquare, faChevronRight, faLayerGroup, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
@@ -54,7 +54,7 @@ function Project() {
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto fs-0-5 font-10 fw-bolder font-letter-space-sm text-black mb-5">PROJECT
                         <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
-                            <span class="prj-sub fs-6 fw-light font-4 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> Collect on Github <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+                            <span class="prj-sub fs-6 fw-light font-4 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> Collect on Github <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
                             </span>
                         </a>
                     </div>
