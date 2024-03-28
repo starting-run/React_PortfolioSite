@@ -479,7 +479,15 @@
 
 /* Darkmode Toggle */
 
+.darkmode-toggle {
+  color : var(--bs-black);
+  transition: all 0.3s;
+}
 
+.darkmode-toggle:hover {
+  color: #FC8574;
+  transition: all 0.3s;
+}
 
 .darkmode label {
   cursor: pointer;
@@ -497,6 +505,10 @@
   color:var(--bs-black);
   margin-top: 1px;
 }
+.darkmode .inner {
+  width: 30px;
+}
+
 
 .darkmode .inner input[type="checkbox"] {display: none;}
 

@@ -29,8 +29,8 @@ function DarkModeToggle() {
             <div className="darkmode">
                 <div className="inner">
                     <input type="checkbox" id="toggle-dark-mode" checked={darkMode} onChange={toggleDarkMode} />
-                    <label htmlFor="toggle-dark-mode" className="darkmode-toggle fs-4 text-black">
-                        <FontAwesomeIcon icon={darkMode ? faMoon : faSun} />
+                    <label htmlFor="toggle-dark-mode" className="darkmode-toggle fs-4">
+                        <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
                     </label>
                 </div>
             </div>
