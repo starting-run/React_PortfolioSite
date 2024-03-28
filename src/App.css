@@ -679,6 +679,10 @@
 
 }
 
+.navbar-left-margin {
+  margin-left: 40px;
+}
+
 
 .prj-sub:hover {
   color: #FC8574;

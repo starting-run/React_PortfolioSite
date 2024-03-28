@@ -79,7 +79,7 @@ return (
                   </svg>
                 </label>
               </button>
-              <div class="collapse navbar-collapse justify-content-center-navbar " id="navbarSupportedContent">
+              <div class="collapse navbar-collapse justify-content-center-navbar navbar-left-margin" id="navbarSupportedContent"> {/* navbar-left-margin 가운데 정렬용 */}
                 <ul class="navbar-nav mb-2 mb-lg-0 fs-6">
                   <NavLink exact to="/profile" className="nav-link navbar-items" title="Profile"><li class="nav-item">프로필</li></NavLink>
                   <NavLink exact to="/project" className="nav-link navbar-items" title="Project"><li class="nav-item">프로젝트</li></NavLink>
