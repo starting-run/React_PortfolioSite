@@ -37,8 +37,8 @@ function Utopai() {
             <div id="projectmain">
                 <div class="bg-white-gray">
                     <div class="container-xxl px-4 pt-6">
-                    <div class="font-10 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/utopai">Detail</NavLink></div>
-                        <span class="fs-0-5 fw-bold font-10 text-black font-letter-space-sm">UTOP - AI</span>
+                    <div class="font-11 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/utopai">Detail</NavLink></div>
+                        <span class="fs-1 fw-bold2 font-11 text-black font-letter-space-sm">UTOP - AI</span>
                         <div class="mb-5">
                             <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
                             <a onClick={notify2} target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>

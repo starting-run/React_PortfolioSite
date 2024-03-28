@@ -10221,6 +10221,14 @@ video {
   font-weight: 700 !important;
 }
 
+.fw-bold2 {
+  font-weight: 800 !important;
+}
+
+.fw-bold3 {
+  font-weight: 900 !important;
+}
+
 .fw-semibold {
   font-weight: 600 !important;
 }
