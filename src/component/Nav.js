@@ -66,14 +66,12 @@ return (
     <div>
       <ToTopButton />
       <div id="add-fixed" className={`navbar-fixed-attr ${isScrollingUp ? 'show-navbar' : 'hide-navbar'}`}>
-        <nav id="navbarcontrol" class="navbar navbar-light navbar-py navbar-upper"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
-          <div id='changecontainer' class="container-full px-4 ">
+        <nav id="navbarcontrol" class="navbar navbar-light navbar-py navbar-upper navbar-expand-lg"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
+          <div id='changecontainer' class="container-full px-4">
               <NavLink exact to="/" className="navbar-brand" id="mains" onClick={mainlogo} title="Home"><img class="logoimg"></img></NavLink>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <label class="hamburger">
-                  
-                {/*<span class="text-black font-4 fs-6 fw-light2 font-letter-space-lg only-pc-view">MENU</span>*/}
                   <input type="checkbox" id="hbg"></input>
                   <svg viewBox="0 0 32 32">
                     <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
@@ -81,32 +79,21 @@ return (
                   </svg>
                 </label>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-fr">
-                  <NavLink exact to="/profile" className="nav-link" title="Profile"><li class="nav-item">Profile</li></NavLink>
-                  <NavLink exact to="/project" className="nav-link" title="Project"><li class="nav-item">Project</li></NavLink>
-                  <a class="nav-link fs-6 pt-3" href="https://github.com/usfree" target='_blank' title="Github"><li class="nav-item">Github <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
-                  <a class="nav-link fs-6" href="https://velog.io/@usfree" target='_blank' title="Blog"><li class="nav-item">Blog <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
-                  <a class="nav-link fs-6" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank' title="Mail"><li class="nav-item">Mail <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
-                  {/*<li class="nav-item only-pc-view"><a class="nav-link" onClick={text_ready}><div class="menu-loader"></div></a></li>*/}
-
-                  {/*<ul class="pt-3">                 
-                    <li class="float-end"><a class="hamburger-copy fs-3" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank'><FontAwesomeIcon icon={faEnvelope} /></a></li>   
-                    <li class="float-end"><a class="hamburger-copy fs-3" href="https://velog.io/@usfree" target='_blank'><FontAwesomeIcon icon={faVimeo} /></a>　</li>
-                    <li class="float-end"><a class="hamburger-copy fs-3" href="https://github.com/usfree" target='_blank'><FontAwesomeIcon icon={faGithub} /></a>　</li>
-                  </ul>*/}
-
-                  <div class="hamburger-copy pt-6 mb-2">
-                    <DarkModeToggle/>
-                  </div>
-                  <span class="hamburger-copy text-black pt-2 font-letter-space">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
+              <div class="collapse navbar-collapse justify-content-center-navbar " id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 fs-6">
+                  <NavLink exact to="/profile" className="nav-link navbar-items" title="Profile"><li class="nav-item">프로필</li></NavLink>
+                  <NavLink exact to="/project" className="nav-link navbar-items" title="Project"><li class="nav-item">프로젝트</li></NavLink>
+                  <a class="nav-link navbar-items" href="https://github.com/usfree" target='_blank' title="Github"><li class="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
+                  <a class="nav-link navbar-items" href="https://velog.io/@usfree" target='_blank' title="Blog"><li class="nav-item">블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
+                  <a class="nav-link navbar-items" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank' title="Mail"><li class="nav-item">메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
+                  
+                  <span class="hamburger-copy text-black pt-5 font-letter-space only-mobile-view">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
                   <span class="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
                 </ul>
               </div>
+              <div class="sad-test"><DarkModeToggle/></div>
           </div>
         </nav>
-
-        
       </div>
 
       <div id="topbtn" class="ss-go-top">

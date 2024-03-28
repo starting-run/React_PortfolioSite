@@ -28,15 +28,10 @@ function DarkModeToggle() {
         <div className="wrap">
             <div className="darkmode">
                 <div className="inner">
-                    <input type="radio" name="toggle" id="toggle-radio-light" checked={!darkMode} onChange={toggleDarkMode} />
-                    <label htmlFor="toggle-radio-light" className="tolight darkmode-icon">
-                        <FontAwesomeIcon icon={faSun} />
+                    <input type="checkbox" id="toggle-dark-mode" checked={darkMode} onChange={toggleDarkMode} />
+                    <label htmlFor="toggle-dark-mode" className="darkmode-toggle fs-4 text-black">
+                        <FontAwesomeIcon icon={darkMode ? faMoon : faSun} />
                     </label>
-                    <input type="radio" name="toggle" id="toggle-radio-dark" checked={darkMode} onChange={toggleDarkMode} />
-                    <label htmlFor="toggle-radio-dark" className="todark darkmode-icon">
-                        <FontAwesomeIcon icon={faMoon} />
-                    </label>
-                    <div className="darkmode-bg"></div>
                 </div>
             </div>
         </div>

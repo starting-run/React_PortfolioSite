@@ -15,6 +15,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;900&family=Gowun+Dodum&family=Kanit&family=Nanum+Gothic+Coding&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Orbit&family=Sunflower:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
@@ -97,6 +98,7 @@
   --font-8 : 'Nanum Gothic Coding', monospace;
   --font-9 : "Gasoek One", sans-serif;
   --font-10 : "Poppins", sans-serif;
+  --font-11 : "NanumSquareNeo", sans-serif;
   --multiplier       : 0.5;
   --space            : calc(3.2rem * var(--multiplier));
   --vspace-0_75      : calc(0.75 * var(--space));
@@ -274,6 +276,29 @@
   white-space: nowrap;
 }
 
+.sad-test {
+  float: right;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin-right: auto; /* 좌측 정렬 */
+}
+
+.navbar-nav {
+  margin: 0 auto; /* 중앙 정렬 */
+}
+
+.sad-test {
+  margin-left: auto; /* 우측 정렬 */
+}
+
+
 .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
 .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
 .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
@@ -449,26 +474,12 @@
   cursor: pointer;
 }
 
+
+
+
 /* Darkmode Toggle */
 
-.darkmode > .inner{
-  width: 80px;
-  height: 40px;
-  position: relative;
-  display: inline-flex;
-  padding: 5px;
-  padding-top: 0px;
-  border-radius: 30px;
-  background-color: #fff;
-  box-shadow: 0 0 16px 3px rgba(0 0 0 / 15%);
-  margin-left: 30px;
-}
 
-body[data-darkmode=on] .darkmode > .inner{
-  background-color: #1e1f21;
-  background: #1e1f21;
-  box-shadow: 0 0 16px 3px rgba(255 255 255 / 15%);
-}
 
 .darkmode label {
   cursor: pointer;
@@ -486,6 +497,8 @@ body[data-darkmode=on] .darkmode > .inner{
   color:var(--bs-black);
   margin-top: 1px;
 }
+
+.darkmode .inner input[type="checkbox"] {display: none;}
 
 .todark {
   margin-left: 5px;
@@ -517,6 +530,8 @@ body[data-darkmode=on] .darkmode > .inner{
   left: 44px;
   color:#fff;
 }
+
+
 
 *,
 *::before,
@@ -570,10 +585,88 @@ body[data-darkmode=on] .darkmode > .inner{
   .only-pc-view {
     display: none;
   }
-  .navbar-brand {
-    width: 150px !important;
+  .navbar-brand img{
+    width: 80px !important;
+    margin-bottom: 5px;
   }
+    /* 햄버거 메뉴 전체화면으로 만드는 부분 
+  일반적인 PC버전 네비바 복귀시 모바일 전용 CSS 영역으로 넣으면됨 */
+
+  .navbar-collapse {
+    align-items: center;
+    background-color: var(--bs-dark);
+    width: 100%;
+    height: 200vh;
+    top:0;
+    right:0;
+    position: fixed;
+    transition: all 0.3s;
+  }
+  .navbar-toggler {
+    z-index: 1;
+  }
+  .nav-link {
+    position: relative;
+    align-items: center;
+    right: 50px;
+    font-size: 20px;
+    margin-top: 10px;
+    border: none !important;
+    font-weight: 600 !important;
+    font-family: var(--font-11) !important;
+    letter-spacing : 2px !important;
+  }
+
+  .navbar-nav {
+    position: relative;
+    top: 20vh;
+  }
+
+  .navbar-brand {
+    z-index: 1;
+  }
+  .hamburger-copy {
+    position: relative;
+    font-size: 7px;
+    z-index: 1;
+    right: 50px;
+  }
+  .size-repack {
+    height: 100vh;
+  }
+
+  /* 여기까지 햄버거 메뉴 */
+  #navbarcontrol {
+    flex-direction: row-reverse; /* 요소들을 우에서 좌로 배치 */
+    align-items: center; /* 요소들을 수직 중앙 정렬 */
+  }
+
+  #navbarcontrol .container-full {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  #navbarcontrol .navbar-toggler {
+    margin-left: 10px; /* DarkModeToggle과 메뉴 버튼 사이의 간격 조정 */
+  }
+
+  #navbarcontrol .navbar-brand {
+    margin-right: auto; /* 로고를 왼쪽으로 밀어 DarkModeToggle이 오른쪽에 위치하도록 함 */
+  }
+
+  #navbarcontrol .navbar-collapse {
+    order: -1; /* 메뉴 항목을 DarkModeToggle의 앞으로 이동 */
+  }
+
+  .navbar-toggler {
+    order: 1; /* 햄버거 아이콘의 label을 첫 번째 위치로 변경 */
+  }
+
+
 }
+
 
 .prj-sub:hover {
   color: #FC8574;
@@ -639,53 +732,6 @@ body[data-darkmode=on] .darkmode > .inner{
 }
 
 
-/* 햄버거 메뉴 전체화면으로 만드는 부분 
-일반적인 PC버전 네비바 복귀시 모바일 전용 CSS 영역으로 넣으면됨 */
-
-.navbar-collapse {
-  align-items: center;
-  background-color: var(--bs-dark);
-  width: 100%;
-  height: 200vh;
-  top:0;
-  right:0;
-  position: fixed;
-  transition: all 0.3s;
-}
-.navbar-toggler {
-  z-index: 1;
-}
-.nav-link {
-  position: relative;
-  align-items: center;
-  right: 50px;
-  font-size: 30px;
-  margin-top: 10px;
-  border: none !important;
-  font-weight: 600 !important;
-  font-family: var(--font-10) !important;
-  letter-spacing : 2px !important;
-}
-
-.navbar-nav {
-  position: relative;
-  top: 20vh;
-}
-
-.navbar-brand {
-  z-index: 1;
-}
-.hamburger-copy {
-  position: relative;
-  font-size: 7px;
-  z-index: 1;
-  right: 50px;
-}
-.size-repack {
-  height: 100vh;
-}
-
-/* 여기까지 햄버거 메뉴 */
 
 
 /* 모바일X PC크기에서만 작동하는 영역*/
@@ -704,6 +750,16 @@ body[data-darkmode=on] .darkmode > .inner{
     transition: transform 0.3s ease-in-out;
   }
 
+  .justify-content-center-navbar{
+    justify-content: center;
+  }
+  .navbar-brand {
+    position: absolute;
+  }
+  .navbar-items {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 /*
   .fs-fr:hover {
     font-size: 1.22rem !important;
@@ -739,7 +795,6 @@ body[data-darkmode=on] .darkmode > .inner{
 
   .navbar-collapse {
     width: 500px;
-    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2) !important;
   }
 
     /*---------밑줄넣기 부분---------- 
@@ -812,6 +867,18 @@ body[data-darkmode=on] .darkmode > .inner{
 .nav-link.active > li {
   color:#FC8574;
 }
+
+.nav-item {
+  margin-top : 4px;
+  font-family: var(--font-11);
+  font-weight: 600;
+}
+
+.c-test {
+  right: 0;
+}
+
+
 
 /*
 .cursor {
@@ -1323,7 +1390,9 @@ universe 공통 영역 끝
 .font-10 {
   font-family: var(--font-10);
 }
-
+.font-11 {
+  font-family: var(--font-11);
+}
 /* ------------------------------------------------------------------- 
  * ## go top
  * ------------------------------------------------------------------- */
@@ -5497,7 +5566,6 @@ textarea.form-control-lg {
   color: var(--bs-navbar-brand-color);
   text-decoration: none;
   white-space: nowrap;
-  width: 200px;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
@@ -5510,6 +5578,7 @@ textarea.form-control-lg {
   align-items: center;
   width: 50%;
   top:50px;
+  width: 100px;
 }
 
 .navbar-nav {
