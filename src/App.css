@@ -506,8 +506,8 @@
   margin-top: 1px;
 }
 .darkmode .inner {
-  padding-top: 5px;
-  width: 30px;
+  padding-top: 2px;
+  width: 40px;
 }
 
 
@@ -752,7 +752,7 @@
 
 /* 모바일X PC크기에서만 작동하는 영역*/
 @media (min-width: 992px) {
-  .only-mobile-view{
+  .only-mobile-view {
     display: none;
   }
   
@@ -2189,8 +2189,8 @@ progress {
     transition: all 0.3s;
   }
   .navbar-py {
-    padding-top: 1.2rem !important;
-    padding-bottom: 1.4rem !important;
+    padding-top: 0.8rem !important;
+    padding-bottom: 1rem !important;
   }
   .fixed-bottom {
     bottom: 20px !important;
@@ -10185,6 +10185,10 @@ video {
 
 .fs-6 {
   font-size: 1rem !important;
+}
+
+.fs-6-5 {
+  font-size: 0.9rem !important;
 }
 
 .fs-7 {

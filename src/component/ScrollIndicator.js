@@ -11,7 +11,7 @@ const ProgressContainer = styled.div`
   z-index: 999999;
 `;
 const ProgressBar = styled.div`
-  height: 3px;
+  height: 4px;
   background: #FC8574;
   width: ${(props) => props.width || 0}%;
 `;

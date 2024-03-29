@@ -1,6 +1,8 @@
+// DarkModeToggle.js
 import React, { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import icon1 from './../images/ic-lightmode-w.svg';
+import icon2 from './../images/ic-darkmode.svg';
+
 
 function DarkModeToggle() {
     const [darkMode, setDarkMode] = useState(false);
@@ -29,8 +31,8 @@ function DarkModeToggle() {
             <div className="darkmode">
                 <div className="inner">
                     <input type="checkbox" id="toggle-dark-mode" checked={darkMode} onChange={toggleDarkMode} />
-                    <label htmlFor="toggle-dark-mode" className="darkmode-toggle fs-4">
-                        <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
+                    <label htmlFor="toggle-dark-mode" className="darkmode-toggle fs-5">
+                        <img src={darkMode ? icon1 : icon2} alt="Dark mode toggle" className="dark-mode-icon" />
                     </label>
                 </div>
             </div>

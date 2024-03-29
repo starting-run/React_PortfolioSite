@@ -80,7 +80,7 @@ return (
                 </label>
               </button>
               <div class="collapse navbar-collapse justify-content-center-navbar navbar-left-margin" id="navbarSupportedContent"> {/* navbar-left-margin 가운데 정렬용 */}
-                <ul class="navbar-nav mb-2 mb-lg-0 fs-6">
+                <ul class="navbar-nav mb-2 mb-lg-0 fs-6-5">
                   <NavLink exact to="/profile" className="nav-link navbar-items" title="Profile"><li class="nav-item">프로필</li></NavLink>
                   <NavLink exact to="/project" className="nav-link navbar-items" title="Project"><li class="nav-item">프로젝트</li></NavLink>
                   <a class="nav-link navbar-items" href="https://github.com/usfree" target='_blank' title="Github"><li class="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
