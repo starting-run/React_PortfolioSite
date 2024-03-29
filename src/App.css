@@ -2153,9 +2153,11 @@ progress {
   margin-left: auto;
 }
 
+/* 스크롤바 없애기
 ::-webkit-scrollbar {
   display: none;
 }
+*/
 
 ::selection {
   background-color: #FC8574;
