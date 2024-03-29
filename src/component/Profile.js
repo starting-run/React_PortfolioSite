@@ -18,7 +18,7 @@ class Profile extends Component {
                         {/*<div class="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>*/}
                             <div class="mb-5 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">프로필</div>
                             <div class="row row-cols-1 row-cols-xxl-1 g-4">
-                            <Fade bottom delay={100}><div>
+                            <Fade right delay={30}><div>
                                 <div class="col">
                                     <div class="h-100 overflow-hidden py-2 px-4">
                                         <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EDUCATION</div>
@@ -40,7 +40,7 @@ class Profile extends Component {
                                         </div>
                                     </div>
                                 </div></div></Fade>
-                            <Fade bottom delay={150}><div>
+                            <Fade right delay={60}><div>
                                 <div class="col">
                                     <div class="h-100 overflow-hidden py-2 px-4">
                                         <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EXPERIENCE</div>
@@ -66,7 +66,7 @@ class Profile extends Component {
                                         </div>
                                     </div>
                                 </div></div></Fade>
-                                <Fade bottom delay={200}><div>
+                                <Fade right delay={90}><div>
                                 <div class="col">
                                     <div class="h-100 overflow-hidden py-2 px-4">
                                         <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">CERTIFICATE</div>
@@ -95,7 +95,7 @@ class Profile extends Component {
                                         </div>
                                     </div>
                                 </div></div></Fade>
-                                <Fade bottom delay={250}><div>
+                                <Fade right delay={120}><div>
                                 <div class="col">
                                     <div class="h-100 overflow-hidden py-2 px-4">
                                         <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">RATING</div>
@@ -124,7 +124,7 @@ class Profile extends Component {
                                 </div></div></Fade>
                             </div>
                             <div class="row row-cols-sm-1 row-cols-xxl-1 g-4 cards mb-4 pt-4">
-                            <Fade bottom delay={300}><div>
+                            <Fade right delay={150}><div>
                                 <div class="col">
                                     <div class="h-100 overflow-hidden py-2 px-4">
                                         <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SKILL</div>
