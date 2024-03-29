@@ -41,7 +41,7 @@ function Utopai() {
                         <span class="fs-1 fw-bold2 font-11 text-black font-letter-space-sm">UTOP - AI</span>
                         <div class="mb-5">
                             <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
-                            <a onClick={notify2} target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
+                            <a onClick={notify2} target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
                         </div>
                     </div>
                     <div class="container-xxl my-2 mt-3 px-4">

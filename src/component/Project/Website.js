@@ -56,7 +56,7 @@ function Website() {
                                 <div class="h-100 font-11 pt-2 text-black fs-6 font-letter-space text-uppercase">
                                 <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
                                 <a href="https://github.com/usfree/usfree.github.io" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
-                                <a href="https://usfree.site" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Go To Service</a>
+                                <a href="https://usfree.site" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Go To Service</a>
                                 </div>
                             </div>
                         </div>
