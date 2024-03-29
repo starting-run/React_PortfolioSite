@@ -15,7 +15,7 @@ class Profile extends Component {
                 <div class="container-xxl px-4 pt-6">
                     <div class="row justify-content-center">
                         <div class="mb-5">
-                        <div class="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>
+                        {/*<div class="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>*/}
                             <div class="mb-5 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">프로필</div>
                             <div class="row row-cols-1 row-cols-xxl-1 g-4">
                             <Fade bottom delay={100}><div>

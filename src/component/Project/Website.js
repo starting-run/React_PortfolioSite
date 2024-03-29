@@ -9,7 +9,9 @@ import toast, { Toaster } from 'react-hot-toast';
 import img1 from '../../images/projects/portfolio_website/1.png';
 import img2 from '../../images/projects/portfolio_website/2.png';
 import img3 from '../../images/projects/portfolio_website/3.png';
+import intro from '../../images/projects/portfolio_website/intro_video.mp4';
 import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function Website() {
     const notify = () => toast.success('현재 접속중인 웹사이트입니다.', {duration: 4000});
@@ -22,17 +24,56 @@ function Website() {
         <div>
             <Helmet><title>Portfolio Website - Project - USFREE</title></Helmet>
             <div id="projectmain">
+                <div class="s-intro">
+                <div class="bg-video">
+                    <video class="bg-video__content video-filter" autoPlay muted loop>
+                        <source src={intro} type="video/mp4" />
+                    </video>
+                </div>
+                <div class="w-100">
+                    <div class="scr-down font-7 fw-light2">
+                        <div class="main__action text-center">
+                            <HashLink smooth to="#seemore" className="main__scroll">
+                                <div class="main__scroll-box">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
+                                    </svg>
+                                </div>
+                                <span class="main__scroll-text font-2 fs-9 font-letter-space">SEE MORE</span>
+                            </HashLink>
+                        </div>
+                    </div>
+                </div>
+                    <div class="s-intro__content row text-black pt-5"> 
+                        <div class="justify-content-center font-3">
+                            <div class="text-black fs-0-7 lh-sm font-10 mb-5">
+                                <div class="font-letter-space fw-bold3">
+                                    <span className="font-11">포트폴리오 웹사이트</span>
+                                </div>
+                            </div>
+                            <div class="justify-content-center">
+                                <div class="h-100 font-11 pt-2 text-black fs-6 font-letter-space text-uppercase">
+                                <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
+                                <a href="https://github.com/usfree/usfree.github.io" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
+                                <a href="https://usfree.site" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Go To Service</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="bg-white-gray">
-                    <div class="container-xxl px-4 pt-6">
-                    <div class="font-11 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/website">Detail</NavLink></div>
+                    {/*<div class="container-xxl px-4 pt-6">
+                        <div class="font-11 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/website">Detail</NavLink></div>
                         <span class="fs-1 fw-bold2 font-11 text-black font-letter-space-sm">PORTFOLIO WEBSITE</span>
                         <div class="mb-5">
                             <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
                             <a href="https://github.com/usfree/usfree.github.io" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
                             <a href="https://usfree.site" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /> Go To Service</a>
                         </div>
-                    </div>
-                    <div class="container-xxl my-2 mt-3 px-4">
+                    </div>*/}
+                    <div class="container-xxl my-2 mt-3 px-4 pt-5" id="seemore">
                         <div class="row gx-5 justify-content-center">
                             <div class="up-animation">
                                 <div class=" rounded-2 border-0">

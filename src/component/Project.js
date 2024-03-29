@@ -50,7 +50,7 @@ function Project() {
             <Helmet><title>Project - USFREE</title></Helmet>
             <section class="bg-white-gray">
             <div class="container-xxl px-4 pt-6">
-            <div class="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>
+            {/*<div class="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>*/}
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto fs-1 font-11 fw-bold2 font-letter-space-sm text-black mb-5">프로젝트
                         <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
@@ -111,7 +111,7 @@ function Project() {
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4">
                                                 <img class="card-image" src ={project4}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                    <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">Portfolio Website<div class="kor-hidden">포트폴리오</div></span>
+                                                    <span class="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 웹사이트<div class="kor-hidden">portfolio website</div></span>
                                                     <ul class="list-unstyled mt-auto small2">
                                                         <li class="d-flex align-items-center me-3 mb-4">
                                                             <span class="">2023. 10. - 2024. 02.</span>
@@ -137,7 +137,7 @@ function Project() {
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4">
                                                 <img class="card-image" src ={project3}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                    <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">Pacman<div class="kor-hidden">팩맨</div></span>
+                                                    <span class="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 게임<div class="kor-hidden">pacman game</div></span>
                                                     <ul class="list-unstyled mt-auto small2">
                                                         <li class="d-flex align-items-center me-3 mb-4">
                                                             <span class="">2023. 10.</span>
@@ -161,7 +161,7 @@ function Project() {
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4">
                                                 <img class="card-image" src ={project2}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                    <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">Ironman<div class="kor-hidden">아이언맨</div></span>
+                                                    <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨<div class="kor-hidden">ironman model</div></span>
                                                     <ul class="list-unstyled mt-auto small2">
                                                         <li class="d-flex align-items-center me-3 mb-4">
                                                             <span class="">2021. 06.</span>
@@ -186,7 +186,7 @@ function Project() {
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4">
                                                 <img class="card-image" src ={project1}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                    <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">Snake<div class="kor-hidden">스네이크</div></span>
+                                                    <span class="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 게임<div class="kor-hidden">Snake game</div></span>
                                                     <ul class="list-unstyled mt-auto small2">
                                                         <li class="d-flex align-items-center me-3 mb-4">
                                                             <span class="">2020. 06.</span>

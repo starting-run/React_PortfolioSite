@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import video from '../../images/OpenGL/ironman.mp4'
+import video from '../../images/Unity/Unity_Snake.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -15,9 +15,9 @@ import img6 from '../../images/Unity/6.png';
 import img7 from '../../images/Unity/7.gif';
 import img8 from '../../images/Unity/8.png';
 import img9 from '../../images/Unity/9.png';
-import video1 from '../../images/Unity/Unity_Snake.mp4'
 import pdf1 from '../../images/Unity/Unity_Snake.pdf';
 import { Helmet } from 'react-helmet';
+import { HashLink } from 'react-router-hash-link';
 
 class Snake extends Component {
     render() {
@@ -25,16 +25,53 @@ class Snake extends Component {
         <div>
             <Helmet><title>Snake - USFREE</title></Helmet>
             <div id="projectmain">
+            <div class="s-intro">
+                <div class="bg-video">
+                    <video class="bg-video__content video-filter" autoPlay muted loop>
+                        <source src={video} type="video/mp4" />
+                    </video>
+                </div>
+                <div class="w-100">
+                    <div class="scr-down font-7 fw-light2">
+                        <div class="main__action text-center">
+                            <HashLink smooth to="#seemore" className="main__scroll">
+                                <div class="main__scroll-box">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
+                                    </svg>
+                                </div>
+                                <span class="main__scroll-text font-2 fs-9 font-letter-space">SEE MORE</span>
+                            </HashLink>
+                        </div>
+                    </div>
+                </div>
+                    <div class="s-intro__content row text-black pt-5"> 
+                        <div class="justify-content-center font-3">
+                            <div class="text-black fs-0-7 lh-sm font-10 mb-5">
+                                <div class="font-letter-space fw-bold3">
+                                    <span className="font-11">스네이크 게임</span>
+                                </div>
+                            </div>
+                            <div class="justify-content-center">
+                                <div class="h-100 font-2 pt-2 text-black fs-6 font-letter-space text-uppercase">
+                                    <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
+                                    <a href="https://github.com/usfree/Unity_Snake" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="bg-white-gray">
-                <div class="container-xxl px-4 pt-6">
-                <div class="font-11 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/snake">Detail</NavLink></div>
+                {/*<div class="container-xxl px-4 pt-6">
+                    <div class="font-11 text-black fw-normal fs-7"><Link exact to="/">Home</Link> <FontAwesomeIcon icon={faChevronRight}/> <Link exact to="/project">Project</Link> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project/snake">Detail</NavLink></div>
                     <span class="fs-1 fw-bold2 font-11 text-black font-letter-space-sm">SNAKE GAME</span>
                     <div class="mb-5">
                         <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
                         <a href="https://github.com/usfree/Unity_Snake" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
                     </div>
-                </div>
-                    <div class="container-xxl my-2 mt-3 px-4">
+                </div>*/}
+                    <div class="container-xxl my-2 mt-3 px-4 pt-5" id="seemore">
                         <div class="row gx-5 justify-content-center">
                             <div class="up-animation">
                                 <div class="rounded-2 border-0">
@@ -78,7 +115,7 @@ class Snake extends Component {
                                                 <div class="font-5 fs-2 fw-bold"><b>UI</b></div>
                                                 <img class="mb-2" src={img8}/><br/><img src={img9}/><br/><br/>
                                                 <div class="font-5 fs-2 fw-bold"><b>Result</b></div>
-                                                <video class="mb-5" src={video1} controls controlsList="nodownload"></video><br/><br/>
+                                                <video class="mb-5" src={video} controls controlsList="nodownload"></video><br/><br/>
                                                 <div class="font-5 fs-2 fw-bold"><b>Presentation</b></div>
                                                 <p><iframe style={{width:"100%", height:"700px"}} src={pdf1}></iframe></p>
                                                 <span>브라우저에서 PDF viewer를 지원하지 않을 경우 <a href="https://usfree.site/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf"><div class="btn btn-primary-round-outline px-4 fs-7"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
