@@ -25,16 +25,16 @@ class Profile extends Component {
                                         <hr class="text-black"/>
                                         <div class="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
                                             <div class="col-auto text-black mb-2 font-3 p-4">
-                                                <div class="fs-5 fw-normal"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>Kangnam University</a></div>
-                                                <div class="fw-light2 fs-7">Yongin-si, Gyeonggi-do</div>
+                                                <div class="fs-5 fw-normal"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>강남대학교</a></div>
+                                                <div class="fw-light2 fs-7">경기도 용인시</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2019. 03. - </div>
                                                 <div class="fw-light2 fs-7 mb-3">
-                                                    major: Software /<br/>double major: VirtualReality
+                                                    소프트웨어<span class="fw-bold"> 전공</span><br/>가상현실<span class="fw-bold"> 복수전공</span>
                                                 </div>
                                             </div>
                                             <div class="col-auto text-black mb-2 font-3 p-4">
-                                                <div class="fs-5 fw-normal"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>Hanseong Highschool</a></div>
-                                                <div class="fw-light2 fs-7">Seodaemun-gu, Seoul</div>
+                                                <div class="fs-5 fw-normal"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>한성고등학교</a></div>
+                                                <div class="fw-light2 fs-7">서울시 서대문구</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2015. 03. - 2018. 02.</div>
                                             </div>
                                         </div>
@@ -57,7 +57,7 @@ class Profile extends Component {
                                             </div>
                                             <div class="col-auto mb-2 font-3 p-4">
                                                 <div class="fs-5 fw-normal fw-opacity">42Seoul LaPiscine</div>
-                                                <div class="fw-light2 text-black fs-7">Innovation Academy</div>
+                                                <div class="fw-light2 text-black fs-7">이노베이션아카데미</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2023. 07. 17. - 08. 11.</div>
                                                 <div class="fw-light2 fs-7">
                                                     <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
