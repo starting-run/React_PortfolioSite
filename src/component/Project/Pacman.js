@@ -139,7 +139,7 @@ class Pacman extends Component {
         <div>
             <Helmet><title>Pacman - USFREE</title></Helmet>
             <div id="projectmain">
-            <div class="s-intro">
+            <div class="s-intro-prj">
                 <div class="bg-video">
                     <video class="bg-video__content video-filter" autoPlay muted loop>
                         <source src={video} type="video/mp4" />

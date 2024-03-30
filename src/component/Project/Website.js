@@ -24,7 +24,7 @@ function Website() {
         <div>
             <Helmet><title>Portfolio Website - Project - USFREE</title></Helmet>
             <div id="projectmain">
-                <div class="s-intro">
+                <div class="s-intro-prj">
                 <div class="bg-video">
                     <video class="bg-video__content video-filter" autoPlay muted loop>
                         <source src={intro} type="video/mp4" />
