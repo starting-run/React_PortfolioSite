@@ -1080,7 +1080,6 @@
 .code {
   background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
-  border-radius: var(--bs-border-radius-xl) !important;
   width: 100%;
   white-space: pre-wrap;
   font-weight: light;
@@ -2204,9 +2203,9 @@ progress {
     transition: all 0.3s;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
-    max-width: 1400px;
+    max-width: 1600px;
     transition: all 0.3s;
   }
   .container-full{
