@@ -23,7 +23,7 @@ function Home() {
       return () => clearInterval(interval);
     }, []);
   
-    const words = ['UNREAL DEV.', 'UNITY DEV.', 'GAME DEV.', 'VR DEV.'];
+    const words = ['UNREAL', 'UNITY', 'GAME', 'VR'];
   
     useEffect(() => {
         setText(words[index]);
@@ -49,9 +49,6 @@ function Home() {
                     </div>
                 </div>
             </div>
-
-
-            
             <div class="s-intro pt-3">
                 <div class="s-intro__content row text-black pt-5"> 
                     <div class="justify-content-center font-3">
@@ -133,28 +130,6 @@ function Home() {
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div class="section" id="intro">
             <div class="bg-white-gray">
                 <div class="container-xxl h-100 pt-7">

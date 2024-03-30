@@ -482,6 +482,7 @@
 .darkmode-toggle {
   color : var(--bs-black);
   transition: all 0.3s;
+  position: relative;
 }
 
 .darkmode-toggle:hover {
@@ -497,25 +498,23 @@
   border-radius: 50%;
 }
 .darkmode label:last-of-type{
-  padding: 5px 10px 5px 5px;
+  padding: 10px 20px 10px 5px;
   border-radius: 50%;
 }
-.darkmode-icon{
-  font-size: 1.1rem;
-  color:var(--bs-black);
-  margin-top: 1px;
-}
+
 .darkmode .inner {
   padding-top: 2px;
-  width: 40px;
 }
 
+.dark-mode-icon {
+  width: 100%;
+  position: absolute;
+  top: 0;
+
+}
 
 .darkmode .inner input[type="checkbox"] {display: none;}
 
-.todark {
-  margin-left: 5px;
-}
 
 .darkmode input[type=radio]{
   display: none;
@@ -525,17 +524,7 @@
   transition: all 0.35s ease-in-out;
 }
 
-.darkmode .darkmode-bg{
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  left: 6px;
-  top: 5px;
-  border-radius: 50%;
-  z-index: 1;
-  transition: all 0.35s ease-in-out;
-  background-color: #FC8574;
-}
+
 #toggle-radio-dark:checked ~ .darkmode-bg{
   border-radius: 50%;
   background-color: #fff;
