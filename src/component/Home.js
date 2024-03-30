@@ -147,7 +147,7 @@ function Home() {
                                             </a>
                                         </div>
                                         <div class="col">
-                                            <a href="https://velog.io/@usfree" target='_blank'>
+                                            <a href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>
                                                 <div class="img-fluid mb-3">
                                                     <div class="col">
                                                         <div class="card card-cover-boj h-100 overflow-hidden text-only-white card-border-0 rounded-4">
