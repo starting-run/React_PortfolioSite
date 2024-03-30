@@ -55,7 +55,7 @@ function Home() {
             <div class="s-intro pt-3">
                 <div class="s-intro__content row text-black pt-5"> 
                     <div class="justify-content-center font-3">
-                        <div class="container-xxl px-2 mt-5">
+                        <div class="container-xxl px-3 mt-5">
                             <div class="row row-cols-lg-2 row-cols-1">
                                 <div class="col col-lg-9 mb-4">
                                     <div class="intro-background">
