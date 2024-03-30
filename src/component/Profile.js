@@ -24,7 +24,7 @@ class Profile extends Component {
                                         <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EDUCATION</div>
                                         <hr class="text-black"/>
                                         <div class="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
-                                            <div class="col-auto text-black mb-2 font-3 p-4">
+                                            <div class="col-auto text-black mb-2 font-11 p-4">
                                                 <div class="fs-5 fw-normal"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>강남대학교</a></div>
                                                 <div class="fw-light2 fs-7">경기도 용인시</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2019. 03. - </div>
@@ -32,7 +32,7 @@ class Profile extends Component {
                                                     소프트웨어<span class="fw-bold"> 전공</span><br/>가상현실<span class="fw-bold"> 복수전공</span>
                                                 </div>
                                             </div>
-                                            <div class="col-auto text-black mb-2 font-3 p-4">
+                                            <div class="col-auto text-black mb-2 font-11 p-4">
                                                 <div class="fs-5 fw-normal"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>한성고등학교</a></div>
                                                 <div class="fw-light2 fs-7">서울시 서대문구</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2015. 03. - 2018. 02.</div>
@@ -46,16 +46,16 @@ class Profile extends Component {
                                         <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EXPERIENCE</div>
                                         <hr class="text-black"/>
                                         <div class="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
-                                            <div class="col-auto mb-2 font-3 p-4">
+                                            <div class="col-auto mb-2 font-11 p-4">
                                                 <div class="fs-5 fw-normal fw-opacity">IPP 첨단산업아카데미</div>
                                                 <div class="fw-light2 text-black fs-7">강남대학교 &middot; 고용노동부 &middot; 한국산업인력공단</div>
-                                                <div class="fw-light2 fs-7 mb-3 highlight">2024. 03. 04. - </div>
+                                                <div class="fw-light2 fs-7 mb-3 highlight">2024. 03. 04. - 2025. 02. 28.</div>
                                                 <div class="fw-light2 fs-7 mb-3 text-black"><a href="https://www.motioncapture.co.kr/" target='_blank'>(주)모션테크놀로지</a> / SW개발_L5</div>
                                                 {/*<div class="fw-light2 fs-7">
                                                     <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
                                                 </div>*/}   
                                             </div>
-                                            <div class="col-auto mb-2 font-3 p-4">
+                                            <div class="col-auto mb-2 font-11 p-4">
                                                 <div class="fs-5 fw-normal fw-opacity">42Seoul LaPiscine</div>
                                                 <div class="fw-light2 text-black fs-7">이노베이션아카데미</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">2023. 07. 17. - 08. 11.</div>
@@ -71,7 +71,7 @@ class Profile extends Component {
                                     <div class="h-100 overflow-hidden py-2 px-4">
                                         <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">CERTIFICATE</div>
                                         <hr class="text-black"/>
-                                        <div class="row row-cols-lg-2 row-cols-xxl-3 p-2 font-3 card-hover-up rounded-4">
+                                        <div class="row row-cols-lg-2 row-cols-xxl-3 p-2 font-11 card-hover-up rounded-4">
                                             <div class="col-auto mb-2 p-4">
                                                 <div class="fs-5 fw-normal fw-opacity">웹디자인기능사</div>
                                                 <div class="fw-light2 fs-7 mb-2 highlight">2022. 09. 08.</div>
@@ -101,21 +101,21 @@ class Profile extends Component {
                                         <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">RATING</div>
                                         <hr class="text-black"/>
                                         <div class="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
-                                            <div class="col-auto mb-2 font-3 p-4">
+                                            <div class="col-auto mb-2 font-11 p-4">
                                                 <div class="fs-5 fw-normal fw-opacity">Baekjoon Online Judge</div>
                                                 <div class="fw-light2 fs-8 mb-2 highlight">tlrmsjtm77</div>
                                                 <div class="fw-light2 fs-7 mb-2">
                                                     <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>Go site <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                 </div>
                                             </div>
-                                            <div class="col-auto mb-2 font-3 p-4">
+                                            <div class="col-auto mb-2 font-11 p-4">
                                                 <div class="fs-5 fw-normal fw-opacity">Codeforces</div>
                                                 <div class="fw-light2 fs-8 mb-2 highlight">tlrmsjtm77</div>
                                                 <div class="fw-light2 fs-7 mb-2">
                                                     <a class="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>Go site <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                 </div>
                                             </div>
-                                            {/*<div class="col-auto mb-2 font-3">
+                                            {/*<div class="col-auto mb-2 font-11">
                                                 <div class="fs-5 fw-normal fw-opacity">Programmers</div>
                                                 <div class="fw-light2 fs-6 mb-2 highlight">score<br/>0000</div>
                                             </div>*/}
@@ -129,7 +129,7 @@ class Profile extends Component {
                                     <div class="h-100 overflow-hidden py-2 px-4">
                                         <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SKILL</div>
                                         <hr class="text-black"/>
-                                        <div class="row row-cols-lg-3 p-2 font-3 card-hover-up rounded-4">
+                                        <div class="row row-cols-lg-3 p-2 font-11 card-hover-up rounded-4">
                                             <div class="col-auto mb-2 p-4">
                                                 <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C</div><span> </span>
                                                 <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C++</div>

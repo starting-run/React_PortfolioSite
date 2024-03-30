@@ -192,51 +192,51 @@ class Pacman extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-2 proj_text w-100 text-black fw-light">
-                                                <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-4 border-0">
-                                                    <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span class="font-3 fw-light fs-6 mb-2 text-black">2023. 09. - 10.</span></div>
-                                                    <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span class="font-3 fw-light fs-6 mb-2 text-black">Processing, Java</span></div>
-                                                    <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span class="font-3 fw-light fs-6 mb-2 text-black">Pacman 게임을 모티브로 제작된 미니게임. 유령 객체를 피해 사용자 객체를 움직여 많은 점수를 기록하는 것이 목표인 게임입니다.</span></div>
-                                                    <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span class="font-3 fw-light fs-6 mb-2 text-black">1인 개발</span></div>
-                                                    <div class="font-3 fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
-                                                    <span class="font-3 fw-light fs-6 mb-2 text-black px-2">
+                                                <div class="mb-3 w-100 card card-cover-nonhover p-3 rounded-4 border-0 font-11">
+                                                    <div class="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span class="fw-light fs-6 mb-2 text-black">2023. 09. - 10.</span></div>
+                                                    <div class="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span class="fw-light fs-6 mb-2 text-black">Processing, Java</span></div>
+                                                    <div class="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span class="fw-light fs-6 mb-2 text-black">Pacman 게임을 모티브로 제작된 미니게임. 유령 객체를 피해 사용자 객체를 움직여 많은 점수를 기록하는 것이 목표인 게임입니다.</span></div>
+                                                    <div class="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span class="fw-light fs-6 mb-2 text-black">1인 개발</span></div>
+                                                    <div class="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
+                                                    <span class="fw-light fs-6 mb-2 text-black px-2">
                                                         &middot; 매 게임 생성시마다 랜덤으로 새로운 맵 지형 생성
                                                         <br/>&middot; 매 게임 당 1번만 획득할 수 있는 유니크 아이템을 획득했을 때 우측 하단에 박제하는 기능
                                                         <br/>&middot; 사용자 객체가 유령 객체에 충돌하였을 때 게임오버 UI를 표출하는 기능
                                                     </span>
                                                 </div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
-                                                <div class="mb-4 px-2">인터랙티브 프로그래밍에 흔히 사용되는 Processing을 통해 제작된 게임입니다. 완성도 있는 구현을 위해 기존의 팩맨 게임 원작과는 게임 진행 방식에 약간의 수정을 가미하였습니다.</div>
+                                                <div class="mb-4 px-2 font-11">인터랙티브 프로그래밍에 흔히 사용되는 Processing을 통해 제작된 게임입니다. 완성도 있는 구현을 위해 기존의 팩맨 게임 원작과는 게임 진행 방식에 약간의 수정을 가미하였습니다.</div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
-                                                <div class="mb-4 px-2">인터랙티브 프로그래밍을 위해 사용되는 Tool인 만큼, 가장 인터랙티브한 프로그래밍은 게임이라고 생각했습니다. 상호작용이 가장 많고 상호작용을 통해 게임을 활성화시킬 수 있기 때문입니다.</div>
+                                                <div class="mb-4 px-2 font-11">인터랙티브 프로그래밍을 위해 사용되는 Tool인 만큼, 가장 인터랙티브한 프로그래밍은 게임이라고 생각했습니다. 상호작용이 가장 많고 상호작용을 통해 게임을 활성화시킬 수 있기 때문입니다.</div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div class="code p-3 rounded-4 border-0 mb-5">
+                                                <div class="code p-3 rounded-4 border-0 mb-5 font-11">
                                                     # 저작권 침해 소지로 인해 빌드 파일은 업로드하지 않습니다.<br/>
                                                     <a href="https://github.com/processing/processing4/releases/download/processing-1293-4.3/processing-4.3-windows-x64.zip"><b>Processing.exe 설치 <span class="highlight">[다운로드]</span></b></a> → Pacman_Game.pde → 실행
                                                 </div>
                                                 <hr/>
-                                                <div class="font-5 fs-2 fw-bold"><b>Map Create</b></div>
-                                                <div class="code mb-2">{code1}</div>
-                                                <p class="mb-5">Item 객체입니다. Item은 매 판당 1번만 생성되며, 아이템을 획득하면 오른쪽 아래에 박제됩니다.
+                                                <div class="font-11 fs-2 fw-bold"><b>Map Create</b></div>
+                                                <div class="code mb-2 font-11">{code1}</div>
+                                                <p class="mb-5 font-11">Item 객체입니다. Item은 매 판당 1번만 생성되며, 아이템을 획득하면 오른쪽 아래에 박제됩니다.
                                                 <br/>맵을 생성하는 함수입니다. 랜덤한 확률로 벽을 생성하며, 랜덤으로 생성한 벽 요소를 2차원 배열에 저장합니다.</p>
                                                 
-                                                <div class="font-5 fs-2 fw-bold"><b>Collision Detection</b></div>
-                                                <div class="code mb-2"> {code2} </div>
-                                                <p class="mb-5">객체가 벽에 충돌하는지 판정하는 함수입니다. 객체의 매 이동 순간마다 매개변수로 현재 위치를 전달하여 CreateMap으로 생성된 2차원 배열에서 벽인지 판단합니다.</p>  
+                                                <div class="font-11 fs-2 fw-bold"><b>Collision Detection</b></div>
+                                                <div class="code mb-2 font-11"> {code2} </div>
+                                                <p class="mb-5 font-11">객체가 벽에 충돌하는지 판정하는 함수입니다. 객체의 매 이동 순간마다 매개변수로 현재 위치를 전달하여 CreateMap으로 생성된 2차원 배열에서 벽인지 판단합니다.</p>  
 
-                                                <div class="font-5 fs-2 fw-bold"><b>Object</b></div>
-                                                <h6>4개의 객체 요소를 포함합니다.</h6>
-                                                <div class="code mb-2"> {code3} </div>
-                                                <p class="mb-5">사용자가 컨트롤하는 객체입니다. 사용자가 입력한 키보드 방향에 따라 다른 방향의 이미지를 불러옵니다.</p>
-                                                <div class="code mb-2"> {code4} </div>
-                                                <p class="mb-5">Ghost 객체입니다. 게임 내에서 랜덤한 방향을 정해 해당 방향으로 벽을 만날 때 까지 진행한 후, 벽을 만나면 새롭게 진행할 방향을 설정합니다.</p>
-                                                <div class="code mb-2"> {code5} </div>
-                                                <p class="mb-5">Item 객체입니다. Item은 매 판당 1번만 생성되며, 아이템을 획득하면 오른쪽 아래에 박제됩니다.</p>
+                                                <div class="font-11 fs-2 fw-bold"><b>Object</b></div>
+                                                <h6 class=" font-11">4개의 객체 요소를 포함합니다.</h6>
+                                                <div class="code mb-2 font-11"> {code3} </div>
+                                                <p class="mb-5 font-11">사용자가 컨트롤하는 객체입니다. 사용자가 입력한 키보드 방향에 따라 다른 방향의 이미지를 불러옵니다.</p>
+                                                <div class="code mb-2 font-11"> {code4} </div>
+                                                <p class="mb-5 font-11">Ghost 객체입니다. 게임 내에서 랜덤한 방향을 정해 해당 방향으로 벽을 만날 때 까지 진행한 후, 벽을 만나면 새롭게 진행할 방향을 설정합니다.</p>
+                                                <div class="code mb-2 font-11"> {code5} </div>
+                                                <p class="mb-5 font-11">Item 객체입니다. Item은 매 판당 1번만 생성되며, 아이템을 획득하면 오른쪽 아래에 박제됩니다.</p>
 
-                                                <div class="font-5 fs-2 fw-bold"><b>Result</b></div>
+                                                <div class="font-11 fs-2 fw-bold"><b>Result</b></div>
                                                 <video src={video} controls controlsList="nodownload" style={{width: '400px', height: '500px;'}}></video><br/><br/>
-                                                <div class="font-5 fs-2 fw-bold"><b>Presentation</b></div>
+                                                <div class="font-11 fs-2 fw-bold"><b>Presentation</b></div>
                                                 <p><iframe style={{width:'100%', height:'700px'}} src={pdf}></iframe></p>
-                                                <span>브라우저에서 PDF viewer를 지원하지 않을 경우 <a href="http://usfree.site/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf"><div class="btn btn-primary-round-outline px-4 fs-7"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
+                                                <span class="font-11">브라우저에서 PDF viewer를 지원하지 않을 경우 <a href="http://usfree.site/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf"><div class="btn btn-primary-round-outline px-4 fs-7"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>
                                     </div>
