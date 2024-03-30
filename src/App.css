@@ -1042,12 +1042,12 @@
 
 .s-intro {
   width            : 100%;
-  height: 100vh;
+  height: 100%;
   overflow         : hidden;
 }
 
 .s-intro__content {
-  height          : 100vh;
+  height          : 100%;
   align-items     : center;
   justify-content : center;
   /*padding-top     : 10vh;*/
@@ -6149,6 +6149,27 @@ textarea.form-control-lg {
   transition: all 0.3s;
 }
 
+.card-cover-profile {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #fc8574;
+  color: var(--bs-black);
+  transition: all 0.3s;
+}
+
+.card-cover-profile:hover {
+  background-color: #FF5F00;
+  transition: all 0.3s;
+}
+
+.card-in-arrow {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
 .card-cover-danger {
   background-color: #dc3545;
 }
@@ -9742,6 +9763,10 @@ video {
   margin-bottom: 3rem !important;
 }
 
+.mb-6 {
+  margin-bottom: 5rem !important;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -10568,7 +10593,7 @@ video {
 }
 
 .intro-background {
-  height: 100vh;
+  height: 100%; /* 100vh */
   background: linear-gradient(-45deg, var(--bs-white), rgb(150, 61, 61), rgb(170, 95, 57),rgb(160, 127, 114));
   background-size: 400% 400%;
   animation: gradient 14s ease-in-out infinite;

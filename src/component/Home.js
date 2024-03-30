@@ -3,6 +3,8 @@ import {BrowserRouter, Link, NavLink} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function Home() {
     const [text, setText] = useState('UNREAL DEV.');
@@ -31,10 +33,7 @@ function Home() {
     return (
     <div>
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
-        <div class="section">
-            <div class="bg-video">
-                <div class="intro-background"></div>
-            </div>
+        <div class="section bg-white-gray">
             <div class="w-100">
                 <div class="scr-down font-7 fw-light2">
                     <div class="main__action text-center">
@@ -50,30 +49,118 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div class="s-intro">
+
+
+            
+            <div class="s-intro pt-3">
                 <div class="s-intro__content row text-black pt-5"> 
                     <div class="justify-content-center font-3">
-                        <div class="text-black fs-0 lh-sm font-10 mb-5">
-                            <div class="font-letter-space fw-bold">
-                                <span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>
-                            </div>
-                        </div>
-                        <div class="justify-content-center">
-                            <div class="h-100 font-2 pt-2 text-black fs-6 font-letter-space text-uppercase">
-                                <div class="fw-light2">Woohyun Cho</div>
-                                <div class="fw-bolder highlight">Developer Portfolio</div>
+                        <div class="container-xxl px-2 mt-5">
+                            <div class="row row-cols-lg-2 row-cols-1">
+                                <div class="col col-lg-9 mb-4">
+                                    <div class="intro-background">
+                                        <div class="text-black fs-0 lh-sm font-10 mb-5 pt-5">
+                                            <div class="font-letter-space fw-bold pt-5 mt-5">
+                                                <span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>
+                                            </div>
+                                        </div>
+                                        <div class="justify-content-center">
+                                            <div class="h-100 font-11 pt-2 text-black fs-6 font-letter-space text-uppercase mb-5 pb-5">
+                                                <div class="fw-normal">Woohyun Cho</div>
+                                                <div class="fw-bold2 highlight">Developer Portfolio</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-lg-3">
+                                    <div class="row-cols-lg-1">
+                                        <div class="col">
+                                            <NavLink to='/profile'>
+                                                <div class="img-fluid mb-4">
+                                                    <div class="col">
+                                                        <div class="card card-cover-profile h-100 overflow-hidden text-black card-border-0">
+                                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
+                                                                <span class="mb-2 fs-6 lh-1 fw-normal font-11 text-start mb-6">프로필</span>
+                                                                <span class="text-start fw-bold fs-5 mb-3">안녕하세요! 조우현에 대한 여러가지를 소개합니다.</span>
+                                                                <span class="text-end fs-4 card-in-arrow">
+                                                                    <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </NavLink>
+                                        </div>
+                                        <div class="col">
+                                            <NavLink to='/project'>
+                                                <div class="img-fluid mb-4">
+                                                    <div class="col">
+                                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
+                                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
+                                                                <span class="mb-2 fs-6 lh-1 fw-normal font-11 text-start mb-6">프로젝트</span>
+                                                                <span class="text-start fw-bold fs-5 mb-3">지금까지 진행한 프로젝트와 상세내용을 확인할 수 있습니다.</span>
+                                                                <span class="text-end fs-4 card-in-arrow">
+                                                                    <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </NavLink>
+                                        </div>
+                                        <div class="col">
+                                            <a href="https://github.com/usfree" target='_blank'>
+                                                <div class="img-fluid mb-4">
+                                                    <div class="col">
+                                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
+                                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
+                                                                <span class="mb-2 fs-6 lh-1 fw-normal font-11 text-start mb-6">깃허브</span>
+                                                                <span class="text-start fw-bold fs-5 mb-3">진행한 프로젝트와 공부한 내용 등 여러가지 리포지토리를 관리합니다.</span>
+                                                                <span class="text-end fs-4 card-in-arrow">
+                                                                    <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="section" id="intro">
             <div class="bg-white-gray">
-                <div class="container-xxl h-100">
+                <div class="container-xxl h-100 pt-7">
                     <div class="s-intro">
                         <div class="s-intro__content row text-black pt-5"> 
-                            <div class="column">
+
                                 <Fade bottom delay={500}>
                                     <div>
                                         <div class="fs-0-5 font-11 fw-light2 font-letter-space-sm text-black mb-5 pt-5">MORE AND MORE <span class="fw-bold">CREATIVELY</span></div>
@@ -119,7 +206,7 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
