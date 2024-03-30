@@ -56,8 +56,8 @@ function Home() {
                             <div class="row row-cols-lg-2 row-cols-1">
                                 <div class="col col-lg-9 mb-4">
                                     <div class="intro-background">
-                                        <div class="text-black fs-0 lh-sm font-10 mb-5 pt-5">
-                                            <div class="font-letter-space fw-bold pt-5 mt-5">
+                                        <div class="text-black fs-0 lh-sm font-11 mb-5 pt-5">
+                                            <div class="font-letter-space fw-bold2 pt-5 mt-5">
                                                 <span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>
                                             </div>
                                         </div>
