@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1103e5aa.css",
-    "main.js": "/static/js/main.6af40a1d.js",
+    "main.js": "/static/js/main.b8466856.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
@@ -31,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.1103e5aa.css",
-    "static/js/main.6af40a1d.js"
+    "static/js/main.b8466856.js"
   ]
 }
