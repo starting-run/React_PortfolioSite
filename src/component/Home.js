@@ -54,7 +54,7 @@ function Home() {
                     <div class="justify-content-center font-3">
                         <div class="container-xxl px-3 mt-5">
                             <div class="row row-cols-lg-2 row-cols-1">
-                                <div class="col col-lg-9 mb-4">
+                                <div class="col col-lg-9 mb-3 card p-0 rounded-4 card-border-0">
                                     <div class="intro-background">
                                         <div class="text-black fs-0 lh-sm font-11 mb-5 pt-5">
                                             <div class="font-letter-space fw-bold2 pt-5 mt-5">
@@ -73,12 +73,12 @@ function Home() {
                                     <div class="row-cols-lg-1">
                                         <div class="col">
                                             <NavLink to='/profile'>
-                                                <div class="img-fluid mb-4">
+                                                <div class="img-fluid mb-3">
                                                     <div class="col">
-                                                        <div class="card card-cover-profile h-100 overflow-hidden text-black card-border-0">
+                                                        <div class="card card-cover-profile h-100 overflow-hidden text-black card-border-0 rounded-4">
                                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
                                                                 <span class="mb-2 fs-6 lh-1 fw-normal font-11 text-start mb-6">프로필</span>
-                                                                <span class="text-start fw-bold fs-5 mb-3">안녕하세요! 조우현에 대한 여러가지를 소개합니다.</span>
+                                                                <span class="text-start fw-bold fs-5 mb-3">안녕하세요! 개발자 조우현에 대해 소개합니다.</span>
                                                                 <span class="text-end fs-4 card-in-arrow">
                                                                     <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                                 </span>
@@ -90,9 +90,9 @@ function Home() {
                                         </div>
                                         <div class="col">
                                             <NavLink to='/project'>
-                                                <div class="img-fluid mb-4">
+                                                <div class="img-fluid mb-3">
                                                     <div class="col">
-                                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
+                                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
                                                                 <span class="mb-2 fs-6 lh-1 fw-normal font-11 text-start mb-6">프로젝트</span>
                                                                 <span class="text-start fw-bold fs-5 mb-3">지금까지 진행한 프로젝트와 상세내용을 확인할 수 있습니다.</span>
@@ -107,9 +107,9 @@ function Home() {
                                         </div>
                                         <div class="col">
                                             <a href="https://github.com/usfree" target='_blank'>
-                                                <div class="img-fluid mb-4">
+                                                <div class="img-fluid mb-3">
                                                     <div class="col">
-                                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
+                                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
                                                                 <span class="mb-2 fs-6 lh-1 fw-normal font-11 text-start mb-6">깃허브</span>
                                                                 <span class="text-start fw-bold fs-5 mb-3">진행한 프로젝트와 공부한 내용 등 여러가지 리포지토리를 관리합니다.</span>

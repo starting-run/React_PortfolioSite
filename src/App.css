@@ -10593,7 +10593,6 @@ video {
   background: linear-gradient(-45deg, var(--bs-white), rgb(150, 61, 61), rgb(170, 95, 57),rgb(160, 127, 114));
   background-size: 400% 400%;
   animation: gradient 14s ease-in-out infinite;
-  z-index: -2;
 }
 
 .bg-video {

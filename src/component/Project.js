@@ -83,7 +83,7 @@ function Project() {
                                 <NavLink to="utopai" id="utopai">
                                 <Fade bottom delay={0}> 
                                     <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0  ">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0  rounded-4 ">
                                             <img class="card-image" src = {project5}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                 <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">Utop-AI<div class="kor-hidden">유토파이</div></span>
@@ -108,7 +108,7 @@ function Project() {
                                 <NavLink to="website" id="website">
                                     <Fade bottom delay={50}>
                                         <div class="col">
-                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  ">
+                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4 ">
                                                 <img class="card-image" src ={project4}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                     <span class="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 웹사이트<div class="kor-hidden">portfolio website</div></span>
@@ -134,7 +134,7 @@ function Project() {
                                 <NavLink to="pacman" id="pacman">
                                     <Fade bottom delay={100}>
                                         <div class="col">
-                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  ">
+                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4 ">
                                                 <img class="card-image" src ={project3}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                     <span class="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 게임<div class="kor-hidden">pacman game</div></span>
@@ -158,7 +158,7 @@ function Project() {
                                 <NavLink to="ironman" id="ironman">
                                     <Fade bottom delay={150}>
                                         <div class="col">
-                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  ">
+                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4 ">
                                                 <img class="card-image" src ={project2}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                     <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨<div class="kor-hidden">ironman model</div></span>
@@ -183,7 +183,7 @@ function Project() {
                                 <NavLink to="snake" id="ironman">
                                     <Fade bottom delay={200}>
                                         <div class="col">
-                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  ">
+                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4 ">
                                                 <img class="card-image" src ={project1}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                     <span class="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 게임<div class="kor-hidden">Snake game</div></span>
