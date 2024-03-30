@@ -1203,12 +1203,12 @@
 
 .main__scroll-box svg {
   fill: rgba(var(--bs-black-rgb), 0.8);
-  width: 40px;
+  width: 80px;
 }
 
 
 .main__action .main__scroll-box {
-  animation: scroll-down 2s infinite;
+  animation: scroll-down 1.5s infinite;
 }
 
 /* Animate scroll icon */
@@ -2199,9 +2199,21 @@ progress {
     transition: all 0.3s;
   }
 }
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
+    max-width: 1400px;
+    transition: all 0.3s;
+  }
+}
 @media (min-width: 1600px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
     max-width: 1600px;
+    transition: all 0.3s;
+  }
+}
+@media (min-width: 1800px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
+    max-width: 1800px;
     transition: all 0.3s;
   }
   .container-full{
@@ -6160,6 +6172,37 @@ textarea.form-control-lg {
   transition: all 0.3s;
 }
 
+.card-cover-blog {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #22C998;
+  color: var(--bs-black);
+  transition: all 0.3s;
+}
+
+.card-cover-blog:hover {
+  background-color: #048244;
+  transition: all 0.3s;
+}
+
+.card-cover-boj {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #0A7DC5;
+  color: var(--bs-black);
+  transition: all 0.3s;
+}
+
+.card-cover-boj:hover {
+  background-color: #065180;
+  transition: all 0.3s;
+}
+
+
 .card-in-arrow {
   position: absolute;
   right: 20px;
@@ -9741,6 +9784,10 @@ video {
 
 .mb-1 {
   margin-bottom: 0.25rem !important;
+}
+
+.mb-1-5 {
+  margin-bottom: 0.35rem !important;
 }
 
 .mb-2 {
