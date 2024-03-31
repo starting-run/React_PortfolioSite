@@ -18,8 +18,10 @@ function Nav() {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-      setIsScrollingUp(prevScrollPos > currentScrollPos);
-      setPrevScrollPos(currentScrollPos);
+      if (currentScrollPos >= 50) { // 50 이상인 경우에만 동작
+        setIsScrollingUp(prevScrollPos > currentScrollPos);
+        setPrevScrollPos(currentScrollPos);
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
