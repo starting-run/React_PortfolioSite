@@ -54,7 +54,7 @@ function Home() {
             <div class="s-intro pt-3">
                 <div class="s-intro__content row text-black pt-5"> 
                     <div class="justify-content-center font-3">
-                        <div class="container-xxl px-3 mt-5">
+                        <div class="container-xxl px-3 mt-5-main">
                             <div class="row row-cols-lg-2 row-cols-1">
                                 <div class="col col-lg-9 mb-3 ">
                                     <div class="intro-background card rounded-4 card-border-0 p-0">

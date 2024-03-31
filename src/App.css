@@ -665,7 +665,11 @@
     order: 1; /* 햄버거 아이콘의 label을 첫 번째 위치로 변경 */
   }
 
-
+  .mt-5-main {
+    margin-top: 0rem !important;
+    transition: all 0.3s;
+  }
+  
 }
 
 .navbar-left-margin {
@@ -9739,6 +9743,11 @@ video {
 
 .mt-5 {
   margin-top: 3rem !important;
+}
+
+.mt-5-main {
+  margin-top: 3rem;
+  transition: all 0.3s;
 }
 
 .mt-10 {
