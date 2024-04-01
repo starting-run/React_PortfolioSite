@@ -6176,6 +6176,36 @@ textarea.form-control-lg {
   transition: all 0.3s;
 }
 
+.card-cover-sec2-1 {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #D499B9;
+  color: var(--bs-black);
+  transition: all 0.3s;
+}
+
+.card-cover-sec2-2 {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #FFBC42;
+  color: var(--bs-black);
+  transition: all 0.3s;
+}
+
+.card-cover-sec2-3 {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #84B1ED;
+  color: var(--bs-black);
+  transition: all 0.3s;
+}
+
 .card-cover-blog {
   z-index: 5;
   background-repeat: no-repeat;

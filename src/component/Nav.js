@@ -1,15 +1,13 @@
-import React, { Component, useEffect, useState } from 'react';
-import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import {NavLink} from 'react-router-dom';
 import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faVimeo } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faArrowUpRightFromSquare, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import footerimg from '../images/footerimg.png';
-import toast, { Toaster } from 'react-hot-toast';
-import ToTopButton from './ToTopButton';
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import toast from 'react-hot-toast';
 import DarkModeToggle from './DarkModeToggle';
+import ToTopButton from './Function/ToTopButton';
 
 function Nav() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -96,26 +94,6 @@ return (
               <div class="sad-test"><DarkModeToggle/></div>
           </div>
         </nav>
-      </div>
-
-      <div id="topbtn" class="ss-go-top">
-        <a class="smoothscroll" title="Back to Top" onClick={MoveToTop}>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style={{fill: "rgba(0, 0, 0, 1)"}}><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
-        </a>
-      </div>
-      <div id="normalfooter" class="bg-only-white-gray py-4 mt-auto">
-        <div class="container-full px-4 text-black font-3">
-            <div class="text-end">
-              <a class="text-black" href="https://github.com/usfree" title="Github"><FontAwesomeIcon icon={faGithub} /></a>　
-              <a class="text-black" href="https://velog.io/@usfree" title="Blog"><FontAwesomeIcon icon={faVimeo} /></a>　
-              <a class="text-black" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." title="Mail"><FontAwesomeIcon icon={faEnvelope} /></a>
-            </div>
-            <hr class="text-black"/>
-            <div class="col-auto font-11">
-              <div class="smaller m-0 text-black mb-1">본 사이트는 개인 포트폴리오용으로 제작되었습니다.</div>
-              <div class="smaller m-0 text-black mb-3">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</div>
-            </div>
-        </div>
       </div>
     </div>
   </header>

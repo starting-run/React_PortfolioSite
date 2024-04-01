@@ -5,8 +5,8 @@ import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {Route, Routes, HashRouter} from 'react-router-dom'; 
-import ScrollToTop from "./component/ScrollToTop";
-
+import ScrollToTop from "./component/Function/ScrollToTop";
+import ScrollIndicator from './component/Function/ScrollIndicator';
 import Home from './component/Home';
 import Project from './component/Project';
 import Profile from './component/Profile';
@@ -17,12 +17,13 @@ import Utopai from './component/Project/Utopai';
 import Website from './component/Project/Website';
 import Nav from './component/Nav';
 import { Toaster } from 'react-hot-toast';
-import ScrollIndicator from './component/ScrollIndicator';
+
+import Footer from './component/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
-      {/*BrowserRouter*/}
+    {/*BrowserRouter*/}
       <Toaster position='bottom-right'/>
       <App />
       <ScrollToTop />
@@ -38,6 +39,7 @@ root.render(
       </Routes>
       <ScrollIndicator/>
       <Nav />
+      <Footer/>
     </HashRouter>
 );
 
