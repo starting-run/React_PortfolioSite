@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowDown, faCircleArrowRight, faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faBrush, faCircleArrowDown, faCircleArrowRight, faCircleArrowUp, faClone } from '@fortawesome/free-solid-svg-icons';
 import HomeSection2 from './HomeSection2';
 import HomeSection3 from './HomeSection3';
 
@@ -175,20 +175,9 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div class="justify-content-center d-flex font-11 fs-1 p-4 text-black">포트폴리오 확장을 위해 계속 노력하고 있습니다!</div>
-            <div class="main__action text-center">
-                <div className="main__scroll">
-                    <div class="main__scroll-box">
-                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            {/*<HomeSection2/>*/}
-        </div>
+            <HomeSection2/>
             <HomeSection3/>
+        </div>
     </div>
     );
 }

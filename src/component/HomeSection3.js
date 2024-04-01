@@ -11,7 +11,7 @@ function HomeSection3() {
     return (
     <div>
         <div id="intro">
-            <div class="bg-white-gray">
+            <div class="">
                 <div class="container-xxl px-3 pt-5 pb-7">
                     <div class="s-intro">
                         <div class="mb-4 fs-1 pe-4 text-black">

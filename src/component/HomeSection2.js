@@ -4,129 +4,206 @@ import { HashLink } from 'react-router-hash-link';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowDown, faCircleArrowRight, faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faBrush, faCircleArrowDown, faCircleArrowRight, faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
+
+import  SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
+import  { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/swiper-bundle.min.css'
+import 'swiper/swiper.min.css'
+import 'swiper/components/navigation/navigation.min.css'
+import 'swiper/components/pagination/pagination.min.css'
+
+import project1 from '../images/snake.jpg';
+import project2 from '../images/ironman.jpg';
+import project3 from '../images/pacman.jpg';
+import project4 from '../images/portfolio.png';
 
 function HomeSection2() {
-
+    SwiperCore.use([Autoplay]);
     return (
     <div>
-                                <div class="container-xxl px-3 mt-5-main">
-                            {/* 메인 카드 섹션 */}
-                            <div class="row row-cols-lg-2 row-cols-1">
-                                <div class="col col-lg-9 mb-3 ">
-                                    <div class="intro-background card rounded-4 card-border-0 p-0">
-                                        <div class="text-black fs-0 lh-sm font-11 mb-5 pt-6 ps-3">
-                                            <div class="font-letter-space fw-bold2 pt-5 ps-5">
-                                                {/*<span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>*/}
-                                                <div class="font-11 fs-0-5 fw-bold text-start mb-5">만나서 반갑습니다 !</div>
-                                                <div class="font-11 fs-1 fw-normal text-start mb-2">저는</div>
-                                                <div class="font-11 fs-0-5 fw-bold text-start mb-2"></div>
-                                                <div class="font-11 fs-1 fw-normal text-start">를 만듭니다.</div>
-                                            </div>
-                                        </div>
-                                        <div class="text-start ps-3">
-                                            <div class="h-100 font-11 pt-2 text-black fs-5 font-letter-space text-uppercase mb-5 pb-5 ps-5">
-                                                <div class="fw-normal">Woohyun Cho</div>
-                                                <div class="fw-bold2 highlight">Developer Portfolio Website</div>
-                                            </div>
-                                        </div>
+        <div>
+            <div class="container-xxl px-3 mb-4 fs-1 pe-4 text-black">
+                <FontAwesomeIcon icon={faBrush}/> 꾸준히 만들어나가는 창작물
+            </div>
+            <Swiper
+                className='project-slider'
+                modules={[Navigation, Pagination, Autoplay]}
+                spaceBetween={22}
+                slidesPerView={3.5}
+                loop={true}
+                autoplay={{
+                    delay: 3000,
+                    pauseOnMouseEnter: false,
+                    disableOnInteraction: false
+                }}
+                speed={6000} //add
+                navigation={false}
+                pagination={{ clickable: true }}
+                breakpoints={{
+                    360: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 22,
+                    },
+                    1200: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 22,
+                    },
+                    1400: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 22,
+                    },
+                }}
+            >
+        <SwiperSlide>
+        <div class="img-fluid">
+            <NavLink to="/project/website" id="website">
+                <Fade bottom delay={50}>
+                    <div class="col">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4 ">
+                            <img class="card-image-main" src ={project4}></img>
+                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 웹사이트<div class="kor-hidden">portfolio website</div></span>
+                                <ul class="list-unstyled mt-auto small2">
+                                    <li class="d-flex align-items-center me-3 mb-5">
+                                        <span class="">2023. 10. - 2024. 02.</span>
+                                    </li>
+                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
                                         <span class="text-end fs-4 card-in-arrow">
-                                            <div class="fs-6 px-4 mx-2 mb-1-5 text-black">더보기</div>
+                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
                                         </span>
-                                        <span class="text-end fs-4 card-in-arrow">
-                                            <HashLink smooth to="#intro" className="main__scroll"><FontAwesomeIcon icon={faCircleArrowDown}/></HashLink>
-                                        </span>
-                                    </div>
-                                </div>
-                                <div class="col col-lg-3">
-                                    <div class="row-cols-lg-1">
-                                        <div class="col">
-                                            <NavLink to='/profile'>
-                                                <div class="img-fluid mb-3">
-                                                    <div class="col">
-                                                        <div class="card card-cover-profile h-100 overflow-hidden text-only-black card-border-0 rounded-4">
-                                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
-                                                                <span class="mb-2 fs-6 lh-1 fw-normal font-11 text-start mb-6">프로필</span>
-                                                                <span class="text-start fw-bold fs-5 mb-3">개발자 <span class="fw-bold2">조우현</span>에 대해 소개합니다.</span>
-                                                                <span class="text-end fs-4 card-in-arrow">
-                                                                    <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </NavLink>
-                                        </div>
-                                        <div class="col">
-                                            <NavLink to='/project'>
-                                                <div class="img-fluid mb-3">
-                                                    <div class="col">
-                                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
-                                                                <span class="mb-2 fs-6 lh-1 fw-normal font-11 text-start mb-6">프로젝트</span>
-                                                                <span class="text-start fw-bold fs-5 mb-3">그동안 진행한 프로젝트와 상세내용을 확인할 수 있습니다.</span>
-                                                                <span class="text-end fs-4 card-in-arrow">
-                                                                    <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </NavLink>
-                                        </div>
-                                        <div class="col">
-                                            <a href="https://github.com/usfree" target='_blank'>
-                                                <div class="img-fluid mb-3">
-                                                    <div class="col">
-                                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
-                                                                <span class="mb-2 fs-6 lh-1 fw-normal font-11 text-start mb-6">깃허브</span>
-                                                                <span class="text-start fw-bold fs-5 mb-3">진행한 프로젝트와 스터디 내용 등 여러가지 리포지토리를 관리합니다.</span>
-                                                                <span class="text-end fs-4 card-in-arrow">
-                                                                    <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a href="https://velog.io/@usfree" target='_blank'>
-                                                <div class="img-fluid mb-3">
-                                                    <div class="col">
-                                                        <div class="card card-cover-blog h-100 overflow-hidden text-only-white card-border-0 rounded-4">
-                                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
-                                                                <span class="fs-6 lh-1 fw-normal font-11 text-start mb-1">블로그</span>
-                                                                <span class="text-end fs-4 card-in-arrow">
-                                                                    <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>
-                                                <div class="img-fluid mb-3">
-                                                    <div class="col">
-                                                        <div class="card card-cover-boj h-100 overflow-hidden text-only-white card-border-0 rounded-4">
-                                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
-                                                                <span class="fs-6 lh-1 fw-normal font-11 text-start mb-1">백준</span>
-                                                                <span class="text-end fs-4 card-in-arrow">
-                                                                    <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
-                                                                </span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                    </div>
+                </Fade>
+            </NavLink>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div class="img-fluid">
+            <NavLink to="/project/pacman" id="pacman">
+                <Fade bottom delay={100}>
+                    <div class="col">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4 ">
+                            <img class="card-image-main" src ={project3}></img>
+                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 게임<div class="kor-hidden">pacman game</div></span>
+                                <ul class="list-unstyled mt-auto small2">
+                                    <li class="d-flex align-items-center me-3 mb-4">
+                                        <span class="">2023. 10.</span>
+                                    </li>
+                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span class="text-end fs-4 card-in-arrow">
+                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </Fade>
+            </NavLink>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div class="img-fluid">
+            <NavLink to="/project/ironman" id="ironman">
+                <Fade bottom delay={150}>
+                    <div class="col">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4 ">
+                            <img class="card-image-main" src ={project2}></img>
+                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨<div class="kor-hidden">ironman model</div></span>
+                                <ul class="list-unstyled mt-auto small2">
+                                    <li class="d-flex align-items-center me-3 mb-4">
+                                        <span class="">2021. 06.</span>
+                                    </li>
+                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span class="text-end fs-4 card-in-arrow">
+                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </Fade>
+            </NavLink>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div class="img-fluid">
+            <NavLink to="/project/snake" id="ironman">
+                <Fade bottom delay={200}>
+                    <div class="col">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4 ">
+                            <img class="card-image-main" src ={project1}></img>
+                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 게임<div class="kor-hidden">Snake game</div></span>
+                                <ul class="list-unstyled mt-auto small2">
+                                    <li class="d-flex align-items-center me-3 mb-4">
+                                        <span class="">2020. 06.</span>
+                                    </li>
+                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span class="text-end fs-4 card-in-arrow">
+                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </Fade>
+            </NavLink>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div class="img-fluid">
+            <NavLink to="/project">
+                <Fade bottom delay={200}>
+                    <div class="col">
+                        <div class="card card-cover-main h-100 overflow-hidden card-border-0 rounded-4 bg-danger">
+                        <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">　</span>
+                                <ul class="list-unstyled mt-auto small2">
+                                    <li class="d-flex align-items-center me-3 mb-4">
+                                        <span class="">　</span>
+                                    </li>
+                                    <span class="text-end fs-4 card-in-text">
+                                            <div class="fs-1 px-4 mx-2 mb-1-5 text-only-white fw-bold2">프로젝트를 한 번에<br/>확인하세요!</div>
+                                        </span>
+                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span class="text-end fs-4 card-in-arrow">
+                                            <div class="fs-6 px-4 mx-2 mb-1-5 text-only-white">프로젝트 바로가기</div>
+                                        </span>
+                                        <span class="text-end fs-4 card-in-arrow ">
+                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </Fade>
+            </NavLink>
+        </div>
+        </SwiperSlide>
+    </Swiper>
+        <div class="justify-content-center d-flex font-11 fs-1 p-4 text-black pt-6">포트폴리오 확장을 위해 계속 노력하고 있습니다!</div>
+            <div class="main__action text-center pb-5">
+                <div className="main__scroll">
+                    <div class="main__scroll-box">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     );
 }

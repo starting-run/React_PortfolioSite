@@ -541,6 +541,10 @@
   box-sizing: border-box;
 }
 
+.project-slider .swiper-wrapper {
+  transition-timing-function: linear;
+}
+
 .scroll-navbar-background {
   background: rgba(var(--bs-white-rgb), 0.5);
   box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
@@ -2100,12 +2104,29 @@ progress {
     transform: scale(1.15, 1.15);
     transition-duration: 0.3s;
   }
+  .card-image-main{
+    overflow: hidden;
+    transform: scale(1.15, 1.15);
+    transition-duration: 0.3s;
+  }
   .card {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important;
   transition-duration: 0.3s;
   }
   cursor: pointer;
 }
+
+.card-image-main {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  filter: opacity(30%);
+  -webkit-filter: opacity(30%);  /*For Safari */
+  object-fit: cover;
+  transition-duration: 0.3s;
+}
+
 /*
 .cards:hover > .img-fluid:not(:hover) {
   filter: blur(5px);
@@ -6236,6 +6257,11 @@ textarea.form-control-lg {
   transition: all 0.3s;
 }
 
+.card-in-text {
+  position: absolute;
+  right: 20px;
+  bottom: 150px;
+}
 
 .card-in-arrow {
   position: absolute;
@@ -10599,6 +10625,11 @@ video {
 .bg-danger {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-danger:hover {
+  --bs-bg-opacity: 1;
+  background-color: #FF3A79 !important;
 }
 
 .bg-light {
