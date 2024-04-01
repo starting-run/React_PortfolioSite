@@ -49,7 +49,7 @@ function Project() {
         <div>
             <Helmet><title>Project - USFREE</title></Helmet>
             <section class="bg-white-gray">
-            <div class="container-xxl px-4 pt-6">
+            <div class="container-xxl px-4 pt-6 min-vh-100">
             {/*<div class="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>*/}
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto fs-1 font-11 fw-bold2 font-letter-space-sm text-black mb-5">프로젝트
