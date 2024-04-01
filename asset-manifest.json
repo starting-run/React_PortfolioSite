@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b54f7b6.css",
-    "main.js": "/static/js/main.c6b23cde.js",
+    "main.css": "/static/css/main.6fadd9f1.css",
+    "main.js": "/static/js/main.be399532.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
@@ -23,14 +23,13 @@
     "static/media/2.png": "/static/media/2.1d47d671f051d05e6ca8.png",
     "static/media/pacman.jpg": "/static/media/pacman.33e0ce6845eef5d51ae3.jpg",
     "static/media/6.png": "/static/media/6.aaddd106aeb4dc1bcb6c.png",
-    "static/media/footerimg.png": "/static/media/footerimg.ab83ee45a66418c9f283.png",
     "static/media/7.gif": "/static/media/7.27828eeeee0cffed1196.gif",
     "index.html": "/index.html",
     "static/media/ic-lightmode-w.svg": "/static/media/ic-lightmode-w.a1c35d8566ec1e38021fc5d1012addba.svg",
     "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.9ee428fa827cccac1f5ff0a475493b5f.svg"
   },
   "entrypoints": [
-    "static/css/main.2b54f7b6.css",
-    "static/js/main.c6b23cde.js"
+    "static/css/main.6fadd9f1.css",
+    "static/js/main.be399532.js"
   ]
 }
