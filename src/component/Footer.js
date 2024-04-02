@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faVimeo } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 
 function Footer() {
@@ -21,16 +21,16 @@ return (
         </a>
       </div>
       <div id="normalfooter" class="bg-only-white-gray py-4 mt-auto">
-        <div class="container-xxl px-4 text-black font-3">
-            <div class="text-end">
-              <a class="text-black" href="https://github.com/usfree" title="Github"><FontAwesomeIcon icon={faGithub} /></a>　
-              <a class="text-black" href="https://velog.io/@usfree" title="Blog"><FontAwesomeIcon icon={faVimeo} /></a>　
-              <a class="text-black" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." title="Mail"><FontAwesomeIcon icon={faEnvelope} /></a>
+      <hr class="text-black pb-5"/>
+        <div class="container-xxl px-4 text-black font-11">
+            <div class="text-start mb-5 fs-6">
+              <div class="mb-2"><a class="" href="https://github.com/usfree" title="Github">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a></div>
+              <div class="mb-2"><a class="" href="https://velog.io/@usfree" title="Blog">블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a></div>
+              <div class=""><a class="" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." title="Mail">메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a></div>
             </div>
-            <hr class="text-black"/>
             <div class="col-auto font-11">
               <div class="smaller m-0 text-black mb-1">본 사이트는 개인 포트폴리오용으로 제작되었습니다.</div>
-              <div class="smaller m-0 text-black mb-3">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</div>
+              <div class="smaller m-0 text-black mb-3">&copy; Woohyun Cho(usfree). All rights reserved.</div>
             </div>
         </div>
       </div>
