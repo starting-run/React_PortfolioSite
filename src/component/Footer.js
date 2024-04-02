@@ -24,9 +24,9 @@ return (
       <hr class="text-black pb-5"/>
         <div class="container-xxl px-4 text-black font-11">
             <div class="text-start mb-5 fs-6">
-              <div class="mb-2"><a class="" href="https://github.com/usfree" title="Github">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a></div>
-              <div class="mb-2"><a class="" href="https://velog.io/@usfree" title="Blog">블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a></div>
-              <div class=""><a class="" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." title="Mail">메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a></div>
+              <div class="mb-2"><a class="" href="https://github.com/usfree" title="Github" target='_blank'>깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a></div>
+              <div class="mb-2"><a class="" href="https://velog.io/@usfree" title="Blog" target='_blank'>블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a></div>
+              <div class=""><a class="" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." title="Mail" target='_blank'>메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a></div>
             </div>
             <div class="col-auto font-11">
               <div class="smaller m-0 text-black mb-1">본 사이트는 개인 포트폴리오용으로 제작되었습니다.</div>
