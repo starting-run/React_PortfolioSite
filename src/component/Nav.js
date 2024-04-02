@@ -83,9 +83,9 @@ return (
                 <ul class="navbar-nav mb-2 mb-lg-0 fs-6-5">
                   <NavLink exact to="/profile" className="nav-link navbar-items" title="Profile"><li class="nav-item">프로필</li></NavLink>
                   <NavLink exact to="/project" className="nav-link navbar-items" title="Project"><li class="nav-item">프로젝트</li></NavLink>
-                  <a class="nav-link navbar-items" href="https://github.com/usfree" target='_blank' title="Github"><li class="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
-                  <a class="nav-link navbar-items" href="https://velog.io/@usfree" target='_blank' title="Blog"><li class="nav-item">블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
-                  <a class="nav-link navbar-items" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank' title="Mail"><li class="nav-item">메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></li></a>
+                  <a class="nav-link navbar-items" href="https://github.com/usfree" target='_blank' title="Github"><li class="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
+                  <a class="nav-link navbar-items" href="https://velog.io/@usfree" target='_blank' title="Blog"><li class="nav-item">블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
+                  <a class="nav-link navbar-items" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank' title="Mail"><li class="nav-item">메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
                   
                   <span class="hamburger-copy text-black pt-5 font-letter-space only-mobile-view font-11">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
                   <span class="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
