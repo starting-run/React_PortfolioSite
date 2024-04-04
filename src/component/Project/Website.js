@@ -107,7 +107,7 @@ function Website() {
                                                 </div>
                                                 <hr/>
                                                 <p class="highlight font-11">
-                                                    ※ 본문은 구버전 기준으로 작성되었고, 현재는 더 업데이트 하였습니다.
+                                                    ※ 본문은 구버전 기준으로 작성되었고, 현재는 업데이트 되었습니다.
                                                 </p>
                                                 <div class="font-11 fs-2 fw-bold mb-1"><b>Home</b></div>
                                                 <img class="mb-2 shadow-lg rounded-4 " src={img1}/>
