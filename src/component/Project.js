@@ -161,7 +161,7 @@ function Project() {
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0  rounded-4 ">
                                                 <img class="card-image" src ={project2}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                    <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨<div class="kor-hidden">ironman model</div></span>
+                                                    <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 모델<div class="kor-hidden">ironman model</div></span>
                                                     <ul class="list-unstyled mt-auto small2">
                                                         <li class="d-flex align-items-center me-3 mb-4">
                                                             <span class="">2021. 06.</span>

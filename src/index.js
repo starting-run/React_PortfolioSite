@@ -36,6 +36,7 @@ root.render(
         <Route path="/project/pacman" element={<Pacman/>}/>
         <Route path="/project/ironman" element={<Ironman/>}/>
         <Route path="/project/snake" element={<Snake/>}/>
+        <Route path="/hidden" element={<Snake/>}/>
       </Routes>
       <ScrollIndicator/>
       <Nav />
