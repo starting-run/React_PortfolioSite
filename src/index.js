@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {Route, Routes, HashRouter, BrowserRouter} from 'react-router-dom'; 
+import {Route, Routes, HashRouter} from 'react-router-dom'; 
 import ScrollToTop from "./component/Function/ScrollToTop";
 import ScrollIndicator from './component/Function/ScrollIndicator';
 import Home from './component/Home';
@@ -22,7 +22,8 @@ import Footer from './component/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter>
+    <HashRouter>
+    {/*BrowserRouter*/}
       <Toaster position='bottom-right'/>
       <App />
       <ScrollToTop />
@@ -39,7 +40,7 @@ root.render(
       <ScrollIndicator/>
       <Nav />
       <Footer/>
-    </BrowserRouter>
+    </HashRouter>
 );
 
 
