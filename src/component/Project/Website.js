@@ -54,8 +54,8 @@ function Website() {
                             </div>
                             <div class="justify-content-center">
                                 <div class="h-100 font-11 pt-2 text-black fs-6 font-letter-space text-uppercase">
-                                <a href="https://github.com/usfree/usfree.github.io" target='_blank' class="btn btn-dark-square px-4 py-2-5 me-3 fs-6 fw-bold2 mt-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
-                                <a href="https://usfree.site" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold2 mt-3">사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
+                                <a href="https://github.com/usfree/usfree.github.io" target='_blank' class="btn btn-dark-square px-4 py-2-5 me-3 fs-6 fw-bold mt-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
+                                <a href="https://usfree.site" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mt-3">사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
                                 </div>
                             </div>
                         </div>

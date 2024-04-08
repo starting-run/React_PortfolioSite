@@ -60,7 +60,7 @@ class Profile extends Component {
                                                 <div class="fw-light2 text-black fs-6">이노베이션아카데미</div>
                                                 <div class="fw-light2 fs-6 mb-3 highlight">2023. 07. 17. - 08. 11.</div>
                                                 <div class="fw-light2 fs-6">
-                                                    <a class="btn btn-sm btn-dark-square px-4 py-1 me-sm-3 fs-6 fw-bold2" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>돌아보기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
+                                                    <a class="btn btn-sm btn-dark-square px-4 py-1 me-sm-3 fs-6 fw-bold" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>돌아보기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -105,14 +105,14 @@ class Profile extends Component {
                                                 <div class="fs-4 fw-bold fw-opacity">Baekjoon Online Judge</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">tlrmsjtm77</div>
                                                 <div class="fw-light2 fs-6 mb-2">
-                                                    <a class="btn btn-sm btn-dark-square px-4 py-1 me-sm-3 fs-6 fw-bold2" href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
+                                                    <a class="btn btn-sm btn-dark-square px-4 py-1 me-sm-3 fs-6 fw-bold" href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                 </div>
                                             </div>
                                             <div class="col-auto mb-2 font-11 p-4">
                                                 <div class="fs-4 fw-bold fw-opacity">Codeforces</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">tlrmsjtm77</div>
                                                 <div class="fw-light2 fs-6 mb-2">
-                                                    <a class="btn btn-sm btn-dark-square px-4 py-1 me-sm-3 fs-6 fw-bold2" href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
+                                                    <a class="btn btn-sm btn-dark-square px-4 py-1 me-sm-3 fs-6 fw-bold" href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                 </div>
                                             </div>
                                             {/*<div class="col-auto mb-2 font-11">
