@@ -51,8 +51,7 @@ class Ironman extends Component {
                                 </div>
                                 <div class="justify-content-center">
                                     <div class="h-100 font-2 pt-2 text-black fs-6 font-letter-space text-uppercase">
-                                    <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
-                                    <a href="https://github.com/usfree/OpenGL_Ironman" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
+                                        <a href="https://github.com/usfree/OpenGL_Ironman" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold2 mt-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +73,7 @@ class Ironman extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-2 proj_text w-100 text-black fw-light">
-                                                <div class="mb-3 w-100 card card-cover-nonhover p-3  rounded-4 border-0 font-11">
+                                                <div class="mb-3 w-100 card card-cover-nonhover p-3   border-0 font-11">
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span class="fw-light fs-6 mb-2 text-black">2021. 05. - 06.</span></div>
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span class="fw-light fs-6 mb-2 text-black">OpenGL, C, C++</span></div>
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span class="fw-light fs-6 mb-2 text-black">OpenGL로 제작된 3D 입체 아이언맨 모형. OpenGL이 지원하는 주요 기능들을 사용할 수 있습니다.</span></div>
@@ -91,7 +90,7 @@ class Ironman extends Component {
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                 <div class="mb-4 px-2 font-11">OpenGL을 다뤄보고 싶었고, 그래픽 관련한 API가 어떻게 동작하는지 배우는 것이 목표입니다.</div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div class="code p-3  border-0 mb-5 font-11 rounded-4">
+                                                <div class="code p-3  border-0 mb-5 font-11 ">
                                                     # VisualStudio Solution<br/>
                                                     OpenGL.sln
                                                 </div>

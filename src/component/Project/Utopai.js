@@ -51,7 +51,7 @@ function Utopai() {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="proj_text w-100 text-black fw-light">
-                                                <div class="mb-3 w-100 card card-cover-danger p-3  rounded-4 border-0">
+                                                <div class="mb-3 w-100 card card-cover-danger p-3   border-0">
                                                     <span class="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
                                                 </div>
                                                 <div class="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11">
@@ -71,7 +71,7 @@ function Utopai() {
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                 <div class="mb-4 px-2 font-11"></div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div class="code p-3  rounded-4 border-0 mb-5 font-11">
+                                                <div class="code p-3   border-0 mb-5 font-11">
                                                     # Unreal Engine<br/>
 
                                                 </div>

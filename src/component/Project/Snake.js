@@ -55,8 +55,7 @@ class Snake extends Component {
                             </div>
                             <div class="justify-content-center">
                                 <div class="h-100 font-2 pt-2 text-black fs-6 font-letter-space text-uppercase">
-                                    <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
-                                    <a href="https://github.com/usfree/Unity_Snake" target='_blank' class="btn btn-dark-round btn-lg px-5 py-2 fs-7 fw-bolder mt-3"><FontAwesomeIcon icon={faGithub} /> Repository</a>
+                                    <a href="https://github.com/usfree/Unity_Snake" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold2 mt-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +77,7 @@ class Snake extends Component {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="proj_text w-100 text-black fw-light">
-                                                <div class="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
+                                                <div class="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 ">
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span class="fw-light fs-6 mb-2 text-black">2020. 05. - 06.</span></div>
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span class="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span class="fw-light fs-6 mb-2 text-black">Unity 게임엔진으로 제작된 Snake 게임. 사용자가 객체를 조작하여 코인을 모으면서 자신의 몸이나 벽에 부딪히지 않고, 최대한 많은 점수를 기록하는 게임입니다.</span></div>
@@ -96,7 +95,7 @@ class Snake extends Component {
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                 <div class="mb-4 px-2 font-11">Unity 엔진은 가상현실, 게임 분야의 개발자라면 UnrealEngine과 더불어 가장 많이 사용되기 때문에 다뤄보는 경험자체가 중요하고 필요하다고 생각했습니다.</div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div class="code p-3  border-0 mb-5 font-11 rounded-4">
+                                                <div class="code p-3  border-0 mb-5 font-11 ">
                                                     # Unity Engine<br/>
                                                     GameProject.sln
                                                 </div>

@@ -23,7 +23,7 @@ function HomeSection3() {
                                     <div class="col">
                                         <div class="img-fluid mb-3">
                                             <div class="col">
-                                                <div class="card card-cover-sec2-1 overflow-hidden text-only-black card-border-0 rounded-4">
+                                                <div class="card card-cover-sec2-1 overflow-hidden text-only-black card-border-0 ">
                                                     <div class="d-flex flex-column p-4 pb-3 card-overtext">
                                                         <span class="mb-2 fs-0-5 lh-1 fw-bold font-11 text-start mb-6 p-4">창의력</span>
                                                         <span class="mb-2 fs-0 lh-1 fw-bold font-11 text-center mb-6 p-1"><FontAwesomeIcon icon={faCircleNodes}/></span>
@@ -40,7 +40,7 @@ function HomeSection3() {
                                     <div class="col">
                                         <div class="img-fluid mb-3">
                                             <div class="col">
-                                                <div class="card card-cover-sec2-2 overflow-hidden text-only-black card-border-0 rounded-4">
+                                                <div class="card card-cover-sec2-2 overflow-hidden text-only-black card-border-0 ">
                                                     <div class="d-flex flex-column p-4 pb-3 card-overtext">
                                                         <span class="mb-2 fs-0-5 lh-1 fw-bold font-11 text-start mb-6 p-4">상상력</span>
                                                         <span class="mb-2 fs-0 lh-1 fw-bold font-11 text-center mb-6 p-1"><FontAwesomeIcon icon={faWandMagicSparkles}/></span>
@@ -57,7 +57,7 @@ function HomeSection3() {
                                     <div class="col">
                                         <div class="img-fluid mb-3">
                                             <div class="col">
-                                                <div class="card card-cover-sec2-3 overflow-hidden text-only-black card-border-0 rounded-4">
+                                                <div class="card card-cover-sec2-3 overflow-hidden text-only-black card-border-0 ">
                                                     <div class="d-flex flex-column p-4 pb-3 card-overtext">
                                                         <span class="mb-2 fs-0-5 lh-1 fw-bold font-11 text-start mb-6 p-4">혁신</span>
                                                         <span class="mb-2 fs-0 lh-1 fw-bold font-11 text-center mb-6 p-1"><FontAwesomeIcon icon={faLightbulb}/></span>
