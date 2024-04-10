@@ -1,13 +1,9 @@
-import React, { Component, useEffect, useState } from 'react';
-import {BrowserRouter, Link, NavLink} from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
-import { Helmet } from 'react-helmet';
+import React from 'react';
 import { Fade } from 'react-reveal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowDown, faCircleArrowRight, faCircleArrowUp, faCircleNodes, faClone, faLightbulb, faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons';
+import { faCircleNodes, faClone, faLightbulb, faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons';
 
 function HomeSection3() {
-
     return (
     <div>
         <div id="intro">

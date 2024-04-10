@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import icon1 from './../images/ic-lightmode-w.svg';
-import icon2 from './../images/ic-darkmode.svg';
+import icon1 from '../../images/ic-lightmode-w.svg';
+import icon2 from '../../images/ic-darkmode.svg';
 
 function DarkModeToggle() {
     const [darkMode, setDarkMode] = useState(false);

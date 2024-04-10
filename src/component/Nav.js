@@ -6,8 +6,8 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import toast from 'react-hot-toast';
-import DarkModeToggle from './DarkModeToggle';
 import ToTopButton from './Function/ToTopButton';
+import DarkModeToggle from './Function/DarkModeToggle';
 
 function Nav() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);

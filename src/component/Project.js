@@ -6,11 +6,11 @@ import project4 from '../images/portfolio.png';
 import project5 from '../images/building.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faArrowUpRightFromSquare, faChevronRight, faLayerGroup, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-import {BrowserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
+import { faArrowUp, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
-import toast, { Toaster } from 'react-hot-toast';
+import toast from 'react-hot-toast';
 import $ from 'jquery';
 
 let city, country;

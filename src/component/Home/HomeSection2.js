@@ -1,10 +1,8 @@
-import React, { Component, useEffect, useState } from 'react';
-import {BrowserRouter, Link, NavLink} from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
-import { Helmet } from 'react-helmet';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBrush, faCircleArrowDown, faCircleArrowRight, faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faBrush, faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 import  SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 import  { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,10 +12,10 @@ import 'swiper/swiper.min.css'
 import 'swiper/components/navigation/navigation.min.css'
 import 'swiper/components/pagination/pagination.min.css'
 
-import project1 from '../images/snake.jpg';
-import project2 from '../images/ironman.jpg';
-import project3 from '../images/pacman.jpg';
-import project4 from '../images/portfolio.png';
+import project1 from '../../images/snake.jpg';
+import project2 from '../../images/ironman.jpg';
+import project3 from '../../images/pacman.jpg';
+import project4 from '../../images/portfolio.png';
 
 function HomeSection2() {
     SwiperCore.use([Autoplay]);
@@ -28,7 +26,7 @@ function HomeSection2() {
                 <FontAwesomeIcon icon={faBrush}/> 꾸준히 만들어나가는 창작물
             </div>
             <Swiper
-                className='project-slider'
+                className='project-slider cards'
                 modules={[Navigation, Pagination, Autoplay]}
                 spaceBetween={22}
                 slidesPerView={3.5}
@@ -116,7 +114,7 @@ function HomeSection2() {
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                             <img class="card-image-main" src ={project2}></img>
                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨<div class="kor-hidden">ironman model</div></span>
+                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 모델<div class="kor-hidden">ironman model</div></span>
                                 <ul class="list-unstyled mt-auto small2">
                                     <li class="d-flex align-items-center me-3 mb-4">
                                         <span class="">2021. 06.</span>

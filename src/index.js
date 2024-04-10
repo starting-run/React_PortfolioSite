@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {Route, Routes, HashRouter} from 'react-router-dom'; 
 import ScrollToTop from "./component/Function/ScrollToTop";
 import ScrollIndicator from './component/Function/ScrollIndicator';
-import Home from './component/Home';
+import Home from './component/Home/Home';
 import Project from './component/Project';
 import Profile from './component/Profile';
 import Pacman from "./component/Project/Pacman";

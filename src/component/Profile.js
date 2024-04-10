@@ -3,8 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp, faArrowUpRightFromSquare, faCakeCandles, faChartSimple, faChevronRight, faCode, faEnvelopeOpenText, faGamepad, faLocationDot, faMicrochip } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
-import { NavLink } from 'react-router-dom';
-import GitHubCalendar from 'react-github-calendar';
 
 class Profile extends Component {
     render() {

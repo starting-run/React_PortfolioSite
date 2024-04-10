@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import video from '../../images/Unity/Unity_Snake.mp4'
-import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft, faChevronRight, faClipboardList, faFileArrowDown, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
-import {browserRouter, Route, Routes, Link, NavLink} from 'react-router-dom';
+import { faChevronLeft, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom';
 
 import img1 from '../../images/Unity/1.png';
 import img2 from '../../images/Unity/2.png';
@@ -15,7 +14,7 @@ import img6 from '../../images/Unity/6.png';
 import img7 from '../../images/Unity/7.gif';
 import img8 from '../../images/Unity/8.png';
 import img9 from '../../images/Unity/9.png';
-import pdf1 from '../../images/Unity/Unity_Snake.pdf';
+import pdf from '../../images/Unity/Unity_Snake.pdf';
 import { Helmet } from 'react-helmet';
 import { HashLink } from 'react-router-hash-link';
 
@@ -116,7 +115,7 @@ class Snake extends Component {
                                                 <div class="font-11 fs-2 fw-bold"><b>Result</b></div>
                                                 <video class="mb-5" src={video} controls controlsList="nodownload"></video><br/><br/>
                                                 <div class="font-11 fs-2 fw-bold"><b>Presentation</b></div>
-                                                <p><iframe style={{width:"100%", height:"700px"}} src={pdf1}></iframe></p>
+                                                <p><iframe style={{width:"100%", height:"700px"}} src={pdf}></iframe></p>
                                                 <span class="font-11">브라우저에서 PDF viewer를 지원하지 않을 경우 <a href="https://usfree.site/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf"><div class="btn btn-primary-round-outline px-4 fs-7"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>

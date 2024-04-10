@@ -3,7 +3,7 @@ import video from '../../images/OpenGL/ironman.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft, faChevronRight, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 
 import img1 from '../../images/OpenGL/1.png';
@@ -12,7 +12,6 @@ import img3 from '../../images/OpenGL/3.png';
 import img4 from '../../images/OpenGL/4.png';
 import img5 from '../../images/OpenGL/5.png';
 import { Helmet } from 'react-helmet';
-import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 class Ironman extends Component {

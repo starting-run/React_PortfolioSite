@@ -3,10 +3,9 @@ import video from '../../images/Pacman/Processing_Pacman.mp4'
 import pdf from '../../images/Pacman/Processing_Pacman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft, faChevronRight, faClipboardList, faFileArrowDown, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 let code1 = `void CreateMap() {

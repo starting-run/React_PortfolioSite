@@ -1,16 +1,15 @@
-import React, { Component, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faArrowUpRightFromSquare, faChevronLeft, faChevronRight, faClipboardList, faGear, faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import toast, { Toaster } from 'react-hot-toast';
+import toast from 'react-hot-toast';
 
 import img1 from '../../images/projects/portfolio_website/1.png';
 import img2 from '../../images/projects/portfolio_website/2.png';
 import img3 from '../../images/projects/portfolio_website/3.png';
 import intro from '../../images/projects/portfolio_website/intro_video.mp4';
-import { NavLink } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 
 function Website() {

@@ -1,18 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faVimeo } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { NavLink } from 'react-router-dom';
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
-
 
 function Footer() {
 const MoveToTop = () => {
   // top:0 >> 맨위로  behavior:smooth >> 부드럽게 이동할수 있게 설정하는 속성
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
 
 return (
   <header>
