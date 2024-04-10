@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp, faArrowUpRightFromSquare, faCakeCandles, faChartSimple, faChevronRight, faCode, faEnvelopeOpenText, faGamepad, faLocationDot, faMicrochip } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet';
 import { Fade } from 'react-reveal';
 
