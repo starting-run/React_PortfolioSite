@@ -31,6 +31,8 @@ function Nav() {
   $(document).scroll(function() {
     var scroll = $(document).scrollTop();
     if (scroll >= 50) {
+
+      
         $('#add-fixed').addClass('scroll-navbar-background');
     } else {
         $('#add-fixed').removeClass('scroll-navbar-background');

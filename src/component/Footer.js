@@ -33,7 +33,7 @@ return (
             </div>
             <div class="col-auto font-11">
               <div class="smaller m-0 text-black mb-1">본 사이트는 개인 포트폴리오용으로 제작되었습니다.</div>
-              <div class="smaller m-0 text-black mb-3"><Link exact to = "/hidden">&copy;</Link> Woohyun Cho(usfree). All rights reserved.</div>
+              <div class="smaller m-0 text-black mb-3">&copy; Woohyun Cho(usfree). All rights reserved.</div>
             </div>
         </div>
       </div>
