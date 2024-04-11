@@ -36,8 +36,8 @@ function HomeSection1() {
                         <div class="row row-cols-lg-2 row-cols-1">
                             <div class="col col-lg-9 mb-3 ">
                                 <div class="intro-background card  card-border-0 p-0">
-                                    <div class="text-black fs-0 lh-sm font-11 pt-6 ps-3">
-                                        <div class="font-letter-space fw-bold2 pt-5 ps-5">
+                                    <div class="text-only-white fs-0 lh-sm font-11 pt-6 ps-3">
+                                        <div class="font-letter-space fw-bold2 pt-5 px-5">
                                             {/*<span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>*/}
                                             <div class="font-11 fs-0-5 fw-bold text-start mb-6">만나서 반갑습니다 !</div>
                                             <div class="font-11 fs-1 fw-normal text-start mb-2">저는</div>
@@ -46,16 +46,16 @@ function HomeSection1() {
                                         </div>
                                     </div>
                                     <div class="text-start ps-3">
-                                        <div class="h-100 font-11 text-black fs-6 font-letter-space text-uppercase mb-5 pb-5 ps-5">
+                                        <div class="h-100 font-11 text-only-white fs-6 font-letter-space text-uppercase mb-5 pb-5 ps-5">
                                             <div class="fw-normal">Woohyun Cho</div>
                                             <div class="fw-bold2 highlight">Developer Portfolio</div>
                                         </div>
                                     </div>
                                     <span class="text-end fs-4 card-in-arrow">
-                                        <div class="fs-6 px-4 mx-2 mb-1-5 text-black">더보기</div>
+                                        <div class="fs-6 px-4 mx-2 mb-1-5 text-only-white">더보기</div>
                                     </span>
                                     <span class="text-end fs-4 card-in-arrow">
-                                        <HashLink smooth to="#intro" className="main__scroll"><FontAwesomeIcon icon={faCircleArrowDown}/></HashLink>
+                                        <HashLink smooth to="#intro" className="main__scroll"><FontAwesomeIcon icon={faCircleArrowDown} className='text-only-white'/></HashLink>
                                     </span>
                                 </div>
                             </div>
