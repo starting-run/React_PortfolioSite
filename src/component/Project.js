@@ -54,7 +54,7 @@ function Project() {
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto fs-1 font-11 fw-bold2 font-letter-space-sm text-black mb-5">프로젝트
                         <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
-                            <span class="prj-sub fs-6 fw-light font-4 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> Collect on Github <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
+                            <span class="prj-sub fs-6 fw-light font-4 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> 깃허브에서 모아보기 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
                             </span>
                         </a>
                     </div>
@@ -66,7 +66,7 @@ function Project() {
                     </div>
                     <div class="col-auto mobile-moabogi mb-5">
                         <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
-                        <span class="fs-6 fw-light font-4"><FontAwesomeIcon icon={faGithub} /> Collect</span>
+                        <span class="fs-6 fw-light font-4"><FontAwesomeIcon icon={faGithub} /> 모아보기</span>
                         </a>
                     </div> 
                 </div>

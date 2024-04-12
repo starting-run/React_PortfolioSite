@@ -23,7 +23,7 @@ class Profile extends Component {
                                         <hr class="text-black"/>
                                         <div class="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up  ">
                                             <div class="col-auto text-black mb-2 font-11 p-4">
-                                                <div class="fs-4 fw-bold"><a href="https://web.kangnam.ac.kr/" className='fw-opacity'>강남대학교</a></div>
+                                                <div class="fs-4 fw-bold"><a href="https://web.kangnam.ac.kr/" className='fw-opacity' target='_blank'>강남대학교</a></div>
                                                 <div class="fw-light2 fs-6">경기도 용인시</div>
                                                 <div class="fw-light2 fs-6 mb-3 highlight">2019. 03. - </div>
                                                 <div class="fw-light2 fs-6 mb-3">
@@ -31,7 +31,7 @@ class Profile extends Component {
                                                 </div>
                                             </div>
                                             <div class="col-auto text-black mb-2 font-11 p-4">
-                                                <div class="fs-4 fw-bold"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity'>한성고등학교</a></div>
+                                                <div class="fs-4 fw-bold"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity' target='_blank'>한성고등학교</a></div>
                                                 <div class="fw-light2 fs-6">서울시 서대문구</div>
                                                 <div class="fw-light2 fs-6 mb-3 highlight">2015. 03. - 2018. 02.</div>
                                             </div>
@@ -103,14 +103,14 @@ class Profile extends Component {
                                                 <div class="fs-4 fw-bold fw-opacity">Baekjoon Online Judge</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">tlrmsjtm77</div>
                                                 <div class="fw-light2 fs-6 mb-2">
-                                                    <a class="btn btn-sm btn-dark-square px-4 py-1 me-sm-3 fs-6 fw-bold" href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
+                                                    <a class="btn btn-sm btn-dark-square px-4 py-1 me-sm-3 fs-6 fw-bold" href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                 </div>
                                             </div>
                                             <div class="col-auto mb-2 font-11 p-4">
                                                 <div class="fs-4 fw-bold fw-opacity">Codeforces</div>
                                                 <div class="fw-light2 fs-7 mb-3 highlight">tlrmsjtm77</div>
                                                 <div class="fw-light2 fs-6 mb-2">
-                                                    <a class="btn btn-sm btn-dark-square px-4 py-1 me-sm-3 fs-6 fw-bold" href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
+                                                    <a class="btn btn-sm btn-dark-square px-4 py-1 me-sm-3 fs-6 fw-bold" href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                 </div>
                                             </div>
                                             {/*<div class="col-auto mb-2 font-11">
