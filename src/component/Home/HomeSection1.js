@@ -37,7 +37,7 @@ function HomeSection1() {
                             <div class="col col-lg-9 mb-3 ">
                                 <div class="intro-background card  card-border-0 p-0">
                                     <div class="text-only-white fs-0 lh-sm font-11 pt-6 ps-3">
-                                        <div class="font-letter-space fw-bold2 pt-5 px-5">
+                                        <div class="font-letter-space fw-bold2 pt-5 ps-5 pe-4">
                                             {/*<span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>*/}
                                             <div class="font-11 fs-0-5 fw-bold text-start mb-6">만나서 반갑습니다 !</div>
                                             <div class="font-11 fs-1 fw-normal text-start mb-2">저는</div>
