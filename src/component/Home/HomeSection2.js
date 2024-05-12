@@ -16,6 +16,7 @@ import project1 from '../../images/snake.jpg';
 import project2 from '../../images/ironman.jpg';
 import project3 from '../../images/pacman.jpg';
 import project4 from '../../images/portfolio.png';
+import project5 from '../../images/utopai.png';
 
 function HomeSection2() {
     SwiperCore.use([Autoplay]);
@@ -54,6 +55,32 @@ function HomeSection2() {
                     },
                 }}
             >
+        <SwiperSlide>
+        <div class="img-fluid">
+            <NavLink to="/project/utopai" id="utopai">
+                <Fade bottom delay={0}>
+                    <div class="col">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                            <img class="card-image-main" src ={project5}></img>
+                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">유토파이</span>
+                                <ul class="list-unstyled mt-auto small2">
+                                    <li class="d-flex align-items-center me-3 mb-5">
+                                        <span class="">2024. 03. - Developing</span>
+                                    </li>
+                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span class="text-end fs-4 card-in-arrow">
+                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </Fade>
+            </NavLink>
+        </div>
+        </SwiperSlide>
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project/website" id="website">

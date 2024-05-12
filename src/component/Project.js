@@ -3,7 +3,7 @@ import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
 import project4 from '../images/portfolio.png';
-import project5 from '../images/building.png';
+import project5 from '../images/utopai.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUp, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -79,23 +79,22 @@ function Project() {
                 <div class="row gx-5 justify-content-center">
                     <div class="mb-5 pb-5">
                         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
-                            {/*<div class="img-fluid"> 
+                            <div class="img-fluid"> 
                                 <NavLink to="utopai" id="utopai">
                                 <Fade bottom delay={0}> 
                                     <div class="col">
                                         <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0   ">
                                             <img class="card-image" src = {project5}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">Utop-AI<div class="kor-hidden">유토파이</div></span>
+                                                <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">유토파이<div class="kor-hidden">utopai</div></span>
                                                 <ul class="list-unstyled mt-auto small2">
                                                     <li class="d-flex align-items-center me-3 mb-4">
-                                                        <span class="">2024. 02. - Developing</span>
+                                                        <span class="">2024. 03. - Developing</span>
                                                     </li>
                                                     <li class="d-flex align-items-center mt-5 city pt-7 pb-4">
-                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">UnrealEngine</div>　
-                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C++</div>　
-                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">Blueprint</div>　
-                                                        <span class="kor-hidden">언리얼엔진, 씨쁠쁠, 블루프린트</span>
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">Unity</div>　
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C#</div>　
+                                                        <span class="kor-hidden">유니티, 씨샾, 씨샵</span>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -103,7 +102,7 @@ function Project() {
                                     </div>
                                 </Fade>
                                 </NavLink>
-                            </div>*/}
+                            </div>
                             <div class="img-fluid">
                                 <NavLink to="website" id="website">
                                     <Fade bottom delay={50}>

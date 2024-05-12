@@ -78,7 +78,7 @@ function Website() {
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="p-2 proj_text w-100 text-black fw-light">
-                                                <div class="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 ">
+                                                <div class="mb-3 w-100 card card-cover-nonhover p-3 border-0 font-11">
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span class="fw-light fs-6 mb-2 text-black">2023. 10. - 2024. 02.</span></div>
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span class="fw-light fs-6 mb-2 text-black">React, HTML, CSS, JavaScript, Bootstrap Library</span></div>
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span class="fw-light fs-6 mb-2 text-black">React를 사용하여 SPA형식으로 제작된 포트폴리오 게시용 사이트입니다.</span></div>
