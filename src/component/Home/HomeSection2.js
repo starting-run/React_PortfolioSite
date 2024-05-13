@@ -63,7 +63,7 @@ function HomeSection2() {
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                             <img class="card-image-main" src ={project5}></img>
                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">유토파이</span>
+                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">유토파이 게임</span>
                                 <ul class="list-unstyled mt-auto small2">
                                     <li class="d-flex align-items-center me-3 mb-5">
                                         <span class="">2024. 03. - Developing</span>

@@ -25,6 +25,7 @@ import toast from 'react-hot-toast';
 
 
 function Utopai() {
+    const updatedate = "2024. 05. 14." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중입니다.', {duration: 4000});
     const notify2 = () => toast.error('제작 진행중인 프로젝트입니다. 깃허브 리포지토리를 아직 제공하지 않습니다.', {duration: 4000});
     useEffect(() => {
@@ -63,6 +64,7 @@ function Utopai() {
                             <div class="text-black fs-0-7 lh-sm font-10 mb-5">
                                 <div class="font-letter-space fw-bold3">
                                     <span className="font-11">유토파이 게임</span>
+                                    <div class="font-11 fs-4 fw-bold pt-4"><span class="highlight">개발중</span> / 내역 최종 업데이트 {updatedate}</div>
                                 </div>
                             </div>
                             <div class="justify-content-center">
@@ -113,6 +115,7 @@ function Utopai() {
                                                         <br/>게임 내 여러 구역이 존재하며, 각 구역별로 AI를 움직일 수 있게 하는 원동력인 <span class="highlight">아레테</span>가 존재합니다. 작 중 주인공은 이 <span class="highlight">아레테</span>를 파괴하여 AI를 막는 역할을 합니다.
                                                         주인공은 깨어있는 지식인을 표방하는 자들의 모인 그룹인 <span class="highlight">이리스</span>에서 행동대원 역할을 하며, 그룹의 조력자는 주인공에게 쿨타임마다 도움을 줄 수 있는 스킬을 제공합니다.</p>
                                                     <div class="font-11 fs-2 fw-bold"><b>Developing</b></div>
+                                                    <div class="font-11 fs-5 fw-bold mb-5">최종 업데이트 : {updatedate}</div>
                                                     <video src={video} controls controlsList="nodownload"></video><br/><br/>
                                                 </div>
                                             </div>
