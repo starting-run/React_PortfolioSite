@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d34d63f.css",
-    "main.js": "/static/js/main.172b99ab.js",
+    "main.css": "/static/css/main.d23833fb.css",
+    "main.js": "/static/js/main.f9b98ed7.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.a7b3dc4a5f67eef6effe.mp4",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
@@ -31,7 +31,7 @@
     "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.9ee428fa827cccac1f5ff0a475493b5f.svg"
   },
   "entrypoints": [
-    "static/css/main.9d34d63f.css",
-    "static/js/main.172b99ab.js"
+    "static/css/main.d23833fb.css",
+    "static/js/main.f9b98ed7.js"
   ]
 }
