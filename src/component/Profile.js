@@ -15,6 +15,12 @@ class Profile extends Component {
                         <div class="mb-5">
                         {/*<div class="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>*/}
                             <div class="mb-5 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">프로필</div>
+                            <div class="text-start">
+                                <div class="h-100 font-11 text-black fs-6 font-letter-space text-uppercase mb-5 pb-5">
+                                    <div class="fw-normal">Woohyun Cho</div>
+                                    <div class="fw-bold2 highlight">Developer Portfolio</div>
+                                </div>
+                            </div>
                             <div class="row row-cols-1 row-cols-xxl-1 g-4">
                             <Fade left delay={30}><div>
                                 <div class="col">
