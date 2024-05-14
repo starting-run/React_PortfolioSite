@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.90ead97d.css",
-    "main.js": "/static/js/main.5ee0cfef.js",
+    "main.css": "/static/css/main.9d34d63f.css",
+    "main.js": "/static/js/main.ff1943bd.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
-    "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
+    "static/media/video.mp4": "/static/media/video.a7b3dc4a5f67eef6effe.mp4",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
+    "static/media/intro.mp4": "/static/media/intro.060b1e8d70fab903aafc.mp4",
+    "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
     "static/media/Processing_Pacman.mp4": "/static/media/Processing_Pacman.25f0225e0651c7f66e78.mp4",
+    "static/media/icon_move.mp4": "/static/media/icon_move.62c5ab8b81d865dce0cb.mp4",
     "static/media/Unity_Snake.pdf": "/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf",
     "static/media/OpenGL_Ironman.pdf": "/static/media/OpenGL_Ironman.54c28fdf5dac7d4a96f2.pdf",
     "static/media/1.png": "/static/media/1.f978446b1e09fd97776d.png",
@@ -16,7 +19,6 @@
     "static/media/ironman.jpg": "/static/media/ironman.08cb6233309f50b15857.jpg",
     "static/media/4.png": "/static/media/4.25927d7c165c4dde7e56.png",
     "static/media/3.png": "/static/media/3.2386420f76d9f312e579.png",
-    "static/media/utopai.png": "/static/media/utopai.419cf3d9197bf7e8f1bd.png",
     "static/media/snake.jpg": "/static/media/snake.5ffa00d200d7db29354b.jpg",
     "static/media/9.png": "/static/media/9.c1d168d33381825ccc1c.png",
     "static/media/5.png": "/static/media/5.930dc7e179722c12bcea.png",
@@ -24,13 +26,12 @@
     "static/media/pacman.jpg": "/static/media/pacman.33e0ce6845eef5d51ae3.jpg",
     "static/media/6.png": "/static/media/6.aaddd106aeb4dc1bcb6c.png",
     "static/media/7.gif": "/static/media/7.27828eeeee0cffed1196.gif",
-    "static/media/logo.png": "/static/media/logo.261cc45d5e02a6340a08.png",
     "index.html": "/index.html",
     "static/media/ic-lightmode-w.svg": "/static/media/ic-lightmode-w.a1c35d8566ec1e38021fc5d1012addba.svg",
     "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.9ee428fa827cccac1f5ff0a475493b5f.svg"
   },
   "entrypoints": [
-    "static/css/main.90ead97d.css",
-    "static/js/main.5ee0cfef.js"
+    "static/css/main.9d34d63f.css",
+    "static/js/main.ff1943bd.js"
   ]
 }
