@@ -10433,6 +10433,9 @@ video {
   letter-spacing :5px;
 }
 
+.font-letter-space-xlg {
+  letter-spacing :10px;
+}
 
 .lh-1 {
   line-height: 1 !important;

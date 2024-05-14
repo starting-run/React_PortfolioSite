@@ -3,7 +3,7 @@ import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
 import project4 from '../images/portfolio.png';
-import project5 from '../images/utopai.png';
+import project5 from '../images/Unity/Orbit/icon_move.mp4';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUp, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -80,13 +80,15 @@ function Project() {
                     <div class="mb-5 pb-5">
                         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
                             <div class="img-fluid"> 
-                                <NavLink to="utopai" id="utopai">
+                                <NavLink to="orbit" id="orbit">
                                 <Fade bottom delay={0}> 
                                     <div class="col">
                                         <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0   ">
-                                            <img class="card-image" src = {project5}></img>
+                                        <video class="card-image video-filter" autoPlay muted loop>
+                                            <source src={project5} type="video/mp4" />
+                                        </video>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">유토파이 게임<div class="kor-hidden">utopai</div></span>
+                                                <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">ORBIT (게임)<div class="kor-hidden">오르빗</div></span>
                                                 <ul class="list-unstyled mt-auto small2">
                                                     <li class="d-flex align-items-center me-3 mb-4">
                                                         <span class="">2024. 03. - Developing</span>
