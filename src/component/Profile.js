@@ -8,7 +8,7 @@ class Profile extends Component {
     render() {
       return (
         <div>
-            <Helmet><title>Profile - USFREE</title></Helmet>
+            <Helmet><title>프로필 - USFREE</title></Helmet>
             <section class="bg-white-gray h-100">
                 <div class="container-xxl px-4 pt-6">
                     <div class="row justify-content-center">

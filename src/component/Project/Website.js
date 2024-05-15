@@ -21,7 +21,7 @@ function Website() {
 
       return (
         <div>
-            <Helmet><title>Portfolio Website - Project - USFREE</title></Helmet>
+            <Helmet><title>포트폴리오 웹사이트 - USFREE</title></Helmet>
             <div id="projectmain">
                 <div class="s-intro-prj">
                 <div class="bg-video">

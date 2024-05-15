@@ -47,7 +47,7 @@ function Project() {
     const notify = () => toast.error('캡스톤으로 제작 진행중인 프로젝트입니다.', {duration: 4000});
       return (
         <div>
-            <Helmet><title>Project - USFREE</title></Helmet>
+            <Helmet><title>프로젝트 - USFREE</title></Helmet>
             <section class="bg-white-gray">
             <div class="container-xxl px-4 pt-6 min-vh-100">
             {/*<div class="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>*/}

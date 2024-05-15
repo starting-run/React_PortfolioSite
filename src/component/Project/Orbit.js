@@ -35,7 +35,7 @@ function Orbit() {
       return (
         <div>
             <Helmet>
-                <title>Orbit - USFREE</title>
+                <title>오르빗 게임 - USFREE</title>
             </Helmet>
             <div id="projectmain">
                 <div class="s-intro-prj">

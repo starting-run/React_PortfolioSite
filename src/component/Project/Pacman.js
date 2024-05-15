@@ -136,7 +136,7 @@ class Pacman extends Component {
     render() {
       return (
         <div>
-            <Helmet><title>Pacman - USFREE</title></Helmet>
+            <Helmet><title>팩맨 게임 - USFREE</title></Helmet>
             <div id="projectmain">
             <div class="s-intro-prj">
                 <div class="bg-video">

@@ -22,7 +22,7 @@ class Snake extends Component {
     render() {
       return (
         <div>
-            <Helmet><title>Snake - USFREE</title></Helmet>
+            <Helmet><title>스네이크 게임 - USFREE</title></Helmet>
             <div id="projectmain">
             <div class="s-intro-prj">
                 <div class="bg-video">
