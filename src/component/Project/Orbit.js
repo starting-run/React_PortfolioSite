@@ -25,7 +25,7 @@ import toast from 'react-hot-toast';
 
 
 function Orbit() {
-    const updatedate = "2024. 05. 17." //최종 업데이트 일자
+    const updatedate = "2024. 05. 19." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중입니다.', {duration: 4000});
     const notify2 = () => toast.error('제작 진행중인 프로젝트입니다. 깃허브 리포지토리를 아직 제공하지 않습니다.', {duration: 4000});
     useEffect(() => {
