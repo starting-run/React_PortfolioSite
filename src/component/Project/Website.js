@@ -98,10 +98,9 @@ function Website() {
                                                 <div class="mb-4 px-2 font-11">개발자로서 포트폴리오를 게시하기 위한 사이트의 개발 필요성을 느꼈습니다. 처음에는 React가 아닌 순수 HTML을 통해 ajax로 비동기 웹페이지를 구현했지만<span class="highlight">(Github Repository의 main브런치 → DefaultHTML을 통해 확인할 수 있습니다.)</span>, 한계점을 느끼고 완벽한 비동기 웹페이지를 구현하기 위해 알아보던 중 React에 매력을 느끼게 되었고, 이를 학습하여 제작하게 되었습니다. React를 처음으로 사용하며 잘 몰랐던 프론트웹페이지 제작에 대해 알게되는 계기가 되었고, 현재는 깃허브 Pages엔진을 사용하여 배포하고 있지만, 추후 SSR 방식으로 웹페이지를 전환하게 된다면 자체 서버를 통해 배포하는 것도 고려중입니다.</div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                 <div class="code p-3  border-0 font-11 ">
-                                                    #github &lt;main&gt; Branch / 로컬호스트<br/>
-                                                    npm run start<br/><br/>
-                                                    #github &lt;main&gt; Branch / 빌드<br/>
-                                                    npm run build
+                                                    # localhost<br/><br/>
+                                                    npm i --force <span style={{color:"#6A9955"}}>//node_modules 설치</span><br/>
+                                                    npm run start<br/>
                                                 </div>
                                                 <hr/>
                                                 <p class="highlight font-11">
