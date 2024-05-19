@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d23833fb.css",
-    "main.js": "/static/js/main.9e008eab.js",
+    "main.js": "/static/js/main.2a145f9f.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.9809f3eb8362e9120835.mp4",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
@@ -9,12 +9,14 @@
     "static/media/intro.mp4": "/static/media/intro.060b1e8d70fab903aafc.mp4",
     "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
     "static/media/Processing_Pacman.mp4": "/static/media/Processing_Pacman.25f0225e0651c7f66e78.mp4",
+    "static/media/main2.png": "/static/media/main2.d60e189dc554ad896f4a.png",
     "static/media/icon_move.mp4": "/static/media/icon_move.62c5ab8b81d865dce0cb.mp4",
     "static/media/Unity_Snake.pdf": "/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf",
     "static/media/OpenGL_Ironman.pdf": "/static/media/OpenGL_Ironman.54c28fdf5dac7d4a96f2.pdf",
     "static/media/1.png": "/static/media/1.f978446b1e09fd97776d.png",
     "static/media/Processing_Pacman.pdf": "/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf",
     "static/media/portfolio.png": "/static/media/portfolio.5b674675998c74f8d4a8.png",
+    "static/media/main1.png": "/static/media/main1.a03b91fc8f99d00d98d6.png",
     "static/media/8.png": "/static/media/8.0051ee1cb9b230982052.png",
     "static/media/ironman.jpg": "/static/media/ironman.08cb6233309f50b15857.jpg",
     "static/media/4.png": "/static/media/4.25927d7c165c4dde7e56.png",
@@ -32,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.d23833fb.css",
-    "static/js/main.9e008eab.js"
+    "static/js/main.2a145f9f.js"
   ]
 }
