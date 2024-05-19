@@ -8,8 +8,8 @@ import { HashLink } from 'react-router-hash-link';
 import video from '../../images/Unity/Orbit/video.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import img1 from '../../images/Unity/Orbit/logo.png';
-import img2 from '../../images/Unity/2.png';
-import img3 from '../../images/Unity/3.png';
+import img2 from '../../images/Unity/Orbit/main1.png';
+import img3 from '../../images/Unity/Orbit/main2.png';
 import img4 from '../../images/Unity/4.png';
 import img5 from '../../images/Unity/5.png';
 import img6 from '../../images/Unity/6.png';
@@ -64,7 +64,7 @@ function Orbit() {
                             <div class="text-black fs-0-7 lh-sm font-10 mb-5">
                                 <div class="font-letter-space fw-bold3">
                                     <span className="font-11 font-letter-space-xlg">ORBIT</span>
-                                    <div class="font-11 fs-4 fw-bold pt-4"><span class="highlight">개발중<br/></span>내역 최종 업데이트 {updatedate}</div>
+                                    <div class="font-11 fs-5 fw-bold pt-4"><span class="highlight">개발중<br/></span>내역 최종 업데이트 {updatedate}</div>
                                 </div>
                             </div>
                             <div class="justify-content-center">
@@ -94,7 +94,7 @@ function Orbit() {
                                                         <div class="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
                                                         <span class="fw-light fs-6 mb-2 text-black px-2">
                                                         &middot; 오픈월드로 제작하되, 구역을 나누어 할당함. ‘아레테’를 파괴하기 위해 구역 별 인스턴스 던전을 만들어 던전 내에서 파괴.
-                                                        <br/>&middot; 광원의 효과적인 표현을 위한 루멘 또는 레이트레이싱 사용
+                                                        <br/>&middot; 광원의 효과적이고 사실적인 표현을 위해 유니티 HDRP / 레이트레이싱 사용
                                                         <br/>&middot; 주인공을 적으로 인식하고 공격하는 AI 몬스터 구현
                                                         </span>
                                                     </div>
@@ -103,7 +103,7 @@ function Orbit() {
                                                     <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                     <div class="mb-4 px-2 font-11"></div>
                                                     <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                    <div class="code p-3   border-0 mb-5 font-11">
+                                                    <div class="code p-3 border-0 mb-5 font-11">
                                                         # Unity<br/>
 
                                                     </div>
@@ -116,7 +116,11 @@ function Orbit() {
                                                         <br/>게임 내 여러 구역이 존재하며, 각 구역별로 AI를 움직일 수 있게 하는 원동력인 <span class="highlight">아레테</span>가 존재합니다. 작 중 주인공은 이 <span class="highlight">아레테</span>를 파괴하여 AI를 막는 역할을 합니다.
                                                         주인공은 깨어있는 지식인을 표방하는 자들의 모인 그룹인 <span class="highlight">이리스</span>에서 행동대원 역할을 하며, 그룹의 조력자는 주인공에게 쿨타임마다 도움을 줄 수 있는 스킬을 제공합니다.</p>
                                                     <div class="font-11 fs-2 fw-bold"><b>Developing</b></div>
-                                                    <div class="font-11 fs-5 fw-bold mb-5">최종 업데이트 : {updatedate}</div>
+                                                    <div class="font-11 fs-6 fw-bold mb-3">최종 업데이트 : {updatedate}</div>
+                                                    <img className="mb-2 shadow-lg" src={img2}></img>
+                                                    <p class="mb-5 font-11">- 메인 로고 화면</p>
+                                                    <img className="mb-2 shadow-lg" src={img3}></img>
+                                                    <p class="mb-5 font-11">- 게임 모드 선택 화면</p>
                                                     <video src={video} controls controlsList="nodownload"></video><br/><br/>
                                                 </div>
                                             </div>
