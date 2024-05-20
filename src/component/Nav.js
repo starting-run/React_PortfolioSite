@@ -12,11 +12,23 @@ import DarkModeToggle from './Function/DarkModeToggle';
 function Nav() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isScrollingUp, setIsScrollingUp] = useState(true);
+  const [isPC, setIsPC] = useState(window.innerWidth >= 992);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsPC(window.innerWidth >= 992);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-      if (currentScrollPos >= 50) { // 50 이상인 경우에만 동작
+      if (currentScrollPos >= 50 && isPC) {
         setIsScrollingUp(prevScrollPos > currentScrollPos);
         setPrevScrollPos(currentScrollPos);
       }
@@ -26,43 +38,48 @@ function Nav() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [prevScrollPos]);
+  }, [prevScrollPos, isPC]);
 
-  $(document).scroll(function() {
-    var scroll = $(document).scrollTop();
-    if (scroll >= 50) {
+  useEffect(() => {
+    const handleScroll = () => {
+      const scroll = window.pageYOffset;
+      const navbar = document.getElementById('add-fixed');
+      if (scroll >= 50) {
+        navbar.classList.add('scroll-navbar-background');
+      } else {
+        navbar.classList.remove('scroll-navbar-background');
+      }
+    };
 
-      
-        $('#add-fixed').addClass('scroll-navbar-background');
-    } else {
-        $('#add-fixed').removeClass('scroll-navbar-background');
-    }
-});
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
-const MoveToTop = () => {
-  // top:0 >> 맨위로  behavior:smooth >> 부드럽게 이동할수 있게 설정하는 속성
+  const MoveToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-const notify = () => toast('기기 설정에 따라 라이트/다크모드로 동작하고, 토글도 제공합니다!',
-  {
-      duration: 4000,
-      icon: '👏'
-  }
-);
+  const notify = () => toast('기기 설정에 따라 라이트/다크모드로 동작하고, 토글도 제공합니다!', {
+    duration: 4000,
+    icon: '👏'
+  });
 
-function mainlogo() {
-  window.scrollTo(0, 0);
-  if ($('.navbar-toggler').attr('aria-expanded') == 'true') {
-    $(".navbar-toggler").trigger("click");
-    $("input:checkbox[id='hbg']").prop("checked", false);
-  }
-}
+  const mainlogo = () => {
+    window.scrollTo(0, 0);
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const checkbox = document.getElementById('hbg');
+    if (navbarToggler.getAttribute('aria-expanded') === 'true') {
+      navbarToggler.click();
+      checkbox.checked = false;
+    }
+  };
 
-useEffect(() => {
-  notify();
-}, []);
-
+  useEffect(() => {
+    notify();
+  }, []);
+  
 return (
   <header>
     <div>

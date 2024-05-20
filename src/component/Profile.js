@@ -149,7 +149,7 @@ class Profile extends Component {
                                             </div>
                                             <div class="col-auto mb-2 p-4">
                                                 <div class="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">Unity</div>
-                                                <div class="fw-light2 fs-6 mb-2 text-black">C#을 사용하여 Unity를 다룰 수 있습니다.</div>
+                                                <div class="fw-light2 fs-6 mb-2 text-black">유니티를 사용해 2D, 3D 컨텐츠를 제작할 수 있고, C# 스크립트를 활용해 목표한 결과물을 구현할 수 있습니다. 현재는 유니티를 사용해 졸업작품을 제작중입니다.</div>
                                             </div>
                                             <div class="col-auto mb-2 p-4">
                                                 <div class="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">HTML5</div><span> </span>

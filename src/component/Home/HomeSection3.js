@@ -21,8 +21,8 @@ function HomeSection3() {
                                             <div class="col">
                                                 <div class="card card-cover-sec2-1 overflow-hidden text-only-black card-border-0 ">
                                                     <div class="d-flex flex-column p-4 pb-3 card-overtext">
-                                                        <span class="mb-2 fs-0-5 lh-1 fw-bold font-11 text-start mb-6 p-4">창의력</span>
-                                                        <span class="mb-2 fs-0 lh-1 fw-bold font-11 text-center mb-6 p-1"><FontAwesomeIcon icon={faCircleNodes}/></span>
+                                                        <span class="mb-2 fs-2 lh-1 fw-bold2 font-11 text-start mb-3 p-4">창의력</span>
+                                                        <span class="mb-2 fs-0 lh-1 fw-bold font-11 text-center mb-3 p-1"><FontAwesomeIcon icon={faCircleNodes}/></span>
                                                         <span class="text-start fw-bold fs-5 mb-3 p-4">창의력은 혁신을 그리고, 모든 일에 필요합니다.</span>
                                                     </div>
                                                 </div>
@@ -38,8 +38,8 @@ function HomeSection3() {
                                             <div class="col">
                                                 <div class="card card-cover-sec2-2 overflow-hidden text-only-black card-border-0 ">
                                                     <div class="d-flex flex-column p-4 pb-3 card-overtext">
-                                                        <span class="mb-2 fs-0-5 lh-1 fw-bold font-11 text-start mb-6 p-4">상상력</span>
-                                                        <span class="mb-2 fs-0 lh-1 fw-bold font-11 text-center mb-6 p-1"><FontAwesomeIcon icon={faWandMagicSparkles}/></span>
+                                                        <span class="mb-2 fs-2 lh-1 fw-bold2 font-11 text-start mb-3 p-4">상상력</span>
+                                                        <span class="mb-2 fs-0 lh-1 fw-bold font-11 text-center mb-3 p-1"><FontAwesomeIcon icon={faWandMagicSparkles}/></span>
                                                         <span class="text-start fw-bold fs-5 mb-3 p-4">신비롭고 다채로운 상상력은 사람을 조각합니다.</span>
                                                     </div>
                                                 </div>
@@ -55,8 +55,8 @@ function HomeSection3() {
                                             <div class="col">
                                                 <div class="card card-cover-sec2-3 overflow-hidden text-only-black card-border-0 ">
                                                     <div class="d-flex flex-column p-4 pb-3 card-overtext">
-                                                        <span class="mb-2 fs-0-5 lh-1 fw-bold font-11 text-start mb-6 p-4">혁신</span>
-                                                        <span class="mb-2 fs-0 lh-1 fw-bold font-11 text-center mb-6 p-1"><FontAwesomeIcon icon={faLightbulb}/></span>
+                                                        <span class="mb-2 fs-2 lh-1 fw-bold2 font-11 text-start mb-3 p-4">혁신</span>
+                                                        <span class="mb-2 fs-0 lh-1 fw-bold font-11 text-center mb-3 p-1"><FontAwesomeIcon icon={faLightbulb}/></span>
                                                         <span class="text-start fw-bold fs-5 mb-3 p-4">혁신적인 생각으로 꾸준히 발전하겠습니다.</span>
                                                     </div>
                                                 </div>
