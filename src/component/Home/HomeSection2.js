@@ -17,13 +17,14 @@ import project2 from '../../images/ironman.jpg';
 import project3 from '../../images/pacman.jpg';
 import project4 from '../../images/portfolio.png';
 import project5 from '../../images/Unity/Orbit/icon_move.mp4';
+import { HashLink } from 'react-router-hash-link';
 
 function HomeSection2() {
     SwiperCore.use([Autoplay]);
     return (
     <div>
         <div>
-            <div class="container-xxl px-3 mb-4 fs-1 pe-4 text-black">
+            <div class="container-xxl px-3 mb-4 fs-1 pe-4 text-black" id="home_project">
                 <FontAwesomeIcon icon={faBrush}/> 꾸준히 만들어나가는 창작물
             </div>
             <Swiper
@@ -221,15 +222,15 @@ function HomeSection2() {
     </Swiper>
         <div class="justify-content-center d-flex font-11 fs-1 p-4 text-black pt-6">포트폴리오 확장을 위해 계속 노력하고 있습니다!</div>
             <div class="main__action text-center pb-5">
-                <div className="main__scroll">
+                <HashLink smooth to="#home_add" className="main__scroll">
                     <div class="main__scroll-box">
                         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 0h24v24H0z" fill="none"></path>
                             <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
                         </svg>
                     </div>
-                </div>
-            </div>
+                </HashLink>
+           </div>
         </div>
     </div>
     );

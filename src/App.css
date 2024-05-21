@@ -6329,7 +6329,6 @@ textarea.form-control-lg {
 }
 
 .card-image-sec1 {
-
   z-index: 0;
   width: 100%;
   height: 100%;
@@ -10732,8 +10731,6 @@ video {
   top: 0;
   left: 0;
 }
-
-
 
 @keyframes gradient {
   0% {

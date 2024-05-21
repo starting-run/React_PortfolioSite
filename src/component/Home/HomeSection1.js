@@ -36,9 +36,19 @@ function HomeSection1() {
                         {/* 메인 카드 섹션 */}
                         <div class="row row-cols-lg-2 row-cols-1">
                         <div class="col col-lg-2 mb-3 text-black">
-                            <div class="font-11 fw-bold text-start fs-1">만나서<br class="only-pc-view"/><span class="no_enter"> 반갑습니다 !</span></div>
-
+                            <div class="font-11 fw-bold text-start fs-1">만나서<br class="only-pc-view"/><span class="no_enter"> 반갑습니다 !</span>
+                            <div class="main__action position-absolute only-pc-view">
+                                <HashLink smooth to="#home_project" className="main__scroll">
+                                    <div class="main__scroll-box">
+                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 0h24v24H0z" fill="none"></path>
+                                            <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
+                                        </svg>
+                                    </div>
+                                </HashLink>
                             </div>
+                            </div>
+                        </div>
                             <div class="col col-lg-7 mb-3 ">
                                 
                                 <div class="intro-background card  card-border-0 p-0">

@@ -8,7 +8,7 @@ function HomeSection3() {
     <div>
         <div id="intro">
             <div class="">
-                <div class="container-xxl px-3 pt-5 pb-7">
+                <div class="container-xxl px-3 pt-5 pb-7" id="home_add">
                     <div class="s-intro">
                         <div class="mb-4 fs-1 pe-4 text-black">
                             <FontAwesomeIcon icon={faClone}/> 추구하는 목표와 가치
