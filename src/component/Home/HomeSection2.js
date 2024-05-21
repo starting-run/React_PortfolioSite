@@ -65,7 +65,7 @@ function HomeSection2() {
                                 <source src={project5} type="video/mp4" />
                             </video>
                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">ORBIT (게임)</span>
+                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 게임</span>
                                 <ul class="list-unstyled mt-auto small2">
                                     <li class="d-flex align-items-center me-3 mb-5">
                                         <span class="">2024. 03. - Developing</span>

@@ -4537,7 +4537,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: var(--btn-like-color);
   --bs-btn-disabled-border-color: var(--btn-like-color);
-  border-radius: 100px;
+
 }
 
 

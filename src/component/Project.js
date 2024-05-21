@@ -88,7 +88,7 @@ function Project() {
                                             <source src={project5} type="video/mp4" />
                                         </video>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">ORBIT (게임)<div class="kor-hidden">오르빗</div></span>
+                                                <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">오르빗 게임<div class="kor-hidden">Orbit Game</div></span>
                                                 <ul class="list-unstyled mt-auto small2">
                                                     <li class="d-flex align-items-center me-3 mb-4">
                                                         <span class="">2024. 03. - Developing</span>
