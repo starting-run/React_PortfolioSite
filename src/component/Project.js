@@ -256,7 +256,7 @@ function Project() {
                 </div>
                 <div class="img-fluid">
                     <a onClick={notify}>
-                        <Fade bottom delay={300}>
+                        <Fade bottom delay={350}>
                             <div class="col">
                                 <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
                                     <img class="card-image" src ={project5}></img>
