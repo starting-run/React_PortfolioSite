@@ -5,6 +5,8 @@ import project3 from '../images/pacman.jpg';
 import project4 from '../images/portfolio.png';
 import project5 from '../images/Unity/LethalDeliveryVR/thum.png';
 import project6 from '../images/Unity/Orbit/icon_move.mp4';
+import prop1 from '../images/projects/prop1/thum.png';
+import prop1pdf from '../images/projects/prop1/rev_prop_focus_on_you.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUp, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -45,7 +47,7 @@ function filter() {
   }  
 
 function Project() {
-    const notify = () => toast.error('캡스톤으로 제작 진행중인 프로젝트입니다.', {duration: 4000});
+    const notify = () => toast.error('준비중입니다.', {duration: 4000});
       return (
         <div>
             <Helmet><title>프로젝트 - USFREE</title></Helmet>
@@ -207,7 +209,7 @@ function Project() {
                                 </NavLink>
                             </div>
                             <div class="img-fluid">
-                                <NavLink to="snake" id="ironman">
+                                <NavLink to="snake" id="snake">
                                     <Fade bottom delay={250}>
                                         <div class="col">
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
@@ -232,6 +234,44 @@ function Project() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="img-fluid mb-4">
+                    <a href={prop1pdf}>
+                        <Fade bottom delay={300}>
+                            <div class="col">
+                                <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
+                                    <img class="card-image" src ={prop1}></img>
+                                    <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
+                                        <span class="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU<div class="kor-hidden">포커스온유, smilegate</div></span>
+                                        <ul class="list-unstyled mt-auto">
+                                            <li class="d-flex align-items-center me-3">
+                                                <span class="">역기획서</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </Fade>
+                    </a>
+                </div>
+                <div class="img-fluid">
+                    <a onClick={notify}>
+                        <Fade bottom delay={300}>
+                            <div class="col">
+                                <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
+                                    <img class="card-image" src ={project5}></img>
+                                    <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
+                                        <span class="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR<div class="kor-hidden">리썰딜리버리</div></span>
+                                        <ul class="list-unstyled mt-auto">
+                                            <li class="d-flex align-items-center me-3">
+                                                <span class="">기획서</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </Fade>
+                    </a>
                 </div>
             </div>
         </section>

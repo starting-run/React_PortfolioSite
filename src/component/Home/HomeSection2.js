@@ -63,7 +63,7 @@ function HomeSection2() {
                 <Fade bottom delay={0}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
-                            <video class="card-image video-filter" autoPlay muted loop>
+                            <video class="card-image-main video-filter" autoPlay muted loop>
                                 <source src={project6} type="video/mp4" />
                             </video>
                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
