@@ -15,6 +15,7 @@ import Ironman from "./component/Project/Ironman";
 import Snake from './component/Project/Snake';
 import Orbit from './component/Project/Orbit';
 import Website from './component/Project/Website';
+import LethalDeliveryVR from './component/Project/LethalDeliveryVR';
 import Nav from './component/Nav';
 import { Toaster } from 'react-hot-toast';
 
@@ -31,6 +32,7 @@ root.render(
         <Route path="/profile/*" element={<Profile/>}/>
         <Route exact path="/" element={<Home/>}/>
         <Route path="/project" element={<Project/>}/>
+        <Route path="/project/lethaldeliveryvr" element={<LethalDeliveryVR/>}/>
         <Route path="/project/orbit" element={<Orbit/>}/>
         <Route path="/project/website" element={<Website/>}/>
         <Route path="/project/pacman" element={<Pacman/>}/>

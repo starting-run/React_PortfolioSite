@@ -16,7 +16,8 @@ import project1 from '../../images/snake.jpg';
 import project2 from '../../images/ironman.jpg';
 import project3 from '../../images/pacman.jpg';
 import project4 from '../../images/portfolio.png';
-import project5 from '../../images/Unity/Orbit/icon_move.mp4';
+import project5 from '../../images/Unity/LethalDeliveryVR/thum.png';
+import project6 from '../../images/Unity/Orbit/icon_move.mp4';
 import { HashLink } from 'react-router-hash-link';
 
 function HomeSection2() {
@@ -63,7 +64,7 @@ function HomeSection2() {
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                             <video class="card-image video-filter" autoPlay muted loop>
-                                <source src={project5} type="video/mp4" />
+                                <source src={project6} type="video/mp4" />
                             </video>
                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 게임</span>
@@ -86,8 +87,34 @@ function HomeSection2() {
         </SwiperSlide>
         <SwiperSlide>
         <div class="img-fluid">
-            <NavLink to="/project/website" id="website">
+            <NavLink to="/project/lethaldeliveryvr" id="lethaldeliveryvr">
                 <Fade bottom delay={50}>
+                    <div class="col">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                        <img class="card-image-main" src ={project5}></img>
+                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">리썰딜리버리 VR게임</span>
+                                <ul class="list-unstyled mt-auto small2">
+                                    <li class="d-flex align-items-center me-3 mb-5">
+                                        <span class="">2024. 05. - Developing</span>
+                                    </li>
+                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span class="text-end fs-4 card-in-arrow">
+                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </Fade>
+            </NavLink>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div class="img-fluid">
+            <NavLink to="/project/website" id="website">
+                <Fade bottom delay={100}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                             <img class="card-image-main" src ={project4}></img>
@@ -113,7 +140,7 @@ function HomeSection2() {
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project/pacman" id="pacman">
-                <Fade bottom delay={100}>
+                <Fade bottom delay={150}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                             <img class="card-image-main" src ={project3}></img>
@@ -139,7 +166,7 @@ function HomeSection2() {
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project/ironman" id="ironman">
-                <Fade bottom delay={150}>
+                <Fade bottom delay={200}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                             <img class="card-image-main" src ={project2}></img>
@@ -165,7 +192,7 @@ function HomeSection2() {
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project/snake" id="ironman">
-                <Fade bottom delay={200}>
+                <Fade bottom delay={250}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                             <img class="card-image-main" src ={project1}></img>
@@ -191,7 +218,7 @@ function HomeSection2() {
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project">
-                <Fade bottom delay={200}>
+                <Fade bottom delay={300}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden card-border-0  bg-danger">
                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">

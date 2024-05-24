@@ -3,7 +3,8 @@ import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
 import project4 from '../images/portfolio.png';
-import project5 from '../images/Unity/Orbit/icon_move.mp4';
+import project5 from '../images/Unity/LethalDeliveryVR/thum.png';
+import project6 from '../images/Unity/Orbit/icon_move.mp4';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUp, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
@@ -85,7 +86,7 @@ function Project() {
                                     <div class="col">
                                         <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0   ">
                                         <video class="card-image video-filter" autoPlay muted loop>
-                                            <source src={project5} type="video/mp4" />
+                                            <source src={project6} type="video/mp4" />
                                         </video>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                 <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">오르빗 게임<div class="kor-hidden">Orbit Game</div></span>
@@ -105,9 +106,34 @@ function Project() {
                                 </Fade>
                                 </NavLink>
                             </div>
+                            <div class="img-fluid"> 
+                                <NavLink to="lethaldeliveryvr" id="lethaldeliveryvr">
+                                <Fade bottom delay={50}> 
+                                    <div class="col">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0   ">
+                                        <img class="card-image" src ={project5}></img>
+                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">리썰딜리버리 VR게임<div class="kor-hidden">LethalDelivery VRGame</div></span>
+                                                <ul class="list-unstyled mt-auto small2">
+                                                    <li class="d-flex align-items-center me-3 mb-4">
+                                                        <span class="">2024. 05. - Developing</span>
+                                                    </li>
+                                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-4">
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">Unity</div>　
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">C#</div>　
+                                                        <div class="fs-7 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2">VR</div>　
+                                                        <span class="kor-hidden">유니티, 씨샾, 씨샵, 브이알, 가상현실</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </Fade>
+                                </NavLink>
+                            </div>
                             <div class="img-fluid">
                                 <NavLink to="website" id="website">
-                                    <Fade bottom delay={50}>
+                                    <Fade bottom delay={100}>
                                         <div class="col">
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                                                 <img class="card-image" src ={project4}></img>
@@ -133,7 +159,7 @@ function Project() {
                             </div>
                             <div class="img-fluid">
                                 <NavLink to="pacman" id="pacman">
-                                    <Fade bottom delay={100}>
+                                    <Fade bottom delay={150}>
                                         <div class="col">
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                                                 <img class="card-image" src ={project3}></img>
@@ -157,7 +183,7 @@ function Project() {
                             </div>
                             <div class="img-fluid">
                                 <NavLink to="ironman" id="ironman">
-                                    <Fade bottom delay={150}>
+                                    <Fade bottom delay={200}>
                                         <div class="col">
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                                                 <img class="card-image" src ={project2}></img>
@@ -182,7 +208,7 @@ function Project() {
                             </div>
                             <div class="img-fluid">
                                 <NavLink to="snake" id="ironman">
-                                    <Fade bottom delay={200}>
+                                    <Fade bottom delay={250}>
                                         <div class="col">
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                                                 <img class="card-image" src ={project1}></img>
