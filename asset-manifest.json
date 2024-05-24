@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2d1e2ecf.css",
-    "main.js": "/static/js/main.d20a4b8b.js",
+    "main.js": "/static/js/main.b39a80db.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.9809f3eb8362e9120835.mp4",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
@@ -28,12 +28,14 @@
     "static/media/pacman.jpg": "/static/media/pacman.33e0ce6845eef5d51ae3.jpg",
     "static/media/6.png": "/static/media/6.aaddd106aeb4dc1bcb6c.png",
     "static/media/7.gif": "/static/media/7.27828eeeee0cffed1196.gif",
+    "static/media/thum.png": "/static/media/thum.9660d8e6c8fd30f36252.png",
+    "static/media/logo.png": "/static/media/logo.6b00042314baabe36784.png",
     "index.html": "/index.html",
     "static/media/ic-lightmode-w.svg": "/static/media/ic-lightmode-w.a1c35d8566ec1e38021fc5d1012addba.svg",
     "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.9ee428fa827cccac1f5ff0a475493b5f.svg"
   },
   "entrypoints": [
     "static/css/main.2d1e2ecf.css",
-    "static/js/main.d20a4b8b.js"
+    "static/js/main.b39a80db.js"
   ]
 }
