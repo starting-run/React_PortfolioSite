@@ -354,11 +354,17 @@
   top: 50%;
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0);
-  color: white;
   border: none;
   padding: 30px;
   cursor: pointer;
+  color: var(--bs-black);
+  transition: all 0.3s;
   z-index: 1;
+}
+
+.scroll-button_hor:hover {
+  color: #fc8574;
+  transition: all 0.3s;
 }
 
 .scroll-button_hor.left_hor {
@@ -405,8 +411,8 @@
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid var(--bs-black);
+  border-bottom: 1px solid var(--bs-black);
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb 2s infinite;
