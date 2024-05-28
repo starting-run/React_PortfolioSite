@@ -272,6 +272,133 @@
   }
 }
 
+.container_hor {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.scroll-container_hor {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+
+.section_hor {
+  position: relative;
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.bg-video-main {
+  position: absolute; /* 스크롤시 고정은 absolute */
+  opacity: 0.15; /* 원본값 0.15 */
+  align-items: center;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  background-size : cover;
+  /* filter:blur(2px); 배경 블러 */
+}
+
+.background-text_hor {
+  z-index: 2;
+}
+
+.background-video_hor {
+  position: absolute;
+  opacity: 0.3; /* 원본값 0.15 */
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+
+.scroll-container_hor::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-container_hor {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.text-container_hor {
+  position: absolute;
+  bottom: 20%; /* 여백 설정 */
+  left: 10%; /* 여백 설정 */
+}
+
+.text-content_hor h2 {
+  margin-bottom: 0.5em;
+}
+
+
+.scroll-button_hor {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  padding: 30px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-button_hor.left_hor {
+  left: 10px;
+}
+
+.scroll-button_hor.right_hor {
+  right: 10px;
+}
+
+.progress-container_hor {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10%;
+  height: 5px;
+  background-color: #ccc;
+  border-radius: 30px;
+}
+
+.progress-bar_hor {
+  height: 100%;
+  background-color: #fc8574;
+  transition: width 0.1s linear;
+  border-radius: 30px;
+}
+
+.bg {
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.bg_type1 {
+  background-image: url('/src/images/sec3.png');
+}
+
 .no_enter {
   white-space: nowrap;
 }
@@ -1240,6 +1367,12 @@
 .bg-video__content {
   height: 100vh;
   width: 100%;
+  object-fit: cover;  
+}
+
+.bg-video__content_main {
+  height: 100vh;
+  width: 100vw;
   object-fit: cover;  
 }
 

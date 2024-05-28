@@ -247,6 +247,7 @@ function HomeSection2() {
         </div>
         </SwiperSlide>
     </Swiper>
+    {/*
         <div class="justify-content-center d-flex font-11 fs-1 p-4 text-black pt-6">포트폴리오 확장을 위해 계속 노력하고 있습니다!</div>
             <div class="main__action text-center pb-5">
                 <HashLink smooth to="#home_add" className="main__scroll">
@@ -257,7 +258,7 @@ function HomeSection2() {
                         </svg>
                     </div>
                 </HashLink>
-           </div>
+            </div>*/}
         </div>
     </div>
     );
