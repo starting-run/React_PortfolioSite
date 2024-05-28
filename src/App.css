@@ -382,7 +382,7 @@
   transform: translateX(-50%);
   width: 10%;
   height: 5px;
-  background-color: #ccc;
+  background-color: var(--bs-white);
   border-radius: 30px;
 }
 
