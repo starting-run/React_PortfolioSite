@@ -77,7 +77,7 @@ function Nav() {
   };
 
   useEffect(() => {
-    notify();
+    //notify();
   }, []);
   
 return (

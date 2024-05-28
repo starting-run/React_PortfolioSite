@@ -387,6 +387,73 @@
   border-radius: 30px;
 }
 
+.scroll-down-indicator_hor {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+  font-size: 2em;
+  color: white;
+}
+
+.scroll_icon {
+  padding-top: 80px;
+}
+.scroll_icon span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+.scroll_icon span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.scroll_icon span:nth-of-type(2) {
+  top: 16px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+.scroll_icon span:nth-of-type(3) {
+  top: 32px;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
 .bg {
   height: 400px;
   background-position: center center;

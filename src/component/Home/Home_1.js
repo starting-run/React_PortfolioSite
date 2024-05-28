@@ -1,14 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import {NavLink} from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowDown, faCircleArrowRight, faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import intro from '../../images/Unity/Orbit/intro.mp4';
 import intro1 from '../../images/projects/portfolio_website/intro_video.mp4';
 import intro2 from '../../images/Pacman/Processing_Pacman.mp4'
 import intro3 from '../../images/OpenGL/ironman.mp4'
 import intro4 from '../../images/Unity/Unity_Snake.mp4'
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Home_1() {
     const scrollRef = useRef(null);
@@ -148,6 +146,9 @@ function Home_1() {
         </button>
         <div className="progress-container_hor">
             <div className="progress-bar_hor" style={{ width: `${progress}%` }} />
+        </div>
+        <div className="scroll-down-indicator_hor">
+          <div class="scroll_icon"><span></span><span></span><span></span></div>
         </div>
       </div>
     );
