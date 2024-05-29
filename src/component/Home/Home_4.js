@@ -18,16 +18,15 @@ import project3 from '../../images/pacman.jpg';
 import project4 from '../../images/portfolio.png';
 import project5 from '../../images/Unity/LethalDeliveryVR/thum.png';
 import project6 from '../../images/Unity/Orbit/icon_move.mp4';
-import { HashLink } from 'react-router-hash-link';
 
-function HomeSection2() {
+function Home_4() {
     SwiperCore.use([Autoplay]);
     return (
     <div>
         <div>
-            <div class="container-xxl px-3 mb-4 fs-1 pe-4 text-black" id="home_project">
+            {/*<div class="container-xxl px-3 mb-4 fs-3 pe-4 text-black" id="home_project">
                 <FontAwesomeIcon icon={faBrush}/> 꾸준히 만들어나가는 창작물
-            </div>
+            </div>*/}
             <Swiper
                 className='project-slider cards'
                 modules={[Navigation, Pagination, Autoplay]}
@@ -228,7 +227,7 @@ function HomeSection2() {
                                         <span class="">　</span>
                                     </li>
                                     <span class="text-end fs-4 card-in-text">
-                                            <div class="fs-1 px-4 mx-2 mb-1-5 text-only-white fw-bold2">프로젝트를 한 번에<br/>확인하세요!</div>
+                                            <div class="fs-2 px-4 mx-2 mb-1-5 text-only-white fw-bold font-11">프로젝트를 한 번에<br/>확인하세요!</div>
                                         </span>
                                     <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
                                         <span class="text-end fs-4 card-in-arrow">
@@ -264,4 +263,4 @@ function HomeSection2() {
     );
 }
 
-  export default HomeSection2;
+  export default Home_4;
