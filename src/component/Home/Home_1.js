@@ -82,21 +82,6 @@ function Home_1() {
 
           <div className="section_hor">
                 <video class="background-video_hor" autoPlay muted loop>
-                    <source src={intro1} type="video/mp4" />
-                </video>
-                <div className="text-container_hor">
-                    <div className="text-content_hor text-black">
-                    <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">포트폴리오 웹사이트</p>
-                    <p className="font-11 font-letter-space fs-3 fs-bold3 text-shadow-1">포트폴리오를 효율적으로 게시하기 위한 웹사이트</p>
-                    <NavLink to="project/website" id="website" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold">
-                        더보기　<FontAwesomeIcon icon={faCircleArrowRight}/>
-                    </NavLink>
-                    </div>
-                </div>
-          </div>
-
-          <div className="section_hor">
-                <video class="background-video_hor" autoPlay muted loop>
                     <source src={intro2} type="video/mp4" />
                 </video>
                 <div className="text-container_hor">
@@ -134,6 +119,21 @@ function Home_1() {
                     <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">스네이크 게임</p>
                     <p className="font-11 font-letter-space fs-2 fs-bold3 text-shadow-1">Unity로 개발된 간단한 게임</p>
                     <NavLink to="project/snake" id="snake" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold">
+                        더보기　<FontAwesomeIcon icon={faCircleArrowRight}/>
+                    </NavLink>
+                    </div>
+                </div>
+          </div>
+
+          <div className="section_hor">
+                <video class="background-video_hor" autoPlay muted loop>
+                    <source src={intro1} type="video/mp4" />
+                </video>
+                <div className="text-container_hor">
+                    <div className="text-content_hor text-black">
+                    <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">포트폴리오 웹사이트</p>
+                    <p className="font-11 font-letter-space fs-3 fs-bold3 text-shadow-1">포트폴리오를 효율적으로 게시하기 위한 웹사이트</p>
+                    <NavLink to="project/website" id="website" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold">
                         더보기　<FontAwesomeIcon icon={faCircleArrowRight}/>
                     </NavLink>
                     </div>
