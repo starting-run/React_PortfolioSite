@@ -342,6 +342,7 @@
   position: absolute;
   bottom: 20%; /* 여백 설정 */
   left: 10%; /* 여백 설정 */
+  right: 10%;
 }
 
 .text-content_hor h2 {
