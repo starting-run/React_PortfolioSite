@@ -11,7 +11,7 @@ const ProgressContainer = styled.div`
 `;
 const ProgressBar = styled.div`
   height: 4px;
-  background: #FC8574;
+  background: ${(props) => props.color || '#FC8574'};
   width: ${(props) => props.width || 0}%;
 `;
 const ProgressText = styled.span`
@@ -20,8 +20,9 @@ const ProgressText = styled.span`
 
 const ScrollIndicator = ({ color, showText }) => {
   const [progressWidth, setProgressWidth] = useState(0);
+
   useEffect(() => {
-    window.onscroll = () => {
+    const handleScroll = () => {
       const winScroll =
         document.body.scrollTop || document.documentElement.scrollTop;
       const height =
@@ -30,15 +31,16 @@ const ScrollIndicator = ({ color, showText }) => {
       const scrolled = (winScroll / height) * 100;
       setProgressWidth(scrolled);
     };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
     <ProgressContainer>
       <ProgressBar width={progressWidth} color={color}>
         {showText && (
-          <ProgressText width={progressWidth}>{`${Math.round(
-            progressWidth
-          )}%`}</ProgressText>
+          <ProgressText>{`${Math.round(progressWidth)}%`}</ProgressText>
         )}
       </ProgressBar>
     </ProgressContainer>
