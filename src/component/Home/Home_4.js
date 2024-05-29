@@ -227,7 +227,7 @@ function Home_4() {
                                         <span class="">　</span>
                                     </li>
                                     <span class="text-end fs-4 card-in-text">
-                                            <div class="fs-2 px-4 mx-2 mb-1-5 text-only-white fw-bold font-11">프로젝트를 한 번에<br/>확인하세요!</div>
+                                            <div class="fs-2 px-4 mb-1-5 text-only-white fw-bold font-11 no_enter">프로젝트를 한 번에<br/>확인하세요!</div>
                                         </span>
                                     <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
                                         <span class="text-end fs-4 card-in-arrow">
