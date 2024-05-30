@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ff35a21.css",
+    "main.css": "/static/css/main.d49a8553.css",
     "main.js": "/static/js/main.5bda2150.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.9809f3eb8362e9120835.mp4",
-    "static/media/sec3.png": "/static/media/sec3.e507e0f7989881381307.png",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
     "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
     "static/media/rev_prop_focus_on_you.pdf": "/static/media/rev_prop_focus_on_you.572ef150053edafaf03e.pdf",
     "static/media/intro.mp4": "/static/media/intro.cc2adcc043c3cdcec70b.mp4",
+    "static/media/sec3.png": "/static/media/sec3.7b68e80d1c6cc2c88208.png",
     "static/media/Processing_Pacman.mp4": "/static/media/Processing_Pacman.25f0225e0651c7f66e78.mp4",
     "static/media/main2.png": "/static/media/main2.d60e189dc554ad896f4a.png",
     "static/media/icon_move.mp4": "/static/media/icon_move.62c5ab8b81d865dce0cb.mp4",
@@ -37,7 +37,7 @@
     "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.9ee428fa827cccac1f5ff0a475493b5f.svg"
   },
   "entrypoints": [
-    "static/css/main.9ff35a21.css",
+    "static/css/main.d49a8553.css",
     "static/js/main.5bda2150.js"
   ]
 }
