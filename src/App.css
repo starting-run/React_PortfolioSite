@@ -1628,7 +1628,7 @@ universe 공통 영역 끝
  * ## go top
  * ------------------------------------------------------------------- */
  .ss-go-top {
-  z-index    : 4;
+  z-index    : 10;
   opacity    : 0;
   visibility : hidden;
   transform  : translate(0, 200%);
