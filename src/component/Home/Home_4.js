@@ -61,7 +61,7 @@ function Home_4() {
             <NavLink to="/project/orbit" id="orbit">
                 <Fade bottom delay={0}>
                     <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <video class="card-image-main video-filter" autoPlay muted loop>
                                 <source src={project6} type="video/mp4" />
                             </video>
@@ -89,7 +89,7 @@ function Home_4() {
             <NavLink to="/project/lethaldeliveryvr" id="lethaldeliveryvr">
                 <Fade bottom delay={50}>
                     <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                         <img class="card-image-main" src ={project5}></img>
                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 VR게임</span>
@@ -115,7 +115,7 @@ function Home_4() {
             <NavLink to="/project/website" id="website">
                 <Fade bottom delay={100}>
                     <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img class="card-image-main" src ={project4}></img>
                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 웹사이트<div class="kor-hidden">portfolio website</div></span>
@@ -141,7 +141,7 @@ function Home_4() {
             <NavLink to="/project/pacman" id="pacman">
                 <Fade bottom delay={150}>
                     <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img class="card-image-main" src ={project3}></img>
                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 게임<div class="kor-hidden">pacman game</div></span>
@@ -167,7 +167,7 @@ function Home_4() {
             <NavLink to="/project/ironman" id="ironman">
                 <Fade bottom delay={200}>
                     <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img class="card-image-main" src ={project2}></img>
                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 모델<div class="kor-hidden">ironman model</div></span>
@@ -193,7 +193,7 @@ function Home_4() {
             <NavLink to="/project/snake" id="ironman">
                 <Fade bottom delay={250}>
                     <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img class="card-image-main" src ={project1}></img>
                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 게임<div class="kor-hidden">Snake game</div></span>
@@ -219,7 +219,7 @@ function Home_4() {
             <NavLink to="/project">
                 <Fade bottom delay={300}>
                     <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden card-border-0  bg-danger">
+                        <div class="card card-cover-main h-100 overflow-hidden card-border-0  bg-danger rounded-4">
                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                 <span class="country mb-2 fs-2 lh-1 fw-bold font-11">　</span>
                                 <ul class="list-unstyled mt-auto small2">

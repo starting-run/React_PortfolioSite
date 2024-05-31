@@ -11149,6 +11149,14 @@ video {
   border-radius: var(--bs-border-radius-xl) !important;
 }
 
+img {
+  border-radius: var(--bs-border-radius-xl);  
+}
+
+.no-rounded {
+  border-radius: 0 !important;  
+}
+
 .rounded-5 {
   border-radius: var(--bs-border-radius-2xl) !important;
 }

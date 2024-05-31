@@ -73,7 +73,7 @@ function Home_1() {
                 <div className="text-content_hor text-black">
                 <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">오르빗</p>
                 <p className="font-11 font-letter-space fs-3 fs-bold3 text-shadow-1">AI에게 지배당한 세계로부터 지구를 구원하라</p>
-                <NavLink to="project/orbit" id="orbit" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold">
+                <NavLink to="project/orbit" id="orbit" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                     자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
                 </NavLink>
                 </div>
@@ -88,7 +88,7 @@ function Home_1() {
                     <div className="text-content_hor text-black">
                     <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">팩맨 게임</p>
                     <p className="font-11 font-letter-space fs-3 fs-bold3 text-shadow-1">Processing으로 구현된 그 시절 팩맨 게임</p>
-                    <NavLink to="project/pacman" id="pacman" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold">
+                    <NavLink to="project/pacman" id="pacman" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                         자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
                     </NavLink>
                     </div>
@@ -103,7 +103,7 @@ function Home_1() {
                     <div className="text-content_hor text-black">
                     <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">아이언맨 모델</p>
                     <p className="font-11 font-letter-space fs-3 fs-bold3 text-shadow-1">OpenGL을 사용해 구현된 아이언맨 모델</p>
-                    <NavLink to="project/ironman" id="ironman" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold">
+                    <NavLink to="project/ironman" id="ironman" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                         자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
                     </NavLink>
                     </div>
@@ -118,7 +118,7 @@ function Home_1() {
                     <div className="text-content_hor text-black">
                     <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">스네이크 게임</p>
                     <p className="font-11 font-letter-space fs-2 fs-bold3 text-shadow-1">Unity로 개발된 간단한 게임</p>
-                    <NavLink to="project/snake" id="snake" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold">
+                    <NavLink to="project/snake" id="snake" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                         자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
                     </NavLink>
                     </div>
@@ -133,7 +133,7 @@ function Home_1() {
                     <div className="text-content_hor text-black">
                     <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">포트폴리오 웹사이트</p>
                     <p className="font-11 font-letter-space fs-3 fs-bold3 text-shadow-1">포트폴리오를 효율적으로 게시하기 위한 웹사이트</p>
-                    <NavLink to="project/website" id="website" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold">
+                    <NavLink to="project/website" id="website" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                         자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
                     </NavLink>
                     </div>

@@ -26,14 +26,14 @@ class Snake extends Component {
                 <div class="bg-white-gray">
                     <div class="container-xxl px-4 pt-6" id="seemore">
                     <div class="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">스네이크 게임</div>
-                    <a href="https://github.com/usfree/Unity_Snake" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
+                    <a href="https://github.com/usfree/Unity_Snake" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                         <div class="row gx-5 justify-content-center">
                             <div class="up-animation">
                                 <div class="rounded-2 border-0">
                                     <div class="card-body p-0">
                                         <div class="d-flex align-items-center">
                                             <div class="proj_text w-100 text-black fw-light">
-                                                <div class="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 ">
+                                                <div class="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span class="fw-light fs-6 mb-2 text-black">2020. 05. - 06.</span></div>
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span class="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
                                                     <div class="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span class="fw-light fs-6 mb-2 text-black">Unity 게임엔진으로 제작된 Snake 게임. 사용자가 객체를 조작하여 코인을 모으면서 자신의 몸이나 벽에 부딪히지 않고, 최대한 많은 점수를 기록하는 게임입니다.</span></div>
@@ -51,7 +51,7 @@ class Snake extends Component {
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                 <div class="mb-4 px-2 font-11">Unity 엔진은 가상현실, 게임 분야의 개발자라면 UnrealEngine과 더불어 가장 많이 사용되기 때문에 다뤄보는 경험자체가 중요하고 필요하다고 생각했습니다.</div>
                                                 <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div class="code p-3  border-0 mb-5 font-11 ">
+                                                <div class="code p-3  border-0 mb-5 font-11 rounded-4">
                                                     # Unity Engine<br/>
                                                     GameProject.sln
                                                 </div>
@@ -73,7 +73,7 @@ class Snake extends Component {
                                                 <video class="mb-5" src={video} controls controlsList="nodownload"></video><br/><br/>
                                                 <div class="font-11 fs-2 fw-bold"><b>Presentation</b></div>
                                                 <p><iframe style={{width:"100%", height:"700px"}} src={pdf}></iframe></p>
-                                                <span class="font-11">브라우저에서 PDF viewer를 지원하지 않을 경우 <a href="https://usfree.site/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf"><div class="btn btn-primary-round-outline px-4 fs-7"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
+                                                <span class="font-11">브라우저에서 PDF viewer를 지원하지 않을 경우 <a href="https://usfree.site/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf"><div class="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>
                                     </div>

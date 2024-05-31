@@ -86,7 +86,7 @@ function Project() {
                                 <NavLink to="orbit" id="orbit">
                                 <Fade bottom delay={0}> 
                                     <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0   ">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                         <video class="card-image video-filter" autoPlay muted loop>
                                             <source src={project6} type="video/mp4" />
                                         </video>
@@ -112,7 +112,7 @@ function Project() {
                                 <NavLink to="lethaldeliveryvr" id="lethaldeliveryvr">
                                 <Fade bottom delay={30}> 
                                     <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0   ">
+                                        <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                         <img class="card-image" src ={project5}></img>
                                             <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                 <span class="country mb-2 fs-2 lh-1 fw-bold2 font-11">리썰딜리버리 VR게임<div class="kor-hidden">LethalDelivery VRGame</div></span>
@@ -137,7 +137,7 @@ function Project() {
                                 <NavLink to="website" id="website">
                                     <Fade bottom delay={60}>
                                         <div class="col">
-                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                                 <img class="card-image" src ={project4}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                     <span class="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 웹사이트<div class="kor-hidden">portfolio website</div></span>
@@ -163,7 +163,7 @@ function Project() {
                                 <NavLink to="pacman" id="pacman">
                                     <Fade bottom delay={90}>
                                         <div class="col">
-                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                                 <img class="card-image" src ={project3}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                     <span class="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 게임<div class="kor-hidden">pacman game</div></span>
@@ -187,7 +187,7 @@ function Project() {
                                 <NavLink to="ironman" id="ironman">
                                     <Fade bottom delay={120}>
                                         <div class="col">
-                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                                 <img class="card-image" src ={project2}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                     <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 모델<div class="kor-hidden">ironman model</div></span>
@@ -212,7 +212,7 @@ function Project() {
                                 <NavLink to="snake" id="snake">
                                     <Fade bottom delay={150}>
                                         <div class="col">
-                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
+                                            <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                                 <img class="card-image" src ={project1}></img>
                                                 <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                     <span class="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 게임<div class="kor-hidden">Snake game</div></span>
@@ -239,7 +239,7 @@ function Project() {
                     <a href={prop1pdf}>
                         <Fade bottom delay={180}>
                             <div class="col">
-                                <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
+                                <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                     <img class="card-image" src ={prop1}></img>
                                     <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
                                         <span class="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU<div class="kor-hidden">포커스온유, smilegate</div></span>
@@ -258,7 +258,7 @@ function Project() {
                     <a onClick={notify}>
                         <Fade bottom delay={210}>
                             <div class="col">
-                                <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
+                                <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                     <img class="card-image" src ={project5}></img>
                                     <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
                                         <span class="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR<div class="kor-hidden">리썰딜리버리</div></span>
