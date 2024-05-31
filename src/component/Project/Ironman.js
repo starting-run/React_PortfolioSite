@@ -12,7 +12,6 @@ import img3 from '../../images/OpenGL/3.png';
 import img4 from '../../images/OpenGL/4.png';
 import img5 from '../../images/OpenGL/5.png';
 import { Helmet } from 'react-helmet';
-import { HashLink } from 'react-router-hash-link';
 
 class Ironman extends Component {
     render() {

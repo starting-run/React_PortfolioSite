@@ -1,9 +1,8 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faChevronLeft, faChevronRight, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
-import {Link, NavLink} from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { faChevronLeft, faChevronRight, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';

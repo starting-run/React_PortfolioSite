@@ -6,7 +6,6 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faChevronLeft, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import { HashLink } from 'react-router-hash-link';
 
 let code1 = `void CreateMap() {
     cols = width / gridSize;

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import {NavLink} from 'react-router-dom';
-import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

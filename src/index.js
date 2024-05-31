@@ -18,7 +18,6 @@ import Website from './component/Project/Website';
 import LethalDeliveryVR from './component/Project/LethalDeliveryVR';
 import Nav from './component/Nav';
 import { Toaster } from 'react-hot-toast';
-
 import Footer from './component/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -44,7 +43,6 @@ root.render(
       <Footer/>
     </HashRouter>
 );
-
 
 
 // If you want to start measuring performance in your app, pass a function

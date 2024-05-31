@@ -16,7 +16,6 @@ import img8 from '../../images/Unity/8.png';
 import img9 from '../../images/Unity/9.png';
 import pdf from '../../images/Unity/Unity_Snake.pdf';
 import { Helmet } from 'react-helmet';
-import { HashLink } from 'react-router-hash-link';
 
 class Snake extends Component {
     render() {

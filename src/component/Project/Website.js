@@ -9,8 +9,6 @@ import toast from 'react-hot-toast';
 import img1 from '../../images/projects/portfolio_website/1.png';
 import img2 from '../../images/projects/portfolio_website/2.png';
 import img3 from '../../images/projects/portfolio_website/3.png';
-import intro from '../../images/projects/portfolio_website/intro_video.mp4';
-import { HashLink } from 'react-router-hash-link';
 
 function Website() {
     const notify = () => toast.success('현재 접속중인 웹사이트입니다.', {duration: 4000});

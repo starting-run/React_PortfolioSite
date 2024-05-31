@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Fade } from 'react-reveal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBrush, faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 import  SwiperCore, { Navigation, Pagination, Autoplay } from 'swiper';
 import  { Swiper, SwiperSlide } from 'swiper/react';

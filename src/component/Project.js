@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from 'react';
+import React from 'react';
 import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
@@ -110,7 +110,7 @@ function Project() {
                             </div>
                             <div class="img-fluid"> 
                                 <NavLink to="lethaldeliveryvr" id="lethaldeliveryvr">
-                                <Fade bottom delay={50}> 
+                                <Fade bottom delay={30}> 
                                     <div class="col">
                                         <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0   ">
                                         <img class="card-image" src ={project5}></img>
@@ -135,7 +135,7 @@ function Project() {
                             </div>
                             <div class="img-fluid">
                                 <NavLink to="website" id="website">
-                                    <Fade bottom delay={100}>
+                                    <Fade bottom delay={60}>
                                         <div class="col">
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                                                 <img class="card-image" src ={project4}></img>
@@ -161,7 +161,7 @@ function Project() {
                             </div>
                             <div class="img-fluid">
                                 <NavLink to="pacman" id="pacman">
-                                    <Fade bottom delay={150}>
+                                    <Fade bottom delay={90}>
                                         <div class="col">
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                                                 <img class="card-image" src ={project3}></img>
@@ -185,7 +185,7 @@ function Project() {
                             </div>
                             <div class="img-fluid">
                                 <NavLink to="ironman" id="ironman">
-                                    <Fade bottom delay={200}>
+                                    <Fade bottom delay={120}>
                                         <div class="col">
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                                                 <img class="card-image" src ={project2}></img>
@@ -210,7 +210,7 @@ function Project() {
                             </div>
                             <div class="img-fluid">
                                 <NavLink to="snake" id="snake">
-                                    <Fade bottom delay={250}>
+                                    <Fade bottom delay={150}>
                                         <div class="col">
                                             <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0   ">
                                                 <img class="card-image" src ={project1}></img>
@@ -237,7 +237,7 @@ function Project() {
                 </div>
                 <div class="img-fluid mb-4">
                     <a href={prop1pdf}>
-                        <Fade bottom delay={300}>
+                        <Fade bottom delay={180}>
                             <div class="col">
                                 <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
                                     <img class="card-image" src ={prop1}></img>
@@ -256,7 +256,7 @@ function Project() {
                 </div>
                 <div class="img-fluid">
                     <a onClick={notify}>
-                        <Fade bottom delay={350}>
+                        <Fade bottom delay={210}>
                             <div class="col">
                                 <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0">
                                     <img class="card-image" src ={project5}></img>
