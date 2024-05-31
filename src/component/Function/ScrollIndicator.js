@@ -13,6 +13,7 @@ const ProgressBar = styled.div`
   height: 4px;
   background: ${(props) => props.color || '#FC8574'};
   width: ${(props) => props.width || 0}%;
+  border-radius: 1rem;
 `;
 const ProgressText = styled.span`
   font-size: 1rem;

@@ -421,14 +421,14 @@
   width: 10%;
   height: 5px;
   background-color: var(--bs-white);
-  border-radius: 30px;
+  border-radius: 1rem;
 }
 
 .progress-bar_hor {
   height: 100%;
-  background-color: #fc8574;
+  background-color: var(--bs-black);
   transition: width 0.1s linear;
-  border-radius: 30px;
+  border-radius: 1rem;
 }
 
 .scroll-down-indicator_hor {

@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Fade } from 'react-reveal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -34,7 +33,7 @@ function Home_4() {
                 slidesPerView={3.5}
                 loop={true}
                 autoplay={{
-                    delay: 3000,
+                    delay: 2000,
                     pauseOnMouseEnter: false,
                     disableOnInteraction: false
                 }}
@@ -59,7 +58,6 @@ function Home_4() {
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project/orbit" id="orbit">
-                <Fade bottom delay={0}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <video class="card-image-main video-filter" autoPlay muted loop>
@@ -80,14 +78,12 @@ function Home_4() {
                             </div>
                         </div>
                     </div>
-                </Fade>
             </NavLink>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project/lethaldeliveryvr" id="lethaldeliveryvr">
-                <Fade bottom delay={50}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                         <img class="card-image-main" src ={project5}></img>
@@ -106,14 +102,12 @@ function Home_4() {
                             </div>
                         </div>
                     </div>
-                </Fade>
             </NavLink>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project/website" id="website">
-                <Fade bottom delay={100}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img class="card-image-main" src ={project4}></img>
@@ -132,14 +126,12 @@ function Home_4() {
                             </div>
                         </div>
                     </div>
-                </Fade>
             </NavLink>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project/pacman" id="pacman">
-                <Fade bottom delay={150}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img class="card-image-main" src ={project3}></img>
@@ -158,14 +150,12 @@ function Home_4() {
                             </div>
                         </div>
                     </div>
-                </Fade>
             </NavLink>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project/ironman" id="ironman">
-                <Fade bottom delay={200}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img class="card-image-main" src ={project2}></img>
@@ -184,14 +174,12 @@ function Home_4() {
                             </div>
                         </div>
                     </div>
-                </Fade>
             </NavLink>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project/snake" id="ironman">
-                <Fade bottom delay={250}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img class="card-image-main" src ={project1}></img>
@@ -210,14 +198,12 @@ function Home_4() {
                             </div>
                         </div>
                     </div>
-                </Fade>
             </NavLink>
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div class="img-fluid">
             <NavLink to="/project">
-                <Fade bottom delay={300}>
                     <div class="col">
                         <div class="card card-cover-main h-100 overflow-hidden card-border-0  bg-danger rounded-4">
                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
@@ -231,7 +217,7 @@ function Home_4() {
                                         </span>
                                     <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
                                         <span class="text-end fs-4 card-in-arrow">
-                                            <div class="fs-6 px-4 mx-2 mb-1-5 text-only-white">프로젝트 바로가기</div>
+                                            <div class="fs-6 px-4 mx-2 mb-1-5 text-only-white">전체 프로젝트 바로가기</div>
                                         </span>
                                         <span class="text-end fs-4 card-in-arrow ">
                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
@@ -241,7 +227,6 @@ function Home_4() {
                             </div>
                         </div>
                     </div>
-                </Fade>
             </NavLink>
         </div>
         </SwiperSlide>

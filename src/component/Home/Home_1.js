@@ -71,8 +71,8 @@ function Home_1() {
             </video>
             <div className="text-container_hor">
                 <div className="text-content_hor text-black">
-                <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">오르빗</p>
-                <p className="font-11 font-letter-space fs-3 fs-bold3 text-shadow-1">AI에게 지배당한 세계로부터 지구를 구원하라</p>
+                <div className="font-11 font-letter-space fs-0-5 fw-bold2 ">오르빗</div>
+                <div className="font-11 font-letter-space fs-4 fs-bold3 mb-4">인공지능에게 지배당한 세계로부터 지구를 구원하라</div>
                 <NavLink to="project/orbit" id="orbit" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                     자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
                 </NavLink>
@@ -86,8 +86,8 @@ function Home_1() {
                 </video>
                 <div className="text-container_hor">
                     <div className="text-content_hor text-black">
-                    <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">팩맨 게임</p>
-                    <p className="font-11 font-letter-space fs-3 fs-bold3 text-shadow-1">Processing으로 구현된 그 시절 팩맨 게임</p>
+                    <div className="font-11 font-letter-space fs-0-5 fw-bold2 ">팩맨 게임</div>
+                    <div className="font-11 font-letter-space fs-4 fs-bold3 mb-4">프로세싱으로 구현된 그 시절 팩맨 게임</div>
                     <NavLink to="project/pacman" id="pacman" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                         자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
                     </NavLink>
@@ -101,8 +101,8 @@ function Home_1() {
                 </video>
                 <div className="text-container_hor">
                     <div className="text-content_hor text-black">
-                    <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">아이언맨 모델</p>
-                    <p className="font-11 font-letter-space fs-3 fs-bold3 text-shadow-1">OpenGL을 사용해 구현된 아이언맨 모델</p>
+                    <div className="font-11 font-letter-space fs-0-5 fw-bold2 ">아이언맨 모델</div>
+                    <div className="font-11 font-letter-space fs-4 fs-bold3 mb-4">OpenGL을 사용해 구현된 아이언맨 모델</div>
                     <NavLink to="project/ironman" id="ironman" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                         자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
                     </NavLink>
@@ -116,8 +116,8 @@ function Home_1() {
                 </video>
                 <div className="text-container_hor">
                     <div className="text-content_hor text-black">
-                    <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">스네이크 게임</p>
-                    <p className="font-11 font-letter-space fs-2 fs-bold3 text-shadow-1">Unity로 개발된 간단한 게임</p>
+                    <div className="font-11 font-letter-space fs-0-5 fw-bold2 ">스네이크 게임</div>
+                    <div className="font-11 font-letter-space fs-4 fs-bold3 mb-4">유니티로 개발된 간단한 게임</div>
                     <NavLink to="project/snake" id="snake" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                         자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
                     </NavLink>
@@ -131,8 +131,8 @@ function Home_1() {
                 </video>
                 <div className="text-container_hor">
                     <div className="text-content_hor text-black">
-                    <p className="font-11 font-letter-space fs-0-5 fw-bold2 text-shadow-1">포트폴리오 웹사이트</p>
-                    <p className="font-11 font-letter-space fs-3 fs-bold3 text-shadow-1">포트폴리오를 효율적으로 게시하기 위한 웹사이트</p>
+                    <div className="font-11 font-letter-space fs-0-5 fw-bold2 ">포트폴리오 웹사이트</div>
+                    <div className="font-11 font-letter-space fs-4 fs-bold3 mb-4">포트폴리오를 효율적으로 게시하기 위한 웹사이트</div>
                     <NavLink to="project/website" id="website" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                         자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
                     </NavLink>

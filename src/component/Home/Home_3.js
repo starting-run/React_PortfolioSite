@@ -90,7 +90,7 @@ function Home_3() {
                                         <NavLink to='/profile'>
                                             <div class="img-fluid mb-3">
                                                 <div class="col">
-                                                    <div class="card card-cover-profile h-100 overflow-hidden text-only-black card-border-0 rounded-4">
+                                                    <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                                         <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext">
                                                             <span class="mb-2 fs-6 lh-1 fw-normal font-11 text-start mb-6">프로필</span>
                                                             <span class="text-start fw-bold fs-5 mb-3">개발자 <span class="fw-bold2">조우현</span>에 대해 소개합니다.</span>
