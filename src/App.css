@@ -348,7 +348,35 @@
 .text-content_hor h2 {
   margin-bottom: 0.5em;
 }
+@keyframes moveAndFadeLeft {
+  0% {
+    transform: translateY(-50%) translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-50%) translateX(-20px);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(-50%) translateX(0);
+    opacity: 1;
+  }
+}
 
+@keyframes moveAndFadeRight {
+  0% {
+    transform: translateY(-50%) translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-50%) translateX(20px);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(-50%) translateX(0);
+    opacity: 1;
+  }
+}
 
 .scroll-button_hor {
   position: absolute;
@@ -363,6 +391,15 @@
   z-index: 1;
 }
 
+.left_hor {
+  left: 0;
+  animation: moveAndFadeLeft 3s infinite;
+}
+
+.right_hor {
+  right: 0;
+  animation: moveAndFadeRight 3s infinite;
+}
 .scroll-button_hor:hover {
   color: #fc8574;
   transition: all 0.3s;
