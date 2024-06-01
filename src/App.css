@@ -2369,6 +2369,9 @@ progress {
   object-fit: cover;
 }
 
+.only-hover-view {
+  display: none;
+}
 
 .cards .img-fluid:hover {
   .card-image {
@@ -2387,6 +2390,10 @@ progress {
   transition-duration: 0.3s;
   }
   cursor: pointer;
+
+  .only-hover-view {
+    display: block;
+  }
 }
 
 /*

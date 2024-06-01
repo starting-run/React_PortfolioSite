@@ -9,7 +9,7 @@ import prop1 from '../images/projects/prop1/thum.png';
 import prop1pdf from '../images/projects/prop1/rev_prop_focus_on_you.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faCircleArrowRight, faMagnifyingGlass, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faCircleArrowRight, faCircleArrowUp, faMagnifyingGlass, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
@@ -152,7 +152,7 @@ function Project() {
                                                         <span className="">2024. 03. - Developing</span>
                                                     </li>
                                                     <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow">
+                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -174,7 +174,7 @@ function Project() {
                                                         <span className="">2024. 05. - Developing</span>
                                                     </li>
                                                     <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow">
+                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -196,7 +196,7 @@ function Project() {
                                                         <span className="">2023. 10. - 2024. 02.</span>
                                                     </li>
                                                     <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow">
+                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -218,7 +218,7 @@ function Project() {
                                                         <span className="">2023. 10.</span>
                                                     </li>
                                                     <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow">
+                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -240,7 +240,7 @@ function Project() {
                                                         <span className="">2021. 06.</span>
                                                     </li>
                                                     <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow">
+                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -262,7 +262,7 @@ function Project() {
                                                         <span className="">2020. 06.</span>
                                                     </li>
                                                     <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow">
+                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -279,7 +279,7 @@ function Project() {
                     <a href={prop1pdf}>
                         <div className="col">
                             <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                <img className="card-image" src ={prop1}></img>
+                                <img className="card-image-main" src ={prop1}></img>
                                 <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
                                     <span className="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU<div className="kor-hidden">포커스온유, smilegate</div></span>
                                     <ul className="list-unstyled mt-auto">
@@ -288,7 +288,7 @@ function Project() {
                                         </li>
                                         <li className="d-flex align-items-center">
                                             <span className="text-end fs-4 card-in-arrow">
-                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                             </span>
                                         </li>
                                     </ul>
@@ -298,10 +298,10 @@ function Project() {
                     </a>
                 </div>
                 <div className="img-fluid">
-                    <a onClick={notify}>
+                    <a onClick={notify} style={{cursor:'not-allowed'}}>
                         <div className="col">
                             <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                <img className="card-image" src ={project5}></img>
+                                <img className="card-image-main" src ={project5}></img>
                                 <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
                                     <span className="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR<div className="kor-hidden">리썰딜리버리</div></span>
                                     <ul className="list-unstyled mt-auto">
@@ -310,7 +310,7 @@ function Project() {
                                         </li>
                                         <li className="d-flex align-items-center">
                                             <span className="text-end fs-4 card-in-arrow">
-                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                             </span>
                                         </li>
                                     </ul>
