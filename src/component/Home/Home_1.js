@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import {NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
-import intro from '../../images/Unity/Orbit/intro.mp4';
+import intro from '../../images/Unity/Orbit/main_video.mp4';
 import intro1 from '../../images/projects/portfolio_website/intro_video.mp4';
 import intro2 from '../../images/Pacman/Processing_Pacman.mp4'
 import intro3 from '../../images/OpenGL/ironman.mp4'
