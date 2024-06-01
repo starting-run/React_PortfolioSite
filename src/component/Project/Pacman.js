@@ -3,7 +3,7 @@ import video from '../../images/Pacman/Processing_Pacman.mp4'
 import pdf from '../../images/Pacman/Processing_Pacman.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faChevronLeft, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faChevronLeft, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
@@ -139,8 +139,8 @@ class Pacman extends Component {
             <div id="projectmain">
                 <div class="bg-white-gray">
                     <div class="container-xxl px-4 pt-6" id="seemore">
-                    <div class="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">팩맨 게임</div>
-                    <a href="https://github.com/usfree/Processing_Pacman" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
+                        <div class="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">팩맨 게임</div>
+                        <a href="https://github.com/usfree/Processing_Pacman" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                         <div class="row gx-5 justify-content-center">
                             <div class="up-animation">
                                 <div class="rounded-2 border-0">
@@ -198,9 +198,9 @@ class Pacman extends Component {
                                 </div> 
                             </div> 
                         </div>
-                    </div>
-                    <div class="d-flex align-items-center justify-content-center pb-5">
-                        <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-3 fs-7 fw-bolder mt-3 mb-5"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
+                        <div class="text-end">
+                            <Link to='/project' className="btn btn-outline-dark px-4 py-2-5 fs-6 fw-bolder mt-3 mb-5 rounded-4"><FontAwesomeIcon icon={faBars} />　목록으로</Link>
+                        </div>
                     </div>
                 </div>
             </div>

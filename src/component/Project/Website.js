@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faBars, faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
@@ -23,9 +23,9 @@ function Website() {
             <div id="projectmain">
                 <div class="bg-white-gray">
                     <div class="container-xxl px-4 pt-6" id="seemore">
-                    <div class="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">포트폴리오 웹사이트</div>
-                    <a href="https://github.com/usfree/usfree.github.io" target='_blank' class="btn btn-dark-square px-4 py-2-5 me-3 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
-                    <a href="https://usfree.site" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4">사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
+                        <div class="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">포트폴리오 웹사이트</div>
+                        <a href="https://github.com/usfree/usfree.github.io" target='_blank' class="btn btn-dark-square px-4 py-2-5 me-3 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
+                        <a href="https://usfree.site" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4">사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
                         <div class="row gx-5 justify-content-center">
                             <div class="up-animation">
                                 <div class=" rounded-2 border-0">
@@ -81,10 +81,10 @@ function Website() {
                                 </div> 
                             </div>
                         </div>
+                        <div class="text-end">
+                            <Link to='/project' className="btn btn-outline-dark px-4 py-2-5 fs-6 fw-bolder mt-3 mb-5 rounded-4"><FontAwesomeIcon icon={faBars} />　목록으로</Link>
+                        </div>
                     </div>                    
-                    <div class="d-flex align-items-center justify-content-center pb-5">
-                        <Link to='/project' className="btn btn-outline-dark-round btn-lg px-4 py-2 me-sm-3 fs-7 fw-bolder mt-3 mb-5"><FontAwesomeIcon icon={faChevronLeft} />　Back</Link>
-                    </div>
                 </div>
             </div>
         </div>
