@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b0f9d9b9.css",
-    "main.js": "/static/js/main.6c0a18c7.js",
+    "main.js": "/static/js/main.fee46002.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.9809f3eb8362e9120835.mp4",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
@@ -10,12 +10,14 @@
     "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
     "static/media/rev_prop_focus_on_you.pdf": "/static/media/rev_prop_focus_on_you.572ef150053edafaf03e.pdf",
     "static/media/intro.mp4": "/static/media/intro.cc2adcc043c3cdcec70b.mp4",
+    "static/media/poster_snake.png": "/static/media/poster_snake.486d48ca589933a4d81b.png",
     "static/media/sec3.png": "/static/media/sec3.7b68e80d1c6cc2c88208.png",
     "static/media/Processing_Pacman.mp4": "/static/media/Processing_Pacman.25f0225e0651c7f66e78.mp4",
     "static/media/main2.png": "/static/media/main2.d60e189dc554ad896f4a.png",
     "static/media/icon_move.mp4": "/static/media/icon_move.62c5ab8b81d865dce0cb.mp4",
     "static/media/Unity_Snake.pdf": "/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf",
     "static/media/OpenGL_Ironman.pdf": "/static/media/OpenGL_Ironman.54c28fdf5dac7d4a96f2.pdf",
+    "static/media/poster_ironman.png": "/static/media/poster_ironman.5f1c07bbaf1b72ea04a6.png",
     "static/media/1.png": "/static/media/1.f978446b1e09fd97776d.png",
     "static/media/Processing_Pacman.pdf": "/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf",
     "static/media/portfolio.png": "/static/media/portfolio.5b674675998c74f8d4a8.png",
@@ -28,6 +30,7 @@
     "static/media/9.png": "/static/media/9.c1d168d33381825ccc1c.png",
     "static/media/5.png": "/static/media/5.930dc7e179722c12bcea.png",
     "static/media/2.png": "/static/media/2.1d47d671f051d05e6ca8.png",
+    "static/media/poster_pacman.png": "/static/media/poster_pacman.fb99cdf42cee75d463b0.png",
     "static/media/pacman.jpg": "/static/media/pacman.33e0ce6845eef5d51ae3.jpg",
     "static/media/6.png": "/static/media/6.aaddd106aeb4dc1bcb6c.png",
     "static/media/thum.png": "/static/media/thum.9660d8e6c8fd30f36252.png",
@@ -39,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.b0f9d9b9.css",
-    "static/js/main.6c0a18c7.js"
+    "static/js/main.fee46002.js"
   ]
 }
