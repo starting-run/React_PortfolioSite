@@ -9,7 +9,7 @@ function Home() {
     return (
     <div>
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
-        <div class="bg-white-gray">
+        <div className="bg-white-gray">
             <Home_1/>
             <Home_2/>
             <Home_3/>

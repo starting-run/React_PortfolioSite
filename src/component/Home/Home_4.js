@@ -23,7 +23,7 @@ function Home_4() {
     return (
     <div>
         <div>
-            {/*<div class="container-xxl px-3 mb-4 fs-3 pe-4 text-black" id="home_project">
+            {/*<div className="container-xxl px-3 mb-4 fs-3 pe-4 text-black" id="home_project">
                 <FontAwesomeIcon icon={faBrush}/> 꾸준히 만들어나가는 창작물
             </div>*/}
             <Swiper
@@ -56,21 +56,21 @@ function Home_4() {
                 }}
             >
         <SwiperSlide>
-        <div class="img-fluid">
+        <div className="img-fluid">
             <NavLink to="/project/orbit" id="orbit">
-                    <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                            <video class="card-image-main video-filter" autoPlay muted loop>
+                    <div className="col">
+                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                            <video className="card-image-main video-filter" autoPlay muted loop>
                                 <source src={project6} type="video/mp4" />
                             </video>
-                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 게임</span>
-                                <ul class="list-unstyled mt-auto small2">
-                                    <li class="d-flex align-items-center me-3 mb-5">
-                                        <span class="">2024. 03. - Developing</span>
+                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 게임</span>
+                                <ul className="list-unstyled mt-auto small2">
+                                    <li className="d-flex align-items-center me-3 mb-5">
+                                        <span className="">2024. 03. - Developing</span>
                                     </li>
-                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                        <span class="text-end fs-4 card-in-arrow">
+                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span className="text-end fs-4 card-in-arrow">
                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                         </span>
                                     </li>
@@ -82,19 +82,19 @@ function Home_4() {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="img-fluid">
+        <div className="img-fluid">
             <NavLink to="/project/lethaldeliveryvr" id="lethaldeliveryvr">
-                    <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                        <img class="card-image-main" src ={project5}></img>
-                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 VR게임</span>
-                                <ul class="list-unstyled mt-auto small2">
-                                    <li class="d-flex align-items-center me-3 mb-5">
-                                        <span class="">2024. 05. - Developing</span>
+                    <div className="col">
+                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                        <img className="card-image-main" src ={project5}></img>
+                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 VR게임</span>
+                                <ul className="list-unstyled mt-auto small2">
+                                    <li className="d-flex align-items-center me-3 mb-5">
+                                        <span className="">2024. 05. - Developing</span>
                                     </li>
-                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                        <span class="text-end fs-4 card-in-arrow">
+                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span className="text-end fs-4 card-in-arrow">
                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                         </span>
                                     </li>
@@ -106,19 +106,19 @@ function Home_4() {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="img-fluid">
+        <div className="img-fluid">
             <NavLink to="/project/website" id="website">
-                    <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                            <img class="card-image-main" src ={project4}></img>
-                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 웹사이트<div class="kor-hidden">portfolio website</div></span>
-                                <ul class="list-unstyled mt-auto small2">
-                                    <li class="d-flex align-items-center me-3 mb-5">
-                                        <span class="">2023. 10. - 2024. 02.</span>
+                    <div className="col">
+                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                            <img className="card-image-main" src ={project4}></img>
+                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 웹사이트<div className="kor-hidden">portfolio website</div></span>
+                                <ul className="list-unstyled mt-auto small2">
+                                    <li className="d-flex align-items-center me-3 mb-5">
+                                        <span className="">2023. 10. - 2024. 02.</span>
                                     </li>
-                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                        <span class="text-end fs-4 card-in-arrow">
+                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span className="text-end fs-4 card-in-arrow">
                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                         </span>
                                     </li>
@@ -130,19 +130,19 @@ function Home_4() {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="img-fluid">
+        <div className="img-fluid">
             <NavLink to="/project/pacman" id="pacman">
-                    <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                            <img class="card-image-main" src ={project3}></img>
-                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 게임<div class="kor-hidden">pacman game</div></span>
-                                <ul class="list-unstyled mt-auto small2">
-                                    <li class="d-flex align-items-center me-3 mb-4">
-                                        <span class="">2023. 10.</span>
+                    <div className="col">
+                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                            <img className="card-image-main" src ={project3}></img>
+                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 게임<div className="kor-hidden">pacman game</div></span>
+                                <ul className="list-unstyled mt-auto small2">
+                                    <li className="d-flex align-items-center me-3 mb-4">
+                                        <span className="">2023. 10.</span>
                                     </li>
-                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                        <span class="text-end fs-4 card-in-arrow">
+                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span className="text-end fs-4 card-in-arrow">
                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                         </span>
                                     </li>
@@ -154,19 +154,19 @@ function Home_4() {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="img-fluid">
+        <div className="img-fluid">
             <NavLink to="/project/ironman" id="ironman">
-                    <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                            <img class="card-image-main" src ={project2}></img>
-                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 모델<div class="kor-hidden">ironman model</div></span>
-                                <ul class="list-unstyled mt-auto small2">
-                                    <li class="d-flex align-items-center me-3 mb-4">
-                                        <span class="">2021. 06.</span>
+                    <div className="col">
+                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                            <img className="card-image-main" src ={project2}></img>
+                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 모델<div className="kor-hidden">ironman model</div></span>
+                                <ul className="list-unstyled mt-auto small2">
+                                    <li className="d-flex align-items-center me-3 mb-4">
+                                        <span className="">2021. 06.</span>
                                     </li>
-                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                        <span class="text-end fs-4 card-in-arrow">
+                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span className="text-end fs-4 card-in-arrow">
                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                         </span>
                                     </li>
@@ -178,19 +178,19 @@ function Home_4() {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="img-fluid">
+        <div className="img-fluid">
             <NavLink to="/project/snake" id="ironman">
-                    <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                            <img class="card-image-main" src ={project1}></img>
-                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 게임<div class="kor-hidden">Snake game</div></span>
-                                <ul class="list-unstyled mt-auto small2">
-                                    <li class="d-flex align-items-center me-3 mb-4">
-                                        <span class="">2020. 06.</span>
+                    <div className="col">
+                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                            <img className="card-image-main" src ={project1}></img>
+                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 게임<div className="kor-hidden">Snake game</div></span>
+                                <ul className="list-unstyled mt-auto small2">
+                                    <li className="d-flex align-items-center me-3 mb-4">
+                                        <span className="">2020. 06.</span>
                                     </li>
-                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                        <span class="text-end fs-4 card-in-arrow">
+                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span className="text-end fs-4 card-in-arrow">
                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                         </span>
                                     </li>
@@ -202,24 +202,24 @@ function Home_4() {
         </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div class="img-fluid">
+        <div className="img-fluid">
             <NavLink to="/project">
-                    <div class="col">
-                        <div class="card card-cover-main h-100 overflow-hidden card-border-0  bg-danger rounded-4">
-                        <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">　</span>
-                                <ul class="list-unstyled mt-auto small2">
-                                    <li class="d-flex align-items-center me-3 mb-4">
-                                        <span class="">　</span>
+                    <div className="col">
+                        <div className="card card-cover-main h-100 overflow-hidden card-border-0  bg-danger rounded-4">
+                        <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">　</span>
+                                <ul className="list-unstyled mt-auto small2">
+                                    <li className="d-flex align-items-center me-3 mb-4">
+                                        <span className="">　</span>
                                     </li>
-                                    <span class="text-end fs-4 card-in-text">
-                                            <div class="fs-2 px-4 mb-1-5 text-only-white fw-bold font-11 no_enter">프로젝트를 한 번에<br/>확인하세요!</div>
+                                    <span className="text-end fs-4 card-in-text">
+                                            <div className="fs-2 px-4 mb-1-5 text-only-white fw-bold font-11 no_enter">프로젝트를 한 번에<br/>확인하세요!</div>
                                         </span>
-                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                        <span class="text-end fs-4 card-in-arrow">
-                                            <div class="fs-6 px-4 mx-2 mb-1-5 text-only-white">전체 프로젝트 바로가기</div>
+                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                        <span className="text-end fs-4 card-in-arrow">
+                                            <div className="fs-6 px-4 mx-2 mb-1-5 text-only-white">전체 프로젝트 바로가기</div>
                                         </span>
-                                        <span class="text-end fs-4 card-in-arrow ">
+                                        <span className="text-end fs-4 card-in-arrow ">
                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                         </span>
                                     </li>
@@ -232,10 +232,10 @@ function Home_4() {
         </SwiperSlide>
     </Swiper>
     {/*
-        <div class="justify-content-center d-flex font-11 fs-1 p-4 text-black pt-6">포트폴리오 확장을 위해 계속 노력하고 있습니다!</div>
-            <div class="main__action text-center pb-5">
+        <div className="justify-content-center d-flex font-11 fs-1 p-4 text-black pt-6">포트폴리오 확장을 위해 계속 노력하고 있습니다!</div>
+            <div className="main__action text-center pb-5">
                 <HashLink smooth to="#home_add" className="main__scroll">
-                    <div class="main__scroll-box">
+                    <div className="main__scroll-box">
                         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 0h24v24H0z" fill="none"></path>
                             <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>

@@ -37,50 +37,50 @@ function LethalDeliveryVR() {
                 <title>리썰딜리버리 VR게임 - USFREE</title>
             </Helmet>
             <div id="projectmain">
-                <div class="bg-white-gray">
-                    <div class="container-xxl px-4 pt-6" id="seemore">
-                    <div class="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">리썰딜리버리 VR게임</div>
-                        <a href="https://github.com/jsm0325/LethalDelivery_VR" target='_blank' class="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
-                        <div class="row gx-5 justify-content-center">
-                            <div class="up-animation">
-                                <div class="rounded-2 border-0">
-                                    <div class="card-body p-0">
-                                        <div class="d-flex align-items-center">
-                                            <div class="proj_text w-100 text-black fw-light">
-                                                <div class="mb-3 w-100 card card-cover-danger p-3 border-0 font-11 rounded-4">
-                                                    <span class="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
+                <div className="bg-white-gray">
+                    <div className="container-xxl px-4 pt-6" id="seemore">
+                    <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">리썰딜리버리 VR게임</div>
+                        <a href="https://github.com/jsm0325/LethalDelivery_VR" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
+                        <div className="row gx-5 justify-content-center">
+                            <div className="up-animation">
+                                <div className="rounded-2 border-0">
+                                    <div className="card-body p-0">
+                                        <div className="d-flex align-items-center">
+                                            <div className="proj_text w-100 text-black fw-light">
+                                                <div className="mb-3 w-100 card card-cover-danger p-3 border-0 font-11 rounded-4">
+                                                    <span className="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
                                                 </div>
-                                                <div class="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
-                                                    <div class="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span class="fw-light fs-6 mb-2 text-black">2024. 05. -</span></div>
-                                                    <div class="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span class="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
-                                                    <div class="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span class="fw-light fs-6 mb-2 text-black">리썰컴퍼니를 모작으로 VR로 제작되는 게임입니다.</span></div>
-                                                    <div class="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span class="fw-light fs-6 mb-2 text-black">4인 팀개발</span></div>
-                                                    <div class="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
-                                                    <span class="fw-light fs-6 mb-2 text-black px-2">
+                                                <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 05. -</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">리썰컴퍼니를 모작으로 VR로 제작되는 게임입니다.</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">4인 팀개발</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
+                                                    <span className="fw-light fs-6 mb-2 text-black px-2">
                                                     &middot; 
                                                     </span>
                                                 </div>
-                                                <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
-                                                <div class="mb-4 px-2 font-11"></div>
-                                                <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
-                                                <div class="mb-4 px-2 font-11"></div>
-                                                <div class="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div class="code p-3 border-0 mb-5 font-11 rounded-4">
+                                                <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
+                                                <div className="mb-4 px-2 font-11"></div>
+                                                <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
+                                                <div className="mb-4 px-2 font-11"></div>
+                                                <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
+                                                <div className="code p-3 border-0 mb-5 font-11 rounded-4">
                                                     # Unity<br/>
 
                                                 </div>
                                                 <hr/>
-                                                <div class="font-11 fs-2 fw-bold"><b>Logo</b></div>
-                                                <img class="mb-5" src={img1}></img>
-                                                <p class="mb-5 font-11">-</p>
+                                                <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
+                                                <img className="mb-5" src={img1}></img>
+                                                <p className="mb-5 font-11">-</p>
                                                 
-                                                <div class="font-11 fs-2 fw-bold"><b>Developing</b></div>
-                                                <div class="font-11 fs-6 fw-bold mb-3">최종 업데이트 : {updatedate}</div>
+                                                <div className="font-11 fs-2 fw-bold"><b>Developing</b></div>
+                                                <div className="font-11 fs-6 fw-bold mb-3">최종 업데이트 : {updatedate}</div>
                                                 {/* 
                                                 <img className="mb-2 shadow-lg" src={img2}></img>
-                                                <p class="mb-5 font-11">- 메인 로고 화면</p>
+                                                <p className="mb-5 font-11">- 메인 로고 화면</p>
                                                 <img className="mb-2 shadow-lg" src={img3}></img>
-                                                <p class="mb-5 font-11">- 게임 모드 선택 화면</p>
+                                                <p className="mb-5 font-11">- 게임 모드 선택 화면</p>
                                                 <video src={video} controls controlsList="nodownload"></video><br/><br/>*/}
                                             </div>
                                         </div>
@@ -88,7 +88,7 @@ function LethalDeliveryVR() {
                                 </div> 
                             </div>
                         </div>
-                        <div class="text-end">
+                        <div className="text-end">
                             <Link to='/project' className="btn btn-outline-dark px-4 py-2-5 fs-6 fw-bolder mt-3 mb-5 rounded-4"><FontAwesomeIcon icon={faBars} />　목록으로</Link>
                         </div>
                     </div>

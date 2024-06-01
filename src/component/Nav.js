@@ -84,32 +84,32 @@ return (
     <div>
       <ToTopButton />
       <div id="add-fixed" className={`navbar-fixed-attr ${isScrollingUp ? 'show-navbar' : 'hide-navbar'}`}>
-        <nav id="navbarcontrol" class="navbar navbar-light navbar-py navbar-upper navbar-expand-lg"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
-          <div id='changecontainer' class="container-xxl px-4">
-              <NavLink exact to="/" className="navbar-brand" id="mains" onClick={mainlogo} title="Home"><img class="logoimg no-rounded"></img></NavLink>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <nav id="navbarcontrol" className="navbar navbar-light navbar-py navbar-upper navbar-expand-lg"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
+          <div id='changecontainer' className="container-xxl px-4">
+              <NavLink exact='true' to="/" className="navbar-brand" id="mains" onClick={mainlogo} title="Home"><img className="logoimg no-rounded"></img></NavLink>
+              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <label class="hamburger">
+                <label className="hamburger">
                   <input type="checkbox" id="hbg"></input>
                   <svg viewBox="0 0 32 32">
-                    <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
-                    <path class="line" d="M7 16 27 16"></path>
+                    <path className="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                    <path className="line" d="M7 16 27 16"></path>
                   </svg>
                 </label>
               </button>
-              <div class="collapse navbar-collapse justify-content-center-navbar navbar-left-margin" id="navbarSupportedContent"> {/* navbar-left-margin 가운데 정렬용 */}
-                <ul class="navbar-nav mb-2 mb-lg-0 fs-6-5">
-                  <NavLink exact to="/profile" className="nav-link navbar-items" title="Profile"><li class="nav-item">프로필</li></NavLink>
-                  <NavLink exact to="/project" className="nav-link navbar-items" title="Project"><li class="nav-item">프로젝트</li></NavLink>
-                  <a class="nav-link navbar-items" href="https://github.com/usfree" target='_blank' title="Github"><li class="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
-                  <a class="nav-link navbar-items" href="https://velog.io/@usfree" target='_blank' title="Blog"><li class="nav-item">블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
-                  <a class="nav-link navbar-items" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank' title="Mail"><li class="nav-item">메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
+              <div className="collapse navbar-collapse justify-content-center-navbar navbar-left-margin" id="navbarSupportedContent"> {/* navbar-left-margin 가운데 정렬용 */}
+                <ul className="navbar-nav mb-2 mb-lg-0 fs-6-5">
+                  <NavLink exact='true' to="/profile" className="nav-link navbar-items" title="Profile"><li className="nav-item">프로필</li></NavLink>
+                  <NavLink exact='true' to="/project" className="nav-link navbar-items" title="Project"><li className="nav-item">프로젝트</li></NavLink>
+                  <a className="nav-link navbar-items" href="https://github.com/usfree" target='_blank' title="Github"><li className="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
+                  <a className="nav-link navbar-items" href="https://velog.io/@usfree" target='_blank' title="Blog"><li className="nav-item">블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
+                  <a className="nav-link navbar-items" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank' title="Mail"><li className="nav-item">메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
                   
-                  <span class="hamburger-copy text-black pt-5 font-letter-space only-mobile-view font-11">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
-                  <span class="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
+                  <span className="hamburger-copy text-black pt-5 font-letter-space only-mobile-view font-11">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
+                  <span className="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
                 </ul>
               </div>
-              <div class="sad-test"><DarkModeToggle/></div>
+              <div className="sad-test"><DarkModeToggle/></div>
           </div>
         </nav>
       </div>

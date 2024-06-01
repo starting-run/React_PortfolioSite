@@ -75,7 +75,7 @@ function Home_1() {
         <div className="scroll-container_hor" ref={scrollRef}>
 
           <div className="section_hor">
-            <video class="background-video_hor" poster={poster} autoPlay muted loop>
+            <video className="background-video_hor" poster={poster} autoPlay muted loop>
                 <source src={intro} type="video/mp4" />
             </video>
             <div className="text-container_hor">
@@ -90,7 +90,7 @@ function Home_1() {
           </div>
 
           <div className="section_hor">
-                <video class="background-video_hor" poster={poster2} autoPlay muted loop>
+                <video className="background-video_hor" poster={poster2} autoPlay muted loop>
                     <source src={intro2} type="video/mp4" />
                 </video>
                 <div className="text-container_hor">
@@ -105,7 +105,7 @@ function Home_1() {
           </div>
 
           <div className="section_hor">
-                <video class="background-video_hor" poster={poster3} autoPlay muted loop>
+                <video className="background-video_hor" poster={poster3} autoPlay muted loop>
                     <source src={intro3} type="video/mp4" />
                 </video>
                 <div className="text-container_hor">
@@ -120,7 +120,7 @@ function Home_1() {
           </div>
 
           <div className="section_hor">
-                <video class="background-video_hor" poster={poster4} autoPlay muted loop>
+                <video className="background-video_hor" poster={poster4} autoPlay muted loop>
                     <source src={intro4} type="video/mp4" />
                 </video>
                 <div className="text-container_hor">
@@ -135,7 +135,7 @@ function Home_1() {
           </div>
 
           <div className="section_hor">
-                <video class="background-video_hor" poster={poster1} autoPlay muted loop>
+                <video className="background-video_hor" poster={poster1} autoPlay muted loop>
                     <source src={intro1} type="video/mp4" />
                 </video>
                 <div className="text-container_hor">
@@ -157,7 +157,7 @@ function Home_1() {
             <div className="progress-bar_hor" style={{ width: `${progress}%` }} />
         </div>
         <div className="scroll-down-indicator_hor">
-          <div class="scroll_icon"><span></span><span></span><span></span></div>
+          <div className="scroll_icon"><span></span><span></span><span></span></div>
         </div>
       </div>
     );

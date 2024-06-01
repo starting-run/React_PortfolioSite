@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
@@ -9,7 +9,7 @@ import prop1 from '../images/projects/prop1/thum.png';
 import prop1pdf from '../images/projects/prop1/rev_prop_focus_on_you.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faCircleArrowRight, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faCircleArrowRight, faMagnifyingGlass, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
@@ -20,82 +20,139 @@ let city, country;
 function filter() {
     let search = document.getElementById("search").value.toLowerCase();
     let listInner = document.getElementsByClassName("img-fluid");
-    var empty = 0;
-    if (window.event.keyCode == 13) {
-        for (let i = 0; i < listInner.length; i++) {
-            city = listInner[i].getElementsByClassName("city");
-            country = listInner[i].getElementsByClassName("country");
-            if (city[0].innerHTML.toLowerCase().indexOf(search) != -1 ||
-                country[0].innerHTML.toLowerCase().indexOf(search) != -1
-            ) {
-                listInner[i].style.display = ""
-                empty++;
-            } else {
-                listInner[i].style.display = "none"
-            }
+    let empty = 0;
 
-            if (empty == 0) {
-                $('#search_empty').removeClass('kor-hidden');
-            }
-            else {
-                $("#search_empty").addClass('kor-hidden');
-            }
+    for (let i = 0; i < listInner.length; i++) {
+        let cityElements = listInner[i].getElementsByClassName("city");
+        let countryElements = listInner[i].getElementsByClassName("country");
+        let city = cityElements.length > 0 ? cityElements[0].innerHTML.toLowerCase() : "";
+        let country = countryElements.length > 0 ? countryElements[0].innerHTML.toLowerCase() : "";
+
+        if (city.indexOf(search) !== -1 || country.indexOf(search) !== -1) {
+            listInner[i].style.display = "";
+            empty++;
+        } else {
+            listInner[i].style.display = "none";
         }
     }
-    
-  }  
+
+    if (empty === 0) {
+        $('#search_empty').removeClass('kor-hidden');
+    } else {
+        $("#search_empty").addClass('kor-hidden');
+    }
+}
+
+
 
 function Project() {
+    useEffect(() => {
+        const searchInput = document.getElementById('search');
+        const clearSearchLabel = document.getElementById('clear-search');
+        const labelforsearch = document.getElementById('labelforsearch');
+
+        const handleSearchInput = (event) => {
+            if (event.keyCode === 13) {
+                filter();
+            }
+            if (searchInput.value.trim() !== "") {
+                clearSearchLabel.style.display = 'visible';
+                clearSearchLabel.style.opacity = '1';
+            } else {
+                clearSearchLabel.style.display = 'hidden';
+                clearSearchLabel.style.opacity = '0';
+            }
+        };
+
+        if (labelforsearch) {
+            labelforsearch.addEventListener('click', filter);
+        }
+
+        if (searchInput) {
+            searchInput.addEventListener('keyup', handleSearchInput);
+        }
+
+        if (clearSearchLabel) {
+            clearSearchLabel.addEventListener('click', () => {
+                if (searchInput) {
+                    searchInput.value = '';
+                }
+                clearSearchLabel.style.display = 'hidden';
+                clearSearchLabel.style.opacity = '0';
+                filter();
+            });
+        }
+
+        // Cleanup the event listeners on component unmount
+        return () => {
+            if (labelforsearch) {
+                labelforsearch.removeEventListener('click', filter);
+            }
+
+            if (searchInput) {
+                searchInput.removeEventListener('keyup', handleSearchInput);
+            }
+
+            if (clearSearchLabel) {
+                clearSearchLabel.removeEventListener('click', filter);
+            }
+        };
+    }, []); // 빈 배열을 전달하여 컴포넌트가 마운트될 때만 useEffect가 실행되도록 함.
+
+
     const notify = () => toast.error('준비중입니다.', {duration: 4000});
       return (
         <div>
             <Helmet><title>프로젝트 - USFREE</title></Helmet>
-            <section class="bg-white-gray">
-            <div class="container-xxl px-4 pt-6 min-vh-100">
-            {/*<div class="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>*/}
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-auto fs-1 font-11 fw-bold2 font-letter-space-sm text-black mb-5">프로젝트
+            <section className="bg-white-gray">
+            <div className="container-xxl px-4 pt-6 min-vh-100">
+            {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>*/}
+                <div className="row align-items-center justify-content-between">
+                    <div className="col-auto fs-1 font-11 fw-bold2 font-letter-space-sm text-black mb-5">프로젝트
                         <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
-                            <span class="prj-sub fs-6 fw-light font-4 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> 깃허브에서 모아보기 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
+                            <span className="prj-sub fs-6 fw-light font-4 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> 깃허브에서 모아보기 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
                             </span>
                         </a>
                     </div>
-                    <div class="col-auto InputContainer mb-5">
-                        <input type="text" name="text" class="input" id="search" onKeyUp={filter} placeholder="프로젝트 검색" autofocus></input>
-                        <label for="input" class="labelforsearch">
-                            <svg viewBox="0 0 512 512" class="searchIcon"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
-                        </label>
-                    </div>
-                    <div class="col-auto mobile-moabogi mb-5">
+                    <div className="col-auto InputContainer mb-5">
+                            <input type="text" name="text" className="input" id="search" placeholder="프로젝트 검색" autoFocus></input>
+                            <label id="clear-search" className="clear-search pe-3 text-black" style={{ display: 'hidden', opacity:'0'}}>
+                                <FontAwesomeIcon icon={faTimes} />
+                            </label>
+                            <label htmlFor="input" className="labelforsearch" id="labelforsearch">
+                                <svg viewBox="0 0 512 512" className="searchIcon mb-1"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+                            </label>
+                        </div>
+                    <div className="col-auto mobile-moabogi mb-5">
                         <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
-                        <span class="fs-6 fw-light font-4"><FontAwesomeIcon icon={faGithub} /> 모아보기</span>
+                        <span className="fs-6 fw-light font-4"><FontAwesomeIcon icon={faGithub} /> 모아보기</span>
                         </a>
                     </div> 
                 </div>
-                <div class="vh-100 kor-hidden" id="search_empty">
-                    <div class="mb-3 w-100 card card-cover-nonhover p-3  border-0">
-                        <div class="fs-0-5 text-center mb-5 pt-5 text-black"><FontAwesomeIcon icon={faMagnifyingGlass}/></div>
-                        <div class="text-black font-3 fs-5 text-center mb-5"><span class="highlight">검색 결과가 없습니다!</span> 다시 검색해주세요.<br/><br/>검색은 한글과 영어를 모두 지원합니다.<br/>ex) UnrealEngine → 언리얼, 언리얼엔진</div>
+                <div className="vh-100 kor-hidden" id="search_empty">
+                    <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0">
+                        <div className="fs-0-5 text-center mb-5 pt-5 text-black"><FontAwesomeIcon icon={faMagnifyingGlass}/></div>
+                        <div className="text-black font-3 fs-5 text-center mb-5"><span className="highlight">검색 결과가 없습니다!</span> 다시 검색해주세요.<br/><br/>검색은 한글과 영어를 모두 지원합니다.<br/>ex) UnrealEngine → 언리얼, 언리얼엔진</div>
                     </div>
                 </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="mb-5 pb-5">
-                        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
-                            <div class="img-fluid"> 
+                <div className="row gx-5 justify-content-center">
+                    <div className="mb-5 pb-5">
+                        <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
+                            <div className="img-fluid"> 
                                 <NavLink to="orbit" id="orbit">
-                                    <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <video class="card-image-main video-filter" autoPlay muted loop>
+                                    <div className="col">
+                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                                            <video className="card-image-main video-filter" autoPlay muted loop>
                                                 <source src={project6} type="video/mp4" />
                                             </video>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 게임</span>
-                                                <ul class="list-unstyled mt-auto small2">
-                                                    <li class="d-flex align-items-center me-3 mb-5">
-                                                        <span class="">2024. 03. - Developing</span>
+                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 게임<div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity</div></span>
+                                                <ul className="list-unstyled mt-auto small2">
+                                                    <li className="d-flex align-items-center me-3 mb-5">
+                                                        <span className="">2024. 03. - Developing</span>
                                                     </li>
-                                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span class="text-end fs-4 card-in-arrow">
+                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                                        <span className="text-end fs-4 card-in-arrow">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -105,19 +162,19 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>
-                            <div class="img-fluid"> 
+                            <div className="img-fluid"> 
                                 <NavLink to="lethaldeliveryvr" id="lethaldeliveryvr">
-                                    <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                        <img class="card-image-main" src ={project5}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 VR게임</span>
-                                                <ul class="list-unstyled mt-auto small2">
-                                                    <li class="d-flex align-items-center me-3 mb-5">
-                                                        <span class="">2024. 05. - Developing</span>
+                                    <div className="col">
+                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                                        <img className="card-image-main" src ={project5}></img>
+                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 VR게임<div className="kor-hidden">LethalDeliveryvr, 유니티, 씨샵, C#, Unity</div></span>
+                                                <ul className="list-unstyled mt-auto small2">
+                                                    <li className="d-flex align-items-center me-3 mb-5">
+                                                        <span className="">2024. 05. - Developing</span>
                                                     </li>
-                                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span class="text-end fs-4 card-in-arrow">
+                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                                        <span className="text-end fs-4 card-in-arrow">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -127,19 +184,19 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>
-                            <div class="img-fluid">
+                            <div className="img-fluid">
                                 <NavLink to="website" id="website">
-                                    <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <img class="card-image-main" src ={project4}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 웹사이트<div class="kor-hidden">portfolio website</div></span>
-                                                <ul class="list-unstyled mt-auto small2">
-                                                    <li class="d-flex align-items-center me-3 mb-5">
-                                                        <span class="">2023. 10. - 2024. 02.</span>
+                                    <div className="col">
+                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                                            <img className="card-image-main" src ={project4}></img>
+                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 웹사이트<div className="kor-hidden">portfolio website, 리액트, HTML, CSS</div></span>
+                                                <ul className="list-unstyled mt-auto small2">
+                                                    <li className="d-flex align-items-center me-3 mb-5">
+                                                        <span className="">2023. 10. - 2024. 02.</span>
                                                     </li>
-                                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span class="text-end fs-4 card-in-arrow">
+                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                                        <span className="text-end fs-4 card-in-arrow">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -149,19 +206,19 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>
-                            <div class="img-fluid">
+                            <div className="img-fluid">
                                 <NavLink to="pacman" id="pacman">
-                                    <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <img class="card-image-main" src ={project3}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 게임<div class="kor-hidden">pacman game</div></span>
-                                                <ul class="list-unstyled mt-auto small2">
-                                                    <li class="d-flex align-items-center me-3 mb-4">
-                                                        <span class="">2023. 10.</span>
+                                    <div className="col">
+                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                                            <img className="card-image-main" src ={project3}></img>
+                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 게임<div className="kor-hidden">pacman game, 프로세싱, 자바, 씨, C</div></span>
+                                                <ul className="list-unstyled mt-auto small2">
+                                                    <li className="d-flex align-items-center me-3 mb-4">
+                                                        <span className="">2023. 10.</span>
                                                     </li>
-                                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span class="text-end fs-4 card-in-arrow">
+                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                                        <span className="text-end fs-4 card-in-arrow">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -171,19 +228,19 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>
-                            <div class="img-fluid">
+                            <div className="img-fluid">
                                 <NavLink to="ironman" id="ironman">
-                                    <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <img class="card-image-main" src ={project2}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 모델<div class="kor-hidden">ironman model</div></span>
-                                                <ul class="list-unstyled mt-auto small2">
-                                                    <li class="d-flex align-items-center me-3 mb-4">
-                                                        <span class="">2021. 06.</span>
+                                    <div className="col">
+                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                                            <img className="card-image-main" src ={project2}></img>
+                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 모델<div className="kor-hidden">ironman model, 오픈지엘, OpenGL, C, 씨</div></span>
+                                                <ul className="list-unstyled mt-auto small2">
+                                                    <li className="d-flex align-items-center me-3 mb-4">
+                                                        <span className="">2021. 06.</span>
                                                     </li>
-                                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span class="text-end fs-4 card-in-arrow">
+                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                                        <span className="text-end fs-4 card-in-arrow">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -193,19 +250,19 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>
-                            <div class="img-fluid">
+                            <div className="img-fluid">
                                 <NavLink to="snake" id="snake">
-                                    <div class="col">
-                                        <div class="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <img class="card-image-main" src ={project1}></img>
-                                            <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span class="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 게임<div class="kor-hidden">Snake game</div></span>
-                                                <ul class="list-unstyled mt-auto small2">
-                                                    <li class="d-flex align-items-center me-3 mb-4">
-                                                        <span class="">2020. 06.</span>
+                                    <div className="col">
+                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                                            <img className="card-image-main" src ={project1}></img>
+                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 게임<div className="kor-hidden">Snake game, 유니티, 씨샵, C#, Unity</div></span>
+                                                <ul className="list-unstyled mt-auto small2">
+                                                    <li className="d-flex align-items-center me-3 mb-4">
+                                                        <span className="">2020. 06.</span>
                                                     </li>
-                                                    <li class="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span class="text-end fs-4 card-in-arrow">
+                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                                        <span className="text-end fs-4 card-in-arrow">
                                                             <FontAwesomeIcon icon={faCircleArrowRight}/>
                                                         </span>
                                                     </li>
@@ -218,19 +275,19 @@ function Project() {
                         </div>
                     </div>
                 </div>
-                <div class="img-fluid mb-4">
+                <div className="img-fluid mb-4">
                     <a href={prop1pdf}>
-                        <div class="col">
-                            <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                <img class="card-image" src ={prop1}></img>
-                                <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
-                                    <span class="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU<div class="kor-hidden">포커스온유, smilegate</div></span>
-                                    <ul class="list-unstyled mt-auto">
-                                        <li class="d-flex align-items-center me-3">
-                                            <span class="">역기획서</span>
+                        <div className="col">
+                            <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
+                                <img className="card-image" src ={prop1}></img>
+                                <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
+                                    <span className="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU<div className="kor-hidden">포커스온유, smilegate</div></span>
+                                    <ul className="list-unstyled mt-auto">
+                                        <li className="d-flex align-items-center me-3">
+                                            <span className="">역기획서</span>
                                         </li>
-                                        <li class="d-flex align-items-center">
-                                            <span class="text-end fs-4 card-in-arrow">
+                                        <li className="d-flex align-items-center">
+                                            <span className="text-end fs-4 card-in-arrow">
                                                 <FontAwesomeIcon icon={faCircleArrowRight}/>
                                             </span>
                                         </li>
@@ -240,19 +297,19 @@ function Project() {
                         </div>
                     </a>
                 </div>
-                <div class="img-fluid">
+                <div className="img-fluid">
                     <a onClick={notify}>
-                        <div class="col">
-                            <div class="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                <img class="card-image" src ={project5}></img>
-                                <div class="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
-                                    <span class="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR<div class="kor-hidden">리썰딜리버리</div></span>
-                                    <ul class="list-unstyled mt-auto">
-                                        <li class="d-flex align-items-center me-3">
-                                            <span class="">기획서</span>
+                        <div className="col">
+                            <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
+                                <img className="card-image" src ={project5}></img>
+                                <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
+                                    <span className="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR<div className="kor-hidden">리썰딜리버리</div></span>
+                                    <ul className="list-unstyled mt-auto">
+                                        <li className="d-flex align-items-center me-3">
+                                            <span className="">기획서</span>
                                         </li>
-                                        <li class="d-flex align-items-center">
-                                            <span class="text-end fs-4 card-in-arrow">
+                                        <li className="d-flex align-items-center">
+                                            <span className="text-end fs-4 card-in-arrow">
                                                 <FontAwesomeIcon icon={faCircleArrowRight}/>
                                             </span>
                                         </li>
