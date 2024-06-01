@@ -3,10 +3,19 @@ import {NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import intro from '../../images/Unity/Orbit/main_video.mp4';
+import poster from '../../images/Unity/Orbit/main1.png';
+
 import intro1 from '../../images/projects/portfolio_website/intro_video.mp4';
-import intro2 from '../../images/Pacman/Processing_Pacman.mp4'
-import intro3 from '../../images/OpenGL/ironman.mp4'
-import intro4 from '../../images/Unity/Unity_Snake.mp4'
+import poster1 from '../../images/sec3.png';
+
+import intro2 from '../../images/Pacman/Processing_Pacman.mp4';
+import poster2 from '../../images/Pacman/poster_pacman.png';
+
+import intro3 from '../../images/OpenGL/ironman.mp4';
+import poster3 from '../../images/OpenGL/poster_ironman.png';
+
+import intro4 from '../../images/Unity/Unity_Snake.mp4';
+import poster4 from '../../images/Unity/poster_snake.png';
 
 function Home_1() {
     const scrollRef = useRef(null);
@@ -66,7 +75,7 @@ function Home_1() {
         <div className="scroll-container_hor" ref={scrollRef}>
 
           <div className="section_hor">
-            <video class="background-video_hor" autoPlay muted loop>
+            <video class="background-video_hor" poster={poster} autoPlay muted loop>
                 <source src={intro} type="video/mp4" />
             </video>
             <div className="text-container_hor">
@@ -81,7 +90,7 @@ function Home_1() {
           </div>
 
           <div className="section_hor">
-                <video class="background-video_hor" autoPlay muted loop>
+                <video class="background-video_hor" poster={poster2} autoPlay muted loop>
                     <source src={intro2} type="video/mp4" />
                 </video>
                 <div className="text-container_hor">
@@ -96,7 +105,7 @@ function Home_1() {
           </div>
 
           <div className="section_hor">
-                <video class="background-video_hor" autoPlay muted loop>
+                <video class="background-video_hor" poster={poster3} autoPlay muted loop>
                     <source src={intro3} type="video/mp4" />
                 </video>
                 <div className="text-container_hor">
@@ -111,7 +120,7 @@ function Home_1() {
           </div>
 
           <div className="section_hor">
-                <video class="background-video_hor" autoPlay muted loop>
+                <video class="background-video_hor" poster={poster4} autoPlay muted loop>
                     <source src={intro4} type="video/mp4" />
                 </video>
                 <div className="text-container_hor">
@@ -126,7 +135,7 @@ function Home_1() {
           </div>
 
           <div className="section_hor">
-                <video class="background-video_hor" autoPlay muted loop>
+                <video class="background-video_hor" poster={poster1} autoPlay muted loop>
                     <source src={intro1} type="video/mp4" />
                 </video>
                 <div className="text-container_hor">
