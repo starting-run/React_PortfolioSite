@@ -44,7 +44,7 @@ function Home_5() {
             pubDate: item.querySelector('pubDate').textContent,
           };
         });
-        postsArray = postsArray.sort((a, b) => b.pubDate - a.pubDate).slice(0, 3);
+        postsArray = postsArray.sort((a, b) => b.pubDate - a.pubDate).slice(0, 6); //글 목록 최대 6개까지 출력
 
         setPosts(postsArray);
         setLoading(false);  // 데이터 로드 완료 후 로딩 상태 false로 설정
