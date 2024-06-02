@@ -86,14 +86,14 @@ function Home_5() {
                   {posts.map((post, index) => {
                     const formattedDate = format(new Date(post.pubDate), 'yyyy. MM. dd.');
                     const truncatedTitle = truncateText(post.title, 25);
-                    const truncatedDescription = truncateText(post.description, 85);
+                    const truncatedDescription = truncateText(post.description, 80);
 
                     return (
                       <div className='img-fluid'>
                         <a href={post.link} target="_blank" rel="noopener noreferrer">
                           <li key={index} className='col text-start mb-3'>
                             <div className="card card-cover card-border-0 rounded-4 p-4">
-                            {post.imageUrl && <img src={post.imageUrl} alt="Post thumbnail" className='mb-3'/>}
+                            {post.imageUrl && <img src={post.imageUrl} alt="Post thumbnail" className='mb-3' style={{height: '225px'}}/>}
                                 <div className="font-11 fs-4 mb-1 fw-bold text-black">{truncatedTitle}</div>
                               <div className="mb-4 font-11 fs-8 text-black">{formattedDate}</div>
                               <div className="font-11 fs-6 text-black">{truncatedDescription}</div>
