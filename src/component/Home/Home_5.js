@@ -51,7 +51,7 @@ function Home_5() {
       })
       .catch(error => {
         console.error('Error fetching the RSS feed:', error);
-        setLoading(false);  // 에러 발생 시에도 로딩 상태 false로 설정
+        setLoading(true);  // 에러 발생 시에도 로딩 true
       });
   }, []);
 
