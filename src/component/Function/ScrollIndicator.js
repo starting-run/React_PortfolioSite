@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const ProgressContainer = styled.div`
-  width: 100%;
+  width: 110%;
   height: 3px;
   background: transparent;
   position: fixed;

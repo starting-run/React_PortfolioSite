@@ -275,49 +275,51 @@ function Project() {
                         </div>
                     </div>
                 </div>
-                <div className="img-fluid mb-4">
-                    <a href={prop1pdf}>
-                        <div className="col">
-                            <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                <img className="card-image-main" src ={prop1}></img>
-                                <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
-                                    <span className="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU<div className="kor-hidden">포커스온유, smilegate</div></span>
-                                    <ul className="list-unstyled mt-auto">
-                                        <li className="d-flex align-items-center me-3">
-                                            <span className="">역기획서</span>
-                                        </li>
-                                        <li className="d-flex align-items-center">
-                                            <span className="text-end fs-4 card-in-arrow">
-                                                <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
-                                            </span>
-                                        </li>
-                                    </ul>
+                <div class="cards">
+                    <div className="img-fluid mb-4">
+                        <a href={prop1pdf}>
+                            <div className="col">
+                                <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
+                                    <img className="card-image-main" src ={prop1}></img>
+                                    <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
+                                        <span className="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU<div className="kor-hidden">포커스온유, smilegate</div></span>
+                                        <ul className="list-unstyled mt-auto">
+                                            <li className="d-flex align-items-center me-3">
+                                                <span className="">역기획서</span>
+                                            </li>
+                                            <li className="d-flex align-items-center">
+                                                <span className="text-end fs-4 card-in-arrow">
+                                                    <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
-                <div className="img-fluid">
-                    <a onClick={notify} style={{cursor:'not-allowed'}}>
-                        <div className="col">
-                            <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                <img className="card-image-main" src ={project5}></img>
-                                <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
-                                    <span className="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR<div className="kor-hidden">리썰딜리버리</div></span>
-                                    <ul className="list-unstyled mt-auto">
-                                        <li className="d-flex align-items-center me-3">
-                                            <span className="">기획서</span>
-                                        </li>
-                                        <li className="d-flex align-items-center">
-                                            <span className="text-end fs-4 card-in-arrow">
-                                                <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
-                                            </span>
-                                        </li>
-                                    </ul>
+                        </a>
+                    </div>
+                    <div className="img-fluid">
+                        <a onClick={notify} style={{cursor:'not-allowed'}}>
+                            <div className="col">
+                                <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
+                                    <img className="card-image-main" src ={project5}></img>
+                                    <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
+                                        <span className="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR<div className="kor-hidden">리썰딜리버리</div></span>
+                                        <ul className="list-unstyled mt-auto">
+                                            <li className="d-flex align-items-center me-3">
+                                                <span className="">기획서</span>
+                                            </li>
+                                            <li className="d-flex align-items-center">
+                                                <span className="text-end fs-4 card-in-arrow">
+                                                    <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </a>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
