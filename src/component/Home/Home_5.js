@@ -56,12 +56,12 @@ function Home_5() {
     <div className="Home_5">
       <div className="container-xxl px-4 pt-6" id="seemore">
           <div className="row gx-5 justify-content-center">
-            <div class="d-flex justify-content-between">
+            <div className="d-flex justify-content-between">
               <div className="mb-3 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">최신 블로그 글</div>
               <a href="https://velog.io/@usfree/posts" target='_blank'><div className="mt-3 fs-5 font-11 fw-normal font-letter-space-sm text-uppercase">더보기 <FontAwesomeIcon icon={faCircleArrowRight}/></div></a>
             </div>
               <ul>
-                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
+                <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
                   {posts.map((post, index) => {
                     const formattedDate = format(new Date(post.pubDate), 'yyyy. MM. dd.');
                     const truncatedTitle = truncateText(post.title, 25);
@@ -71,10 +71,10 @@ function Home_5() {
                       <div className='img-fluid'>
                         <a href={post.link} target="_blank" rel="noopener noreferrer">
                           <li key={index} className='col text-start mb-3'>
-                            <div class="card card-cover card-border-0 rounded-4 p-4">
-                                <div class="font-11 fs-4 mb-1 fw-bold text-black">{truncatedTitle}</div>
-                              <div class="mb-4 font-11 fs-8 text-black">{formattedDate}</div>
-                              <div class="font-11 fs-6 text-black">{truncatedDescription}</div>
+                            <div className="card card-cover card-border-0 rounded-4 p-4">
+                                <div className="font-11 fs-4 mb-1 fw-bold text-black">{truncatedTitle}</div>
+                              <div className="mb-4 font-11 fs-8 text-black">{formattedDate}</div>
+                              <div className="font-11 fs-6 text-black">{truncatedDescription}</div>
                             </div>
                           </li>
                         </a>
