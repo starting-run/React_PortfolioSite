@@ -10,7 +10,7 @@ function Home_5() {
   let currentIndex = 0;
 
   const corsProxies = [
-    'https://proxy.cors.sh/',
+    'https://cors-proxy.org/api/',
     'https://corsproxy.io/?',
     //프록시추가가능
   ];
