@@ -11,6 +11,7 @@ function Home_5() {
 
   const corsProxies = [
     'https://corsproxy.io/?',
+    'https://vercel-cors-proxy-puce.vercel.app/?url=',
     //프록시추가가능
   ];
 
