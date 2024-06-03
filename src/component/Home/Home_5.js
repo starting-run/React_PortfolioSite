@@ -10,7 +10,7 @@ function Home_5() {
   let currentIndex = 0;
 
   const corsProxies = [
-    'https://cors-anywhere.herokuapp.com/',
+    'https://corsproxy.io/?',
     //'https://thingproxy.freeboard.io/fetch/', //localhost용
     //프록시추가가능
   ];

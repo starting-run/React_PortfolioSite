@@ -36,7 +36,6 @@
     "web-vitals": "^2.1.4",
     "xml2js": "^0.6.2"
   },
-  "proxy": "https://cors-anywhere.herokuapp.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "set \"GENERATE_SOURCEMAP=false\" && react-scripts build",
