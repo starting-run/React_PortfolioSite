@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import {Route, Routes, HashRouter, BrowserRouter} from 'react-router-dom'; 
+import {Route, Routes, BrowserRouter} from 'react-router-dom'; 
 import ScrollToTop from "./component/Function/ScrollToTop";
 import ScrollIndicator from './component/Function/ScrollIndicator';
 import Home from './component/Home/Home';
