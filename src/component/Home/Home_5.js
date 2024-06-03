@@ -10,8 +10,9 @@ function Home_5() {
   let currentIndex = 0;
 
   const corsProxies = [
-    'https://cors-proxy.org/api/',
     'https://corsproxy.io/?',
+    'https://thingproxy.freeboard.io/fetch/',
+    'https://api.allorigins.win/get?url=',
     //프록시추가가능
   ];
 
@@ -71,9 +72,9 @@ function Home_5() {
               <a href="https://velog.io/@usfree/posts" target='_blank'><div className="mt-3 fs-5 font-11 fw-normal font-letter-space-sm text-uppercase">더보기 <FontAwesomeIcon icon={faCircleArrowRight}/></div></a>
             </div>
                 {loading ? (  // 로딩 상태일 때 로딩 메시지 표시
-                <div class="font-11 text-black fs-5 justify-content-center d-grid">
-                  <div class="justify-content-center d-flex mb-3">
-                    <div class="ld-ripple">
+                <div className="font-11 text-black fs-5 justify-content-center d-grid">
+                  <div className="justify-content-center d-flex mb-3">
+                    <div className="ld-ripple">
                       <div></div>
                       <div></div>
                     </div>
