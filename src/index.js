@@ -22,7 +22,7 @@ import Footer from './component/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <HashRouter>
+    <BrowserRouter>
     {/*BrowserRouter*/}
       <Toaster position='bottom-right'/>
       <App />
@@ -41,7 +41,7 @@ root.render(
       <ScrollIndicator/>
       <Nav />
       <Footer/>
-    </HashRouter>
+    </BrowserRouter>
 );
 
 
