@@ -11,7 +11,6 @@ function Home_5() {
 
   const corsProxies = [
     'https://corsproxy.io/?',
-    'https://api.allorigins.win/get?url=',
     //프록시추가가능
   ];
 
