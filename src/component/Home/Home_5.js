@@ -11,7 +11,7 @@ function Home_5() {
 
   const corsProxies = [
     'https://proxy.cors.sh/',
-    //'https://thingproxy.freeboard.io/fetch/', //localhost용
+    'https://corsproxy.io/?',
     //프록시추가가능
   ];
 
