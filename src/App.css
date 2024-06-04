@@ -272,6 +272,11 @@
   }
 }
 
+.container_hor-out {
+  position: relative;
+  overflow: hidden;
+}
+
 .container_hor {
   display: flex;
   align-items: center;
@@ -1791,7 +1796,6 @@ body {
   -moz-animation: fadein 2000ms ease-out; /* Firefox */
   -webkit-animation: fadein 2000ms ease-out; /* Safari and  Chrome */
   -o-animation: fadein 2000ms ease-out; /* Opera */
-  overflow-x: hidden; /* 20240604 */
 }
 
 hr {
