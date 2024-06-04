@@ -142,7 +142,7 @@ function Home_1() {
                   </video>
                   <div className="text-container_hor">
                       <div className="text-content_hor text-black">
-                      <div className="font-11 font-letter-space fs-0-5 fw-bold2 ">포트폴리오 웹사이트</div>
+                      <div className="font-11 font-letter-space fs-0-5 fw-bold2">포트폴리오 웹사이트</div>
                       <div className="font-11 font-letter-space fs-4 fs-bold3 mb-4">포트폴리오를 효율적으로 게시하기 위한 웹사이트</div>
                       <NavLink to="project/website" id="website" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
                           자세히　<FontAwesomeIcon icon={faCircleArrowRight}/>
