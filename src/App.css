@@ -303,17 +303,7 @@
   border: none;
   box-sizing: border-box;
   overflow: hidden;
-}
-
-.bg-video-main {
-  position: absolute; /* 스크롤시 고정은 absolute */
-  opacity: 0.15; /* 원본값 0.15 */
-  align-items: center;
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  background-size : cover;
-  /* filter:blur(2px); 배경 블러 */
+  border-radius: var(--bs-border-radius-xl) !important;
 }
 
 .background-text_hor {
@@ -440,6 +430,19 @@
   font-size: 2em;
   color: var(--bs-black);
 }
+
+.bg-video-main {
+  position: absolute; /* 스크롤시 고정은 absolute */
+  opacity: 0.15; /* 원본값 0.15 */
+  align-items: center;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  background-size : cover;
+  /* filter:blur(2px); 배경 블러 */
+}
+
+
 
 .ld-ripple {
   position: relative;
@@ -1788,6 +1791,7 @@ body {
   -moz-animation: fadein 2000ms ease-out; /* Firefox */
   -webkit-animation: fadein 2000ms ease-out; /* Safari and  Chrome */
   -o-animation: fadein 2000ms ease-out; /* Opera */
+  overflow-x: hidden; /* 20240604 */
 }
 
 hr {

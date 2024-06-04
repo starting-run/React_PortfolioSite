@@ -68,15 +68,15 @@ function Home_1() {
     }, [currentSection]);
 
     return (
-      <div class="">
-      <div className="container_hor">
+      <div class="scroll-button_container_hor">
         <button className="scroll-button_hor left_hor fs-0-5 font-7" onClick={handlePrevSection}>
           &lt;
         </button>
+      <div className="container_hor">
         <div className="scroll-container_hor" ref={scrollRef}>
 
           <div className="section_hor">
-            <video className="background-video_hor " poster={poster} autoPlay muted loop>
+            <video className="background-video_hor" poster={poster} autoPlay muted loop>
                 <source src={intro} type="video/mp4" />
             </video>
             <div className="text-container_hor">
@@ -151,14 +151,15 @@ function Home_1() {
           </div>
 
         </div>
-        <button className="scroll-button_hor right_hor fs-0-5 font-7" onClick={handleNextSection}>
-          &gt;
-        </button>
+
         <div className="progress-container_hor">
             <div className="progress-bar_hor" style={{ width: `${progress}%` }} />
         </div>
         
       </div>
+        <button className="scroll-button_hor right_hor fs-0-5 font-7" onClick={handleNextSection}>
+          &gt;
+        </button>
         <div className="scroll-down-indicator_hor">
           <div className="scroll_icon"><span></span><span></span><span></span></div>
         </div>
