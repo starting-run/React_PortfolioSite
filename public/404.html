@@ -1,128 +1,41 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
-    <link rel="manifest" href="%PUBLIC_URL%/site.webmanifest">
-    <link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#fc8574">
-    <meta name="msapplication-TileColor" content="#da532c">
+      <meta charset="utf-8">
+      <title>Single Page Apps for GitHub Pages</title>
+      <script type="text/javascript">
+          // Single Page Apps for GitHub Pages
+          // https://github.com/rafrex/spa-github-pages
+          // Copyright (c) 2016 Rafael Pedicini,  licensed under the MIT License
+          //  ---------------------------------------------- ------------------------
+          // This script takes the current url and  converts the path and query
+          // string into just a query string, and then  redirects the browser
+          // to the new url with only a query string  and hash fragment,
+          // e.g. http://www.foo.tld/one/two?a=b& c=d#qwe, becomes
+          // http://www.foo.tld/?p=/one/two&  q=a=b~and~c=d#qwe
+          // Note: this 404.html file must be at least  512 bytes for it to work
+          // with Internet Explorer (it is currently >  512 bytes)
 
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#FC8574" />
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="USFREE | Woohyun Cho" /> 
-    <meta property="og:url" content="usfree.site" />
-    <meta property="og:image" content="https://usfree.site/OGmetaN.png" /> 
-    <meta property="og:description" content="창의적인 꿈을 그립니다. USFREE, 조우현" />
+          // If you're creating a Project Pages site  and NOT using a custom domain,
+          // then set segmentCount to 1 (enterprise   users may need to set it to > 1).
+          // This way the code will only replace the  route part of the path, and not
+          // the real directory in which the app  resides, for example:
+          //  https://username.github.io/repo-name/one/two?  a=b&c=d#qwe becomes
+          // https://username.github.io/repo-name/? p=/one/two&q=a=b~and~c=d#qwe
+          // Otherwise, leave segmentCount as 0.
+          var segmentCount = 1;
 
-    <title>404Error - USFREE</title>
-    <meta http-equiv="refresh" content="3; url=https://usfree.site"></meta>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <style>
-      .clearfix:before,
-      .clearfix:after {
-          display: table;
-          content: ' ';
-      }
-      .clearfix:after {
-          clear: both;
-      }
-      body {
-          background: #f0f0f0 !important;
-      }
-      .page-404 .outer {
-          position: absolute;
-          top: 0;
-          display: table;
-          width: 100%;
-          height: 100%;
-      }
-      .page-404 .outer .middle {
-          display: table-cell;
-          vertical-align: middle;
-      }
-      .page-404 .outer .middle .inner {
-          width: 300px;
-          margin-right: auto;
-          margin-left: auto;
-      }
-      .page-404 .outer .middle .inner .inner-circle {
-          height: 300px;
-          border-radius: 50%;
-          background-color: #ffffff;
-      }
-      .page-404 .outer .middle .inner .inner-circle:hover i {
-          color: #FC8574!important;
-          background-color: #f5f5f5;
-          box-shadow: 0 0 0 15px #FC8574;
-      }
-      .page-404 .outer .middle .inner .inner-circle:hover span {
-          color: #FC8574;
-      }
-      .page-404 .outer .middle .inner .inner-circle i {
-          font-size: 3em;
-          line-height: 1em;
-          float: right;
-          width: 1.6em;
-          height: 1.6em;
-          margin-top: -.7em;
-          margin-right: -.5em;
-          padding: 20px;
-          -webkit-transition: all .4s;
-                  transition: all .4s;
-          text-align: center;
-          color: #f5f5f5!important;
-          border-radius: 50%;
-          background-color: #FC8574;
-          box-shadow: 0 0 0 15px #f0f0f0;
-      }
-      .page-404 .outer .middle .inner .inner-circle span {
-          font-size: 8em;
-          font-weight: 700;
-          line-height: 1.2em;
-          display: block;
-          -webkit-transition: all .4s;
-                  transition: all .4s;
-          text-align: center;
-          color: #e0e0e0;
-      }
-      .page-404 .outer .middle .inner .inner-status {
-          font-size: 20px;
-          display: block;
-          margin-top: 20px;
-          margin-bottom: 5px;
-          text-align: center;
-          color: #FC8574;
-      }
-      .page-404 .outer .middle .inner .inner-detail {
-          line-height: 1.4em;
-          display: block;
-          margin-bottom: 10px;
-          text-align: center;
-          color: #999999;
-      }
-      a {
-        text-decoration: none;
-        color: #FC8574;
-      }
-    </style>
+          var l = window.location;
+          l.replace(
+              l.protocol + '//' + l.hostname + (l.port ?   ':' + l.port : '') +
+              l.pathname.split('/').slice(0, 1 +  segmentCount).join('/') + '/?p=/' +
+              l.pathname.slice(1).split('/').slice  (segmentCount).join('/').replace(/&/g,  '~and~') +
+              (l.search ? '&q=' + l.search.slice(1) .replace(/&/g, '~and~') : '') +
+              l.hash
+          );
+
+      </script>
   </head>
   <body>
-    <div class="page-404">
-        <div class="outer">
-            <div class="middle">
-                <div class="inner">
-                    <!--BEGIN CONTENT-->
-                    <div class="inner-circle"><i class="fa fa-cogs"></i><span>404</span></div>
-                    <span class="inner-status">404 NOT FOUND</span>
-                    <span class="inner-detail">3초 후 메인화면으로 재접속됩니다.</span>
-                    <span class="inner-detail"><a href="https://usfree.site"><b>바로가기</b></a></span>
-                    <!--END CONTENT-->
-                </div>
-            </div>
-        </div>
-    </div>
   </body>
 </html>
