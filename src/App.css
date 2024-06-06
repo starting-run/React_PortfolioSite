@@ -169,6 +169,7 @@
     --bs-normal-rgb: 252, 133, 116;
     transition: all 0.3s;
     --bs-logo-img: url("images/logo_text_dark.png");
+    --bs-highlight-text: #fad0ca;
   }
   body[data-darkmode=on]{
     color: #e8e8e8 !important;
@@ -203,6 +204,7 @@
     */
     transition: all 0.3s;
     --bs-logo-img: url("images/logo_text.png");
+    --bs-highlight-text: #fc8574;
     }
 }
 
@@ -240,6 +242,7 @@
   */
   transition: all 0.3s;
   --bs-logo-img: url("images/logo_text.png");
+  --bs-highlight-text: #975e55;
   }
   body[data-darkmode=off] {
     color: #323232 !important;
@@ -269,6 +272,7 @@
     --bs-normal-rgb: 252, 133, 116;
     transition: all 0.3s;
     --bs-logo-img: url("images/logo_text_dark.png");
+    --bs-highlight-text: #fad0ca;
   }
 }
 
@@ -634,7 +638,7 @@
 }
 
 .highlight-gradient {
-  background: linear-gradient(to top, #fc8574 30%, transparent 30%);
+  background: linear-gradient(to top, var(--bs-highlight-text) 40%, transparent 40%);
   width: fit-content;
 }
 

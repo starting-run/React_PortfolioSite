@@ -21,10 +21,9 @@ class Profile extends Component {
                                 </div>
                             </div>*/}
                             <div className="row row-cols-1 row-cols-xxl-1 g-4">
-                            <div>
                                 <div className="col">
                                     <div className="h-100 overflow-hidden py-2 px-4">
-                                        <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EDUCATION</div>
+                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">학력</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
                                             <div className="col-auto text-black mb-2 font-11 p-4">
@@ -43,11 +42,9 @@ class Profile extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div>
                                 <div className="col">
                                     <div className="h-100 overflow-hidden py-2 px-4">
-                                        <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">EXPERIENCE</div>
+                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">경험 / 활동</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
                                             <div className="col-auto mb-2 font-11 p-4">
@@ -70,11 +67,9 @@ class Profile extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div>
                                 <div className="col">
                                     <div className="h-100 overflow-hidden py-2 px-4">
-                                        <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">CERTIFICATE</div>
+                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">자격 / 면허</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 font-11 card-hover-up rounded-4">
                                             <div className="col-auto mb-2 p-4">
@@ -100,11 +95,48 @@ class Profile extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div>
                                 <div className="col">
                                     <div className="h-100 overflow-hidden py-2 px-4">
-                                        <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">RATING</div>
+                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">기술 스택</div>
+                                        <hr className="text-black"/>
+                                        <div className="row row-cols-lg-3 p-2 font-11 card-hover-up rounded-4">
+                                            <div className="col-auto mb-2 p-4">
+                                                <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">C</div><span> </span>
+                                                <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">C++</div>
+                                                <div className="fw-light2 fs-6 mb-2 text-black">C와 C++을 사용하여 알고리즘을 작성하고 목표한 기능을 클래스를 사용하여 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다.</div>
+                                            </div>
+                                            <div className="col-auto mb-2 p-4">
+                                                <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">C#</div><span> </span>
+                                                <div className="fw-light2 fs-6 mb-2 text-black">C# 문법을 파악하고, 제네릭 등을 활용하여 코드를 작성할 수 있습니다. </div>
+                                            </div>
+                                            <div className="col-auto mb-2 p-4">
+                                                <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">UnrealEngine</div>
+                                                <div className="fw-light2 fs-6 mb-2 text-black">C++을 사용하여 언리얼엔진을 활용할 수 있고, 목표한 컨텐츠를 제작하기 위해 학습중입니다.</div>
+                                            </div>
+                                            <div className="col-auto mb-2 p-4">
+                                                <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">Unity</div>
+                                                <div className="fw-light2 fs-6 mb-2 text-black">유니티를 사용해 2D, 3D 컨텐츠를 제작할 수 있고, C# 스크립트를 활용해 목표한 결과물을 구현할 수 있습니다. 현재는 유니티를 사용해 졸업작품을 제작중입니다.</div>
+                                            </div>
+                                            <div className="col-auto mb-2 p-4">
+                                                <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">HTML5</div><span> </span>
+                                                <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">CSS3</div><span> </span>
+                                                <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">JavaScript</div>
+                                                <div className="fw-light2 fs-6 mb-2 text-black">HTML, CSS와 JavaScript를 통해 주어진 기능을 수행하는 웹페이지를 구현할 수 있습니다.</div>
+                                            </div>
+                                            <div className="col-auto mb-2 p-4">
+                                                <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">React</div>
+                                                <div className="fw-light2 fs-6 mb-2 text-black">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다.</div>
+                                            </div>
+                                            <div className="col-auto mb-2 p-4">
+                                                <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">Processing</div>
+                                                <div className="fw-light2 fs-6 mb-2 text-black">프로세싱의 다양한 라이브러리를 사용할 수 있고, 이를 통해 인터랙티브 컨텐츠를 제작할 수 있습니다.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col">
+                                    <div className="h-100 overflow-hidden py-2 px-4">
+                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">알고리즘</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
                                             <div className="col-auto mb-2 font-11 p-4">
@@ -125,50 +157,6 @@ class Profile extends Component {
                                                 <div className="fs-5 fw-normal fw-opacity">Programmers</div>
                                                 <div className="fw-light2 fs-6 mb-2 highlight">score<br/>0000</div>
                                             </div>*/}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </div>
-                            <div className="row row-cols-sm-1 row-cols-xxl-1 g-4 cards mb-4 pt-4">
-                                <div>
-                                    <div className="col">
-                                        <div className="h-100 overflow-hidden py-2 px-4">
-                                            <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SKILL</div>
-                                            <hr className="text-black"/>
-                                            <div className="row row-cols-lg-3 p-2 font-11 card-hover-up rounded-4">
-                                                <div className="col-auto mb-2 p-4">
-                                                    <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">C</div><span> </span>
-                                                    <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">C++</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">C와 C++을 사용하여 알고리즘을 작성하고 목표한 기능을 클래스를 사용하여 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다.</div>
-                                                </div>
-                                                <div className="col-auto mb-2 p-4">
-                                                    <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">C#</div><span> </span>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">C# 문법을 파악하고, 제네릭 등을 활용하여 코드를 작성할 수 있습니다. </div>
-                                                </div>
-                                                <div className="col-auto mb-2 p-4">
-                                                    <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">UnrealEngine</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">C++을 사용하여 언리얼엔진을 활용할 수 있고, 목표한 컨텐츠를 제작하기 위해 학습중입니다.</div>
-                                                </div>
-                                                <div className="col-auto mb-2 p-4">
-                                                    <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">Unity</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">유니티를 사용해 2D, 3D 컨텐츠를 제작할 수 있고, C# 스크립트를 활용해 목표한 결과물을 구현할 수 있습니다. 현재는 유니티를 사용해 졸업작품을 제작중입니다.</div>
-                                                </div>
-                                                <div className="col-auto mb-2 p-4">
-                                                    <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">HTML5</div><span> </span>
-                                                    <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">CSS3</div><span> </span>
-                                                    <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">JavaScript</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">HTML, CSS와 JavaScript를 통해 주어진 기능을 수행하는 웹페이지를 구현할 수 있습니다.</div>
-                                                </div>
-                                                <div className="col-auto mb-2 p-4">
-                                                    <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">React</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다.</div>
-                                                </div>
-                                                <div className="col-auto mb-2 p-4">
-                                                    <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">Processing</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">프로세싱의 다양한 라이브러리를 사용할 수 있고, 이를 통해 인터랙티브 컨텐츠를 제작할 수 있습니다.</div>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>

@@ -110,7 +110,7 @@ function Project() {
                 <div className="row align-items-center justify-content-between">
                     <div className="col-auto fs-1 font-11 fw-bold2 font-letter-space-sm text-black mb-5">프로젝트
                         <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
-                            <span className="prj-sub fs-6 fw-light font-4 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> 깃허브에서 모아보기 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
+                            <span className="prj-sub fs-6 fw-normal font-11 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> 깃허브에서 모아보기 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
                             </span>
                         </a>
                     </div>
@@ -125,7 +125,7 @@ function Project() {
                         </div>
                     <div className="col-auto mobile-moabogi mb-5">
                         <a href="https://github.com/stars/usfree/lists/project" target='_blank'>
-                        <span className="fs-6 fw-light font-4"><FontAwesomeIcon icon={faGithub} /> 모아보기</span>
+                        <span className="fs-6 fw-normal font-11"><FontAwesomeIcon icon={faGithub} /> 모아보기</span>
                         </a>
                     </div> 
                 </div>
