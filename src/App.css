@@ -423,7 +423,7 @@
   cursor: pointer;
   color: var(--bs-black);
   transition: all 0.3s;
-  z-index: 1;
+  z-index: 11;
 }
 
 .left_hor {
