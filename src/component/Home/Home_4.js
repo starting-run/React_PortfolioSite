@@ -185,7 +185,7 @@ function Home_4() {
                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img className="card-image-main" src ={project2}></img>
                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 <span class="btn btn-sm btn-primary-round-outline">모델링</span><div className="kor-hidden">ironman model</div></span>
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 <span class="btn btn-sm btn-primary-round-outline">모델</span><div className="kor-hidden">ironman model</div></span>
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-4">
                                         <span className="">2021. 06.</span>
