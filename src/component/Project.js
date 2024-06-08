@@ -236,15 +236,15 @@ function Project() {
 
                 <div className="row gx-5 justify-content-center px-4">
                     <div className="mb-5">
-                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">웹 / 프로세싱 / OpenGL</div>
                         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
                             <div className="img-fluid">
                                 <NavLink to="website" id="website">
                                     <div className="col">
+                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">리액트(프론트)</div>
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project4}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 <span class="btn btn-sm btn-primary-round-outline">프론트</span><div className="kor-hidden">portfolio website, 리액트, HTML, CSS</div></span>
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 <span class="btn btn-sm btn-primary-round-outline">웹사이트</span><div className="kor-hidden">portfolio website, 리액트, HTML, CSS</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-5">
                                                         <span className="">2023. 10. - 2024. 02.</span>
@@ -263,6 +263,7 @@ function Project() {
                             <div className="img-fluid">
                                 <NavLink to="pacman" id="pacman">
                                     <div className="col">
+                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">프로세싱</div>
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project3}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
@@ -285,6 +286,7 @@ function Project() {
                             <div className="img-fluid">
                                 <NavLink to="ironman" id="ironman">
                                     <div className="col">
+                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">OpenGL</div>
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project2}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
