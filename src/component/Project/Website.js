@@ -19,7 +19,7 @@ function Website() {
 
       return (
         <div>
-            <Helmet><title>포트폴리오 웹사이트 - USFREE</title></Helmet>
+            <Helmet><title>포트폴리오 - USFREE</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
                     <div className="container-xxl px-4 pt-6" id="seemore">

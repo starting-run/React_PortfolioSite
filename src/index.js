@@ -19,6 +19,7 @@ import LethalDeliveryVR from './component/Project/LethalDeliveryVR';
 import Nav from './component/Nav';
 import { Toaster } from 'react-hot-toast';
 import Footer from './component/Footer';
+import MazeForest from './component/Project/MazeForest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,6 +38,7 @@ root.render(
         <Route path="/project/pacman" element={<Pacman/>}/>
         <Route path="/project/ironman" element={<Ironman/>}/>
         <Route path="/project/snake" element={<Snake/>}/>
+        <Route path="/project/mazeforest" element={<MazeForest/>}/>
       </Routes>
       <ScrollIndicator/>
       <Nav />

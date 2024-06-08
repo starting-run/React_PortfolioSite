@@ -17,6 +17,7 @@ import project3 from '../../images/pacman.jpg';
 import project4 from '../../images/portfolio.png';
 import project5 from '../../images/Unity/LethalDeliveryVR/thum.png';
 import project6 from '../../images/Unity/Orbit/icon_move.mp4';
+import project7 from '../../images/Unity/MazeForest/logo.png';
 
 function Home_4() {
     SwiperCore.use([Autoplay]);
@@ -64,7 +65,7 @@ function Home_4() {
                                 <source src={project6} type="video/mp4" />
                             </video>
                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 게임</span>
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 <span class="btn btn-sm btn-primary-round-outline">게임</span></span>
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-5">
                                         <span className="">2024. 03. - Developing</span>
@@ -84,24 +85,48 @@ function Home_4() {
         <SwiperSlide>
         <div className="img-fluid">
             <NavLink to="/project/lethaldeliveryvr" id="lethaldeliveryvr">
-                    <div className="col">
-                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                        <img className="card-image-main" src ={project5}></img>
-                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 VR게임</span>
-                                <ul className="list-unstyled mt-auto small2">
-                                    <li className="d-flex align-items-center me-3 mb-5">
-                                        <span className="">2024. 05. - Developing</span>
-                                    </li>
-                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                        <span className="text-end fs-4 card-in-arrow">
-                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
+                <div className="col">
+                    <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                    <img className="card-image-main" src ={project5}></img>
+                        <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 <span class="btn btn-sm btn-primary-round-outline">VR게임</span></span>
+                            <ul className="list-unstyled mt-auto small2">
+                                <li className="d-flex align-items-center me-3 mb-5">
+                                    <span className="">2024. 05. - Developing</span>
+                                </li>
+                                <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                    <span className="text-end fs-4 card-in-arrow">
+                                        <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                    </span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                </div>
+            </NavLink>
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="img-fluid">
+            <NavLink to="/project/mazeforest" id="mazeforest">
+                <div className="col">
+                    <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                    <img className="card-image-main" src ={project7}></img>
+                        <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
+                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">교육용 게임</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
+                            <ul className="list-unstyled mt-auto small2">
+                                <li className="d-flex align-items-center me-3 mb-5">
+                                    <span className="">2024. 05. - Developing</span>
+                                </li>
+                                <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
+                                    <span className="text-end fs-4 card-in-arrow">
+                                        <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </NavLink>
         </div>
         </SwiperSlide>
@@ -112,7 +137,7 @@ function Home_4() {
                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img className="card-image-main" src ={project4}></img>
                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 웹사이트<div className="kor-hidden">portfolio website</div></span>
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 <span class="btn btn-sm btn-primary-round-outline">프론트</span><div className="kor-hidden">portfolio website</div></span>
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-5">
                                         <span className="">2023. 10. - 2024. 02.</span>
@@ -136,7 +161,7 @@ function Home_4() {
                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img className="card-image-main" src ={project3}></img>
                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 게임<div className="kor-hidden">pacman game</div></span>
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 <span class="btn btn-sm btn-primary-round-outline">게임</span><div className="kor-hidden">pacman game</div></span>
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-4">
                                         <span className="">2023. 10.</span>
@@ -160,7 +185,7 @@ function Home_4() {
                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img className="card-image-main" src ={project2}></img>
                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 모델<div className="kor-hidden">ironman model</div></span>
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 <span class="btn btn-sm btn-primary-round-outline">모델링</span><div className="kor-hidden">ironman model</div></span>
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-4">
                                         <span className="">2021. 06.</span>
@@ -184,7 +209,7 @@ function Home_4() {
                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img className="card-image-main" src ={project1}></img>
                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 게임<div className="kor-hidden">Snake game</div></span>
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 <span class="btn btn-sm btn-primary-round-outline">게임</span><div className="kor-hidden">Snake game</div></span>
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-4">
                                         <span className="">2020. 06.</span>

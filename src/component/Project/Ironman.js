@@ -17,7 +17,7 @@ class Ironman extends Component {
     render() {
       return (
         <div>
-            <Helmet><title>아이언맨 모델 - USFREE</title></Helmet>
+            <Helmet><title>아이언맨 - USFREE</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
                     <div className="container-xxl px-4 pt-6" id="seemore">

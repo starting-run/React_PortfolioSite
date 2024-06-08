@@ -21,7 +21,7 @@ class Snake extends Component {
     render() {
       return (
         <div>
-            <Helmet><title>스네이크 게임 - USFREE</title></Helmet>
+            <Helmet><title>스네이크 - USFREE</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
                     <div className="container-xxl px-4 pt-6" id="seemore">

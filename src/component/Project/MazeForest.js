@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
-import img1 from '../../images/Unity/LethalDeliveryVR/logo.png';
+import img1 from '../../images/Unity/MazeForest/logo.png';
 import img2 from '../../images/Unity/Orbit/main1.png';
 import img3 from '../../images/Unity/Orbit/main2.png';
 import img4 from '../../images/Unity/4.png';
@@ -23,8 +23,8 @@ import toast from 'react-hot-toast';
 
 
 
-function LethalDeliveryVR() {
-    const updatedate = "2024. 05. 25." //최종 업데이트 일자
+function MazeForest() {
+    const updatedate = "2024. 06. 09." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중입니다.', {duration: 4000});
     const notify2 = () => toast.error('제작 진행중인 프로젝트입니다. 깃허브 리포지토리를 아직 제공하지 않습니다.', {duration: 4000});
     useEffect(() => {
@@ -34,13 +34,13 @@ function LethalDeliveryVR() {
       return (
         <div>
             <Helmet>
-                <title>리썰딜리버리 - USFREE</title>
+                <title>미로의 숲 - USFREE</title>
             </Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
                     <div className="container-xxl px-4 pt-6" id="seemore">
-                    <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">리썰딜리버리 VR게임</div>
-                        <a href="https://github.com/jsm0325/LethalDelivery_VR" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
+                    <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">미로의 숲</div>
+                        <a href="https://github.com/usfree/Unity_MazeForest" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                         <div className="row gx-5 justify-content-center">
                             <div className="up-animation">
                                 <div className="rounded-2 border-0">
@@ -51,10 +51,10 @@ function LethalDeliveryVR() {
                                                     <span className="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
                                                 </div>
                                                 <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 05. -</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 06. 05. -</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">리썰컴퍼니를 모작으로 VR로 제작되는 게임입니다.</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">4인 팀개발</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">미로의 숲</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">3인 팀개발</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
                                                     <span className="fw-light fs-6 mb-2 text-black px-2">
                                                     &middot; 
@@ -99,4 +99,4 @@ function LethalDeliveryVR() {
     }
 
 
-  export default LethalDeliveryVR;
+  export default MazeForest;
