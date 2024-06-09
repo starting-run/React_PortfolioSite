@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
-import buildfile from '../../images/Unity/MazeForest/MazeForest_Build.7z';
 import logo from '../../images/Unity/MazeForest/logo.png';
 import img1 from '../../images/Unity/MazeForest/img1.png';
 import img2 from '../../images/Unity/MazeForest/img2.png';

@@ -17,6 +17,9 @@ import poster3 from '../../images/OpenGL/poster_ironman.png';
 import intro4 from '../../images/Unity/Unity_Snake.mp4';
 import poster4 from '../../images/Unity/poster_snake.png';
 
+import intro5 from '../../images/Unity/MazeForest/intro.mp4';
+import poster5 from '../../images/Unity/MazeForest/poster_mazeforest.png';
+
 function Home_1() {
   const scrollRef = useRef(null);
   const [progress, setProgress] = useState(0);
@@ -115,7 +118,24 @@ function Home_1() {
                   </div>
                 </div>
               </div>
-
+              <div
+                className="section_hor"
+                onMouseEnter={() => handleMouseEnter(intro5)}
+                onMouseLeave={handleMouseLeave}
+              >
+                <video className="background-video_hor" poster={poster5} autoPlay muted loop>
+                  <source src={intro5} type="video/mp4" />
+                </video>
+                <div className="text-container_hor">
+                  <div className="text-content_hor text-black">
+                    <div className="font-11 font-letter-space fs-0-5 fw-bold2">미로의 숲</div>
+                    <div className="font-11 font-letter-space fs-4 fs-bold3 mb-4">문제를 풀고 미로의 숲을 빠져나가야 하는 교육용 게임</div>
+                    <NavLink to="project/mazeforest" id="mazeforest" className="btn btn-dark-square px-4 py-2-5 fs-5 fw-bold rounded-4">
+                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
               <div
                 className="section_hor"
                 onMouseEnter={() => handleMouseEnter(intro2)}
