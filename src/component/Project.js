@@ -8,6 +8,7 @@ import project6 from '../images/Unity/Orbit/icon_move.mp4';
 import project7 from '../images/Unity/MazeForest/logo.png';
 import prop1 from '../images/projects/prop1/thum.png';
 import prop1pdf from '../images/projects/prop1/rev_prop_focus_on_you.pdf';
+import prop2pdf from '../images/projects/prop2/prop_LethalDeliveryVR_org.pdf';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUp, faCircleArrowRight, faCircleArrowUp, faMagnifyingGlass, faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -334,7 +335,7 @@ function Project() {
                         </a>
                     </div>
                     <div className="img-fluid">
-                        <a onClick={notify} style={{cursor:'not-allowed'}}>
+                        <a href={prop2pdf}>
                             <div className="col">
                                 <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                     <img className="card-image-main" src ={project5}></img>
