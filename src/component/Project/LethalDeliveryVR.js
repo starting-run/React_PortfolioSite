@@ -4,7 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faChevronLeft, faChevronRight, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
-import video from '../../images/Unity/Orbit/video.mp4'
+import video from '../../images/Unity/LethalDeliveryVR/video.mp4'
 import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import img1 from '../../images/Unity/LethalDeliveryVR/logo.png';
 import img2 from '../../images/Unity/Orbit/main1.png';
@@ -24,7 +24,7 @@ import toast from 'react-hot-toast';
 
 
 function LethalDeliveryVR() {
-    const updatedate = "2024. 05. 25." //최종 업데이트 일자
+    const updatedate = "2024. 06. 09." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중입니다.', {duration: 4000});
     const notify2 = () => toast.error('제작 진행중인 프로젝트입니다. 깃허브 리포지토리를 아직 제공하지 않습니다.', {duration: 4000});
     useEffect(() => {
@@ -51,7 +51,7 @@ function LethalDeliveryVR() {
                                                     <span className="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
                                                 </div>
                                                 <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 05. - 06. 08.</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 05. - 06. 10.</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">리썰컴퍼니를 모작으로 일부 각색하여 VR로 플레이 할 수 있도록 제작된 게임입니다.</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">4인 팀개발</span></div>
@@ -82,6 +82,8 @@ function LethalDeliveryVR() {
                                                 <img className="mb-2 shadow-lg" src={img3}></img>
                                                 <p className="mb-5 font-11">- 게임 모드 선택 화면</p>
                                                 <video src={video} controls controlsList="nodownload"></video><br/><br/>*/}
+                                                <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
+                                                <video className="mb-5" src={video} controls controlsList="nodownload"></video>
                                             </div>
                                         </div>
                                     </div>
