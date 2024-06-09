@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d001492f.css",
-    "main.js": "/static/js/main.f5ba4191.js",
+    "main.js": "/static/js/main.0bfe11e0.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
-    "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/video.mp4": "/static/media/video.33e654b630e8870bcb2b.mp4",
+    "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
     "static/media/main_video.mp4": "/static/media/main_video.aa3753b35297fb103605.mp4",
     "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
@@ -13,6 +13,7 @@
     "static/media/poster_snake.png": "/static/media/poster_snake.486d48ca589933a4d81b.png",
     "static/media/sec3.png": "/static/media/sec3.7b68e80d1c6cc2c88208.png",
     "static/media/Processing_Pacman.mp4": "/static/media/Processing_Pacman.25f0225e0651c7f66e78.mp4",
+    "static/media/thum1.png": "/static/media/thum1.8fcd6fe0b4625d91f39f.png",
     "static/media/logo.png": "/static/media/logo.6b00042314baabe36784.png",
     "static/media/main2.png": "/static/media/main2.d60e189dc554ad896f4a.png",
     "static/media/icon_move.mp4": "/static/media/icon_move.62c5ab8b81d865dce0cb.mp4",
@@ -42,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.d001492f.css",
-    "static/js/main.f5ba4191.js"
+    "static/js/main.0bfe11e0.js"
   ]
 }
