@@ -66,7 +66,7 @@ function LethalDeliveryVR() {
                                                 <div className="mb-4 px-2 font-11"></div>
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                 <div className="code p-3 border-0 mb-5 font-11 rounded-4">
-                                                    # Unity<br/>
+                                                    # Unity 2021.3.37f1<br/>
 
                                                 </div>
                                                 <hr/>
