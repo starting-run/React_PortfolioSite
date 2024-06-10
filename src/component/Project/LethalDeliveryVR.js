@@ -71,7 +71,7 @@ function LethalDeliveryVR() {
                                                 </div>
                                                 <hr/>
                                                 <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
-                                                <img className="mb-5" src={img1}></img>
+                                                <img className="mb-5" src={img1} style={{width: '300px'}}></img>
                                                 <p className="mb-5 font-11">-</p>
                                                 
                                                 <div className="font-11 fs-2 fw-bold"><b>Developing</b></div>
@@ -83,7 +83,7 @@ function LethalDeliveryVR() {
                                                 <p className="mb-5 font-11">- 게임 모드 선택 화면</p>
                                                 <video src={video} controls controlsList="nodownload"></video><br/><br/>*/}
                                                 <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
-                                                <video className="mb-5" src={video} controls controlsList="nodownload"></video>
+                                                <video className="mb-5" src={video} controls controlsList="nodownload" style={{width: '800px'}}></video>
                                             </div>
                                         </div>
                                     </div>

@@ -73,7 +73,7 @@ function Orbit() {
                                                 </div>
                                                 <hr/>
                                                 <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
-                                                <img className="mb-5" src={img1}></img>
+                                                <img className="mb-5" src={img1} style={{width: '300px'}}></img>
                                                 <p className="mb-5 font-11">인간은 AI에게 지배당해 AI가 설계한 궤도를 돌 수 밖에 없음을 의미합니다.</p>
                                                 <div className="font-11 fs-2 fw-bold"><b>Story</b></div>
                                                 <p className="mb-5 font-11">특이점이 온 지구를 배경으로 합니다. 현 지구는 AI(인공지능)의 실효지배를 받고 있으며, 인간은 허용된 행위(놀기, 먹기 등)를 제외한 지식을 쌓는 일체의 행위를 할 수 없습니다. 지식을 갖고 깨어있는 인간은 AI의 적으로 간주됩니다.
@@ -81,11 +81,11 @@ function Orbit() {
                                                     주인공은 깨어있는 지식인을 표방하는 자들의 모인 그룹인 <span className="highlight">이리스</span>에서 행동대원 역할을 하며, 그룹의 조력자는 주인공에게 쿨타임마다 도움을 줄 수 있는 스킬을 제공합니다.</p>
                                                 <div className="font-11 fs-2 fw-bold"><b>Developing</b></div>
                                                 <div className="font-11 fs-6 fw-bold mb-3">최종 업데이트 : {updatedate}</div>
-                                                <img className="mb-2 shadow-lg" src={img2}></img>
+                                                <img className="mb-2 shadow-lg" src={img2} style={{width: '800px'}}></img>
                                                 <p className="mb-5 font-11">- 메인 로고 화면</p>
-                                                <img className="mb-2 shadow-lg" src={img3}></img>
+                                                <img className="mb-2 shadow-lg" src={img3} style={{width: '800px'}}></img>
                                                 <p className="mb-5 font-11">- 게임 모드 선택 화면</p>
-                                                <video src={video} controls controlsList="nodownload"></video><br/><br/>
+                                                <video src={video} controls controlsList="nodownload" style={{width: '800px'}}></video><br/><br/>
                                             </div>
                                         </div>
                                     </div>

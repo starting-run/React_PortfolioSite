@@ -6492,7 +6492,7 @@ textarea.form-control-lg {
 }
 
 .card-hover-up:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   transition: all 0.3s;
 }
 

@@ -25,7 +25,7 @@ class Profile extends Component {
                                     <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">학력</div>
                                         <hr className="text-black"/>
-                                        <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
+                                        <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
                                             <div className="col-auto text-black mb-2 font-11 p-4">
                                                 <div className="fs-4 fw-bold"><a href="https://web.kangnam.ac.kr/" className='fw-opacity' target='_blank'>강남대학교</a></div>
                                                 <div className="fw-light2 fs-6">경기도 용인시</div>
@@ -46,7 +46,7 @@ class Profile extends Component {
                                     <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">경험 / 활동</div>
                                         <hr className="text-black"/>
-                                        <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
+                                        <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
                                             <div className="col-auto mb-2 font-11 p-4">
                                                 <div className="fs-4 fw-bold fw-opacity">IPP 첨단산업아카데미</div>
                                                 <div className="fw-light2 text-black fs-6">강남대학교 &middot; 고용노동부 &middot; 한국산업인력공단</div>
@@ -71,7 +71,7 @@ class Profile extends Component {
                                     <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">자격 / 면허</div>
                                         <hr className="text-black"/>
-                                        <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 font-11 card-hover-up rounded-4">
+                                        <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 font-11 card-hover-up rounded-4 mx-2">
                                             <div className="col-auto mb-2 p-4">
                                                 <div className="fs-4 fw-bold fw-opacity">웹디자인기능사</div>
                                                 <div className="fw-light2 fs-6 mb-2 highlight">2022. 09. 08.</div>
@@ -99,7 +99,7 @@ class Profile extends Component {
                                     <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">기술 스택</div>
                                         <hr className="text-black"/>
-                                        <div className="row row-cols-lg-3 p-2 font-11 card-hover-up rounded-4">
+                                        <div className="row row-cols-lg-3 p-2 font-11 card-hover-up rounded-4 mx-2">
                                             <div className="col-auto mb-2 p-4">
                                                 <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">C</div><span> </span>
                                                 <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">C++</div>
@@ -138,7 +138,7 @@ class Profile extends Component {
                                     <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">알고리즘</div>
                                         <hr className="text-black"/>
-                                        <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
+                                        <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
                                             <div className="col-auto mb-2 font-11 p-4">
                                                 <div className="fs-4 fw-bold fw-opacity">Baekjoon Online Judge</div>
                                                 <div className="fw-light2 fs-7 mb-3 highlight">tlrmsjtm77</div>
