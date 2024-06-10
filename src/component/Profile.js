@@ -22,7 +22,7 @@ class Profile extends Component {
                             </div>*/}
                             <div className="row row-cols-1 row-cols-xxl-1 g-4">
                                 <div className="col">
-                                    <div className="h-100 overflow-hidden py-2 px-4">
+                                    <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">학력</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
@@ -43,7 +43,7 @@ class Profile extends Component {
                                     </div>
                                 </div>
                                 <div className="col">
-                                    <div className="h-100 overflow-hidden py-2 px-4">
+                                    <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">경험 / 활동</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">
@@ -68,7 +68,7 @@ class Profile extends Component {
                                     </div>
                                 </div>
                                 <div className="col">
-                                    <div className="h-100 overflow-hidden py-2 px-4">
+                                    <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">자격 / 면허</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 font-11 card-hover-up rounded-4">
@@ -96,7 +96,7 @@ class Profile extends Component {
                                     </div>
                                 </div>
                                 <div className="col">
-                                    <div className="h-100 overflow-hidden py-2 px-4">
+                                    <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">기술 스택</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-3 p-2 font-11 card-hover-up rounded-4">
@@ -135,7 +135,7 @@ class Profile extends Component {
                                     </div>
                                 </div>
                                 <div className="col">
-                                    <div className="h-100 overflow-hidden py-2 px-4">
+                                    <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">알고리즘</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4">

@@ -137,7 +137,7 @@ function Project() {
                         <div className="text-black font-3 fs-5 text-center mb-5"><span className="highlight">검색 결과가 없습니다!</span> 다시 검색해주세요.<br/><br/>검색은 한글과 영어를 모두 지원합니다.<br/>ex) UnrealEngine → 언리얼, 언리얼엔진</div>
                     </div>
                 </div>
-                <div className="row gx-5 justify-content-center px-4">
+                <div className="row gx-5 justify-content-center">
                     <div className="mb-5">
                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">유니티</div>
                         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
@@ -235,7 +235,7 @@ function Project() {
                     </div>
                 </div>
 
-                <div className="row gx-5 justify-content-center px-4">
+                <div className="row gx-5 justify-content-center">
                     <div className="mb-5">
                         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
                             <div className="img-fluid">
@@ -310,7 +310,7 @@ function Project() {
                         </div>
                     </div>
                 </div>
-                <div class="cards px-4">
+                <div class="cards">
                     <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">기획</div>
                     <div className="img-fluid mb-4">
                         <a href={prop1pdf}>
