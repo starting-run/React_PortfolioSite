@@ -15,6 +15,7 @@ import img5 from '../../images/Unity/MazeForest/img5.png';
 import img6 from '../../images/Unity/MazeForest/img6.png';
 import video1 from '../../images/Unity/Unity_Snake.mp4'
 import intro from '../../images/Unity/LethalDeliveryVR/thum.png';
+import buildfile from '../../images/Unity/MazeForest/MazeForest_Build.7z'
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
 
@@ -131,7 +132,7 @@ function MazeForest() {
                     <div className="container-xxl px-4 pt-6" id="seemore">
                     <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">교육용 게임</span></div>
                         <a href="https://github.com/usfree/Unity_MazeForest" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
-                        <a href="https://drive.usercontent.google.com/download?id=1ROR0KBsAHy5MSAsxoMEdz9VKY9HysGbL&export=download&authuser=0&confirm=t&uuid=0a3e222f-975d-4422-9f44-8bbe9d41dc75&at=APZUnTXUiirkbYiV4ucsB43DvBJv%3A1717939925625" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
+                        <a href={buildfile} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
                         <div className="row gx-5 justify-content-center">
                             <div className="up-animation">
                                 <div className="rounded-2 border-0">
