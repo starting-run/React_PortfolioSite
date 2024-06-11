@@ -72,8 +72,8 @@ class Snake extends Component {
                                                 <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
                                                 <video className="mb-5" src={video} controls controlsList="nodownload"></video><br/><br/>
                                                 <div className="font-11 fs-2 fw-bold"><b>Presentation</b></div>
-                                                <p><iframe style={{width:"100%", height:"700px"}} src={pdf}></iframe></p>
-                                                <span className="font-11">브라우저에서 PDF viewer를 지원하지 않을 경우 <a href="https://usfree.site/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf"><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
+                                                <p><iframe style={{width:"100%", height:"900px"}} src={pdf}></iframe></p>
+                                                <span className="font-11">브라우저에서 PDF viewer를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>
                                     </div>

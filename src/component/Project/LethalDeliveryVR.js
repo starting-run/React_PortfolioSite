@@ -54,7 +54,7 @@ function LethalDeliveryVR() {
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 05. - 06. 10.</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">리썰컴퍼니를 모작으로 일부 각색하여 VR로 플레이 할 수 있도록 제작된 게임입니다.</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">4인 팀개발</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">4인 팀 개발</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
                                                     <span className="fw-light fs-6 mb-2 text-black px-2">
                                                     &middot; 

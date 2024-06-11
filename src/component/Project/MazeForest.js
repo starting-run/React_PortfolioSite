@@ -1,11 +1,11 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faChevronLeft, faChevronRight, faDownload, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faDownload, faFileArrowDown, faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
-import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
+import pdf from '../../images/Unity/MazeForest/Unity_MazeForest.pdf';
 import logo from '../../images/Unity/MazeForest/logo.png';
 import img1 from '../../images/Unity/MazeForest/img1.png';
 import img2 from '../../images/Unity/MazeForest/img2.png';
@@ -117,9 +117,8 @@ let code1 = `private IEnumerator PlayVideo(string[] tokens)
 function MazeForest() {
     const updatedate = "2024. 06. 09." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중입니다.', {duration: 4000});
-    const notify2 = () => toast.error('제작 진행중인 프로젝트입니다. 깃허브 리포지토리를 아직 제공하지 않습니다.', {duration: 4000});
     useEffect(() => {
-        notify();
+        //notify();
       }, []);
 
       return (
@@ -139,8 +138,8 @@ function MazeForest() {
                                     <div className="card-body p-0">
                                         <div className="d-flex align-items-center">
                                             <div className="proj_text w-100 text-black fw-light">
-                                                <div className="mb-3 w-100 card card-cover-danger p-3 border-0 font-11 rounded-4">
-                                                    <span className="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
+                                                <div className="mb-3 w-100 card card-cover-safe p-3 border-0 font-11 rounded-4">
+                                                    <span className="text-only-white font-11"><FontAwesomeIcon icon={faPenToSquare} /> 제작이 완료되어 프로젝트에 관한 자세한 내용을 작성하고 있습니다.</span>
                                                 </div>
                                                 <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 06. 05. - 06. 11.</span></div>
@@ -184,7 +183,9 @@ function MazeForest() {
                                                 <div className="font-11 fs-2 fw-bold"><b>ScenarioEngine</b></div>
                                                 <div className="code mb-3 font-11 rounded-4"> {code1} </div>
                                                 <p className="mb-5 font-11">시나리오 엔진을 사용해 Resources폴더에서 script 파일을 가져와 동적으로 리소스를 로드합니다. 각 function별로 코루틴 함수를 실행하며, 중복으로 UI가 로드되는 문제를 방지하기 위해 코루틴 함수 실행 중 다른 코루틴 함수가 입력되면 기존의 코루틴 함수는 중지합니다.</p>
-
+                                                <div className="font-11 fs-2 fw-bold"><b>Presentation</b></div>
+                                                <p><iframe style={{width:'100%', height:'900px'}} src={pdf}></iframe></p>
+                                                <span className="font-11">브라우저에서 PDF viewer를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>
                                     </div>

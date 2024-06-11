@@ -6668,6 +6668,10 @@ textarea.form-control-lg {
   background-color: #dc3545;
 }
 
+.card-cover-safe {
+  background-color: #0078C3;
+}
+
 .card-border-0 {
   border: none;
 }
