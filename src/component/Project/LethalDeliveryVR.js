@@ -1,7 +1,7 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faChevronLeft, faChevronRight, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faChevronLeft, faChevronRight, faPenToSquare, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
 import video from '../../images/Unity/LethalDeliveryVR/video.mp4'
@@ -26,9 +26,8 @@ import toast from 'react-hot-toast';
 function LethalDeliveryVR() {
     const updatedate = "2024. 06. 09." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중입니다.', {duration: 4000});
-    const notify2 = () => toast.error('제작 진행중인 프로젝트입니다. 깃허브 리포지토리를 아직 제공하지 않습니다.', {duration: 4000});
     useEffect(() => {
-        notify();
+        //notify();
       }, []);
 
       return (
@@ -47,8 +46,8 @@ function LethalDeliveryVR() {
                                     <div className="card-body p-0">
                                         <div className="d-flex align-items-center">
                                             <div className="proj_text w-100 text-black fw-light">
-                                                <div className="mb-3 w-100 card card-cover-danger p-3 border-0 font-11 rounded-4">
-                                                    <span className="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
+                                                <div className="mb-3 w-100 card card-cover-safe p-3 border-0 font-11 rounded-4">
+                                                <span className="text-only-white font-11"><FontAwesomeIcon icon={faPenToSquare} /> 제작이 완료되어 프로젝트에 관한 자세한 내용을 작성하고 있습니다.</span>
                                                 </div>
                                                 <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 05. - 06. 10.</span></div>
