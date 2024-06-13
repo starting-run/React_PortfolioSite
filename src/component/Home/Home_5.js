@@ -64,7 +64,7 @@ function Home_5() {
 
   return (
     <div className="Home_5">
-      <div className="container-xxl px-4 pt-6" id="seemore">
+      <div className="container-xxl px-4" id="seemore">
           <div className="row gx-5 justify-content-center">
             <div className="d-flex justify-content-between">
               <div className="mb-3 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">최신 블로그 글</div>
