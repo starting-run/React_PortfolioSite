@@ -241,7 +241,7 @@ function Project() {
                             <div className="img-fluid">
                                 <NavLink to="website" id="website">
                                     <div className="col">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">리액트(프론트)</div>
+                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">리액트</div>
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project4}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
@@ -310,53 +310,57 @@ function Project() {
                         </div>
                     </div>
                 </div>
-                <div class="cards">
-                    <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">기획</div>
-                    <div className="img-fluid mb-4">
-                        <a href={prop1pdf}>
-                            <div className="col">
-                                <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                    <img className="card-image-main" src ={prop1}></img>
-                                    <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
-                                        <span className="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU <span class="btn btn-sm btn-primary-round-outline">역기획서</span><div className="kor-hidden">포커스온유, smilegate</div></span>
-                                        <ul className="list-unstyled mt-auto small2">
-                                            <li className="d-flex align-items-center me-3">
-                                                <span className="">2024. 04. 09.</span>
-                                            </li>
-                                            <li className="d-flex align-items-center">
-                                                <span className="text-end fs-4 card-in-arrow">
-                                                    <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
-                                                </span>
-                                            </li>
-                                        </ul>
+                <div className="gx-5 justify-content-center">
+                    
+                    <div className="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 cards">
+                        <div className="img-fluid">
+                            <a href={prop1pdf}>
+                                <div className="col">
+                                    <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">기획</div>
+                                    <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
+                                        <img className="card-image-main" src ={prop1}></img>
+                                        <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
+                                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU <span class="btn btn-sm btn-primary-round-outline">역기획서</span><div className="kor-hidden">포커스온유, smilegate</div></span>
+                                            <ul className="list-unstyled mt-auto small2">
+                                                <li className="d-flex align-items-center me-3">
+                                                    <span className="">2024. 04. 09.</span>
+                                                </li>
+                                                <li className="d-flex align-items-center">
+                                                    <span className="text-end fs-4 card-in-arrow">
+                                                        <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div className="img-fluid">
-                        <a href={prop2pdf}>
-                            <div className="col">
-                                <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                    <img className="card-image-main" src ={project5}></img>
-                                    <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
-                                        <span className="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR <span class="btn btn-sm btn-primary-round-outline">기획서</span><div className="kor-hidden">리썰딜리버리</div></span>
-                                        <ul className="list-unstyled mt-auto small2">
-                                            <li className="d-flex align-items-center me-3">
-                                                <span className="">2024. 06. 10.</span>
-                                            </li>
-                                            <li className="d-flex align-items-center">
-                                                <span className="text-end fs-4 card-in-arrow">
-                                                    <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
-                                                </span>
-                                            </li>
-                                        </ul>
+                            </a>
+                        </div>
+                        <div className="img-fluid">
+                            <a href={prop2pdf}>
+                                <div className="col">
+                                    <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
+                                        <img className="card-image-main" src ={project5}></img>
+                                        <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
+                                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR <span class="btn btn-sm btn-primary-round-outline">기획서</span><div className="kor-hidden">리썰딜리버리</div></span>
+                                            <ul className="list-unstyled mt-auto small2">
+                                                <li className="d-flex align-items-center me-3">
+                                                    <span className="">2024. 06. 10.</span>
+                                                </li>
+                                                <li className="d-flex align-items-center">
+                                                    <span className="text-end fs-4 card-in-arrow">
+                                                        <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
-                </div>
+            </div>
+
             </div>
         </section>
       </div>
