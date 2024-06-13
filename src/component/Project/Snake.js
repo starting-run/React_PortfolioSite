@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import video from '../../images/Unity/Unity_Snake.mp4'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faChevronLeft, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faDownload, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
 import img1 from '../../images/Unity/1.png';
@@ -15,6 +15,7 @@ import img7 from '../../images/Unity/7.gif';
 import img8 from '../../images/Unity/8.png';
 import img9 from '../../images/Unity/9.png';
 import pdf from '../../images/Unity/Unity_Snake.pdf';
+import build from '../../images/Unity/Snake_Build.7z';
 import { Helmet } from 'react-helmet';
 
 class Snake extends Component {
@@ -26,7 +27,8 @@ class Snake extends Component {
                 <div className="bg-white-gray">
                     <div className="container-xxl px-4 pt-6" id="seemore">
                         <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">스네이크 <span class="btn btn-sm btn-primary-round-outline">게임</span></div>
-                        <a href="https://github.com/usfree/Unity_Snake" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
+                        <a href="https://github.com/usfree/Unity_Snake" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
+                        <a href={build} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
                         <div className="row gx-5 justify-content-center">
                             <div className="up-animation">
                                 <div className="rounded-2 border-0">

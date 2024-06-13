@@ -15,7 +15,7 @@ import project1 from '../../images/snake.jpg';
 import project2 from '../../images/ironman.jpg';
 import project3 from '../../images/pacman.jpg';
 import project4 from '../../images/portfolio.png';
-import project5 from '../../images/Unity/LethalDeliveryVR/thum.png';
+import project5 from '../../images/Unity/LethalDeliveryVR/thum1.png';
 import project6 from '../../images/Unity/Orbit/icon_move.mp4';
 import project7 from '../../images/Unity/MazeForest/logo.png';
 
