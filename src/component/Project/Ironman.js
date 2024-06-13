@@ -46,7 +46,7 @@ class Ironman extends Component {
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                 <div className="mb-4 px-2 font-11">OpenGL을 다뤄보고 싶었고, 그래픽 관련한 API가 어떻게 동작하는지 배우는 것이 목표입니다.</div>
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div className="code p-3  border-0 mb-5 font-11 rounded-4">
+                                                <div className="card card-cover-nonhover p-3  border-0 mb-5 font-11 rounded-4">
                                                     # VisualStudio Solution<br/>
                                                     OpenGL.sln
                                                 </div>

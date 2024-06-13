@@ -1,4 +1,4 @@
-import React, {useEffect } from 'react';
+import React, {useEffect, useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faDownload, faFileArrowDown, faPenToSquare } from "@fortawesome/free-solid-svg-icons";
@@ -17,6 +17,8 @@ import video1 from '../../images/Unity/Unity_Snake.mp4'
 import intro from '../../images/Unity/LethalDeliveryVR/thum.png';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
+import { useRef } from 'react';
+import CodeBox from '../Function/CodeBox';
 
 let code1 = `private IEnumerator PlayVideo(string[] tokens)
     {
@@ -115,6 +117,31 @@ let code1 = `private IEnumerator PlayVideo(string[] tokens)
     }`;
 
 function MazeForest() {
+    const codeSnippets = [
+        `<div>
+      Your code here
+      Another line of code
+      More code...
+    </div>`,
+      ];
+    const [isOpen, setIsOpen] = useState(false);
+    const codeContainerRef = useRef(null);
+  
+    const toggleCode = () => {
+      setIsOpen(!isOpen);
+    };
+  
+    useEffect(() => {
+      if (codeContainerRef.current) {
+        if (isOpen) {
+          codeContainerRef.current.style.maxHeight = `${codeContainerRef.current.scrollHeight}px`;
+        } else {
+          codeContainerRef.current.style.maxHeight = '60px';
+        }
+      }
+    }, [isOpen]);
+  
+
     const updatedate = "2024. 06. 09." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중입니다.', {duration: 4000});
     useEffect(() => {
@@ -158,7 +185,7 @@ function MazeForest() {
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
                                                 <div className="mb-4 px-2 font-11">유니티로 제작된 교육(훈련)용 게임입니다. 주 타겟은 프로그래밍 언어인 C#을 처음 접하는 플레이어입니다. 문제 수정을 통해 다른 주제로 자유롭게 변경이 가능합니다. 이를 위해 자연스러운 시나리오 구현을 목표로 제작하였습니다.</div>
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div className="code p-3 border-0 mb-5 font-11 rounded-4">
+                                                <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
                                                     # Unity 2022.3.21f1<br/>
                                                     Unity_MazeForest.sln
                                                 </div>
@@ -182,7 +209,7 @@ function MazeForest() {
                                                 <p className="mb-5 font-11">플레이어가 게임 클리어 트리거에 도달하면, skybox가 밤으로 바뀌며 불꽃놀이가 실행되고 축하음악과 영상이 재생됩니다.</p>
 
                                                 <div className="font-11 fs-2 fw-bold"><b>ScenarioEngine</b></div>
-                                                <div className="code mb-3 font-11 rounded-4"> {code1} </div>
+                                                <CodeBox code={code1}/>
                                                 <p className="mb-5 font-11">시나리오 엔진을 사용해 Resources폴더에서 script 파일을 가져와 동적으로 리소스를 로드합니다. 각 function별로 코루틴 함수를 실행하며, 중복으로 UI가 로드되는 문제를 방지하기 위해 코루틴 함수 실행 중 다른 코루틴 함수가 입력되면 기존의 코루틴 함수는 중지합니다.</p>
                                                 <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
                                                 <video src={video} controls controlsList="nodownload"></video><br/><br/>

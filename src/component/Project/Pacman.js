@@ -6,6 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faChevronLeft, faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import CodeBox from '../Function/CodeBox';
 
 let code1 = `void CreateMap() {
     cols = width / gridSize;
@@ -164,27 +165,27 @@ class Pacman extends Component {
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                 <div className="mb-4 px-2 font-11">인터랙티브 프로그래밍을 위해 사용되는 Tool인 만큼, 가장 인터랙티브한 프로그래밍은 게임이라고 생각했습니다. 상호작용이 가장 많고 상호작용을 통해 게임을 활성화시킬 수 있기 때문입니다.</div>
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div className="code p-3  border-0 mb-5 font-11 rounded-4">
+                                                <div className="card card-cover-nonhover p-3  border-0 mb-5 font-11 rounded-4">
                                                     # 저작권 침해 소지로 인해 빌드 파일은 업로드하지 않습니다.<br/>
                                                     <a href="https://github.com/processing/processing4/releases/download/processing-1293-4.3/processing-4.3-windows-x64.zip"><b>Processing.exe 설치 <span className="highlight">[다운로드]</span></b></a> → Pacman_Game.pde → 실행
                                                 </div>
                                                 <hr/>
                                                 <div className="font-11 fs-2 fw-bold"><b>Map Create</b></div>
-                                                <div className="code mb-2 font-11 rounded-4">{code1}</div>
+                                                <CodeBox code={code1} />
                                                 <p className="mb-5 font-11">Item 객체입니다. Item은 매 판당 1번만 생성되며, 아이템을 획득하면 오른쪽 아래에 박제됩니다.
                                                 <br/>맵을 생성하는 함수입니다. 랜덤한 확률로 벽을 생성하며, 랜덤으로 생성한 벽 요소를 2차원 배열에 저장합니다.</p>
                                                 
                                                 <div className="font-11 fs-2 fw-bold"><b>Collision Detection</b></div>
-                                                <div className="code mb-2 font-11 rounded-4"> {code2} </div>
+                                                <CodeBox code={code2}/>
                                                 <p className="mb-5 font-11">객체가 벽에 충돌하는지 판정하는 함수입니다. 객체의 매 이동 순간마다 매개변수로 현재 위치를 전달하여 CreateMap으로 생성된 2차원 배열에서 벽인지 판단합니다.</p>  
 
                                                 <div className="font-11 fs-2 fw-bold"><b>Object</b></div>
                                                 <h6 className=" font-11">4개의 객체 요소를 포함합니다.</h6>
-                                                <div className="code mb-2 font-11 rounded-4"> {code3} </div>
+                                                <CodeBox code={code3} />
                                                 <p className="mb-5 font-11">사용자가 컨트롤하는 객체입니다. 사용자가 입력한 키보드 방향에 따라 다른 방향의 이미지를 불러옵니다.</p>
-                                                <div className="code mb-2 font-11 rounded-4"> {code4} </div>
+                                                <CodeBox code={code4} />
                                                 <p className="mb-5 font-11">Ghost 객체입니다. 게임 내에서 랜덤한 방향을 정해 해당 방향으로 벽을 만날 때 까지 진행한 후, 벽을 만나면 새롭게 진행할 방향을 설정합니다.</p>
-                                                <div className="code mb-2 font-11 rounded-4"> {code5} </div>
+                                                <CodeBox code={code5} />
                                                 <p className="mb-5 font-11">Item 객체입니다. Item은 매 판당 1번만 생성되며, 아이템을 획득하면 오른쪽 아래에 박제됩니다.</p>
 
                                                 <div className="font-11 fs-2 fw-bold"><b>Result</b></div>

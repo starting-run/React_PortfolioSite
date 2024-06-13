@@ -1421,14 +1421,84 @@
   position         : relative;
 }
 
-.code {
+.code-container {
+  position: relative;
   background-color: rgba(0, 0, 0, 0.2);
-  padding: 10px;
   width: 100%;
-  white-space: pre-wrap;
-  font-weight: light;
   color: var(--bs-black);
+  border-radius: var(--bs-border-radius-xl);
+  overflow: hidden;
+  min-height: 150px; /* 초기에 보이는 최대 높이 */
+  transition: max-height 0.5s ease-in-out;
+  margin-bottom: 20px; /* 코드 박스 간 간격 설정 */
 }
+
+.code-container.short {
+  min-height: auto; /* 코드 길이가 짧을 때 높이 자동 조정 */
+  height: auto;
+}
+
+.code-container.open {
+  max-height: 100%; /* 필요한 최대 높이로 설정 */
+}
+
+.code {
+  padding: 15px;
+  white-space: pre-wrap;
+  margin: 0;
+}
+
+.code-container::before {
+  content: '';
+  display: block;
+  height: 80px; /* 흐리게 보일 부분의 높이 */
+  background: linear-gradient(to bottom, rgba(var(--bs-white-rgb), 0), rgba(var(--bs-white-rgb), 0.7));
+  position: absolute;
+  width: 100%;
+  bottom: 0; /* 코드 박스 아래에 위치하도록 설정 */
+  transition: height 0.3s ease; /* 트랜지션 추가 */
+}
+
+/* 코드 길이가 짧을 때 linear-gradient 숨기기 */
+.code-container.short::before,
+.code-container.open::before {
+  height: 0; /* linear-gradient의 높이를 0으로 설정하여 감춤 */
+}
+
+.toggle-button {
+  position: absolute;
+  right: 30px;
+  bottom: 5px;
+  border: none;
+  padding: 5px 10px;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bs-black);
+  transition: all 0.3s;
+}
+
+.toggle-button:hover {
+  color: #fc8574;
+  transition: all 0.3s;
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  transform: rotate(90deg); /* 기본적으로 오른쪽을 가리키도록 설정 */
+}
+
+.arrow.up {
+  transform: rotate(270deg); /* '>' 모양을 위쪽으로 회전 */
+}
+
+.arrow.down {
+  transform: rotate(90deg); /* '>' 모양을 아래쪽으로 회전 */
+}
+
 
 .fade-in-out {
   opacity: 1;
