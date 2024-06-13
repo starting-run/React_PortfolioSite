@@ -4,7 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faDownload, faFileArrowDown, faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';
 
-import video from '../../images/Unity/Orbit/video.mp4'
+import video from '../../images/Unity/MazeForest/video.mp4'
 import pdf from '../../images/Unity/MazeForest/Unity_MazeForest.pdf';
 import logo from '../../images/Unity/MazeForest/logo.png';
 import img1 from '../../images/Unity/MazeForest/img1.png';
@@ -138,14 +138,15 @@ function MazeForest() {
                                     <div className="card-body p-0">
                                         <div className="d-flex align-items-center">
                                             <div className="proj_text w-100 text-black fw-light">
-                                                <div className="mb-3 w-100 card card-cover-safe p-3 border-0 font-11 rounded-4">
+                                                {/*<div className="mb-3 w-100 card card-cover-safe p-3 border-0 font-11 rounded-4">
                                                     <span className="text-only-white font-11"><FontAwesomeIcon icon={faPenToSquare} /> 제작이 완료되어 프로젝트에 관한 자세한 내용을 작성하고 있습니다.</span>
-                                                </div>
+                                                </div>*/}
                                                 <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 06. 05. - 06. 11.</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">미로로 구성된 숲을 주어진 문제를 해결해 나가며 탈출하는 교육용 게임입니다. 플레이어블 캐릭터를 조작합니다.</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">3인 팀 개발 (주도적 개발 역할)</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">3인 팀 개발</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6 mb-2 text-black">개발 주도 / 게임 시스템 제작 / UI 구성 및 제작 / 시나리오 엔진 개선 등</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
                                                     <span className="fw-light fs-6 mb-2 text-black px-2">
                                                     &middot; 통합된 시나리오 엔진 코드를 사용하여 교육 문제를 개발자가 아니더라도 교육 담당자가 편리하게 변경할 수 있음.
@@ -155,7 +156,7 @@ function MazeForest() {
                                                     </span>
                                                 </div>
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
-                                                <div className="mb-4 px-2 font-11">유니티로 제작된 교육(훈련)용 게임입니다. 주 타겟은 프로그래밍 언어인 C#을 처음 접하는 플레이어입니다. 자연스러운 시나리오 구현을 목표로 제작하였습니다.</div>
+                                                <div className="mb-4 px-2 font-11">유니티로 제작된 교육(훈련)용 게임입니다. 주 타겟은 프로그래밍 언어인 C#을 처음 접하는 플레이어입니다. 문제 수정을 통해 다른 주제로 자유롭게 변경이 가능합니다. 이를 위해 자연스러운 시나리오 구현을 목표로 제작하였습니다.</div>
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                 <div className="code p-3 border-0 mb-5 font-11 rounded-4">
                                                     # Unity 2022.3.21f1<br/>
@@ -183,9 +184,11 @@ function MazeForest() {
                                                 <div className="font-11 fs-2 fw-bold"><b>ScenarioEngine</b></div>
                                                 <div className="code mb-3 font-11 rounded-4"> {code1} </div>
                                                 <p className="mb-5 font-11">시나리오 엔진을 사용해 Resources폴더에서 script 파일을 가져와 동적으로 리소스를 로드합니다. 각 function별로 코루틴 함수를 실행하며, 중복으로 UI가 로드되는 문제를 방지하기 위해 코루틴 함수 실행 중 다른 코루틴 함수가 입력되면 기존의 코루틴 함수는 중지합니다.</p>
+                                                <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
+                                                <video src={video} controls controlsList="nodownload"></video><br/><br/>
                                                 <div className="font-11 fs-2 fw-bold"><b>Presentation</b></div>
                                                 <p><iframe style={{width:'100%', height:'900px'}} src={pdf}></iframe></p>
-                                                <span className="font-11">브라우저에서 PDF viewer를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
+                                                <span className="font-11">브라우저에서 PDF뷰어를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>
                                     </div>

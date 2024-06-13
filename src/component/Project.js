@@ -152,7 +152,7 @@ function Project() {
                                                 <span className="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 <span class="btn btn-sm btn-primary-round-outline">게임</span><div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-5">
-                                                        <span className="">2024. 03. - Developing</span>
+                                                        <span className="">2024. 03. - 개발 중</span>
                                                     </li>
                                                     <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
                                                         <span className="text-end fs-4 card-in-arrow only-hover-view">
@@ -174,7 +174,7 @@ function Project() {
                                                 <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 <span class="btn btn-sm btn-primary-round-outline">VR게임</span><div className="kor-hidden">LethalDeliveryvr, 유니티, 씨샵, C#, Unity</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-5">
-                                                        <span className="">2024. 05. - Developing</span>
+                                                        <span className="">2024. 04. 15. - 06. 10.</span>
                                                     </li>
                                                     <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
                                                         <span className="text-end fs-4 card-in-arrow only-hover-view">
@@ -196,7 +196,7 @@ function Project() {
                                                 <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">교육용 게임</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-5">
-                                                        <span className="">2024. 05. - Developing</span>
+                                                        <span className="">2024. 06. 05. - 06. 11.</span>
                                                     </li>
                                                     <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
                                                         <span className="text-end fs-4 card-in-arrow only-hover-view">

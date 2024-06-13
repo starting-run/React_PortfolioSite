@@ -52,10 +52,11 @@ function LethalDeliveryVR() {
                                                 <span className="text-only-white font-11"><FontAwesomeIcon icon={faPenToSquare} /> 제작이 완료되어 프로젝트에 관한 자세한 내용을 작성하고 있습니다.</span>
                                                 </div>
                                                 <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 05. - 06. 10.</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 04. 15. - 06. 10.</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#, SteamVR SDK</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">리썰컴퍼니를 모작으로 일부 각색하여 VR로 플레이 할 수 있도록 제작된 게임입니다.</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">4인 팀 개발</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6 mb-2 text-black">게임 시스템 구현(인벤토리, 게임매니저, 씬 이동 등) / 플레이어 기능 구현 / UI 구성 및 디자인 / 디테일 개선 등</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
                                                     <span className="fw-light fs-6 mb-2 text-black px-2">
                                                     &middot; 
