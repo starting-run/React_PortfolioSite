@@ -139,11 +139,11 @@ function Project() {
                 </div>
                 <div className="row gx-5 justify-content-center">
                     <div className="mb-5">
-                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">유니티</div>
+                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3 mt-3">유니티</div>
                         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
-                            <div className="img-fluid"> 
+                            <div className="col">
                                 <NavLink to="orbit" id="orbit">
-                                    <div className="col">
+                                    <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <video className="card-image-main video-filter" autoPlay muted loop>
                                                 <source src={project6} type="video/mp4" />
@@ -165,9 +165,9 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>
-                            <div className="img-fluid"> 
+                            <div className="col">
                                 <NavLink to="lethaldeliveryvr" id="lethaldeliveryvr">
-                                    <div className="col">
+                                    <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                         <img className="card-image-main" src ={project5}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
@@ -187,11 +187,11 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>
-                            <div className="img-fluid"> 
+                            <div className="col">
                                 <NavLink to="mazeforest" id="mazeforest">
-                                    <div className="col">
+                                    <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                        <img className="card-image-main" src ={project7}></img>
+                                            <img className="card-image-main" src ={project7}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                 <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">교육용 게임</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
@@ -208,10 +208,10 @@ function Project() {
                                         </div>
                                     </div>
                                 </NavLink>
-                            </div>
-                            <div className="img-fluid">
+                            </div>   
+                            <div className="col">
                                 <NavLink to="snake" id="snake">
-                                    <div className="col">
+                                    <div className="img-fluid">
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project1}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
@@ -238,10 +238,10 @@ function Project() {
                 <div className="row gx-5 justify-content-center">
                     <div className="mb-5">
                         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
-                            <div className="img-fluid">
+                            <div className="col">
+                                <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">리액트</div>
                                 <NavLink to="website" id="website">
-                                    <div className="col">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">리액트</div>
+                                    <div className="img-fluid">
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project4}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
@@ -260,11 +260,11 @@ function Project() {
                                         </div>
                                     </div>
                                 </NavLink>
-                            </div>
-                            <div className="img-fluid">
+                            </div> 
+                            <div className="col">
+                                <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">프로세싱</div>
                                 <NavLink to="pacman" id="pacman">
-                                    <div className="col">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">프로세싱</div>
+                                    <div className="img-fluid">
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project3}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
@@ -283,11 +283,11 @@ function Project() {
                                         </div>
                                     </div>
                                 </NavLink>
-                            </div>
-                            <div className="img-fluid">
+                            </div>                      
+                            <div className="col">
+                                <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">OpenGL</div>
                                 <NavLink to="ironman" id="ironman">
-                                    <div className="col">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">OpenGL</div>
+                                    <div className="img-fluid">
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project2}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
@@ -311,12 +311,11 @@ function Project() {
                     </div>
                 </div>
                 <div className="gx-5 justify-content-center">
-                    
                     <div className="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 cards">
-                        <div className="img-fluid">
+                        <div className="col">
+                            <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">기획</div>
                             <a href={prop1pdf}>
-                                <div className="col">
-                                    <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">기획</div>
+                                <div className="img-fluid">
                                     <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                         <img className="card-image-main" src ={prop1}></img>
                                         <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
@@ -336,9 +335,9 @@ function Project() {
                                 </div>
                             </a>
                         </div>
-                        <div className="img-fluid">
+                        <div className="col">
                             <a href={prop2pdf}>
-                                <div className="col">
+                                <div className="img-fluid">
                                     <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                         <img className="card-image-main" src ={project5}></img>
                                         <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
