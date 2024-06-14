@@ -27,9 +27,9 @@ import { motion } from 'framer-motion';
 
 function LethalDeliveryVR() {
     const updatedate = "2024. 06. 09." //최종 업데이트 일자
-    const notify = () => toast.error('제작 진행중입니다.', {duration: 4000});
+    const notify = () => toast.loading('제작이 완료되어 프로젝트에 관한 자세한 내용을 작성하고 있습니다.', {duration: 4000});
     useEffect(() => {
-        //notify();
+        notify();
       }, []);
 
       return (

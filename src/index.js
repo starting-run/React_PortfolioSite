@@ -13,7 +13,7 @@ import Footer from './component/Footer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <HashRouter>
-      <Toaster position='bottom-right'/>
+      <Toaster position='bottom-center'/>
       <App />
       <ScrollToTop />
       <ScrollIndicator/>

@@ -1,11 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
+import toast from 'react-hot-toast';
 
-class Profile extends Component {
-    render() {
+function Profile() {
+    const notify = () => toast('메일을 통해 연락하실 수 있습니다.', {duration: 4000});
+    useEffect(() => {
+        notify();
+      }, []);
       return (
         <motion.div
         initial={{ opacity: 0 }}
@@ -174,6 +178,5 @@ class Profile extends Component {
         </motion.div>
       );
     }
-  }
 
   export default Profile;
