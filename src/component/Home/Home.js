@@ -5,10 +5,16 @@ import Home_2 from './Home_2';
 import Home_3 from './Home_3';
 import Home_4 from './Home_4';
 import Home_5 from './Home_5';
+import { motion } from 'framer-motion';
 
 function Home() {
     return (
-    <div>
+    <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.3 }}
+      >
         <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
         <div className="bg-white-gray">
             <Home_1/>
@@ -17,7 +23,7 @@ function Home() {
             {/*<Home_4/>*/}
             <Home_5/>
         </div>
-    </div>
+    </motion.div>
     );
 }
 

@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet';
+import { motion } from 'framer-motion';
 
 class Profile extends Component {
     render() {
       return (
-        <div>
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
             <Helmet><title>프로필 - USFREE</title></Helmet>
             <section className="bg-white-gray h-100">
                 <div className="container-xxl px-4 pt-6">
@@ -165,7 +171,7 @@ class Profile extends Component {
                     </div>
                 </div>
             </section>
-        </div>
+        </motion.div>
       );
     }
   }

@@ -7,6 +7,7 @@ import { faBars, faChevronLeft, faFileArrowDown } from "@fortawesome/free-solid-
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import CodeBox from '../Function/CodeBox';
+import { motion } from 'framer-motion';
 
 let code1 = `void CreateMap() {
     cols = width / gridSize;
@@ -135,7 +136,12 @@ className Item {
 class Pacman extends Component {
     render() {
       return (
-        <div>
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
             <Helmet><title>팩맨 - USFREE</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
@@ -205,7 +211,7 @@ class Pacman extends Component {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
       );
     }
   }

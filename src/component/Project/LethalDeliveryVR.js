@@ -21,6 +21,7 @@ import intro from '../../images/Unity/LethalDeliveryVR/thum.png';
 import prop2pdf from '../../images/projects/prop2/prop_LethalDeliveryVR.pdf';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
+import { motion } from 'framer-motion';
 
 
 
@@ -32,7 +33,12 @@ function LethalDeliveryVR() {
       }, []);
 
       return (
-        <div>
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
             <Helmet>
                 <title>리썰딜리버리 - USFREE</title>
             </Helmet>
@@ -98,7 +104,7 @@ function LethalDeliveryVR() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
       );
     }
 

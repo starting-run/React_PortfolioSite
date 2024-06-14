@@ -13,12 +13,11 @@ import img3 from '../../images/Unity/MazeForest/img3.png';
 import img4 from '../../images/Unity/MazeForest/img4.png';
 import img5 from '../../images/Unity/MazeForest/img5.png';
 import img6 from '../../images/Unity/MazeForest/img6.png';
-import video1 from '../../images/Unity/Unity_Snake.mp4'
-import intro from '../../images/Unity/LethalDeliveryVR/thum.png';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
 import { useRef } from 'react';
 import CodeBox from '../Function/CodeBox';
+import { motion } from 'framer-motion';
 
 let code1 = `private IEnumerator PlayVideo(string[] tokens)
     {
@@ -149,7 +148,12 @@ function MazeForest() {
       }, []);
 
       return (
-        <div>
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
             <Helmet>
                 <title>미로의 숲 - USFREE</title>
             </Helmet>
@@ -228,7 +232,7 @@ function MazeForest() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
       );
     }
 

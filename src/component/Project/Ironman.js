@@ -12,11 +12,17 @@ import img3 from '../../images/OpenGL/3.png';
 import img4 from '../../images/OpenGL/4.png';
 import img5 from '../../images/OpenGL/5.png';
 import { Helmet } from 'react-helmet';
+import { motion } from 'framer-motion';
 
 class Ironman extends Component {
     render() {
       return (
-        <div>
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
             <Helmet><title>아이언맨 - USFREE</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
@@ -77,7 +83,7 @@ class Ironman extends Component {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
       );
     }
   }

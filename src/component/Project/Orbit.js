@@ -20,6 +20,7 @@ import pdf1 from '../../images/Unity/Unity_Snake.pdf';
 import intro from '../../images/Unity/Orbit/intro.mp4';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
+import { motion } from 'framer-motion';
 
 
 
@@ -32,7 +33,12 @@ function Orbit() {
       }, []);
 
       return (
-        <div>
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
             <Helmet>
                 <title>오르빗 - USFREE</title>
             </Helmet>
@@ -98,7 +104,7 @@ function Orbit() {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
       );
     }
 

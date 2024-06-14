@@ -1,5 +1,17 @@
 import './App.css';
 import React, { useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
+import Home from './component/Home/Home';
+import Project from './component/Project';
+import Profile from './component/Profile';
+import Pacman from './component/Project/Pacman';
+import Ironman from './component/Project/Ironman';
+import Snake from './component/Project/Snake';
+import Orbit from './component/Project/Orbit';
+import Website from './component/Project/Website';
+import LethalDeliveryVR from './component/Project/LethalDeliveryVR';
+import MazeForest from './component/Project/MazeForest';
 import cursorImage from './images/Cursor.png'; 
 
 const App = () => {
@@ -11,12 +23,24 @@ const App = () => {
       document.body.style.cursor = 'default';
     };
   }, []);
+  const location = useLocation();
 
   return (
-    <div>
-
-    </div>
+    <AnimatePresence mode="wait">
+      <Routes location={location} key={location.pathname}>
+        <Route path="/profile/*" element={<Profile/>}/>
+        <Route exact path="/" element={<Home/>}/>
+        <Route path="/project" element={<Project/>}/>
+        <Route path="/project/lethaldeliveryvr" element={<LethalDeliveryVR/>}/>
+        <Route path="/project/orbit" element={<Orbit/>}/>
+        <Route path="/project/website" element={<Website/>}/>
+        <Route path="/project/pacman" element={<Pacman/>}/>
+        <Route path="/project/ironman" element={<Ironman/>}/>
+        <Route path="/project/snake" element={<Snake/>}/>
+        <Route path="/project/mazeforest" element={<MazeForest/>}/>
+      </Routes>
+    </AnimatePresence>
   );
-};
+}
 
 export default App;

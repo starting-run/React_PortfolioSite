@@ -16,8 +16,8 @@ import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
 import $ from 'jquery';
+import { motion } from 'framer-motion';
 
-let city, country;
 
 function filter() {
     let search = document.getElementById("search").value.toLowerCase();
@@ -104,7 +104,12 @@ function Project() {
 
     const notify = () => toast.error('준비중입니다.', {duration: 4000});
       return (
-        <div>
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
             <Helmet><title>프로젝트 - USFREE</title></Helmet>
             <section className="bg-white-gray">
             <div className="container-xxl px-4 pt-6 min-vh-100">
@@ -362,7 +367,7 @@ function Project() {
 
             </div>
         </section>
-      </div>
+      </motion.div>
       
       );
     }

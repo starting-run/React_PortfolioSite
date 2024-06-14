@@ -5,10 +5,12 @@ import { faArrowUp, faBars, faChevronLeft } from "@fortawesome/free-solid-svg-ic
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
+import { motion } from 'framer-motion';
 
 import img1 from '../../images/projects/portfolio_website/1.png';
 import img2 from '../../images/projects/portfolio_website/2.png';
 import img3 from '../../images/projects/portfolio_website/3.png';
+
 
 function Website() {
     const notify = () => toast.success('현재 접속중인 웹사이트입니다.', {duration: 4000});
@@ -18,7 +20,12 @@ function Website() {
       }, []);
 
       return (
-        <div>
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
             <Helmet><title>포트폴리오 - USFREE</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
@@ -87,7 +94,7 @@ function Website() {
                     </div>                    
                 </div>
             </div>
-        </div>
+        </motion.div>
       );
     }
 

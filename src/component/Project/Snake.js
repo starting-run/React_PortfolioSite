@@ -17,11 +17,17 @@ import img9 from '../../images/Unity/9.png';
 import pdf from '../../images/Unity/Unity_Snake.pdf';
 import build from '../../images/Unity/Snake_Build.7z';
 import { Helmet } from 'react-helmet';
+import { motion } from 'framer-motion';
 
 class Snake extends Component {
     render() {
       return (
-        <div>
+        <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.2 }}
+      >
             <Helmet><title>스네이크 - USFREE</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
@@ -88,7 +94,7 @@ class Snake extends Component {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
       );
     }
   }
