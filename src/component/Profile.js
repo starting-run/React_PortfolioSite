@@ -6,9 +6,9 @@ import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
 
 function Profile() {
-    const notify = () => toast('메일을 통해 연락하실 수 있습니다.', {duration: 4000});
+    const notify = () => toast('msg', {duration: 4000});
     useEffect(() => {
-        notify();
+        //notify();
       }, []);
       return (
         <motion.div
