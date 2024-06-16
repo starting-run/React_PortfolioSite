@@ -1,7 +1,7 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faChevronLeft, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faChevronLeft, faDownload, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
@@ -25,11 +25,12 @@ import { motion } from 'framer-motion';
 
 
 function Orbit() {
-    const updatedate = "2024. 05. 19." //최종 업데이트 일자
+    const updatedate = "2024. 06. 17." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중인 프로젝트입니다!', {duration: 4000});
-    const notify2 = () => toast.error('제작 진행중인 프로젝트입니다. 깃허브 리포지토리를 아직 제공하지 않습니다.', {duration: 4000});
+    const notify2 = () => toast('완성도를 높이기 위해 유료 에셋이 포함되어 있습니다. 리포지토리를 열람하고 싶으시다면 별도의 연락을 부탁드립니다.', {duration: 6000});
+    const notify3 = () => toast.error('제작이 완료된 후 빌드 파일을 제공할 예정입니다.', {duration: 4000});
     useEffect(() => {
-        notify();
+        //notify();
       }, []);
 
       return (
@@ -46,7 +47,8 @@ function Orbit() {
                 <div className="bg-white-gray">
                     <div className="container-xxl px-4 pt-6" id="seemore">
                         <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">오르빗 <span class="btn btn-sm btn-primary-round-outline">게임</span></div>
-                        <a href="https://github.com/usfree/Unity_Orbit" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
+                        {/*href="https://github.com/usfree/Unity_Orbit"*/}<a onClick={notify2} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
+                        <a onClick={notify3} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
                         <div className="row gx-5 justify-content-center">
                             <div className="up-animation">
                                 <div className="rounded-2 border-0">
