@@ -61,7 +61,7 @@ function Orbit() {
                                                 <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 03. -</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">TPS와 RPG를 결합한 게임으로, 3D로 제작된 게임입니다. 높은 퀄리티를 위해 HDRP를 사용합니다.</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">FPS와 RPG를 결합한 3D 게임으로, AI에게 지배당한 세계를 해방시키는 것이 목표인 게임임.</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">1인 개발</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
                                                     <span className="fw-light fs-6 mb-2 text-black px-2">
@@ -77,7 +77,7 @@ function Orbit() {
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                 <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
                                                     # Unity 2021.3.37f1<br/>
-
+                                                    Unity_Orbit.sln
                                                 </div>
                                                 <hr/>
                                                 <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>

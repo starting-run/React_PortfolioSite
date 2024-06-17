@@ -60,7 +60,14 @@ function LethalDeliveryVR() {
                                                 <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 04. 15. - 06. 10.</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#, SteamVR SDK</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">리썰컴퍼니를 모작으로 일부 각색하여 VR로 플레이 할 수 있도록 제작된 게임입니다.</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">리썰컴퍼니를 모작으로 일부 각색하여 VR로 플레이 할 수 있도록 제작된 게임임.</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">개발 목표</div>
+                                                    <span className="fw-light fs-6 mb-2 text-black px-2">
+                                                        &middot; LBE(Local Based Entertainment)를 이해하고, 이를 기반으로 가상 콘텐츠를 진행할 수 있어야 함.<br/>
+                                                        &middot; VR 기기에 대한 이해를 통해 HMD 디바이스를 활용한 콘텐츠를 제작해야 함.<br/>
+                                                        &middot; 로컬 세이브 파일 저장을 통해 씬 전환시 씬의 변경사항에 대한 데이터를 저장해야 함.<br/>
+                                                        &middot; <span class="text-decoration-line-through">로컬 네트워크 / 서버 구성 및 통신을 활용해 다수의 멀티플레이와 모니터링을 요함.</span> <span class="font-7 highlight"> {'>'} </span> 개발 일정 상 진행되지 못함
+                                                    </span>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">4인 팀 개발</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6 mb-2 text-black">게임 시스템 구현(인벤토리, 게임매니저, 씬 이동 등) / 플레이어 기능 구현 / UI 구성 및 디자인 / 디테일 개선 등</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
@@ -75,7 +82,7 @@ function LethalDeliveryVR() {
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                 <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
                                                     # Unity 2021.3.37f1<br/>
-
+                                                    LethalDelivery_VR.sln   
                                                 </div>
                                                 <hr/>
                                                 <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
