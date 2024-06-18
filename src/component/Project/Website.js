@@ -1,3 +1,9 @@
+/*
+    조우현 - Woohyun Cho
+    tlrmsjtm77@gmail.com
+    https://usfree.site
+*/
+
 import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";

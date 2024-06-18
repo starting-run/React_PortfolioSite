@@ -1,3 +1,9 @@
+/*
+    조우현 - Woohyun Cho
+    tlrmsjtm77@gmail.com
+    https://usfree.site
+*/
+
 const reportWebVitals = onPerfEntry => {
   if (onPerfEntry && onPerfEntry instanceof Function) {
     import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {

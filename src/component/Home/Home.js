@@ -1,3 +1,9 @@
+/*
+    조우현 - Woohyun Cho
+    tlrmsjtm77@gmail.com
+    https://usfree.site
+*/
+
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Home_1 from './Home_1';

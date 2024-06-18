@@ -1,3 +1,9 @@
+/*
+    조우현 - Woohyun Cho
+    tlrmsjtm77@gmail.com
+    https://usfree.site
+*/
+
 import React, { Component } from 'react';
 import video from '../../images/Pacman/Processing_Pacman.mp4'
 import pdf from '../../images/Pacman/Processing_Pacman.pdf';

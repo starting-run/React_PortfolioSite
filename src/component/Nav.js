@@ -1,3 +1,9 @@
+/*
+    조우현 - Woohyun Cho
+    tlrmsjtm77@gmail.com
+    https://usfree.site
+*/
+
 import React, { useEffect, useState } from 'react';
 import {NavLink} from 'react-router-dom';
 import 'bootstrap/dist/js/bootstrap.bundle';

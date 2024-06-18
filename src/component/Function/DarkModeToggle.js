@@ -1,3 +1,9 @@
+/*
+    조우현 - Woohyun Cho
+    tlrmsjtm77@gmail.com
+    https://usfree.site
+*/
+
 import React, { useState, useEffect } from 'react';
 import icon1 from '../../images/ic-lightmode-w.svg';
 import icon2 from '../../images/ic-darkmode.svg';

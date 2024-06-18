@@ -1,3 +1,9 @@
+/*
+    조우현 - Woohyun Cho
+    tlrmsjtm77@gmail.com
+    https://usfree.site
+*/
+
 import React, { Component } from 'react';
 import video from '../../images/Unity/Unity_Snake.mp4'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

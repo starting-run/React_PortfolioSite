@@ -1,3 +1,9 @@
+/*
+    조우현 - Woohyun Cho
+    tlrmsjtm77@gmail.com
+    https://usfree.site
+*/
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import $ from 'jquery';

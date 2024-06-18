@@ -1,3 +1,9 @@
+/*
+    조우현 - Woohyun Cho
+    tlrmsjtm77@gmail.com
+    https://usfree.site
+*/
+
 import React, { useEffect } from 'react';
 import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
