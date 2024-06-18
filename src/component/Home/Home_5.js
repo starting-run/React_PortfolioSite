@@ -78,7 +78,7 @@ function Home_5() {
                       <div></div>
                     </div>
                   </div>
-                  글 목록을 불러오는 중입니다. Proxy 접속 한계를 초과했을 시에는 출력되지 않습니다.
+                  글 목록을 불러오는 중입니다. 잠시만 기다려주세요.
                   </div>
               ) : (
               <ul>
@@ -90,16 +90,16 @@ function Home_5() {
 
                     return (
                       <div className='img-fluid'>
-                        <a href={post.link} target="_blank" rel="noopener noreferrer">
-                          <li key={index} className='col text-start mb-3'>
-                            <div className="card card-cover card-border-0 rounded-4 p-4">
-                            {post.imageUrl && <img src={post.imageUrl} alt="Post thumbnail" className='mb-3' style={{height: '225px'}}/>}
-                                <div className="font-11 fs-4 mb-1 fw-bold text-black">{truncatedTitle}</div>
-                              <div className="mb-4 font-11 fs-8 text-black">{formattedDate}</div>
-                              <div className="font-11 fs-6 text-black">{truncatedDescription}</div>
-                            </div>
-                          </li>
-                        </a>
+                        <div className="card card-cover-main card-border-0 rounded-4 p-4 pb-2">
+                          <a href={post.link} target="_blank" rel="noopener noreferrer" className='text-black'>
+                            <li key={index} className='col text-start mb-3'>
+                              {post.imageUrl && <img src={post.imageUrl} alt="Post thumbnail" className='mb-3' style={{height: '225px', width: '100%'}}/>}
+                                  <span className="font-11 fs-4 mb-1 fw-bold">{truncatedTitle}</span>
+                                <div className='mb-4'><span className="mb-4 font-11 fs-8">{formattedDate}</span></div>
+                                <div><span className="font-11 fs-6">{truncatedDescription}</span></div>
+                            </li>
+                          </a>
+                        </div>
                       </div>
                     );
                 })}

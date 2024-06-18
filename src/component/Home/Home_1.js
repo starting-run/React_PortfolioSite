@@ -174,6 +174,7 @@ function Home_1() {
                 </div>
               </div>
 
+{/*
               <div
                 className="section_hor"
                 onMouseEnter={() => handleMouseEnter(intro4)}
@@ -192,6 +193,7 @@ function Home_1() {
                   </div>
                 </div>
               </div>
+*/}
 
               <div
                 className="section_hor"

@@ -37,20 +37,19 @@ function Home_3() {
                         <div className="row row-cols-lg-2 row-cols-1">
                         <div className="col col-lg-2 mb-3 text-black">
                             <div className="font-11 text-start fs-1">만나서<br className="only-pc-view"/><span className="no_enter"> 반갑습니다 !</span>
-                            <div className="main__action position-absolute only-pc-view">
-                                <HashLink smooth to="#home_project" className="main__scroll">
-                                    <div className="main__scroll-box">
-                                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M0 0h24v24H0z" fill="none"></path>
-                                            <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
-                                        </svg>
-                                    </div>
-                                </HashLink>
-                            </div>
+                                {/*<div className="main__action position-absolute only-pc-view">
+                                    <HashLink smooth to="#home_project" className="main__scroll">
+                                        <div className="main__scroll-box">
+                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
+                                            </svg>
+                                        </div>
+                                    </HashLink>
+                                </div>*/}
                             </div>
                         </div>
                             <div className="col col-lg-7 mb-3 ">
-                                
                                 <div className="intro-background card  card-border-0 p-0 rounded-4">
                                     <video className="card-image-sec1" autoPlay muted loop>
                                         <source src={project5} type="video/mp4" />
