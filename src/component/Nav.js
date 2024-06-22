@@ -1,7 +1,7 @@
 /*
     조우현 - Woohyun Cho
     tlrmsjtm77@gmail.com
-    https://usfree.site
+    https://starting.run
 */
 
 import React, { useEffect, useState } from 'react';
@@ -109,9 +109,9 @@ return (
                   <NavLink exact='true' to="/project" className="nav-link navbar-items" title="Project"><li className="nav-item">프로젝트</li></NavLink>
                   <a className="nav-link navbar-items" href="https://github.com/usfree" target='_blank' title="Github"><li className="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
                   <a className="nav-link navbar-items" href="https://velog.io/@usfree" target='_blank' title="Blog"><li className="nav-item">블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
-                  <a className="nav-link navbar-items" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." target='_blank' title="Mail"><li className="nav-item">메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
+                  <a className="nav-link navbar-items" href="mailto:ploris576@kangnam.ac.kr?subject=starting.run에서 보내는 메일입니다." target='_blank' title="Mail"><li className="nav-item">메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
                   
-                  <span className="hamburger-copy text-black pt-5 font-letter-space only-mobile-view font-11">Copyright &copy; Woohyun Cho(usfree) All rights reserved.</span>
+                  <span className="hamburger-copy text-black pt-5 font-letter-space only-mobile-view font-11">Copyright &copy; Woohyun Cho(starting) All rights reserved.</span>
                   <span className="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
                 </ul>
               </div>

@@ -34,7 +34,7 @@ class Snake extends Component {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>스네이크 - USFREE</title></Helmet>
+            <Helmet><title>스네이크 - starting</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
                     <div className="container-xxl px-4 pt-6" id="seemore">

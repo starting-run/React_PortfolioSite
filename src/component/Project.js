@@ -1,7 +1,7 @@
 /*
     조우현 - Woohyun Cho
     tlrmsjtm77@gmail.com
-    https://usfree.site
+    https://starting.run
 */
 
 import React, { useEffect } from 'react';
@@ -116,7 +116,7 @@ function Project() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>프로젝트 - USFREE</title></Helmet>
+            <Helmet><title>프로젝트 - starting</title></Helmet>
             <section className="bg-white-gray">
             <div className="container-xxl px-4 pt-6 min-vh-100">
             {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>*/}

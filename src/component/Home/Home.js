@@ -21,7 +21,7 @@ function Home() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.3 }}
       >
-        <Helmet><title>USFREE | Woohyun Cho</title></Helmet>
+        <Helmet><title>starting | Woohyun Cho</title></Helmet>
         <div className="bg-white-gray">
             <Home_1/>
             <Home_2/>

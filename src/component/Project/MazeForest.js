@@ -161,7 +161,7 @@ function MazeForest() {
         transition={{ duration: 0.2 }}
       >
             <Helmet>
-                <title>미로의 숲 - USFREE</title>
+                <title>미로의 숲 - starting</title>
             </Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray ">

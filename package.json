@@ -44,7 +44,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://usfree.site",
+  "homepage": "https://starting.run",
   "eslintConfig": {
     "extends": [
       "react-app",

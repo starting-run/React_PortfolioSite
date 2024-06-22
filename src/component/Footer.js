@@ -35,11 +35,11 @@ return (
                 <a className="pe-5" href="https://velog.io/@usfree" title="Blog" target='_blank'> 블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
                 <a className="" href="https://codeforces.com/profile/tlrmsjtm77" title="Codeforces" target='_blank'> 코드포스 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a></div>
               <div className="mb-2"><Link className="pe-5" exact='true' to="/project" title="프로젝트">프로젝트</Link>
-                <a className="" href="mailto:ploris576@kangnam.ac.kr?subject=usfree.site에서 보내는 메일입니다." title="Mail" target='_blank'> 메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a></div>
+                <a className="" href="mailto:ploris576@kangnam.ac.kr?subject=starting.run에서 보내는 메일입니다." title="Mail" target='_blank'> 메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a></div>
             </div>
             <div className="col-auto font-11">
               <div className="smaller m-0 text-black mb-1">본 사이트는 개인 포트폴리오용으로 제작되었습니다.</div>
-              <div className="smaller m-0 text-black mb-3">&copy; Woohyun Cho(usfree). All rights reserved.</div>
+              <div className="smaller m-0 text-black mb-3">&copy; Woohyun Cho(starting). All rights reserved.</div>
             </div>
         </div>
       </div>

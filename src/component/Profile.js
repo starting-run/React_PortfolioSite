@@ -23,7 +23,7 @@ function Profile() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>프로필 - USFREE</title></Helmet>
+            <Helmet><title>프로필 - starting</title></Helmet>
             <section className="bg-white-gray h-100">
                 <div className="container-xxl px-4 pt-6">
                     <div className="row justify-content-center">
