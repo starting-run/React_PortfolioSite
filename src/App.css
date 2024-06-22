@@ -6710,19 +6710,59 @@ textarea.form-control-lg {
   transition: all 0.3s;
 }
 
+.card-cover-git {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: solid 1px var(--bs-black);
+  color: var(--bs-black);
+  transition: all 0.3s;
+}
+
+.card-cover-git:hover {
+  background-color: var(--bs-black);
+  transition: all 0.3s;
+  span {
+    color:var(--bs-white);
+  }
+}
+
+.card-cover-mail {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: solid 1px #EF5B2A;
+  color: #EF5B2A;
+  transition: all 0.3s;
+}
+
+.card-cover-mail:hover {
+  background-color: #EF5B2A;
+  transition: all 0.3s;
+  span {
+    color:#fff;
+  }
+}
+
+
 .card-cover-blog {
   z-index: 5;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #22C998;
-  color: var(--bs-black);
+  border: solid 1px #22C998;
+  color: #22C998;
   transition: all 0.3s;
 }
 
 .card-cover-blog:hover {
-  background-color: #2BC731;
+  background-color: #22C998;
   transition: all 0.3s;
+  span {
+    color:#fff;
+  }
 }
 
 .card-cover-boj {
@@ -6730,14 +6770,17 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: #0A7DC5;
-  color: var(--bs-black);
+  border: solid 1px #0A7DC5;
+  color: #0A7DC5;
   transition: all 0.3s;
 }
 
 .card-cover-boj:hover {
-  background-color: #09B7C5;
+  background-color: #0A7DC5;
   transition: all 0.3s;
+  span {
+    color:#fff;
+  }
 }
 
 .card-in-text {
