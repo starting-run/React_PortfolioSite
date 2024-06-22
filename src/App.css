@@ -1017,6 +1017,10 @@
     margin-top: 2rem !important;
     transition: all 0.3s;
   }
+
+  .container_hor { /* 홈 1섹션 너비 */
+    width: 95%;
+  }
   
 }
 
