@@ -23,11 +23,10 @@ function Home() {
       >
         <Helmet><title>starting | Woohyun Cho</title></Helmet>
         <div className="bg-white-gray">
-            <Home_1/>
+            {/*<Home_1/>*/}
             <Home_2/>
             <Home_3/>
             {/*<Home_4/>*/}
-            <Home_5/>
         </div>
     </motion.div>
     );

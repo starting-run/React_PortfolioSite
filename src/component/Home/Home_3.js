@@ -7,7 +7,7 @@
 import React, { useEffect, useState } from 'react';
 import {NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowRight, faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faAt, faBriefcase, faCircleArrowRight, faCircleArrowUp, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import project5 from '../../images/Unity/Orbit/intro.mp4';
 
 function Home_3() {
@@ -40,8 +40,16 @@ function Home_3() {
                     <div className="container-xxl px-3 mt-5-main">
                         {/* 메인 카드 섹션 */}
                         <div className="row row-cols-lg-2 row-cols-1">
-                        <div className="col col-lg-2 mb-3 text-black">
-                            <div className="font-11 text-start fs-1">만나서<br className="only-pc-view"/><span className="no_enter"> 반갑습니다 !</span>
+                        <div className="col col-lg-12 text-black">
+                            <div className="font-11 text-start fs-3 mb-5">안녕하세요, <span class="highlight">게임 클라이언트 개발자</span> 조우현입니다. <span class="lowlight">제가 가장 잘하고 좋아하는 방식으로 사람들에게 즐거움을 주려고 노력하고 있습니다. 무엇이 가장 옳은 방식인지 혁신적인 생각을 하기 위해 끊임없이 고민합니다.</span>
+                            <div className='fs-4 mt-5'>
+                                <div className='mb-4'>조우현 <span class="fs-5">/ Woohyun Cho</span></div>
+                                <div className='fs-6 mb-2'><FontAwesomeIcon icon={faAt}/>　 <a href="mailto:ploris576@kangnam.ac.kr?subject=starting.run에서 보내는 메일입니다." target='_blank'>ploris576@kangnam.ac.kr</a></div>
+                                <div className='fs-6 mb-2'><FontAwesomeIcon icon={faGraduationCap}/>　<a href="https://web.kangnam.ac.kr/" target='_blank'>강남대학교</a> 재학, 소프트웨어 / 가상현실 복수전공</div>
+                                <div className='fs-6 mb-2'><FontAwesomeIcon icon={faBriefcase}/>　 <a href="https://www.motioncapture.co.kr/" target='_blank'>모션테크놀로지</a> 인턴</div>
+                            </div>
+                            <div className="font-11 text-end fs-6 w-100 fw-light text-black"><NavLink to='/link'>모든 연락처와 링크를 보시려면　<FontAwesomeIcon icon={faArrowRight}/></NavLink></div>
+                            <hr className=''/>
                                 {/*<div className="main__action position-absolute only-pc-view">
                                     <HashLink smooth to="#home_project" className="main__scroll">
                                         <div className="main__scroll-box">
@@ -54,7 +62,7 @@ function Home_3() {
                                 </div>*/}
                             </div>
                         </div>
-                            <div className="col col-lg-7 mb-3 ">
+                            <div className="col w-100 mb-4"> {/*col-lg-12*/}
                                 <div className="intro-background card  card-border-0 p-0 rounded-4">
                                     <video className="card-image-sec1" autoPlay muted loop>
                                         <source src={project5} type="video/mp4" />
@@ -88,6 +96,10 @@ function Home_3() {
                                     </NavLink>
                                 </div>
                             </div>
+                            <div className="font-11 text-start fs-3 mb-3 w-100 fw-bold text-black">AI로부터 무력해진 세상을 구원하라</div>
+                            <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">유니티의 HDRenderPipeline을 사용하여 졸업작품으로 제작 중인 <span class="highlight">오르빗</span> 게임입니다. 고도화된 인공지능이 보편화된 사회에서 사회적 합의와 정책이 뒤따르지 않은 절망적인 결과를 표방합니다. 인공지능에 대한 경각심을 일깨우는 것이 하나의 목표입니다.</div>
+                            <div className="font-11 text-end fs-6 mb-5 w-100 fw-light text-black"><NavLink to='/project'>더 많은 프로젝트를 보시려면　<FontAwesomeIcon icon={faArrowRight}/></NavLink></div>
+                            {/*
                             <div className="col col-lg-3">
                                 <div className="row-cols-lg-1">
                                     <div className="col">
@@ -174,7 +186,7 @@ function Home_3() {
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </div>

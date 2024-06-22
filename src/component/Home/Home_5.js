@@ -72,7 +72,7 @@ function Home_5() {
       <div className="container-xxl px-4" id="seemore">
           <div className="row gx-5 justify-content-center">
             <div className="d-flex justify-content-between">
-              <div className="mb-3 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">최신 블로그 글</div>
+              <div className="mb-3 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">블로그 글</div>
               <a href="https://velog.io/@usfree/posts" target='_blank'><div className="mt-3 fs-6 font-11 fw-normal font-letter-space-sm">더보기 <FontAwesomeIcon icon={faCircleArrowRight}/></div></a>
             </div>
                 {loading ? (  // 로딩 상태일 때 로딩 메시지 표시

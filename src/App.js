@@ -19,6 +19,8 @@ import Website from './component/Project/Website';
 import LethalDeliveryVR from './component/Project/LethalDeliveryVR';
 import MazeForest from './component/Project/MazeForest';
 import cursorImage from './images/Cursor.png'; 
+import Link from './component/Link';
+import Blog from './component/Blog';
 
 const App = () => {
   useEffect(() => {
@@ -37,6 +39,8 @@ const App = () => {
         <Route path="/profile/*" element={<Profile/>}/>
         <Route exact path="/" element={<Home/>}/>
         <Route path="/project" element={<Project/>}/>
+        <Route path="/link" element={<Link/>}/>
+        <Route path="/blog" element={<Blog/>}/>
         <Route path="/project/lethaldeliveryvr" element={<LethalDeliveryVR/>}/>
         <Route path="/project/orbit" element={<Orbit/>}/>
         <Route path="/project/website" element={<Website/>}/>

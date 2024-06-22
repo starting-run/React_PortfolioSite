@@ -604,16 +604,25 @@
 
 
 .bg {
-  height: 400px;
+  height: 600px;
   width: 100%;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  position: relative;
 }
 
 .bg_type1 {
-  background-image: url('/src/images/sec3.png');
+  background-color: rgba(239, 91, 42, 0.4);
+}
+
+.bg_logo {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .no_enter {
@@ -662,6 +671,10 @@
 
 .highlight {
   color: #EF5B2A;
+}
+
+.lowlight {
+  color: rgba(var(--bs-black-rgb), 0.5);
 }
 
 .highlight-gradient {
@@ -1021,7 +1034,9 @@
   .container_hor { /* 홈 1섹션 너비 */
     width: 95%;
   }
-  
+  .bg_logo {
+    width: 65%;
+  }
 }
 
 .navbar-left-margin {
@@ -1656,7 +1671,8 @@
 }
 
 .bg-video__content {
-  height: 100vh;
+  position: absolute;
+  height: 100%;
   width: 100%;
   object-fit: cover;  
 }
@@ -10787,7 +10803,7 @@ video {
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: calc(1.0rem + 0.3vw) !important;
 }
 
 .fs-6 {
@@ -11197,11 +11213,11 @@ video {
 
 .bg-video-prj {
   position: absolute; /* 스크롤시 고정은 absolute */
-  opacity: 0.15; /* 원본값 0.15 */
+  opacity: 0.05; /* 원본값 0.15 */
   align-items: center;
   object-fit: cover;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-size : cover;
   /* filter:blur(2px); 배경 블러 */
 }
