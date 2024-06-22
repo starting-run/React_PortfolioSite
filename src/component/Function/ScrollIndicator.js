@@ -17,7 +17,7 @@ const ProgressContainer = styled.div`
 `;
 const ProgressBar = styled.div`
   height: 4px;
-  background: ${(props) => props.color || '#FC8574'};
+  background: ${(props) => props.color || '#ef5b2a'};
   width: ${(props) => props.width || 0}%;
   border-radius: 1rem;
 `;

@@ -1,7 +1,7 @@
 /*
     조우현 - Woohyun Cho
     tlrmsjtm77@gmail.com
-    https://usfree.site
+    https://starting.run
 */
 
 import React from 'react';
@@ -29,7 +29,7 @@ return (
         <div className="container-xxl px-4 text-black font-11">
             <div className="text-start mb-5 fs-6">
               <div className="mb-2"><Link className="pe-5" exact='true' to="/" title="메인" onClick={MoveToTop}>메인　　</Link>
-                <a className="pe-5" href="https://github.com/usfree" title="Github" target='_blank'> 깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
+                <a className="pe-5" href="https://github.com/starting-run" title="Github" target='_blank'> 깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
                 <a className="" href="https://www.acmicpc.net/user/tlrmsjtm77" title="Baekjoon" target='_blank'> 백준 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a></div>
               <div className="mb-2"><Link className="pe-5" exact='true' to="/profile" title="프로필">프로필　</Link>
                 <a className="pe-5" href="https://velog.io/@usfree" title="Blog" target='_blank'> 블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>

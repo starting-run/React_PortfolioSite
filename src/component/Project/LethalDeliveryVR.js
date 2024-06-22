@@ -1,7 +1,7 @@
 /*
     조우현 - Woohyun Cho
     tlrmsjtm77@gmail.com
-    https://usfree.site
+    https://starting.run
 */
 
 import React, {useEffect } from 'react';
@@ -52,7 +52,7 @@ function LethalDeliveryVR() {
                 <div className="bg-white-gray">
                     <div className="container-xxl px-4 pt-6" id="seemore">
                     <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">리썰딜리버리 <span class="btn btn-sm btn-primary-round-outline">VR게임</span></div>
-                        <a href="https://github.com/usfree/Unity_LethalDeliveryVR" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 me-3 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
+                        <a href="https://github.com/starting-run/Unity_LethalDeliveryVR" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 me-3 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
                         <a href={prop2pdf} target='_blank' alt='프로젝트 메인 하단에 업로드 되어있는 기획서로 제작된 게임입니다.' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faFileContract} /> 기획서</a>
                         <div className="row gx-5 justify-content-center">
                             <div className="up-animation">

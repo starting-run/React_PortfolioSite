@@ -107,7 +107,7 @@ return (
                 <ul className="navbar-nav mb-2 mb-lg-0 fs-6-5">
                   <NavLink exact='true' to="/profile" className="nav-link navbar-items" title="Profile"><li className="nav-item">프로필</li></NavLink>
                   <NavLink exact='true' to="/project" className="nav-link navbar-items" title="Project"><li className="nav-item">프로젝트</li></NavLink>
-                  <a className="nav-link navbar-items" href="https://github.com/usfree" target='_blank' title="Github"><li className="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
+                  <a className="nav-link navbar-items" href="https://github.com/starting-run" target='_blank' title="Github"><li className="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
                   <a className="nav-link navbar-items" href="https://velog.io/@usfree" target='_blank' title="Blog"><li className="nav-item">블로그 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
                   <a className="nav-link navbar-items" href="mailto:ploris576@kangnam.ac.kr?subject=starting.run에서 보내는 메일입니다." target='_blank' title="Mail"><li className="nav-item">메일 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
                   

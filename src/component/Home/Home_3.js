@@ -125,7 +125,7 @@ function Home_3() {
                                         </NavLink>
                                     </div>
                                     <div className="col">
-                                        <a href="https://github.com/usfree" target='_blank'>
+                                        <a href="https://github.com/starting-run" target='_blank'>
                                             <div className="img-fluid mb-3">
                                                 <div className="col">
                                                     <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
