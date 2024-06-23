@@ -33,7 +33,7 @@ function Blog() {
                         {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>*/}
                         <div className="col-auto fs-1 font-11 fw-bold2 font-letter-space-sm text-black mb-5">블로그
                         <a href="https://velog.io/@usfree/posts" target='_blank'>
-                            <span className="prj-sub fs-6 fw-normal font-11 font-letter-space-sm">　 바로가기 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
+                            <span className="fs-6 fw-normal font-11 font-letter-space-sm">　 바로가기 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
                             </span>
                         </a>
                     </div>

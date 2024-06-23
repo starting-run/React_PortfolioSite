@@ -949,7 +949,7 @@
     display: none;
   }
   .navbar-brand img{
-    width: 80px !important;
+    width: 90px !important;
   }
     /* 햄버거 메뉴 전체화면으로 만드는 부분 
   일반적인 PC버전 네비바 복귀시 모바일 전용 CSS 영역으로 넣으면됨 */
@@ -6116,7 +6116,7 @@ textarea.form-control-lg {
   align-items: center;
   width: 50%;
   top:50px;
-  width: 100px;
+  width: 110px;
 }
 
 .navbar-nav {
@@ -6749,6 +6749,26 @@ textarea.form-control-lg {
   }
 }
 
+.card-cover-insta {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: var(--bs-white-gray-rgb);
+  border: solid 1px #FE1C87;
+  color: #FE1C87;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.card-cover-insta:hover {
+  background-color: #FE1C87;
+  transition: all 0.3s;
+  span {
+    color:#fff;
+  }
+}
+
 
 .card-cover-blog {
   z-index: 5;
@@ -6782,6 +6802,25 @@ textarea.form-control-lg {
 
 .card-cover-boj:hover {
   background-color: #0A7DC5;
+  transition: all 0.3s;
+  span {
+    color:#fff;
+  }
+}
+
+.card-cover-codeforces {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: var(--bs-white-gray-rgb);
+  border: solid 1px #dc3545;
+  color: #dc3545;
+  transition: all 0.3s;
+}
+
+.card-cover-codeforces:hover {
+  background-color: #dc3545;
   transition: all 0.3s;
   span {
     color:#fff;

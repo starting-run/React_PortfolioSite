@@ -39,7 +39,7 @@ function Profile() {
                             <div className="row row-cols-1 row-cols-xxl-1 g-4">
                                 <div className="col">
                                     <div className="h-100 overflow-hidden py-2">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">학력</div>
+                                        <div className="text-black font-11 fs-5 fw-bold m-2">학력</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
                                             <div className="col-auto text-black mb-2 font-11 p-4">
@@ -60,7 +60,7 @@ function Profile() {
                                 </div>
                                 <div className="col">
                                     <div className="h-100 overflow-hidden py-2">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">경험 / 활동</div>
+                                        <div className="text-black font-11 fs-5 fw-bold m-2">경험 / 활동</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
                                             <div className="col-auto mb-2 font-11 p-4">
@@ -85,7 +85,7 @@ function Profile() {
                                 </div>
                                 <div className="col">
                                     <div className="h-100 overflow-hidden py-2">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">자격 / 면허</div>
+                                        <div className="text-black font-11 fs-5 fw-bold m-2">자격 / 면허</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 font-11 card-hover-up rounded-4 mx-2">
                                             <div className="col-auto mb-2 p-4">
@@ -113,7 +113,7 @@ function Profile() {
                                 </div>
                                 <div className="col">
                                     <div className="h-100 overflow-hidden py-2">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">기술 스택</div>
+                                        <div className="text-black font-11 fs-5 fw-bold m-2">기술 스택</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-3 p-2 font-11 card-hover-up rounded-4 mx-2">
                                             <div className="col-auto mb-2 p-4">
@@ -147,32 +147,6 @@ function Profile() {
                                                 <div className="fs-6 fw-light2 fw-opacity btn btn-primary-round-outline py-0 mb-2 rounded-4">Processing</div>
                                                 <div className="fw-light2 fs-6 mb-2 text-black">프로세싱의 다양한 라이브러리를 사용할 수 있고, 이를 통해 인터랙티브 컨텐츠를 제작할 수 있습니다.</div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div className="h-100 overflow-hidden py-2">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">알고리즘</div>
-                                        <hr className="text-black"/>
-                                        <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
-                                            <div className="col-auto mb-2 font-11 p-4">
-                                                <div className="fs-4 fw-bold fw-opacity">Baekjoon Online Judge</div>
-                                                <div className="fw-light2 fs-7 mb-3 highlight">tlrmsjtm77</div>
-                                                <div className="fw-light2 fs-6 mb-2">
-                                                    <a className="btn btn-sm btn-dark-square px-4 py-2 me-sm-3 fs-6 fw-bold rounded-4" href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
-                                                </div>
-                                            </div>
-                                            <div className="col-auto mb-2 font-11 p-4">
-                                                <div className="fs-4 fw-bold fw-opacity">Codeforces</div>
-                                                <div className="fw-light2 fs-7 mb-3 highlight">tlrmsjtm77</div>
-                                                <div className="fw-light2 fs-6 mb-2">
-                                                    <a className="btn btn-sm btn-dark-square px-4 py-2 me-sm-3 fs-6 fw-bold rounded-4" href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
-                                                </div>
-                                            </div>
-                                            {/*<div className="col-auto mb-2 font-11">
-                                                <div className="fs-5 fw-normal fw-opacity">Programmers</div>
-                                                <div className="fw-light2 fs-6 mb-2 highlight">score<br/>0000</div>
-                                            </div>*/}
                                         </div>
                                     </div>
                                 </div>

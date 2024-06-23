@@ -150,7 +150,7 @@ function Project() {
                 </div>
                 <div className="row gx-5 justify-content-center">
                     <div className="mb-5">
-                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3 mt-3">유니티</div>
+                        <div className="text-black font-11 fs-5 fw-bold m-2 mb-3 mt-3">유니티</div>
                         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
                             <div className="col">
                                 <NavLink to="orbit" id="orbit">
@@ -250,7 +250,7 @@ function Project() {
                     <div className="mb-5">
                         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
                             <div className="col">
-                                <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">리액트</div>
+                                <div className="text-black font-11 fs-5 fw-bold m-2 mb-3">리액트</div>
                                 <NavLink to="website" id="website">
                                     <div className="img-fluid">
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
@@ -273,7 +273,7 @@ function Project() {
                                 </NavLink>
                             </div> 
                             <div className="col">
-                                <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">프로세싱</div>
+                                <div className="text-black font-11 fs-5 fw-bold m-2 mb-3">프로세싱</div>
                                 <NavLink to="pacman" id="pacman">
                                     <div className="img-fluid">
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
@@ -296,7 +296,7 @@ function Project() {
                                 </NavLink>
                             </div>                      
                             <div className="col">
-                                <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">OpenGL</div>
+                                <div className="text-black font-11 fs-5 fw-bold m-2 mb-3">OpenGL</div>
                                 <NavLink to="ironman" id="ironman">
                                     <div className="img-fluid">
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
@@ -324,7 +324,7 @@ function Project() {
                 <div className="gx-5 justify-content-center">
                     <div className="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 cards">
                         <div className="col">
-                            <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient mb-3">기획</div>
+                            <div className="text-black font-11 fs-5 fw-bold m-2 mb-3">기획</div>
                             <a href={prop1pdf}>
                                 <div className="img-fluid">
                                     <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">

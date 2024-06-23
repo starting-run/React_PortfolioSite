@@ -6,11 +6,11 @@
 
 import React, { Component, useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp, faAt, faCircleArrowUp, faCode, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faAt, faChartBar, faCircleArrowUp, faCode, faCopy } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
-import { faGit, faGithub, faVimeo } from '@fortawesome/free-brands-svg-icons';
+import { faGit, faGithub, faInstagram, faVimeo } from '@fortawesome/free-brands-svg-icons';
 
 function Link() {
     const notify = () => toast.success('메일 주소가 복사 되었습니다. 원하는 곳에 붙여넣을 수 있습니다.', {duration: 4000});
@@ -49,7 +49,7 @@ function Link() {
                             <div className="row row-cols-1 row-cols-xxl-1 g-4">
                                 <div className="col">
                                     <div className="overflow-hidden py-2">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">연락처</div>
+                                        <div className="text-black font-11 fs-5 fw-bold m-2">연락처</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-1 row-cols-xxl-1 p-2 rounded-4 mx-2">
                                             <div class="col">
@@ -60,8 +60,25 @@ function Link() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faAt}/>　메일</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">ploris576@kangnam.ac.kr　</span>
+                                                                        <span class="fs-6 px-2 only-pc-view">ploris576@kangnam.ac.kr　</span>
                                                                         <FontAwesomeIcon icon={faCopy}/>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="https://instagram.com/w99hyun" target='_blank'>
+                                                    <div className="img-fluid mb-3">
+                                                        <div className="col">
+                                                            <div className="card card-cover-insta h-100 overflow-hidden rounded-4">
+                                                                <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
+                                                                    <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faInstagram}/>　인스타그램</span>
+                                                                    <span className="text-end fs-4 card-in-arrow">
+                                                                        <span class="fs-6 px-2">w99hyun　</span>
+                                                                        <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>
                                                             </div>
@@ -72,7 +89,7 @@ function Link() {
                                         </div>
                                     </div>
                                     <div className="overflow-hidden py-2">
-                                        <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">링크</div>
+                                        <div className="text-black font-11 fs-5 fw-bold m-2">링크</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-1 row-cols-xxl-1 p-2 rounded-4 mx-2">
                                             <div class="col">
@@ -116,6 +133,23 @@ function Link() {
                                                             <div className="card card-cover-boj h-100 overflow-hidden rounded-4">
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faCode}/>　백준</span>
+                                                                    <span className="text-end fs-4 card-in-arrow">
+                                                                        <span class="fs-6 px-2">tlrmsjtm77　</span>
+                                                                        <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>
+                                                    <div className="img-fluid mb-3">
+                                                        <div className="col">
+                                                            <div className="card card-cover-codeforces h-100 overflow-hidden rounded-4">
+                                                                <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
+                                                                    <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faChartBar}/>　Codeforces</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
                                                                         <span class="fs-6 px-2">tlrmsjtm77　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
