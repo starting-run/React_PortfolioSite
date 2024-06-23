@@ -6715,6 +6715,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-color: var(--bs-white-gray-rgb);
   border: solid 1px var(--bs-black);
   color: var(--bs-black);
   transition: all 0.3s;
@@ -6733,9 +6734,11 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-color: var(--bs-white-gray-rgb);
   border: solid 1px #EF5B2A;
   color: #EF5B2A;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .card-cover-mail:hover {
@@ -6752,6 +6755,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-color: var(--bs-white-gray-rgb);
   border: solid 1px #22C998;
   color: #22C998;
   transition: all 0.3s;
@@ -6770,6 +6774,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  background-color: var(--bs-white-gray-rgb);
   border: solid 1px #0A7DC5;
   color: #0A7DC5;
   transition: all 0.3s;

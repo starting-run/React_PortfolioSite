@@ -34,7 +34,7 @@ function Link() {
         transition={{ duration: 0.2 }}
       >
             <Helmet><title>링크 - starting</title></Helmet>
-            <section className="bg-white-gray h-100">
+            <section className="bg-white-gray min-vh-100">
                 <div className="container-xxl px-4 pt-6">
                     <div className="row justify-content-center">
                         <div className="mb-5">
@@ -51,7 +51,7 @@ function Link() {
                                     <div className="overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">연락처</div>
                                         <hr className="text-black"/>
-                                        <div className="row row-cols-lg-2 row-cols-xxl-1 p-2 rounded-4 mx-2">
+                                        <div className="row row-cols-1 row-cols-xxl-1 p-2 rounded-4 mx-2">
                                             <div class="col">
                                                 <a onClick={copyText} target='_blank'>
                                                     <div className="img-fluid mb-3">
@@ -74,7 +74,7 @@ function Link() {
                                     <div className="overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-normal m-2 highlight-gradient">링크</div>
                                         <hr className="text-black"/>
-                                        <div className="row row-cols-lg-2 row-cols-xxl-1 p-2 rounded-4 mx-2">
+                                        <div className="row row-cols-1 row-cols-xxl-1 p-2 rounded-4 mx-2">
                                             <div class="col">
                                                 <a href="https://github.com/starting-run" target='_blank'>
                                                     <div className="img-fluid mb-3">

@@ -71,7 +71,7 @@ function Blog_Parse() {
     <div className="Home_5">
       <div className="row gx-5 justify-content-center">
             {loading ? (  // 로딩 상태일 때 로딩 메시지 표시
-            <div className="font-11 text-black fs-5 justify-content-center d-grid">
+            <div className="font-11 text-black fs-5 justify-content-center d-grid pt-7">
               <div className="justify-content-center d-flex mb-3">
                 <div className="ld-ripple">
                   <div></div>
