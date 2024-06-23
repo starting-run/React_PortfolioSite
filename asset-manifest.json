@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.78b012a6.css",
-    "main.js": "/static/js/main.b83de03a.js",
+    "main.css": "/static/css/main.13fbd8c8.css",
+    "main.js": "/static/js/main.371a598c.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.05de4da95664469e2cdd.mp4",
     "static/media/Snake_Build.7z": "/static/media/Snake_Build.1e962d0ef4e88fca1678.7z",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
+    "static/media/video_short.mp4": "/static/media/video_short.8859057738bd17fbf628.mp4",
     "static/media/Unity_Snake.mp4": "/static/media/Unity_Snake.3d810859f5edf83f3c77.mp4",
     "static/media/img4.png": "/static/media/img4.4b36a5c3b5850adc0108.png",
     "static/media/img2.png": "/static/media/img2.3725d6c6b4390b444f04.png",
@@ -52,7 +53,7 @@
     "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.9ee428fa827cccac1f5ff0a475493b5f.svg"
   },
   "entrypoints": [
-    "static/css/main.78b012a6.css",
-    "static/js/main.b83de03a.js"
+    "static/css/main.13fbd8c8.css",
+    "static/js/main.371a598c.js"
   ]
 }
