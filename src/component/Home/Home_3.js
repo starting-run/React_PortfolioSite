@@ -38,7 +38,7 @@ function Home_3() {
         <div className="s-intro pt-3">
             <div className="s-intro__content row text-black"> 
                 <div className="justify-content-center font-3">
-                    <div className="container-xxl px-3 mt-5-main">
+                    <div className="container-xxl px-4 mt-5-main">
                         {/* 메인 카드 섹션 */}
                         <div className="row row-cols-lg-2 row-cols-1">
                         <div className="col col-lg-12 text-black">
@@ -49,7 +49,10 @@ function Home_3() {
                                 <div className='fs-6 mb-2'><FontAwesomeIcon icon={faGraduationCap}/>　<a href="https://web.kangnam.ac.kr/" target='_blank'>강남대학교</a> 재학, 소프트웨어 / 가상현실 복수전공</div>
                                 <div className='fs-6 mb-5'><FontAwesomeIcon icon={faBriefcase}/>　 <a href="https://www.motioncapture.co.kr/" target='_blank'>모션테크놀로지</a> 인턴</div>
                             </div>
-                            <div className="font-11 text-end fs-6 w-100 fw-light text-black"><NavLink to='/link'>모든 연락처와 링크를 보시려면　<FontAwesomeIcon icon={faArrowRight}/></NavLink></div>
+                            <div className="font-11 text-end fs-6 w-100 fw-light text-black">
+                                <span className=''><NavLink to='/profile'>자세한 프로필　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
+                                <div className='only-mobile-view'><br/></div><span className='ps-4'><NavLink to='/link'>연락처와 링크　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
+                            </div>
                             <hr className=''/>
                                 {/*<div className="main__action position-absolute only-pc-view">
                                     <HashLink smooth to="#home_project" className="main__scroll">
@@ -138,7 +141,7 @@ function Home_3() {
                             <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">화제의 게임인 리썰컴퍼니를 모작으로 제작된 게임인 <span className='highlight'>리썰딜리버리</span> 게임입니다. VR HMD를 착용하고 HMD컨트롤러를 사용하여 상호작용하고 게임을 플레이할 수 있습니다. 일정 기간동안 주어진 목표를 달성하여 오랫동안 살아남는 것이 목표입니다.</div>
 
 
-                            <div className="font-11 text-end fs-6 mb-5 w-100 fw-light text-black"><NavLink to='/project'>더 많은 프로젝트를 보시려면　<FontAwesomeIcon icon={faArrowRight}/></NavLink></div>
+                            <div className="font-11 text-end fs-6 mb-5 w-100 fw-light text-black"><NavLink to='/project'>더 많은 프로젝트　<FontAwesomeIcon icon={faArrowRight}/></NavLink></div>
                             
                         </div>
                     </div>
