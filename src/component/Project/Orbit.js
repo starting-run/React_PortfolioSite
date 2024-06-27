@@ -7,7 +7,7 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faChevronLeft, faDownload, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faChevronLeft, faDownload, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
@@ -53,8 +53,11 @@ function Orbit() {
                 <div className="bg-white-gray">
                     <div className="container-xxl px-4 pt-6" id="seemore">
                         <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">오르빗 <span class="btn btn-sm btn-primary-round-outline">게임</span></div>
-                        {/*href="https://github.com/starting-run/Unity_Orbit"*/}<a onClick={notify2} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
-                        <a onClick={notify3} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
+                        <div className='mb-5'>
+                            {/*href="https://github.com/starting-run/Unity_Orbit"*/}<a onClick={notify2} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
+                            <a onClick={notify3} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
+                            <div className='only-mobile-view mb-3'></div><a href="https://store.onstove.com/ko/games/3783" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 "><FontAwesomeIcon icon={faStore} /> STOVE 스토어</a>
+                        </div>
                         <div className="row gx-5 justify-content-center">
                             <div className="up-animation">
                                 <div className="rounded-2 border-0">
@@ -67,17 +70,17 @@ function Orbit() {
                                                 <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 03. -</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">FPS와 RPG를 결합한 3D 게임으로, AI에게 지배당한 세계를 해방시키는 것이 목표인 게임임.</span></div>
+                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">FPS장르의 3D 게임으로, AI에게 지배당한 세계를 해방시키는 것이 목표인 게임임.</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">1인 개발</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
                                                     <span className="fw-light fs-6 mb-2 text-black px-2">
                                                     &middot; 오픈월드로 제작하되, 구역을 나누어 할당함. ‘아레테’를 파괴하기 위해 구역 별 인스턴스 던전을 만들어 던전 내에서 파괴.
-                                                    <br/>&middot; 광원의 효과적이고 사실적인 표현을 위해 유니티 HDRP / 레이트레이싱 사용
+                                                    <br/>&middot; 광원의 효과적이고 사실적인 표현을 위해 유니티 HDRP / 레이트레이싱(옵션 제공) 사용
                                                     <br/>&middot; 주인공을 적으로 인식하고 공격하는 AI 몬스터 구현
                                                     </span>
                                                 </div>
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
-                                                <div className="mb-4 px-2 font-11">졸업 작품을 제작하기 위한 캡스톤디자인을 통해 제작 중인 프로젝트입니다. Unity Engine을 사용하고 있으며, 천천히 완성도 있는 게임을 만들기 위해 노력하고 있습니다.</div>
+                                                <div className="mb-4 px-2 font-11">졸업 작품을 제작하기 위한 캡스톤디자인을 통해 제작 중인 프로젝트입니다. Unity Engine의 HDRP를 사용하고 있으며, 천천히 완성도 있는 게임을 만들기 위해 노력하고 있습니다.</div>
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                 <div className="mb-4 px-2 font-11"></div>
                                                 <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
