@@ -60,6 +60,22 @@ function Profile() {
                                 </div>
                                 <div className="col">
                                     <div className="h-100 overflow-hidden py-2">
+                                        <div className="text-black font-11 fs-5 fw-bold m-2">경력</div>
+                                        <hr className="text-black"/>
+                                        <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
+                                            <div className="col-auto text-black mb-2 font-11 p-4">
+                                                <div className="fs-4 fw-bold"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>(주)모션테크놀로지</a></div>
+                                                <div className="fw-light2 fs-6">서울시 강남구</div>
+                                                <div className="fw-light2 fs-6 mb-3 highlight">2024. 07. 01. - </div>
+                                                <div className="fw-light2 fs-6 mb-3">
+                                                    인턴
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col">
+                                    <div className="h-100 overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-bold m-2">경험 / 활동</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
@@ -67,7 +83,7 @@ function Profile() {
                                                 <div className="fs-4 fw-bold fw-opacity">IPP 첨단산업아카데미</div>
                                                 <div className="fw-light2 text-black fs-6">강남대학교 &middot; 고용노동부 &middot; 한국산업인력공단</div>
                                                 <div className="fw-light2 fs-6 mb-3 highlight">2024. 03. 04. - 2025. 02. 28.</div>
-                                                <div className="fw-light2 fs-6 mb-3 text-black"><a href="https://www.motioncapture.co.kr/" target='_blank'>(주)모션테크놀로지</a> / SW개발_L5</div>
+                                                <div className="fw-light2 fs-6 mb-3 text-black">SW개발_L5</div>
                                                 {/*<div className="fw-light2 fs-7">
                                                     <a className="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
                                                 </div>*/}   
