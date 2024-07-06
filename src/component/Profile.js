@@ -64,8 +64,8 @@ function Profile() {
                                         <hr className="text-black"/>
                                         <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
                                             <div className="col-auto text-black mb-2 font-11 p-4">
-                                                <div className="fs-4 fw-bold"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>(주)모션테크놀로지</a></div>
-                                                <div className="fw-light2 fs-6">서울시 강남구</div>
+                                                <div className="fs-4 fw-bold"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>모션테크놀로지</a></div>
+                                                <div className="fw-light2 fs-6">모션캡쳐 솔루션 / VR 콘텐츠 제작</div>
                                                 <div className="fw-light2 fs-6 mb-3 highlight">2024. 07. 01. - </div>
                                                 <div className="fw-light2 fs-6 mb-3">
                                                     인턴
