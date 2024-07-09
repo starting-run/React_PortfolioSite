@@ -618,7 +618,7 @@
 }
 
 .bg_logo {
-  width: 40%;
+  width: 30%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1035,7 +1035,7 @@
     width: 95%;
   }
   .bg_logo {
-    width: 65%;
+    width: 55%;
   }
 }
 
