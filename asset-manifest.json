@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.7cc80379.css",
-    "main.js": "/static/js/main.19abee58.js",
+    "main.js": "/static/js/main.5a24259d.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
-    "static/media/video.mp4": "/static/media/video.05de4da95664469e2cdd.mp4",
+    "static/media/video.mp4": "/static/media/video.36c23108ef7a9f8492e9.mp4",
     "static/media/Snake_Build.7z": "/static/media/Snake_Build.1e962d0ef4e88fca1678.7z",
     "static/media/ironman.mp4": "/static/media/ironman.2e0e2c4b3b6eb36cd1d6.mp4",
     "static/media/video_short.mp4": "/static/media/video_short.8859057738bd17fbf628.mp4",
@@ -15,14 +15,15 @@
     "static/media/intro.mp4": "/static/media/intro.cc2adcc043c3cdcec70b.mp4",
     "static/media/img1.png": "/static/media/img1.730291358b5429443c5f.png",
     "static/media/img6.png": "/static/media/img6.570c78616efa8b33193c.png",
+    "static/media/main1.png": "/static/media/main1.889164dfe898b72bc1c6.png",
     "static/media/main_video.mp4": "/static/media/main_video.3164bec855a1d2ec864e.mp4",
+    "static/media/main2.png": "/static/media/main2.8ec299e388f0ef074eb1.png",
     "static/media/Unity_MazeForest.pdf": "/static/media/Unity_MazeForest.f43482021210c9eda45b.pdf",
     "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
     "static/media/rev_prop_focus_on_you.pdf": "/static/media/rev_prop_focus_on_you.572ef150053edafaf03e.pdf",
     "static/media/poster_snake.png": "/static/media/poster_snake.486d48ca589933a4d81b.png",
     "static/media/Processing_Pacman.mp4": "/static/media/Processing_Pacman.25f0225e0651c7f66e78.mp4",
     "static/media/logo.png": "/static/media/logo.6b00042314baabe36784.png",
-    "static/media/main2.png": "/static/media/main2.d60e189dc554ad896f4a.png",
     "static/media/thum1.png": "/static/media/thum1.5d21f87d346f024045d0.png",
     "static/media/icon_move.mp4": "/static/media/icon_move.62c5ab8b81d865dce0cb.mp4",
     "static/media/poster_mazeforest.png": "/static/media/poster_mazeforest.862efc86a25b0d6846fc.png",
@@ -32,7 +33,6 @@
     "static/media/poster_ironman.png": "/static/media/poster_ironman.5f1c07bbaf1b72ea04a6.png",
     "static/media/1.png": "/static/media/1.f978446b1e09fd97776d.png",
     "static/media/Processing_Pacman.pdf": "/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf",
-    "static/media/main1.png": "/static/media/main1.a03b91fc8f99d00d98d6.png",
     "static/media/8.png": "/static/media/8.0051ee1cb9b230982052.png",
     "static/media/ironman.jpg": "/static/media/ironman.08cb6233309f50b15857.jpg",
     "static/media/4.png": "/static/media/4.25927d7c165c4dde7e56.png",
@@ -54,6 +54,6 @@
   },
   "entrypoints": [
     "static/css/main.7cc80379.css",
-    "static/js/main.19abee58.js"
+    "static/js/main.5a24259d.js"
   ]
 }
