@@ -31,7 +31,7 @@ import { motion } from 'framer-motion';
 
 
 function Orbit() {
-    const updatedate = "2024. 06. 17." //최종 업데이트 일자
+    const updatedate = "2024. 07. 14." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중인 프로젝트입니다!', {duration: 4000});
     const notify2 = () => toast('완성도를 높이기 위해 유료 에셋이 포함되어 있습니다. 리포지토리를 열람하고 싶으시다면 별도의 연락을 부탁드립니다.', {duration: 6000});
     const notify3 = () => toast.error('제작이 완료된 후 빌드 파일을 제공할 예정입니다.', {duration: 4000});
