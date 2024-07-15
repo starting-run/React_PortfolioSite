@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.02d4fe30.css",
-    "main.js": "/static/js/main.874754fb.js",
+    "main.js": "/static/js/main.cb6cc56f.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.36c23108ef7a9f8492e9.mp4",
     "static/media/Snake_Build.7z": "/static/media/Snake_Build.1e962d0ef4e88fca1678.7z",
@@ -25,6 +25,7 @@
     "static/media/Processing_Pacman.mp4": "/static/media/Processing_Pacman.25f0225e0651c7f66e78.mp4",
     "static/media/logo.png": "/static/media/logo.6b00042314baabe36784.png",
     "static/media/thum1.png": "/static/media/thum1.5d21f87d346f024045d0.png",
+    "static/media/intro_1.mp4": "/static/media/intro_1.d74c1a075ccfeb22dd02.mp4",
     "static/media/icon_move.mp4": "/static/media/icon_move.62c5ab8b81d865dce0cb.mp4",
     "static/media/poster_mazeforest.png": "/static/media/poster_mazeforest.862efc86a25b0d6846fc.png",
     "static/media/Unity_Snake.pdf": "/static/media/Unity_Snake.153b587d7f256cd0abd3.pdf",
@@ -55,6 +56,6 @@
   },
   "entrypoints": [
     "static/css/main.02d4fe30.css",
-    "static/js/main.874754fb.js"
+    "static/js/main.cb6cc56f.js"
   ]
 }
