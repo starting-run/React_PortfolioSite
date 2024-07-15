@@ -35,7 +35,7 @@ function Home_3() {
       }, [index]);
     return (
     <div>
-        <div className="s-intro pt-3">
+        <div className="s-intro pt-3" id='mainS'>
             <div className="s-intro__content row text-black"> 
                 <div className="justify-content-center font-3">
                     <div className="container-xxl px-4 mt-5-main">

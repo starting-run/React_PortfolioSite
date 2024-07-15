@@ -604,7 +604,7 @@
 
 
 .bg {
-  height: 600px;
+  height: 100vh; /* 메인 다 안채우려면 600px */
   width: 100%;
   background-position: center center;
   background-size: cover;
