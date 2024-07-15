@@ -6,11 +6,12 @@
 
 import React, { Component, useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUp, faAt, faChartBar, faCircleArrowUp, faCode, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faAt, faChartBar, faCircleArrowUp, faCode, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faInstagram, faVimeo } from '@fortawesome/free-brands-svg-icons';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
-import { faGit, faGithub, faInstagram, faVimeo } from '@fortawesome/free-brands-svg-icons';
+
 
 function Link() {
     const notify = () => toast.success('메일 주소가 복사 되었습니다. 원하는 곳에 붙여넣을 수 있습니다.', {duration: 4000});
