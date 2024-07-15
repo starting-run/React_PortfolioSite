@@ -2679,8 +2679,8 @@ progress {
     transition: all 0.3s;
   }
   .navbar-py {
-    padding-top: 0.8rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1.3rem !important;
   }
   .fixed-bottom {
     bottom: 20px !important;
@@ -5897,7 +5897,8 @@ textarea.form-control-lg {
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-weight: ;
+  --bs-nav-link-font-weight: 400;
+  --bs-nav-link-font-weight-bold: 800;
   --bs-nav-link-color: var(--bs-link-color);
   --bs-nav-link-hover-color: var(--bs-link-hover-color);
   --bs-nav-link-disabled-color: #222222;
@@ -5921,6 +5922,7 @@ textarea.form-control-lg {
   float: right;
   align-items: center;
   top:5px;
+  transition: all 0.5s;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -5928,9 +5930,20 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
+  font-weight: var(--bs-nav-link-font-weight-bold);
   color: #EF5B2A;
   transition: all 0.5s;
 }
+
+#github-icon {
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.nav-link:hover #github-icon {
+  opacity: 1;
+}
+
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
   pointer-events: none;

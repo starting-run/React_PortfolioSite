@@ -109,7 +109,7 @@ return (
                   {/*<NavLink exact='true' to="/link" className="nav-link navbar-items" title="link"><li className="nav-item">링크</li></NavLink>*/}
                   <NavLink exact='true' to="/project" className="nav-link navbar-items" title="Project"><li className="nav-item">프로젝트</li></NavLink>
                   <NavLink exact='true' to="/blog" className="nav-link navbar-items" title="blog"><li className="nav-item">블로그</li></NavLink>
-                  <a className="nav-link navbar-items" href="https://github.com/starting-run" target='_blank' title="Github"><li className="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></li></a>
+                  <a className="nav-link navbar-items" href="https://github.com/starting-run" target='_blank' title="Github"><li className="nav-item">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7' id='github-icon'/></li></a>
 
                   <span className="hamburger-copy text-black pt-5 font-letter-space only-mobile-view font-11">Copyright &copy; Woohyun Cho(starting)<br/>All rights reserved.</span>
                   <span className="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
