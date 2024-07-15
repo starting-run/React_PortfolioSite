@@ -5,21 +5,20 @@
 */
 
 import React from 'react';
-import logo from '../../images/logo_big.png'
 import video from '../../images/main_video.mp4'
 
 function Home_2() {
 
     return (
       <div className="mb-2 intro-background">
-        <div className="bg bg_type1 text-only-white shadow-md ">
+        <div className="bg bg_type1 text-black shadow-md ">
         <div class="bg-video-prj">
           <video class="bg-video__content" autoPlay muted loop>
             <source src={video} type="video/mp4" />
         </video>
         </div>
           <div class="bg_logo">
-            <div class=""><img src={logo} className=''></img></div>
+            <div class=""><img className='big_logoimg'></img></div>
             <div class="fs-5 text-center"><span class="fw-bold2">가장 잘하는 방식으로</span> 사람들에게 즐거움을 줍니다.</div></div>
         </div>
         <div className="scroll-down-indicator_hor">

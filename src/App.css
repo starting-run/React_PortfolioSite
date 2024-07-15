@@ -173,6 +173,7 @@
     --bs-normal-rgb: 252, 133, 116;
     transition: all 0.3s;
     --bs-logo-img: url("images/logo_text_dark.png");
+    --bs-logo-big-img: url("images/logo_big_dark.png");
     --bs-highlight-text: #fad0ca;
   }
   body[data-darkmode=on]{
@@ -208,6 +209,7 @@
     */
     transition: all 0.3s;
     --bs-logo-img: url("images/logo_text.png");
+    --bs-logo-big-img: url("images/logo_big.png");
     --bs-highlight-text: #EF5B2A;
     }
 }
@@ -246,6 +248,7 @@
   */
   transition: all 0.3s;
   --bs-logo-img: url("images/logo_text.png");
+  --bs-logo-big-img: url("images/logo_big.png");
   --bs-highlight-text: #975e55;
   }
   body[data-darkmode=off] {
@@ -276,6 +279,7 @@
     --bs-normal-rgb: 252, 133, 116;
     transition: all 0.3s;
     --bs-logo-img: url("images/logo_text_dark.png");
+    --bs-logo-big-img: url("images/logo_big_dark.png");
     --bs-highlight-text: #fad0ca;
   }
 }
@@ -6080,6 +6084,11 @@ textarea.form-control-lg {
 
 .logoimg {
   content: var(--bs-logo-img);
+  transition: all 0.3s;
+}
+
+.big_logoimg {
+  content: var(--bs-logo-big-img);
   transition: all 0.3s;
 }
 
