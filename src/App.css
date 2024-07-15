@@ -477,7 +477,8 @@
 .scroll-down-indicator_hor {
   position: absolute;
   bottom: 20px;
-  right: 50px;
+  right: 0;
+  left: 0;
   font-size: 2em;
   color: var(--bs-black);
 }
@@ -922,6 +923,10 @@
 
 /* 모바일전용 */
 @media (max-width: 991px) {
+  #github-icon {
+    opacity: 1 !important;
+  }
+
   .profile {
     display: none;
   }
