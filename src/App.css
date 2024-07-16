@@ -620,6 +620,7 @@
 
 .bg_type1 {
   background-color: var(--bs-white);
+  transition: all 0.5s;
 }
 
 .bg_logo {
