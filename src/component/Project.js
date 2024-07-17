@@ -204,7 +204,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project7}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">교육용 게임</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">게임</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-5">
                                                         <span className="">2024. 06. 05. - 06. 11.</span>
