@@ -220,7 +220,7 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>   
-                            <div className="col">
+                            {/*<div className="col">
                                 <NavLink to="snake" id="snake">
                                     <div className="img-fluid">
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
@@ -241,7 +241,7 @@ function Project() {
                                         </div>
                                     </div>
                                 </NavLink>
-                            </div>
+                            </div>*/}
                         </div>
                     </div>
                 </div>
