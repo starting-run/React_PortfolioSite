@@ -11473,6 +11473,12 @@ video {
   border-radius: var(--bs-border-radius-xl) !important;
 }
 
+.rounded-4-bottom {
+  border-bottom-left-radius: var(--bs-border-radius-xl) !important;
+  border-bottom-right-radius: var(--bs-border-radius-xl) !important;
+}
+
+
 img {
   border-radius: var(--bs-border-radius-xl);  
 }

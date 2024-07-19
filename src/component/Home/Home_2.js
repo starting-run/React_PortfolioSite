@@ -11,8 +11,8 @@ import poster from '../../images/main_video_poster.png';
 function Home_2() {
 
     return (
-      <div className="mb-2 intro-background">
-        <div className="bg bg_type1 text-black shadow-md ">
+      <div className="mb-2 intro-background rounded-4-bottom">
+        <div className="bg bg_type1 text-black shadow-md rounded-4-bottom">
         <div class="bg-video-prj">
           <video class="bg-video__content" autoPlay muted loop poster={poster}>
             <source src={video} type="video/mp4" />

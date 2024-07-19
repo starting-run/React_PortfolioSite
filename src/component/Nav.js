@@ -89,7 +89,7 @@ return (
   <header>
     <div>
       <ToTopButton />
-      <div id="add-fixed" className={`navbar-fixed-attr ${isScrollingUp ? 'show-navbar' : 'hide-navbar'}`}>
+      <div id="add-fixed" className={`navbar-fixed-attr rounded-4-bottom ${isScrollingUp ? 'show-navbar' : 'hide-navbar'}`}>
         <nav id="navbarcontrol" className="navbar navbar-light navbar-py navbar-upper navbar-expand-lg"> {/*navbar-expand-lg 노말PC버전  navbar-upper 대문자*/}
           <div id='changecontainer' className="container-xxl px-4">
               <NavLink exact='true' to="/" className="navbar-brand" id="mains" onClick={mainlogo} title="Home"><img className="logoimg no-rounded"></img></NavLink>
