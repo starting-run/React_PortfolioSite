@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.718c8de6.css",
-    "main.js": "/static/js/main.57cce30b.js",
+    "main.js": "/static/js/main.3b9bfbee.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.36c23108ef7a9f8492e9.mp4",
     "static/media/Snake_Build.7z": "/static/media/Snake_Build.1e962d0ef4e88fca1678.7z",
@@ -16,8 +16,8 @@
     "static/media/img1.png": "/static/media/img1.730291358b5429443c5f.png",
     "static/media/img6.png": "/static/media/img6.570c78616efa8b33193c.png",
     "static/media/main1.png": "/static/media/main1.889164dfe898b72bc1c6.png",
+    "static/media/main2.png": "/static/media/main2.f10ef59168556f60586c.png",
     "static/media/main_video.mp4": "/static/media/main_video.1aec63b0fccbce449aed.mp4",
-    "static/media/main2.png": "/static/media/main2.8ec299e388f0ef074eb1.png",
     "static/media/Unity_MazeForest.pdf": "/static/media/Unity_MazeForest.f43482021210c9eda45b.pdf",
     "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
     "static/media/rev_prop_focus_on_you.pdf": "/static/media/rev_prop_focus_on_you.572ef150053edafaf03e.pdf",
@@ -58,6 +58,6 @@
   },
   "entrypoints": [
     "static/css/main.718c8de6.css",
-    "static/js/main.57cce30b.js"
+    "static/js/main.3b9bfbee.js"
   ]
 }
