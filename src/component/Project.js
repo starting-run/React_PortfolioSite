@@ -11,7 +11,7 @@ import project3 from '../images/pacman.jpg';
 import project4 from '../images/portfolio.png';
 import project5 from '../images/Unity/LethalDeliveryVR/thum1.png';
 import project6 from '../images/Unity/Orbit/intro_1.mp4';
-import project7 from '../images/Unity/MazeForest/logo.png';
+import project7 from '../images/Unity/MazeForest/thum.mp4';
 import prop1 from '../images/projects/prop1/thum.png';
 import prop1pdf from '../images/projects/prop1/rev_prop_focus_on_you.pdf';
 import prop2pdf from '../images/projects/prop2/prop_LethalDeliveryVR.pdf';
@@ -202,7 +202,9 @@ function Project() {
                                 <NavLink to="mazeforest" id="mazeforest">
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <img className="card-image-main" src ={project7}></img>
+                                        <video className="card-image-main video-filter" autoPlay muted loop>
+                                                <source src={project7} type="video/mp4" />
+                                            </video>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
                                                 <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">게임</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
