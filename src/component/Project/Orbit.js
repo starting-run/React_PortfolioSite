@@ -31,7 +31,7 @@ import { motion } from 'framer-motion';
 
 
 function Orbit() {
-    const updatedate = "2024. 07. 14." //최종 업데이트 일자
+    const updatedate = "2024. 07. 22." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중인 프로젝트입니다!', {duration: 4000});
     const notify2 = () => toast('완성도를 높이기 위해 유료 에셋이 포함되어 있습니다. 리포지토리를 열람하고 싶으시다면 별도의 연락을 부탁드립니다.', {duration: 6000});
     const notify3 = () => toast.error('제작이 완료된 후 빌드 파일을 제공할 예정입니다.', {duration: 4000});
@@ -102,7 +102,7 @@ function Orbit() {
                                                 <p className="mb-5 font-11">- 메인 로고 화면</p>
                                                 <img className="mb-2 shadow-lg" src={img3} style={{width: '800px'}}></img>
                                                 <p className="mb-5 font-11">- 게임 모드 선택 화면</p>
-                                                <video src={video} controls controlsList="nodownload" style={{width: '800px'}}></video><br/><br/>
+                                                {/*<video src={video} controls controlsList="nodownload" style={{width: '800px'}}></video><br/><br/>*/}
                                             </div>
                                         </div>
                                     </div>
