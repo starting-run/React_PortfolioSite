@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.718c8de6.css",
-    "main.js": "/static/js/main.5612b994.js",
+    "main.css": "/static/css/main.aec30f4b.css",
+    "main.js": "/static/js/main.6b299fa1.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.36c23108ef7a9f8492e9.mp4",
     "static/media/Snake_Build.7z": "/static/media/Snake_Build.1e962d0ef4e88fca1678.7z",
@@ -53,11 +53,11 @@
     "static/media/7.gif": "/static/media/7.27828eeeee0cffed1196.gif",
     "static/media/portfolio.png": "/static/media/portfolio.9bb19b3ee711d195abe1.png",
     "index.html": "/index.html",
-    "static/media/ic-lightmode-w.svg": "/static/media/ic-lightmode-w.a1c35d8566ec1e38021fc5d1012addba.svg",
-    "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.9ee428fa827cccac1f5ff0a475493b5f.svg"
+    "static/media/ic-lightmode-w.svg": "/static/media/ic-lightmode-w.504dfa5b4a45993c3bcbfed806318bcb.svg",
+    "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.b6f35a62155fce09e8399ba3dade63d3.svg"
   },
   "entrypoints": [
-    "static/css/main.718c8de6.css",
-    "static/js/main.5612b994.js"
+    "static/css/main.aec30f4b.css",
+    "static/js/main.6b299fa1.js"
   ]
 }
