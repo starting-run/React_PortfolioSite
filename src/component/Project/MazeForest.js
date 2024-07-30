@@ -165,71 +165,76 @@ function MazeForest() {
             </Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray ">
-                    <div className="container-xxl px-4 pt-6" id="seemore">
-                    <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">게임</span></div>
-                        <a href="https://github.com/starting-run/Unity_MazeForest" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
-                        <a href="https://github.com/starting-run/React_PortfolioSite/raw/main/src/images/Unity/MazeForest/MazeForest_Build.7z" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
+                    <div className="container-full px-4 pt-6" id="seemore">
                         <div className="row gx-5 justify-content-center">
                             <div className="up-animation">
                                 <div className="rounded-2 border-0">
                                     <div className="card-body p-0">
                                         <div className="d-flex align-items-center">
                                             <div className="proj_text w-100 text-black fw-light">
-                                                {/*<div className="mb-3 w-100 card card-cover-safe p-3 border-0 font-11 rounded-4">
-                                                    <span className="text-only-white font-11"><FontAwesomeIcon icon={faPenToSquare} /> 제작이 완료되어 프로젝트에 관한 자세한 내용을 작성하고 있습니다.</span>
-                                                </div>*/}
-                                                <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 06. 05. - 06. 11.</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">플레이어블 캐릭터를 사용하여, 미로로 구성된 숲을 주어진 문제를 해결해 나가며 탈출하는 교육용 게임임.</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">개발 목표　<span className="fw-light fs-6 mb-2 text-black">가상훈련콘텐츠로써, 훈련 또는 교육에 유익해야하고 직관적이어야 하며, 시나리오를 간단하게 바꿀 수 있어야 함. 이를 위해 코드의 일반화가 중요함.</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">3인 팀 개발</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6 mb-2 text-black">개발 주도 / 게임 시스템 제작 / UI 구성 및 제작 / 시나리오 엔진 개선 등</span></div>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">의사 결정　</div>
-                                                    <span className="fw-light fs-6 mb-2 text-black px-2">
-                                                        &middot; 제한된 일정내로 훈련을 위한 콘텐트를 제작해야하므로, 적당한 퀄리티를 유지해야하면서도 흥미를 이끌어 낼 콘텐츠를 제작해야함.
-                                                        <br/>&middot; 팀 프로젝트로 진행하는만큼 일정 조율이나 담당 파트의 할당이 중요함. 이를 위해 중재자와 리더의 역할로 프로젝트를 진행하였음.
-                                                    </span>
-                                                    <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
-                                                    <span className="fw-light fs-6 mb-2 text-black px-2">
-                                                        &middot; 통합된 시나리오 엔진 코드를 사용하여 교육 문제를 개발자가 아니더라도 교육 담당자가 편리하게 변경할 수 있음.
-                                                        <br/>&middot; 게임 틀을 그대로 가져가고, 문제의 종류만 바꿔 다른 목표의 교육 훈련을 진행할 수 있음.
-                                                        <br/>&middot; 밟았을 때 플레이어의 속도가 느려지는 슬로우존, 밟으면 최종 저장위치로 돌아가는 데스블록 등이 존재함. 
-                                                        <br/>&middot; URP(Universal Render Pipeline)에서 GobalVolume을 사용하여 카메라 포스트 프로세싱을 게임의 분위기에 맞게 조절함.
-                                                    </span>
-                                                </div>
-                                                <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
-                                                    # Unity 2022.3.21f1<br/>
-                                                    Unity_MazeForest.sln
-                                                </div>
-                                                <hr/>
-                                                <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
-                                                <img className="mb-3" src={logo} style={{width: '800px'}}></img>
-                                                <p className="mb-5 font-11">미로로 구성되어 있는 숲을 빠져나가는 컨셉에 맞게 적절한 AI 프롬프트를 사용해 로고를 제작하였습니다.</p>
-                                                
-                                                <div className="font-11 fs-2 fw-bold"><b>InGame</b></div>
-                                                <img className="mb-3" src={img1} style={{width: '800px'}}></img>
-                                                <p className="mb-5 font-11">플레이어는 할당된 키를 통해 물총을 줌 / 발사할 수 있습니다.</p>
-                                                <img className="mb-3" src={img2} style={{width: '800px'}}></img>
-                                                <p className="mb-5 font-11">각 문제별로 할당된 트리거에 도달하면 퀴즈 문제가 출력되고, 정답에 맞는 과녁을 맞추면 앞으로 전진할 수 있습니다. 과녁 또한 공통 스크립트로 구성되어 있어, 에디터 상에서 bool 값만 조절해주면 간편하게 정답을 변경할 수 있습니다.</p>
-                                                <img className="mb-3" src={img3} style={{width: '800px'}}></img>
-                                                <p className="mb-5 font-11">플레이어가 닿으면 이동속도가 느려지는 함정 발판이 존재합니다.</p>
-                                                <img className="mb-3" src={img4} style={{width: '800px'}}></img>
-                                                <p className="mb-5 font-11">미로에는 구석구석 NPC가 배치되어 있고, 이 NPC에 가까이 가면 대화 스크립트가 출력되며 그 이후부터는 플레이어를 따라 다니게 됩니다. 게임이 종료된 후에는 찾은 NPC의 수와 틀린 문제의 수를 출력합니다.</p>
-                                                <img className="mb-3" src={img5} style={{width: '800px'}}></img>
-                                                <p className="mb-5 font-11">플레이어가 게임 클리어 트리거에 도달하면, 따라오던 NPC는 그 자리에서 춤을 춥니다.</p>
-                                                <img className="mb-3" src={img6} style={{width: '800px'}}></img>
-                                                <p className="mb-5 font-11">플레이어가 게임 클리어 트리거에 도달하면, skybox가 밤으로 바뀌며 불꽃놀이가 실행되고 축하음악과 영상이 재생됩니다.</p>
+                                                <div className="row row-cols-1 row-cols-lg-2 g-4">
+                                                    <div class="col-lg-4">
+                                                        <div class="sticky-top pc-view-only">
+                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">게임</span></div>
+                                                            <a href="https://github.com/starting-run/Unity_MazeForest" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
+                                                            <a href="https://github.com/starting-run/React_PortfolioSite/raw/main/src/images/Unity/MazeForest/MazeForest_Build.7z" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
+                                                            <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
+                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 06. 05. - 06. 11.</span></div>
+                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
+                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">플레이어블 캐릭터를 사용하여, 미로로 구성된 숲을 주어진 문제를 해결해 나가며 탈출하는 교육용 게임임.</span></div>
+                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">개발 목표　<span className="fw-light fs-6 mb-2 text-black">가상훈련콘텐츠로써, 훈련 또는 교육에 유익해야하고 직관적이어야 하며, 시나리오를 간단하게 바꿀 수 있어야 함. 이를 위해 코드의 일반화가 중요함.</span></div>
+                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">3인 팀 개발</span></div>
+                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6 mb-2 text-black">개발 주도 / 게임 시스템 제작 / UI 구성 및 제작 / 시나리오 엔진 개선 등</span></div>
+                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">의사 결정　</div>
+                                                                <span className="fw-light fs-6 mb-2 text-black px-2">
+                                                                    &middot; 제한된 일정내로 훈련을 위한 콘텐트를 제작해야하므로, 적당한 퀄리티를 유지해야하면서도 흥미를 이끌어 낼 콘텐츠를 제작해야함.
+                                                                    <br/>&middot; 팀 프로젝트로 진행하는만큼 일정 조율이나 담당 파트의 할당이 중요함. 이를 위해 중재자와 리더의 역할로 프로젝트를 진행하였음.
+                                                                </span>
+                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
+                                                                <span className="fw-light fs-6 mb-2 text-black px-2">
+                                                                    &middot; 통합된 시나리오 엔진 코드를 사용하여 교육 문제를 개발자가 아니더라도 교육 담당자가 편리하게 변경할 수 있음.
+                                                                    <br/>&middot; 게임 틀을 그대로 가져가고, 문제의 종류만 바꿔 다른 목표의 교육 훈련을 진행할 수 있음.
+                                                                    <br/>&middot; 밟았을 때 플레이어의 속도가 느려지는 슬로우존, 밟으면 최종 저장위치로 돌아가는 데스블록 등이 존재함. 
+                                                                    <br/>&middot; URP(Universal Render Pipeline)에서 GobalVolume을 사용하여 카메라 포스트 프로세싱을 게임의 분위기에 맞게 조절함.
+                                                                </span>
+                                                            </div>
+                                                            <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
+                                                            <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
+                                                                # Unity 2022.3.21f1<br/>
+                                                                Unity_MazeForest.sln
+                                                            </div>
+                                                            <hr/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-8 project-view-padding">
+                                                        <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
+                                                        <img className="mb-3" src={logo} style={{width: '800px'}}></img>
+                                                        <p className="mb-5 font-11">미로로 구성되어 있는 숲을 빠져나가는 컨셉에 맞게 적절한 AI 프롬프트를 사용해 로고를 제작하였습니다.</p>
+                                                        
+                                                        <div className="font-11 fs-2 fw-bold"><b>InGame</b></div>
+                                                        <img className="mb-3" src={img1} style={{width: '800px'}}></img>
+                                                        <p className="mb-5 font-11">플레이어는 할당된 키를 통해 물총을 줌 / 발사할 수 있습니다.</p>
+                                                        <img className="mb-3" src={img2} style={{width: '800px'}}></img>
+                                                        <p className="mb-5 font-11">각 문제별로 할당된 트리거에 도달하면 퀴즈 문제가 출력되고, 정답에 맞는 과녁을 맞추면 앞으로 전진할 수 있습니다. 과녁 또한 공통 스크립트로 구성되어 있어, 에디터 상에서 bool 값만 조절해주면 간편하게 정답을 변경할 수 있습니다.</p>
+                                                        <img className="mb-3" src={img3} style={{width: '800px'}}></img>
+                                                        <p className="mb-5 font-11">플레이어가 닿으면 이동속도가 느려지는 함정 발판이 존재합니다.</p>
+                                                        <img className="mb-3" src={img4} style={{width: '800px'}}></img>
+                                                        <p className="mb-5 font-11">미로에는 구석구석 NPC가 배치되어 있고, 이 NPC에 가까이 가면 대화 스크립트가 출력되며 그 이후부터는 플레이어를 따라 다니게 됩니다. 게임이 종료된 후에는 찾은 NPC의 수와 틀린 문제의 수를 출력합니다.</p>
+                                                        <img className="mb-3" src={img5} style={{width: '800px'}}></img>
+                                                        <p className="mb-5 font-11">플레이어가 게임 클리어 트리거에 도달하면, 따라오던 NPC는 그 자리에서 춤을 춥니다.</p>
+                                                        <img className="mb-3" src={img6} style={{width: '800px'}}></img>
+                                                        <p className="mb-5 font-11">플레이어가 게임 클리어 트리거에 도달하면, skybox가 밤으로 바뀌며 불꽃놀이가 실행되고 축하음악과 영상이 재생됩니다.</p>
 
-                                                <div className="font-11 fs-2 fw-bold"><b>ScenarioEngine</b></div>
-                                                <CodeBox code={code1}/>
-                                                <p className="mb-5 font-11">시나리오 엔진을 사용해 Resources폴더에서 script 파일을 가져와 동적으로 리소스를 로드합니다. 각 function별로 코루틴 함수를 실행하며, 중복으로 UI가 로드되는 문제를 방지하기 위해 코루틴 함수 실행 중 다른 코루틴 함수가 입력되면 기존의 코루틴 함수는 중지합니다.</p>
-                                                <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
-                                                <video src={video} controls controlsList="nodownload"></video><br/><br/>
-                                                <div className="font-11 fs-2 fw-bold"><b>Presentation</b></div>
-                                                <p><iframe style={{width:'100%', height:'900px'}} src={pdf}></iframe></p>
-                                                <span className="font-11">브라우저에서 PDF뷰어를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
+                                                        <div className="font-11 fs-2 fw-bold"><b>ScenarioEngine</b></div>
+                                                        <CodeBox code={code1}/>
+                                                        <p className="mb-5 font-11">시나리오 엔진을 사용해 Resources폴더에서 script 파일을 가져와 동적으로 리소스를 로드합니다. 각 function별로 코루틴 함수를 실행하며, 중복으로 UI가 로드되는 문제를 방지하기 위해 코루틴 함수 실행 중 다른 코루틴 함수가 입력되면 기존의 코루틴 함수는 중지합니다.</p>
+                                                        <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
+                                                        <video src={video} controls controlsList="nodownload"></video><br/><br/>
+                                                        <div className="font-11 fs-2 fw-bold"><b>Presentation</b></div>
+                                                        <p><iframe style={{width:'100%', height:'900px'}} src={pdf}></iframe></p>
+                                                        <span className="font-11">브라우저에서 PDF뷰어를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
