@@ -175,7 +175,7 @@ function MazeForest() {
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div class="col-lg-4">
                                                         <div class="sticky-top pc-view-only">
-                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">게임</span></div>
+                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">미로의 숲 <span class="btn btn-sm btn-primary-round-outline rounded-4">게임</span></div>
                                                             <a href="https://github.com/starting-run/Unity_MazeForest" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
                                                             <a href="https://github.com/starting-run/React_PortfolioSite/raw/main/src/images/Unity/MazeForest/MazeForest_Build.7z" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
@@ -208,21 +208,21 @@ function MazeForest() {
                                                     </div>
                                                     <div class="col-lg-8 project-view-padding">
                                                         <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
-                                                        <img className="mb-3" src={logo} style={{width: '800px'}}></img>
+                                                        <img className="mb-3" src={logo}></img>
                                                         <p className="mb-5 font-11">미로로 구성되어 있는 숲을 빠져나가는 컨셉에 맞게 적절한 AI 프롬프트를 사용해 로고를 제작하였습니다.</p>
                                                         
                                                         <div className="font-11 fs-2 fw-bold"><b>InGame</b></div>
-                                                        <img className="mb-3" src={img1} style={{width: '800px'}}></img>
+                                                        <img className="mb-3" src={img1}></img>
                                                         <p className="mb-5 font-11">플레이어는 할당된 키를 통해 물총을 줌 / 발사할 수 있습니다.</p>
-                                                        <img className="mb-3" src={img2} style={{width: '800px'}}></img>
+                                                        <img className="mb-3" src={img2}></img>
                                                         <p className="mb-5 font-11">각 문제별로 할당된 트리거에 도달하면 퀴즈 문제가 출력되고, 정답에 맞는 과녁을 맞추면 앞으로 전진할 수 있습니다. 과녁 또한 공통 스크립트로 구성되어 있어, 에디터 상에서 bool 값만 조절해주면 간편하게 정답을 변경할 수 있습니다.</p>
-                                                        <img className="mb-3" src={img3} style={{width: '800px'}}></img>
+                                                        <img className="mb-3" src={img3}></img>
                                                         <p className="mb-5 font-11">플레이어가 닿으면 이동속도가 느려지는 함정 발판이 존재합니다.</p>
-                                                        <img className="mb-3" src={img4} style={{width: '800px'}}></img>
+                                                        <img className="mb-3" src={img4}></img>
                                                         <p className="mb-5 font-11">미로에는 구석구석 NPC가 배치되어 있고, 이 NPC에 가까이 가면 대화 스크립트가 출력되며 그 이후부터는 플레이어를 따라 다니게 됩니다. 게임이 종료된 후에는 찾은 NPC의 수와 틀린 문제의 수를 출력합니다.</p>
-                                                        <img className="mb-3" src={img5} style={{width: '800px'}}></img>
+                                                        <img className="mb-3" src={img5}></img>
                                                         <p className="mb-5 font-11">플레이어가 게임 클리어 트리거에 도달하면, 따라오던 NPC는 그 자리에서 춤을 춥니다.</p>
-                                                        <img className="mb-3" src={img6} style={{width: '800px'}}></img>
+                                                        <img className="mb-3" src={img6}></img>
                                                         <p className="mb-5 font-11">플레이어가 게임 클리어 트리거에 도달하면, skybox가 밤으로 바뀌며 불꽃놀이가 실행되고 축하음악과 영상이 재생됩니다.</p>
 
                                                         <div className="font-11 fs-2 fw-bold"><b>ScenarioEngine</b></div>
@@ -231,7 +231,7 @@ function MazeForest() {
                                                         <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
                                                         <video src={video} controls controlsList="nodownload"></video><br/><br/>
                                                         <div className="font-11 fs-2 fw-bold"><b>Presentation</b></div>
-                                                        <p><iframe style={{width:'100%', height:'900px'}} src={pdf}></iframe></p>
+                                                        <p><iframe style={{width:'100%', height:'800px'}} src={pdf}></iframe></p>
                                                         <span className="font-11">브라우저에서 PDF뷰어를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                                     </div>
                                                 </div>

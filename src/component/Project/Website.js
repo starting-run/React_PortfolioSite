@@ -45,7 +45,7 @@ function Website() {
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div class="col-lg-4">
                                                         <div class="sticky-top pc-view-only">
-                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">포트폴리오 <span class="btn btn-sm btn-primary-round-outline">웹사이트</span></div>
+                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">포트폴리오 <span class="btn btn-sm btn-primary-round-outline rounded-4">웹사이트</span></div>
                                                             <a href="https://github.com/starting-run/React_PortfolioSite" target='_blank' className="btn btn-dark-square px-4 py-2-5 me-3 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
                                                             <a href="https://starting.run" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4">사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3 border-0 font-11 rounded-4">

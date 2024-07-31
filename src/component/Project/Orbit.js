@@ -61,7 +61,7 @@ function Orbit() {
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div class="col-lg-4">
                                                         <div class="sticky-top pc-view-only">
-                                                        <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">오르빗 <span class="btn btn-sm btn-primary-round-outline">게임</span></div>
+                                                        <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">오르빗 <span class="btn btn-sm btn-primary-round-outline rounded-4">게임</span></div>
                                                             <div className='mb-5'>
                                                                 {/*href="https://github.com/starting-run/Unity_Orbit"*/}<a onClick={notify2} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                                                                 <a onClick={notify3} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
@@ -104,9 +104,9 @@ function Orbit() {
                                                             주인공은 깨어있는 지식인을 표방하는 자들의 모인 그룹인 <span className="highlight">이리스</span>에서 행동대원 역할을 하며, 그룹의 조력자는 주인공에게 쿨타임마다 도움을 줄 수 있는 스킬을 제공합니다.</p>
                                                         <div className="font-11 fs-2 fw-bold"><b>Developing</b></div>
                                                         <div className="font-11 fs-6 fw-bold mb-3">최종 업데이트 : {updatedate}</div>
-                                                        <img className="mb-2 shadow-lg" src={img2} style={{width: '800px'}}></img>
+                                                        <img className="mb-2 shadow-lg" src={img2}></img>
                                                         <p className="mb-5 font-11">- 메인 로고 화면</p>
-                                                        <img className="mb-2 shadow-lg" src={img3} style={{width: '800px'}}></img>
+                                                        <img className="mb-2 shadow-lg" src={img3}></img>
                                                         <p className="mb-5 font-11">- 게임 모드 선택 화면</p>
                                                         {/*<video src={video} controls controlsList="nodownload" style={{width: '800px'}}></video><br/><br/>*/}
                                                     </div>

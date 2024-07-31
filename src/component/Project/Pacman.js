@@ -161,7 +161,7 @@ class Pacman extends Component {
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div class="col-lg-4">
                                                         <div class="sticky-top pc-view-only">
-                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">팩맨 <span class="btn btn-sm btn-primary-round-outline">게임</span></div>
+                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">팩맨 <span class="btn btn-sm btn-primary-round-outline rounded-4">게임</span></div>
                                                             <a href="https://github.com/starting-run/Processing_Pacman" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3   border-0 font-11 rounded-4">
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2023. 09. - 10.</span></div>
@@ -209,7 +209,7 @@ class Pacman extends Component {
                                                         <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
                                                         <video src={video} controls controlsList="nodownload" style={{width: '400px', height: '500px'}}></video><br/><br/>
                                                         <div className="font-11 fs-2 fw-bold"><b>Presentation</b></div>
-                                                        <p><iframe style={{width:'100%', height:'900px'}} src={pdf}></iframe></p>
+                                                        <p><iframe style={{width:'100%', height:'800px'}} src={pdf}></iframe></p>
                                                         <span className="font-11">브라우저에서 PDF뷰어를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                                     </div>
                                                 </div>

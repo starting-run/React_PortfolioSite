@@ -38,7 +38,7 @@ class Snake extends Component {
             <div id="projectmain">
                 <div className="bg-white-gray">
                     <div className="container-xxl px-4 pt-6" id="seemore">
-                        <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">스네이크 <span class="btn btn-sm btn-primary-round-outline">게임</span></div>
+                        <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">스네이크 <span class="btn btn-sm btn-primary-round-outline rounded-4">게임</span></div>
                         <a href="https://github.com/starting-run/Unity_Snake" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                         <a href={build} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
                         <div className="row gx-5 justify-content-center">
@@ -47,7 +47,7 @@ class Snake extends Component {
                                     <div className="card-body p-0">
                                         <div className="d-flex align-items-center">
                                             <div className="proj_text w-100 text-black fw-light">
-                                                <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
+                                                <div className="mb-3 w-100 card card-cover-nonhover p-3 border-0 font-11 rounded-4">
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2020. 05. - 06.</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
                                                     <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">Unity 게임엔진으로 제작된 Snake 게임. 사용자가 객체를 조작하여 코인을 모으면서 자신의 몸이나 벽에 부딪히지 않고, 최대한 많은 점수를 기록하는 게임임.</span></div>
@@ -86,7 +86,7 @@ class Snake extends Component {
                                                 <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
                                                 <video className="mb-5" src={video} controls controlsList="nodownload"></video><br/><br/>
                                                 <div className="font-11 fs-2 fw-bold"><b>Presentation</b></div>
-                                                <p><iframe style={{width:"100%", height:"900px"}} src={pdf}></iframe></p>
+                                                <p><iframe style={{width:"100%", height:"800px"}} src={pdf}></iframe></p>
                                                 <span className="font-11">브라우저에서 PDF뷰어를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                             </div>
                                         </div>
