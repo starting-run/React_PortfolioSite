@@ -219,6 +219,8 @@ function Profile() {
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div className="col">
                                     <div className="overflow-hidden py-2">
                                         <div className="text-black font-11 fs-5 fw-bold m-2">링크</div>
                                         <hr className="text-black"/>

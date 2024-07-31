@@ -85,6 +85,16 @@ function Nav() {
     //notify();
   }, []);
   
+
+  // 드롭다운의 가시성을 관리하는 상태
+  const [dropdownVisible, setDropdownVisible] = useState(false);
+
+  // 드롭다운을 표시하는 함수
+  const showDropdown = () => setDropdownVisible(true);
+  // 드롭다운을 숨기는 함수
+  const hideDropdown = () => setDropdownVisible(false);
+
+
 return (
   <header>
     <div>
@@ -104,7 +114,7 @@ return (
                 </label>
               </button>
               <div className="collapse navbar-collapse justify-content-center-navbar navbar-left-margin" id="navbarSupportedContent"> {/* navbar-left-margin 가운데 정렬용 */}
-                <ul className="navbar-nav mb-2 mb-lg-0 fs-6-5">
+                <ul className="navbar-nav mb-2 mb-lg-0 fs-6">
                   <NavLink exact='true' to="/profile" className="nav-link navbar-items" title="Profile"><li className="nav-item">프로필</li></NavLink>
                   {/*<NavLink exact='true' to="/link" className="nav-link navbar-items" title="link"><li className="nav-item">링크</li></NavLink>*/}
                   <NavLink exact='true' to="/project" className="nav-link navbar-items" title="Project"><li className="nav-item">프로젝트</li></NavLink>
