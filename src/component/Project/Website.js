@@ -80,17 +80,17 @@ function Website() {
                                                             ※ 본문은 구버전 기준으로 작성되었고, 현재는 업데이트 되었습니다.
                                                         </p>
                                                         <div className="font-11 fs-2 fw-bold mb-1"><b>Home</b></div>
-                                                        <img className="mb-2 shadow-lg  " src={img1} style={{width: '800px'}}/>
+                                                        <img className="mb-2 shadow-lg" src={img1}/>
                                                         <p className="mb-5 font-11">
                                                             메인화면에서는 가운데 가장 큰 글씨가 일정 시간마다 순환되도록 제작하였습니다. (UNREAL DEV. / UNITY DEV. / GAME DEV. / VR DEV.)
                                                         </p>
                                                         <div className="font-11 fs-2 fw-bold mb-1"><b>Profile</b></div>
-                                                        <img className="mb-2 shadow-lg  " src={img2} style={{width: '800px'}}/>
+                                                        <img className="mb-2 shadow-lg" src={img2}/>
                                                         <p className="mb-5 font-11">
                                                             프로필 영역에서는 여러가지 프로필 사항을 기술합니다. 각 카드에 fade-bottom을 사용하여 자연스러운 효과를 구현합니다.
                                                         </p>
                                                         <div className="font-11 fs-2 fw-bold mb-1"><b>Project</b></div>
-                                                        <img className="mb-2 shadow-lg  " src={img3} style={{width: '800px'}}/>
+                                                        <img className="mb-2 shadow-lg" src={img3}/>
                                                         <p className="mb-5 font-11">
                                                             프로젝트 영역에서는 개발중이거나 개발된 프로젝트들을 나열하고 서술합니다. 각 카드를 통해 해당 프로젝트의 자세한 내용에 접근할 수 있으며, JS filter() 함수를 통해 정적 웹페이지에서도 검색 기능을 구현할 수 있었습니다. 검색 기능 사용시, 검색된 키워드가 포함된 프로젝트를 제외한 나머지 프로젝트는 숨겨지게 되며, 표시될 프로젝트가 없을 경우 검색된 프로젝트가 없음을 안내합니다.
                                                         </p>
