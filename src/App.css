@@ -1048,6 +1048,11 @@
   .bg_logo {
     width: 55%;
   }
+
+  .project-view-padding {
+    padding-left: 1.5rem !important;
+    padding-top: 0rem !important;
+  }
 }
 
 .navbar-left-margin {
@@ -1245,6 +1250,11 @@
   .hamburger svg {
     height: 1.3em !important;
   }  
+
+  .project-view-padding {
+    padding-left: 3rem !important;
+    padding-top: 10rem !important;
+  }
 }
 
 .rot-45deg {
@@ -2561,8 +2571,8 @@ progress {
   z-index: 0;
   width: 100%;
   height: 100%;
-  filter: opacity(30%);
-  -webkit-filter: opacity(30%);  /*For Safari */
+  filter: opacity(20%);
+  -webkit-filter: opacity(20%);  /*For Safari */
   object-fit: cover;
   transition-duration: 0.3s;
 }
@@ -2669,19 +2679,19 @@ progress {
 }
 
 @media (min-width: 576px) {
-  .container-sm, .container, .container-bt, .container-full {
+  .container-sm, .container, .container-bt{
     max-width: 576px;
     transition: all 0.3s;
   }
 }
 @media (min-width: 768px) {
-  .container-md, .container-sm, .container, .container-bt, .container-full {
+  .container-md, .container-sm, .container, .container-bt {
     max-width: 768px;
     transition: all 0.3s;
   }
 }
 @media (min-width: 992px) {
-  .container-lg, .container-md, .container-sm, .container, .container-bt, .container-full {
+  .container-lg, .container-md, .container-sm, .container, .container-bt{
     max-width: 992px;
     transition: all 0.3s;
   }
@@ -2694,7 +2704,7 @@ progress {
   }
 }
 @media (min-width: 1200px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt, .container-full {
+  .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
     max-width: 1200px;
     transition: all 0.3s;
   }
@@ -6051,7 +6061,7 @@ textarea.form-control-lg {
   width: 100%;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 1021;
 }
 
 .navbar {
@@ -6688,6 +6698,13 @@ textarea.form-control-lg {
   background-color: var(--bs-black);
   transition: all 0.3s;
 }
+
+.card-cover-main:hover .card-image-main{
+  filter: opacity(30%);
+  -webkit-filter: opacity(30%);  /*For Safari */
+}
+
+
 
 .card-cover-main:hover span{
   color:var(--bs-white);
@@ -9541,7 +9558,7 @@ textarea.form-control-lg {
 
 .sticky-top {
   position: sticky;
-  top: 0;
+  top: 30px;
   z-index: 1020;
 }
 

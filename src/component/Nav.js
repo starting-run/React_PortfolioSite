@@ -85,6 +85,16 @@ function Nav() {
     //notify();
   }, []);
   
+
+  // 드롭다운의 가시성을 관리하는 상태
+  const [dropdownVisible, setDropdownVisible] = useState(false);
+
+  // 드롭다운을 표시하는 함수
+  const showDropdown = () => setDropdownVisible(true);
+  // 드롭다운을 숨기는 함수
+  const hideDropdown = () => setDropdownVisible(false);
+
+
 return (
   <header>
     <div>
