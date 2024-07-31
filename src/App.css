@@ -960,7 +960,7 @@
     display: none;
   }
   .navbar-brand img{
-    width: 90px !important;
+    width: 110px !important;
   }
     /* 햄버거 메뉴 전체화면으로 만드는 부분 
   일반적인 PC버전 네비바 복귀시 모바일 전용 CSS 영역으로 넣으면됨 */
@@ -6145,7 +6145,7 @@ textarea.form-control-lg {
   align-items: center;
   width: 50%;
   top:50px;
-  width: 110px;
+  width: 120px;
 }
 
 .navbar-nav {
