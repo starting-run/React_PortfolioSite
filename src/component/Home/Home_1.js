@@ -26,6 +26,8 @@ import poster4 from '../../images/Unity/poster_snake.png';
 import intro5 from '../../images/Unity/MazeForest/intro.mp4';
 import poster5 from '../../images/Unity/MazeForest/poster_mazeforest.png';
 
+import intro6 from '../../images/Unity/LethalDeliveryVR/video_short.mp4';
+
 function Home_1() {
   const scrollRef = useRef(null);
   const [progress, setProgress] = useState(0);
@@ -126,6 +128,24 @@ function Home_1() {
               </div>
               <div
                 className="section_hor"
+                onMouseEnter={() => handleMouseEnter(intro4)}
+                onMouseLeave={handleMouseLeave}
+              >
+                <video className="background-video_hor" poster={poster4} autoPlay muted loop>
+                  <source src={intro6} type="video/mp4" />
+                </video>
+                <div className="text-container_hor">
+                  <div className="text-content_hor text-black">
+                    <div className="font-11 font-letter-space fs-1 fw-bold2">리썰딜리버리</div>
+                    <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">리썰컴퍼니를 원작으로 VR로 제작된 수집/생존 게임</div>
+                    <NavLink to="project/snake" id="snake" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
+                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="section_hor"
                 onMouseEnter={() => handleMouseEnter(intro5)}
                 onMouseLeave={handleMouseLeave}
               >
@@ -153,7 +173,7 @@ function Home_1() {
                 <div className="text-container_hor">
                   <div className="text-content_hor text-black">
                     <div className="font-11 font-letter-space fs-1 fw-bold2">팩맨 게임</div>
-                    <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">프로세싱으로 구현된 그 시절 팩맨 게임</div>
+                    <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">프로세싱으로 구현된 팩맨 게임</div>
                     <NavLink to="project/pacman" id="pacman" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
                       자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
                     </NavLink>
@@ -179,28 +199,6 @@ function Home_1() {
                   </div>
                 </div>
               </div>
-
-{/*
-              <div
-                className="section_hor"
-                onMouseEnter={() => handleMouseEnter(intro4)}
-                onMouseLeave={handleMouseLeave}
-              >
-                <video className="background-video_hor" poster={poster4} autoPlay muted loop>
-                  <source src={intro4} type="video/mp4" />
-                </video>
-                <div className="text-container_hor">
-                  <div className="text-content_hor text-black">
-                    <div className="font-11 font-letter-space fs-1 fw-bold2">스네이크 게임</div>
-                    <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">유니티로 개발된 간단한 게임</div>
-                    <NavLink to="project/snake" id="snake" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-*/}
-
               <div
                 className="section_hor"
                 onMouseEnter={() => handleMouseEnter(intro1)}
@@ -212,7 +210,7 @@ function Home_1() {
                 <div className="text-container_hor">
                   <div className="text-content_hor text-black">
                     <div className="font-11 font-letter-space fs-1 fw-bold2">포트폴리오 웹사이트</div>
-                    <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">포트폴리오를 효율적으로 게시하기 위한 웹사이트</div>
+                    <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">제작된 포트폴리오를 정리하여 게시하기 위한 웹사이트</div>
                     <NavLink to="project/website" id="website" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
                       자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
                     </NavLink>
@@ -226,13 +224,13 @@ function Home_1() {
         <button className="scroll-button_hor right_hor fs-0-5 font-7" onClick={handleNextSection}>
           &gt;
         </button>
-        <div className="scroll-down-indicator_hor">
-          <div className="scroll_icon"><span></span><span></span><span></span></div>
-        </div>
       </div>
       <div className="progress-container_hor">
         <div className="progress-bar_hor" style={{ width: `${progress}%` }} />
       </div>
+      <div className="scroll-down-indicator_hor">
+          <div className="scroll_icon"><span></span><span></span><span></span></div>
+        </div>
     </div>
   );
 }
