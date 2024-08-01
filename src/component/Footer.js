@@ -39,7 +39,7 @@ return (
             </div>
             <div className="col-auto font-11">
               <div className="smaller m-0 text-black mb-1">본 사이트는 개인 포트폴리오용으로 제작되었습니다.</div>
-              <div className="smaller m-0 text-black mb-3">&copy; Woohyun Cho(starting). All rights reserved.</div>
+              <div className="smaller m-0 text-black mb-3">&copy; Woohyun Cho(STARTING). All rights reserved.</div>
             </div>
         </div>
       </div>
