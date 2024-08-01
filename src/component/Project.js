@@ -113,7 +113,7 @@ function Project() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>프로젝트 - starting</title></Helmet>
+            <Helmet><title>프로젝트 - STARTING</title></Helmet>
             <section className="bg-white-gray">
             <div className="container-xxl px-4 pt-6 min-vh-100">
             {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>*/}

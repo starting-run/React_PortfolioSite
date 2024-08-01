@@ -46,7 +46,7 @@ function LethalDeliveryVR() {
         transition={{ duration: 0.2 }}
       >
             <Helmet>
-                <title>리썰딜리버리 - starting</title>
+                <title>리썰딜리버리 - STARTING</title>
             </Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">

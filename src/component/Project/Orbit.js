@@ -47,7 +47,7 @@ function Orbit() {
         transition={{ duration: 0.2 }}
       >
             <Helmet>
-                <title>오르빗 - starting</title>
+                <title>오르빗 - STARTING</title>
             </Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">

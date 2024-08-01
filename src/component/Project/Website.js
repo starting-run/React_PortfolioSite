@@ -32,7 +32,7 @@ function Website() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>포트폴리오 - starting</title></Helmet>
+            <Helmet><title>포트폴리오 - STARTING</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
                     <div className="container-full px-4 pt-6" id="seemore">

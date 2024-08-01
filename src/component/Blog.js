@@ -25,7 +25,7 @@ function Blog() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>블로그 - starting</title></Helmet>
+            <Helmet><title>블로그 - STARTING</title></Helmet>
             <section className="bg-white-gray min-vh-100">
                 <div className="container-xxl px-4 pt-6">
                     <div className="row justify-content-center">

@@ -148,7 +148,7 @@ class Pacman extends Component {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>팩맨 - starting</title></Helmet>
+            <Helmet><title>팩맨 - STARTING</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
                     <div className="container-full px-4 pt-6" id="seemore">
