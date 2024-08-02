@@ -2714,25 +2714,25 @@ progress {
   }
 }
 @media (min-width: 1200px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
+  .container-xl, .container-lg, .container-md, .container, .container-bt {
     max-width: 1200px;
     transition: all 0.3s;
   }
 }
 @media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
+  .container-xxl, .container-xl, .container-lg, .container, .container-bt {
     max-width: 1400px;
     transition: all 0.3s;
   }
 }
 @media (min-width: 1600px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
+  .container-xxl, .container-xl, .container-lg, .container, .container-bt {
     max-width: 1600px;
     transition: all 0.3s;
   }
 }
 @media (min-width: 1900px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container, .container-bt {
+  .container-xxl, .container-xl, .container-lg, .container, .container-bt {
     max-width: 1600px;
     transition: all 0.3s;
   }
@@ -11356,14 +11356,14 @@ video {
 
 .bg-video-prj {
   position: absolute; /* 스크롤시 고정은 absolute */
-  opacity: 0.3; /* 원본값 0.15 */
+  opacity: 0.5; /* 원본값 0.15 */
   align-items: center;
   object-fit: cover;
   width: 100%;
   height: 100%;
   background-size : cover;
-  filter:blur(20px);
-  -webkit-filter: blur(20px);
+  filter:blur(1px);
+  -webkit-filter: blur(1px);
 }
 
 

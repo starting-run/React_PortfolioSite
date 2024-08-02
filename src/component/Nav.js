@@ -85,6 +85,7 @@ function Nav() {
   }, []);
 
   const navbarClass = currentPath === '/' && scrollPos === 0 ? 'navbar-py2' : 'navbar-py';
+  const navbarClass2 = currentPath === '/' && scrollPos === 0 ? 'container-md' : 'container-xxl';
 
   // 드롭다운의 가시성을 관리하는 상태
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -100,7 +101,7 @@ function Nav() {
         <ToTopButton />
         <div id="add-fixed" className={`navbar-fixed-attr ${isScrollingUp ? 'show-navbar' : 'hide-navbar'}`}>
           <nav id="navbarcontrol" className={`navbar navbar-light ${navbarClass} navbar-upper navbar-expand-lg`}>
-            <div id='changecontainer' className="container-xxl px-4">
+            <div id='changecontainer' className={`${navbarClass2} px-4`}>
                 <NavLink exact='true' to="/" className="navbar-brand" id="mains" onClick={mainlogo} title="Home"><img className="logoimg no-rounded"></img></NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
