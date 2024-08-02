@@ -22,8 +22,8 @@ function Home() {
       >
         <Helmet><title>STARTING</title></Helmet>
         <div className="bg-white-gray">
-            <Home_1/>
-            {/*<Home_2/>*/}
+            {/*<Home_1/>*/}
+            <Home_2/>
             <Home_3/>
             {/*<Home_4/>*/}
         </div>

@@ -475,14 +475,19 @@
   border-radius: 1rem;
 }
 
+
+
 .scroll-down-indicator_hor {
   position: absolute;
-  bottom: 20px;
   right: 0;
   left: 0;
   font-size: 2em;
   color: var(--bs-black);
   z-index: 1000;
+}
+
+.scroll-down-indicator_hor-bottom {
+  bottom: 5rem;
 }
 
 .bg-video-main {
@@ -626,7 +631,7 @@
 }
 
 .bg_logo {
-  width: 30%;
+  width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -2698,6 +2703,10 @@ progress {
   }
   .navbar-py {
     padding-top: 1rem !important;
+    padding-bottom: 1.3rem !important;
+  }
+  .navbar-py2 {
+    padding-top: 5rem !important;
     padding-bottom: 1.3rem !important;
   }
   .fixed-bottom {

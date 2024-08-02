@@ -19,11 +19,11 @@ function Home_2() {
           </video>
           </div>
           <div class="bg_logo">
-            <div class=""><img className='big_logoimg'></img></div>
-            <div class="fs-5 text-center"><span class="fw-bold2">가장 잘하는 방식으로</span> 사람들에게 즐거움을 줍니다.</div>
+            {/* <div class=""><img className='big_logoimg'></img></div> */}
+            <div class="fs-1 text-center fw-light"><span class="fw-bold">가장 잘하고 좋아하는 방식으로</span><br/>모두에게 즐거움을 줍니다</div>
           </div>
         </div>
-        <div className="scroll-down-indicator_hor">
+        <div className="scroll-down-indicator_hor scroll-down-indicator_hor-bottom">
           <div className="scroll_icon"><span></span><span></span><span></span></div>
         </div>
       </div>

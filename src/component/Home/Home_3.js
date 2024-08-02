@@ -100,7 +100,7 @@ function Home_3() {
                                     </NavLink>
                                 </div>
                             </div>
-                            <div className="font-11 text-start fs-3 mb-2 mt-3 w-100 fw-bold text-black">AI로부터 무력해진 세상을 구원하라</div>
+                            <div className="font-11 text-start fs-3 mb-2 mt-1 w-100 fw-bold text-black">AI로부터 무력해진 세상을 구원하라</div>
                             <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">유니티의 HDRenderPipeline을 사용하여 졸업작품으로 제작 중인 <span class="highlight">오르빗</span> 게임입니다. 고도화된 인공지능이 보편화된 사회에서 사회적 합의와 정책이 뒤따르지 않은 절망적인 결과를 표방합니다. 인공지능에 대한 경각심을 일깨우는 것이 하나의 목표입니다.</div>
 
                             <div className="col w-100 mb-4 mt-5"> {/*col-lg-12*/}
@@ -108,22 +108,6 @@ function Home_3() {
                                     <video className="card-image-sec1" autoPlay muted loop>
                                         <source src={project6} type="video/mp4" />
                                     </video>
-                                    {/*
-                                    <div className="text-only-white fs-0 lh-sm font-11 pt-6 ps-3">
-                                        <div className="font-letter-space fw-bold2 pt-5 ps-5 pe-4">
-                                            {/*<span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>
-                                            <div className="font-11 fs-0-5 fw-bold text-start mb-6">만나서 반갑습니다 !</div>
-                                            <div className="font-11 fs-1 fw-normal text-start mb-2">저는</div>
-                                            <div className="font-11 fs-0-5 fw-bold text-start mb-2"><span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span></div>
-                                            <div className="font-11 fs-1 fw-normal text-start mb-6">를 만듭니다.</div>
-                                        </div>
-                                    </div>
-                                    <div className="text-start ps-3">
-                                        <div className="h-100 font-11 text-only-white fs-6 font-letter-space text-uppercase mb-5 pb-5 ps-5">
-                                            <div className="fw-normal">Woohyun Cho</div>
-                                            <div className="fw-bold2 highlight">Developer Portfolio</div>
-                                        </div>
-                                    </div>*/}
                                     <span className="text-start fs-4 card-in-arrow-left">
                                         <div className="fs-6 mx-2 mb-1-5 text-only-white">2024. 04. 15. - 06. 10.</div>
                                     </span>
@@ -137,7 +121,7 @@ function Home_3() {
                                     </NavLink>
                                 </div>
                             </div>
-                            <div className="font-11 text-start fs-3 mb-2 mt-3 w-100 fw-bold text-black">수집하고 살아남아, 목표를 달성하라</div>
+                            <div className="font-11 text-start fs-3 mb-2 mt-1 w-100 fw-bold text-black">수집하고 살아남아, 목표를 달성하라</div>
                             <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">화제의 게임인 리썰컴퍼니를 모작으로 제작된 게임인 <span className='highlight'>리썰딜리버리</span> 게임입니다. VR HMD를 착용하고 HMD컨트롤러를 사용하여 상호작용하고 게임을 플레이할 수 있습니다. 일정 기간동안 주어진 목표를 달성하여 오랫동안 살아남는 것이 목표입니다.</div>
 
 
