@@ -20,8 +20,8 @@ import poster2 from '../../images/Pacman/poster_pacman.png';
 import intro3 from '../../images/OpenGL/ironman.mp4';
 import poster3 from '../../images/OpenGL/poster_ironman.png';
 
-import intro4 from '../../images/Unity/Unity_Snake.mp4';
-import poster4 from '../../images/Unity/poster_snake.png';
+import intro4 from '../../images/Unity/LethalDeliveryVR/video.mp4';
+import poster4 from '../../images/Unity/LethalDeliveryVR/logo.png';
 
 import intro5 from '../../images/Unity/MazeForest/intro.mp4';
 import poster5 from '../../images/Unity/MazeForest/poster_mazeforest.png';
@@ -138,7 +138,7 @@ function Home_1() {
                   <div className="text-content_hor text-black">
                     <div className="font-11 font-letter-space fs-1 fw-bold2">리썰딜리버리</div>
                     <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">리썰컴퍼니를 원작으로 VR로 제작된 수집/생존 게임</div>
-                    <NavLink to="project/snake" id="snake" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
+                    <NavLink to="project/rethaldelivery" id="rethaldelivery" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
                       자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
                     </NavLink>
                   </div>

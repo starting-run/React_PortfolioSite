@@ -11,19 +11,8 @@ import { faBars, faChevronLeft, faChevronRight, faFileContract, faPenToSquare, f
 import { Link } from 'react-router-dom';
 
 import video from '../../images/Unity/LethalDeliveryVR/video.mp4'
-import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import img1 from '../../images/Unity/LethalDeliveryVR/logo.png';
-import img2 from '../../images/Unity/Orbit/main1.png';
-import img3 from '../../images/Unity/Orbit/main2.png';
-import img4 from '../../images/Unity/4.png';
-import img5 from '../../images/Unity/5.png';
-import img6 from '../../images/Unity/6.png';
-import img7 from '../../images/Unity/7.gif';
-import img8 from '../../images/Unity/8.png';
-import img9 from '../../images/Unity/9.png';
-import video1 from '../../images/Unity/Unity_Snake.mp4'
-import pdf1 from '../../images/Unity/Unity_Snake.pdf';
-import intro from '../../images/Unity/LethalDeliveryVR/thum.png';
+
 import prop2pdf from '../../images/projects/prop2/prop_LethalDeliveryVR.pdf';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';

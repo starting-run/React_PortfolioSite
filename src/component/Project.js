@@ -5,7 +5,6 @@
 */
 
 import React, { useEffect } from 'react';
-import project1 from '../images/snake.jpg';
 import project2 from '../images/ironman.jpg';
 import project3 from '../images/pacman.jpg';
 import project4 from '../images/portfolio.png';
@@ -217,29 +216,7 @@ function Project() {
                                         </div>
                                     </div>
                                 </NavLink>
-                            </div>   
-                            {/*<div className="col">
-                                <NavLink to="snake" id="snake">
-                                    <div className="img-fluid">
-                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <img className="card-image-main" src ={project1}></img>
-                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">스네이크 <span class="btn btn-sm btn-primary-round-outline">게임</span><div className="kor-hidden">Snake game, 유니티, 씨샵, C#, Unity</div></span>
-                                                <ul className="list-unstyled mt-auto small2">
-                                                    <li className="d-flex align-items-center me-3 mb-4">
-                                                        <span className="">2020. 06.</span>
-                                                    </li>
-                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
-                                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </NavLink>
-                            </div>*/}
+                            </div>
                         </div>
                     </div>
                 </div>

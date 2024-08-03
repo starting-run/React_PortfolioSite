@@ -15,15 +15,7 @@ import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import img1 from '../../images/Unity/Orbit/logo.png';
 import img2 from '../../images/Unity/Orbit/main1.png';
 import img3 from '../../images/Unity/Orbit/main2.png';
-import img4 from '../../images/Unity/4.png';
-import img5 from '../../images/Unity/5.png';
-import img6 from '../../images/Unity/6.png';
-import img7 from '../../images/Unity/7.gif';
-import img8 from '../../images/Unity/8.png';
-import img9 from '../../images/Unity/9.png';
-import video1 from '../../images/Unity/Unity_Snake.mp4'
-import pdf1 from '../../images/Unity/Unity_Snake.pdf';
-import intro from '../../images/Unity/Orbit/intro.mp4';
+
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
 import { motion } from 'framer-motion';

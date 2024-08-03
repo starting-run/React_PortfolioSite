@@ -13,7 +13,6 @@ import Project from './component/Project';
 import Profile from './component/Profile';
 import Pacman from './component/Project/Pacman';
 import Ironman from './component/Project/Ironman';
-import Snake from './component/Project/Snake';
 import Orbit from './component/Project/Orbit';
 import Website from './component/Project/Website';
 import LethalDeliveryVR from './component/Project/LethalDeliveryVR';
@@ -46,7 +45,6 @@ const App = () => {
         <Route path="/project/website" element={<Website/>}/>
         <Route path="/project/pacman" element={<Pacman/>}/>
         <Route path="/project/ironman" element={<Ironman/>}/>
-        <Route path="/project/snake" element={<Snake/>}/>
         <Route path="/project/mazeforest" element={<MazeForest/>}/>
       </Routes>
     </AnimatePresence>
