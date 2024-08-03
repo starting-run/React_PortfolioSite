@@ -12,7 +12,7 @@ import intro from '../../images/Unity/Orbit/main_video.mp4';
 import poster from '../../images/Unity/Orbit/main1.png';
 
 import intro1 from '../../images/projects/portfolio_website/intro_video.mp4';
-import poster1 from '../../images/sec3.png';
+import poster1 from '../../images/portfolio.png';
 
 import intro2 from '../../images/Pacman/Processing_Pacman.mp4';
 import poster2 from '../../images/Pacman/poster_pacman.png';
