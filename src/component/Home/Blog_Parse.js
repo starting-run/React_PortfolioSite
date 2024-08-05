@@ -78,7 +78,7 @@ function Blog_Parse() {
                   <div></div>
                 </div>
               </div>
-              <span class="text-center">글 목록을 불러오는 중입니다.<br/>잠시만 기다려주세요.</span>
+              <span className="text-center">글 목록을 불러오는 중입니다.<br/>잠시만 기다려주세요.</span>
               </div>
           ) : (
           <ul>

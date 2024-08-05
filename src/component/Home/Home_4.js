@@ -70,7 +70,7 @@ function Home_4() {
                                 <source src={project6} type="video/mp4" />
                             </video>
                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 <span class="btn btn-sm btn-primary-round-outline">게임</span></span>
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 <span className="btn btn-sm btn-primary-round-outline">게임</span></span>
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-5">
                                         <span className="">2024. 03. - 개발 중</span>
@@ -94,7 +94,7 @@ function Home_4() {
                     <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                     <img className="card-image-main" src ={project5}></img>
                         <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 <span class="btn btn-sm btn-primary-round-outline">VR게임</span></span>
+                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 <span className="btn btn-sm btn-primary-round-outline">VR게임</span></span>
                             <ul className="list-unstyled mt-auto small2">
                                 <li className="d-flex align-items-center me-3 mb-5">
                                     <span className="">2024. 04. 15. - 06. 10.</span>
@@ -118,7 +118,7 @@ function Home_4() {
                     <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                     <img className="card-image-main" src ={project7}></img>
                         <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span class="btn btn-sm btn-primary-round-outline">교육용 게임</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
+                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span className="btn btn-sm btn-primary-round-outline">교육용 게임</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
                             <ul className="list-unstyled mt-auto small2">
                                 <li className="d-flex align-items-center me-3 mb-5">
                                     <span className="">2024. 06. 05. - 06. 11.</span>
@@ -142,7 +142,7 @@ function Home_4() {
                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img className="card-image-main" src ={project4}></img>
                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 <span class="btn btn-sm btn-primary-round-outline">프론트</span><div className="kor-hidden">portfolio website</div></span>
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 <span className="btn btn-sm btn-primary-round-outline">프론트</span><div className="kor-hidden">portfolio website</div></span>
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-5">
                                         <span className="">2023. 10. - 2024. 02.</span>
@@ -166,7 +166,7 @@ function Home_4() {
                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img className="card-image-main" src ={project3}></img>
                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 <span class="btn btn-sm btn-primary-round-outline">게임</span><div className="kor-hidden">pacman game</div></span>
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 <span className="btn btn-sm btn-primary-round-outline">게임</span><div className="kor-hidden">pacman game</div></span>
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-4">
                                         <span className="">2023. 10.</span>
@@ -190,7 +190,7 @@ function Home_4() {
                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                             <img className="card-image-main" src ={project2}></img>
                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 <span class="btn btn-sm btn-primary-round-outline">모델</span><div className="kor-hidden">ironman model</div></span>
+                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 <span className="btn btn-sm btn-primary-round-outline">모델</span><div className="kor-hidden">ironman model</div></span>
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-4">
                                         <span className="">2021. 06.</span>

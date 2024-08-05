@@ -51,9 +51,9 @@ function Orbit() {
                                         <div className="d-flex align-items-center">
                                             <div className="proj_text w-100 text-black fw-light">
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
-                                                    <div class="col-lg-4">
-                                                        <div class="sticky-top pc-view-only">
-                                                        <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">오르빗 <span class="btn btn-sm btn-primary-round-outline rounded-4">게임</span></div>
+                                                    <div className="col-lg-4">
+                                                        <div className="sticky-top pc-view-only">
+                                                        <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">오르빗 <span className="btn btn-sm btn-primary-round-outline rounded-4">게임</span></div>
                                                             <div className='mb-5'>
                                                                 {/*href="https://github.com/starting-run/Unity_Orbit"*/}<a onClick={notify2} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                                                                 <a onClick={notify3} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
@@ -86,7 +86,7 @@ function Orbit() {
                                                             <hr/>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-8 project-view-padding">
+                                                    <div className="col-lg-8 project-view-padding">
                                                         <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
                                                         <img className="mb-5" src={img1} style={{width: '300px'}}></img>
                                                         <p className="mb-5 font-11">인간은 AI에게 지배당해 AI가 설계한 궤도를 돌 수 밖에 없음을 의미합니다.</p>

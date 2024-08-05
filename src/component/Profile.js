@@ -156,7 +156,7 @@ function Profile() {
                                             <div className="fs-5 fw-bold fw-opacity"><FontAwesomeIcon icon={faAngleRight} className='highlight'/> Unity</div>
                                                 <div className="fw-light2 fs-6 mb-2 text-black">유니티를 사용해 2D/3D 컨텐츠를 제작할 수 있으며, UGUI, UI Toolkit을 활용하여 UI를 제작하는 등 게임 제작에 필요한 기능을 활용할 수 있습니다.
                                                     현재는 유니티를 사용해 졸업작품으로 전시할 3D 게임인 Orbit을 제작중입니다.
-                                                    이 프로젝트에 대해서는 <Link to="/project/orbit" class="btn btn-sm btn-dark-square fs-7 fw-bold2 rounded-3 py-0">여기</Link> 에서 확인하실 수 있습니다.
+                                                    이 프로젝트에 대해서는 <Link to="/project/orbit" className="btn btn-sm btn-dark-square fs-7 fw-bold2 rounded-3 py-0">여기</Link> 에서 확인하실 수 있습니다.
                                                 </div>
                                             </div>
                                             <div className="col-auto mb-2 p-4 py-2">
@@ -183,7 +183,7 @@ function Profile() {
                                         <div className="text-black font-11 fs-5 fw-bold m-2">연락처</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-1 row-cols-xxl-2 p-2 rounded-4 mx-2">
-                                            <div class="col">
+                                            <div className="col">
                                                 <a onClick={copyText} target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -191,7 +191,7 @@ function Profile() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faAt}/>　메일</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2 only-pc-view">ploris576@kangnam.ac.kr　</span>
+                                                                        <span className="fs-6 px-2 only-pc-view">ploris576@kangnam.ac.kr　</span>
                                                                         <FontAwesomeIcon icon={faCopy}/>
                                                                     </span>
                                                                 </div>
@@ -200,7 +200,7 @@ function Profile() {
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div class="col">
+                                            <div className="col">
                                                 <a href="https://instagram.com/w99hyun" target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -208,7 +208,7 @@ function Profile() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faInstagram}/>　인스타그램</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">w99hyun　</span>
+                                                                        <span className="fs-6 px-2">w99hyun　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>
@@ -225,7 +225,7 @@ function Profile() {
                                         <div className="text-black font-11 fs-5 fw-bold m-2">링크</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-1 row-cols-xxl-2 p-2 rounded-4 mx-2">
-                                            <div class="col">
+                                            <div className="col">
                                                 <a href="https://github.com/starting-run" target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -233,7 +233,7 @@ function Profile() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faGithub}/>　깃허브</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">starting-run　</span>
+                                                                        <span className="fs-6 px-2">starting-run　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>
@@ -242,7 +242,7 @@ function Profile() {
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div class="col">
+                                            <div className="col">
                                                 <a href="https://velog.io/@usfree" target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -250,7 +250,7 @@ function Profile() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faVimeo}/>　블로그</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">usfree　</span>
+                                                                        <span className="fs-6 px-2">usfree　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>
@@ -259,7 +259,7 @@ function Profile() {
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div class="col">
+                                            <div className="col">
                                                 <a href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -267,7 +267,7 @@ function Profile() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faCode}/>　백준</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">tlrmsjtm77　</span>
+                                                                        <span className="fs-6 px-2">tlrmsjtm77　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>
@@ -276,7 +276,7 @@ function Profile() {
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div class="col">
+                                            <div className="col">
                                                 <a href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -284,7 +284,7 @@ function Profile() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faChartBar}/>　Codeforces</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">tlrmsjtm77　</span>
+                                                                        <span className="fs-6 px-2">tlrmsjtm77　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>

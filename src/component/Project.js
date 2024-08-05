@@ -141,7 +141,7 @@ function Project() {
                 <div className="vh-100 kor-hidden" id="search_empty">
                     <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 rounded-4">
                         <div className="fs-0-5 text-center mb-5 pt-5 text-black"><FontAwesomeIcon icon={faMagnifyingGlass}/></div>
-                        <div className="text-black font-3 fs-5 text-center mb-5"><span className="highlight">검색 결과가 없습니다!</span> 다시 검색해주세요.<br/><br/>검색은 한글과 영어를 모두 지원합니다.<br/>ex) UnrealEngine → 언리얼, 언리얼엔진</div>
+                        <div className="text-black font-11 fs-5 text-center mb-5"><span className="highlight">검색 결과가 없습니다!</span> 다시 검색해주세요.<br/><br/>검색은 한글과 영어를 모두 지원합니다.<br/>ex) UnrealEngine → 언리얼, 언리얼엔진</div>
                     </div>
                 </div>
                 <div className="row gx-5 justify-content-center">
@@ -155,7 +155,7 @@ function Project() {
                                                 <source src={project6} type="video/mp4" />
                                             </video>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 <span class="btn btn-sm btn-primary-round-outline me-1 rounded-4">게임</span><span class="btn btn-sm btn-primary-round-outline rounded-4">유니티</span><div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity</div></span>
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">게임</span><span className="btn btn-sm btn-primary-round-outline rounded-4">유니티</span><div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-5">
                                                         <span className="">2024. 03. - 개발 중</span>
@@ -177,7 +177,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                         <img className="card-image-main" src ={project5}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 <span class="btn btn-sm btn-primary-round-outline me-1 rounded-4">VR게임</span><span class="btn btn-sm btn-primary-round-outline rounded-4">유니티</span><div className="kor-hidden">LethalDeliveryvr, 유니티, 씨샵, C#, Unity</div></span>
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">VR게임</span><span className="btn btn-sm btn-primary-round-outline rounded-4">유니티</span><div className="kor-hidden">LethalDeliveryvr, 유니티, 씨샵, C#, Unity</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-5">
                                                         <span className="">2024. 04. 15. - 06. 10.</span>
@@ -201,7 +201,7 @@ function Project() {
                                                 <source src={project7} type="video/mp4" />
                                             </video>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span class="btn btn-sm btn-primary-round-outline me-1 rounded-4">게임</span><span class="btn btn-sm btn-primary-round-outline rounded-4">유니티</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">게임</span><span className="btn btn-sm btn-primary-round-outline rounded-4">유니티</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-5">
                                                         <span className="">2024. 06. 05. - 06. 11.</span>
@@ -230,7 +230,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project3}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 <span class="btn btn-sm btn-primary-round-outline me-1 rounded-4">게임</span><span class="btn btn-sm btn-primary-round-outline rounded-4">프로세싱</span><div className="kor-hidden">pacman game, 프로세싱, 자바, 씨, C</div></span>
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">게임</span><span className="btn btn-sm btn-primary-round-outline rounded-4">프로세싱</span><div className="kor-hidden">pacman game, 프로세싱, 자바, 씨, C</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-4">
                                                         <span className="">2023. 10.</span>
@@ -252,7 +252,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project4}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 <span class="btn btn-sm btn-primary-round-outline me-1 rounded-4">웹사이트</span><span class="btn btn-sm btn-primary-round-outline rounded-4">리액트</span><div className="kor-hidden">portfolio website, 리액트, HTML, CSS</div></span>
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">웹사이트</span><span className="btn btn-sm btn-primary-round-outline rounded-4">리액트</span><div className="kor-hidden">portfolio website, 리액트, HTML, CSS</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-5">
                                                         <span className="">2023. 10. - 2024. 02.</span>
@@ -274,7 +274,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <img className="card-image-main" src ={project2}></img>
                                             <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 <span class="btn btn-sm btn-primary-round-outline me-1 rounded-4">모델</span><span class="btn btn-sm btn-primary-round-outline rounded-4">OpenGL</span><div className="kor-hidden">ironman model, 오픈지엘, OpenGL, C, 씨</div></span>
+                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">모델</span><span className="btn btn-sm btn-primary-round-outline rounded-4">OpenGL</span><div className="kor-hidden">ironman model, 오픈지엘, OpenGL, C, 씨</div></span>
                                                 <ul className="list-unstyled mt-auto small2">
                                                     <li className="d-flex align-items-center me-3 mb-4">
                                                         <span className="">2021. 06.</span>
@@ -301,7 +301,7 @@ function Project() {
                                     <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                         <img className="card-image-main" src ={prop1}></img>
                                         <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
-                                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU <span class="btn btn-sm btn-primary-round-outline rounded-4">역기획서</span><div className="kor-hidden">포커스온유, smilegate</div></span>
+                                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU <span className="btn btn-sm btn-primary-round-outline rounded-4">역기획서</span><div className="kor-hidden">포커스온유, smilegate</div></span>
                                             <ul className="list-unstyled mt-auto small2">
                                                 <li className="d-flex align-items-center me-3">
                                                     <span className="">2024. 04. 09.</span>
@@ -323,7 +323,7 @@ function Project() {
                                     <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
                                         <img className="card-image-main" src ={project5}></img>
                                         <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
-                                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR <span class="btn btn-sm btn-primary-round-outline rounded-4">기획서</span><div className="kor-hidden">리썰딜리버리</div></span>
+                                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR <span className="btn btn-sm btn-primary-round-outline rounded-4">기획서</span><div className="kor-hidden">리썰딜리버리</div></span>
                                             <ul className="list-unstyled mt-auto small2">
                                                 <li className="d-flex align-items-center me-3">
                                                     <span className="">2024. 06. 10.</span>

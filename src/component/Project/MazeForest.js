@@ -173,9 +173,9 @@ function MazeForest() {
                                         <div className="d-flex align-items-center">
                                             <div className="proj_text w-100 text-black fw-light">
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
-                                                    <div class="col-lg-4">
-                                                        <div class="sticky-top pc-view-only">
-                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">미로의 숲 <span class="btn btn-sm btn-primary-round-outline rounded-4">게임</span></div>
+                                                    <div className="col-lg-4">
+                                                        <div className="sticky-top pc-view-only">
+                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">미로의 숲 <span className="btn btn-sm btn-primary-round-outline rounded-4">게임</span></div>
                                                             <a href="https://github.com/starting-run/Unity_MazeForest" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
                                                             <a href="https://github.com/starting-run/React_PortfolioSite/raw/main/src/images/Unity/MazeForest/MazeForest_Build.7z" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
@@ -206,7 +206,7 @@ function MazeForest() {
                                                             <hr/>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-8 project-view-padding">
+                                                    <div className="col-lg-8 project-view-padding">
                                                         <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
                                                         <img className="mb-3" src={logo}></img>
                                                         <p className="mb-5 font-11">미로로 구성되어 있는 숲을 빠져나가는 컨셉에 맞게 적절한 AI 프롬프트를 사용해 로고를 제작하였습니다.</p>

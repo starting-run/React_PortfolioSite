@@ -53,7 +53,7 @@ function Link() {
                                         <div className="text-black font-11 fs-5 fw-bold m-2">연락처</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-1 row-cols-xxl-1 p-2 rounded-4 mx-2">
-                                            <div class="col">
+                                            <div className="col">
                                                 <a onClick={copyText} target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -61,7 +61,7 @@ function Link() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faAt}/>　메일</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2 only-pc-view">ploris576@kangnam.ac.kr　</span>
+                                                                        <span className="fs-6 px-2 only-pc-view">ploris576@kangnam.ac.kr　</span>
                                                                         <FontAwesomeIcon icon={faCopy}/>
                                                                     </span>
                                                                 </div>
@@ -70,7 +70,7 @@ function Link() {
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div class="col">
+                                            <div className="col">
                                                 <a href="https://instagram.com/w99hyun" target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -78,7 +78,7 @@ function Link() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faInstagram}/>　인스타그램</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">w99hyun　</span>
+                                                                        <span className="fs-6 px-2">w99hyun　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>
@@ -93,7 +93,7 @@ function Link() {
                                         <div className="text-black font-11 fs-5 fw-bold m-2">링크</div>
                                         <hr className="text-black"/>
                                         <div className="row row-cols-1 row-cols-xxl-1 p-2 rounded-4 mx-2">
-                                            <div class="col">
+                                            <div className="col">
                                                 <a href="https://github.com/starting-run" target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -101,7 +101,7 @@ function Link() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faGithub}/>　깃허브</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">starting-run　</span>
+                                                                        <span className="fs-6 px-2">starting-run　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>
@@ -110,7 +110,7 @@ function Link() {
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div class="col">
+                                            <div className="col">
                                                 <a href="https://velog.io/@usfree" target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -118,7 +118,7 @@ function Link() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faVimeo}/>　블로그</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">usfree　</span>
+                                                                        <span className="fs-6 px-2">usfree　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>
@@ -127,7 +127,7 @@ function Link() {
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div class="col">
+                                            <div className="col">
                                                 <a href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -135,7 +135,7 @@ function Link() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faCode}/>　백준</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">tlrmsjtm77　</span>
+                                                                        <span className="fs-6 px-2">tlrmsjtm77　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>
@@ -144,7 +144,7 @@ function Link() {
                                                     </div>
                                                 </a>
                                             </div>
-                                            <div class="col">
+                                            <div className="col">
                                                 <a href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>
                                                     <div className="img-fluid mb-3">
                                                         <div className="col">
@@ -152,7 +152,7 @@ function Link() {
                                                                 <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                     <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faChartBar}/>　Codeforces</span>
                                                                     <span className="text-end fs-4 card-in-arrow">
-                                                                        <span class="fs-6 px-2">tlrmsjtm77　</span>
+                                                                        <span className="fs-6 px-2">tlrmsjtm77　</span>
                                                                         <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                     </span>
                                                                 </div>

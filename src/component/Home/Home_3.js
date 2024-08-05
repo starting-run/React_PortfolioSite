@@ -37,14 +37,14 @@ function Home_3() {
     <div>
         <div className="s-intro pt-3" id='mainS'>
             <div className="s-intro__content row text-black"> 
-                <div className="justify-content-center font-3">
+                <div className="justify-content-center font-11">
                     <div className="container-xxl px-4 mt-5-main">
                         {/* 메인 카드 섹션 */}
                         <div className="row row-cols-lg-2 row-cols-1">
                         <div className="col col-lg-12 text-black">
-                            <div className="font-11 text-start fs-3 mb-5">안녕하세요, <span class="highlight">게임 클라이언트 개발자</span> 조우현입니다. <span class="lowlight">제가 가장 잘하고 좋아하는 방식으로 사람들에게 즐거움을 주고자 합니다. 무엇이 가장 옳고 효율적일지 창의력을 바탕으로 혁신적인 생각을 하기 위해 끊임없이 고민합니다.</span>
+                            <div className="font-11 text-start fs-3 mb-5">안녕하세요, <span className="highlight">게임 클라이언트 개발자</span> 조우현입니다. <span className="lowlight">제가 가장 잘하고 좋아하는 방식으로 사람들에게 즐거움을 주고자 합니다. 무엇이 가장 옳고 효율적일지 창의력을 바탕으로 혁신적인 생각을 하기 위해 끊임없이 고민합니다.</span>
                             <div className='fs-4 mt-5'>
-                                <div className='mb-4'>조우현 <span class="fs-5">/ Woohyun Cho</span></div>
+                                <div className='mb-4'>조우현 <span className="fs-5">/ Woohyun Cho</span></div>
                                 <div className='fs-6 mb-2'><FontAwesomeIcon icon={faAt}/>　 <a href="mailto:ploris576@kangnam.ac.kr?subject=starting.run에서 보내는 메일입니다." target='_blank'>ploris576@kangnam.ac.kr</a></div>
                                 <div className='fs-6 mb-2'><FontAwesomeIcon icon={faGraduationCap}/>　<a href="https://web.kangnam.ac.kr/" target='_blank'>강남대학교</a> 소프트웨어 / 가상현실 복수전공</div>
                                 <div className='fs-6 mb-5'><FontAwesomeIcon icon={faBriefcase}/>　 <a href="https://www.motioncapture.co.kr/" target='_blank'>모션테크놀로지</a> 인턴</div>
@@ -101,7 +101,7 @@ function Home_3() {
                                 </div>
                             </div>
                             <div className="font-11 text-start fs-3 mb-2 mt-1 w-100 fw-bold text-black">AI로부터 무력해진 세상을 구원하라</div>
-                            <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">유니티의 HDRenderPipeline을 사용하여 졸업작품으로 제작 중인 <span class="highlight">오르빗</span> 게임입니다. 고도화된 인공지능이 보편화된 사회에서 사회적 합의와 정책이 뒤따르지 않은 절망적인 결과를 표방합니다. 인공지능에 대한 경각심을 일깨우는 것이 하나의 목표입니다.</div>
+                            <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">유니티의 HDRenderPipeline을 사용하여 졸업작품으로 제작 중인 <span className="highlight">오르빗</span> 게임입니다. 고도화된 인공지능이 보편화된 사회에서 사회적 합의와 정책이 뒤따르지 않은 절망적인 결과를 표방합니다. 인공지능에 대한 경각심을 일깨우는 것이 하나의 목표입니다.</div>
 
                             <div className="col w-100 mb-4 mt-5"> {/*col-lg-12*/}
                                 <div className="card  card-border-0 p-0 rounded-4">

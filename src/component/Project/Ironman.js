@@ -40,9 +40,9 @@ class Ironman extends Component {
                                         <div className="d-flex align-items-center">
                                             <div className="p-2 proj_text w-100 text-black fw-light">
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
-                                                    <div class="col-lg-4">
-                                                        <div class="sticky-top pc-view-only">
-                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">아이언맨 <span class="btn btn-sm btn-primary-round-outline rounded-4">모델</span></div>
+                                                    <div className="col-lg-4">
+                                                        <div className="sticky-top pc-view-only">
+                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">아이언맨 <span className="btn btn-sm btn-primary-round-outline rounded-4">모델</span></div>
                                                             <a href="https://github.com/starting-run/OpenGL_Ironman" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3 border-0 font-11 rounded-4">
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2021. 05. - 06.</span></div>
@@ -68,7 +68,7 @@ class Ironman extends Component {
                                                             <hr/>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-8 project-view-padding">
+                                                    <div className="col-lg-8 project-view-padding">
                                                         <div className="font-11 fs-2 fw-bold"><b>Cube Map</b></div>
                                                         <img className="mb-2" src={img1} width="402pixel" height="252pixel"></img><br/>
                                                         <p className="mb-4 font-11">큐브맵을 제작하기 위해 기존에 있던 이미지에서 정육각형 모양대로 어색하지 않게 잘라내어 별도 파일로 삽입하였습니다.</p>

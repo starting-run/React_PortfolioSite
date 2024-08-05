@@ -13,14 +13,14 @@ function Home_2() {
     return (
       <div className="mb-2 intro-background">
         <div className="bg bg_type1 text-black shadow-md">
-          <div class="bg-video-prj">
-            <video class="bg-video__content" autoPlay muted loop poster={poster}>
+          <div className="bg-video-prj">
+            <video className="bg-video__content" autoPlay muted loop poster={poster}>
               <source src={video} type="video/mp4" />
           </video>
           </div>
-          <div class="bg_logo">
-            {/* <div class=""><img className='big_logoimg'></img></div> */}
-            <div class="fs-1 text-center fw-light"><span class="fw-bold">가장 잘하고 좋아하는 방식으로</span><br/>모두에게 즐거움을 줍니다</div>
+          <div className="bg_logo">
+            {/* <div className=""><img className='big_logoimg'></img></div> */}
+            <div className="fs-1 text-center fw-light"><span className="fw-bold">가장 잘하고 좋아하는 방식으로</span><br/>모두에게 즐거움을 줍니다</div>
           </div>
         </div>
         <div className="scroll-down-indicator_hor scroll-down-indicator_hor-bottom">
