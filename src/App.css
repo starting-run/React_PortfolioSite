@@ -1180,8 +1180,7 @@
     width: 500px;
   }
 
-    /*---------밑줄넣기 부분---------- 
-      전체화면 햄버거 메뉴때문에 비활성화
+
   ul { list-style:none; cursor:pointer;}
 
   .nav-link { 
@@ -1206,12 +1205,12 @@
   .nav-link > li::after {
     content: '';
     width: 0%;
-    left: 0%; //50%이면 중앙에서 시작
+    left: 0%; /* 50%이면 가운데부터 밑줄 시작 */
     height: 1px;
     display: block;
     position: absolute;
     margin-top: 3px;
-    border-bottom: 2px solid var(--bs-line-cl);
+    border-bottom: 2px solid var(--bs-black);
     transition:all .3s ease;
   }
   .nav-link:hover > li::after {
@@ -1222,7 +1221,7 @@
     display: block;
     position: absolute;
     margin-top: 3px;
-    border-bottom: 2px solid var(--bs-line-cl);
+    border-bottom: 2px solid var(--bs-black);
     transition:all .3s ease;
   }
 
@@ -1234,10 +1233,10 @@
     display: block;
     position: absolute;
     margin-top: 3px;
-    border-bottom: 2px solid var(--bs-line-cl);
+    border-bottom: 2px solid var(--bs-black);
     transition:all .3s ease;
   }
-  */
+
   .hamburger svg {
     height: 1.3em !important;
   }  
@@ -1251,10 +1250,10 @@
 .rot-45deg {
   transform: rotate(45deg);
 }
-
+/*
 .nav-link.active > li {
   color:#EF5B2A;
-}
+}*/
 
 .nav-item {
   margin-top : 4px;
@@ -5912,7 +5911,7 @@ textarea.form-control-lg {
 }
 .nav-link:hover, .nav-link:focus {
   font-weight: var(--bs-nav-link-font-weight-bold);
-  color: #EF5B2A;
+  color: var(--bs-black);
   transition: all 0.5s;
 }
 
