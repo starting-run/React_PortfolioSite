@@ -916,6 +916,15 @@
 
 /* 모바일전용 */
 @media (max-width: 991px) {
+  .nav-link:hover, .nav-link:focus {
+    color: #EF5B2A !important;
+    transition: all 0.5s;
+  }
+  .nav-link.active {
+    color: #EF5B2A !important;
+    transition: all 0.5s;
+  }
+
   #github-icon {
     opacity: 1 !important;
   }
