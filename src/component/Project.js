@@ -224,7 +224,7 @@ function Project() {
                 <div className="row gx-5 justify-content-center">
                     <div className="mb-5">
                         <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
-                            <div className="col">
+                            {/*<div className="col">
                                 <NavLink to="pacman" id="pacman">
                                     <div className="img-fluid">
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
@@ -245,7 +245,7 @@ function Project() {
                                         </div>
                                     </div>
                                 </NavLink>
-                            </div>   
+                            </div>*/}   
                             <div className="col">
                                 <NavLink to="website" id="website">
                                     <div className="img-fluid">
@@ -294,7 +294,7 @@ function Project() {
                     </div>
                 </div>
                 <div className="gx-5 justify-content-center">
-                    <div className="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 cards">
+                    <div className="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 cards">
                         <div className="col">
                             <a href={prop1pdf}>
                                 <div className="img-fluid">
