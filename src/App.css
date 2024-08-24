@@ -17,6 +17,7 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Orbit&display=swap');
 @import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 :root {
   --bs-blue: #1e30f3;
   --bs-indigo: #6610f2;
@@ -89,6 +90,7 @@
   --bs-link-hover-color: #EF5B2A;
   --bs-code-color: #e21e80;
   --bs-highlight-bg: #fff3cd;
+  --font-1 : "Bungee", sans-serif;
   --font-4 : "Orbit", sans-serif;
   --font-7 : 'Gothic A1', sans-serif;
   --font-11 : "NanumSquareNeo", sans-serif;
@@ -1833,7 +1835,9 @@ universe 공통 영역
 universe 공통 영역 끝
 *****************/
 
-
+.font-1 {
+  font-family: var(--font-1);
+}
 
 .font-4 {
   font-family: var(--font-4);

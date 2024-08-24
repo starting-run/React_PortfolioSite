@@ -116,12 +116,13 @@ function Project() {
             <section className="bg-white-gray">
             <div className="container-xxl px-4 pt-6 min-vh-100">
             {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>*/}
-                <div className="row align-items-center justify-content-between">
-                    <div className="col-auto fs-1 font-11 fw-bold2 font-letter-space-sm text-black mb-5">프로젝트
-                        <a href="https://github.com/stars/starting-run/lists/project" target='_blank'>
+                <div className="row align-items-center justify-content-between pt-5">
+                    <div className="col-auto fs-0-7 font-4 fw-bold2 font-letter-space-lg text-black text-uppercase">PROJECT
+                    <div className="mb-5 fs-1 font-11 fw-light font-letter-space-sm text-black text-uppercase">프로젝트</div>
+                        {/*<a href="https://github.com/stars/starting-run/lists/project" target='_blank'>
                             <span className="prj-sub fs-6 fw-normal font-11 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> 깃허브에서 모아보기 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
                             </span>
-                        </a>
+                        </a>*/}
                     </div>
                     <div className="col-auto InputContainer mb-5">
                             <input type="text" name="text" className="input" id="search" placeholder="프로젝트 검색" autoFocus></input>
