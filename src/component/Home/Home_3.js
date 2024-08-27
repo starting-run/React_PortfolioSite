@@ -68,9 +68,10 @@ function Home_3() {
                         </div>
                             <div className="col w-100 mb-4"> {/*col-lg-12*/}
                                 <div className="card  card-border-0 p-0 rounded-4">
-                                    <video className="card-image-sec1" autoPlay muted loop>
-                                        <source src={project5} type="video/mp4" />
-                                    </video>
+                                    <div className="card-image-sec0">
+                                        <iframe src="https://www.youtube.com/embed/MR-p7XxmcoI?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    </div>
+                                    
                                     {/*
                                     <div className="text-only-white fs-0 lh-sm font-11 pt-6 ps-3">
                                         <div className="font-letter-space fw-bold2 pt-5 ps-5 pe-4">
