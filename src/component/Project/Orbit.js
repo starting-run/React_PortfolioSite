@@ -23,7 +23,7 @@ import { motion } from 'framer-motion';
 
 
 function Orbit() {
-    const updatedate = "2024. 08. 05." //최종 업데이트 일자
+    const updatedate = "2024. 08. 27." //최종 업데이트 일자
     const notify = () => toast.error('제작 진행중인 프로젝트입니다!', {duration: 4000});
     const notify2 = () => toast('완성도를 높이기 위해 유료 에셋이 포함되어 있습니다. 리포지토리를 열람하고 싶으시다면 별도의 연락을 부탁드립니다.', {duration: 6000});
     const notify3 = () => toast.error('제작이 완료된 후 빌드 파일을 제공할 예정입니다.', {duration: 4000});
@@ -75,32 +75,30 @@ function Orbit() {
                                                                 </span>
                                                             </div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
-                                                            <div className="mb-4 px-2 font-11">졸업 작품을 제작하기 위한 캡스톤디자인을 통해 제작 중인 프로젝트입니다. Unity Engine의 HDRP를 사용하고 있으며, 천천히 완성도 있는 게임을 만들기 위해 노력하고 있습니다.</div>
+                                                            <div className="mb-4 px-2 font-11">졸업 작품을 제작하기 위한 캡스톤디자인을 통해 제작 중인 프로젝트입니다. Unity6 의 HDRP를 사용하고 있으며, 천천히 완성도 있는 게임을 만들기 위해 노력하고 있습니다.</div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                             <div className="mb-4 px-2 font-11"></div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                             <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
-                                                                # Unity 2022.3.39f1 LTS<br/>
+                                                                # Unity 6000.0.16f1<br/>
                                                                 Unity_Orbit.sln
                                                             </div>
                                                             <hr/>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8 project-view-padding">
-                                                        <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
-                                                        <img className="mb-5" src={img1} style={{width: '300px'}}></img>
-                                                        <p className="mb-5 font-11">인간은 AI에게 지배당해 AI가 설계한 궤도를 돌 수 밖에 없음을 의미합니다.</p>
                                                         <div className="font-11 fs-2 fw-bold"><b>Story</b></div>
                                                         <p className="mb-5 font-11">특이점이 온 지구를 배경으로 합니다. 현 지구는 AI(인공지능)의 실효지배를 받고 있으며, 인간은 허용된 행위(놀기, 먹기 등)를 제외한 지식을 쌓는 일체의 행위를 할 수 없습니다. 지식을 갖고 깨어있는 인간은 AI의 적으로 간주됩니다.
                                                             <br/>게임 내 여러 구역이 존재하며, 각 구역별로 AI를 움직일 수 있게 하는 원동력인 <span className="highlight">아레테</span>가 존재합니다. 작 중 주인공은 이 <span className="highlight">아레테</span>를 파괴하여 AI를 막는 역할을 합니다.
                                                             주인공은 깨어있는 지식인을 표방하는 자들의 모인 그룹인 <span className="highlight">이리스</span>에서 행동대원 역할을 하며, 그룹의 조력자는 주인공에게 쿨타임마다 도움을 줄 수 있는 스킬을 제공합니다.</p>
                                                         <div className="font-11 fs-2 fw-bold"><b>Developing</b></div>
                                                         <div className="font-11 fs-6 fw-bold mb-3">최종 업데이트 : {updatedate}</div>
-                                                        <video src={video} controls controlsList="nodownload"></video><br/><br/>
-                                                        <img className="mb-2 shadow-lg" src={img2}></img>
+                                                        <iframe width="100%" height="700px" src="https://www.youtube.com/embed/MR-p7XxmcoI?si=J9gNrDJYsE33MsNN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br/><br/>
+                                                        {/*<img className="mb-2 shadow-lg" src={img2}></img>
                                                         <p className="mb-5 font-11">- 메인 로고 화면</p>
                                                         <img className="mb-2 shadow-lg" src={img3}></img>
-                                                        <p className="mb-5 font-11">- 게임 모드 선택 화면</p>
+                                                        <p className="mb-5 font-11">- 게임 모드 선택 화면</p>*/}
+                                                        
                                                         
                                                     </div>
                                                 </div>
