@@ -24,7 +24,7 @@ return (
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style={{fill: "rgba(0, 0, 0, 1)"}}><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
         </a>
       </div>
-      <div id="normalfooter" className="bg-only-white-gray py-4 mt-auto">
+      <div id="normalfooter" className="py-4 mt-auto bg-white-gray">
       <hr className="text-black pb-5"/>
         <div className="container-xxl px-4 text-black font-11">
             <div className="text-start mb-5 fs-6">
