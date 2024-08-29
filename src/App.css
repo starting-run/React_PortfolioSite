@@ -1204,57 +1204,41 @@
   ul { list-style:none; cursor:pointer;}
 
   .nav-link { 
-    float:right; 
-    transition:all .3s ease;
-    margin-left:45px;
-    
+    float: right; 
+    transition: all .3s ease;
+    margin-left: 45px;
   }
-  .nav-link:hover { color:var(--bs-white); transition:all .3s ease }
+  
+  .nav-link:hover { 
+    color: var(--bs-white); 
+    transition: all .3s ease;
+  }
+  
   .nav-link > li { 
-    position:relative;
+    position: relative;
   }
-/*
-  li {
-    top:5px;
-  }
-*/
+  
   .po-li {
     position: relative;
   }
-
+  
   .nav-link > li::after {
     content: '';
-    width: 0%;
-    left: 0%; /* 50%이면 가운데부터 밑줄 시작 */
-    height: 1px;
+    width: 0;
+    height: 2px;
     display: block;
     position: absolute;
-    margin-top: 3px;
-    border-bottom: 2px solid var(--bs-black);
-    transition:all .3s ease;
+    right: 0; /* 오른쪽에서 시작 */
+    bottom: -3px; /* li 요소 아래에 위치 */
+    background-color: var(--bs-black);
+    transition: width 0.3s ease;
   }
-  .nav-link:hover > li::after {
-    content: '';
+  
+  .nav-link:hover > li::after,
+  .nav-link.active > li::after {
     width: 100%;
-    left: 0px;
-    height: 1px;
-    display: block;
-    position: absolute;
-    margin-top: 3px;
-    border-bottom: 2px solid var(--bs-black);
-    transition:all .3s ease;
-  }
-
-  .nav-link.active > li::after  {
-    content: '';
-    width: 100%;
-    left: 0px;
-    height: 1px;
-    display: block;
-    position: absolute;
-    margin-top: 3px;
-    border-bottom: 2px solid var(--bs-black);
-    transition:all .3s ease;
+    left: 0;
+    right: auto;
   }
 
   .hamburger svg {
@@ -1944,6 +1928,11 @@ hr {
   opacity: 0.25;
 }
 
+.hr-w2 {
+  border-top: 1.5px solid;
+  opacity: 1;
+}
+
 .v-line{
   border-left: 1px solid var(--bs-black);
   height:100px;
@@ -2552,10 +2541,10 @@ progress {
 
 
 .card-image-main {
-  position: absolute;
+
   z-index: 0;
   width: 100%;
-  height: 100%;
+  height: 280px;
   filter: opacity(50%);
   -webkit-filter: opacity(50%);  /*For Safari */
   object-fit: cover;
@@ -2617,10 +2606,7 @@ progress {
     transform: scale(1.15, 1.15);
     transition-duration: 0.3s;
   }
-  .card {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35) !important;
-  transition-duration: 0.3s;
-  }
+
   cursor: pointer;
 
   .only-hover-view {
@@ -6719,13 +6705,13 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: var(--bs-card-bg);
+  background-color: var(--bs-white-gray-rgb);
   color: var(--bs-black);
   transition: all 0.3s;
+  position: relative;
 }
 
 .card-cover-main:hover {
-  background-color: var(--bs-black);
   transition: all 0.3s;
 }
 
@@ -6734,11 +6720,27 @@ textarea.form-control-lg {
   -webkit-filter: opacity(30%);  /*For Safari */
 }
 
+.project-title {
+  position: relative;
+  display: inline-block;
+}
 
+.project-title::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: -10px;
+  left: 0;
+  background-color: var(--bs-black); /* 밑줄 색상 */
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
 
-.card-cover-main:hover span{
-  color:var(--bs-white);
-  transition: all 0.3s;
+.card-cover-main:hover .project-title::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .card-cover-profile {
@@ -11315,12 +11317,6 @@ video {
 .bg-black {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
-}
-
-.bg-real-black {
-  --bs-bg-opacity: 1;
-  background-color: var(--bs-real-black) !important;
-  transition: all 0.3s;
 }
 
 .bg-white {

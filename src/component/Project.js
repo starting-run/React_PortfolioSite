@@ -113,7 +113,7 @@ function Project() {
         transition={{ duration: 0.2 }}
       >
             <Helmet><title>프로젝트 - STARTING</title></Helmet>
-            <section className="bg-real-black">
+            <section className="bg-white-gray">
             <div className="container-xxl px-4 pt-6 min-vh-100">
             {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>*/}
                 <div className="row align-items-center justify-content-between pt-5">
@@ -145,202 +145,203 @@ function Project() {
                         <div className="text-black font-11 fs-5 text-center mb-5"><span className="highlight">검색 결과가 없습니다!</span> 다시 검색해주세요.<br/><br/>검색은 한글과 영어를 모두 지원합니다.<br/>ex) UnrealEngine → 언리얼, 언리얼엔진</div>
                     </div>
                 </div>
-                <div className="row gx-5 justify-content-center">
+            <div className='container-md'>    
+                <div className="row gx-5 justify-content-center ">
                     <div className="mb-5">
-                        <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
+                        <div className="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 cards">
                             <div className="col">
                                 <NavLink to="orbit" id="orbit">
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <video className="card-image-main video-filter" autoPlay muted loop>
-                                                <source src={project6} type="video/mp4" />
-                                            </video>
-                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">오르빗 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">게임</span><span className="btn btn-sm btn-primary-round-outline rounded-4">유니티</span><div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity</div></span>
-                                                <ul className="list-unstyled mt-auto small2">
-                                                    <li className="d-flex align-items-center me-3 mb-5">
-                                                        <span className="">2024. 03. - 개발 중</span>
-                                                    </li>
-                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
-                                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                                        </span>
-                                                    </li>
-                                                </ul>
+                                            <div className="row row-cols-1">
+                                                <div className='col-7 p-4'>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">오르빗 <div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity</div></div>
+                                                    <div className='mx-3'><span className="text-black">게임</span><span className='mx-3'>|</span><span className="text-black">유니티</span></div>
+                                                    <ul className="list-unstyled mt-auto small2">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                            <span className="">2024. 03. - 개발 중</span>
+                                                        </li>
+                                                        <li className="d-flex align-items-center mt-5 city">
+                                                            <span className="text-end fs-4 card-in-arrow-left">
+                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className='col-5'>
+                                                    <div className='card rounded-4'>
+                                                        <video className="card-image-main video-filter" autoPlay muted loop>
+                                                        <source src={project6} type="video/mp4" />
+                                                        </video>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </NavLink>
                             </div>
+                            <hr className='text-black hr-w2'/>
                             <div className="col">
                                 <NavLink to="lethaldeliveryvr" id="lethaldeliveryvr">
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                        <img className="card-image-main" src ={project5}></img>
-                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">리썰딜리버리 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">VR게임</span><span className="btn btn-sm btn-primary-round-outline rounded-4">유니티</span><div className="kor-hidden">LethalDeliveryvr, 유니티, 씨샵, C#, Unity</div></span>
-                                                <ul className="list-unstyled mt-auto small2">
-                                                    <li className="d-flex align-items-center me-3 mb-5">
-                                                        <span className="">2024. 04. 15. - 06. 10.</span>
-                                                    </li>
-                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
-                                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                                        </span>
-                                                    </li>
-                                                </ul>
+                                            <div className="row row-cols-1">
+                                                <div className='col-7 p-4'>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">리썰딜리버리 <div className="kor-hidden">LethalDelivery Game, 유니티, 씨샵, C#, Unity</div></div>
+                                                    <div className='mx-3'><span className="text-black">VR게임</span><span className='mx-3'>|</span><span className="text-black">유니티</span></div>
+                                                    <ul className="list-unstyled mt-auto small2">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                            <span className="">2024. 04. 15. - 06. 10.</span>
+                                                        </li>
+                                                        <li className="d-flex align-items-center mt-5 city">
+                                                            <span className="text-end fs-4 card-in-arrow-left">
+                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className='col-5'>
+                                                    <div className='card rounded-4'>
+                                                        <img className="card-image-main" src ={project5}></img>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </NavLink>
                             </div>
+                            <hr className='text-black hr-w2'/>
                             <div className="col">
                                 <NavLink to="mazeforest" id="mazeforest">
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                        <video className="card-image-main video-filter" autoPlay muted loop>
-                                                <source src={project7} type="video/mp4" />
-                                            </video>
-                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11 no_enter">미로의 숲 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">게임</span><span className="btn btn-sm btn-primary-round-outline rounded-4">유니티</span><div className="kor-hidden">maze forest, 유니티, 씨샵, C#, Unity</div></span>
-                                                <ul className="list-unstyled mt-auto small2">
-                                                    <li className="d-flex align-items-center me-3 mb-5">
-                                                        <span className="">2024. 06. 05. - 06. 11.</span>
-                                                    </li>
-                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
-                                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                                        </span>
-                                                    </li>
-                                                </ul>
+                                            <div className="row row-cols-1">
+                                                <div className='col-7 p-4'>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">미로의 숲 <div className="kor-hidden">maze forest game, 유니티, 씨샵, C#, Unity</div></div>
+                                                    <div className='mx-3'><span className="text-black">게임</span><span className='mx-3'>|</span><span className="text-black">유니티</span></div>
+                                                    <ul className="list-unstyled mt-auto small2">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                            <span className="">2024. 06. 05. - 06. 11.</span>
+                                                        </li>
+                                                        <li className="d-flex align-items-center mt-5 city">
+                                                            <span className="text-end fs-4 card-in-arrow-left">
+                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className='col-5'>
+                                                    <div className='card rounded-4'>
+                                                        <video className="card-image-main video-filter" autoPlay muted loop>
+                                                            <source src={project7} type="video/mp4" />
+                                                        </video>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </NavLink>
                             </div>
+                            <hr className='text-black hr-w2'/>
+                            <div className="col">
+                                <NavLink to="website" id="website">
+                                    <div className="img-fluid"> 
+                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                                            <div className="row row-cols-1">
+                                                <div className='col-7 p-4'>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">포트폴리오 사이트 <div className="kor-hidden">portfolio website, 리액트, HTML, CSS</div></div>
+                                                    <div className='mx-3'><span className="text-black">웹사이트</span><span className='mx-3'>|</span><span className="text-black">리액트</span></div>
+                                                    <ul className="list-unstyled mt-auto small2">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                            <span className="">2023. 10. - 2024. 02. *지속 업데이트</span>
+                                                        </li>
+                                                        <li className="d-flex align-items-center mt-5 city">
+                                                            <span className="text-end fs-4 card-in-arrow-left">
+                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className='col-5'>
+                                                    <div className='card rounded-4'>
+                                                        <img className="card-image-main" src ={project4}></img>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </NavLink>
+                            </div>
+                            <hr className='text-black hr-w2'/>
                         </div>
                     </div>
                 </div>
 
                 <div className="row gx-5 justify-content-center">
                     <div className="mb-5">
-                        <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
-                            {/*<div className="col">
-                                <NavLink to="pacman" id="pacman">
-                                    <div className="img-fluid">
-                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <img className="card-image-main" src ={project3}></img>
-                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">게임</span><span className="btn btn-sm btn-primary-round-outline rounded-4">프로세싱</span><div className="kor-hidden">pacman game, 프로세싱, 자바, 씨, C</div></span>
-                                                <ul className="list-unstyled mt-auto small2">
-                                                    <li className="d-flex align-items-center me-3 mb-4">
-                                                        <span className="">2023. 10.</span>
-                                                    </li>
-                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
-                                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </NavLink>
-                            </div>*/}   
+                        <div className="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 cards">
                             <div className="col">
-                                <NavLink to="website" id="website">
-                                    <div className="img-fluid">
+                                <a href={prop1pdf}>
+                                    <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <img className="card-image-main" src ={project4}></img>
-                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">포트폴리오 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">웹사이트</span><span className="btn btn-sm btn-primary-round-outline rounded-4">리액트</span><div className="kor-hidden">portfolio website, 리액트, HTML, CSS</div></span>
-                                                <ul className="list-unstyled mt-auto small2">
-                                                    <li className="d-flex align-items-center me-3 mb-5">
-                                                        <span className="">2023. 10. - 2024. 02.</span>
-                                                    </li>
-                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
-                                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                                        </span>
-                                                    </li>
-                                                </ul>
+                                            <div className="row row-cols-1">
+                                                <div className='col-7 p-4'>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">포커스 온 유 <div className="kor-hidden">포커스온유, smilegate</div></div>
+                                                    <div className='mx-3'><span className="text-black">Smilegate&reg;</span></div>
+                                                    <div className='mx-3'><span className="text-black">역기획서</span></div>
+                                                    <ul className="list-unstyled mt-auto small2">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                            <span className="">2024. 04. 09.</span>
+                                                        </li>
+                                                        <li className="d-flex align-items-center mt-5 city">
+                                                            <span className="text-end fs-4 card-in-arrow-left">
+                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className='col-5'>
+                                                    <div className='card rounded-4'>
+                                                        <img className="card-image-main" src ={prop1}></img>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </NavLink>
-                            </div>                    
+                                </a>
+                            </div>
                             <div className="col">
-                                <NavLink to="ironman" id="ironman">
-                                    <div className="img-fluid">
+                                <a href={prop2pdf}>
+                                    <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <img className="card-image-main" src ={project2}></img>
-                                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 <span className="btn btn-sm btn-primary-round-outline me-1 rounded-4">모델</span><span className="btn btn-sm btn-primary-round-outline rounded-4">OpenGL</span><div className="kor-hidden">ironman model, 오픈지엘, OpenGL, C, 씨</div></span>
-                                                <ul className="list-unstyled mt-auto small2">
-                                                    <li className="d-flex align-items-center me-3 mb-4">
-                                                        <span className="">2021. 06.</span>
-                                                    </li>
-                                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                                        <span className="text-end fs-4 card-in-arrow only-hover-view">
-                                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                                        </span>
-                                                    </li>
-                                                </ul>
+                                            <div className="row row-cols-1">
+                                                <div className='col-7 p-4'>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">리썰 딜리버리 <div className="kor-hidden">리썰딜리버리, 기획서</div></div>
+                                                    <div className='mx-3'><span className="text-black">기획서</span></div>
+                                                    <ul className="list-unstyled mt-auto small2">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                            <span className="">2024. 06. 10.</span>
+                                                        </li>
+                                                        <li className="d-flex align-items-center mt-5 city">
+                                                            <span className="text-end fs-4 card-in-arrow-left">
+                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className='col-5'>
+                                                    <div className='card rounded-4'>
+                                                        <img className="card-image-main" src ={project5}></img>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </NavLink>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="gx-5 justify-content-center">
-                    <div className="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 cards">
-                        <div className="col">
-                            <a href={prop1pdf}>
-                                <div className="img-fluid">
-                                    <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                        <img className="card-image-main" src ={prop1}></img>
-                                        <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
-                                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11">Smilegate&reg; FOCUS ON YOU <span className="btn btn-sm btn-primary-round-outline rounded-4">역기획서</span><div className="kor-hidden">포커스온유, smilegate</div></span>
-                                            <ul className="list-unstyled mt-auto small2">
-                                                <li className="d-flex align-items-center me-3">
-                                                    <span className="">2024. 04. 09.</span>
-                                                </li>
-                                                <li className="d-flex align-items-center">
-                                                    <span className="text-end fs-4 card-in-arrow">
-                                                        <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
-                                                    </span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div className="col">
-                            <a href={prop2pdf}>
-                                <div className="img-fluid">
-                                    <div className="card card-cover-main h-100 overflow-hidden text-black card-border-0 rounded-4">
-                                        <img className="card-image-main" src ={project5}></img>
-                                        <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-2">
-                                            <span className="country mb-2 fs-2 lh-1 fw-bold font-11">LethalDelivery VR <span className="btn btn-sm btn-primary-round-outline rounded-4">기획서</span><div className="kor-hidden">리썰딜리버리</div></span>
-                                            <ul className="list-unstyled mt-auto small2">
-                                                <li className="d-flex align-items-center me-3">
-                                                    <span className="">2024. 06. 10.</span>
-                                                </li>
-                                                <li className="d-flex align-items-center">
-                                                    <span className="text-end fs-4 card-in-arrow">
-                                                        <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
-                                                    </span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
             </div>
 
             </div>
