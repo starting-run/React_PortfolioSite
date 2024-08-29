@@ -170,7 +170,7 @@ function Project() {
                                                 </div>
                                                 <div className='col-lg-5 order-lg-2 order-1'>
                                                     <div className='card card-border-0 rounded-4'>
-                                                        <video className="card-image-main video-filter" autoPlay muted loop>
+                                                        <video className="card-image-main" autoPlay muted loop>
                                                         <source src={project6} type="video/mp4" />
                                                         </video>
                                                     </div>
@@ -232,7 +232,7 @@ function Project() {
                                                 </div>
                                                 <div className='col-lg-5 order-lg-2 order-1'>
                                                     <div className='card card-border-0 rounded-4'>
-                                                        <video className="card-image-main video-filter" autoPlay muted loop>
+                                                        <video className="card-image-main" autoPlay muted loop>
                                                             <source src={project7} type="video/mp4" />
                                                         </video>
                                                     </div>
