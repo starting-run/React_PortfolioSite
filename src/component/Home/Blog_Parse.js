@@ -90,7 +90,7 @@ function Blog_Parse() {
 
                 return (
                   <div className='img-fluid'>
-                    <div className="card card-cover-main card-border-0 rounded-4 p-4 pb-2">
+                    <div className="card card-cover card-border-0 rounded-4 p-4 pb-2">
                       <a href={post.link} target="_blank" rel="noopener noreferrer" className='text-black'>
                         <li key={index} className='col text-start mb-3'>
                           {post.imageUrl && <img src={post.imageUrl} alt="Post thumbnail" className='mb-3' style={{height: '225px', width: '100%'}}/>}

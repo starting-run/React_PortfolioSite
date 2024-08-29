@@ -38,7 +38,7 @@ function Home_3() {
         <div className="s-intro pt-3" id='mainS'>
             <div className="s-intro__content row text-black"> 
                 <div className="justify-content-center font-11">
-                    <div className="container-xxl px-4 mt-5-main">
+                    <div className="container-md px-4 mt-5-main">
                         {/* 메인 카드 섹션 */}
                         <div className="row row-cols-lg-2 row-cols-1">
                         <div className="col col-lg-12 text-black">

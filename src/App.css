@@ -11378,7 +11378,7 @@ video {
 
 .bg-video-prj {
   position: absolute; /* 스크롤시 고정은 absolute */
-  opacity: 0.5; /* 원본값 0.15 */
+  opacity: 0.2; /* 원본값 0.15 */
   align-items: center;
   object-fit: cover;
   width: 100%;
