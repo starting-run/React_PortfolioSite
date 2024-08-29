@@ -169,7 +169,7 @@ function Project() {
                                                     </ul>
                                                 </div>
                                                 <div className='col-5'>
-                                                    <div className='card rounded-4'>
+                                                    <div className='card card-border-0 rounded-4'>
                                                         <video className="card-image-main video-filter" autoPlay muted loop>
                                                         <source src={project6} type="video/mp4" />
                                                         </video>
@@ -201,7 +201,7 @@ function Project() {
                                                     </ul>
                                                 </div>
                                                 <div className='col-5'>
-                                                    <div className='card rounded-4'>
+                                                    <div className='card card-border-0 rounded-4'>
                                                         <img className="card-image-main" src ={project5}></img>
                                                     </div>
                                                 </div>
@@ -231,7 +231,7 @@ function Project() {
                                                     </ul>
                                                 </div>
                                                 <div className='col-5'>
-                                                    <div className='card rounded-4'>
+                                                    <div className='card card-border-0 rounded-4'>
                                                         <video className="card-image-main video-filter" autoPlay muted loop>
                                                             <source src={project7} type="video/mp4" />
                                                         </video>
@@ -263,7 +263,7 @@ function Project() {
                                                     </ul>
                                                 </div>
                                                 <div className='col-5'>
-                                                    <div className='card rounded-4'>
+                                                    <div className='card card-border-0 rounded-4'>
                                                         <img className="card-image-main" src ={project4}></img>
                                                     </div>
                                                 </div>
@@ -301,7 +301,7 @@ function Project() {
                                                     </ul>
                                                 </div>
                                                 <div className='col-5'>
-                                                    <div className='card rounded-4'>
+                                                    <div className='card card-border-0 rounded-4'>
                                                         <img className="card-image-main" src ={prop1}></img>
                                                     </div>
                                                 </div>
@@ -330,7 +330,7 @@ function Project() {
                                                     </ul>
                                                 </div>
                                                 <div className='col-5'>
-                                                    <div className='card rounded-4'>
+                                                    <div className='card card-border-0 rounded-4'>
                                                         <img className="card-image-main" src ={project5}></img>
                                                     </div>
                                                 </div>
