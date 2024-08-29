@@ -153,8 +153,8 @@ function Project() {
                                 <NavLink to="orbit" id="orbit">
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <div className="row row-cols-1">
-                                                <div className='col-7 p-4'>
+                                            <div className="row row-cols-lg-1">
+                                                <div className='col-lg-7 p-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">오르빗 <div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity</div></div>
                                                     <div className='mx-3'><span className="text-black">게임</span><span className='mx-3'>|</span><span className="text-black">유니티</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
@@ -168,7 +168,7 @@ function Project() {
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div className='col-5'>
+                                                <div className='col-lg-5 order-lg-2 order-1'>
                                                     <div className='card card-border-0 rounded-4'>
                                                         <video className="card-image-main video-filter" autoPlay muted loop>
                                                         <source src={project6} type="video/mp4" />
@@ -186,7 +186,7 @@ function Project() {
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
-                                                <div className='col-7 p-4'>
+                                                <div className='col-lg-7 p-4 order-lg-1 order-2 p-4'>
                                                     <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">리썰딜리버리 <div className="kor-hidden">LethalDelivery Game, 유니티, 씨샵, C#, Unity</div></div>
                                                     <div className='mx-3'><span className="text-black">VR게임</span><span className='mx-3'>|</span><span className="text-black">유니티</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
@@ -200,7 +200,7 @@ function Project() {
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div className='col-5'>
+                                                <div className='col-lg-5 order-lg-2 order-1'>
                                                     <div className='card card-border-0 rounded-4'>
                                                         <img className="card-image-main" src ={project5}></img>
                                                     </div>
@@ -216,7 +216,7 @@ function Project() {
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
-                                                <div className='col-7 p-4'>
+                                                <div className='col-lg-7 p-4 order-lg-1 order-2 p-4'>
                                                     <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">미로의 숲 <div className="kor-hidden">maze forest game, 유니티, 씨샵, C#, Unity</div></div>
                                                     <div className='mx-3'><span className="text-black">게임</span><span className='mx-3'>|</span><span className="text-black">유니티</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
@@ -230,7 +230,7 @@ function Project() {
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div className='col-5'>
+                                                <div className='col-lg-5 order-lg-2 order-1'>
                                                     <div className='card card-border-0 rounded-4'>
                                                         <video className="card-image-main video-filter" autoPlay muted loop>
                                                             <source src={project7} type="video/mp4" />
@@ -248,7 +248,7 @@ function Project() {
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
-                                                <div className='col-7 p-4'>
+                                                <div className='col-lg-7 p-4 order-lg-1 order-2 p-4'>
                                                     <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">포트폴리오 사이트 <div className="kor-hidden">portfolio website, 리액트, HTML, CSS</div></div>
                                                     <div className='mx-3'><span className="text-black">웹사이트</span><span className='mx-3'>|</span><span className="text-black">리액트</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
@@ -262,7 +262,7 @@ function Project() {
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div className='col-5'>
+                                                <div className='col-lg-5 order-lg-2 order-1'>
                                                     <div className='card card-border-0 rounded-4'>
                                                         <img className="card-image-main" src ={project4}></img>
                                                     </div>
@@ -284,8 +284,8 @@ function Project() {
                                 <a href={prop1pdf}>
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                                            <div className="row row-cols-1">
-                                                <div className='col-7 p-4'>
+                                            <div className="row row-cols-md-2 row-cols-1">
+                                                <div className='col-lg-7 p-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">포커스 온 유 <div className="kor-hidden">포커스온유, smilegate</div></div>
                                                     <div className='mx-3'><span className="text-black">Smilegate&reg;</span></div>
                                                     <div className='mx-3'><span className="text-black">역기획서</span></div>
@@ -300,7 +300,7 @@ function Project() {
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div className='col-5'>
+                                                <div className='col-lg-5 order-lg-2 order-1'>
                                                     <div className='card card-border-0 rounded-4'>
                                                         <img className="card-image-main" src ={prop1}></img>
                                                     </div>
@@ -315,7 +315,7 @@ function Project() {
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
-                                                <div className='col-7 p-4'>
+                                                <div className='col-lg-7 p-4 order-lg-1 order-2 p-4'>
                                                     <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">리썰 딜리버리 <div className="kor-hidden">리썰딜리버리, 기획서</div></div>
                                                     <div className='mx-3'><span className="text-black">기획서</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
@@ -329,7 +329,7 @@ function Project() {
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div className='col-5'>
+                                                <div className='col-lg-5 order-lg-2 order-1'>
                                                     <div className='card card-border-0 rounded-4'>
                                                         <img className="card-image-main" src ={project5}></img>
                                                     </div>
