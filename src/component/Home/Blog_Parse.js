@@ -81,31 +81,63 @@ function Blog_Parse() {
               <span className="text-center">글 목록을 불러오는 중입니다.<br/>잠시만 기다려주세요.</span>
               </div>
           ) : (
-          <ul>
-            <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 cards">
+            <div className="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 cards">
               {posts.map((post, index) => {
                 const formattedDate = format(new Date(post.pubDate), 'yyyy. MM. dd.');
-                const truncatedTitle = truncateText(post.title, 25);
-                const truncatedDescription = truncateText(post.description, 80);
+                const truncatedTitle = truncateText(post.title, 20);
+                const truncatedDescription = truncateText(post.description, 100);
 
                 return (
-                  <div className='img-fluid'>
-                    <div className="card card-cover card-border-0 rounded-4 p-4 pb-2">
-                      <a href={post.link} target="_blank" rel="noopener noreferrer" className='text-black'>
-                        <li key={index} className='col text-start mb-3'>
-                          {post.imageUrl && <img src={post.imageUrl} alt="Post thumbnail" className='mb-3' style={{height: '225px', width: '100%'}}/>}
-                              <span className="font-11 fs-4 mb-1 fw-bold">{truncatedTitle}</span>
-                            <div className='mb-4'><span className="mb-4 font-11 fs-8">{formattedDate}</span></div>
-                            <div><span className="font-11 fs-6">{truncatedDescription}</span></div>
-                        </li>
+                  <div>
+                    <div className="col">
+                      <a href={post.link}>
+                          <div key={index} className="img-fluid"> 
+                              <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                                  <div className="row row-cols-lg-1">
+                                      <div className='col-lg-7 py-4 order-lg-1 order-2'>
+                                          <div className="country mb-3 fs-2 lh-1 fw-bold font-11 mx-3 project-title text-black">{truncatedTitle}</div>
+                                          <div className='mx-3 fs-6'><span className="text-black">{truncatedDescription}</span></div>
+                                          <ul className="list-unstyled mt-auto small2">
+                                              <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                  <span className="fs-7">{formattedDate}</span>
+                                              </li>
+                                              <li className="d-flex align-items-center mt-5 city">
+                                                  <span className="text-end fs-4 card-in-arrow-left">
+                                                      <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                  </span>
+                                              </li>
+                                          </ul>
+                                      </div>
+                                      <div className='col-lg-5 order-lg-2 order-1'>
+                                          <div className='card card-border-0 rounded-4 mb-3'>
+                                          {post.imageUrl && <img className="card-image-main" src ={post.imageUrl} alt="Post thumbnail" ></img>}
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
                       </a>
-                    </div>
                   </div>
+                  {index !== posts.length - 1 && <hr className='text-black hr-w2' />}
+                </div>
+                 
+                //  <div className='img-fluid'>
+                //   <div className="card card-cover card-border-0 rounded-4 p-4 pb-2">
+                //     <a href={post.link} target="_blank" rel="noopener noreferrer" className='text-black'>
+                //       <li key={index} className='col text-start mb-3'>
+                //         {post.imageUrl && <img src={post.imageUrl} alt="Post thumbnail" className='mb-3' style={{height: '225px', width: '100%'}}/>}
+                //             <span className="font-11 fs-4 mb-1 fw-bold">{truncatedTitle}</span>
+                //           <div className='mb-4'><span className="mb-4 font-11 fs-8">{formattedDate}</span></div>
+                //           <div><span className="font-11 fs-6">{truncatedDescription}</span></div>
+                //       </li>
+                //     </a>
+                //   </div>
+                // </div>
+
                 );
             })}
             </div>
-            
-          </ul>
+
           )}
       </div>
     </div>

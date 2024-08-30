@@ -52,7 +52,9 @@ function Blog() {
                                     <div className="fw-bold2 highlight">Developer Portfolio</div>
                                 </div>
                             </div>*/}
-                            <Blog_Parse/>
+                            <div className='container-md'>
+                                <Blog_Parse/>
+                            </div>
                         </div>
                     </div>
                 </div>
