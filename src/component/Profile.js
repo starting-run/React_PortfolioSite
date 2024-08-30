@@ -225,7 +225,7 @@ function Profile() {
                                     <div className="col">
                                         <div className="overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">링크</div>
-                                            <hr className="text-black"/>
+                                            <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-1 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col">
                                                     <a href="https://github.com/starting-run" target='_blank'>
