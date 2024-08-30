@@ -53,7 +53,7 @@ function Link() {
                                     <div className="col">
                                         <div className="overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">연락처</div>
-                                            <hr className="text-black"/>
+                                            <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-1 row-cols-xxl-1 p-2 rounded-4 mx-2">
                                                 <div className="col">
                                                     <a onClick={copyText} target='_blank'>
@@ -93,7 +93,7 @@ function Link() {
                                         </div>
                                         <div className="overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">링크</div>
-                                            <hr className="text-black"/>
+                                            <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-1 row-cols-xxl-1 p-2 rounded-4 mx-2">
                                                 <div className="col">
                                                     <a href="https://github.com/starting-run" target='_blank'>
