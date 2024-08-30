@@ -2532,6 +2532,11 @@ progress {
   cursor: not-allowed !important;
 }
 
+.logo-box {
+  width: 25px;
+  height: 25px;
+}
+
 .card-image {
   position: absolute;
   z-index: 0;
@@ -2543,7 +2548,6 @@ progress {
   mix-blend-mode: luminosity;
   transition-duration: 0.3s;
 }
-
 
 .card-image-main {
 

@@ -17,8 +17,6 @@ import 'swiper/swiper.min.css'
 import 'swiper/components/navigation/navigation.min.css'
 import 'swiper/components/pagination/pagination.min.css'
 
-import project2 from '../../images/ironman.jpg';
-import project3 from '../../images/pacman.jpg';
 import project4 from '../../images/portfolio.png';
 import project5 from '../../images/Unity/LethalDeliveryVR/thum1.png';
 import project6 from '../../images/Unity/Orbit/icon_move.mp4';
@@ -146,54 +144,6 @@ function Home_4() {
                                 <ul className="list-unstyled mt-auto small2">
                                     <li className="d-flex align-items-center me-3 mb-5">
                                         <span className="">2023. 10. - 2024. 02.</span>
-                                    </li>
-                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                        <span className="text-end fs-4 card-in-arrow">
-                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-            </NavLink>
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className="img-fluid">
-            <NavLink to="/project/pacman" id="pacman">
-                    <div className="col">
-                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                            <img className="card-image-main" src ={project3}></img>
-                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">팩맨 <span className="btn btn-sm btn-primary-round-outline">게임</span><div className="kor-hidden">pacman game</div></span>
-                                <ul className="list-unstyled mt-auto small2">
-                                    <li className="d-flex align-items-center me-3 mb-4">
-                                        <span className="">2023. 10.</span>
-                                    </li>
-                                    <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
-                                        <span className="text-end fs-4 card-in-arrow">
-                                            <FontAwesomeIcon icon={faCircleArrowRight}/>
-                                        </span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-            </NavLink>
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className="img-fluid">
-            <NavLink to="/project/ironman" id="ironman">
-                    <div className="col">
-                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
-                            <img className="card-image-main" src ={project2}></img>
-                            <div className="d-flex flex-column h-100 p-4 pb-3 card-overtext mt-3">
-                                <span className="country mb-2 fs-2 lh-1 fw-bold font-11">아이언맨 <span className="btn btn-sm btn-primary-round-outline">모델</span><div className="kor-hidden">ironman model</div></span>
-                                <ul className="list-unstyled mt-auto small2">
-                                    <li className="d-flex align-items-center me-3 mb-4">
-                                        <span className="">2021. 06.</span>
                                     </li>
                                     <li className="d-flex align-items-center mt-5 city pt-7 pb-5">
                                         <span className="text-end fs-4 card-in-arrow">

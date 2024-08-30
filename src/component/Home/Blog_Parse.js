@@ -7,7 +7,7 @@
 import React, { useEffect, useState } from 'react';
 import { format } from 'date-fns';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRightLong, faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function Blog_Parse() {
   const [posts, setPosts] = useState([]);
@@ -104,7 +104,7 @@ function Blog_Parse() {
                                               </li>
                                               <li className="d-flex align-items-center mt-5 city">
                                                   <span className="text-end fs-4 card-in-arrow-left">
-                                                      <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                      <FontAwesomeIcon icon={faArrowRightLong}/>
                                                   </span>
                                               </li>
                                           </ul>

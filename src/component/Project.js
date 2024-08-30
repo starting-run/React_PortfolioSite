@@ -5,8 +5,6 @@
 */
 
 import React, { useEffect } from 'react';
-import project2 from '../images/ironman.jpg';
-import project3 from '../images/pacman.jpg';
 import project4 from '../images/portfolio.png';
 import project5 from '../images/Unity/LethalDeliveryVR/thum1.png';
 import project6 from '../images/Unity/Orbit/intro_1.mp4';
@@ -14,9 +12,14 @@ import project7 from '../images/Unity/MazeForest/thum.mp4';
 import prop1 from '../images/projects/prop1/thum.png';
 import prop1pdf from '../images/projects/prop1/rev_prop_focus_on_you.pdf';
 import prop2pdf from '../images/projects/prop2/prop_LethalDeliveryVR.pdf';
+
+import unitylogo from '../images/common/unity.jpg';
+import reactlogo from '../images/common/react.png';
+import unreallogo from '../images/common/unreal.png';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faCircleArrowRight, faCircleArrowUp, faMagnifyingGlass, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRightLong, faMagnifyingGlass, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
@@ -156,14 +159,14 @@ function Project() {
                                             <div className="row row-cols-lg-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Orbit<div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity</div></div><span class="fs-7 prj-kor-trans">　오르빗</span>
-                                                    <div className='mx-3 fs-6'><span className="text-black">Game</span><span className='mx-2 text-black'>|</span><span className="text-black">Unity 6</span></div>
+                                                    <div className='mx-3 fs-6'><span className="text-black">Game</span><span className='mx-2 text-black'>|</span><span className='btn btn-sm ps-0'><img class="logo-box" src={unitylogo}/></span><span className="text-black">Unity 6</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2024. 03. - In development</span>
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -188,14 +191,14 @@ function Project() {
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">LethalDelivery<div className="kor-hidden">LethalDelivery Game, 유니티, 씨샵, C#, Unity</div></div><span class="fs-7 prj-kor-trans">　리썰딜리버리</span>
-                                                    <div className='mx-3 fs-6'><span className="text-black">VR Game</span><span className='mx-2 text-black'>|</span><span className="text-black">Unity</span></div>
+                                                    <div className='mx-3 fs-6'><span className="text-black">VR Game</span><span className='mx-2 text-black'>|</span><span className='btn btn-sm ps-0'><img class="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2024. 04. 15. - 06. 10.</span>
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -218,14 +221,14 @@ function Project() {
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Maze Forest<div className="kor-hidden">maze forest game, 유니티, 씨샵, C#, Unity</div></div><span class="fs-7 prj-kor-trans">　미로의 숲</span>
-                                                    <div className='mx-3 fs-6'><span className="text-black">Game</span><span className='mx-2 text-black'>|</span><span className="text-black">Unity</span></div>
+                                                    <div className='mx-3 fs-6'><span className="text-black">Game</span><span className='mx-2 text-black'>|</span><span className='btn btn-sm ps-0'><img class="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2024. 06. 05. - 06. 11.</span>
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -250,14 +253,14 @@ function Project() {
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Portfolio <div className="kor-hidden">portfolio website, 리액트, HTML, CSS</div></div><span class="fs-7 prj-kor-trans">　포트폴리오 사이트</span>
-                                                    <div className='mx-3 fs-6'><span className="text-black">Website</span><span className='mx-2 text-black'>|</span><span className="text-black">React</span></div>
+                                                    <div className='mx-3 fs-6'><span className="text-black">Website</span><span className='mx-2 text-black'>|</span><span className='btn btn-sm ps-0'><img class="logo-box" src={reactlogo}/></span><span className="text-black">React</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2023. 10. - 2024. 02.　*지속 업데이트</span>
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -290,12 +293,12 @@ function Project() {
                                                     <div className='mx-3 fs-6'><span className="text-black">Smilegate&reg;</span></div>
                                                     <div className='mx-3 fs-6'><span className="text-black">Reverse Proposal</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2024. 04. 09.</span>
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -320,12 +323,12 @@ function Project() {
                                                     <div className='mx-3 fs-6'><span className="text-black">　</span></div>
                                                     <div className='mx-3 fs-6'><span className="text-black">Proposal</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2024. 06. 10.</span>
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faCircleArrowRight}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
                                                             </span>
                                                         </li>
                                                     </ul>
