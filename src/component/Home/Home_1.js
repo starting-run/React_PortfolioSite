@@ -14,12 +14,6 @@ import poster from '../../images/Unity/Orbit/main1.png';
 import intro1 from '../../images/projects/portfolio_website/intro_video.mp4';
 import poster1 from '../../images/portfolio.png';
 
-import intro2 from '../../images/Pacman/Processing_Pacman.mp4';
-import poster2 from '../../images/Pacman/poster_pacman.png';
-
-import intro3 from '../../images/OpenGL/ironman.mp4';
-import poster3 from '../../images/OpenGL/poster_ironman.png';
-
 import intro4 from '../../images/Unity/LethalDeliveryVR/video.mp4';
 import poster4 from '../../images/Unity/LethalDeliveryVR/logo.png';
 
@@ -157,43 +151,6 @@ function Home_1() {
                     <div className="font-11 font-letter-space fs-1 fw-bold2">미로의 숲</div>
                     <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">문제를 풀고 미로의 숲을 빠져나가야 하는 교육용 게임</div>
                     <NavLink to="project/mazeforest" id="mazeforest" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="section_hor"
-                onMouseEnter={() => handleMouseEnter(intro2)}
-                onMouseLeave={handleMouseLeave}
-              >
-                <video className="background-video_hor" poster={poster2} autoPlay muted loop>
-                  <source src={intro2} type="video/mp4" />
-                </video>
-                <div className="text-container_hor">
-                  <div className="text-content_hor text-black">
-                    <div className="font-11 font-letter-space fs-1 fw-bold2">팩맨 게임</div>
-                    <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">프로세싱으로 구현된 팩맨 게임</div>
-                    <NavLink to="project/pacman" id="pacman" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="section_hor"
-                onMouseEnter={() => handleMouseEnter(intro3)}
-                onMouseLeave={handleMouseLeave}
-              >
-                <video className="background-video_hor" poster={poster3} autoPlay muted loop>
-                  <source src={intro3} type="video/mp4" />
-                </video>
-                <div className="text-container_hor">
-                  <div className="text-content_hor text-black">
-                    <div className="font-11 font-letter-space fs-1 fw-bold2">아이언맨 모델</div>
-                    <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">OpenGL을 사용해 구현된 아이언맨 모델</div>
-                    <NavLink to="project/ironman" id="ironman" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
                       자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
                     </NavLink>
                   </div>

@@ -7,11 +7,11 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faChevronLeft, faDownload, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faDownload, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
-import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
+//import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
 import img1 from '../../images/Unity/Orbit/logo.png';
 import img2 from '../../images/Unity/Orbit/main1.png';
 import img3 from '../../images/Unity/Orbit/main2.png';
