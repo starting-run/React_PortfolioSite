@@ -6725,6 +6725,17 @@ textarea.form-control-lg {
   -webkit-filter: opacity(30%);  /*For Safari */
 }
 
+.prj-kor-trans {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.card-cover-main:hover .prj-kor-trans {
+  opacity: 1;
+  transition: all 0.3s;
+
+}
+
 .project-title {
   position: relative;
   display: inline-block;

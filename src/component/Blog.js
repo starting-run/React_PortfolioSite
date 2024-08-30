@@ -41,7 +41,7 @@ function Blog() {
                             </div>
                             <div className="col-auto mb-5">
                                 <a href="https://velog.io/@usfree/posts" target='_blank'>
-                                <span className="fs-6 fw-normal font-11"> Go to blog <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' /></span>
+                                <span className="fs-6 fw-normal font-11"> Go to blog　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg' /></span>
                                 </a>
                             </div> 
                         </div>
