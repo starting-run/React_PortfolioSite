@@ -29,7 +29,7 @@ function Blog() {
             <section className="bg-white-gray min-vh-100">
                 <div className="container-xxl px-4 pt-6">
                     <div className="row justify-content-center">
-                        <div className="mb-3">
+                        <div className="">
                         {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>*/}
                         <div className="row align-items-center justify-content-between pt-5">
                             <div className="col-auto fs-0-7 font-2 fw-bold2 font-letter-space-lg text-black text-uppercase">BLOG
