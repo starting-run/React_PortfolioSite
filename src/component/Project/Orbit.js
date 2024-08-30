@@ -39,7 +39,7 @@ function Orbit() {
         transition={{ duration: 0.2 }}
       >
             <Helmet>
-                <title>오르빗 - STARTING</title>
+                <title>Orbit | STARTING</title>
             </Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
@@ -53,7 +53,7 @@ function Orbit() {
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div className="col-lg-4">
                                                         <div className="sticky-top pc-view-only">
-                                                        <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">오르빗 <span className="btn btn-sm btn-primary-round-outline rounded-4">게임</span></div>
+                                                        <div className="mb-2 fs-1 fw-bold2 font-11 project-title text-black">Orbit</div><span class="fs-7 font-11">　|　오르빗　|　게임</span>
                                                             <div className='mb-5'>
                                                                 {/*href="https://github.com/starting-run/Unity_Orbit"*/}<a onClick={notify2} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                                                                 <a onClick={notify3} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>

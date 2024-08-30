@@ -20,7 +20,7 @@ function Home_2() {
           </div>
           <div className="bg_logo">
             {/* <div className=""><img className='big_logoimg'></img></div> */}
-            <div className="fs-1 text-center fw-light"><span className="fw-bold">가장 잘하고 좋아하는 방식으로</span><br/>모두에게 즐거움을 줍니다</div>
+            <div className="fs-0-5 text-center fw-light">In the way that I do best and like<br/><span className="fw-bold">Fun for everyone</span></div>
           </div>
         </div>
         <div className="scroll-down-indicator_hor scroll-down-indicator_hor-bottom">

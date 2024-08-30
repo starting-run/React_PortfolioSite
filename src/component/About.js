@@ -14,14 +14,14 @@ import { faAt, faChartBar, faCircleArrowUp, faCode, faCopy } from '@fortawesome/
 import { faGithub, faInstagram, faVimeo } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 
-function Profile() {
+function About() {
     const notify = () => toast.success('메일 주소가 복사 되었습니다. 원하는 곳에 붙여넣을 수 있습니다.', {duration: 4000});
     useEffect(() => {
         //notify();
       }, []);
 
     const copyText = () => {
-        const textToCopy = "ploris576@kangnam.ac.kr"; // 여기에 복사할 텍스트를 입력하세요.
+        const textToCopy = "ploris576@kangnam.ac.kr";
         navigator.clipboard.writeText(textToCopy).then(() => {
             notify();
         }).catch(err => {
@@ -35,13 +35,13 @@ function Profile() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>프로필 - STARTING</title></Helmet>
+            <Helmet><title>About | STARTING</title></Helmet>
             <section className="bg-white-gray h-100">
                 <div className="container-xxl px-4 pt-6">
                     <div className="row justify-content-center">
                         <div className="mb-5 pt-5">
                         {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>*/}
-                            <div className="fs-0-7 font-2 fw-normal font-letter-space-lg text-black text-uppercase">PROFILE</div>
+                            <div className="fs-0-7 font-2 fw-normal font-letter-space-lg text-black text-uppercase">ABOUT</div>
                             <div className="mb-5 fs-1 font-11 fw-normal font-letter-space-sm text-black text-uppercase">프로필</div>
                             {/*<div className="text-start">
                                 <div className="h-100 font-11 text-black fs-6 font-letter-space text-uppercase mb-5 pb-5">
@@ -53,7 +53,7 @@ function Profile() {
                                 <div className="row row-cols-1 row-cols-xxl-1 g-4">
                                     <div className="col">
                                         <div className="h-100 overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">학력</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Education</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
@@ -74,7 +74,7 @@ function Profile() {
                                     </div>
                                     <div className="col">
                                         <div className="h-100 overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">경력</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Work Experience</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
@@ -90,7 +90,7 @@ function Profile() {
                                     </div>
                                     <div className="col">
                                         <div className="h-100 overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">경험 / 활동</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Career / Experience</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
                                                 <div className="col-auto mb-2 font-11 p-4 py-2">
@@ -115,7 +115,7 @@ function Profile() {
                                     </div>
                                     <div className="col">
                                         <div className="h-100 overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">자격 / 면허</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Certificate</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 font-11 card-hover-up rounded-4 mx-2">
                                                 <div className="col-auto mb-2 p-4 py-2">
@@ -143,7 +143,7 @@ function Profile() {
                                     </div>
                                     <div className="col">
                                         <div className="h-100 overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">기술 스택</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Tech Skill</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-1 p-2 font-11 card-hover-up rounded-4 mx-2">
                                                 <div className="col-auto mb-2 p-4 py-2">
@@ -182,7 +182,7 @@ function Profile() {
                                     </div>
                                     <div className="col">
                                         <div className="overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">연락처</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Contact</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-1 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col">
@@ -224,7 +224,7 @@ function Profile() {
                                     </div>
                                     <div className="col">
                                         <div className="overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">링크</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Link</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-1 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col">
@@ -308,4 +308,4 @@ function Profile() {
       );
     }
 
-  export default Profile;
+  export default About;

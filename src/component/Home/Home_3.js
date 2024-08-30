@@ -50,8 +50,8 @@ function Home_3() {
                                 <div className='fs-6 mb-5'><FontAwesomeIcon icon={faBriefcase}/>　 <a href="https://www.motioncapture.co.kr/" target='_blank'>모션테크놀로지</a> 인턴</div>
                             </div>
                             <div className="font-11 text-end fs-6 w-100 fw-light text-black">
-                                <span className=''><NavLink to='/profile'>자세한 프로필　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
-                                <div className='only-mobile-view'><br/></div><span className='ps-4'><NavLink to='/link'>연락처와 링크　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
+                                <span className=''><NavLink to='/profile'>About　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
+                                <div className='only-mobile-view'><br/></div><span className='ps-4'><NavLink to='/link'>Contact　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
                             </div>
                             <hr className=''/>
                                 {/*<div className="main__action position-absolute only-pc-view">
@@ -89,11 +89,11 @@ function Home_3() {
                                         </div>
                                     </div>*/}
                                     <span className="text-start fs-4 card-in-arrow-left">
-                                        <div className="fs-6 mx-2 mb-1-5 text-only-white">2024. 03. - 개발중</div>
+                                        <div className="fs-6 mx-2 mb-1-5 text-only-white">2024. 03. - In development</div>
                                     </span>
                                     <NavLink to="/project/orbit" className="main__scroll">
                                     <span className="text-end fs-4 card-in-arrow">
-                                        <div className="fs-6 px-4 mx-2 mb-1-5 text-only-white">자세히 보기</div>
+                                        <div className="fs-6 px-4 mx-2 mb-1-5 text-only-white">Detail</div>
                                     </span>
                                     <span className="text-end fs-4 card-in-arrow">
                                         <FontAwesomeIcon icon={faCircleArrowRight} className='text-only-white'/>
@@ -114,7 +114,7 @@ function Home_3() {
                                     </span>
                                     <NavLink to="/project/lethaldeliveryvr" className="main__scroll">
                                     <span className="text-end fs-4 card-in-arrow">
-                                        <div className="fs-6 px-4 mx-2 mb-1-5 text-only-white">자세히 보기</div>
+                                        <div className="fs-6 px-4 mx-2 mb-1-5 text-only-white">Detail</div>
                                     </span>
                                     <span className="text-end fs-4 card-in-arrow">
                                         <FontAwesomeIcon icon={faCircleArrowRight} className='text-only-white'/>
@@ -126,7 +126,7 @@ function Home_3() {
                             <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">화제의 게임인 리썰컴퍼니를 모작으로 제작된 게임인 <span className='highlight'>리썰딜리버리</span> 게임입니다. VR HMD를 착용하고 HMD컨트롤러를 사용하여 상호작용하고 게임을 플레이할 수 있습니다. 일정 기간동안 주어진 목표를 달성하여 오랫동안 살아남는 것이 목표입니다.</div>
 
 
-                            <div className="font-11 text-end fs-6 mb-5 w-100 fw-light text-black"><NavLink to='/project'>더 많은 프로젝트　<FontAwesomeIcon icon={faArrowRight}/></NavLink></div>
+                            <div className="font-11 text-end fs-6 mb-5 w-100 fw-light text-black"><NavLink to='/project'>See more project　<FontAwesomeIcon icon={faArrowRight}/></NavLink></div>
                             
                         </div>
                     </div>

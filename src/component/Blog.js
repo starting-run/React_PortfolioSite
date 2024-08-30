@@ -25,7 +25,7 @@ function Blog() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>블로그 - STARTING</title></Helmet>
+            <Helmet><title>Blog | STARTING</title></Helmet>
             <section className="bg-white-gray min-vh-100">
                 <div className="container-xxl px-4 pt-6">
                     <div className="row justify-content-center">
@@ -41,7 +41,7 @@ function Blog() {
                             </div>
                             <div className="col-auto mb-5">
                                 <a href="https://velog.io/@usfree/posts" target='_blank'>
-                                <span className="fs-6 fw-normal font-11"> 바로가기 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' /></span>
+                                <span className="fs-6 fw-normal font-11"> Go to blog <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' /></span>
                                 </a>
                             </div> 
                         </div>

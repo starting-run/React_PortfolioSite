@@ -32,7 +32,7 @@ function Website() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>포트폴리오 - STARTING</title></Helmet>
+            <Helmet><title>Portfolio | STARTING</title></Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
                     <div className="container-full px-4 pt-6" id="seemore">
@@ -45,9 +45,11 @@ function Website() {
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div className="col-lg-4">
                                                         <div className="sticky-top pc-view-only">
-                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">포트폴리오 <span className="btn btn-sm btn-primary-round-outline rounded-4">웹사이트</span></div>
-                                                            <a href="https://github.com/starting-run/React_PortfolioSite" target='_blank' className="btn btn-dark-square px-4 py-2-5 me-3 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
-                                                            <a href="https://starting.run" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4">사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
+                                                        <div className="mb-2 fs-1 fw-bold2 font-11 project-title text-black">Portfolio</div><span class="fs-7 font-11">　|　포트폴리오 사이트　|　웹사이트</span>
+                                                            <div>
+                                                                <a href="https://github.com/starting-run/React_PortfolioSite" target='_blank' className="btn btn-dark-square px-4 py-2-5 me-3 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
+                                                                <a href="https://starting.run" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4">사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
+                                                            </div>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3 border-0 font-11 rounded-4">
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2023. 10. - 2024. 02.</span></div>
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">React, HTML, CSS, JavaScript, Bootstrap Library</span></div>

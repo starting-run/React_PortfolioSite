@@ -35,7 +35,7 @@ function LethalDeliveryVR() {
         transition={{ duration: 0.2 }}
       >
             <Helmet>
-                <title>리썰딜리버리 - STARTING</title>
+                <title>LethalDelivery | STARTING</title>
             </Helmet>
             <div id="projectmain">
                 <div className="bg-white-gray">
@@ -49,7 +49,7 @@ function LethalDeliveryVR() {
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div className="col-lg-4">
                                                         <div className="sticky-top pc-view-only">
-                                                            <div className="mb-2 fs-1 font-11 fw-bold2 font-letter-space-sm text-black text-uppercase">리썰딜리버리 <span className="btn btn-sm btn-primary-round-outline rounded-4">VR게임</span></div>
+                                                        <div className="mb-2 fs-1 fw-bold2 font-11 project-title text-black">LethalDelivery</div><span class="fs-7 font-11">　|　리썰딜리버리　|　VR게임</span>
                                                             <a href="https://github.com/starting-run/Unity_LethalDeliveryVR" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 me-3 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
                                                             <a href={prop2pdf} target='_blank' alt='프로젝트 메인 하단에 업로드 되어있는 기획서로 제작된 게임입니다.' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faFileContract} /> 기획서</a>
                                                             <div className="mb-3 w-100 card card-cover-safe p-3 border-0 font-11 rounded-4">

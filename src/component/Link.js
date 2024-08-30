@@ -34,7 +34,7 @@ function Link() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>링크 - starting</title></Helmet>
+            <Helmet><title>Link | starting</title></Helmet>
             <section className="bg-white-gray min-vh-100">
                 <div className="container-xxl px-4 pt-6">
                     <div className="row justify-content-center">
@@ -52,7 +52,7 @@ function Link() {
                                 <div className="row row-cols-1 row-cols-xxl-1 g-4">
                                     <div className="col">
                                         <div className="overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">연락처</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Contact</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-1 row-cols-xxl-1 p-2 rounded-4 mx-2">
                                                 <div className="col">
@@ -92,7 +92,7 @@ function Link() {
                                             </div>
                                         </div>
                                         <div className="overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">링크</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Link</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-1 row-cols-xxl-1 p-2 rounded-4 mx-2">
                                                 <div className="col">

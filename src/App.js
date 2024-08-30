@@ -10,7 +10,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Home from './component/Home/Home';
 import Project from './component/Project';
-import Profile from './component/Profile';
+import About from './component/About';
 import Pacman from './component/Project/Pacman';
 import Ironman from './component/Project/Ironman';
 import Orbit from './component/Project/Orbit';
@@ -35,7 +35,7 @@ const App = () => {
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
-        <Route path="/profile/*" element={<Profile/>}/>
+        <Route path="/about/*" element={<About/>}/>
         <Route exact path="/" element={<Home/>}/>
         <Route path="/project" element={<Project/>}/>
         <Route path="/link" element={<Link/>}/>
