@@ -6735,8 +6735,26 @@ textarea.form-control-lg {
 .card-cover-main:hover .prj-kor-trans {
   opacity: 1;
   transition: all 0.3s;
-
 }
+
+.go-arrow-noblank {
+  transition: all 0.6s;
+}
+
+.card-cover-main:hover .go-arrow-noblank {
+  transform: translateX(10px);
+  transition: all 0.3s;
+}
+
+.go-arrow-blank {
+  transition: all 0.6s;
+}
+
+.card-cover-main:hover .go-arrow-blank {
+  transform: rotate(-45deg);
+  transition: all 0.3s;
+}
+
 
 .project-title {
   position: relative;

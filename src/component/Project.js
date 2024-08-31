@@ -166,7 +166,7 @@ function Project() {
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -198,7 +198,7 @@ function Project() {
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -228,7 +228,7 @@ function Project() {
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -260,7 +260,7 @@ function Project() {
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -298,7 +298,7 @@ function Project() {
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
                                                             </span>
                                                         </li>
                                                     </ul>
@@ -328,7 +328,7 @@ function Project() {
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
-                                                                <FontAwesomeIcon icon={faArrowRightLong}/>
+                                                                <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
                                                             </span>
                                                         </li>
                                                     </ul>
