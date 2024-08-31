@@ -13,7 +13,7 @@ import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
 
 
-function Link() {
+function Contact() {
     const notify = () => toast.success('메일 주소가 복사 되었습니다. 원하는 곳에 붙여넣을 수 있습니다.', {duration: 4000});
     useEffect(() => {
         //notify();
@@ -34,14 +34,14 @@ function Link() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.2 }}
       >
-            <Helmet><title>Link | starting</title></Helmet>
+            <Helmet><title>Contact | STARTING</title></Helmet>
             <section className="bg-white-gray min-vh-100">
                 <div className="container-xxl px-4 pt-6">
                     <div className="row justify-content-center">
                         <div className="mb-5 pt-5">
                         {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>*/}
-                        <div className="fs-0-7 font-2 fw-normal font-letter-space-lg text-black text-uppercase">LINK</div>
-                        <div className="mb-5 fs-1 font-11 fw-normal font-letter-space-sm text-black text-uppercase">링크</div>
+                        <div className="fs-0-7 font-2 fw-normal font-letter-space-lg text-black text-uppercase">CONTACT</div>
+                        <div className="mb-5 fs-1 font-11 fw-normal font-letter-space-sm text-black text-uppercase">연락처</div>
                             {/*<div className="text-start">
                                 <div className="h-100 font-11 text-black fs-6 font-letter-space text-uppercase mb-5 pb-5">
                                     <div className="fw-normal">Woohyun Cho</div>
@@ -176,4 +176,4 @@ function Link() {
       );
     }
 
-  export default Link;
+  export default Contact;

@@ -50,8 +50,8 @@ function Home_3() {
                                 <div className='fs-6 mb-5'><FontAwesomeIcon icon={faBriefcase}/>　 <a href="https://www.motioncapture.co.kr/" target='_blank'>모션테크놀로지</a> 인턴</div>
                             </div>
                             <div className="font-11 text-end fs-6 w-100 fw-light text-black">
-                                <span className=''><NavLink to='/profile'>About　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
-                                <div className='only-mobile-view'><br/></div><span className='ps-4'><NavLink to='/link'>Contact　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
+                                <span className=''><NavLink to='/about'>About　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
+                                <div className='only-mobile-view'><br/></div><span className='ps-4'><NavLink to='/contact'>Contact　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
                             </div>
                             <hr className=''/>
                                 {/*<div className="main__action position-absolute only-pc-view">
