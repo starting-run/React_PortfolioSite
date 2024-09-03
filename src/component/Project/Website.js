@@ -48,7 +48,7 @@ function Website() {
                                                         <div className="mb-2 fs-1 fw-bold2 font-11 project-title text-black">Portfolio</div><span class="fs-7 font-11">　|　포트폴리오 사이트　|　웹사이트</span>
                                                             <div>
                                                                 <a href="https://github.com/starting-run/React_PortfolioSite" target='_blank' className="btn btn-dark-square px-4 py-2-5 me-3 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
-                                                                <a href="https://starting.run" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4">사이트 바로가기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
+                                                                <a href="https://starting.run" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4">사이트 　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
                                                             </div>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3 border-0 font-11 rounded-4">
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2023. 10. - 2024. 02.</span></div>

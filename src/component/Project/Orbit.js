@@ -7,7 +7,7 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faDownload, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faBars, faDownload, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
@@ -55,9 +55,10 @@ function Orbit() {
                                                         <div className="sticky-top pc-view-only">
                                                         <div className="mb-2 fs-1 fw-bold2 font-11 project-title text-black">Orbit</div><span class="fs-7 font-11">　|　오르빗　|　게임</span>
                                                             <div className='mb-5'>
-                                                                {/*href="https://github.com/starting-run/Unity_Orbit"*/}<a onClick={notify2} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
-                                                                <a onClick={notify3} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
-                                                                <div className='only-mobile-view mb-3'></div><a href="https://store.onstove.com/ko/games/3783" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 "><FontAwesomeIcon icon={faStore} /> STOVE 스토어</a>
+                                                                {/*<a onClick={notify3} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>*/}
+                                                                <a href="https://orbit.starting.run" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3">홈페이지 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
+                                                                <div className='only-mobile-view mb-3'></div><a href="https://store.onstove.com/ko/games/3783" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faStore} /> STOVE 스토어</a>
+                                                                {/*href="https://github.com/starting-run/Unity_Orbit"*/}<a onClick={notify2} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                                                             </div>
                                                             <div className="mb-3 w-100 card card-cover-danger p-3 border-0 font-11 rounded-4" >
                                                                 <span className="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
