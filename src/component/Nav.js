@@ -13,6 +13,7 @@ function Nav() {
   const [isScrollingUp, setIsScrollingUp] = useState(true);
   const [isPC, setIsPC] = useState(window.innerWidth >= 992);
   const [scrollPos, setScrollPos] = useState(0);
+  const [bgColor, setBgColor] = useState(''); 
 
   const location = useLocation();
   const currentPath = location.pathname;
@@ -47,11 +48,10 @@ function Nav() {
   useEffect(() => {
     const handleScroll = () => {
       const scroll = window.pageYOffset;
-      const navbar = document.getElementById('add-fixed');
       if (scroll >= 50) {
-        navbar.classList.add('scroll-navbar-background');
+        setBgColor('scroll-navbar-background');
       } else {
-        navbar.classList.remove('scroll-navbar-background');
+        setBgColor('scroll-navbar-background-none');
       }
     };
 
@@ -100,7 +100,7 @@ function Nav() {
     <header>
       <div>
         <ToTopButton />
-        <div id="add-fixed" className={`navbar-fixed-attr ${isScrollingUp ? 'show-navbar' : 'hide-navbar'}`}>
+        <div id="add-fixed" className={`navbar-fixed-attr ${isScrollingUp ? 'show-navbar' : 'hide-navbar'} ${bgColor}`}>
           <nav id="navbarcontrol" className={`navbar navbar-light ${navbarClass} navbar-expand-lg`}>
             <div id='changecontainer' className={`${navbarClass2} px-4`}>
                 <NavLink exact='true' to="/" className="navbar-brand" id="mains" onClick={mainlogo} title="Home"><img className="logoimg no-rounded"></img></NavLink>

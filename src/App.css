@@ -922,6 +922,10 @@
   transition: all 0.3s;
 }
 
+.scroll-navbar-background-none {
+  transition: all 0.3s;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
