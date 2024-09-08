@@ -96,7 +96,7 @@ function Orbit() {
                                                         <div className="font-11 fs-6 fw-bold mb-3">최종 업데이트 : {updatedate}</div>
                                                         <div className='card rounded-4 border-0'>
                                                             <div className="card-image-sec0">
-                                                                <iframe src="https://www.youtube.com/embed/MR-p7XxmcoI?autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                                                <iframe src="https://www.youtube.com/embed/MR-p7XxmcoI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                                             </div>
                                                         </div>
                                                         {/*<img className="mb-2 shadow-lg" src={img2}></img>
