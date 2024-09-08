@@ -55,7 +55,7 @@ function About() {
                                         <div className="h-100 overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Education</div>
                                             <hr className='text-black hr-w2'/>
-                                            <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
+                                            <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
                                                     <div className="fs-4 fw-bold"><a href="https://web.kangnam.ac.kr/" className='fw-opacity' target='_blank'>강남대학교</a></div>
                                                     <div className="fw-light2 fs-6">경기도 용인시</div>
@@ -76,7 +76,7 @@ function About() {
                                         <div className="h-100 overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Work Experience</div>
                                             <hr className='text-black hr-w2'/>
-                                            <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
+                                            <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
                                                     <div className="fs-4 fw-bold"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>모션테크놀로지</a></div>
                                                     <div className="fw-light2 fs-6">모션캡쳐 솔루션 / VR 콘텐츠 제작</div>
@@ -92,7 +92,7 @@ function About() {
                                         <div className="h-100 overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Career / Experience</div>
                                             <hr className='text-black hr-w2'/>
-                                            <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 card-hover-up rounded-4 mx-2">
+                                            <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 rounded-4 mx-2">
                                                 <div className="col-auto mb-2 font-11 p-4 py-2">
                                                     <div className="fs-4 fw-bold fw-opacity">IPP 첨단산업아카데미</div>
                                                     <div className="fw-light2 text-black fs-6">강남대학교 &middot; 고용노동부 &middot; 한국산업인력공단</div>
@@ -117,7 +117,7 @@ function About() {
                                         <div className="h-100 overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Certificate</div>
                                             <hr className='text-black hr-w2'/>
-                                            <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 font-11 card-hover-up rounded-4 mx-2">
+                                            <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 font-11 rounded-4 mx-2">
                                                 <div className="col-auto mb-2 p-4 py-2">
                                                     <div className="fs-4 fw-bold fw-opacity">웹디자인기능사</div>
                                                     <div className="fw-light2 fs-6 mb-2 highlight">2022. 09. 08.</div>
@@ -145,7 +145,7 @@ function About() {
                                         <div className="h-100 overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Tech Skill</div>
                                             <hr className='text-black hr-w2'/>
-                                            <div className="row row-cols-lg-1 p-2 font-11 card-hover-up rounded-4 mx-2">
+                                            <div className="row row-cols-lg-1 p-2 font-11 rounded-4 mx-2">
                                                 <div className="col-auto mb-2 p-4 py-2">
                                                     <div className="fs-5 fw-bold fw-opacity"><FontAwesomeIcon icon={faAngleRight} className='highlight'/> C / C++</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">C와 C++을 사용하여 알고리즘을 작성하고 목표한 기능을 클래스를 사용하여 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다.</div>

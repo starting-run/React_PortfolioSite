@@ -94,9 +94,9 @@ function Orbit() {
                                                             주인공은 깨어있는 지식인을 표방하는 자들의 모인 그룹인 <span className="highlight">이리스</span>에서 행동대원 역할을 하며, 그룹의 조력자는 주인공에게 쿨타임마다 도움을 줄 수 있는 스킬을 제공합니다.</p>
                                                         <div className="font-11 fs-2 fw-bold"><b>Developing</b></div>
                                                         <div className="font-11 fs-6 fw-bold mb-3">최종 업데이트 : {updatedate}</div>
-                                                        <div className='card'>
-                                                            <div className="youtube-player">
-                                                                <iframe src="https://www.youtube.com/embed/MR-p7XxmcoI?si=J9gNrDJYsE33MsNN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br/><br/>
+                                                        <div className='card rounded-4 border-0'>
+                                                            <div className="card-image-sec0">
+                                                                <iframe src="https://www.youtube.com/embed/MR-p7XxmcoI?autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                                             </div>
                                                         </div>
                                                         {/*<img className="mb-2 shadow-lg" src={img2}></img>

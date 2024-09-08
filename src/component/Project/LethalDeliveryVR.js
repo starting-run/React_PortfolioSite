@@ -64,7 +64,6 @@ function LethalDeliveryVR() {
                                                                     &middot; LBE(Local Based Entertainment)를 이해하고, 이를 기반으로 가상 콘텐츠를 진행할 수 있어야 함.<br/>
                                                                     &middot; VR 기기에 대한 이해를 통해 HMD 디바이스를 활용한 콘텐츠를 제작해야 함.<br/>
                                                                     &middot; 로컬 세이브 파일 저장을 통해 씬 전환시 씬의 변경사항에 대한 데이터를 저장해야 함.<br/>
-                                                                    &middot; <span className="text-decoration-line-through">로컬 네트워크 / 서버 구성 및 통신을 활용해 다수의 멀티플레이와 모니터링을 요함.</span> <span className="font-7 highlight"> {'>'} </span> 개발 일정 상 진행되지 못함
                                                                 </span>
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">4인 팀 개발</span></div>
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6 mb-2 text-black">게임 시스템 구현(인벤토리, 게임매니저, 씬 이동 등) / 플레이어 기능 구현 / UI 구성 및 디자인 / 디테일 개선 등</span></div>
@@ -86,12 +85,9 @@ function LethalDeliveryVR() {
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8 project-view-padding">
-                                                        <div className="font-11 fs-2 fw-bold"><b>Logo</b></div>
-                                                        <img className="mb-5" src={img1} style={{width: '300px'}}></img>
-                                                        <p className="mb-5 font-11">-</p>
-                                                        
-                                                        <div className="font-11 fs-2 fw-bold"><b>Developing</b></div>
-                                                        <div className="font-11 fs-6 fw-bold mb-3">최종 업데이트 : {updatedate}</div>
+                                                        {/*<div className="font-11 fs-2 fw-bold"><b>Developing</b></div>*/}
+                                                        <div className="font-11 fs-6 fw-bold">최종 업데이트 : {updatedate}</div>
+                                                        <div className="font-11 fs-6 fw-normal mb-3">제작이 완료되어 프로젝트에 관한 자세한 내용을 작성하고 있습니다.</div>
                                                         {/* 
                                                         <img className="mb-2 shadow-lg" src={img2}></img>
                                                         <p className="mb-5 font-11">- 메인 로고 화면</p>
@@ -99,7 +95,10 @@ function LethalDeliveryVR() {
                                                         <p className="mb-5 font-11">- 게임 모드 선택 화면</p>
                                                         <video src={video} controls controlsList="nodownload"></video><br/><br/>*/}
                                                         <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
-                                                        <video className="mb-5" src={video} controls controlsList="nodownload"></video>
+                                                        <div className="card  card-border-0 p-0 rounded-4">
+                                                            <video className="card-image-sec1" src={video} controls controlsList="nodownload" >
+                                                            </video>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

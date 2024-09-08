@@ -225,9 +225,14 @@ function MazeForest() {
                                                         <CodeBox code={code1}/>
                                                         <p className="mb-5 font-11">시나리오 엔진을 사용해 Resources폴더에서 script 파일을 가져와 동적으로 리소스를 로드합니다. 각 function별로 코루틴 함수를 실행하며, 중복으로 UI가 로드되는 문제를 방지하기 위해 코루틴 함수 실행 중 다른 코루틴 함수가 입력되면 기존의 코루틴 함수는 중지합니다.</p>
                                                         <div className="font-11 fs-2 fw-bold"><b>Result</b></div>
-                                                        <video src={video} controls controlsList="nodownload" className='mb-5'></video>
+
+                                                        <div className="card  card-border-0 p-0 rounded-4 mb-5">
+                                                            <video className="card-image-sec1" src={video} controls controlsList="nodownload"/>
+                                                        </div>
                                                         <div className="font-11 fs-2 fw-bold"><b>Presentation</b></div>
-                                                        <p><iframe style={{width:'100%', height:'800px'}} src={pdf}></iframe></p>
+                                                        <div className='card rounded-4 mb-2 border-0'>
+                                                            <iframe style={{width:'100%', height:'800px'}} src={pdf}></iframe>
+                                                        </div>
                                                         <span className="font-11">브라우저에서 PDF뷰어를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                                     </div>
                                                 </div>
