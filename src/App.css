@@ -916,7 +916,7 @@
 
 .scroll-navbar-background {
   background: rgba(var(--bs-white-rgb), 0.4);
-  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  /*box-shadow: 0px 5px 10px rgba(0,0,0,0.1);*/
   -webkit-backdrop-filter: blur(20px);  /*For Safari */
   backdrop-filter: blur(20px);
   transition: all 0.3s;
@@ -961,9 +961,14 @@
     margin-top: 3px !important;
   }*/
   .scroll-navbar-background {
-    background: var(--bs-dark);
+
+    background: rgba(var(--bs-white-rgb), 0.4);
     transition: all 0.3s;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    /*box-shadow: 0px 5px 10px rgba(0,0,0,0.1);*/
+  }
+  .navbar-mobile-py {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
   }
   .InputContainer {
     display: none !important;
@@ -978,7 +983,7 @@
     display: none;
   }
   .navbar-brand img{
-    width: 110px !important;
+    width: 130px !important;
   }
     /* 햄버거 메뉴 전체화면으로 만드는 부분 
   일반적인 PC버전 네비바 복귀시 모바일 전용 CSS 영역으로 넣으면됨 */
@@ -11057,7 +11062,6 @@ video {
   font-weight: 300 !important;
 }
 
-
 .fw-lighter {
   font-weight: lighter !important;
 }
@@ -11079,7 +11083,7 @@ video {
 }
 
 .fw-semibold {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
 }
 
 .fw-bolder {
