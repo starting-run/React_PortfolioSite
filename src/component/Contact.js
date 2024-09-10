@@ -63,7 +63,7 @@ function Contact() {
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                         <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faAt}/>　메일</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
-                                                                            <span className="fs-6 px-2 only-pc-view">ploris576@kangnam.ac.kr　</span>
+                                                                            <span className="fs-6 px-2 only-pc-view align-middle">ploris576@kangnam.ac.kr　</span>
                                                                             <FontAwesomeIcon icon={faCopy}/>
                                                                         </span>
                                                                     </div>
@@ -80,7 +80,7 @@ function Contact() {
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                         <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faInstagram}/>　인스타그램</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
-                                                                            <span className="fs-6 px-2">w99hyun　</span>
+                                                                            <span className="fs-6 px-2 align-middle">w99hyun　</span>
                                                                             <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                         </span>
                                                                     </div>
@@ -103,7 +103,7 @@ function Contact() {
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                         <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faGithub}/>　깃허브</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
-                                                                            <span className="fs-6 px-2">starting-run　</span>
+                                                                            <span className="fs-6 px-2 align-middle">starting-run　</span>
                                                                             <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                         </span>
                                                                     </div>
@@ -120,7 +120,7 @@ function Contact() {
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                         <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faVimeo}/>　블로그</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
-                                                                            <span className="fs-6 px-2">usfree　</span>
+                                                                            <span className="fs-6 px-2 align-middle">usfree　</span>
                                                                             <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                         </span>
                                                                     </div>
@@ -137,7 +137,7 @@ function Contact() {
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                         <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faCode}/>　백준</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
-                                                                            <span className="fs-6 px-2">tlrmsjtm77　</span>
+                                                                            <span className="fs-6 px-2 align-middle">tlrmsjtm77　</span>
                                                                             <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                         </span>
                                                                     </div>
@@ -154,7 +154,7 @@ function Contact() {
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
                                                                         <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faChartBar}/>　Codeforces</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
-                                                                            <span className="fs-6 px-2">tlrmsjtm77　</span>
+                                                                            <span className="fs-6 px-2 align-middle">tlrmsjtm77　</span>
                                                                             <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
                                                                         </span>
                                                                     </div>
