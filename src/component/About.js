@@ -76,13 +76,14 @@ function About() {
                                         <div className="h-100 overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Work Experience</div>
                                             <hr className='text-black hr-w2'/>
-                                            <div className="row row-cols-lg-2 row-cols-xxl-3 p-2 rounded-4 mx-2">
+                                            <div className="row row-cols-lg-2 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
-                                                    <div className="fs-4 fw-bold"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>모션테크놀로지</a></div>
+                                                    <div className="fs-4 fw-bold"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>모션테크놀로지</a><span className='align-middle fs-7 fw-opacity fw-normal ps-3'>- 인턴</span></div>
                                                     <div className="fw-light2 fs-6">모션캡쳐 솔루션 / VR 콘텐츠 제작</div>
                                                     <div className="fw-light2 fs-6 mb-3 highlight">2024. 07. 01. - </div>
                                                     <div className="fw-light2 fs-6 mb-3">
-                                                        인턴
+                                                        <p className='mb-0 font-letter-space-lsm'>&middot;　가상현실을 통한 협업 시스템 개발</p>
+                                                        <p className='mb-0 font-letter-space-lsm'>&middot;　UI/UX, DB(MySQL), 네트워크 통신 담당(개발 인원 4명)</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -145,14 +146,10 @@ function About() {
                                         <div className="h-100 overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Tech Skill</div>
                                             <hr className='text-black hr-w2'/>
-                                            <div className="row row-cols-lg-1 p-2 font-11 rounded-4 mx-2">
+                                            <div className="row row-cols-lg-2 p-2 font-11 rounded-4 mx-2">
                                                 <div className="col-auto mb-2 p-4 py-2">
-                                                    <div className="fs-5 fw-bold fw-opacity"><FontAwesomeIcon icon={faAngleRight} className='highlight'/> C / C++</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">C와 C++을 사용하여 알고리즘을 작성하고 목표한 기능을 클래스를 사용하여 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다.</div>
-                                                </div>
-                                                <div className="col-auto mb-2 p-4 py-2">
-                                                <div className="fs-5 fw-bold fw-opacity"><FontAwesomeIcon icon={faAngleRight} className='highlight'/> C#</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">C# 문법을 파악하고, 제네릭 등을 활용하여 코드를 작성할 수 있습니다. 유니티에서 활용하여 게임을 제작할 수 있습니다.</div>
+                                                    <div className="fs-5 fw-bold fw-opacity"><FontAwesomeIcon icon={faAngleRight} className='highlight'/> C / C# / C++</div>
+                                                    <div className="fw-light2 fs-6 mb-2 text-black">C와 C#, C++을 사용하여 알고리즘을 작성하고 목표한 기능을 클래스를 사용하여 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다.</div>
                                                 </div>
                                                 <div className="col-auto mb-2 p-4 py-2">
                                                 <div className="fs-5 fw-bold fw-opacity"><FontAwesomeIcon icon={faAngleRight} className='highlight'/> Unity</div>
@@ -162,7 +159,7 @@ function About() {
                                                     </div>
                                                 </div>
                                                 <div className="col-auto mb-2 p-4 py-2">
-                                                    <div className="fs-5 fw-bold fw-opacity"><FontAwesomeIcon icon={faAngleRight} className='highlight'/> UnrealEngine5</div>
+                                                    <div className="fs-5 fw-bold fw-opacity"><FontAwesomeIcon icon={faAngleRight} className='highlight'/> Unreal Engine5</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">C++을 사용하여 언리얼엔진을 활용할 수 있고, 언리얼엔진을 통해 고품질의 게임을 만들기 위해 학습 중입니다.</div>
                                                 </div>
                                                 <div className="col-auto mb-2 p-4 py-2">

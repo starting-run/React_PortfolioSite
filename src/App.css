@@ -11098,6 +11098,10 @@ video {
   letter-spacing :0px;
 }
 
+.font-letter-space-lsm {
+  letter-spacing :0.5px;
+}
+
 .font-letter-space-sm {
   letter-spacing :1px;
 }
