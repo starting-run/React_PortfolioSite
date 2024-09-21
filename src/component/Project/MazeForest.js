@@ -187,12 +187,12 @@ function MazeForest() {
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">개발 목표　<span className="fw-light fs-6 mb-2 text-black">가상훈련콘텐츠로써, 훈련 또는 교육에 유익해야하고 직관적이어야 하며, 시나리오를 간단하게 바꿀 수 있어야 함.</span></div>
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">3인 팀 개발</span></div>
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6 mb-2 text-black">개발 주도 / 게임 시스템 제작 / UI 구성 및 제작 / 시나리오 엔진 개선 등</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">의사 결정　</div>
+                                                                <div className="fw-bold fs-6 highlight px-2">의사 결정　</div>
                                                                 <span className="fw-light fs-6 mb-2 text-black px-2">
                                                                     &middot; 제한된 일정으로 적당한 퀄리티를 유지해야하면서도 흥미를 이끌어 낼 콘텐츠를 제작해야함.
                                                                     <br/>&middot; 팀 프로젝트로 진행하는만큼 일정 조율이나 담당 파트의 할당이 중요함. 이를 위해 중재자와 리더의 역할로 프로젝트를 진행하였음.
                                                                 </span>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
+                                                                <div className="fw-bold fs-6 highlight px-2">구현 기능</div>
                                                                 <span className="fw-light fs-6 mb-2 text-black px-2">
                                                                     &middot; 통합된 시나리오 엔진 코드를 사용하여 교육 문제의 내용을 개발자가 아니더라도 편리하게 변경할 수 있음.
                                                                     <br/>&middot; 캐릭터와 장애물, 슬로우존, 데스존 등의 맵 상호작용 요소 구현.

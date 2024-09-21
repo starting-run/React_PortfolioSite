@@ -128,7 +128,7 @@ function Project() {
                         </a>*/}
                     </div>
                     <div className="col-auto InputContainer mb-5">
-                            <input type="text" name="text" className="input" id="search" placeholder="Search Project" autoFocus></input>
+                            <input type="text" name="text" className="input" id="search" placeholder="Search Project"></input> {/* autoFocus */}
                             <label id="clear-search" className="clear-search pe-3 text-black" style={{ display: 'hidden', opacity:'0'}}>
                                 <FontAwesomeIcon icon={faTimes} />
                             </label>
@@ -158,7 +158,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-lg-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Orbit<div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity</div></div><span class="fs-7 prj-kor-trans">　오르빗</span>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Orbit<div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity, 오르빗</div></div><span class="fs-7 prj-kor-trans">　오르빗</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={unitylogo}/></span><span className="text-black">Unity 6</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
@@ -190,7 +190,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">LethalDelivery<div className="kor-hidden">LethalDelivery Game, 유니티, 씨샵, C#, Unity</div></div><span class="fs-7 prj-kor-trans">　리썰딜리버리</span>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">LethalDelivery<div className="kor-hidden">LethalDelivery Game, 유니티, 씨샵, C#, Unity, 리썰 딜리버리, 리썰딜리버리</div></div><span class="fs-7 prj-kor-trans">　리썰딜리버리</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span><span className='mx-2 text-black'>|</span><span className="text-black">VR Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
@@ -220,7 +220,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Maze Forest<div className="kor-hidden">maze forest game, 유니티, 씨샵, C#, Unity</div></div><span class="fs-7 prj-kor-trans">　미로의 숲</span>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Maze Forest<div className="kor-hidden">maze forest game, 유니티, 씨샵, C#, Unity, 미로의 숲, 미로의숲</div></div><span class="fs-7 prj-kor-trans">　미로의 숲</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
@@ -252,7 +252,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Portfolio <div className="kor-hidden">portfolio website, 리액트, HTML, CSS</div></div><span class="fs-7 prj-kor-trans">　포트폴리오 사이트</span>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Portfolio <div className="kor-hidden">portfolio website, 리액트, HTML, CSS, 포트폴리오, 웹사이트, 포폴</div></div><span class="fs-7 prj-kor-trans">　포트폴리오 사이트</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={reactlogo}/></span><span className="text-black">React</span><span className='mx-2 text-black'>|</span><span className="text-black">Website</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
@@ -319,7 +319,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-2 lh-1 fw-bold font-11 mx-3 project-title text-black">LethalDelivery<div className="kor-hidden">리썰딜리버리, 기획서</div></div><div class="fs-7 mb-3 prj-kor-trans">　 리썰딜리버리</div>
+                                                    <div className="country mb-3 fs-2 lh-1 fw-bold font-11 mx-3 project-title text-black">LethalDelivery<div className="kor-hidden">리썰 딜리버리, 기획서, 리썰딜리버리</div></div><div class="fs-7 mb-3 prj-kor-trans">　 리썰딜리버리</div>
                                                     <div className='mx-3 fs-6'><span className="text-black">　</span></div>
                                                     <div className='mx-3 fs-6'><span className="text-black">Proposal</span></div>
                                                     <ul className="list-unstyled mt-auto small2">

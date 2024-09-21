@@ -1257,7 +1257,7 @@
 
   .project-view-padding {
     padding-left: 3rem !important;
-    padding-top: 10rem !important;
+    padding-top: 10.5rem !important;
   }
 }
 
@@ -1276,8 +1276,6 @@
 .c-test {
   right: 0;
 }
-
-
 
 /*
 .cursor {
@@ -7587,6 +7585,25 @@ textarea.form-control-lg {
   background-color: var(--bs-progress-bar-bg);
   transition: var(--bs-progress-bar-transition);
 }
+
+#progress {
+  appearance: none;
+}
+
+#progress::-webkit-progress-bar {
+  background:#f0f0f0;
+  border-radius:3px;
+  height: 50%;
+  width: 100%;
+  box-shadow: inset 3px 3px 10px #ccc;
+}
+
+#progress::-webkit-progress-value {
+  border-radius:3px;
+  background: #EF5B2A;
+}
+
+
 @media (prefers-reduced-motion: reduce) {
   .progress-bar {
     transition: none;
@@ -10121,6 +10138,11 @@ video {
 
 .border-opacity-100 {
   --bs-border-opacity: 1;
+}
+
+.w-fix-40
+{
+  width: 40px;
 }
 
 .w-25 {

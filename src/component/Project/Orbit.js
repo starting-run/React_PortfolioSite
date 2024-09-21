@@ -23,12 +23,13 @@ import { motion } from 'framer-motion';
 
 
 function Orbit() {
-    const updatedate = "2024. 08. 27." //최종 업데이트 일자
+    const updatedate = "2024. 09. 22." //최종 업데이트 일자
+    const updatedate2 = "2024. 08. 25." //최종 동영상 업데이트 일자
     const notify = () => toast.error('제작 진행중인 프로젝트입니다!', {duration: 4000});
     const notify2 = () => toast('완성도를 높이기 위해 유료 에셋이 포함되어 있습니다. 리포지토리를 열람하고 싶으시다면 별도의 연락을 부탁드립니다.', {duration: 6000});
     const notify3 = () => toast.error('제작이 완료된 후 빌드 파일을 제공할 예정입니다.', {duration: 4000});
     useEffect(() => {
-        //notify();
+        notify();
       }, []);
 
       return (
@@ -60,40 +61,42 @@ function Orbit() {
                                                                 <div className='only-mobile-view mb-3'></div><a href="https://store.onstove.com/ko/games/3783" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4 me-3"><FontAwesomeIcon icon={faStore} /> STOVE 스토어</a>
                                                                 {/*href="https://github.com/starting-run/Unity_Orbit"*/}<a onClick={notify2} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                                                             </div>
-                                                            <div className="mb-3 w-100 card card-cover-danger p-3 border-0 font-11 rounded-4" >
-                                                                <span className="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} /> 제작 진행중인 프로젝트입니다 !</span>
-                                                            </div>
-                                                            <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
+                                                            <div className="mb-3 w-100 card card-cover-nonhover p-3 border-0 font-11 rounded-4">
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 03. -</span></div>
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">FPS장르의 3D 게임으로, AI에게 지배당한 세계를 해방시키는 것이 목표인 게임임.</span></div>
+                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">FPS 슈팅, 어드벤처 장르의 3D 게임으로, AI에게 지배당한 세계를 해방시키는 것이 목표인 게임임.</span></div>
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">1인 개발</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">구현 기능</div>
+                                                                <div className="fw-bold fs-6 highlight px-2">구현 기능</div>
                                                                 <span className="fw-light fs-6 mb-2 text-black px-2">
-                                                                &middot; 오픈월드로 제작하되, 구역을 나누어 할당함. ‘아레테’를 파괴하기 위해 구역 별 인스턴스 던전을 만들어 던전 내에서 파괴.
-                                                                <br/>&middot; 광원의 효과적이고 사실적인 표현을 위해 유니티 HDRP / 레이트레이싱(옵션 제공) 사용
-                                                                <br/>&middot; 주인공을 적으로 인식하고 공격하는 AI 몬스터 구현
+                                                                &middot; 유니티6의 APV와 GPU 상주 드로어를 통한 고퀄리티 그래픽과 최적화 설정
+                                                                <br/>&middot; 광원의 효과적이고 사실적인 표현을 위해 HDRP / 레이트레이싱(옵션 제공)
+                                                                <br/>&middot; AI 몬스터와 구역별 인스턴스 던전의 아레테를 파괴하여 구역을 해방하는 시스템
+                                                                <br/>&middot; 게임을 진행하면서 얻을 수 있는 <span class="fw-bold">온전한 칩</span>을 통해 무기를 업그레이드할 수 있는 시스템
                                                                 </span>
                                                             </div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
-                                                            <div className="mb-4 px-2 font-11">졸업 작품을 제작하기 위한 캡스톤디자인을 통해 제작 중인 프로젝트입니다. Unity6 의 HDRP를 사용하고 있으며, 천천히 완성도 있는 게임을 만들기 위해 노력하고 있습니다.</div>
+                                                            <div className="mb-4 px-2 font-11">졸업 작품을 제작하기 위한 캡스톤디자인을 통해 제작 중인 프로젝트입니다. Unity6의 엔진을 사용하고 있으며, 천천히 완성도 있는 게임을 만들기 위해 노력하고 있습니다.</div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
                                                             <div className="mb-4 px-2 font-11"></div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                             <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
-                                                                # Unity 6000.0.16f1<br/>
+                                                                # Unity 6000.0.17f1 <span className='fw-bold'>LTS 업데이트 예정</span><br/>
                                                                 Unity_Orbit.sln
                                                             </div>
                                                             <hr/>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8 project-view-padding">
+                                                        <div className="mb-3 w-100 card card-cover-danger p-3 border-0 font-11 rounded-4" >
+                                                            <span className="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} className='pe-2'/>제작 진행중인 프로젝트입니다 ! 모든 정보가 서술되어 있지 않습니다.</span>
+                                                        </div>
                                                         <div className="font-11 fs-2 fw-bold"><b>Story</b></div>
                                                         <p className="mb-5 font-11">특이점이 온 지구를 배경으로 합니다. 현 지구는 AI(인공지능)의 실효지배를 받고 있으며, 인간은 허용된 행위(놀기, 먹기 등)를 제외한 지식을 쌓는 일체의 행위를 할 수 없습니다. 지식을 갖고 깨어있는 인간은 AI의 적으로 간주됩니다.
                                                             <br/>게임 내 여러 구역이 존재하며, 각 구역별로 AI를 움직일 수 있게 하는 원동력인 <span className="highlight">아레테</span>가 존재합니다. 작 중 주인공은 이 <span className="highlight">아레테</span>를 파괴하여 AI를 막는 역할을 합니다.
                                                             주인공은 깨어있는 지식인을 표방하는 자들의 모인 그룹인 <span className="highlight">이리스</span>에서 행동대원 역할을 하며, 그룹의 조력자는 주인공에게 쿨타임마다 도움을 줄 수 있는 스킬을 제공합니다.</p>
                                                         <div className="font-11 fs-2 fw-bold"><b>Developing</b></div>
-                                                        <div className="font-11 fs-6 fw-bold mb-3">최종 업데이트 : {updatedate}</div>
+                                                        <div className="font-11 fs-6 fw-normal mb-1">최종 업데이트 : <span class="fw-bold">{updatedate}</span></div>
+                                                        <div className="font-11 fs-6 fw-normal mb-3">동영상 최종 업데이트 : <span class="fw-bold">{updatedate2}</span></div>
                                                         <div className='card rounded-4 border-0'>
                                                             <div className="card-image-sec0">
                                                                 <iframe src="https://www.youtube.com/embed/MR-p7XxmcoI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
