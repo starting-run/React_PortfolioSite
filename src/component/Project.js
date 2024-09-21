@@ -5,6 +5,7 @@
 */
 
 import React, { useEffect } from 'react';
+import project3 from '../images/projects/Pacman/pacman.png';
 import project4 from '../images/portfolio.png';
 import project5 from '../images/Unity/LethalDeliveryVR/thum1.png';
 import project6 from '../images/Unity/Orbit/intro_1.mp4';
@@ -16,6 +17,7 @@ import prop2pdf from '../images/projects/prop2/prop_LethalDeliveryVR.pdf';
 import unitylogo from '../images/common/unity.jpg';
 import reactlogo from '../images/common/react.png';
 import unreallogo from '../images/common/unreal.png';
+import processinglogo from '../images/common/processing.png';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -238,6 +240,36 @@ function Project() {
                                                         <video className="card-image-main" autoPlay muted loop>
                                                             <source src={project7} type="video/mp4" />
                                                         </video>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </NavLink>
+                            </div>
+                            <hr className='text-black hr-w2'/>
+                            <div className="col">
+                                <NavLink to="pacman" id="pacman">
+                                    <div className="img-fluid"> 
+                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                                            <div className="row row-cols-1">
+                                                <div className='col-lg-7 py-4 order-lg-1 order-2'>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Pacman <div className="kor-hidden">pacman, 팩맨, 프로세싱, processing</div></div><span class="fs-7 prj-kor-trans">　팩맨</span>
+                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={processinglogo}/></span><span className="text-black">Processing</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
+                                                    <ul className="list-unstyled mt-auto small2">
+                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
+                                                            <span className="fs-7">2023. 09. - 10.</span>
+                                                        </li>
+                                                        <li className="d-flex align-items-center mt-5 city">
+                                                            <span className="text-end fs-4 card-in-arrow-left">
+                                                                <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className='col-lg-5 order-lg-2 order-1'>
+                                                    <div className='card card-border-0 rounded-4 mb-3'>
+                                                        <img className="card-image-main" src ={project3}></img>
                                                     </div>
                                                 </div>
                                             </div>

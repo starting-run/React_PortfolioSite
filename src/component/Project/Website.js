@@ -38,10 +38,10 @@ function Website() {
                     <div className="container-full px-4 pt-6" id="seemore">
                         <div className="row gx-5 justify-content-center">
                             <div className="up-animation">
-                                <div className=" rounded-2 border-0">
+                                <div className="rounded-2 border-0">
                                     <div className="card-body p-0">
                                         <div className="d-flex align-items-center">
-                                            <div className="p-2 proj_text w-100 text-black fw-light">
+                                            <div className="proj_text w-100 text-black fw-light">
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div className="col-lg-4">
                                                         <div className="sticky-top pc-view-only">

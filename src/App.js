@@ -18,6 +18,7 @@ import MazeForest from './component/Project/MazeForest';
 import cursorImage from './images/Cursor.png'; 
 import Contact from './component/Contact';
 import Blog from './component/Blog';
+import Pacman from './component/Project/Pacman';
 
 const App = () => {
   useEffect(() => {
@@ -42,6 +43,7 @@ const App = () => {
         <Route path="/project/orbit" element={<Orbit/>}/>
         <Route path="/project/website" element={<Website/>}/>
         <Route path="/project/mazeforest" element={<MazeForest/>}/>
+        <Route path="/project/pacman" element={<Pacman/>}/>
       </Routes>
     </AnimatePresence>
   );
