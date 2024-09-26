@@ -20,7 +20,7 @@ function Home_2() {
         <div className="bg_logo font-2 text-black">
           {/* <div className=""><img className='big_logoimg'></img></div> */}
           <div className="fs-0-7 text-center fw-light">In the way that I do best and like<br/><span className="fw-bold fs-0">Fun for everyone</span></div>
-          <div className='fs-7 text-center font-11'>모두가 즐겁고 신날 수 있도록 게임을 만듭니다.</div>
+          {/* <div className='fs-7 text-center font-11'>모두가 즐겁고 신날 수 있도록 게임을 만듭니다.</div> */}
         </div>
       </div>
       <div className="scroll-down-indicator_hor scroll-down-indicator_hor-bottom">
