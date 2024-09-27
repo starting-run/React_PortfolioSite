@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c819016d.css",
-    "main.js": "/static/js/main.4dbcec6b.js",
+    "main.css": "/static/css/main.b235d541.css",
+    "main.js": "/static/js/main.be1bbca5.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.7ec6aa7e697bb8ffe73b.mp4",
     "static/media/video_short.mp4": "/static/media/video_short.8859057738bd17fbf628.mp4",
-    "static/media/main_video.mp4": "/static/media/main_video.aa3753b35297fb103605.mp4",
     "static/media/img4.png": "/static/media/img4.4b36a5c3b5850adc0108.png",
     "static/media/img2.png": "/static/media/img2.3725d6c6b4390b444f04.png",
     "static/media/img3.png": "/static/media/img3.fb361f664e692306107b.png",
@@ -15,6 +14,7 @@
     "static/media/img6.png": "/static/media/img6.570c78616efa8b33193c.png",
     "static/media/main1.png": "/static/media/main1.889164dfe898b72bc1c6.png",
     "static/media/main2.png": "/static/media/main2.f10ef59168556f60586c.png",
+    "static/media/main_video.mp4": "/static/media/main_video.acbbb26ad89767803152.mp4",
     "static/media/Unity_MazeForest.pdf": "/static/media/Unity_MazeForest.f43482021210c9eda45b.pdf",
     "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
     "static/media/rev_prop_focus_on_you.pdf": "/static/media/rev_prop_focus_on_you.572ef150053edafaf03e.pdf",
@@ -26,6 +26,7 @@
     "static/media/icon_move.mp4": "/static/media/icon_move.62c5ab8b81d865dce0cb.mp4",
     "static/media/poster_mazeforest.png": "/static/media/poster_mazeforest.862efc86a25b0d6846fc.png",
     "static/media/img5.png": "/static/media/img5.1f2551e481d616d806dc.png",
+    "static/media/main_video_poster.png": "/static/media/main_video_poster.d714d6c58b5e52abb2d2.png",
     "static/media/Processing_Pacman.pdf": "/static/media/Processing_Pacman.32a699ec1c28427c6233.pdf",
     "static/media/1.png": "/static/media/1.f978446b1e09fd97776d.png",
     "static/media/3.png": "/static/media/3.b1e02861203ee9f4cf9f.png",
@@ -39,7 +40,6 @@
     "static/media/unity.jpg": "/static/media/unity.9fa9921dd8e63bc9f5d9.jpg",
     "static/media/flow2.png": "/static/media/flow2.f3b7b60317dcd3363cce.png",
     "static/media/KRAFTON_FONTWindow.ttf": "/static/media/KRAFTON_FONTWindow.d0874d3434386cdca9c4.ttf",
-    "static/media/main_video_poster.png": "/static/media/main_video_poster.d198ac7888c540cb2bc0.png",
     "static/media/processing.png": "/static/media/processing.f0dfedac3fb55bf98861.png",
     "static/media/thum.png": "/static/media/thum.667b9c0fb3023cdd3e3b.png",
     "index.html": "/index.html",
@@ -47,7 +47,7 @@
     "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.b6f35a62155fce09e8399ba3dade63d3.svg"
   },
   "entrypoints": [
-    "static/css/main.c819016d.css",
-    "static/js/main.4dbcec6b.js"
+    "static/css/main.b235d541.css",
+    "static/js/main.be1bbca5.js"
   ]
 }
