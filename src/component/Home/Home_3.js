@@ -54,51 +54,26 @@ function Home_3() {
                                 <div className='only-mobile-view'><br/></div><span className='ps-4'><NavLink to='/contact'>Contact　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
                             </div>
                             <hr className=''/>
-                                {/*<div className="main__action position-absolute only-pc-view">
-                                    <HashLink smooth to="#home_project" className="main__scroll">
-                                        <div className="main__scroll-box">
-                                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M0 0h24v24H0z" fill="none"></path>
-                                                <path d="M11.9997 13.1716L7.04996     8.22186L5.63574 9.63607L11.9997 16L18.3637 9.63607L16.9495 8.22186L11.9997 13.1716Z"></path>
-                                            </svg>
-                                        </div>
-                                    </HashLink>
-                                </div>*/}
                             </div>
                         </div>
                             <div className="col w-100 mb-4"> {/*col-lg-12*/}
-                                <div className="card  card-border-0 p-0 rounded-4">
+                                <div className="card card-border-0 p-0 rounded-4">
                                     <div className="card-image-sec0">
                                         <iframe src="https://www.youtube.com/embed/MR-p7XxmcoI?autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                     </div>
-                                    
-                                    {/*
-                                    <div className="text-only-white fs-0 lh-sm font-11 pt-6 ps-3">
-                                        <div className="font-letter-space fw-bold2 pt-5 ps-5 pe-4">
-                                            {/*<span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span>
-                                            <div className="font-11 fs-0-5 fw-bold text-start mb-6">만나서 반갑습니다 !</div>
-                                            <div className="font-11 fs-1 fw-normal text-start mb-2">저는</div>
-                                            <div className="font-11 fs-0-5 fw-bold text-start mb-2"><span className={`fade-in-out ${fadeIn ? 'fade-in' : 'fade-out'} rainbow-text`}>{text}</span></div>
-                                            <div className="font-11 fs-1 fw-normal text-start mb-6">를 만듭니다.</div>
+                                    <div className='position-absolute bottom-0 start-0 w-100 px-4 d-flex justify-content-center align-items-center'>
+                                        <div className='card w-90 card-in-box rounded-3 px-4 border-0 shadow-md position-relative overflow-hidden'>
+                                            <div className='bg-blur position-absolute w-100 h-100 top-0 start-0'></div>
+                                            <div className="d-flex justify-content-between align-items-center w-100 position-relative py-2">
+                                                <span className="fs-6 text-white fw-bold">2024. 03. - In development</span>
+                                                <NavLink to="/project/orbit" className="text-decoration-none">
+                                                    <span className="fs-6 text-white d-flex align-items-center fw-normal">
+                                                        Detail <FontAwesomeIcon icon={faCircleArrowRight} className='fs-5 text-white ms-2'/>
+                                                    </span>
+                                                </NavLink>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div className="text-start ps-3">
-                                        <div className="h-100 font-11 text-only-white fs-6 font-letter-space text-uppercase mb-5 pb-5 ps-5">
-                                            <div className="fw-normal">Woohyun Cho</div>
-                                            <div className="fw-bold2 highlight">Developer Portfolio</div>
-                                        </div>
-                                    </div>*/}
-                                    <span className="text-start fs-4 card-in-arrow-left">
-                                        <div className="fs-6 mx-2 mb-1-5 text-only-white">2024. 03. - In development</div>
-                                    </span>
-                                    <NavLink to="/project/orbit" className="main__scroll">
-                                    <span className="text-end fs-4 card-in-arrow">
-                                        <div className="fs-6 px-4 mx-2 mb-1-5 text-only-white">Detail</div>
-                                    </span>
-                                    <span className="text-end fs-4 card-in-arrow">
-                                        <FontAwesomeIcon icon={faCircleArrowRight} className='text-only-white'/>
-                                    </span>
-                                    </NavLink>
                                 </div>
                             </div>
                             <div className="font-11 text-start fs-3 mb-2 mt-1 w-100 fw-bold text-black">AI로부터 무력해진 세상을 구원하라</div>
@@ -109,17 +84,19 @@ function Home_3() {
                                     <video className="card-image-sec1" autoPlay muted loop>
                                         <source src={project6} type="video/mp4" />
                                     </video>
-                                    <span className="text-start fs-4 card-in-arrow-left">
-                                        <div className="fs-6 mx-2 mb-1-5 text-only-white">2024. 04. 15. - 06. 10.</div>
-                                    </span>
-                                    <NavLink to="/project/lethaldeliveryvr" className="main__scroll">
-                                    <span className="text-end fs-4 card-in-arrow">
-                                        <div className="fs-6 px-4 mx-2 mb-1-5 text-only-white">Detail</div>
-                                    </span>
-                                    <span className="text-end fs-4 card-in-arrow">
-                                        <FontAwesomeIcon icon={faCircleArrowRight} className='text-only-white'/>
-                                    </span>
-                                    </NavLink>
+                                    <div className='position-absolute bottom-0 start-0 w-100 px-4 d-flex justify-content-center align-items-center'>
+                                        <div className='card w-90 card-in-box rounded-3 px-4 border-0 shadow-md position-relative overflow-hidden'>
+                                            <div className='bg-blur position-absolute w-100 h-100 top-0 start-0'></div>
+                                            <div className="d-flex justify-content-between align-items-center w-100 position-relative py-2">
+                                                <span className="fs-6 text-white fw-bold">2024. 04. 15. - 06. 10.</span>
+                                                <NavLink to="/project/lethaldeliveryvr" className="text-decoration-none">
+                                                    <span className="fs-6 text-white d-flex align-items-center fw-normal">
+                                                        Detail <FontAwesomeIcon icon={faCircleArrowRight} className='fs-5 text-white ms-2'/>
+                                                    </span>
+                                                </NavLink>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="font-11 text-start fs-3 mb-2 mt-1 w-100 fw-bold text-black">수집하고 살아남아, 목표를 달성하라</div>
