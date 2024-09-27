@@ -664,6 +664,9 @@
   margin-left: auto; /* 우측 정렬 */
 }
 
+.mix-blend {
+  mix-blend-mode: difference;
+}
 
 .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
 .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
@@ -11452,7 +11455,7 @@ video {
 
 .bg-video-prj {
   position: absolute; /* 스크롤시 고정은 absolute */
-  opacity: 0.2; /* 원본값 0.15 */
+  opacity: 0.5; /* 원본값 0.15 */
   align-items: center;
   object-fit: cover;
   width: 100%;
