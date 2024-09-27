@@ -121,8 +121,8 @@ function About() {
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Tech Skill</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 p-2 font-11 rounded-4 mx-2">
-                                                <div className="col-auto mb-2 p-4 py-2">
-                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='bg-black p-1 highlight rounded-3 me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> C / C# / C++</div>
+                                                <div className="col-auto mb-4 p-4 py-2">
+                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> C / C# / C++</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">C와 C#, C++을 사용하여 알고리즘을 작성하고 목표한 기능을 클래스를 사용하여 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다.</div>
                                                     <div className='fw-light2 text-black'>
                                                         <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C</span><progress id="progress" value="85" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>85%</span></span>
@@ -130,31 +130,31 @@ function About() {
                                                         <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C++</span><progress id="progress" value="60" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>60%</span></span>
                                                     </div>
                                                 </div>
-                                                <div className="col-auto mb-2 p-4 py-2">
-                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='bg-black p-1 highlight rounded-3 me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Unity</div>
+                                                <div className="col-auto mb-4 p-4 py-2">
+                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Unity</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">유니티를 사용해 2D/3D 컨텐츠를 제작할 수 있으며, UGUI, UI Toolkit을 활용하여 UI를 제작하는 등 게임 제작에 필요한 기능을 활용할 수 있습니다.
                                                         현재는 유니티를 사용해 졸업작품으로 전시할 3D 게임인 Orbit을 제작중입니다.
                                                         이 프로젝트에 대해서는 <Link to="/project/orbit" className="btn btn-sm btn-dark-square fs-7 fw-bold2 rounded-3 py-0">여기</Link> 에서 확인하실 수 있습니다.
                                                     </div>
                                                 </div>
                                                 {/* <div className="col-auto mb-2 p-4 py-2">
-                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='bg-black p-1 highlight rounded-3 me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Unreal Engine5</div>
+                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Unreal Engine5</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">C++을 사용하여 언리얼엔진을 활용할 수 있고, 언리얼엔진을 통해 고품질의 게임을 만들기 위해 학습 중입니다.</div>
                                                 </div> */}
-                                                <div className="col-auto mb-2 p-4 py-2">
-                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='bg-black p-1 highlight rounded-3 me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> DataBase</div>
+                                                <div className="col-auto mb-4 p-4 py-2">
+                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> DataBase</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">SQL 프로그래밍을 할 수 있고, DB를 사용하기 위한 MySQL, MariaDB 등의 DBMS를 활용할 수 있습니다. 유니티와의 연동을 통한 개발 경험이 있습니다.</div>
                                                 </div>
-                                                <div className="col-auto mb-2 p-4 py-2">
-                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='bg-black p-1 highlight rounded-3 me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> HTML5 / CSS / JavaScript</div>
+                                                <div className="col-auto mb-4 p-4 py-2">
+                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> HTML5 / CSS / JavaScript</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">HTML, CSS와 JavaScript를 통해 주어진 기능을 수행하는 웹페이지를 구현할 수 있습니다.</div>
                                                 </div>
-                                                <div className="col-auto mb-2 p-4 py-2">
-                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='bg-black p-1 highlight rounded-3 me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> React</div>
+                                                <div className="col-auto mb-4 p-4 py-2">
+                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> React</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다.</div>
                                                 </div>
-                                                <div className="col-auto mb-2 p-4 py-2">
-                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='bg-black p-1 highlight rounded-3 me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Processing</div>
+                                                <div className="col-auto mb-4 p-4 py-2">
+                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Processing</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">프로세싱의 다양한 라이브러리를 사용할 수 있고, 이를 통해 인터랙티브 컨텐츠를 제작할 수 있습니다.</div>
                                                 </div>
                                             </div>
