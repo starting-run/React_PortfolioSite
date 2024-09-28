@@ -64,7 +64,8 @@ function Home_3() {
                                     <div className='position-absolute bottom-0 start-0 w-100 px-4 d-flex justify-content-center align-items-center'>
                                         <div className='card w-90 card-in-box rounded-3 px-4 border-0 shadow-md position-relative overflow-hidden'>
                                             <div className='bg-blur position-absolute w-100 h-100 top-0 start-0'></div>
-                                            <div className="d-flex justify-content-between align-items-center w-100 position-relative py-2">
+                                            <span className="fs-3 text-black fw-bold py-1 pt-2 text-start">Orbit<span class="fs-6 fw-light"><span className='px-2'>|</span>게임</span></span>
+                                            <div className="d-flex justify-content-between align-items-center w-100 position-relative py-1 pb-2">
                                                 <span className="fs-6 text-black fw-bold">2024. 03. - In development</span>
                                                 <NavLink to="/project/orbit" className="text-decoration-none">
                                                     <span className="fs-6 text-black d-flex align-items-center fw-normal">
@@ -87,7 +88,8 @@ function Home_3() {
                                     <div className='position-absolute bottom-0 start-0 w-100 px-4 d-flex justify-content-center align-items-center'>
                                         <div className='card w-90 card-in-box rounded-3 px-4 border-0 shadow-md position-relative overflow-hidden'>
                                             <div className='bg-blur position-absolute w-100 h-100 top-0 start-0'></div>
-                                            <div className="d-flex justify-content-between align-items-center w-100 position-relative py-2">
+                                            <span className="fs-3 text-black fw-bold py-1 pt-2 text-start">LethalDelivery<span class="fs-6 fw-light"><span className='px-2'>|</span>VR게임</span></span>
+                                            <div className="d-flex justify-content-between align-items-center w-100 position-relative py-1 pb-2">
                                                 <span className="fs-6 text-black fw-bold">2024. 04. 15. - 06. 10.</span>
                                                 <NavLink to="/project/lethaldeliveryvr" className="text-decoration-none">
                                                     <span className="fs-6 text-black d-flex align-items-center fw-normal">
