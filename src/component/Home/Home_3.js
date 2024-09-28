@@ -65,10 +65,10 @@ function Home_3() {
                                         <div className='card w-90 card-in-box rounded-3 px-4 border-0 shadow-md position-relative overflow-hidden'>
                                             <div className='bg-blur position-absolute w-100 h-100 top-0 start-0'></div>
                                             <div className="d-flex justify-content-between align-items-center w-100 position-relative py-2">
-                                                <span className="fs-6 text-white fw-bold">2024. 03. - In development</span>
+                                                <span className="fs-6 text-black fw-bold">2024. 03. - In development</span>
                                                 <NavLink to="/project/orbit" className="text-decoration-none">
-                                                    <span className="fs-6 text-white d-flex align-items-center fw-normal">
-                                                        Detail <FontAwesomeIcon icon={faCircleArrowRight} className='fs-5 text-white ms-2'/>
+                                                    <span className="fs-6 text-black d-flex align-items-center fw-normal">
+                                                        Detail <FontAwesomeIcon icon={faCircleArrowRight} className='fs-5 text-black ms-2'/>
                                                     </span>
                                                 </NavLink>
                                             </div>
@@ -88,10 +88,10 @@ function Home_3() {
                                         <div className='card w-90 card-in-box rounded-3 px-4 border-0 shadow-md position-relative overflow-hidden'>
                                             <div className='bg-blur position-absolute w-100 h-100 top-0 start-0'></div>
                                             <div className="d-flex justify-content-between align-items-center w-100 position-relative py-2">
-                                                <span className="fs-6 text-white fw-bold">2024. 04. 15. - 06. 10.</span>
+                                                <span className="fs-6 text-black fw-bold">2024. 04. 15. - 06. 10.</span>
                                                 <NavLink to="/project/lethaldeliveryvr" className="text-decoration-none">
-                                                    <span className="fs-6 text-white d-flex align-items-center fw-normal">
-                                                        Detail <FontAwesomeIcon icon={faCircleArrowRight} className='fs-5 text-white ms-2'/>
+                                                    <span className="fs-6 text-black d-flex align-items-center fw-normal">
+                                                        Detail <FontAwesomeIcon icon={faCircleArrowRight} className='fs-5 text-black ms-2'/>
                                                     </span>
                                                 </NavLink>
                                             </div>
