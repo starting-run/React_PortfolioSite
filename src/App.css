@@ -970,8 +970,8 @@
     /*box-shadow: 0px 5px 10px rgba(0,0,0,0.1);*/
   }
   .navbar-mobile-py {
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
   }
   .InputContainer {
     display: none !important;
@@ -986,7 +986,7 @@
     display: none;
   }
   .navbar-brand img{
-    width: 130px !important;
+    width: 120px !important;
   }
     /* 햄버거 메뉴 전체화면으로 만드는 부분 
   일반적인 PC버전 네비바 복귀시 모바일 전용 CSS 영역으로 넣으면됨 */
@@ -6188,7 +6188,7 @@ textarea.form-control-lg {
   align-items: center;
   width: 50%;
   top:50px;
-  width: 120px;
+  width: 130px;
 }
 
 .navbar-nav {
