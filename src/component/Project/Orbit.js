@@ -7,7 +7,7 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faBars, faDownload, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faBars, faCircleInfo, faDownload, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
@@ -23,7 +23,7 @@ import { motion } from 'framer-motion';
 
 
 function Orbit() {
-    const updatedate = "2024. 09. 22." //최종 업데이트 일자
+    const updatedate = "2024. 10. 10." //최종 업데이트 일자
     const updatedate2 = "2024. 08. 25." //최종 동영상 업데이트 일자
     const notify = () => toast.error('제작 진행중인 프로젝트입니다!', {duration: 4000});
     const notify2 = () => toast('완성도를 높이기 위해 유료 에셋이 포함되어 있습니다. 리포지토리를 열람하고 싶으시다면 별도의 연락을 부탁드립니다.', {duration: 6000});
@@ -80,7 +80,7 @@ function Orbit() {
                                                             <div className="mb-4 px-2 font-11"></div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                             <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
-                                                                # Unity 6000.0.17f1 <span className='fw-bold'>LTS 업데이트 예정</span><br/>
+                                                                # Unity 6000.0.22f1 <span className='fw-bold'>LTS 업데이트 예정</span><br/>
                                                                 Unity_Orbit.sln
                                                             </div>
                                                             <hr/>
@@ -89,6 +89,9 @@ function Orbit() {
                                                     <div className="col-lg-8 project-view-padding">
                                                         <div className="mb-3 w-100 card card-cover-danger p-3 border-0 font-11 rounded-4" >
                                                             <span className="text-only-white font-11"><FontAwesomeIcon icon={faTriangleExclamation} className='pe-2'/>제작 진행중인 프로젝트입니다 ! 모든 정보가 서술되어 있지 않습니다.</span>
+                                                        </div>
+                                                        <div className="mb-3 w-100 card card-cover-safe p-3 border-0 font-11 rounded-4" >
+                                                            <span className="text-only-white font-11"><FontAwesomeIcon icon={faCircleInfo} className='pe-2'/>제작 내역(패치 노트)는 <a href="https://orbit.starting.run/#/patchnote" target='_blank'><span class="fw-bold">게임 홈페이지 </span><FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a> 에 기록해두고 있습니다.</span>
                                                         </div>
                                                         <div className="font-11 fs-2 fw-bold"><b>Story</b></div>
                                                         <p className="mb-5 font-11">특이점이 온 지구를 배경으로 합니다. 현 지구는 AI(인공지능)의 실효지배를 받고 있으며, 인간은 허용된 행위(놀기, 먹기 등)를 제외한 지식을 쌓는 일체의 행위를 할 수 없습니다. 지식을 갖고 깨어있는 인간은 AI의 적으로 간주됩니다.
