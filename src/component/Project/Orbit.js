@@ -80,7 +80,7 @@ function Orbit() {
                                                             <div className="mb-4 px-2 font-11"></div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                             <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
-                                                                # Unity 6000.0.22f1 <span className='fw-bold'>LTS 업데이트 예정</span><br/>
+                                                                # Unity 6000.0.24f1 LTS<br/>
                                                                 Unity_Orbit.sln
                                                             </div>
                                                             <hr/>
