@@ -164,7 +164,7 @@ function Project() {
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={unitylogo}/></span><span className="text-black">Unity 6</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
-                                                            <span className="fs-7">2024. 03. - In development</span>
+                                                            <span className="fs-7">2024. 03. - 2024. 11.</span>
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">

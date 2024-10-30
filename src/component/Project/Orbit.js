@@ -7,11 +7,11 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faBars, faCircleInfo, faDownload, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faBars, faCircleInfo, faDownload, faFileArrowDown, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
-//import pdf from '../../images/OpenGL/OpenGL_Ironman.pdf';
+import pdf from '../../images/Unity/Orbit/Unity_Orbit.pdf'
 import img1 from '../../images/Unity/Orbit/logo.png';
 import img2 from '../../images/Unity/Orbit/main1.png';
 import img3 from '../../images/Unity/Orbit/main2.png';
@@ -23,7 +23,7 @@ import { motion } from 'framer-motion';
 
 
 function Orbit() {
-    const updatedate = "2024. 10. 10." //최종 업데이트 일자
+    const updatedate = "2024. 10. 31." //최종 업데이트 일자
     const updatedate2 = "2024. 08. 25." //최종 동영상 업데이트 일자
     const notify = () => toast.error('제작 진행중인 프로젝트입니다!', {duration: 4000});
     const notify2 = () => toast('완성도를 높이기 위해 유료 에셋이 포함되어 있습니다. 리포지토리를 열람하고 싶으시다면 별도의 연락을 부탁드립니다.', {duration: 6000});
@@ -62,13 +62,13 @@ function Orbit() {
                                                                 {/*href="https://github.com/starting-run/Unity_Orbit"*/}<a onClick={notify2} target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                                                             </div>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3 border-0 font-11 rounded-4">
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 03. -</span></div>
+                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 03. - 2024. 11.</span></div>
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">FPS 슈팅, 어드벤처 장르의 3D 게임으로, AI에게 지배당한 세계를 해방시키는 것이 목표인 게임임.</span></div>
                                                                 <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">1인 개발</span></div>
                                                                 <div className="fw-bold fs-6 highlight px-2">구현 기능</div>
                                                                 <span className="fw-light fs-6 mb-2 text-black px-2">
-                                                                &middot; 유니티6의 APV와 GPU 상주 드로어를 통한 고퀄리티 그래픽과 최적화 설정
+                                                                &middot; 최신 유니티6 활용을 통해 최적화된 게임 환경 제공
                                                                 <br/>&middot; 광원의 효과적이고 사실적인 표현을 위해 HDRP / 레이트레이싱(옵션 제공)
                                                                 <br/>&middot; AI 몬스터와 구역별 인스턴스 던전의 아레테를 파괴하여 구역을 해방하는 시스템
                                                                 <br/>&middot; 게임을 진행하면서 얻을 수 있는 <span class="fw-bold">온전한 칩</span>을 통해 무기를 업그레이드할 수 있는 시스템
@@ -109,7 +109,11 @@ function Orbit() {
                                                         <p className="mb-5 font-11">- 메인 로고 화면</p>
                                                         <img className="mb-2 shadow-lg" src={img3}></img>
                                                         <p className="mb-5 font-11">- 게임 모드 선택 화면</p>*/}
-                                                        
+                                                        <div className="font-11 fs-2 fw-bold"><b>Presentation</b></div>
+                                                        <div className='card rounded-4 mb-2 border-0'>
+                                                            <iframe style={{width:'100%', height:'800px'}} src={pdf}></iframe>
+                                                        </div>
+                                                        <span className="font-11">브라우저에서 PDF뷰어를 지원하지 않을 경우 <a href={pdf}><div className="btn btn-primary-round-outline px-4 fs-7 rounded-4"><FontAwesomeIcon icon={faFileArrowDown} /> PDF</div></a></span>
                                                         
                                                     </div>
                                                 </div>
