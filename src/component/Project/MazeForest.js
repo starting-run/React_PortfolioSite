@@ -204,7 +204,7 @@ function MazeForest() {
                                                                 # Unity 2022.3.21f1<br/>
                                                                 Unity_MazeForest.sln
                                                             </div>
-                                                            <hr/>
+                                                            <hr className='only-mobile-view'/>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8 project-view-padding">

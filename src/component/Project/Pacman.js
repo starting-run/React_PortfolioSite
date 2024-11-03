@@ -179,14 +179,12 @@ class Pacman extends Component {
                                                             </div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
                                                             <div className="mb-4 px-2 font-11">인터랙티브 프로그래밍에 흔히 사용되는 Processing을 통해 제작된 게임입니다. 완성도 있는 구현을 위해 기존의 팩맨 게임 원작과는 게임 진행 방식에 약간의 수정을 가미하였습니다.</div>
-                                                            <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
-                                                            <div className="mb-4 px-2 font-11">인터랙티브 프로그래밍을 위해 사용되는 Tool인 만큼, 가장 인터랙티브한 프로그래밍은 게임이라고 생각했습니다. 상호작용이 가장 많고 상호작용을 통해 게임을 활성화시킬 수 있기 때문입니다.</div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                             <div className="card card-cover-nonhover p-3  border-0 mb-5 font-11 rounded-4">
                                                                 # 저작권 침해 소지로 인해 빌드 파일과 이미지는 업로드하지 않습니다.<br/>
                                                                 <a href="https://github.com/processing/processing4/releases/download/processing-1293-4.3/processing-4.3-windows-x64.zip"><b>Processing.exe 설치 <span className="highlight">[다운로드]</span></b></a> → Pacman_Game.pde → 실행
                                                             </div>
-                                                            <hr/>
+                                                            <hr className='only-mobile-view'/>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8 project-view-padding">

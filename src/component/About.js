@@ -78,14 +78,13 @@ function About() {
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
-                                                    <div className="fs-4 fw-bold"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>모션테크놀로지</a><span className='align-middle fs-7 fw-opacity fw-normal ps-3'>- 인턴</span></div>
-                                                    <div className="fw-light2 fs-6">모션캡쳐 솔루션 / VR 콘텐츠 제작</div>
+                                                    <div className="fs-4 fw-bold"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>모션테크놀로지</a><span className='align-middle fs-7 fw-opacity fw-normal ps-3'>- 인턴(콘텐츠팀)</span></div>
                                                     <div className="fw-light2 fs-6 mb-3 highlight">2024. 07. 01. - </div>
                                                     <div className="fw-light2 fs-6 mb-3">
                                                         <p className='mb-0 font-letter-space-lsm'>담당 업무</p>
                                                         <p className='mb-0 font-letter-space-lsm'>&middot;　가상현실을 통한 협업 시스템 개발</p>
-                                                        <p className='mb-0 font-letter-space-lsm'>&middot;　<a href="https://www.motioncapture.co.kr/moa" target='_blank' className='fw-normal'>모션 캡처 솔루션 MoA</a>와의 연동</p>
-                                                        <p className='mb-0 font-letter-space-lsm'>&middot;　UI/UX, DB, 네트워크 통신 담당(개발 인원 4명)</p>
+                                                        <p className='mb-0 font-letter-space-lsm'>&middot;　<a href="https://www.motioncapture.co.kr/moa" target='_blank' className='fw-normal'>모션 캡처 솔루션 MoA</a>와 연동하여 사용되는 시스템</p>
+                                                        <p className='mb-0 font-letter-space-lsm'>&middot;　UI/UX, DB, 네트워크 통신, 보이스채팅 담당 (개발 인원 4명)</p>
                                                     </div>
                                                 </div>
                                             </div>

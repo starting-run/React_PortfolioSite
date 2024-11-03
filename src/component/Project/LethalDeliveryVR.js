@@ -240,15 +240,13 @@ function LethalDeliveryVR() {
                                                                 <span className='fs-7 fw-lighter'>* LBE (Local Based Entertainment)</span>
                                                             </div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
-                                                            <div className="mb-4 px-2 font-11">유니티를 통해 화제의 게임인 리썰 컴퍼니를 모작으로 VR로 플레이할 수 있도록 제작된 게임임.</div>
-                                                            <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">REASON</div>
-                                                            <div className="mb-4 px-2 font-11">기업 현장 실습(인턴십) 프로그램을 위해 VR 프로그래밍과 LBE 콘텐츠에 대한 이해와 경험이 필요하여 제작한 게임임.</div>
+                                                            <div className="mb-4 px-2 font-11">화제의 게임인 리썰 컴퍼니를 모작으로, 유니티를 통해 VR로 플레이할 수 있도록 제작된 LBE 게임입니다.</div>
                                                             <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
                                                             <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
                                                                 # Unity 2021.3.37f1<br/>
                                                                 LethalDelivery_VR.sln   
                                                             </div>
-                                                            <hr/>
+                                                            <hr className='only-mobile-view'/>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8 project-view-padding">
