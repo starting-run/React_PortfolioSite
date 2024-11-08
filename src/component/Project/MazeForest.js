@@ -24,6 +24,7 @@ import toast from 'react-hot-toast';
 import { useRef } from 'react';
 import CodeBox from '../Function/CodeBox';
 import { motion } from 'framer-motion';
+import ImageZoom from '../Function/ImageZoom';
 
 let code1 = `private IEnumerator PlayVideo(string[] tokens)
     {
@@ -208,17 +209,17 @@ function MazeForest() {
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8 project-view-padding">
-                                                        <img className="mb-3" src={img1}></img>
+                                                        <ImageZoom src={img1} className="mb-3"/>
                                                         <p className="mb-5 font-11">플레이어는 할당된 키를 통해 물총을 줌 / 발사할 수 있습니다.</p>
-                                                        <img className="mb-3" src={img2}></img>
+                                                        <ImageZoom src={img2} className="mb-3"/>
                                                         <p className="mb-5 font-11">각 문제별로 할당된 트리거에 도달하면 퀴즈 문제가 출력되고, 정답에 맞는 과녁을 맞추면 앞으로 전진할 수 있습니다. 과녁 또한 공통 스크립트로 구성되어 있어, 에디터 상에서 bool 값만 조절해주면 간편하게 정답을 변경할 수 있습니다.</p>
-                                                        <img className="mb-3" src={img3}></img>
+                                                        <ImageZoom src={img3} className="mb-3"/>
                                                         <p className="mb-5 font-11">플레이어가 닿으면 이동속도가 느려지는 함정 발판이 존재합니다.</p>
-                                                        <img className="mb-3" src={img4}></img>
+                                                        <ImageZoom src={img4} className="mb-3"/>
                                                         <p className="mb-5 font-11">미로에는 구석구석 NPC가 배치되어 있고, 이 NPC에 가까이 가면 대화 스크립트가 출력되며 그 이후부터는 플레이어를 따라 다니게 됩니다. 게임이 종료된 후에는 찾은 NPC의 수와 틀린 문제의 수를 출력합니다.</p>
-                                                        <img className="mb-3" src={img5}></img>
+                                                        <ImageZoom src={img5} className="mb-3"/>
                                                         <p className="mb-5 font-11">플레이어가 게임 클리어 트리거에 도달하면, 따라오던 NPC는 그 자리에서 춤을 춥니다.</p>
-                                                        <img className="mb-3" src={img6}></img>
+                                                        <ImageZoom src={img6} className="mb-3"/>
                                                         <p className="mb-5 font-11">플레이어가 게임 클리어 트리거에 도달하면, skybox가 밤으로 바뀌며 불꽃놀이가 실행되고 축하음악과 영상이 재생됩니다.</p>
 
                                                         <div className="font-11 fs-2 fw-bold"><b>ScenarioEngine</b></div>

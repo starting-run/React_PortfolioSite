@@ -20,6 +20,7 @@ import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
 import { motion } from 'framer-motion';
 import CodeBox from '../Function/CodeBox';
+import ImageZoom from '../Function/ImageZoom';
 
 let code1 = `public class InventoryManager : MonoBehaviour
 {
@@ -216,7 +217,7 @@ function LethalDeliveryVR() {
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div className="col-lg-4">
                                                         <div className="sticky-top pc-view-only">
-                                                        <div className="mb-2 fs-1 fw-bold2 font-11 project-title text-black">LethalDelivery</div><span class="fs-7 font-11">　|　리썰딜리버리　|　VR게임</span>
+                                                        <div className="mb-2 fs-1 fw-bold2 font-11 project-title text-black">LethalDelivery</div><span className="fs-7 font-11">　|　리썰딜리버리　|　VR게임</span>
                                                             <a href="https://github.com/starting-run/Unity_LethalDeliveryVR" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 me-3 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
                                                             <a href={prop2pdf} target='_blank' alt='프로젝트 메인 하단에 업로드 되어있는 기획서로 제작된 게임입니다.' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faFileContract} /> 기획서</a>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
@@ -252,14 +253,14 @@ function LethalDeliveryVR() {
                                                     <div className="col-lg-8 project-view-padding">
                                                         <div className="font-11 fs-2 fw-bold"><b>GameFlow</b></div>
                                                         <div className='rounded-4 mb-2'>
-                                                            <img src={flow1}></img>
+                                                            <ImageZoom src={flow1}/>
                                                         </div>
                                                         <div className='mb-4 font-11'>
                                                             <span className='fw-bold pe-3'>UI Flow</span>
                                                             <span className='fw-light'>UI를 통한 게임 진행의 흐름도입니다.</span>
                                                         </div>
                                                         <div className='rounded-4 mb-2'>
-                                                            <img src={flow2}></img>
+                                                            <ImageZoom src={flow2}/>
                                                         </div>
                                                         <div className='mb-4 font-11'>
                                                             <span className='fw-bold pe-3'>Funtion Diagram</span>
