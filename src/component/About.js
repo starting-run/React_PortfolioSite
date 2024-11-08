@@ -59,7 +59,7 @@ function About() {
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
                                                     <div className="fs-4 fw-bold"><a href="https://web.kangnam.ac.kr/" className='fw-opacity' target='_blank'>강남대학교</a></div>
                                                     <div className="fw-light2 fs-6">경기도 용인시</div>
-                                                    <div className="fw-light2 fs-6 mb-3 highlight">2019. 03. - </div>
+                                                    <div className="fw-light2 fs-6 mb-3 highlight">2019. 03. - 2025. 02.</div>
                                                     <div className="fw-light2 fs-6 mb-3">
                                                         소프트웨어<span className="fw-normal"> 전공</span><br/>가상현실<span className="fw-normal"> 복수전공</span>
                                                     </div>
@@ -74,7 +74,7 @@ function About() {
                                     </div>
                                     <div className="col">
                                         <div className="h-100 overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">Work Experience</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Career</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
@@ -84,7 +84,7 @@ function About() {
                                                         <p className='mb-0 font-letter-space-lsm'>담당 업무</p>
                                                         <p className='mb-0 font-letter-space-lsm'>&middot;　가상현실을 통한 협업 시스템 개발</p>
                                                         <p className='mb-0 font-letter-space-lsm'>&middot;　<a href="https://www.motioncapture.co.kr/moa" target='_blank' className='fw-normal'>모션 캡처 솔루션 MoA</a>와 연동하여 사용되는 시스템</p>
-                                                        <p className='mb-0 font-letter-space-lsm'>&middot;　UI/UX, DB, 네트워크 통신, 보이스채팅 담당 (개발 인원 4명)</p>
+                                                        <p className='mb-0 font-letter-space-lsm'>&middot;　UI/UX, DB, 네트워크 통신, 보이스채팅 담당 개발 (개발 인원 4명)</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -92,14 +92,14 @@ function About() {
                                     </div>
                                     <div className="col">
                                         <div className="h-100 overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">Career / Experience</div>
+                                            <div className="text-black font-11 fs-5 fw-bold m-2">Study / Experience</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col-auto mb-2 font-11 p-4 py-2">
                                                     <div className="fs-4 fw-bold fw-opacity">IPP 첨단산업아카데미</div>
                                                     <div className="fw-light2 text-black fs-6">강남대학교 &middot; 고용노동부 &middot; 한국산업인력공단</div>
                                                     <div className="fw-light2 fs-6 mb-3 highlight">2024. 03. 04. - 2025. 02. 28.</div>
-                                                    <div className="fw-light2 fs-6 mb-3 text-black">SW개발_L5</div>
+                                                    <div className="fw-light2 fs-6 mb-3 text-black">SW개발_L5 과정</div>
                                                     {/*<div className="fw-light2 fs-7">
                                                         <a className="btn btn-sm btn-primary-round px-3 py-1 me-sm-3 fs-6" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>review　<FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
                                                     </div>*/}   
@@ -122,17 +122,17 @@ function About() {
                                             <div className="row row-cols-lg-2 p-2 font-11 rounded-4 mx-2">
                                                 <div className="col-auto mb-4 p-4 py-2">
                                                     <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> C / C# / C++</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">C와 C#, C++을 사용하여 알고리즘을 작성하고 목표한 기능을 클래스를 사용하여 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다.</div>
+                                                    <div className="fw-light2 fs-6 mb-2 text-black">C와 C#, C++을 사용하여 알고리즘을 작성하고 객체지향 언어의 경우, 목표한 기능을 클래스를 사용하여 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다. 제가 생각하는 저의 언어별 숙련도는 다음과 같습니다.</div>
                                                     <div className='fw-light2 text-black'>
-                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C</span><progress id="progress" value="85" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>85%</span></span>
-                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C#</span><progress id="progress" value="75" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>75%</span></span>
-                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C++</span><progress id="progress" value="60" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>60%</span></span>
+                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C</span><progress id="progress" value="75" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>75%</span></span>
+                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C#</span><progress id="progress" value="90" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>90%</span></span>
+                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C++</span><progress id="progress" value="50" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>50%</span></span>
                                                     </div>
                                                 </div>
                                                 <div className="col-auto mb-4 p-4 py-2">
                                                     <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Unity</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">유니티를 사용해 2D/3D 컨텐츠를 제작할 수 있으며, UGUI, UI Toolkit을 활용하여 UI를 제작하는 등 게임 제작에 필요한 기능을 활용할 수 있습니다.
-                                                        현재는 유니티를 사용해 졸업작품으로 전시할 3D 게임인 Orbit을 제작중입니다.
+                                                        유니티를 사용해 대학교 졸업작품으로, 3D 게임인 Orbit을 제작했습니다.
                                                         이 프로젝트에 대해서는 <Link to="/project/orbit" className="btn btn-sm btn-dark-square fs-7 fw-bold2 rounded-3 py-0">여기</Link> 에서 확인하실 수 있습니다.
                                                     </div>
                                                 </div>
@@ -142,15 +142,15 @@ function About() {
                                                 </div> */}
                                                 <div className="col-auto mb-4 p-4 py-2">
                                                     <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> DataBase</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">SQL 프로그래밍을 할 수 있고, DB를 사용하기 위한 MySQL, MariaDB 등의 DBMS를 활용할 수 있습니다. 유니티와의 연동을 통한 개발 경험이 있습니다.</div>
+                                                    <div className="fw-light2 fs-6 mb-2 text-black">SQL 프로그래밍을 할 수 있고, DB를 사용하기 위한 MySQL, MariaDB, Oracle 등의 DBMS를 활용할 수 있습니다. 유니티와 MariaDB의 연동을 통한 개발 경험이 있습니다.</div>
                                                 </div>
                                                 <div className="col-auto mb-4 p-4 py-2">
                                                     <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> HTML5 / CSS / JavaScript</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">HTML, CSS와 JavaScript를 통해 주어진 기능을 수행하는 웹페이지를 구현할 수 있습니다.</div>
+                                                    <div className="fw-light2 fs-6 mb-2 text-black">HTML, CSS와 JavaScript를 통해 원하는 기능을 수행하는 웹페이지를 구현할 수 있습니다.</div>
                                                 </div>
                                                 <div className="col-auto mb-4 p-4 py-2">
                                                     <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> React</div>
-                                                    <div className="fw-light2 fs-6 mb-2 text-black">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다.</div>
+                                                    <div className="fw-light2 fs-6 mb-2 text-black">DOM의 구조를 알고 컴포넌트를 활용하여 SPA방식의 프론트 웹페이지를 제작할 수 있습니다. 본 포트폴리오 사이트가 리액트로 제작되었습니다.</div>
                                                 </div>
                                                 <div className="col-auto mb-4 p-4 py-2">
                                                     <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Processing</div>
