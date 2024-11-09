@@ -86,7 +86,7 @@ function Nav() {
 
   const navbarClass = currentPath === '/' && scrollPos === 0 ? 'navbar-py' : 'navbar-py'; //왼쪽 navbar-py2
   const navbarClass2 = currentPath === '/' && scrollPos === 0 ? 'container-full' : 'container-full'; //왼쪽  container-md 
-  const navbarClass3 = currentPath === '/' && scrollPos === 0 ? 'fs-6' : 'fs-6'; // 왼쪽 fs-5
+  const navbarClass3 = currentPath === '/' && scrollPos === 0 ? 'fs-5-5' : 'fs-5-5'; // 왼쪽 fs-5
 
   // 드롭다운의 가시성을 관리하는 상태
   const [dropdownVisible, setDropdownVisible] = useState(false);
