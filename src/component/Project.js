@@ -284,7 +284,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Portfolio <div className="kor-hidden">portfolio website, 리액트, HTML, CSS, 포트폴리오, 웹사이트, 포폴</div></div><span class="fs-7 prj-kor-trans">　포트폴리오 사이트</span>
+                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Portfolio Site<div className="kor-hidden">portfolio website, 리액트, HTML, CSS, 포트폴리오, 웹사이트, 포폴</div></div><span class="fs-7 prj-kor-trans">　포트폴리오 사이트</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={reactlogo}/></span><span className="text-black">React</span><span className='mx-2 text-black'>|</span><span className="text-black">Website</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
@@ -307,12 +307,12 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>
-                            <hr className='text-black hr-w2'/>
+                            {/* <hr className='text-black hr-w2'/> */}
                         </div>
                     </div>
                 </div>
 
-                <div className="row gx-5 justify-content-center">
+                {/* <div className="row gx-5 justify-content-center">
                     <div className="mb-5">
                         <div className="row row-cols-2 row-cols-lg-2 align-items-stretch g-4 cards">
                             <div className="col">
@@ -377,7 +377,7 @@ function Project() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             </div>
