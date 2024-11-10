@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.47658a1d.css",
-    "main.js": "/static/js/main.2fabd2b9.js",
+    "main.js": "/static/js/main.d6f4270e.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.7ec6aa7e697bb8ffe73b.mp4",
     "static/media/video_short.mp4": "/static/media/video_short.8859057738bd17fbf628.mp4",
@@ -23,8 +23,8 @@
     "static/media/logo.png": "/static/media/logo.6b00042314baabe36784.png",
     "static/media/thum1.png": "/static/media/thum1.5d21f87d346f024045d0.png",
     "static/media/icon_move.mp4": "/static/media/icon_move.62c5ab8b81d865dce0cb.mp4",
+    "static/media/Unity_Orbit.pdf": "/static/media/Unity_Orbit.2629736a513884b82513.pdf",
     "static/media/poster_mazeforest.png": "/static/media/poster_mazeforest.862efc86a25b0d6846fc.png",
-    "static/media/Unity_Orbit.pdf": "/static/media/Unity_Orbit.f7f5058729fd9c4d6c17.pdf",
     "static/media/intro_1.mp4": "/static/media/intro_1.647311df32aff522b835.mp4",
     "static/media/img5.png": "/static/media/img5.1f2551e481d616d806dc.png",
     "static/media/main_video_poster.png": "/static/media/main_video_poster.d714d6c58b5e52abb2d2.png",
@@ -49,6 +49,6 @@
   },
   "entrypoints": [
     "static/css/main.47658a1d.css",
-    "static/js/main.2fabd2b9.js"
+    "static/js/main.d6f4270e.js"
   ]
 }
