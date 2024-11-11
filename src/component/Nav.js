@@ -115,7 +115,7 @@ function Nav() {
                   </label>
                 </button>
                 <div className="collapse navbar-collapse justify-content-center-navbar navbar-left-margin" id="navbarSupportedContent"> {/* navbar-left-margin 가운데 정렬용 */}
-                  <ul className={`navbar-nav mb-2 mb-lg-0 text-uppercase ${navbarClass3}`}>
+                  <ul className={`navbar-nav mb-2 mb-lg-0 text-uppercase font-letter-space-lsm ${navbarClass3}`}>
                     <NavLink exact='true' to="/about" className="nav-link navbar-items" title="Profile"><li className="nav-item font-3 fw-semibold">About</li></NavLink>
                     {/*<NavLink exact='true' to="/link" className="nav-link navbar-items" title="link"><li className="nav-item">링크</li></NavLink>*/}
                     <NavLink exact='true' to="/project" className="nav-link navbar-items" title="Project"><li className="nav-item font-3 fw-semibold">Project</li></NavLink>
