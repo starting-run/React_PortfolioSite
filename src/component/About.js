@@ -52,6 +52,11 @@ function About() {
                             <div className='container-md'>
                                 <div className="row row-cols-1 row-cols-xxl-1 g-4">
                                     <div className="col">
+                                        <div className="h-100 overflow-hidden">
+                                            <div className='text-center align-middle'><div className='font-2 fs-2 fw-bolder'>CHO WOOHYUN</div><div className='font-11 fs-6 align-middle ps-2'>조우현</div></div>
+                                        </div>
+                                    </div>
+                                    <div className="col">
                                         <div className="h-100 overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Education</div>
                                             <hr className='text-black hr-w2'/>
