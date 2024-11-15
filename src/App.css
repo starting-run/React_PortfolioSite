@@ -175,6 +175,7 @@
     --bs-logo-img: url("images/logo_text_dark.png");
     --bs-highlight-text: #fad0ca;
     --bs-real-black : #fff;
+    --mix-blend-mode : color-burn;
   }
   body[data-darkmode=on]{
     color: #fff !important;
@@ -211,6 +212,7 @@
     --bs-logo-img: url("images/logo_text.png");
     --bs-highlight-text: #EF5B2A;
     --bs-real-black : #000;
+    --mix-blend-mode : difference;
     }
 }
 
@@ -250,6 +252,7 @@
   --bs-logo-img: url("images/logo_text.png");
   --bs-highlight-text: #975e55;
   --bs-real-black : #000;
+  --mix-blend-mode : difference;
   }
   body[data-darkmode=off] {
     color: #000 !important;
@@ -281,6 +284,7 @@
     --bs-logo-img: url("images/logo_text_dark.png");
     --bs-highlight-text: #fad0ca;
     --bs-real-black : #fff;
+    --mix-blend-mode : color-burn;
   }
 }
 
@@ -666,7 +670,7 @@
 }
 
 .mix-blend {
-  mix-blend-mode: difference;
+  mix-blend-mode: var(--mix-blend-mode);
 }
 
 .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
