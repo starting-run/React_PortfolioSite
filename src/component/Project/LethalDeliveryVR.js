@@ -218,8 +218,10 @@ function LethalDeliveryVR() {
                                                     <div className="col-lg-4">
                                                         <div className="sticky-top pc-view-only">
                                                         <div className="mb-2 fs-2 fw-bold2 font-11 project-title text-black">LethalDelivery</div><span className="fs-7 font-11">　|　리썰딜리버리　|　VR게임</span>
-                                                            <a href="https://github.com/starting-run/Unity_LethalDeliveryVR" target='_blank' className="btn btn-dark-square mb-5 px-3 py-2 fs-7 fw-bold rounded-3 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
-                                                            <a href={prop2pdf} target='_blank' alt='프로젝트 메인 하단에 업로드 되어있는 기획서로 제작된 게임입니다.' className="btn btn-dark-square mb-5 px-3 py-2 fs-7 fw-bold rounded-3"><FontAwesomeIcon icon={faFileContract} /> 기획서</a>
+                                                            <div className='mb-5'>
+                                                                <a href="https://github.com/starting-run/Unity_LethalDeliveryVR" target='_blank' className="btn btn-dark-square px-3 py-2 fs-7 fw-bold rounded-3 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
+                                                                <a href={prop2pdf} target='_blank' alt='프로젝트 메인 하단에 업로드 되어있는 기획서로 제작된 게임입니다.' className="btn btn-dark-square px-3 py-2 fs-7 fw-bold rounded-3"><FontAwesomeIcon icon={faFileContract} /> 기획서</a>
+                                                            </div>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
                                                                 <div className="fw-bold fs-6-5 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6-5 mb-2 text-black">2024. 04. 15. - 06. 10.</span></div>
                                                                 <div className="fw-bold fs-6-5 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6-5 mb-2 text-black">Unity, C#, SteamVR SDK</span></div>
