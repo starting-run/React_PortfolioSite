@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6745aafc.css",
-    "main.js": "/static/js/main.909c2173.js",
+    "main.css": "/static/css/main.cee87303.css",
+    "main.js": "/static/js/main.7096ebf6.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.7ec6aa7e697bb8ffe73b.mp4",
     "static/media/video_short.mp4": "/static/media/video_short.8859057738bd17fbf628.mp4",
-    "static/media/main_video.mp4": "/static/media/main_video.aa3753b35297fb103605.mp4",
     "static/media/img4.png": "/static/media/img4.4b36a5c3b5850adc0108.png",
     "static/media/img2.png": "/static/media/img2.3725d6c6b4390b444f04.png",
     "static/media/img3.png": "/static/media/img3.fb361f664e692306107b.png",
     "static/media/prop_LethalDeliveryVR.pdf": "/static/media/prop_LethalDeliveryVR.2edce86f86323f7845f0.pdf",
+    "static/media/main_video.mp4": "/static/media/main_video.aa3753b35297fb103605.mp4",
     "static/media/intro.mp4": "/static/media/intro.cc2adcc043c3cdcec70b.mp4",
     "static/media/img1.png": "/static/media/img1.730291358b5429443c5f.png",
     "static/media/img6.png": "/static/media/img6.570c78616efa8b33193c.png",
     "static/media/main1.png": "/static/media/main1.889164dfe898b72bc1c6.png",
     "static/media/main2.png": "/static/media/main2.f10ef59168556f60586c.png",
+    "static/media/main_video-white.mp4": "/static/media/main_video-white.791971b022618e46df67.mp4",
     "static/media/Unity_MazeForest.pdf": "/static/media/Unity_MazeForest.f43482021210c9eda45b.pdf",
     "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
     "static/media/rev_prop_focus_on_you.pdf": "/static/media/rev_prop_focus_on_you.572ef150053edafaf03e.pdf",
@@ -47,7 +48,7 @@
     "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.b6f35a62155fce09e8399ba3dade63d3.svg"
   },
   "entrypoints": [
-    "static/css/main.6745aafc.css",
-    "static/js/main.909c2173.js"
+    "static/css/main.cee87303.css",
+    "static/js/main.7096ebf6.js"
   ]
 }
