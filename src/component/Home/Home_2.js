@@ -68,8 +68,13 @@ function Home_2() {
           </video>
         </div>
         <div className="bg_logo font-2 text-black mix-blend">
-          <div className="fs-0-7 text-center fw-light">
-            <span className="fw-bold fs-0">Fun for everyone</span>
+          <div className="text-center fw-light">
+            <span className="fw-bold fs-0">
+              Fun for{' '}
+              <span className="reveal-text">
+                <span className="reveal-text-inner card-cover-sec2-2 pt-2 px-2">everyone</span>
+              </span>
+            </span>
           </div>
         </div>
       </div>

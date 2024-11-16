@@ -175,7 +175,7 @@
     --bs-logo-img: url("images/logo_text_dark.png");
     --bs-highlight-text: #fad0ca;
     --bs-real-black : #fff;
-    --mix-blend-mode : luminosity;
+    --mix-blend-mode : multiply;
     --bs-video : url("images/main_video-white.mp4");
   }
   body[data-darkmode=on]{
@@ -287,7 +287,7 @@
     --bs-logo-img: url("images/logo_text_dark.png");
     --bs-highlight-text: #fad0ca;
     --bs-real-black : #fff;
-    --mix-blend-mode : luminosity;
+    --mix-blend-mode : multiply;
     --bs-video : url("images/main_video-white.mp4");
   }
 }
@@ -620,9 +620,6 @@
   }
 }
 
-
-
-
 .bg {
   height: 100vh; /* 메인 다 안채우려면 600px */
   width: 100%;
@@ -675,6 +672,27 @@
 
 .mix-blend {
   mix-blend-mode: var(--mix-blend-mode);
+}
+
+.reveal-text {
+  overflow: hidden;
+}
+
+.reveal-text-inner {
+  display: inline-block;
+  position: relative;
+  clip-path: inset(0 100% 0 0);
+  animation: reveal 1s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes reveal {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
 }
 
 .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
