@@ -115,14 +115,14 @@ function Nav() {
                   </label>
                 </button>
                 <div className="collapse navbar-collapse justify-content-center-navbar navbar-left-margin" id="navbarSupportedContent"> {/* navbar-left-margin 가운데 정렬용 */}
-                  <ul className={`navbar-nav mb-2 mb-lg-0 text-uppercase font-letter-space-lsm ${navbarClass3}`}>
+                  <ul className={`navbar-nav mb-2 mb-lg-0 font-letter-space-lsm ${navbarClass3}`}>
                     <NavLink exact='true' to="/about" className="nav-link navbar-items" title="Profile"><li className="nav-item font-3 fw-semibold">About</li></NavLink>
                     {/*<NavLink exact='true' to="/link" className="nav-link navbar-items" title="link"><li className="nav-item">링크</li></NavLink>*/}
                     <NavLink exact='true' to="/project" className="nav-link navbar-items" title="Project"><li className="nav-item font-3 fw-semibold">Project</li></NavLink>
                     <NavLink exact='true' to="/blog" className="nav-link navbar-items" title="blog"><li className="nav-item font-3 fw-semibold">Blog</li></NavLink>
                     <a className="nav-link navbar-items" href="https://github.com/starting-run" target='_blank' title="Github"><li className="nav-item font-3 fw-semibold">Github <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7' id='github-icon'/></li></a>
 
-                    <span className="hamburger-copy text-black pt-5 font-letter-space only-mobile-view font-11">Copyright &copy; Woohyun Cho(STARTING)<br/>All rights reserved.</span>
+                    {/* <span className="hamburger-copy text-black pt-5 font-letter-space only-mobile-view font-11">Copyright &copy; Woohyun Cho(STARTING)<br/>All rights reserved.</span> */}
                     <span className="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
                   </ul>
                 </div>
