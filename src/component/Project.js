@@ -123,7 +123,7 @@ function Project() {
             {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/project">Project</NavLink></div>*/}
                 <div className="row align-items-center justify-content-between pt-5">
                     <div className="col-auto fs-0-7 font-2 fw-bold2 font-letter-space-lg text-black text-uppercase">PROJECT
-                        <div className="mb-5 fs-1 font-11 fw-normal font-letter-space-sm text-black text-uppercase">프로젝트</div>
+                        <div className="mb-5 fs-2 font-11 fw-normal font-letter-space-sm text-black text-uppercase">프로젝트</div>
                         {/*<a href="https://github.com/stars/starting-run/lists/project" target='_blank'>
                             <span className="prj-sub fs-6 fw-normal font-11 font-letter-space-sm">　<FontAwesomeIcon icon={faGithub} /> 깃허브에서 모아보기 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg' />
                             </span>
@@ -160,7 +160,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-lg-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Orbit<div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity, 오르빗</div></div><span class="fs-7 prj-kor-trans">　오르빗</span>
+                                                    <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">오르빗 <div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity, 오르빗</div></div><span class="fs-7 prj-kor-trans">　ORBIT</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={unitylogo}/></span><span className="text-black">Unity 6</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
@@ -192,7 +192,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">LethalDelivery<div className="kor-hidden">LethalDelivery Game, 유니티, 씨샵, C#, Unity, 리썰 딜리버리, 리썰딜리버리</div></div><span class="fs-7 prj-kor-trans">　리썰딜리버리</span>
+                                                    <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">리썰딜리버리 <div className="kor-hidden">LethalDelivery Game, 유니티, 씨샵, C#, Unity, 리썰 딜리버리, 리썰딜리버리</div></div><span class="fs-7 prj-kor-trans">　LethalDelivery</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span><span className='mx-2 text-black'>|</span><span className="text-black">VR Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
@@ -222,7 +222,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Maze Forest<div className="kor-hidden">maze forest game, 유니티, 씨샵, C#, Unity, 미로의 숲, 미로의숲</div></div><span class="fs-7 prj-kor-trans">　미로의 숲</span>
+                                                    <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">미로의 숲 <div className="kor-hidden">maze forest game, 유니티, 씨샵, C#, Unity, 미로의 숲, 미로의숲</div></div><span class="fs-7 prj-kor-trans">　Maze Forest</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
@@ -254,7 +254,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Pacman <div className="kor-hidden">pacman, 팩맨, 프로세싱, processing</div></div><span class="fs-7 prj-kor-trans">　팩맨</span>
+                                                    <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">팩맨 <div className="kor-hidden">pacman, 팩맨, 프로세싱, processing</div></div><span class="fs-7 prj-kor-trans">　Pacman</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={processinglogo}/></span><span className="text-black">Processing</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
@@ -284,7 +284,7 @@ function Project() {
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                                    <div className="country mb-3 fs-1 lh-1 fw-bold font-11 mx-3 project-title text-black">Portfolio Site<div className="kor-hidden">portfolio website, 리액트, HTML, CSS, 포트폴리오, 웹사이트, 포폴</div></div><span class="fs-7 prj-kor-trans">　포트폴리오 사이트</span>
+                                                    <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">포트폴리오<div className="kor-hidden">portfolio website, 리액트, HTML, CSS, 포트폴리오, 웹사이트, 포폴</div></div><span class="fs-7 prj-kor-trans">　Portfolio Website</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img class="logo-box" src={reactlogo}/></span><span className="text-black">React</span><span className='mx-2 text-black'>|</span><span className="text-black">Website</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">

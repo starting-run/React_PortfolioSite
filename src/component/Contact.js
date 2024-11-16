@@ -41,7 +41,7 @@ function Contact() {
                         <div className="mb-5 pt-5">
                         {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>*/}
                         <div className="fs-0-7 font-2 fw-normal font-letter-space-lg text-black text-uppercase">CONTACT</div>
-                        <div className="mb-5 fs-1 font-11 fw-normal font-letter-space-sm text-black text-uppercase">연락처</div>
+                        <div className="mb-5 fs-2 font-11 fw-normal font-letter-space-sm text-black text-uppercase">연락처</div>
                             {/*<div className="text-start">
                                 <div className="h-100 font-11 text-black fs-6 font-letter-space text-uppercase mb-5 pb-5">
                                     <div className="fw-normal">Woohyun Cho</div>

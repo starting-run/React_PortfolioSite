@@ -49,9 +49,9 @@ function Home_3() {
                                 <div className='fs-6 mb-2'><FontAwesomeIcon icon={faGraduationCap}/>　<a href="https://web.kangnam.ac.kr/" target='_blank'>강남대학교</a> 소프트웨어 / 가상현실 복수전공</div>
                                 <div className='fs-6 mb-5'><FontAwesomeIcon icon={faBriefcase}/>　 <a href="https://www.motioncapture.co.kr/" target='_blank'>모션테크놀로지</a> 인턴</div>
                             </div>
-                            <div className="font-11 text-end fs-6 w-100 fw-normal text-black text-uppercase">
-                                <span className=''><NavLink to='/about'>About　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
-                                <div className='only-mobile-view'><br/></div><span className='ps-4'><NavLink to='/contact'>Contact　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
+                            <div className="font-11 text-end fs-6 w-100 fw-normal text-uppercase">
+                                <NavLink to='/about'><span className='btn btn-sm btn-primary-round px-3 py-2 me-sm-3 fs-7 fw-bold rounded-3'>About　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
+                                <NavLink to='/contact'><div className='only-mobile-view'><br/></div><span className='ps-4 btn btn-sm btn-primary-round px-3 py-2 fs-7 fw-bold rounded-3'>Contact　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
                             </div>
                             <hr className=''/>
                             </div>
@@ -77,8 +77,8 @@ function Home_3() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-11 text-start fs-3 mb-2 mt-1 w-100 fw-bold text-black">AI로부터 무력해진 세상을 구원하라</div>
-                            <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">유니티6의 HDRenderPipeline을 사용하여 졸업작품으로 제작 중인 <span className="highlight">오르빗</span> 게임입니다. 고도화된 인공지능이 보편화된 사회에서 사회적 합의와 정책이 뒤따르지 않은 절망적인 결과를 표방합니다. 인공지능에 대한 경각심을 일깨우는 것이 하나의 목표입니다.</div>
+                            <div className="font-11 text-start fs-4 mb-2 mt-1 w-100 fw-bold text-black">AI로부터 무력해진 세상을 구원하라</div>
+                            <div className="font-11 text-start fs-6 mb-5 w-100 fw-light text-black">유니티6의 HDRenderPipeline을 사용하여 졸업작품으로 제작 중인 <span className="highlight">오르빗</span> 게임입니다. 고도화된 인공지능이 보편화된 사회에서 사회적 합의와 정책이 뒤따르지 않은 절망적인 결과를 표방합니다. 인공지능에 대한 경각심을 일깨우는 것이 하나의 목표입니다.</div>
 
                             <div className="col w-100 mb-4 mt-5"> {/*col-lg-12*/}
                                 <div className="card  card-border-0 p-0 rounded-4">
@@ -101,11 +101,13 @@ function Home_3() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="font-11 text-start fs-3 mb-2 mt-1 w-100 fw-bold text-black">수집하고 살아남아, 목표를 달성하라</div>
-                            <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">화제의 게임인 리썰컴퍼니를 모작으로 제작된 게임인 <span className='highlight'>리썰딜리버리</span> 게임입니다. VR HMD를 착용하고 HMD컨트롤러를 사용하여 상호작용하고 게임을 플레이할 수 있습니다. 일정 기간동안 주어진 목표를 달성하여 오랫동안 살아남는 것이 목표입니다.</div>
+                            <div className="font-11 text-start fs-4 mb-2 mt-1 w-100 fw-bold text-black">수집하고 살아남아, 목표를 달성하라</div>
+                            <div className="font-11 text-start fs-6 mb-5 w-100 fw-light text-black">화제의 게임인 리썰컴퍼니를 모작으로 제작된 게임인 <span className='highlight'>리썰딜리버리</span> 게임입니다. VR HMD를 착용하고 HMD컨트롤러를 사용하여 상호작용하고 게임을 플레이할 수 있습니다. 일정 기간동안 주어진 목표를 달성하여 오랫동안 살아남는 것이 목표입니다.</div>
 
 
-                            <div className="font-11 text-end fs-6 mb-5 w-100 fw-normal text-black text-uppercase"><NavLink to='/project'>more project　<FontAwesomeIcon icon={faArrowRight}/></NavLink></div>
+                            <div className="font-11 text-end fs-6 mb-5 w-100 fw-normal text-uppercase">
+                                <NavLink to='/project'><span className='btn btn-sm btn-primary-round px-3 py-2 fs-7 fw-bold rounded-3'>more project　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
+                            </div>
                             
                         </div>
                     </div>

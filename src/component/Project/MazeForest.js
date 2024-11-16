@@ -178,30 +178,30 @@ function MazeForest() {
                                                         <div className="sticky-top pc-view-only">
                                                         <div className="mb-2 fs-1 fw-bold2 font-11 project-title text-black">Maze Forest</div><span class="fs-7 font-11">　|　미로의 숲　|　게임</span>
                                                             <div>
-                                                                <a href="https://github.com/starting-run/Unity_MazeForest" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
-                                                                <a href="https://github.com/starting-run/React_PortfolioSite/raw/main/src/images/Unity/MazeForest/MazeForest_Build.7z" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
+                                                                <a href="https://github.com/starting-run/Unity_MazeForest" target='_blank' className="btn btn-dark-square px-3 py-2 fs-7 fw-bold rounded-3 mb-5 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
+                                                                <a href="https://github.com/starting-run/React_PortfolioSite/raw/main/src/images/Unity/MazeForest/MazeForest_Build.7z" target='_blank' className="btn btn-dark-square px-3 py-2 fs-7 fw-bold rounded-3 mb-5"><FontAwesomeIcon icon={faDownload} /> 빌드 파일</a>
                                                             </div>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 06. 05. - 06. 11.</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">플레이어블 캐릭터를 사용하여, 미로로 구성된 숲을 주어진 문제를 해결해 나가며 탈출하는 교육용 게임임.</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">개발 목표　<span className="fw-light fs-6 mb-2 text-black">가상훈련콘텐츠로써, 훈련 또는 교육에 유익해야하고 직관적이어야 하며, 시나리오를 간단하게 바꿀 수 있어야 함.</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">3인 팀 개발</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6 mb-2 text-black">개발 주도 / 게임 시스템 제작 / UI 구성 및 제작 / 시나리오 엔진 개선 등</span></div>
-                                                                <div className="fw-bold fs-6 highlight px-2">의사 결정　</div>
-                                                                <span className="fw-light fs-6 mb-2 text-black px-2">
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6-5 mb-2 text-black">2024. 06. 05. - 06. 11.</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6-5 mb-2 text-black">Unity, C#</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6-5 mb-2 text-black">플레이어블 캐릭터를 사용하여, 미로로 구성된 숲을 주어진 문제를 해결해 나가며 탈출하는 교육용 게임임.</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">개발 목표　<span className="fw-light fs-6-5 mb-2 text-black">가상훈련콘텐츠로써, 훈련 또는 교육에 유익해야하고 직관적이어야 하며, 시나리오를 간단하게 바꿀 수 있어야 함.</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6-5 mb-2 text-black">3인 팀 개발</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6-5 mb-2 text-black">개발 주도 / 게임 시스템 제작 / UI 구성 및 제작 / 시나리오 엔진 개선 등</span></div>
+                                                                <div className="fw-bold fs-6-5 highlight px-2">의사 결정　</div>
+                                                                <span className="fw-light fs-6-5 mb-2 text-black px-2">
                                                                     &middot; 제한된 일정으로 적당한 퀄리티를 유지해야하면서도 흥미를 이끌어 낼 콘텐츠를 제작해야함.
                                                                     <br/>&middot; 팀 프로젝트로 진행하는만큼 일정 조율이나 담당 파트의 할당이 중요함. 이를 위해 중재자와 리더의 역할로 프로젝트를 진행하였음.
                                                                 </span>
-                                                                <div className="fw-bold fs-6 highlight px-2">구현 기능</div>
-                                                                <span className="fw-light fs-6 mb-2 text-black px-2">
+                                                                <div className="fw-bold fs-6-5 highlight px-2">구현 기능</div>
+                                                                <span className="fw-light fs-6-5 mb-2 text-black px-2">
                                                                     &middot; 통합된 시나리오 엔진 코드를 사용하여 교육 문제의 내용을 개발자가 아니더라도 편리하게 변경할 수 있음.
                                                                     <br/>&middot; 캐릭터와 장애물, 슬로우존, 데스존 등의 맵 상호작용 요소 구현.
                                                                     <br/>&middot; Unity가 URP(Universal Render Pipeline)로 제공하는 라이팅, 포스트 프로세싱을 적절히 활용. 
                                                                 </span>
                                                             </div>
-                                                            <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                            <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
+                                                            <div className="text-black font-4 fs-6-5 fw-normal p-2 font-letter-space-lg">SETUP</div>
+                                                            <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4 fs-6-5">
                                                                 # Unity 2022.3.21f1<br/>
                                                                 Unity_MazeForest.sln
                                                             </div>
@@ -244,7 +244,7 @@ function MazeForest() {
                             </div>
                         </div>
                         <div className="text-end">
-                            <Link to='/project' className="btn btn-outline-dark px-4 py-2-5 fs-6 fw-bolder mt-3 mb-5 rounded-4"><FontAwesomeIcon icon={faBars} />　목록으로</Link>
+                            <Link to='/project' className="btn btn-outline-dark px-3 py-2 fs-7 fw-bold rounded-3 mt-3 mb-5"><FontAwesomeIcon icon={faBars} />　목록으로</Link>
                         </div>
                     </div>
                 </div>

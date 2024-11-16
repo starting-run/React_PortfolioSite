@@ -217,33 +217,33 @@ function LethalDeliveryVR() {
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div className="col-lg-4">
                                                         <div className="sticky-top pc-view-only">
-                                                        <div className="mb-2 fs-1 fw-bold2 font-11 project-title text-black">LethalDelivery</div><span className="fs-7 font-11">　|　리썰딜리버리　|　VR게임</span>
-                                                            <a href="https://github.com/starting-run/Unity_LethalDeliveryVR" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 me-3 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
-                                                            <a href={prop2pdf} target='_blank' alt='프로젝트 메인 하단에 업로드 되어있는 기획서로 제작된 게임입니다.' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faFileContract} /> 기획서</a>
+                                                        <div className="mb-2 fs-2 fw-bold2 font-11 project-title text-black">LethalDelivery</div><span className="fs-7 font-11">　|　리썰딜리버리　|　VR게임</span>
+                                                            <a href="https://github.com/starting-run/Unity_LethalDeliveryVR" target='_blank' className="btn btn-dark-square mb-5 px-3 py-2 fs-7 fw-bold rounded-3 me-3"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a>
+                                                            <a href={prop2pdf} target='_blank' alt='프로젝트 메인 하단에 업로드 되어있는 기획서로 제작된 게임입니다.' className="btn btn-dark-square mb-5 px-3 py-2 fs-7 fw-bold rounded-3"><FontAwesomeIcon icon={faFileContract} /> 기획서</a>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3  border-0 font-11 rounded-4">
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2024. 04. 15. - 06. 10.</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Unity, C#, SteamVR SDK</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6-5 mb-2 text-black">2024. 04. 15. - 06. 10.</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6-5 mb-2 text-black">Unity, C#, SteamVR SDK</span></div>
                                                                 {/* <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">VR로 플레이 할 수 있도록 제작된 LBE(Local Based Entertainment) 게임임.</span></div> */}
-                                                                <div className="fw-bold fs-6 highlight px-2">개발 목표</div>
-                                                                <span className="fw-light fs-6 mb-2 text-black px-2">
+                                                                <div className="fw-bold fs-6-5 highlight px-2">개발 목표</div>
+                                                                <span className="fw-light fs-6-5 mb-2 text-black px-2">
                                                                     &middot; LBE를 이해하고, 이를 기반으로 가상 콘텐츠를 진행할 수 있어야 함.<br/>
                                                                     &middot; VR 기기에 대한 이해를 통해 HMD 디바이스를 활용한 콘텐츠를 제작해야 함.<br/>
                                                                     &middot; 로컬 세이브 파일 저장을 통해 씬 전환시 씬의 변경사항에 대한 데이터를 저장해야 함.<br/>
                                                                 </span>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">4인 팀 개발</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6 mb-2 text-black">게임 시스템 구현(인벤토리, 게임매니저, 씬 이동 등) / 플레이어 기능 구현 / UI 구성 및 디자인 / 디테일 개선 등</span></div>
-                                                                <div className="fw-bold fs-6 highlight px-2">구현 기능</div>
-                                                                <span className="fw-light fs-6 mb-2 text-black px-2">
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6-5 mb-2 text-black">4인 팀 개발</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">담당 파트　<span className="fw-light fs-6-5 mb-2 text-black">게임 시스템 구현(인벤토리, 게임매니저, 씬 이동 등) / 플레이어 기능 구현 / UI 구성 및 디자인 / 디테일 개선 등</span></div>
+                                                                <div className="fw-bold fs-6-5 highlight px-2">구현 기능</div>
+                                                                <span className="fw-light fs-6-5 mb-2 text-black px-2">
                                                                 &middot; 싱글 플레이를 지원하며, 게임 데이터는 자동을 저장되어(*.json) 기록됨.
                                                                 <br/>&middot; VR HMD를 통해 LBE 콘텐츠로 제작되었으며 직접 움직이거나 컨트롤러를 통해 움직여 진행할 수 있음.
                                                                 <br/>&middot; 플레이어와 몬스터, 오브젝트의 상호작용을 통해 효과음과 애니메이션 등이 재생됨.
                                                                 </span>
-                                                                <span className='fs-7 fw-lighter'>* LBE (Local Based Entertainment)</span>
+                                                                <span className='fs-7 fw-lighter fs-6-5'>* LBE (Local Based Entertainment)</span>
                                                             </div>
-                                                            <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
-                                                            <div className="mb-4 px-2 font-11">화제의 게임인 리썰 컴퍼니를 모작으로, 유니티를 통해 VR로 플레이할 수 있도록 제작된 LBE 게임입니다.</div>
-                                                            <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                            <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4">
+                                                            <div className="text-black font-4 fs-6-5 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
+                                                            <div className="mb-4 px-2 font-11 fs-6-5">화제의 게임인 리썰 컴퍼니를 모작으로, 유니티를 통해 VR로 플레이할 수 있도록 제작된 LBE 게임입니다.</div>
+                                                            <div className="text-black font-4 fs-6-5 fw-normal p-2 font-letter-space-lg">SETUP</div>
+                                                            <div className="card card-cover-nonhover p-3 border-0 mb-5 font-11 rounded-4 fs-6-5">
                                                                 # Unity 2021.3.37f1<br/>
                                                                 LethalDelivery_VR.sln   
                                                             </div>
@@ -306,7 +306,7 @@ function LethalDeliveryVR() {
                             </div>
                         </div>
                         <div className="text-end">
-                            <Link to='/project' className="btn btn-outline-dark px-4 py-2-5 fs-6 fw-bolder mt-3 mb-5 rounded-4"><FontAwesomeIcon icon={faBars} />　목록으로</Link>
+                            <Link to='/project' className="btn btn-outline-dark px-3 py-2 fs-7 fw-bold rounded-3 mt-3 mb-5"><FontAwesomeIcon icon={faBars} />　목록으로</Link>
                         </div>
                     </div>
                 </div>

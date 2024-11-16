@@ -161,26 +161,26 @@ class Pacman extends Component {
                                                 <div className="row row-cols-1 row-cols-lg-2 g-4">
                                                     <div className="col-lg-4">
                                                         <div className="sticky-top pc-view-only">
-                                                        <div className="mb-2 fs-1 fw-bold2 font-11 project-title text-black">Pacman</div><span class="fs-7 font-11">　|　팩맨　|　게임</span>
+                                                        <div className="mb-2 fs-2 fw-bold2 font-11 project-title text-black">Pacman</div><span class="fs-7 font-11">　|　팩맨　|　게임</span>
                                                             <div>
-                                                                <a href="https://github.com/starting-run/Processing_Pacman" target='_blank' className="btn btn-dark-square px-4 py-2-5 fs-6 fw-bold mb-5 rounded-4"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
+                                                                <a href="https://github.com/starting-run/Processing_Pacman" target='_blank' className="btn btn-dark-square px-3 py-2 fs-7 fw-bold rounded-3 mb-5"><FontAwesomeIcon icon={faGithub} /> 리포지토리</a> {/* me-3*/}
                                                             </div>
                                                             <div className="mb-3 w-100 card card-cover-nonhover p-3   border-0 font-11 rounded-4">
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6 mb-2 text-black">2023. 09. - 10.</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6 mb-2 text-black">Processing, Java</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6 mb-2 text-black">Pacman 게임을 모티브로 제작된 미니게임. 유령 객체를 피해 사용자 객체를 움직여 많은 점수를 기록하는 것이 목표인 게임임.</span></div>
-                                                                <div className="fw-bold fs-6 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6 mb-2 text-black">1인 개발</span></div>
-                                                                <div className="fw-bold fs-6 highlight px-2">구현 기능</div>
-                                                                <span className="fw-light fs-6 mb-2 text-black px-2">
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">제작 기간　<span className="fw-light fs-6-5 mb-2 text-black">2023. 09. - 10.</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">사용 기술　<span className="fw-light fs-6-5 mb-2 text-black">Processing, Java</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">주요 기능　<span className="fw-light fs-6-5 mb-2 text-black">Pacman 게임을 모티브로 제작된 미니게임. 유령 객체를 피해 사용자 객체를 움직여 많은 점수를 기록하는 것이 목표인 게임임.</span></div>
+                                                                <div className="fw-bold fs-6-5 mb-2 highlight px-2">인원 구성　<span className="fw-light fs-6-5 mb-2 text-black">1인 개발</span></div>
+                                                                <div className="fw-bold fs-6-5 highlight px-2">구현 기능</div>
+                                                                <span className="fw-light fs-6-5 mb-2 text-black px-2">
                                                                     &middot; 매 게임 생성시마다 랜덤으로 새로운 맵 지형 생성
                                                                     <br/>&middot; 매 게임 당 1번만 획득할 수 있는 유니크 아이템을 획득했을 때 우측 하단에 박제하는 기능
                                                                     <br/>&middot; 사용자 객체가 유령 객체에 충돌하였을 때 게임오버 UI를 표출하는 기능
                                                                 </span>
                                                             </div>
-                                                            <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
-                                                            <div className="mb-4 px-2 font-11">인터랙티브 프로그래밍에 흔히 사용되는 Processing을 통해 제작된 게임입니다. 완성도 있는 구현을 위해 기존의 팩맨 게임 원작과는 게임 진행 방식에 약간의 수정을 가미하였습니다.</div>
-                                                            <div className="text-black font-4 fs-6 fw-normal p-2 font-letter-space-lg">SETUP</div>
-                                                            <div className="card card-cover-nonhover p-3  border-0 mb-5 font-11 rounded-4">
+                                                            <div className="text-black font-4 fs-6-5 fw-normal p-2 font-letter-space-lg">SUMMARY</div>
+                                                            <div className="mb-4 px-2 font-11 fs-6-5">인터랙티브 프로그래밍에 흔히 사용되는 Processing을 통해 제작된 게임입니다. 완성도 있는 구현을 위해 기존의 팩맨 게임 원작과는 게임 진행 방식에 약간의 수정을 가미하였습니다.</div>
+                                                            <div className="text-black font-4 fs-6-5 fw-normal p-2 font-letter-space-lg">SETUP</div>
+                                                            <div className="card card-cover-nonhover p-3  border-0 mb-5 font-11 rounded-4 fs-6-5">
                                                                 # 저작권 침해 소지로 인해 빌드 파일과 이미지는 업로드하지 않습니다.<br/>
                                                                 <a href="https://github.com/processing/processing4/releases/download/processing-1293-4.3/processing-4.3-windows-x64.zip"><b>Processing.exe 설치 <span className="highlight">[다운로드]</span></b></a> → Pacman_Game.pde → 실행
                                                             </div>
@@ -224,7 +224,7 @@ class Pacman extends Component {
                             </div> 
                         </div>
                         <div className="text-end">
-                            <Link to='/project' className="btn btn-outline-dark px-4 py-2-5 fs-6 fw-bolder mt-3 mb-5 rounded-4"><FontAwesomeIcon icon={faBars} />　목록으로</Link>
+                            <Link to='/project' className="btn btn-outline-dark px-3 py-2 fs-7 fw-bold rounded-3 mt-3 mb-5"><FontAwesomeIcon icon={faBars} />　목록으로</Link>
                         </div>
                     </div>
                 </div>

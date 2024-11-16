@@ -96,7 +96,7 @@ function Blog_Parse() {
                               <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                   <div className="row row-cols-lg-1">
                                       <div className='col-lg-7 py-4 order-lg-1 order-2'>
-                                          <div className="country mb-3 fs-2 lh-1 fw-bold font-11 mx-3 project-title text-black">{truncatedTitle}</div>
+                                          <div className="country mb-3 fs-2 lh-1 fw-bold2 font-11 mx-3 project-title text-black">{truncatedTitle}</div>
                                           <div className='mx-3 fs-6'><span className="text-black">{truncatedDescription}</span></div>
                                           <ul className="list-unstyled mt-auto small2">
                                               <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-3">

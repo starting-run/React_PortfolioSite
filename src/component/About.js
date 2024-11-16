@@ -42,7 +42,7 @@ function About() {
                         <div className="mb-5 pt-5">
                         {/*<div className="font-11 text-black fw-normal fs-7"><NavLink exact to="/">Home</NavLink> <FontAwesomeIcon icon={faChevronRight}/> <NavLink exact to="/profile">Profile</NavLink></div>*/}
                             <div className="fs-0-7 font-2 fw-normal font-letter-space-lg text-black text-uppercase">ABOUT</div>
-                            <div className="mb-5 fs-1 font-11 fw-normal font-letter-space-sm text-black text-uppercase">프로필</div>
+                            <div className="mb-5 fs-2 font-11 fw-normal font-letter-space-sm text-black text-uppercase">프로필</div>
                             {/*<div className="text-start">
                                 <div className="h-100 font-11 text-black fs-6 font-letter-space text-uppercase mb-5 pb-5">
                                     <div className="fw-normal">Woohyun Cho</div>
@@ -109,7 +109,7 @@ function About() {
                                                     <div className="fw-light2 text-black fs-6">이노베이션아카데미</div>
                                                     <div className="fw-light2 fs-6 mb-3 highlight">2023. 07. 17. - 08. 11.</div>
                                                     <div className="fw-light2 fs-6">
-                                                        <a className="btn btn-sm btn-dark-square px-4 py-2 me-sm-3 fs-6 fw-bold rounded-4" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>돌아보기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
+                                                        <a className="btn btn-sm btn-dark-square px-3 py-2 me-sm-3 fs-7 fw-bold rounded-3" href="https://velog.io/@usfree/42%EC%84%9C%EC%9A%B8-%EB%9D%BC%ED%94%BC%EC%8B%A0-10%EA%B8%B0-1%EC%B0%A8-%ED%9B%84%EA%B8%B0" target='_blank'>돌아보기　<FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -133,7 +133,7 @@ function About() {
                                                     <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Unity</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">유니티를 사용해 2D/3D 컨텐츠를 제작할 수 있으며, UGUI, UI Toolkit을 활용하여 UI를 제작하는 등 게임 제작에 필요한 기능을 활용할 수 있습니다.
                                                         유니티를 사용해 대학교 재학중 여러가지 게임을 제작했고, 졸업작품으로는 Orbit을 제작했습니다.
-                                                        이 프로젝트에 대해서는 <Link to="/project/orbit" className="btn btn-sm btn-dark-square fs-7 fw-bold2 rounded-3 py-0">여기</Link> 에서 확인하실 수 있습니다.
+                                                        이 프로젝트에 대해서는 <Link to="/project/orbit" className="btn btn-sm btn-dark-square fs-7 fw-bold2 rounded-2 py-0">여기</Link> 에서 확인하실 수 있습니다.
                                                     </div>
                                                 </div>
                                                 {/* <div className="col-auto mb-2 p-4 py-2">
