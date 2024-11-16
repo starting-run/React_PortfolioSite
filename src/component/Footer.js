@@ -33,7 +33,7 @@ return (
                 <a className="" href="https://www.acmicpc.net/user/tlrmsjtm77" title="Baekjoon" target='_blank'>BOJ <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a></div>
               <div className="mb-2"><Link className="pe-5" exact='true' to="/about" title="프로필">About</Link>
                 <a className="pe-5 ps-4" href="https://velog.io/@usfree" title="Blog" target='_blank'>Blog <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a>
-                <a className="" href="https://codeforces.com/profile/tlrmsjtm77" title="Codeforces" target='_blank'>　Codeforces <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a></div>
+              </div>
               <div className="mb-2"><Link className="pe-5" exact='true' to="/project" title="프로젝트">Project</Link>
                 <a className="ps-3" href="mailto:ploris576@kangnam.ac.kr?subject=starting.run에서 보내는 메일입니다." title="Mail" target='_blank'>Mail <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7'/></a></div>
             </div>

@@ -146,23 +146,6 @@ function Contact() {
                                                         </div>
                                                     </a>
                                                 </div>
-                                                <div className="col">
-                                                    <a href="https://codeforces.com/profile/tlrmsjtm77" target='_blank'>
-                                                        <div className="img-fluid mb-3">
-                                                            <div className="col">
-                                                                <div className="card card-cover-codeforces h-100 overflow-hidden rounded-4">
-                                                                    <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
-                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faChartBar}/>　Codeforces</span>
-                                                                        <span className="text-end fs-4 card-in-arrow">
-                                                                            <span className="fs-6 px-2 align-middle">tlrmsjtm77　</span>
-                                                                            <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>

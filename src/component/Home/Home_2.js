@@ -6,14 +6,14 @@
 
 import React from 'react';
 import video from '../../images/main_video.mp4'
-import poster from '../../images/main_video_poster.png';
+// import poster from '../../images/main_video_poster.png';
 
 function Home_2() {
   return (
     <div className="mb-2 intro-background">
       <div className="bg bg_type1 text-black shadow-md">
         <div className="bg-video-prj">
-          <video className="bg-video__content" autoPlay muted loop poster={poster}>
+          <video className="bg-video__content" autoPlay muted loop>
             <source src={video} type="video/mp4" />
           </video>
         </div>
