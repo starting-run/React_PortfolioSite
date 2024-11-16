@@ -101,7 +101,7 @@ function Orbit() {
                                                         <div className="font-11 fs-6 fw-normal mb-3">동영상 최종 업데이트 : <span class="fw-bold">{updatedate2}</span></div>
                                                         <div className='card rounded-4 border-0'>
                                                             <div className="card-image-sec0">
-                                                                <iframe src="https://www.youtube.com/embed/MR-p7XxmcoI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                                                <iframe src="https://www.youtube.com/embed/tEdw3UA3ATE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                                             </div>
                                                         </div>
                                                         {/*<img className="mb-2 shadow-lg" src={img2}></img>

@@ -44,12 +44,12 @@ function Home_3() {
                         <div className="col col-lg-12 text-black">
                             <div className="font-11 text-start fs-3 mb-5">안녕하세요, <span className="highlight">게임 클라이언트 개발자</span> 조우현입니다. <span className="lowlight">제가 가장 잘하고 좋아하는 방식으로 사람들에게 즐거움을 주고자 합니다. 무엇이 가장 옳고 효율적일지 창의력을 바탕으로 혁신적인 생각을 하기 위해 끊임없이 고민합니다.</span>
                             <div className='fs-4 mt-5'>
-                                <div className='mb-4'>조우현 <span className="fs-5">/ Woohyun Cho</span></div>
+                                <div className='mb-4 fw-bold2'>조우현 <span className="fs-6 align-middle">/ Woohyun Cho</span></div>
                                 <div className='fs-6 mb-2'><FontAwesomeIcon icon={faAt}/>　 <a href="mailto:ploris576@kangnam.ac.kr?subject=starting.run에서 보내는 메일입니다." target='_blank'>ploris576@kangnam.ac.kr</a></div>
                                 <div className='fs-6 mb-2'><FontAwesomeIcon icon={faGraduationCap}/>　<a href="https://web.kangnam.ac.kr/" target='_blank'>강남대학교</a> 소프트웨어 / 가상현실 복수전공</div>
                                 <div className='fs-6 mb-5'><FontAwesomeIcon icon={faBriefcase}/>　 <a href="https://www.motioncapture.co.kr/" target='_blank'>모션테크놀로지</a> 인턴</div>
                             </div>
-                            <div className="font-11 text-end fs-6 w-100 fw-light text-black">
+                            <div className="font-11 text-end fs-6 w-100 fw-normal text-black text-uppercase">
                                 <span className=''><NavLink to='/about'>About　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
                                 <div className='only-mobile-view'><br/></div><span className='ps-4'><NavLink to='/contact'>Contact　<FontAwesomeIcon icon={faArrowRight}/></NavLink></span>
                             </div>
@@ -59,12 +59,12 @@ function Home_3() {
                             <div className="col w-100 mb-4"> {/*col-lg-12*/}
                                 <div className="card card-border-0 p-0 rounded-4">
                                     <div className="card-image-sec0">
-                                        <iframe src="https://www.youtube.com/embed/MR-p7XxmcoI?autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <iframe src="https://www.youtube.com/embed/tEdw3UA3ATE?autoplay=1&mute=1&controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                                     </div>
                                     <div className='position-absolute bottom-0 start-0 w-100 px-4 d-flex justify-content-center align-items-center'>
                                         <div className='card w-90 card-in-box rounded-3 px-4 border-0 shadow-md position-relative overflow-hidden'>
                                             <div className='bg-blur position-absolute w-100 h-100 top-0 start-0'></div>
-                                            <span className="fs-5 text-black fw-bold py-1 pt-2 text-start">Orbit<span class="fs-7 fw-light"><span className='px-2'>|</span>게임</span></span>
+                                            <span className="fs-5 text-black fw-bold py-1 pt-2 text-start">Orbit<span className="fs-7 fw-light"><span className='px-2'>|</span>게임</span></span>
                                             <div className="d-flex justify-content-between align-items-center w-100 position-relative py-1 pb-2">
                                                 <span className="fs-7 text-black fw-bold">2024. 03. - 2024. 11.</span>
                                                 <NavLink to="/project/orbit" className="text-decoration-none">
@@ -78,7 +78,7 @@ function Home_3() {
                                 </div>
                             </div>
                             <div className="font-11 text-start fs-3 mb-2 mt-1 w-100 fw-bold text-black">AI로부터 무력해진 세상을 구원하라</div>
-                            <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">유니티의 HDRenderPipeline을 사용하여 졸업작품으로 제작 중인 <span className="highlight">오르빗</span> 게임입니다. 고도화된 인공지능이 보편화된 사회에서 사회적 합의와 정책이 뒤따르지 않은 절망적인 결과를 표방합니다. 인공지능에 대한 경각심을 일깨우는 것이 하나의 목표입니다.</div>
+                            <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">유니티6의 HDRenderPipeline을 사용하여 졸업작품으로 제작 중인 <span className="highlight">오르빗</span> 게임입니다. 고도화된 인공지능이 보편화된 사회에서 사회적 합의와 정책이 뒤따르지 않은 절망적인 결과를 표방합니다. 인공지능에 대한 경각심을 일깨우는 것이 하나의 목표입니다.</div>
 
                             <div className="col w-100 mb-4 mt-5"> {/*col-lg-12*/}
                                 <div className="card  card-border-0 p-0 rounded-4">
@@ -88,7 +88,7 @@ function Home_3() {
                                     <div className='position-absolute bottom-0 start-0 w-100 px-4 d-flex justify-content-center align-items-center'>
                                         <div className='card w-90 card-in-box rounded-3 px-4 border-0 shadow-md position-relative overflow-hidden'>
                                             <div className='bg-blur position-absolute w-100 h-100 top-0 start-0'></div>
-                                            <span className="fs-5 text-black fw-bold py-1 pt-2 text-start">LethalDelivery<span class="fs-7 fw-light"><span className='px-2'>|</span>VR게임</span></span>
+                                            <span className="fs-5 text-black fw-bold py-1 pt-2 text-start">LethalDelivery<span className="fs-7 fw-light"><span className='px-2'>|</span>VR게임</span></span>
                                             <div className="d-flex justify-content-between align-items-center w-100 position-relative py-1 pb-2">
                                                 <span className="fs-7 text-black fw-bold">2024. 04. 15. - 06. 10.</span>
                                                 <NavLink to="/project/lethaldeliveryvr" className="text-decoration-none">
@@ -105,7 +105,7 @@ function Home_3() {
                             <div className="font-11 text-start fs-5 mb-5 w-100 fw-light text-black">화제의 게임인 리썰컴퍼니를 모작으로 제작된 게임인 <span className='highlight'>리썰딜리버리</span> 게임입니다. VR HMD를 착용하고 HMD컨트롤러를 사용하여 상호작용하고 게임을 플레이할 수 있습니다. 일정 기간동안 주어진 목표를 달성하여 오랫동안 살아남는 것이 목표입니다.</div>
 
 
-                            <div className="font-11 text-end fs-6 mb-5 w-100 fw-light text-black"><NavLink to='/project'>See more project　<FontAwesomeIcon icon={faArrowRight}/></NavLink></div>
+                            <div className="font-11 text-end fs-6 mb-5 w-100 fw-normal text-black text-uppercase"><NavLink to='/project'>more project　<FontAwesomeIcon icon={faArrowRight}/></NavLink></div>
                             
                         </div>
                     </div>

@@ -52,11 +52,6 @@ function About() {
                             <div className='container-md'>
                                 <div className="row row-cols-1 row-cols-xxl-1 g-4">
                                     <div className="col">
-                                        <div className="h-100 overflow-hidden">
-                                            <div className='text-center align-middle'><div className='font-2 fs-2 fw-bolder'>CHO WOOHYUN</div><div className='font-11 fs-6 align-middle ps-2'>조우현</div></div>
-                                        </div>
-                                    </div>
-                                    <div className="col">
                                         <div className="h-100 overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Education</div>
                                             <hr className='text-black hr-w2'/>
@@ -137,7 +132,7 @@ function About() {
                                                 <div className="col-auto mb-4 p-4 py-2">
                                                     <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Unity</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">유니티를 사용해 2D/3D 컨텐츠를 제작할 수 있으며, UGUI, UI Toolkit을 활용하여 UI를 제작하는 등 게임 제작에 필요한 기능을 활용할 수 있습니다.
-                                                        유니티를 사용해 대학교 졸업작품으로, 3D 게임인 Orbit을 제작했습니다.
+                                                        유니티를 사용해 대학교 재학중 여러가지 게임을 제작했고, 졸업작품으로는 Orbit을 제작했습니다.
                                                         이 프로젝트에 대해서는 <Link to="/project/orbit" className="btn btn-sm btn-dark-square fs-7 fw-bold2 rounded-3 py-0">여기</Link> 에서 확인하실 수 있습니다.
                                                     </div>
                                                 </div>
@@ -146,11 +141,11 @@ function About() {
                                                     <div className="fw-light2 fs-6 mb-2 text-black">C++을 사용하여 언리얼엔진을 활용할 수 있고, 언리얼엔진을 통해 고품질의 게임을 만들기 위해 학습 중입니다.</div>
                                                 </div> */}
                                                 <div className="col-auto mb-4 p-4 py-2">
-                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> DataBase</div>
+                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> Database</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">SQL 프로그래밍을 할 수 있고, DB를 사용하기 위한 MySQL, MariaDB, Oracle 등의 DBMS를 활용할 수 있습니다. 유니티와 MariaDB의 연동을 통한 개발 경험이 있습니다.</div>
                                                 </div>
                                                 <div className="col-auto mb-4 p-4 py-2">
-                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> HTML5 / CSS / JavaScript</div>
+                                                    <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> HTML / CSS / JavaScript</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">HTML, CSS와 JavaScript를 통해 원하는 기능을 수행하는 웹페이지를 구현할 수 있습니다.</div>
                                                 </div>
                                                 <div className="col-auto mb-4 p-4 py-2">

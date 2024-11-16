@@ -175,7 +175,8 @@
     --bs-logo-img: url("images/logo_text_dark.png");
     --bs-highlight-text: #fad0ca;
     --bs-real-black : #fff;
-    --mix-blend-mode : color-burn;
+    --mix-blend-mode : luminosity;
+    --bs-video : url("images/main_video-white.mp4");
   }
   body[data-darkmode=on]{
     color: #fff !important;
@@ -213,6 +214,7 @@
     --bs-highlight-text: #EF5B2A;
     --bs-real-black : #000;
     --mix-blend-mode : difference;
+    --bs-video : url("images/main_video.mp4");
     }
 }
 
@@ -253,6 +255,7 @@
   --bs-highlight-text: #975e55;
   --bs-real-black : #000;
   --mix-blend-mode : difference;
+  --bs-video : url("images/main_video.mp4");
   }
   body[data-darkmode=off] {
     color: #000 !important;
@@ -284,7 +287,8 @@
     --bs-logo-img: url("images/logo_text_dark.png");
     --bs-highlight-text: #fad0ca;
     --bs-real-black : #fff;
-    --mix-blend-mode : color-burn;
+    --mix-blend-mode : luminosity;
+    --bs-video : url("images/main_video-white.mp4");
   }
 }
 
@@ -1703,7 +1707,8 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  object-fit: cover;  
+  object-fit: cover;
+  content : var(--bs-video);
 }
 
 .bg-video__content_main {
