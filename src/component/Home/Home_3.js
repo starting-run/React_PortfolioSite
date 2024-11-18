@@ -50,8 +50,8 @@ function Home_3() {
                                 <div className='fs-6 mb-5'><FontAwesomeIcon icon={faBriefcase}/>　 <a href="https://www.motioncapture.co.kr/" target='_blank'>모션테크놀로지</a> 인턴</div>
                             </div>
                             <div className="font-11 text-end fs-6 w-100 fw-normal text-uppercase">
-                                <NavLink to='/about'><span className='btn btn-sm btn-primary-round px-3 py-2 me-sm-3 fs-7 fw-bold rounded-3'>About　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
-                                <NavLink to='/contact'><div className='only-mobile-view'><br/></div><span className='ps-4 btn btn-sm btn-primary-round px-3 py-2 fs-7 fw-bold rounded-3'>Contact　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
+                                <NavLink to='/about'><span className='btn btn-sm btn-dark-square px-3 py-2 me-sm-3 fs-7 fw-bold rounded-3'>About　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
+                                <NavLink to='/contact'><div className='only-mobile-view'><br/></div><span className='btn btn-sm btn-dark-square px-3 py-2 fs-7 fw-bold rounded-3'>Contact　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
                             </div>
                             <hr className=''/>
                             </div>
@@ -106,7 +106,7 @@ function Home_3() {
 
 
                             <div className="font-11 text-end fs-6 mb-5 w-100 fw-normal text-uppercase">
-                                <NavLink to='/project'><span className='btn btn-sm btn-primary-round px-3 py-2 fs-7 fw-bold rounded-3'>more project　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
+                                <NavLink to='/project'><span className='btn btn-sm btn-dark-square px-3 py-2 fs-7 fw-bold rounded-3'>more project　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
                             </div>
                             
                         </div>
