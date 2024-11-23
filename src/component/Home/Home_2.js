@@ -6,7 +6,7 @@
 
 import React, { useEffect, useState } from 'react';
 import darkVideo from '../../images/main_video.mp4';
-import lightVideo from '../../images/main_video-white.mp4';
+import lightVideo from '../../images/main_video.mp4';
 
 function Home_2() {
   const [videoSrc, setVideoSrc] = useState(lightVideo); // 기본값을 lightVideo로 설정
@@ -67,7 +67,7 @@ function Home_2() {
             <source src={videoSrc} type="video/mp4" />
           </video>
         </div>
-        <div className="bg_logo font-2 text-black mix-blend">
+        <div className="bg_logo font-2 text-black">
           <div className="text-center fw-light">
             <span className="fw-bold fs-0">
               Fun for{' '}
