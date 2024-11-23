@@ -156,7 +156,7 @@
     --bs-black-hover: #a8a8a8;
     --bs-white-rgb: 255, 255, 255;
     --bs-white-gray-rgb: 242, 244, 247;
-    --bs-black-rgb: 50, 50, 50;
+    --bs-black-rgb: 0, 0, 0;
     --btn-outline-dark : #212529;
     --bs-light-rgb: 248, 249, 250;
     --bs-profile-card-rgb: 33, 37, 41;
@@ -265,7 +265,7 @@
     --bs-black-hover: #a8a8a8;
     --bs-white-rgb: 255, 255, 255;
     --bs-white-gray-rgb: 242, 244, 247;
-    --bs-black-rgb: 50, 50, 50;
+    --bs-black-rgb: 0, 0, 0;
     --bs-profile-card-rgb: 33, 37, 41;
     --btn-outline-dark : #212529;
     --bs-light-rgb: 248, 249, 250;
