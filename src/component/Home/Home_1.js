@@ -7,7 +7,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import intro from '../../images/Unity/Orbit/intro.mp4';
 import poster from '../../images/Unity/Orbit/main1.png';
 
@@ -114,9 +114,7 @@ function Home_1() {
                   <div className="text-content_hor text-black">
                     <div className="font-11 font-letter-space fs-1 fw-bold2">오르빗</div>
                     <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">인공지능에게 지배당한 세계로부터 지구를 구원하라</div>
-                    <NavLink to="project/orbit" id="orbit" className="btn btn-dark-square px-4 py-2 fs-6 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} className='align-middle' />
-                    </NavLink>
+                    <NavLink to='project/orbit'><span className='btn btn-sm btn-dark-square px-3 py-2 me-sm-3 fs-7 fw-bold rounded-3'>View　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
                   </div>
                 </div>
               </div>
@@ -132,9 +130,7 @@ function Home_1() {
                   <div className="text-content_hor text-black">
                     <div className="font-11 font-letter-space fs-1 fw-bold2">리썰딜리버리</div>
                     <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">리썰컴퍼니를 원작으로 VR로 제작된 수집/생존 게임</div>
-                    <NavLink to="project/rethaldelivery" id="rethaldelivery" className="btn btn-dark-square px-4 py-2 fs-6 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} className='align-middle' />
-                    </NavLink>
+                    <NavLink to='project/lethaldeliveryvr'><span className='btn btn-sm btn-dark-square px-3 py-2 me-sm-3 fs-7 fw-bold rounded-3'>View　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
                   </div>
                 </div>
               </div>
@@ -150,9 +146,7 @@ function Home_1() {
                   <div className="text-content_hor text-black">
                     <div className="font-11 font-letter-space fs-1 fw-bold2">미로의 숲</div>
                     <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">문제를 풀고 미로의 숲을 빠져나가야 하는 교육용 게임</div>
-                    <NavLink to="project/mazeforest" id="mazeforest" className="btn btn-dark-square px-4 py-2 fs-6 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} className='align-middle' />
-                    </NavLink>
+                    <NavLink to='project/mazeforest'><span className='btn btn-sm btn-dark-square px-3 py-2 me-sm-3 fs-7 fw-bold rounded-3'>View　<FontAwesomeIcon icon={faArrowRight}/></span></NavLink>
                   </div>
                 </div>
               </div>
