@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.82795e40.css",
+    "main.css": "/static/css/main.6eda31ea.css",
     "main.js": "/static/js/main.f255145b.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.7ec6aa7e697bb8ffe73b.mp4",
@@ -33,10 +33,10 @@
     "static/media/pacman.png": "/static/media/pacman.3456d1abda8670b69d54.png",
     "static/media/react.png": "/static/media/react.40d3a3c37272e46bea5a.png",
     "static/media/portfolio.png": "/static/media/portfolio.dff3b6fdf5e2827bd0bc.png",
+    "static/media/logo_text_dark.png": "/static/media/logo_text_dark.adf2172e1b166bc22334.png",
     "static/media/unity.jpg": "/static/media/unity.9fa9921dd8e63bc9f5d9.jpg",
     "static/media/flow2.png": "/static/media/flow2.f3b7b60317dcd3363cce.png",
     "static/media/KRAFTON_FONTWindow.ttf": "/static/media/KRAFTON_FONTWindow.d0874d3434386cdca9c4.ttf",
-    "static/media/logo_text_dark.png": "/static/media/logo_text_dark.ae23f70944e001448aea.png",
     "static/media/logo_text.png": "/static/media/logo_text.e6e8770826d7ed97655c.png",
     "static/media/processing.png": "/static/media/processing.f0dfedac3fb55bf98861.png",
     "static/media/thum.png": "/static/media/thum.667b9c0fb3023cdd3e3b.png",
@@ -45,7 +45,7 @@
     "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.b6f35a62155fce09e8399ba3dade63d3.svg"
   },
   "entrypoints": [
-    "static/css/main.82795e40.css",
+    "static/css/main.6eda31ea.css",
     "static/js/main.f255145b.js"
   ]
 }
