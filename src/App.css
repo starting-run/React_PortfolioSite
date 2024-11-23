@@ -367,7 +367,7 @@
 
 .background-video_hor {
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.5;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -466,10 +466,10 @@
   bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
-  width: 10%;
-  height: 5px;
+  height: 2.5px;
   background-color: var(--bs-white);
   border-radius: 1rem;
+  z-index: 1000;
 }
 
 .progress-bar_hor {
@@ -487,7 +487,7 @@
   left: 0;
   font-size: 2em;
   color: var(--bs-black);
-  z-index: 1000;
+  z-index: 9000;
 }
 
 .scroll-down-indicator_hor-bottom {
@@ -644,7 +644,7 @@
   white-space: nowrap;
 }
 
-.sad-test {
+.toggle-right {
   float: right;
 }
 
@@ -662,7 +662,7 @@
   margin: 0 auto; /* 중앙 정렬 */
 }
 
-.sad-test {
+.toggle-right {
   margin-left: auto; /* 우측 정렬 */
 }
 
@@ -1031,7 +1031,7 @@
     position: relative;
     align-items: center;
     right: 50px;
-    font-size: 35px;
+    font-size: 25px;
     margin-top: 10px;
     border: none !important;
     letter-spacing : 2px !important;
@@ -1099,6 +1099,10 @@
   .project-view-padding {
     padding-left: 1.5rem !important;
     padding-top: 0rem !important;
+  }
+
+  .progress-container_hor {
+    width: 30%;
   }
 }
 
@@ -1284,6 +1288,10 @@
   .project-view-padding {
     padding-left: 3rem !important;
     padding-top: 10.5rem !important;
+  }
+
+  .progress-container_hor {
+    width: 10%;
   }
 }
 
@@ -10075,7 +10083,7 @@ video {
 }
 
 .border-bottom {
-  border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+  border-bottom: var(--bs-border-width) var(--bs-border-style) rgba(var(--bs-black-rgb), 0.5) !important;
 }
 
 .border-bottom-0 {
@@ -11119,6 +11127,10 @@ video {
   font-style: normal !important;
 }
 
+.fw-light0 {
+  font-weight: 100 !important;
+}
+
 .fw-light {
   font-weight: 200 !important;
 }
@@ -11514,7 +11526,7 @@ video {
 
 .bg-video-prj {
   position: absolute; /* 스크롤시 고정은 absolute */
-  opacity: 0.5; /* 원본값 0.15 */
+  opacity: 0.25; /* 원본값 0.15 */
   align-items: center;
   object-fit: cover;
   width: 100%;

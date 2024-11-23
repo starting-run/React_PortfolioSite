@@ -8,7 +8,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
-import intro from '../../images/Unity/Orbit/main_video.mp4';
+import intro from '../../images/Unity/Orbit/intro.mp4';
 import poster from '../../images/Unity/Orbit/main1.png';
 
 import intro1 from '../../images/projects/portfolio_website/intro_video.mp4';
@@ -96,9 +96,9 @@ function Home_1() {
         />
       )}
       <div className="scroll-button_container_hor">
-        <button className="scroll-button_hor left_hor fs-0-5 font-7" onClick={handlePrevSection}>
+        {/* <button className="scroll-button_hor left_hor fs-1 font-4 fw-light0" onClick={handlePrevSection}>
           &lt;
-        </button>
+        </button> */}
         <div className="container_hor_top">
           <div className="container_hor">
             <div className="scroll-container_hor" ref={scrollRef}>
@@ -114,8 +114,8 @@ function Home_1() {
                   <div className="text-content_hor text-black">
                     <div className="font-11 font-letter-space fs-1 fw-bold2">오르빗</div>
                     <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">인공지능에게 지배당한 세계로부터 지구를 구원하라</div>
-                    <NavLink to="project/orbit" id="orbit" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
+                    <NavLink to="project/orbit" id="orbit" className="btn btn-dark-square px-4 py-2 fs-6 fw-bold rounded-4">
+                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} className='align-middle' />
                     </NavLink>
                   </div>
                 </div>
@@ -132,8 +132,8 @@ function Home_1() {
                   <div className="text-content_hor text-black">
                     <div className="font-11 font-letter-space fs-1 fw-bold2">리썰딜리버리</div>
                     <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">리썰컴퍼니를 원작으로 VR로 제작된 수집/생존 게임</div>
-                    <NavLink to="project/rethaldelivery" id="rethaldelivery" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
+                    <NavLink to="project/rethaldelivery" id="rethaldelivery" className="btn btn-dark-square px-4 py-2 fs-6 fw-bold rounded-4">
+                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} className='align-middle' />
                     </NavLink>
                   </div>
                 </div>
@@ -150,13 +150,13 @@ function Home_1() {
                   <div className="text-content_hor text-black">
                     <div className="font-11 font-letter-space fs-1 fw-bold2">미로의 숲</div>
                     <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">문제를 풀고 미로의 숲을 빠져나가야 하는 교육용 게임</div>
-                    <NavLink to="project/mazeforest" id="mazeforest" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
+                    <NavLink to="project/mazeforest" id="mazeforest" className="btn btn-dark-square px-4 py-2 fs-6 fw-bold rounded-4">
+                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} className='align-middle' />
                     </NavLink>
                   </div>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="section_hor"
                 onMouseEnter={() => handleMouseEnter(intro1)}
                 onMouseLeave={handleMouseLeave}
@@ -168,26 +168,26 @@ function Home_1() {
                   <div className="text-content_hor text-black">
                     <div className="font-11 font-letter-space fs-1 fw-bold2">포트폴리오 웹사이트</div>
                     <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">제작된 포트폴리오를 정리하여 게시하기 위한 웹사이트</div>
-                    <NavLink to="project/website" id="website" className="btn btn-dark-square px-4 py-2 fs-5 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} />
+                    <NavLink to="project/website" id="website" className="btn btn-dark-square px-4 py-2 fs-6 fw-bold rounded-4">
+                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} className='align-middle'/>
                     </NavLink>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>
         </div>
-        <button className="scroll-button_hor right_hor fs-0-5 font-7" onClick={handleNextSection}>
+        {/* <button className="scroll-button_hor right_hor fs-1 font-4 fw-light0" onClick={handleNextSection}>
           &gt;
-        </button>
+        </button> */}
       </div>
       <div className="progress-container_hor">
         <div className="progress-bar_hor" style={{ width: `${progress}%` }} />
       </div>
-      <div className="scroll-down-indicator_hor">
+      {/* <div className="scroll-down-indicator_hor">
           <div className="scroll_icon"><span></span><span></span><span></span></div>
-        </div>
+        </div> */}
     </div>
   );
 }

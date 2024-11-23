@@ -67,7 +67,7 @@ function Home_2() {
             <source src={videoSrc} type="video/mp4" />
           </video>
         </div>
-        <div className="bg_logo font-2 text-black">
+        <div className="bg_logo font-2 text-black mix-blend"> {/*mix-blend*/}
           <div className="text-center fw-light">
             <span className="fw-bold fs-0">
               Fun for{' '}

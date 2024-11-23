@@ -14,7 +14,6 @@ import video from '../../images/Unity/Orbit/video.mp4'
 import pdf from '../../images/Unity/Orbit/Unity_Orbit.pdf'
 import img1 from '../../images/Unity/Orbit/logo.png';
 import img2 from '../../images/Unity/Orbit/main1.png';
-import img3 from '../../images/Unity/Orbit/main2.png';
 
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';

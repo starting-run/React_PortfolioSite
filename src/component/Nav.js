@@ -4,7 +4,6 @@ import 'bootstrap/dist/js/bootstrap.bundle';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
-import toast from 'react-hot-toast';
 import ToTopButton from './Function/ToTopButton';
 import DarkModeToggle from './Function/DarkModeToggle';
 
@@ -13,7 +12,6 @@ function Nav() {
   const [isScrollingUp, setIsScrollingUp] = useState(true);
   const [isPC, setIsPC] = useState(window.innerWidth >= 992);
   const [scrollPos, setScrollPos] = useState(0);
-  const [bgColor, setBgColor] = useState(''); 
 
   const location = useLocation();
   const currentPath = location.pathname;
@@ -45,30 +43,9 @@ function Nav() {
     };
   }, [prevScrollPos, isPC]);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scroll = window.pageYOffset;
-      if (scroll >= 50) {
-        setBgColor('scroll-navbar-background');
-      } else {
-        setBgColor('scroll-navbar-background-none');
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   const MoveToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-
-  const notify = () => toast('기기 설정에 따라 라이트/다크모드로 동작하고, 토글도 제공합니다!', {
-    duration: 4000,
-    icon: '👏'
-  });
 
   const mainlogo = () => {
     window.scrollTo(0, 0);
@@ -79,14 +56,11 @@ function Nav() {
       checkbox.checked = false;
     }
   };
-
-  useEffect(() => {
-    //notify();
-  }, []);
-
-  const navbarClass = currentPath === '/' && scrollPos === 0 ? 'navbar-py' : 'navbar-py'; //왼쪽 navbar-py2
-  const navbarClass2 = currentPath === '/' && scrollPos === 0 ? 'container-full' : 'container-full'; //왼쪽  container-md 
-  const navbarClass3 = currentPath === '/' && scrollPos === 0 ? 'fs-5-5' : 'fs-5-5'; // 왼쪽 fs-5
+  
+  const navbarBorder = scrollPos === 0 ? 'border-bottom' : 'border-bottom-0';
+  const bgColor = scrollPos === 0 ? 'scroll-navbar-background-none' : 'scroll-navbar-background';
+  const navbarClass = scrollPos === 0 ? 'navbar-py' : 'navbar-py'; //왼쪽 navbar-py2
+  const navbarClass3 = scrollPos === 0 ? 'fs-5-5' : 'fs-5-5'; // 왼쪽 fs-5
 
   // 드롭다운의 가시성을 관리하는 상태
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -100,9 +74,9 @@ function Nav() {
     <header>
       <div>
         <ToTopButton />
-        <div id="add-fixed" className={`navbar-fixed-attr navbar-mobile-py ${isScrollingUp ? 'show-navbar' : 'hide-navbar'} ${bgColor}`}>
+        <div id="add-fixed" className={`navbar-fixed-attr navbar-mobile-py ${isScrollingUp ? 'show-navbar' : 'hide-navbar'} ${bgColor} ${navbarBorder}`}>
           <nav id="navbarcontrol" className={`navbar navbar-light ${navbarClass} navbar-expand-lg`}>
-            <div id='changecontainer' className={`${navbarClass2} px-4`}>
+            <div id='changecontainer' className={`container-full px-4`}>
                 <NavLink exact='true' to="/" className="navbar-brand" id="mains" onClick={mainlogo} title="Home"><img className="logoimg no-rounded"></img></NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -114,9 +88,9 @@ function Nav() {
                     </svg>
                   </label>
                 </button>
-                <div className="collapse navbar-collapse justify-content-center-navbar navbar-left-margin" id="navbarSupportedContent"> {/* navbar-left-margin 가운데 정렬용 */}
+                <div className="collapse navbar-collapse justify-content-center-navbar navbar-left-margin navbar-upper" id="navbarSupportedContent"> {/* navbar-left-margin 가운데 정렬용 */}
                   <ul className={`navbar-nav mb-2 mb-lg-0 font-letter-space-lsm ${navbarClass3}`}>
-                    <NavLink exact='true' to="/about" className="nav-link navbar-items" title="Profile"><li className="nav-item font-3 fw-semibold">About</li></NavLink>
+                    <NavLink exact='true' to="/about" className="nav-link navbar-items" title="Profile"><li className="nav-item font-3 fw-semibold ㅅㄷ">About</li></NavLink>
                     {/*<NavLink exact='true' to="/link" className="nav-link navbar-items" title="link"><li className="nav-item">링크</li></NavLink>*/}
                     <NavLink exact='true' to="/project" className="nav-link navbar-items" title="Project"><li className="nav-item font-3 fw-semibold">Project</li></NavLink>
                     <NavLink exact='true' to="/blog" className="nav-link navbar-items" title="blog"><li className="nav-item font-3 fw-semibold">Blog</li></NavLink>
@@ -126,7 +100,7 @@ function Nav() {
                     <span className="size-repack"></span> {/* animation 부드럽게 처리하기 위함 */}
                   </ul>
                 </div>
-                <div className="sad-test"><DarkModeToggle/></div>
+                <div className="toggle-right"><DarkModeToggle/></div>
             </div>
           </nav>
         </div>
