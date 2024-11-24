@@ -57,7 +57,7 @@ function Nav() {
     }
   };
   
-  const navbarBorder = scrollPos === 0 ? 'border-bottom' : 'border-bottom-0';
+  const navbarBorder = scrollPos === 0 ? 'border-bottom' : 'border-bottom-0'; {/* currentPath === '/' &&  */}
   const bgColor = scrollPos === 0 ? 'scroll-navbar-background-none' : 'scroll-navbar-background';
   const navbarClass = scrollPos === 0 ? 'navbar-py' : 'navbar-py'; //왼쪽 navbar-py2
   const navbarClass3 = scrollPos === 0 ? 'fs-5-5' : 'fs-5-5'; // 왼쪽 fs-5
@@ -90,7 +90,7 @@ function Nav() {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center-navbar navbar-left-margin navbar-upper" id="navbarSupportedContent"> {/* navbar-left-margin 가운데 정렬용 */}
                   <ul className={`navbar-nav mb-2 mb-lg-0 font-letter-space-lsm ${navbarClass3}`}>
-                    <NavLink exact='true' to="/about" className="nav-link navbar-items" title="Profile"><li className="nav-item font-3 fw-semibold ㅅㄷ">About</li></NavLink>
+                    <NavLink exact='true' to="/about" className="nav-link navbar-items" title="Profile"><li className="nav-item font-3 fw-semibold">About</li></NavLink>
                     {/*<NavLink exact='true' to="/link" className="nav-link navbar-items" title="link"><li className="nav-item">링크</li></NavLink>*/}
                     <NavLink exact='true' to="/project" className="nav-link navbar-items" title="Project"><li className="nav-item font-3 fw-semibold">Project</li></NavLink>
                     <NavLink exact='true' to="/blog" className="nav-link navbar-items" title="blog"><li className="nav-item font-3 fw-semibold">Blog</li></NavLink>

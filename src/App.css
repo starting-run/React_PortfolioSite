@@ -342,6 +342,8 @@
   height: 100vh;
   align-items: center;
   justify-items: center;
+  user-select: none; /* 드래그 중 텍스트 선택 방지 */
+  scroll-snap-type: x mandatory; /* 스냅 효과 추가 */
   /*border-radius: var(--bs-border-radius-xl) !important;*/
 }
 
@@ -359,6 +361,7 @@
   z-index: 10;
   background-color: var(--bs-white);
   transition: all 0.3s;
+  scroll-snap-align: start;
 }
 
 .background-text_hor {
@@ -432,7 +435,7 @@
   transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0);
   border: none;
-  padding: 30px;
+
   cursor: pointer;
   color: var(--bs-black);
   transition: all 0.3s;
@@ -10083,7 +10086,7 @@ video {
 }
 
 .border-bottom {
-  border-bottom: var(--bs-border-width) var(--bs-border-style) rgba(var(--bs-black-rgb), 0.5) !important;
+  border-bottom: var(--bs-border-width) var(--bs-border-style) rgba(var(--bs-black-rgb), 0.2) !important;
 }
 
 .border-bottom-0 {

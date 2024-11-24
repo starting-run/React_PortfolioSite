@@ -10,16 +10,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import intro from '../../images/Unity/Orbit/intro.mp4';
 import poster from '../../images/Unity/Orbit/main1.png';
-
 import intro1 from '../../images/projects/portfolio_website/intro_video.mp4';
 import poster1 from '../../images/portfolio.png';
-
 import intro4 from '../../images/Unity/LethalDeliveryVR/video.mp4';
 import poster4 from '../../images/Unity/LethalDeliveryVR/logo.png';
-
 import intro5 from '../../images/Unity/MazeForest/intro.mp4';
 import poster5 from '../../images/Unity/MazeForest/poster_mazeforest.png';
-
 import intro6 from '../../images/Unity/LethalDeliveryVR/video_short.mp4';
 
 function Home_1() {
@@ -30,6 +26,12 @@ function Home_1() {
   const containerOutRef = useRef(null);
   const [hoveredVideo, setHoveredVideo] = useState(null);
   const [isHovered, setIsHovered] = useState(false);
+  
+  // 드래그 관련 상태 추가
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const [scrollLeft, setScrollLeft] = useState(0);
+  const [dragDistance, setDragDistance] = useState(0);
 
   const resetProgress = () => {
     setProgress(0);
@@ -66,6 +68,49 @@ function Home_1() {
     setIsHovered(false);
   };
 
+  // 드래그 시작
+  const handleMouseDown = (e) => {
+    setIsDragging(true);
+    setStartX(e.pageX - scrollRef.current.offsetLeft);
+    setScrollLeft(scrollRef.current.scrollLeft);
+    setDragDistance(0);
+  };
+
+  // 드래그 중
+  const handleMouseMove = (e) => {
+    if (!isDragging) return;
+    e.preventDefault();
+    const x = e.pageX - scrollRef.current.offsetLeft;
+    const walk = (x - startX) * 3;
+    setDragDistance(Math.abs(walk));
+
+    // 드래그 거리가 50px 이상일 때만 스크롤 적용
+    if (Math.abs(walk) > 50) {
+      const direction = walk > 0 ? -1 : 1;
+      scrollToSection(currentSection + direction);
+      setIsDragging(false);
+    }
+  };
+
+  // 드래그 종료
+  const handleMouseUp = (e) => {
+    if (!isDragging) return;
+    
+    // 드래그 거리가 50px 미만일 경우 원래 섹션으로 돌아감
+    if (dragDistance < 50) {
+      scrollToSection(currentSection);
+    }
+    
+    setIsDragging(false);
+  };
+
+  // 드래그가 창 밖으로 나갔을 때도 종료
+  const handleMouseLeaveContainer = () => {
+    if (isDragging) {
+      handleMouseUp();
+    }
+  };
+
   useEffect(() => {
     sections.current = document.querySelectorAll('.section_hor');
 
@@ -77,7 +122,7 @@ function Home_1() {
         }
         return prev + 1;
       });
-    }, 50); // 0.5초마다 1% 증가
+    }, 50);
 
     return () => {
       clearInterval(progressInterval);
@@ -96,12 +141,17 @@ function Home_1() {
         />
       )}
       <div className="scroll-button_container_hor">
-        {/* <button className="scroll-button_hor left_hor fs-1 font-4 fw-light0" onClick={handlePrevSection}>
-          &lt;
-        </button> */}
         <div className="container_hor_top">
           <div className="container_hor">
-            <div className="scroll-container_hor" ref={scrollRef}>
+            <div 
+              className="scroll-container_hor" 
+              ref={scrollRef}
+              onMouseDown={handleMouseDown}
+              onMouseMove={handleMouseMove}
+              onMouseUp={handleMouseUp}
+              onMouseLeave={handleMouseLeaveContainer}
+              style={{ cursor: isDragging ? 'grabbing' : 'grab' }}
+            >
               <div
                 className="section_hor"
                 onMouseEnter={() => handleMouseEnter(intro)}
@@ -150,38 +200,13 @@ function Home_1() {
                   </div>
                 </div>
               </div>
-              {/* <div
-                className="section_hor"
-                onMouseEnter={() => handleMouseEnter(intro1)}
-                onMouseLeave={handleMouseLeave}
-              >
-                <video className="background-video_hor" poster={poster1} autoPlay muted loop>
-                  <source src={intro1} type="video/mp4" />
-                </video>
-                <div className="text-container_hor">
-                  <div className="text-content_hor text-black">
-                    <div className="font-11 font-letter-space fs-1 fw-bold2">포트폴리오 웹사이트</div>
-                    <div className="font-11 font-letter-space fs-5 fs-bold3 mb-4">제작된 포트폴리오를 정리하여 게시하기 위한 웹사이트</div>
-                    <NavLink to="project/website" id="website" className="btn btn-dark-square px-4 py-2 fs-6 fw-bold rounded-4">
-                      자세히 <FontAwesomeIcon icon={faCircleArrowRight} className='align-middle'/>
-                    </NavLink>
-                  </div>
-                </div>
-              </div> */}
-
             </div>
           </div>
         </div>
-        {/* <button className="scroll-button_hor right_hor fs-1 font-4 fw-light0" onClick={handleNextSection}>
-          &gt;
-        </button> */}
       </div>
       <div className="progress-container_hor">
         <div className="progress-bar_hor" style={{ width: `${progress}%` }} />
       </div>
-      {/* <div className="scroll-down-indicator_hor">
-          <div className="scroll_icon"><span></span><span></span><span></span></div>
-        </div> */}
     </div>
   );
 }
