@@ -124,9 +124,9 @@ function About() {
                                                     <div className="fs-6 fw-bold fw-opacity mb-2"><span className='p-1 highlight me-1'><FontAwesomeIcon icon={faAngleRight}/>_</span> C / C# / C++</div>
                                                     <div className="fw-light2 fs-6 mb-2 text-black">C와 C#, C++을 사용하여 알고리즘을 작성하고 객체지향 언어의 경우, 목표한 기능을 클래스를 사용하여 구현할 수 있으며, 주어진 PS문제를 해결할 수 있습니다. 제가 생각하는 저의 언어별 숙련도는 다음과 같습니다.</div>
                                                     <div className='fw-light2 text-black'>
-                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C</span><progress id="progress" value="75" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>75%</span></span>
-                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C#</span><progress id="progress" value="90" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>90%</span></span>
-                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C++</span><progress id="progress" value="50" min="0" max="100" className='mt-1 w-50'></progress><span className='ps-2 fs-7'>50%</span></span>
+                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C</span><progress id="progress" value="75" min="0" max="100" className='mt-2 w-50'></progress><span className='ps-2 fs-7'>75%</span></span>
+                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C#</span><progress id="progress" value="90" min="0" max="100" className='mt-2 w-50'></progress><span className='ps-2 fs-7'>90%</span></span>
+                                                        <span className='d-flex align-items-center justify-content-center fs-7'><span className='w-fix-40'>C++</span><progress id="progress" value="50" min="0" max="100" className='mt-2 w-50'></progress><span className='ps-2 fs-7'>50%</span></span>
                                                     </div>
                                                 </div>
                                                 <div className="col-auto mb-4 p-4 py-2">

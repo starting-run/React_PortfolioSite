@@ -471,7 +471,6 @@
   transform: translateX(-50%);
   height: 2.5px;
   background-color: var(--bs-white);
-  border-radius: 1rem;
   z-index: 1000;
 }
 
@@ -479,7 +478,6 @@
   height: 100%;
   background-color: var(--bs-black);
   transition: width 0.1s linear;
-  border-radius: 1rem;
 }
 
 
@@ -7638,14 +7636,12 @@ textarea.form-control-lg {
 
 #progress::-webkit-progress-bar {
   background:#f0f0f0;
-  border-radius:3px;
-  height: 50%;
+  height: 35%;
   width: 100%;
   box-shadow: inset 3px 3px 10px #ccc;
 }
 
 #progress::-webkit-progress-value {
-  border-radius:3px;
   background: #EF5B2A;
 }
 
