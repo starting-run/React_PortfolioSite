@@ -6,7 +6,7 @@
 
 import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight, faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faAngleRight, faArrowUp, faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
@@ -57,14 +57,16 @@ function About() {
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
+                                                    <div className='fs-7'><FontAwesomeIcon icon={faGraduationCap} className='pe-2 align-middle'/>학사</div>
                                                     <div className="fs-4 fw-bold"><a href="https://web.kangnam.ac.kr/" className='fw-opacity' target='_blank'>강남대학교</a></div>
                                                     <div className="fw-light2 fs-6">경기도 용인시</div>
-                                                    <div className="fw-light2 fs-6 mb-3 highlight">2019. 03. - 2025. 02.</div>
+                                                    <div className="fw-light2 fs-6 mb-3 highlight">2019. 03. - 2025. 02. (예정)</div>
                                                     <div className="fw-light2 fs-6 mb-3">
                                                         소프트웨어<span className="fw-normal"> 전공</span><br/>가상현실<span className="fw-normal"> 복수전공</span>
                                                     </div>
                                                 </div>
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
+                                                    <div className='fs-7'><FontAwesomeIcon icon={faGraduationCap} className='pe-2 align-middle'/>졸업</div>
                                                     <div className="fs-4 fw-bold"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity' target='_blank'>한성고등학교</a></div>
                                                     <div className="fw-light2 fs-6">서울시 서대문구</div>
                                                     <div className="fw-light2 fs-6 mb-3 highlight">2015. 03. - 2018. 02.</div>
@@ -78,8 +80,9 @@ function About() {
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
-                                                    <div className="fs-4 fw-bold"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>모션테크놀로지</a><span className='align-middle fs-7 fw-opacity fw-normal ps-3'>- 인턴(콘텐츠팀)</span></div>
-                                                    <div className="fw-light2 fs-6 mb-3 highlight">2024. 07. 01. - </div>
+                                                    <div className='fs-7'><FontAwesomeIcon icon={faBriefcase} className='pe-2 align-middle'/>인턴 (콘텐츠팀)</div>
+                                                    <div className="fs-4 fw-bold"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>모션테크놀로지</a></div>
+                                                    <div className="fw-light2 fs-6 mb-3 highlight">2024. 07. 01. - 2025. 02. 28. (예정)</div>
                                                     <div className="fw-light2 fs-6 mb-3">
                                                         <p className='mb-0 font-letter-space-lsm'>담당 업무</p>
                                                         <p className='mb-0 font-letter-space-lsm'>&middot;　가상현실을 통한 협업 시스템 개발</p>
