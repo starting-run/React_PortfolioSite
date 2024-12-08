@@ -21,7 +21,7 @@ import processinglogo from '../images/common/processing.png';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowRightLong, faMagnifyingGlass, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRightLong, faMagnifyingGlass, faMedal, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import toast from 'react-hot-toast';
@@ -163,8 +163,14 @@ function Project() {
                                                     <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">오르빗 <div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity, 오르빗</div></div><span className="fs-7 prj-kor-trans">　ORBIT</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={unitylogo}/></span><span className="text-black">Unity 6</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
-                                                            <span className="fs-7">2024. 03. - 2024. 11.</span>
+                                                        {/* <li className="d-flex align-items-center me-3 mx-3 mt-1">
+                                                            <span className="fs-7">2024. 03. - 2024. 11.
+                                                            </span>
+                                                        </li> */}
+                                                        <li className="d-flex align-items-center me-3 mx-3 mt-1">
+                                                            <span className="card-cover-award p-1 border-0 font-11 rounded-2">
+                                                                    <span className="text-only-black font-11 fs-7 fw-normal"><FontAwesomeIcon icon={faMedal} className='pe-2 align-middle'/>교내 졸업작품전시회 수상</span>
+                                                            </span>
                                                         </li>
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
@@ -195,9 +201,9 @@ function Project() {
                                                     <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">리썰딜리버리 <div className="kor-hidden">LethalDelivery Game, 유니티, 씨샵, C#, Unity, 리썰 딜리버리, 리썰딜리버리</div></div><span className="fs-7 prj-kor-trans">　LethalDelivery</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span><span className='mx-2 text-black'>|</span><span className="text-black">VR Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
+                                                        {/* <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2024. 04. 15. - 06. 10.</span>
-                                                        </li>
+                                                        </li> */}
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
                                                                 <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
@@ -225,9 +231,9 @@ function Project() {
                                                     <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">미로의 숲 <div className="kor-hidden">maze forest game, 유니티, 씨샵, C#, Unity, 미로의 숲, 미로의숲</div></div><span className="fs-7 prj-kor-trans">　Maze Forest</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
+                                                        {/* <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2024. 06. 05. - 06. 11.</span>
-                                                        </li>
+                                                        </li> */}
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
                                                                 <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
@@ -257,9 +263,9 @@ function Project() {
                                                     <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">팩맨 <div className="kor-hidden">pacman, 팩맨, 프로세싱, processing</div></div><span className="fs-7 prj-kor-trans">　Pacman</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={processinglogo}/></span><span className="text-black">Processing</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
+                                                        {/* <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2023. 09. - 10.</span>
-                                                        </li>
+                                                        </li> */}
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
                                                                 <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
@@ -287,9 +293,9 @@ function Project() {
                                                     <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">포트폴리오<div className="kor-hidden">portfolio website, 리액트, HTML, CSS, 포트폴리오, 웹사이트, 포폴</div></div><span className="fs-7 prj-kor-trans">　Portfolio Website</span>
                                                     <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={reactlogo}/></span><span className="text-black">React</span><span className='mx-2 text-black'>|</span><span className="text-black">Website</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
+                                                        {/* <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2023. 10. - 2024. 02.　*지속 업데이트</span>
-                                                        </li>
+                                                        </li> */}
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
                                                                 <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>

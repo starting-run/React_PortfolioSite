@@ -7,7 +7,7 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faBars, faCircleInfo, faDownload, faFileArrowDown, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faBars, faCircleInfo, faDownload, faFileArrowDown, faMedal, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
@@ -85,17 +85,19 @@ function Orbit() {
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8 project-view-padding">
+                                                        <div className="mb-3 w-100 card card-cover-award p-3 border-0 font-11 rounded-4" >
+                                                            <span className="text-only-black font-11 fs-7 fw-normal"><FontAwesomeIcon icon={faMedal} className='pe-2 align-middle'/>2024 소프트웨어응용학부 교내 졸업작품전시회 <span className='fw-bold'>장려상</span> 수상</span>
+                                                        </div>
                                                         <div className="mb-3 w-100 card card-cover-safe p-3 border-0 font-11 rounded-4" >
-                                                            <span className="text-only-white font-11 fs-7"><FontAwesomeIcon icon={faCircleInfo} className='pe-2'/>제작 내역(패치 노트)는 <a href="https://orbit.starting.run/#/patchnote" target='_blank' className='text-only-white'><span class="fw-bold">게임 홈페이지 </span><FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a> 에 기록해두고 있습니다.</span>
+                                                            <span className="text-only-white font-11 fs-7"><FontAwesomeIcon icon={faCircleInfo} className='pe-2 align-middle'/>제작 내역(패치 노트)는 <a href="https://orbit.starting.run/#/patchnote" target='_blank' className='text-only-white'><span class="fw-bold">게임 홈페이지 </span><FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a> 에 기록되어 있습니다.</span>
                                                         </div>
                                                         <div className="font-11 fs-2 fw-bold"><b>Story</b></div>
                                                         <p className="mb-5 font-11">특이점이 온 지구를 배경으로 합니다. 현 지구는 AI(인공지능)의 실효지배를 받고 있으며, 인간은 허용된 행위(놀기, 먹기 등)를 제외한 지식을 쌓는 일체의 행위를 할 수 없습니다. 지식을 갖고 깨어있는 인간은 AI의 적으로 간주됩니다.
                                                             <br/>게임 내 여러 구역이 존재하며, 각 구역별로 AI를 움직일 수 있게 하는 원동력인 <span className="highlight">아레테</span>가 존재합니다. 작 중 주인공은 이 <span className="highlight">아레테</span>를 파괴하여 AI를 막는 역할을 합니다.
                                                             주인공은 깨어있는 지식인을 표방하는 자들의 모인 그룹인 <span className="highlight">이리스</span>에서 행동대원 역할을 하며, 그룹의 조력자는 주인공에게 쿨타임마다 도움을 줄 수 있는 스킬을 제공합니다.</p>
-                                                        <div className="font-11 fs-2 fw-bold"><b>Developing</b></div>
                                                         <div className="font-11 fs-6 fw-normal mb-1">최종 업데이트 : <span class="fw-bold">{updatedate}</span></div>
                                                         <div className="font-11 fs-6 fw-normal mb-3">동영상 최종 업데이트 : <span class="fw-bold">{updatedate2}</span></div>
-                                                        <div className='card rounded-4 border-0'>
+                                                        <div className='card rounded-4 border-0 mb-3'>
                                                             <div className="card-image-sec0">
                                                                 <iframe src="https://www.youtube.com/embed/tEdw3UA3ATE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                                             </div>

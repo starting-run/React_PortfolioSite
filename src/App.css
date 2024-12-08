@@ -1288,7 +1288,7 @@
 
   .project-view-padding {
     padding-left: 3rem !important;
-    padding-top: 10.5rem !important;
+    padding-top: 9.5rem !important;
   }
 
   .progress-container_hor {
@@ -7016,6 +7016,10 @@ textarea.form-control-lg {
 
 .card-cover-safe {
   background-color: #0078C3;
+}
+
+.card-cover-award {
+  background-color: #FFBB00;
 }
 
 .card-border-0 {
