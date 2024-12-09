@@ -74,12 +74,13 @@ function Blog_Parse() {
             {loading ? (  // 로딩 상태일 때 로딩 메시지 표시
             <div className="font-11 text-black fs-5 justify-content-center d-grid pt-7">
               <div className="justify-content-center d-flex mb-3">
-                <div className="ld-ripple">
-                  <div></div>
-                  <div></div>
+                <div class="ui-loader loader-blk">
+                    <svg viewBox="22 22 44 44" class="multiColor-loader">
+                        <circle cx="44" cy="44" r="20.2" fill="none" stroke-width="3.6" class="loader-circle loader-circle-animation"></circle>
+                    </svg>
                 </div>
               </div>
-              <span className="text-center">글 목록을 불러오는 중입니다.<br/>잠시만 기다려주세요.</span>
+              <span className="text-center mt-2">글 목록을 불러오는 중입니다.<br/>잠시만 기다려주세요.</span>
               </div>
           ) : (
             <div className="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 cards">

@@ -508,58 +508,6 @@
 
 
 
-.ld-ripple {
-  position: relative;
-  width: 80px;
-  height: 80px;
-}
-
-.ld-ripple div {
-  position: absolute;
-  border: 4px solid var(--bs-black);
-  opacity: 1;
-  border-radius: 50%;
-  animation: ld-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-}
-
-.ld-ripple div:nth-child(2) {
-  animation-delay: -0.5s;
-}
-
-@keyframes ld-ripple {
-  0% {
-    top: 36px;
-    left: 36px;
-    width: 0;
-    height: 0;
-    opacity: 0;
-  }
-
-  4.9% {
-    top: 36px;
-    left: 36px;
-    width: 0;
-    height: 0;
-    opacity: 0;
-  }
-
-  5% {
-    top: 36px;
-    left: 36px;
-    width: 0;
-    height: 0;
-    opacity: 1;
-  }
-
-  100% {
-    top: 0px;
-    left: 0px;
-    width: 72px;
-    height: 72px;
-    opacity: 0;
-  }
-}
-
 
 .scroll_icon {
   padding-top: 80px;
@@ -1323,6 +1271,85 @@
   background-color: rgba(var(--bs-black-rgb), 0.7);
   transform: translate(-50%, -50%); 
 }*/
+
+/* From Uiverse.io by lenin55 */ 
+/* //codelessly loader style */
+.ui-loader {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.loader-blk {
+  color: #3f51b5;
+  animation: rotate-outer08 1.4s linear infinite;
+}
+
+.multiColor-loader {
+  display: block;
+  animation: color-anim08 1.4s infinite;
+}
+
+.loader-circle {
+  stroke: currentColor;
+}
+
+.MuiCircularProgress-circleStatic {
+  transition: stroke-dashoffset 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
+.loader-circle-animation {
+  animation: rotate-inner08 1.4s ease-in-out
+    infinite;
+  stroke-dasharray: 80px, 200px;
+  stroke-dashoffset: 0;
+}
+
+@keyframes rotate-outer08 {
+  0% {
+    transform-origin: 50% 50%;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-inner08 {
+  0% {
+    stroke-dasharray: 1px, 200px;
+    stroke-dashoffset: 0;
+  }
+
+  50% {
+    stroke-dasharray: 100px, 200px;
+    stroke-dashoffset: -15px;
+  }
+
+  100% {
+    stroke-dasharray: 100px, 200px;
+    stroke-dashoffset: -125px;
+  }
+}
+
+@keyframes color-anim08 {
+  0% {
+    color: #4285f4;
+  }
+
+  25% {
+    color: #ea4335;
+  }
+
+  50% {
+    color: #f9bb2d;
+  }
+
+  75% {
+    color: #34a853;
+  }
+}
+
 
 .loadings {
   width: 4.25em;
