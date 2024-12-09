@@ -7,7 +7,7 @@
 import React, {useEffect } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp, faBars, faCircleInfo, faDownload, faFileArrowDown, faMedal, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUp, faBars, faCircleInfo, faDownload, faFileArrowDown, faMedal, faPenToSquare, faStore, faTriangleExclamation } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 
 import video from '../../images/Unity/Orbit/video.mp4'
@@ -26,9 +26,8 @@ function Orbit() {
     const updatedate2 = "2024. 08. 25." //최종 동영상 업데이트 일자
     const notify = () => toast.error('제작 진행중인 프로젝트입니다!', {duration: 4000});
     const notify2 = () => toast('완성도를 높이기 위해 유료 에셋이 포함되어 있습니다. 리포지토리를 열람하고 싶으시다면 별도의 연락을 부탁드립니다.', {duration: 6000});
-    const notify3 = () => toast.error('제작이 완료된 후 빌드 파일을 제공할 예정입니다.', {duration: 4000});
     useEffect(() => {
-        notify();
+        //notify();
       }, []);
 
       return (
@@ -90,6 +89,9 @@ function Orbit() {
                                                         </div>
                                                         <div className="mb-3 w-100 card card-cover-safe p-3 border-0 font-11 rounded-4" >
                                                             <span className="text-only-white font-11 fs-7"><FontAwesomeIcon icon={faCircleInfo} className='pe-2 align-middle'/>제작 내역(패치 노트)는 <a href="https://orbit.starting.run/#/patchnote" target='_blank' className='text-only-white'><span class="fw-bold">게임 홈페이지 </span><FontAwesomeIcon icon={faArrowUp} className='rot-45deg'/></a> 에 기록되어 있습니다.</span>
+                                                        </div>
+                                                        <div className="mb-3 w-100 card card-cover-safe p-3 border-0 font-11 rounded-4">
+                                                            <span className="text-only-white font-11 fs-7"><FontAwesomeIcon icon={faPenToSquare} className='pe-2 align-middle'/>제작이 완료되어 프로젝트에 관한 자세한 내용을 작성하고 있습니다.</span>
                                                         </div>
                                                         <div className="font-11 fs-2 fw-bold"><b>Story</b></div>
                                                         <p className="mb-5 font-11">특이점이 온 지구를 배경으로 합니다. 현 지구는 AI(인공지능)의 실효지배를 받고 있으며, 인간은 허용된 행위(놀기, 먹기 등)를 제외한 지식을 쌓는 일체의 행위를 할 수 없습니다. 지식을 갖고 깨어있는 인간은 AI의 적으로 간주됩니다.
