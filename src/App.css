@@ -7049,6 +7049,10 @@ textarea.form-control-lg {
   background-color: #FFBB00;
 }
 
+.card-cover-normal {
+  background-color: rgba(var(--bs-black-rgb), 1);
+}
+
 .card-border-0 {
   border: none;
 }
