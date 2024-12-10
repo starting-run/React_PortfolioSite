@@ -168,7 +168,7 @@ function Project() {
                                                             </span>
                                                         </li> */}
                                                         <li className="d-flex align-items-center me-3 mx-3 mt-1">
-                                                            <span className="card-cover-award p-1 border-0 font-11 rounded-2">
+                                                            <span className="card-cover-award p-1 border-0 font-11 rounded-2 px-2">
                                                                     <span className="text-only-black font-11 fs-7 fw-normal"><FontAwesomeIcon icon={faMedal} className='pe-2 align-middle'/>교내 졸업작품전시회 수상</span>
                                                             </span>
                                                         </li>

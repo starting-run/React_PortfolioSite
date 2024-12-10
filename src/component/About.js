@@ -57,7 +57,7 @@ function About() {
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
-                                                    <span className="card-cover-normal p-1 border-0 font-11 rounded-2">
+                                                    <span className="card-cover-normal p-1 border-0 font-11 rounded-2 px-2">
                                                         <span className="text-white font-11 fs-7 fw-normal"><FontAwesomeIcon icon={faGraduationCap} className='pe-2 align-middle'/>학사</span>
                                                     </span>
                                                     <div className="fs-4 fw-bold mt-1"><a href="https://web.kangnam.ac.kr/" className='fw-opacity' target='_blank'>강남대학교</a></div>
@@ -68,7 +68,7 @@ function About() {
                                                     </div>
                                                 </div>
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
-                                                    <span className="card-cover-normal p-1 border-0 font-11 rounded-2">
+                                                    <span className="card-cover-normal p-1 border-0 font-11 rounded-2 px-2">
                                                         <span className="text-white font-11 fs-7 fw-normal"><FontAwesomeIcon icon={faGraduationCap} className='pe-2 align-middle'/>졸업</span>
                                                     </span>
                                                     <div className="fs-4 fw-bold mt-1"><a href="https://hanseong.sen.hs.kr/" className='fw-opacity' target='_blank'>한성고등학교</a></div>
@@ -84,7 +84,7 @@ function About() {
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-lg-2 row-cols-xxl-2 p-2 rounded-4 mx-2">
                                                 <div className="col-auto text-black mb-2 font-11 p-4 py-2">
-                                                    <span className="card-cover-normal p-1 border-0 font-11 rounded-2">
+                                                    <span className="card-cover-normal p-1 border-0 font-11 rounded-2 px-2">
                                                             <span className="text-white font-11 fs-7 fw-normal"><FontAwesomeIcon icon={faBriefcase} className='pe-2 align-middle'/>인턴 / 콘텐츠팀</span>
                                                     </span>
                                                     <div className="fs-4 fw-bold mt-1"><a href="https://www.motioncapture.co.kr/" className='fw-opacity' target='_blank'>모션테크놀로지</a></div>
