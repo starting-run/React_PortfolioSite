@@ -57,7 +57,7 @@ function Nav() {
     }
   };
   
-  const navbarBorder = scrollPos === 0 ? 'border-bottom' : 'border-bottom-0'; {/* currentPath === '/' &&  */}
+  const navbarBorder = currentPath === '/' && scrollPos === 0 ? 'border-bottom' : 'border-bottom-0'; {/* currentPath === '/' &&  */}
   const bgColor = scrollPos === 0 ? 'scroll-navbar-background-none' : 'scroll-navbar-background';
   const navbarClass = scrollPos === 0 ? 'navbar-py' : 'navbar-py'; //왼쪽 navbar-py2
   const navbarClass3 = scrollPos === 0 ? 'fs-5-5' : 'fs-5-5'; // 왼쪽 fs-5
