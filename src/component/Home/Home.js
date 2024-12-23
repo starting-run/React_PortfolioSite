@@ -20,7 +20,7 @@ function Home() {
         exit={{ opacity: 0 }}
         transition={{ duration: 0.3 }}
       >
-        <Helmet><title>STARTING</title></Helmet>
+        <Helmet><title>STARTING - 조우현</title></Helmet>
         <div className="bg-white-gray">
             {/*<Home_1/>*/}
             <Home_1/>
