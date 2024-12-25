@@ -19,6 +19,7 @@ import cursorImage from './images/Cursor.png';
 import Contact from './component/Contact';
 import Blog from './component/Blog';
 import Pacman from './component/Project/Pacman';
+import Embers from './component/Project/Embers';
 
 const App = () => {
   useEffect(() => {
@@ -39,6 +40,7 @@ const App = () => {
         <Route path="/project" element={<Project/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/blog" element={<Blog/>}/>
+        <Route path="/project/embers" element={<Embers/>}/>
         <Route path="/project/lethaldeliveryvr" element={<LethalDeliveryVR/>}/>
         <Route path="/project/orbit" element={<Orbit/>}/>
         <Route path="/project/website" element={<Website/>}/>

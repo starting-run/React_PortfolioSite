@@ -10,6 +10,7 @@ import project4 from '../images/portfolio.png';
 import project5 from '../images/Unity/LethalDeliveryVR/thum1.png';
 import project6 from '../images/Unity/Orbit/intro.mp4';
 import project7 from '../images/Unity/MazeForest/thum.mp4';
+import project8 from '../images/Unity/Embers/Intro.mp4';
 import prop1 from '../images/projects/prop1/thum.png';
 import prop1pdf from '../images/projects/prop1/rev_prop_focus_on_you.pdf';
 import prop2pdf from '../images/projects/prop2/prop_LethalDeliveryVR.pdf';
@@ -109,7 +110,8 @@ function Project() {
     }, []); // 빈 배열을 전달하여 컴포넌트가 마운트될 때만 useEffect가 실행되도록 함.
 
     const notify = () => toast.error('준비중입니다.', {duration: 4000});
-    
+    const notify2 = () => toast('2024년 12월 25일부터 개발 시작한 신규 프로젝트입니다. 아직 페이지가 준비되지 않았습니다.', {duration: 6000});
+
       return (
         <motion.div
         initial={{ opacity: 0 }}
@@ -155,13 +157,48 @@ function Project() {
                     <div className="mb-5">
                         <div className="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 cards">
                             <div className="col">
+                                <a onClick={notify2}>
+                                {/*<NavLink to="embers" id="embers">*/}
+                                    <div className="img-fluid"> 
+                                        <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
+                                            <div className="row row-cols-lg-1">
+                                                <div className='col-lg-7 py-4 order-lg-1 order-2'>
+                                                    <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">잉걸불 <div className="kor-hidden">Embers, 유니티, 씨샵, C#, Unity, 잉걸불, 엠버스</div></div><span className="fs-7 prj-kor-trans">　embers</span>
+                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={unitylogo}/></span><span className="text-black">Unity 6 <span class="fs-8">URP</span></span><span className='mx-2 text-black'>|</span><span className="text-black">게임<span className='mx-2 text-black'>|</span><span className="text-black">MMORPG</span></span></div>
+                                                    <ul className="list-unstyled mt-auto small2">
+                                                        {/* <li className="d-flex align-items-center me-3 mx-3 mt-1">
+                                                            <span className="fs-7">2024. 03. - 2024. 11.
+                                                            </span>
+                                                        </li> */}
+                                                        <li className="d-flex align-items-center mt-5 city">
+                                                            <span className="text-end fs-4 card-in-arrow-left">
+                                                                <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div className='col-lg-5 order-lg-2 order-1'>
+                                                    <div className='card card-border-0 rounded-4 mb-3'>
+                                                        <video className="card-image-main" autoPlay muted loop>
+                                                        <source src={project8} type="video/mp4" />
+                                                        </video>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {/*</NavLink>*/}
+                                </a>
+                            </div>
+                            <hr className='text-black hr-w2'/>
+                            <div className="col">
                                 <NavLink to="orbit" id="orbit">
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-lg-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">오르빗 <div className="kor-hidden">Orbit Game, 유니티, 씨샵, C#, Unity, 오르빗</div></div><span className="fs-7 prj-kor-trans">　ORBIT</span>
-                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={unitylogo}/></span><span className="text-black">Unity 6</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
+                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={unitylogo}/></span><span className="text-black">Unity 6 <span class="fs-8">HDRP</span></span><span className='mx-2 text-black'>|</span><span className="text-black">게임</span><span className='mx-2 text-black'>|</span><span className="text-black">FPS</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         {/* <li className="d-flex align-items-center me-3 mx-3 mt-1">
                                                             <span className="fs-7">2024. 03. - 2024. 11.
@@ -199,7 +236,7 @@ function Project() {
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">리썰딜리버리 <div className="kor-hidden">LethalDelivery Game, 유니티, 씨샵, C#, Unity, 리썰 딜리버리, 리썰딜리버리</div></div><span className="fs-7 prj-kor-trans">　LethalDelivery</span>
-                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span><span className='mx-2 text-black'>|</span><span className="text-black">VR Game</span></div>
+                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span><span className='mx-2 text-black'>|</span><span className="text-black">VR게임</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         {/* <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2024. 04. 15. - 06. 10.</span>
@@ -229,7 +266,7 @@ function Project() {
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">미로의 숲 <div className="kor-hidden">maze forest game, 유니티, 씨샵, C#, Unity, 미로의 숲, 미로의숲</div></div><span className="fs-7 prj-kor-trans">　Maze Forest</span>
-                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
+                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={unitylogo}/></span><span className="text-black">Unity</span><span className='mx-2 text-black'>|</span><span className="text-black">게임</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         {/* <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2024. 06. 05. - 06. 11.</span>
@@ -254,18 +291,18 @@ function Project() {
                                 </NavLink>
                             </div>
                             <hr className='text-black hr-w2'/>
-                            <div className="col">
+                            {/* <div className="col">
                                 <NavLink to="pacman" id="pacman">
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">팩맨 <div className="kor-hidden">pacman, 팩맨, 프로세싱, processing</div></div><span className="fs-7 prj-kor-trans">　Pacman</span>
-                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={processinglogo}/></span><span className="text-black">Processing</span><span className='mx-2 text-black'>|</span><span className="text-black">Game</span></div>
+                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={processinglogo}/></span><span className="text-black">Processing</span><span className='mx-2 text-black'>|</span><span className="text-black">게임</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
-                                                        {/* <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
-                                                            <span className="fs-7">2023. 09. - 10.</span>
-                                                        </li> */}
+                                                        //<li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
+                                                        //    <span className="fs-7">2023. 09. - 10.</span>
+                                                        //</li> 
                                                         <li className="d-flex align-items-center mt-5 city">
                                                             <span className="text-end fs-4 card-in-arrow-left">
                                                                 <FontAwesomeIcon icon={faArrowRightLong} className='go-arrow-noblank'/>
@@ -283,7 +320,7 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>
-                            <hr className='text-black hr-w2'/>
+                            <hr className='text-black hr-w2'/> */}
                             <div className="col">
                                 <NavLink to="website" id="website">
                                     <div className="img-fluid"> 
@@ -291,7 +328,7 @@ function Project() {
                                             <div className="row row-cols-1">
                                                 <div className='col-lg-7 py-4 order-lg-1 order-2'>
                                                     <div className="country mb-3 fs-1-5 lh-1 fw-bold2 font-11 mx-3 project-title text-black">포트폴리오<div className="kor-hidden">portfolio website, 리액트, HTML, CSS, 포트폴리오, 웹사이트, 포폴</div></div><span className="fs-7 prj-kor-trans">　Portfolio Website</span>
-                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={reactlogo}/></span><span className="text-black">React</span><span className='mx-2 text-black'>|</span><span className="text-black">Website</span></div>
+                                                    <div className='mx-3 fs-6'><span className='btn btn-sm ps-0'><img className="logo-box" src={reactlogo}/></span><span className="text-black">React</span><span className='mx-2 text-black'>|</span><span className="text-black">웹사이트</span></div>
                                                     <ul className="list-unstyled mt-auto small2">
                                                         {/* <li className="d-flex align-items-center me-3 mb-5 mx-3 mt-1">
                                                             <span className="fs-7">2023. 10. - 2024. 02.　*지속 업데이트</span>
@@ -313,11 +350,10 @@ function Project() {
                                     </div>
                                 </NavLink>
                             </div>
-                            {/* <hr className='text-black hr-w2'/> */}
+                            {/*<hr className='text-black hr-w2'/>*/}
                         </div>
                     </div>
                 </div>
-
                 {/* <div className="row gx-5 justify-content-center">
                     <div className="mb-5">
                         <div className="row row-cols-2 row-cols-lg-2 align-items-stretch g-4 cards">
