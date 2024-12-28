@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.43e5efb0.css",
-    "main.js": "/static/js/main.4f314546.js",
+    "main.js": "/static/js/main.a494722d.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.7ec6aa7e697bb8ffe73b.mp4",
     "static/media/main_video.mp4": "/static/media/main_video.b7e5fa4b54850c5584ad.mp4",
@@ -17,6 +17,7 @@
     "static/media/intro_video.mp4": "/static/media/intro_video.979e6ee204377c871e2f.mp4",
     "static/media/rev_prop_focus_on_you.pdf": "/static/media/rev_prop_focus_on_you.572ef150053edafaf03e.pdf",
     "static/media/thum.mp4": "/static/media/thum.b0aec6b64f27f26e819a.mp4",
+    "static/media/InGame.png": "/static/media/InGame.5f0434067c2c8f8d0563.png",
     "static/media/Processing_Pacman.mp4": "/static/media/Processing_Pacman.25f0225e0651c7f66e78.mp4",
     "static/media/logo.png": "/static/media/logo.6b00042314baabe36784.png",
     "static/media/thum1.png": "/static/media/thum1.5d21f87d346f024045d0.png",
@@ -32,6 +33,7 @@
     "static/media/unreal.png": "/static/media/unreal.09d47eca66094eec18c4.png",
     "static/media/2.png": "/static/media/2.e565b59bd1bcb4bcdd95.png",
     "static/media/pacman.png": "/static/media/pacman.3456d1abda8670b69d54.png",
+    "static/media/DedicatedServer.png": "/static/media/DedicatedServer.8ee9438296c15882b82f.png",
     "static/media/react.png": "/static/media/react.40d3a3c37272e46bea5a.png",
     "static/media/portfolio.png": "/static/media/portfolio.dff3b6fdf5e2827bd0bc.png",
     "static/media/logo_text_dark.png": "/static/media/logo_text_dark.adf2172e1b166bc22334.png",
@@ -47,6 +49,6 @@
   },
   "entrypoints": [
     "static/css/main.43e5efb0.css",
-    "static/js/main.4f314546.js"
+    "static/js/main.a494722d.js"
   ]
 }
