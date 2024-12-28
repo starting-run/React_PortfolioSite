@@ -157,8 +157,7 @@ function Project() {
                     <div className="mb-5">
                         <div className="row row-cols-1 row-cols-lg-1 align-items-stretch g-4 cards">
                             <div className="col">
-                                <a onClick={notify2}>
-                                {/*<NavLink to="embers" id="embers">*/}
+                                <NavLink to="embers" id="embers">
                                     <div className="img-fluid"> 
                                         <div className="card card-cover-main h-100 overflow-hidden text-black  card-border-0 rounded-4">
                                             <div className="row row-cols-lg-1">
@@ -187,8 +186,7 @@ function Project() {
                                             </div>
                                         </div>
                                     </div>
-                                {/*</NavLink>*/}
-                                </a>
+                                </NavLink>
                             </div>
                             <hr className='text-black hr-w2'/>
                             <div className="col">
