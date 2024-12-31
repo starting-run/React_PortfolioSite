@@ -135,7 +135,7 @@ function Nav() {
   </div>
   <div class="offcanvas-body px-4">
     <div className='mb-5'>
-      <div className='fw-bolder mb-2 font-2 fs-4 highlight'>MENU</div>
+      <div className='fw-bolder mb-2 font-2 fs-3 highlight'>MENU</div>
         <div className='row row-cols-1 row-cols-md-1 fs-4'>
           <NavLink exact='true' to="/about" className="box-click mb-2 text-black" title="Profile" onClick={handleNavLinkClick}>프로필</NavLink>
           <NavLink exact='true' to="/project" className="box-click mb-2 text-black" title="Project" onClick={handleNavLinkClick}>프로젝트</NavLink>
@@ -144,7 +144,7 @@ function Nav() {
         </div>
     </div>
     <div className='mb-5'>
-      <div className='fw-bolder mb-2 font-2 fs-4 highlight'>GAMES</div>
+      <div className='fw-bolder mb-2 font-2 fs-3 highlight'>GAMES</div>
         <div className='row row-cols-1 row-cols-md-1'>
           <a className='col box-click mb-5' href="https://orbit.starting.run">
             <div className='row row-cols-1'>
