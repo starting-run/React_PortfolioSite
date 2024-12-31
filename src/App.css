@@ -94,7 +94,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #1e30f3;
-  --bs-link-hover-color: #EF5B2A;
+  --bs-link-hover-color: #ef5b2a;
   --bs-code-color: #e21e80;
   --bs-highlight-bg: #fff3cd;
   --font-1 : "Bungee", sans-serif;
@@ -644,6 +644,92 @@
 .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
 .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
 
+.burger {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  cursor: pointer;
+  transition: 300ms;
+  border-radius: 10px;
+}
+.burger input[type="checkbox"] {
+  appearance: none;
+  transition: 300ms;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  transition: 300ms;
+  transform-origin: center center;
+}
+
+.burger::before {
+  transform: translateY(8px);
+}
+.burger::after {
+  transform: translateY(-8px);
+}
+.burger .line,
+.burger::before,
+.burger::after {
+  width: 25px;
+  height: 2.1px;
+  display: block;
+  background-color: var(--bs-black);
+  border-radius: 5px;
+  position: absolute;
+}
+
+/* Removed the X shape transformation */
+
+.burger:hover {
+  background: rgba(var(--bs-black-rgb), 0.3);
+  border-radius: 50%;
+}
+
+.burger:hover .line,
+.burger:hover::before,
+.burger:hover::after {
+  background: var(--bs-black);
+}
+
+.burger:active {
+  scale: 0.95;
+}
+
+.box-click {
+  position: relative;
+  cursor: pointer;
+  padding:5px;
+}
+
+.box-click::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(239, 91, 42, 0.2);
+  opacity: 0;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.box-click:hover::before {
+  opacity: 1;
+}
+
+.box-click span {
+  position: relative;
+  z-index: 1;
+}
+
 .main-btn {
   cursor: pointer;
 }
@@ -1055,8 +1141,8 @@
   }
 }
 
-.navbar-left-margin {
-  margin-left: 40px;
+.navbar-right-margin {
+  margin-right: 40px;
 }
 
 
@@ -1145,9 +1231,7 @@
   .justify-content-center-navbar{
     justify-content: center;
   }
-  .navbar-brand {
-    position: absolute;
-  }
+
   .navbar-items {
     margin-left: 30px;
     margin-right: 30px;
@@ -2622,6 +2706,16 @@ progress {
   z-index: 0;
   width: 100%;
   height: 280px;
+  /*filter: opacity(50%);
+  -webkit-filter: opacity(50%);  /*For Safari */
+  object-fit: cover;
+  transition-duration: 0.3s;
+}
+
+.card-image-navbar-hamburger {
+  z-index: 0;
+  width: 100%;
+  height: 200px;
   /*filter: opacity(50%);
   -webkit-filter: opacity(50%);  /*For Safari */
   object-fit: cover;
