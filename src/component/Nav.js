@@ -86,7 +86,7 @@ function Nav() {
     <header>
       <div>
         <ToTopButton />
-        <div id="add-fixed" className={`navbar-fixed-attr navbar-mobile-py ${isScrollingUp ? 'show-navbar' : 'hide-navbar'} ${bgColor} ${navbarBorder}`}>
+        <div id="add-fixed" className={`navbar-fixed-attr ${isScrollingUp ? 'show-navbar' : 'hide-navbar'} ${bgColor} ${navbarBorder}`}>
           <nav id="navbarcontrol" className={`navbar navbar-light ${navbarClass} navbar-expand-lg`}>
             <div id='changecontainer' className={`container-full px-2`}>
               <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">

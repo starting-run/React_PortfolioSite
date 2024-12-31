@@ -820,18 +820,6 @@
   filter: opacity(55%);
 }
 
-.wave {
-  position: absolute;
-  width: 500px;
-  height: 500px;
-  opacity: 0.6;
-  left: 0;
-  top: 0;
-  margin-left: 35%;
-  margin-top: 0%;
-  background: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%);
-}
-
 .icon {
   width: 3em;
   margin-top: -1em;
@@ -853,52 +841,6 @@
   font-weight: 100;
   position: relative;
   top: 0.1em;
-}
-
-.wave:nth-child(2) {
-  top: 210px;
-  left: 150px;
-}
-
-.wave:nth-child(3) {
-  top: 130px;
-  left: -150px;
-}
-
-.playing .wave {
-  border-radius: 40%;
-  animation: wave 6000ms infinite linear;
-}
-
-.wave {
-  border-radius: 40%;
-  animation: wave 55s infinite linear;
-}
-
-.playing .wave:nth-child(2) {
-  animation-duration: 4000ms;
-}
-
-.wave:nth-child(2) {
-  animation-duration: 50s;
-}
-
-.playing .wave:nth-child(3) {
-  animation-duration: 5000ms;
-}
-
-.wave:nth-child(3) {
-  animation-duration: 45s;
-}
-
-@keyframes wave {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 .credit {
@@ -1026,10 +968,6 @@
     background: rgba(var(--bs-white-rgb), 0.4);
     transition: all 0.3s;
     /*box-shadow: 0px 5px 10px rgba(0,0,0,0.1);*/
-  }
-  .navbar-mobile-py {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
   }
   .InputContainer {
     display: none !important;
@@ -1865,13 +1803,6 @@
   z-index: 1;
 }
 
-.goodimg {
-  position: fixed;
-  z-index: 5;
-  right: 10px;
-  top: 70px;
-}
-
 /* Award */
 .award1 {
   display: none; 
@@ -1892,94 +1823,6 @@
 .hidden {
   display: none;
 }
-
-/****************
-universe 공통 영역
-*****************/
-.universe {
-  position: fixed;
-  top: 0;
-  width: 100%;
-	z-index: 100;
-  height: 40px;
-  background-color: var(--universe-rgba);
-  color: #fff;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);  /*For Safari */
-  filter: var(--bs-drop-shadow);
-}
-
-.universe .items {
-  color: #fff;
-}
-
-.universe .items:hover {
-  color: #e21e80;
-}
-
-/* modal */
-#modalOpenButton {
-  cursor: pointer;
-  right: 5%;
-  color: #fff;
-}
-
-#modalCloseButton {
-  right: 5%;
-  cursor: pointer;
-  text-align: right;
-  color: #fff;
-}
-
-#modalContainer {
-  width: 100%;
-  height: 15%;
-  position: fixed;
-  top: 40px;
-  left: 0;
-  display: flex;/*
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.7);*/
-  z-index: 9999;
-  transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1);
-  background-color: var(--universe-rgba);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(10px);  /*For Safari */
-  box-shadow: 0px 15px 10px rgba(0,0,0,0.1);
-}
-
-#modalContent {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  padding: 40px;
-  color: #fff;
-  /*border-radius: 5px;*/
-  transition: all 600ms cubic-bezier(0.86, 0, 0.07, 1);
-}
-
-#modalContainer.hidden {
-  display: hidden;
-  height: 0%;
-}
-
-#modalContent.hidden {
-  display: hidden;
-  padding-top: 0px;
-}
-
-#modalOpenButton.hidden {
-  display: none;
-}
-
-#modalCloseButton.hidden {
-  display: none;
-}
-
-/****************
-universe 공통 영역 끝
-*****************/
 
 .font-1 {
   font-family: var(--font-1);
@@ -2869,8 +2712,8 @@ progress {
     transition: all 0.3s;
   }
   .navbar-py {
-    padding-top: 0.8rem !important;
-    padding-bottom: 0.8rem !important;
+    padding-top: 0.4rem !important;
+    padding-bottom: 0.4rem !important;
   }
   .navbar-py2 {
     padding-top: 5rem !important;
