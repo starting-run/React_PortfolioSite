@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/js/bootstrap.bundle';
 
@@ -60,6 +60,15 @@ function Nav() {
     // }
   };
   
+  const closeButtonRef = useRef(null);
+
+  const handleNavLinkClick = () => {
+    // "닫기" 버튼의 클릭 이벤트를 수동으로 트리거
+    if (closeButtonRef.current) {
+      closeButtonRef.current.click();
+    }
+  };
+
   const navbarBorder = currentPath === '/' && scrollPos === 0 ? 'border-bottom' : 'border-bottom-0'; {/* currentPath === '/' &&  */}
   const bgColor = scrollPos === 0 ? 'scroll-navbar-background-none' : 'scroll-navbar-background';
   const navbarClass = scrollPos === 0 ? 'navbar-py' : 'navbar-py'; //왼쪽 navbar-py2
@@ -120,7 +129,7 @@ function Nav() {
         <div class="offcanvas offcanvas-start bg-white" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
-    <a type="button" className="box-click" data-bs-dismiss="offcanvas" aria-label="Close">
+    <a ref={closeButtonRef} type="button" className="box-click" data-bs-dismiss="offcanvas" aria-label="Close">
       <FontAwesomeIcon icon={faXmark} className='fa-xl text-black'/> 
     </a>
   </div>
@@ -128,10 +137,10 @@ function Nav() {
     <div className='mb-5'>
       <div className='fw-bolder mb-2 font-2 fs-4 highlight'>MENU</div>
         <div className='row row-cols-1 row-cols-md-1 fs-4'>
-          <NavLink exact='true' to="/about" className="box-click mb-2 text-black" title="Profile">프로필</NavLink>
-          <NavLink exact='true' to="/project" className="box-click mb-2 text-black" title="Project">프로젝트</NavLink>
-          <NavLink exact='true' to="/blog" className="box-click mb-2 text-black" title="blog">블로그</NavLink>
-          <a href="https://github.com/starting-run" target='_blank' className="box-click text-black" title="Github">깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7' id='github-icon'/></a>
+          <NavLink exact='true' to="/about" className="box-click mb-2 text-black" title="Profile" onClick={handleNavLinkClick}>프로필</NavLink>
+          <NavLink exact='true' to="/project" className="box-click mb-2 text-black" title="Project" onClick={handleNavLinkClick}>프로젝트</NavLink>
+          <NavLink exact='true' to="/blog" className="box-click mb-2 text-black" title="blog" onClick={handleNavLinkClick}>블로그</NavLink>
+          <a href="https://github.com/starting-run" target='_blank' className="box-click text-black" title="Github" onClick={handleNavLinkClick}>깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7' id='github-icon'/></a>
         </div>
     </div>
     <div className='mb-5'>
