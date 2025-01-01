@@ -127,55 +127,55 @@ function Nav() {
         </div>
 
         <div class="offcanvas offcanvas-start bg-white" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
-    <a ref={closeButtonRef} type="button" className="box-click" data-bs-dismiss="offcanvas" aria-label="Close">
-      <FontAwesomeIcon icon={faXmark} className='fa-xl text-black'/> 
-    </a>
-  </div>
-  <div class="offcanvas-body px-4">
-    <div className='mb-5'>
-      <div className='fw-bolder mb-2 font-2 fs-3 highlight'>MENU</div>
-        <div className='row row-cols-1 row-cols-md-1 fs-4'>
-          <NavLink exact='true' to="/about" className="box-click mb-2 text-black" title="Profile" onClick={handleNavLinkClick}>프로필</NavLink>
-          <NavLink exact='true' to="/project" className="box-click mb-2 text-black" title="Project" onClick={handleNavLinkClick}>프로젝트</NavLink>
-          <NavLink exact='true' to="/blog" className="box-click mb-2 text-black" title="blog" onClick={handleNavLinkClick}>블로그</NavLink>
-          <a href="https://github.com/starting-run" target='_blank' className="box-click text-black" title="Github" onClick={handleNavLinkClick}>깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7' id='github-icon'/></a>
-        </div>
-    </div>
-    <div className='mb-5'>
-      <div className='fw-bolder mb-2 font-2 fs-3 highlight'>GAMES</div>
-        <div className='row row-cols-1 row-cols-md-1'>
-          <a className='col box-click mb-5' href="https://orbit.starting.run" target='_blank'>
-            <div className='row row-cols-1'>
-              <div class="col-12 rounded-4 border-0 ">
-                <video className="card-image-navbar-hamburger rounded-4" autoPlay muted loop>
-                  <source src={games_orbit} type="video/mp4" />
-                  </video>
-              </div>
-              <div class="col-12 px-3">
-                <div class="card-title fw-bolder mb-1 text-black fs-4">Orbit</div>
-                <div class="card-text text-black">AI에게 지배당한 세상을 구원하라</div>
-              </div>
+          <div class="offcanvas-header">
+            <a ref={closeButtonRef} type="button" className="box-click" data-bs-dismiss="offcanvas" aria-label="Close">
+              <FontAwesomeIcon icon={faXmark} className='fa-xl text-black align-middle'/><span class="font-11 ps-2 text-black"> 닫기</span>
+            </a>
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+          </div>
+          <div class="offcanvas-body px-4">
+            <div className='mb-5'>
+              <div className='fw-bolder mb-2 font-2 fs-3 highlight'>MENU</div>
+                <div className='row row-cols-1 row-cols-md-1 fs-4'>
+                  <NavLink exact='true' to="/about" className="box-click mb-2 text-black" title="Profile" onClick={handleNavLinkClick}>프로필</NavLink>
+                  <NavLink exact='true' to="/project" className="box-click mb-2 text-black" title="Project" onClick={handleNavLinkClick}>프로젝트</NavLink>
+                  <NavLink exact='true' to="/blog" className="box-click mb-2 text-black" title="blog" onClick={handleNavLinkClick}>블로그</NavLink>
+                  <a href="https://github.com/starting-run" target='_blank' className="box-click text-black" title="Github" onClick={handleNavLinkClick}>깃허브 <FontAwesomeIcon icon={faArrowUp} className='rot-45deg fs-7' id='github-icon'/></a>
+                </div>
             </div>
-          </a>
-          <a className='col box-click' href="https://embers.starting.run" target='_blank'>
-            <div className='row row-cols-1'>
-              <div class="col-12 rounded-4 border-0 ">
-                <video className="card-image-navbar-hamburger rounded-4" autoPlay muted loop>
-                  <source src={games_embers} type="video/mp4" />
-                  </video>
+            <div className='mb-5'>
+              <div className='fw-bolder mb-2 font-2 fs-3 highlight'>GAMES</div>
+                <div className='row row-cols-1 row-cols-md-1'>
+                  <a className='col box-click mb-5' href="https://orbit.starting.run" target='_blank'>
+                    <div className='row row-cols-1'>
+                      <div class="col-12 rounded-4 border-0 ">
+                        <video className="card-image-navbar-hamburger rounded-4" autoPlay muted loop>
+                          <source src={games_orbit} type="video/mp4" />
+                          </video>
+                      </div>
+                      <div class="col-12 px-3">
+                        <div class="card-title fw-bolder mb-1 text-black fs-4">Orbit</div>
+                        <div class="card-text text-black">AI에게 지배당한 세상을 구원하라</div>
+                      </div>
+                    </div>
+                  </a>
+                  <a className='col box-click' href="https://embers.starting.run" target='_blank'>
+                    <div className='row row-cols-1'>
+                      <div class="col-12 rounded-4 border-0 ">
+                        <video className="card-image-navbar-hamburger rounded-4" autoPlay muted loop>
+                          <source src={games_embers} type="video/mp4" />
+                          </video>
+                      </div>
+                      <div class="col-12 px-3">
+                        <div class="card-title fw-bolder mb-1 text-black fs-4">잉걸불</div>
+                        <div class="card-text text-black">지친 마음을 달래며 힐링하는 MMORPG</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
-              <div class="col-12 px-3">
-                <div class="card-title fw-bolder mb-1 text-black fs-4">잉걸불</div>
-                <div class="card-text text-black">지친 마음을 달래며 힐링하는 MMORPG</div>
-              </div>
-            </div>
-          </a>
+          </div>
         </div>
-      </div>
-  </div>
-</div>
       </div>
     </header>
   );
