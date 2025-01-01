@@ -699,10 +699,6 @@
   background: var(--bs-black);
 }
 
-.burger:active {
-  scale: 0.95;
-}
-
 .box-click {
   position: relative;
   cursor: pointer;
