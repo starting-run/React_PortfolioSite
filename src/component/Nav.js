@@ -146,7 +146,7 @@ function Nav() {
     <div className='mb-5'>
       <div className='fw-bolder mb-2 font-2 fs-3 highlight'>GAMES</div>
         <div className='row row-cols-1 row-cols-md-1'>
-          <a className='col box-click mb-5' href="https://orbit.starting.run">
+          <a className='col box-click mb-5' href="https://orbit.starting.run" target='_blank'>
             <div className='row row-cols-1'>
               <div class="col-12 rounded-4 border-0 ">
                 <video className="card-image-navbar-hamburger rounded-4" autoPlay muted loop>
@@ -159,7 +159,7 @@ function Nav() {
               </div>
             </div>
           </a>
-          <a className='col box-click' href="https://embers.starting.run">
+          <a className='col box-click' href="https://embers.starting.run" target='_blank'>
             <div className='row row-cols-1'>
               <div class="col-12 rounded-4 border-0 ">
                 <video className="card-image-navbar-hamburger rounded-4" autoPlay muted loop>
