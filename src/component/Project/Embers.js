@@ -22,7 +22,7 @@ import { motion } from 'framer-motion';
 
 
 function Embers() {
-    const updatedate = "2024. 12. 29." //최종 업데이트 일자
+    const updatedate = "2025. 1. 1." //최종 업데이트 일자
     const updatedate2 = "2099. 99. 99." //최종 동영상 업데이트 일자
     const notify = () => toast.error('제작 초기 단계 프로젝트입니다.', {duration: 4000});
     const notify2 = () => toast('완성도를 높이기 위해 유료 에셋이 포함되어 있습니다. 리포지토리를 열람하고 싶으시다면 별도의 연락을 부탁드립니다.', {duration: 6000});
@@ -88,6 +88,12 @@ function Embers() {
                                                         </div> */}
                                                         <div className="font-11 fs-6 fw-normal mb-1">개발 초기단계입니다.</div>
                                                         <div className="font-11 fs-6 fw-normal mb-1">최종 업데이트 : <span class="fw-bold">{updatedate}</span></div>
+                                                        <div className='card rounded-4 border-0 mb-5'>
+                                                            <div className="card-image-sec0">
+                                                                <iframe src="https://www.youtube.com/embed/mGaPfvqsqYo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                                            </div>
+                                                        </div>
+                                                        
                                                         {/* <div className="font-11 fs-6 fw-normal mb-3">동영상 최종 업데이트 : <span class="fw-bold">{updatedate2}</span></div> */}
 
                                                         <div className="font-11 fs-2 fw-bold"><b>Dedicated Server</b></div>
@@ -96,11 +102,7 @@ function Embers() {
                                                         <div className="font-11 fs-2 fw-bold"><b>InGame</b></div>
                                                         <img className="mb-2 shadow-lg" src={img2}></img>
                                                         
-                                                        <div className='card rounded-4 border-0 mb-3'>
-                                                            <div className="card-image-sec0">
-                                                                {/* <iframe src="https://www.youtube.com/embed/tEdw3UA3ATE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
-                                                            </div>
-                                                        </div>
+                                                        
                                                         {/*<img className="mb-2 shadow-lg" src={img2}></img>
                                                         <p className="mb-5 font-11">- 메인 로고 화면</p>
                                                         <img className="mb-2 shadow-lg" src={img3}></img>
