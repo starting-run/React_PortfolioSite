@@ -126,7 +126,7 @@ function Nav() {
           </nav>
         </div>
 
-        <div class="offcanvas offcanvas-start bg-white" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas offcanvas-start bg-light" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
           <div class="offcanvas-header">
             <a ref={closeButtonRef} type="button" className="box-click" data-bs-dismiss="offcanvas" aria-label="Close">
               <FontAwesomeIcon icon={faXmark} className='fa-xl text-black align-middle'/><span class="font-11 ps-2 text-black"> 닫기</span>
