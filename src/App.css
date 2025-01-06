@@ -938,6 +938,10 @@
     color: #EF5B2A !important;
     transition: all 0.5s;
   }
+  .navbar-py {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
   .nav-link.active {
     color: #EF5B2A !important;
     transition: all 0.5s;
@@ -1073,6 +1077,11 @@
 
   .progress-container_hor {
     width: 30%;
+  }
+
+  .scroll-navbar-background-none {
+    background-color: rgb(var(--bs-white-rgb));
+    transition: all 0.3s;
   }
 }
 
