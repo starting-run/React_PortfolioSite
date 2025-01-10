@@ -6858,6 +6858,25 @@ textarea.form-control-lg {
   }
 }
 
+.card-cover-maple {
+  z-index: 5;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: var(--bs-white-gray-rgb);
+  border: solid 1px #FF9D00;
+  color: #FF9D00;
+  transition: all 0.3s;
+}
+
+.card-cover-maple:hover {
+  background-color: #FF9D00;
+  transition: all 0.3s;
+  span {
+    color:var(--bs-white);
+  }
+}
+
 .card-cover-mail {
   z-index: 5;
   background-repeat: no-repeat;

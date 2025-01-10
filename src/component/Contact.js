@@ -61,10 +61,10 @@ function Contact() {
                                                             <div className="col">
                                                                 <div className="card card-cover-mail h-100 overflow-hidden rounded-4">
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
-                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faAt}/>　메일</span>
+                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faAt} className='align-middle'/>　메일</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
                                                                             <span className="fs-6 px-2 only-pc-view align-middle">ploris576@kangnam.ac.kr　</span>
-                                                                            <FontAwesomeIcon icon={faCopy}/>
+                                                                            <FontAwesomeIcon icon={faCopy} className='align-middle'/>
                                                                         </span>
                                                                     </div>
                                                                 </div>
@@ -78,10 +78,10 @@ function Contact() {
                                                             <div className="col">
                                                                 <div className="card card-cover-insta h-100 overflow-hidden rounded-4">
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
-                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faInstagram}/>　인스타그램</span>
+                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faInstagram} className='align-middle'/>　인스타그램</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
                                                                             <span className="fs-6 px-2 align-middle">w99hyun　</span>
-                                                                            <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
+                                                                            <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg align-middle'/>
                                                                         </span>
                                                                     </div>
                                                                 </div>
@@ -101,10 +101,10 @@ function Contact() {
                                                             <div className="col">
                                                                 <div className="card card-cover-git h-100 overflow-hidden rounded-4">
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
-                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faGithub}/>　깃허브</span>
+                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faGithub} className='align-middle'/>　깃허브</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
                                                                             <span className="fs-6 px-2 align-middle">starting-run　</span>
-                                                                            <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
+                                                                            <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg align-middle'/>
                                                                         </span>
                                                                     </div>
                                                                 </div>
@@ -118,7 +118,7 @@ function Contact() {
                                                             <div className="col">
                                                                 <div className="card card-cover-blog h-100 overflow-hidden rounded-4">
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
-                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faVimeo}/>　블로그</span>
+                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faVimeo} className='align-middle'/>　블로그</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
                                                                             <span className="fs-6 px-2 align-middle">usfree　</span>
                                                                             <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
@@ -135,7 +135,7 @@ function Contact() {
                                                             <div className="col">
                                                                 <div className="card card-cover-boj h-100 overflow-hidden rounded-4">
                                                                     <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
-                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faCode}/>　백준</span>
+                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faCode} className='align-middle'/>　백준</span>
                                                                         <span className="text-end fs-4 card-in-arrow">
                                                                             <span className="fs-6 px-2 align-middle">tlrmsjtm77　</span>
                                                                             <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg'/>
