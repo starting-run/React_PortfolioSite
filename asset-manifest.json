@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.58fe8e93.css",
-    "main.js": "/static/js/main.20203bfa.js",
+    "main.css": "/static/css/main.fe9e9dd2.css",
+    "main.js": "/static/js/main.67e7710f.js",
     "static/js/27.95f8f53c.chunk.js": "/static/js/27.95f8f53c.chunk.js",
     "static/media/video.mp4": "/static/media/video.7ec6aa7e697bb8ffe73b.mp4",
     "static/media/main_video.mp4": "/static/media/main_video.b7e5fa4b54850c5584ad.mp4",
@@ -45,12 +45,13 @@
     "static/media/logo_text.png": "/static/media/logo_text.e6e8770826d7ed97655c.png",
     "static/media/processing.png": "/static/media/processing.f0dfedac3fb55bf98861.png",
     "static/media/thum.png": "/static/media/thum.667b9c0fb3023cdd3e3b.png",
+    "static/media/maple.ico": "/static/media/maple.ba0cec80769640b71749.ico",
     "index.html": "/index.html",
     "static/media/ic-lightmode-w.svg": "/static/media/ic-lightmode-w.504dfa5b4a45993c3bcbfed806318bcb.svg",
     "static/media/ic-darkmode.svg": "/static/media/ic-darkmode.b6f35a62155fce09e8399ba3dade63d3.svg"
   },
   "entrypoints": [
-    "static/css/main.58fe8e93.css",
-    "static/js/main.20203bfa.js"
+    "static/css/main.fe9e9dd2.css",
+    "static/js/main.67e7710f.js"
   ]
 }
