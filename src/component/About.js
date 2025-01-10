@@ -241,65 +241,6 @@ function About() {
                                     </div>
                                     <div className="col">
                                         <div className="overflow-hidden py-2">
-                                            <div className="text-black font-11 fs-5 fw-bold m-2">Link</div>
-                                            <hr className='text-black hr-w2'/>
-                                            <div className="row row-cols-1 row-cols-xxl-2 p-2 rounded-4 mx-2">
-                                                <div className="col">
-                                                    <a href="https://github.com/starting-run" target='_blank'>
-                                                        <div className="img-fluid mb-3">
-                                                            <div className="col">
-                                                                <div className="card card-cover-git h-100 overflow-hidden rounded-4">
-                                                                    <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
-                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faGithub} className='align-middle'/>　깃허브</span>
-                                                                        <span className="text-end fs-4 card-in-arrow">
-                                                                            <span className="fs-6 px-2 align-middle">starting-run　</span>
-                                                                            <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg align-middle'/>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div className="col">
-                                                    <a href="https://velog.io/@usfree" target='_blank'>
-                                                        <div className="img-fluid mb-3">
-                                                            <div className="col">
-                                                                <div className="card card-cover-blog h-100 overflow-hidden rounded-4">
-                                                                    <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
-                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faVimeo} className='align-middle'/>　블로그</span>
-                                                                        <span className="text-end fs-4 card-in-arrow">
-                                                                            <span className="fs-6 px-2 align-middle">usfree　</span>
-                                                                            <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg align-middle'/>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                                <div className="col">
-                                                    <a href="https://www.acmicpc.net/user/tlrmsjtm77" target='_blank'>
-                                                        <div className="img-fluid mb-3">
-                                                            <div className="col">
-                                                                <div className="card card-cover-boj h-100 overflow-hidden rounded-4">
-                                                                    <div className="d-flex flex-column h-100 p-3 card-overtext px-4">
-                                                                        <span className="fs-6 fw-normal font-11 text-start"><FontAwesomeIcon icon={faCode} className='align-middle'/>　백준</span>
-                                                                        <span className="text-end fs-4 card-in-arrow">
-                                                                            <span className="fs-6 px-2 align-middle">tlrmsjtm77　</span>
-                                                                            <FontAwesomeIcon icon={faCircleArrowUp} className='rot-45deg align-middle'/>
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col">
-                                        <div className="overflow-hidden py-2">
                                             <div className="text-black font-11 fs-5 fw-bold m-2">Entertainment</div>
                                             <hr className='text-black hr-w2'/>
                                             <div className="row row-cols-1 row-cols-xxl-2 p-2 rounded-4 mx-2">
