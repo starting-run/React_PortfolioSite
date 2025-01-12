@@ -22,7 +22,7 @@ import { motion } from 'framer-motion';
 
 
 function Embers() {
-    const updatedate = "2025. 1. 1." //최종 업데이트 일자
+    const updatedate = "2025. 1. 12." //최종 업데이트 일자
     const updatedate2 = "2099. 99. 99." //최종 동영상 업데이트 일자
     const notify = () => toast.error('제작 초기 단계 프로젝트입니다.', {duration: 4000});
     const notify2 = () => toast('완성도를 높이기 위해 유료 에셋이 포함되어 있습니다. 리포지토리를 열람하고 싶으시다면 별도의 연락을 부탁드립니다.', {duration: 6000});
@@ -90,7 +90,7 @@ function Embers() {
                                                         <div className="font-11 fs-6 fw-normal mb-1">최종 업데이트 : <span class="fw-bold">{updatedate}</span></div>
                                                         <div className='card rounded-4 border-0 mb-5'>
                                                             <div className="card-image-sec0">
-                                                                <iframe src="https://www.youtube.com/embed/mGaPfvqsqYo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                                                <iframe src="https://www.youtube.com/embed/yuv6oMLr5EA" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                                             </div>
                                                         </div>
                                                         
